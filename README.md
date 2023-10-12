@@ -10,7 +10,7 @@ Also I work at [tldraw](https://tldraw.com).
 
 ## Contact me
 
-* [Mastodon](https://)
+* [Mastodon](https://mas.to/@TodePond)
 * [Email](mailto:todepond@gmail.com)
 
 > This website is part of the [tadi web](https://tadiweb.com).
