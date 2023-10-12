@@ -13,4 +13,4 @@ Also I work at [tldraw](https://tldraw.com).
 * [Mastodon](https://)
 * [Email](mailto:todepond@gmail.com)
 
-*This website is part of the [tadi web](https://tadiweb.com).*
+> This website is part of the [tadi web](https://tadiweb.com).
