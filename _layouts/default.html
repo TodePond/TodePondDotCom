@@ -1,32 +1,22 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <title>TodePond</title>
-    <style>
-      body {
-        color: white;
-        background-color: rgb(31, 39, 54);
-      }
+<title>TodePond</title>
+<style>
+  body {
+    color: white;
+    background-color: rgb(31, 39, 54);
+  }
     
-      a {
-        color: #46ff80;
-      }
+  a {
+    color: #46ff80;
+  }
     
-      a:hover {
-        color: #4680ff;
-      }
+  a:hover {
+    color: #4680ff;
+  }
       
-      blockquote {
-        color: #9faeee;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body"> 
-      {{ content }}
-    </div>
-  </body>
-</html>
+  blockquote {
+    color: #9faeee;
+  }
+</style>
+  
+{{ content }}
+
