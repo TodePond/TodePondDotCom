@@ -1,6 +1,6 @@
 # TodePond
 
-Hi my name is Lu (or Luke) (either's fine).
+Hi [my name](#) is [Lu (or Luke) (either's fine)](#).
 
 I make [slightly surreal videos](https://youtube.com/@TodePond) about my creative coding projects.
 
