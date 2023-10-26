@@ -7,7 +7,7 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 
 ## Series
 
-- [SandPond Saga](https://www.youtube.com/@TodePond) (34/99)<br>
+- [SandPond Saga](https://www.youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4) (34/99)<br>
 - [TodePond Pondcast](https://www.patreon.com/todepond)
 
 ## Talks
