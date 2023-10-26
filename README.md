@@ -1,4 +1,4 @@
-# TodePond
+# Todepond - place for todes
 
 Hi my name is Lu (or Luke) (either's fine).
 
@@ -17,9 +17,18 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 - [Spatial programming pipe dream](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580) @ London creative coding<br>
 - [Spatial programming pipe dream](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk) @ Future of coding
 
+## Projects
+
+- [Arroost](https://github.com/TodePond/Arroost)
+- [Sandpond](https://github.com/TodePond/SandPond)
+- [Cellpond](https://github.com/TodePond/CellPond)
+- [Dreamberd](https://github.com/TodePond/DreamBerd/)
+- probably some others
+
 ## Appearances
 
-🌥️ [INTERCAL](https://futureofcoding.org/episodes/064) @ Future of coding<br>
+- [INTERCAL](https://futureofcoding.org/episodes/064) @ Future of coding<br>
+- Interview with dreamberd creator @ ThePrimeagen (recording never uploaded, sad times)
 
 ## Job
 
@@ -32,6 +41,7 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 * [Mastodon](https://mas.to/@TodePond)
 * [Email](mailto:todepond@gmail.com)
 
-This site is powered by amphibians. That's why it runs so good.
+<hr>
 
-> This website is part of the [tadi web](https://tadiweb.com).
+This site is powered by amphibians. That's why it runs so good.<br>
+It's also part of the [tadi web](https://tadiweb.com).
