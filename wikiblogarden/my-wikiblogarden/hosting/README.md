@@ -1,6 +1,6 @@
 # My wikiblogarden hosting
 
-When I decided to make a [wiki](wikiblogarden), I started to think about how to host it.
+When I decided to make a [wiki](/wikiblogarden/my-wikiblogarden), I started to think about how to host it.
 
 ## Netlify
 
@@ -12,7 +12,7 @@ Even so, it never feels great to use netlify's bulky system. It doesn't feel gre
 
 My wiki would be special though. I would want it to feel 'free' from any big bulky stuff.
 
-I asked [Devine](wikiblogarden) for advice. "What would you recommend for hosting a wiki?"
+I asked [Devine](/wikiblogarden/my-wikiblogarden) for advice. "What would you recommend for hosting a wiki?"
 
 I was expecting something remarkable. Perhaps a server tower you keep in your room, or a self-sustaining device you send out to sea.
 
@@ -26,4 +26,4 @@ I suppose it comes with a cost. By using it, I become more locked in to the gith
 
 Because of this, I decided to be careful with how I use it. I'd only use a very small and limited subset of the available features. That way, it'll be easy to jump ship and set sail!
 
-*Still, I hope to move elsewhere as soon as possible!* Please let me know if you have any ideas. My contact details are on the [home page](https://TodePond.com).
+*Still, I hope to move elsewhere as soon as possible!* Please let me know if you have any ideas. My contact details are on the [home page](/).
