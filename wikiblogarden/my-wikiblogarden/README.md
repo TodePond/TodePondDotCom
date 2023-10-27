@@ -48,3 +48,7 @@ Anyway, I should stop yapping away. Hopefully you now know what my website is ab
 > WE HAVE ENOUGH
 
 (merge them instead)
+
+<hr>
+
+Continued in [my wikiblogarden hosting](./hosting)...
