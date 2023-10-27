@@ -44,7 +44,7 @@ The merging of ideas has always interested me, and it's how I started my creativ
 
 Anyway, I should stop yapping away. Hopefully you now know what my website is about:
 
-> NO MORE IDEAS.
-> WE HAVE ENOUGH.
+> NO MORE IDEAS<br>
+> WE HAVE ENOUGH
 
 (merge them instead)
