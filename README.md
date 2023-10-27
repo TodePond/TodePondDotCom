@@ -13,7 +13,7 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 ## Writing
 
 - Babe you're reading it.
-- This is my [wikiblogarden](wikiblogarden/my-wikiblogarden).
+- This is [my wikiblogarden](wikiblogarden/my-wikiblogarden).
 
 ## Talks
 
