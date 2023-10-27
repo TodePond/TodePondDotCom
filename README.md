@@ -10,6 +10,11 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 - [Sandpond saga](https://www.youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4) (34/99)<br>
 - [Todepond pondcast](https://www.patreon.com/todepond)
 
+## Writing
+
+- Babe you're reading it.
+- This is my [wikiblogarden](wikiblogarden/my-wikiblogarden).
+
 ## Talks
 
 - [Cellpond: Spatial programming without escape](https://www.youtube.com/watch?v=cBYudbaqHAk&amp;t=6704s) @ LIVE @ SPLASH<br>
