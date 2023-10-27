@@ -1,6 +1,6 @@
 # My wiki / blog / digital garden
 
-Todepond dot com is my wiki or blog or digital garden.
+[Todepond dot com](/) is my wiki or blog or digital garden.
 
 I made it because Devine told me to. Let me explain what happened...
 
@@ -34,7 +34,7 @@ I've also seen it done on a smaller scale. Like on [Elliot Evans](https://elliot
 
 ## Me
 
-As a general theme, [my](https://www.todepond.com/wikiblogarden/my-wikiblogarden) wiki / blog / digital garden is about 'merging things together'. I'm so tired of seeing new ideas pop up. We have enough of them! 
+As a general theme, [my](#) wiki / blog / digital garden is about 'merging things together'. I'm so tired of seeing new ideas pop up. We have enough of them! 
 
 *No more ideas.* (say it with me)
 
