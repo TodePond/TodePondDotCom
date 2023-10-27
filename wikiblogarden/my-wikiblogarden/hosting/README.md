@@ -1,6 +1,6 @@
 # My wikiblogarden hosting
 
-When I decided to make a [wiki](/wikiblogarden/my-wikiblogarden), I started to think about how to host it.
+When I decided to make a [wiki](/wikiblogarden), I started to think about how to host it.
 
 ## Netlify
 
