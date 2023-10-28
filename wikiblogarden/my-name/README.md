@@ -68,7 +68,7 @@ However, over time, 'Lu' grew on me. It was a fun story to tell people. I saw it
 
 When I met new people, I'd tell them my name is 'Luke'. But then they'd get confused when someone else called me 'Lu'. Out of pure practicality and convenience's sake, and nothing more, I started saying that my name is 'Lu or Luke'. As you might imagine, this completely backfired and people got even more confused.
 
-People always asked me "no but, really, which one do you prefer?"
+**People always asked me "no but, really, which one do you prefer?"**
 
 Truthfully, I like both, and I don't have a favourite, so it's hard to pick. I like them both equally. I used to come up with so many different ways to explain this. It felt awkward repeating the same thing again and again.
 
@@ -99,24 +99,24 @@ I don't have a dead name.
 
 ## My name
 
-> Bank: Lu
-> License: Luke
-> Clinic: Lu
-> Doctor: Luke
-> Hospital: Lu
-> Passport: Luke
-> Work: Lu
+> Bank: Lu<br>
+> License: Luke<br>
+> Clinic: Lu<br>
+> Doctor: Luke<br>
+> Hospital: Lu<br>
+> Passport: Luke<br>
+> Work: Lu<br>
 > Landlord: Luke
 >
-> Parents: Luke or Lu
-> Partner: Lu or Luke
+> Parents: Luke or Lu<br>
+> Partner: Lu or Luke<br>
 >
-> Luke: Lu
-> Lu: Luke
-> Lu: Lu
-> Luke: Luke
-> Lu or Luke: Luke or Lu
-> Luke or Lu: Lu or Luke
+> Luke: Lu<br>
+> Lu: Luke<br>
+> Lu: Lu<br>
+> Luke: Luke<br>
+> Lu or Luke: Luke or Lu<br>
+> Luke or Lu: Lu or Luke<br>
 > (either's fine)
 
 <hr>
