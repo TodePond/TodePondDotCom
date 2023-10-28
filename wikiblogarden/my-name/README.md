@@ -87,11 +87,11 @@ I always liked my double-named setup. I wasn't expecting so much resistance. The
 
 It was no surprise to me that some people were against me changing my name at all. The usual hateful suspects.
 
-*They thought they were helping me. They said I should just "be myself" and "accept who I am". None of this "Lu or Luke rubbish". Sometimes they said this behind my back, and sometimes to my face.*
+**They think they're helping me. They say I should just "be myself" and "accept who I am". None of this "Lu or Luke rubbish". Sometimes they say this behind my back, and sometimes to my face.**
 
 It was more surprising to me that many allies and queer friends were against my name too. Even some trans and non-binary people.
 
-*They thought they were helping me. They said I should just "be myself" and "accept who I am". None of this "Lu or Luke rubbish". Sometimes they said this behind my back, and sometimes to my face.*
+**They think they're helping me. They say I should just "be myself" and "accept who I am". None of this "Lu or Luke rubbish". Sometimes they say this behind my back, and sometimes to my face.**
 
 Both groups of people don't believe me. They don't trust me.
 
@@ -118,6 +118,8 @@ I don't have a dead name.
 > Lu or Luke: Luke or Lu<br>
 > Luke or Lu: Lu or Luke<br>
 > (either's fine)
+
+Go watch a [video](https://youtu.be/ZMklf0vUl18) about this topic.
 
 <hr>
 
