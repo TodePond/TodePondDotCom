@@ -46,7 +46,7 @@ Also I like how my initials are "double L, double U".
 
 In the united kingdom, the healthcare system is very bad for trans people.
 
-I'm non-binary. And multiple times in my life, I've tried to get onto the right waiting list for a gender clinic. I wanted to get onto hormones. I've been doing this privately for a long time now, but I'm still trying to do it "by the books" in the background - so that I can stop paying so much money for it one day.
+I'm non-binary. And multiple times in my life, I've tried to get onto the right waiting list for a gender clinic. I wanted to get onto hormones. I've been taking them privately for a long time now, but I'm still trying to do it "by the books" in the background - so that I can stop paying so much money for it one day.
 
 > I've been trying for over a decade to get to an NHS gender clinic.
 
