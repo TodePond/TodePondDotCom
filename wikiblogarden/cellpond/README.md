@@ -17,3 +17,8 @@ I've also made a bunch of things about it! They're listed below.
 - [Cellpond: Spatial programming without escape]() @ SPLASH
 - [Cellpond: The spatial programming pipedream]() @ LDN CC
 - [Cellpond: The spatial programming pipedream]() @ FoC
+
+## Writing
+
+- You're reading it right now.
+- [Cellpond is not robust](./is-mot-robust)
