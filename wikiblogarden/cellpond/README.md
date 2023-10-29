@@ -21,7 +21,7 @@ I've also made a bunch of things about it! They're listed below.
 ## Writing
 
 - You're reading it right now.
-- [Cellpond is not robust](./is-mot-robust)
+- [Cellpond is not robust](./is-not-robust)
 
 <hr>
 
