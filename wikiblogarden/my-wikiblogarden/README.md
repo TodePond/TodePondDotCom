@@ -6,7 +6,7 @@ I made it because Devine told me to. Let me explain what happened...
 
 ## Devine
 
-I was chatting with [Devine](https://wiki.xxiivv.com/site/home.html) on a video call. And I mentioned how they might be interested in learning about Dave Ackley's work on robust-first computing. They asked me if there was a link I could give them to let them learn more.
+I was chatting with [Devine](https://wiki.xxiivv.com/site/home.html) on a video call. And I mentioned how they might be interested in learning about Dave Ackley's work on [robust-first computing](https://www.youtube.com/watch?v=Dmlm6mtnSZs). They asked me if there was a link I could give them to let them learn more.
 
 I realised that I didn't have one link in particular... But in my head, I knew of lots of great things to watch, read, and explore. Unfortunately, it was all hidden away in my head.
 
