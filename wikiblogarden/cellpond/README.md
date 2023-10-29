@@ -8,9 +8,9 @@ I've also made a bunch of things about it! They're listed below.
 
 ## Videos
 
-- [Cells in cells in cells]()
-- [Nothing]()
-- [Spellular automata]()
+- [Cells in cells in cells](https://youtu.be/gv40Z9tVjAI)
+- [Nothing](https://youtu.be/sQYUQNozljo)
+- [Spellular automata](https://youtu.be/xvlsJ3FqNYU)
 
 ## Talks
 
