@@ -26,7 +26,7 @@ And programming language [experiments](https://github.com/TodePond) that nobody 
 
 - [Arroost](https://github.com/TodePond/Arroost)
 - [Screenpond](https://github.com/TodePond/ScreenPond)
-- [Cellpond](https://github.com/TodePond/CellPond)
+- [Cellpond](./wikiblogarden/cellpond)
 - [Sandpond](https://github.com/TodePond/SandPond)
 - [Dreamberd](https://github.com/TodePond/DreamBerd)
 - probably some others
