@@ -22,3 +22,7 @@ I've also made a bunch of things about it! They're listed below.
 
 - You're reading it right now.
 - [Cellpond is not robust](./is-mot-robust)
+
+<hr>
+
+Back to the [gardilog](/wikiblogarden).
