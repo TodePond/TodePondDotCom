@@ -13,7 +13,7 @@ Check back every day for new stuff!
 - [Cellpond](./cellpond)
   - [... is not robust](./cellpond/is-not-robust)
 - [Tadi web](./tadi-web)
-  - [Png](./tadi-web/png)
+  - [... png](./tadi-web/png)
 
 <hr>
 
