@@ -13,7 +13,9 @@ Check back every day for new stuff!
 - [Cellpond](./cellpond)
   - [... is not robust](./cellpond/is-not-robust)
 - [Tadi web](./tadi-web)
-  - [... png](./tadi-web/png)
+  - [Padi](./tadi-web/png)
+- Social media
+  - [Just block them.](./social-media/just-block-them)
 
 <hr>
 
