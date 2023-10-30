@@ -14,7 +14,7 @@ You don't *have* to use hypertadi to be a part of the tadi web. But it might be 
 
 ## Padi
 
-Padi is a file format for pictures. All padi files are also valid [PNG](./png) files.
+[Padi](./padi) is a file format for pictures. All padi files are also valid PNG files.
 
 ## Jumpyscript
 
