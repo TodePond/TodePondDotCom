@@ -37,7 +37,7 @@
 >
 > Think they can change?<br>
 > Learn a better way?<br>
-> If they only heard?<br>
+> If only they heard?<br>
 > What you have to say?
 >
 > *Just block them.<br>
