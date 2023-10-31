@@ -4,18 +4,21 @@ Welcome to my wiki / blog / garden / whatever it is / I don't care / what even i
 
 Check back every day for new stuff!
 
+## Highlights
+
+- [Analytics](./social-media/analytics)
+- [Just block them](./social-media/just-block-them)
+- [My name](./my-name)
+- [Better computing](./better-computing)
+- [My wikiblogarden](./my-wikiblogarden)
+  
 ## New
 
-- [My name](./my-name)
-- [My wikiblogarden](./my-wikiblogarden)
-  - [... hosting](./my-wikiblogarden/hosting)
-- [Better computing](./better-computing)
 - [Cellpond](./cellpond)
-  - [... is not robust](./cellpond/is-not-robust)
+- [Cellpond is not robust](./cellpond/is-not-robust)
 - [Tadi web](./tadi-web)
-  - [Padi](./tadi-web/padi)
-- Social media
-  - [Just block them.](./social-media/just-block-them)
+- [Padi](./tadi-web/padi)
+- [My wikiblogarden hosting](./my-wikiblogarden/hosting)
 
 <hr>
 
