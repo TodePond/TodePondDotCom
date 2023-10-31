@@ -4,7 +4,7 @@ Welcome to my wiki / blog / garden / whatever it is / I don't care / what even i
 
 Check back every day for new stuff!
 
-## Highlights
+## New highlights
 
 - [Analytics](./social-media/analytics)
 - [Just block them](./social-media/just-block-them)
@@ -12,7 +12,7 @@ Check back every day for new stuff!
 - [Better computing](./better-computing)
 - [My wikiblogarden](./my-wikiblogarden)
   
-## New
+## Slightly less new but still new
 
 - [Cellpond](./cellpond)
 - [Cellpond is not robust](./cellpond/is-not-robust)
