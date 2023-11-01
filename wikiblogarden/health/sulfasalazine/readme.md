@@ -91,4 +91,10 @@ For god's sake, do what you need to do vote out the tory government. Don't be to
 
 ---
 
+### Update
+
+I picked up my sulfasalazine! There was only a one hour wait because I got their at opening time. My prescription was listed under "Luke" which confused the computer system. It seemed to work well to say my surname first. I didn't have to do the whole "Lu or Luke" thing. I didn't receive the new system's text-message confirmation even though it was there. I was really hoping that it would help simplify some of the uncertainty. I said hello to the woman who works at the hospital subway. She knows me because I'm there so often and she gave me extra cheese for free. The woman who asked for my name and details was very smiley and patient, and I felt for her with the queue that was rapidly growing behind me. She was putting on a brave face for it.
+
+And tode is still asleep and the video is taking too long.
+
 Back to the [wikiblogarden](/wikiblogarden).
