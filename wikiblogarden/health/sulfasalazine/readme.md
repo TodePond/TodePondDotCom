@@ -53,7 +53,7 @@ I ask them to write a new letter, but they say, "Just come pick it up from the h
 
 Every time I email, I need to re-explain the entire situation. Otherwise, they refuse to prescribe me sulfasalazine from the hospital.
 
-"Why can't you doctor prescribe it to you?"
+"Why can't your doctor prescribe it to you?"
 
 You tell me!
 
