@@ -23,7 +23,7 @@ Normally, it gets prescribed by your local doctor. It's something you can pick u
 
 The only thing to know is: You can't start on your full dose. That would make you really sick (and I've tried). You need to gradually introduce it. A week on one pill, a week on two pills, a week on three, until you get to your full dose. For me, that's four.
 
-If you had to stop for any reason (eg: you catch an infection, or you run out of pills), you have to restart the whole process. During the gradual process, your immune system will start attacking your body again. It'll be hard to walk or run.
+If you have to stop taking it for any reason (eg: you catch an infection, or you run out of pills), you have to restart the whole process. During the gradual process, your immune system will start attacking your body again. It'll be hard to walk or run.
 
 **Stopping is very costly.**
 
