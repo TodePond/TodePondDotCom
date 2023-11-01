@@ -69,7 +69,7 @@ Instead, I have to email ahead, get a long bus ride to the hospital, and wait fo
 
 This year, a new doctor changed my name on the hospital system from "Luke" to "Lu". I didn't ask him to do this. He just did it.
 
-Multiple prescription requests have got lost in the system because they've either put down "Luke" or "Lu", and then nothing appears under my name. 
+Multiple prescription requests have got lost in the system because they've either put down "Luke" or "Lu", and then nothing appears under my name. They don't tell you if something goes wrong - they tell you it's been sent through successfully, even if it hasn't. I guess they don't receive any confirmation in the process.
 
 In the past, I've travelled all the way to the hospital, only to find out that there's nothing to pick up (after queuing for 40 minutes).
 
@@ -77,7 +77,7 @@ The pharmacy has a phone number, but I've never been able to get through to it.
 
 ## Hello from the bus
 
-I'm on the bus to the hospital. I didn't receive the usual text-message-confirmation that my medicine is ready, but the reception assured me that it is.
+I'm on the bus to the hospital. I didn't receive the occasionally-functional text-message-confirmation that my medicine is ready for pickup, but the reception assured me that it is.
 
 I've been off sulfasalazine for two weeks, and my bones ache like hell.
 
@@ -87,7 +87,7 @@ The lying tory government is trying to sell off the NHS bit-by-bit. The people w
 
 The tory government also does everything it can to make life worse for trans people. Tufton street (the cunts that run their campaigns) are behind hate groups like the LGB Alliance. Local doctors are getting scared to treat trans people with *any* medicine, let alone hormones.
 
-For god's sake, do what you need to do vote out the tory government. Don't be too proud to do what you need to do in your constituency. Do it for me, at the very least.
+For god's sake, do what you need to do vote out the tory government. Don't be too proud to vote tactically. Don't waste your vote. Do it for me, at the very least.
 
 ---
 
