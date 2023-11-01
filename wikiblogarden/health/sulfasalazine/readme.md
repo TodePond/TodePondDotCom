@@ -33,7 +33,7 @@ My doctor refuses to prescribe me sulfasalazine. They said that the hospital has
 
 But not with me.
 
-My doctor is very strict with me and my prescriptions. This is because I've periodically asked them to prescribe things like hormones in the past, and they've always refused. They were also very resistant to doing my blood tests, for the hormones I get privately. I have to travel into central London to get them from another NHS clinic. They also refused to administer my triptorelin injections. My partner does them now, who isn't a health professional. It feels unsafe.
+My doctor is very strict with me and my prescriptions. This is because I've periodically asked them to prescribe things like hormones in the past, and they've always refused. They were also very resistant to doing my blood tests, for the hormones I get privately. I have to travel into central London to get them done at another NHS clinic. They also refused to administer my triptorelin injections. My partner does them now, who isn't a health professional. It feels unsafe.
 
 Ever since they refused the injections, they've been really strict with procedures around my medicine. Before that point, there was no issue. They'd prescribe whatever medicine the hospital gently alluded to. What changed?
 
