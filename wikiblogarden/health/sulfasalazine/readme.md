@@ -17,13 +17,13 @@ Sulfasalazine calms down my immune system to stop it freaking out and attacking 
 
 *I've been taking it for a long long time.*
 
-Normally, it gets prescribed by your local doctor. It's something you can pick up on a repeating prescription. It's a pretty boring drug. You just take the pills. It makes your sweat, tears, and wee a bit more yellow. Don't worry! You're not dehydrated, it's just the sulfur.
+Normally, it gets prescribed by your local doctor, under instruction by the hospital. It's something you can pick up on a repeating prescription. It's a pretty boring drug. You just take the pills. It makes your sweat, tears, and wee a bit more yellow. Don't worry! You're not dehydrated, it's just the sulfur.
 
 ## Full dose
 
 The only thing to know is: You can't start on your full dose. That would make you really sick (and I've tried). You need to gradually introduce it. A week on one pill, a week on two pills, a week on three, until you get to your full dose. For me, that's four.
 
-If you have to stop taking it for any reason (eg: you catch an infection, or you run out of pills), you have to restart the whole process. During the gradual process, your immune system will start attacking your body again. It'll be hard to walk or run.
+If you have to stop taking it for any reason (eg: you catch an infection, or you run out of pills), you have to redo the whole process. During the gradual process, your immune system will start attacking your body again. It'll be hard to walk or run.
 
 **Stopping is very costly.**
 
@@ -63,7 +63,7 @@ If your medicine comes from your local doctor, you can use various pharmacy apps
 
 When you start to run out, you just push a button, and you can collect it from your local pharmacy.
 
-Instead, I have to email ahead, get a long bus ride to the hospital, and wait for one and a half hours to pick it up. Oh, and  they're only open during working hours.
+Instead, I have to email ahead, get a long bus ride to the hospital, and wait for one and a half hours to pick it up. And they're only open during working hours.
 
 ## Lu or Luke
 
