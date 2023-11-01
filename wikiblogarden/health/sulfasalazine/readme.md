@@ -63,7 +63,7 @@ If your medicine comes from your local doctor, you can use various pharmacy apps
 
 When you start to run out, you just push a button, and you can collect it from your local pharmacy.
 
-Instead, I have to get a long bus ride to the hospital, and wait for one and a half hours to pick it up.
+Instead, I have to email ahead, get a long bus ride to the hospital, and wait for one and a half hours to pick it up.
 
 ## Lu or Luke
 
