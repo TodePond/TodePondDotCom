@@ -47,7 +47,7 @@ I ask them to write a new letter, but they say, "Just come pick it up from the h
 
 > Maybe they're understaffed, and don't have time to write a new email? Surely it takes longer to manually deal with it?
 
-> Maybe they don't believe me? Do they think I've just not understood how prescriptions from your doctor work?
+> Maybe they don't believe me? Do they think I've just not understood how prescriptions from your doctor work? And they think it's simpler if they prescribe it instead?
 
 ## Email
 
