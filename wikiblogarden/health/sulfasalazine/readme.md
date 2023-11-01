@@ -51,7 +51,7 @@ I ask them to write a new letter, but they say, "Just come pick it up from the h
 
 ## Email
 
-Every time I email, I need to re-explain the entire situation. Otherwise, they refuse to prescribe me sulfasalazine from the hospital.
+Every time I email, I need to re-explain the entire situation, which can take weeks. Otherwise, they refuse to prescribe me sulfasalazine from the hospital.
 
 "Why can't your doctor prescribe it to you?"
 
@@ -63,7 +63,7 @@ If your medicine comes from your local doctor, you can use various pharmacy apps
 
 When you start to run out, you just push a button, and you can collect it from your local pharmacy.
 
-Instead, I have to email ahead, get a long bus ride to the hospital, and wait for one and a half hours to pick it up.
+Instead, I have to email ahead, get a long bus ride to the hospital, and wait for one and a half hours to pick it up. Oh, and  they're only open during working hours.
 
 ## Lu or Luke
 
