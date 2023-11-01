@@ -17,7 +17,7 @@ Sulfasalazine calms down my immune system to stop it freaking out and attacking 
 
 *I've been taking it for a long long time.*
 
-Normally, it gets prescribed by your local doctor. It's something you can pick up on a repeating prescription. It's a pretty boring drug. You just take the pills. It makes your sweat, tears, and wee a bit more yellow. Don't worry! You're not dehydrated, is just the sulfur.
+Normally, it gets prescribed by your local doctor. It's something you can pick up on a repeating prescription. It's a pretty boring drug. You just take the pills. It makes your sweat, tears, and wee a bit more yellow. Don't worry! You're not dehydrated, it's just the sulfur.
 
 ## Full dose
 
