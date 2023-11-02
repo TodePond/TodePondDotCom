@@ -1,6 +1,6 @@
 # The weirdest thing about cellpond
 
-Cellpond splitting+merging is its most flashy+visual 'weird thing' so it's what I show off most. But it's not the weirdest thing about cellpond.
+Cellpond's splitting+merging is its most flashy+visual 'weird thing' so it's what I show off most. But it's not the weirdest thing about cellpond.
 
 ## Conservation & stamping
 
