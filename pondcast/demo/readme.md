@@ -1,4 +1,4 @@
-> This update is intended for [paying supporters](https://patreons.com/TodePond) of my work.<br>
+> This update is intended for [paying supporters](https://patreon.com/TodePond) of my work.<br>
 > I'm experimenting with putting it on my personal site, DRM-free.<br>
 > Please [let me know](/) what you think!
 
