@@ -10,7 +10,7 @@ Hi there, it's me. And this is another weekly episode of the...
 
 What's new this week?
 
-![Arroost](img/1.png)
+![Arroost](1.png)
 
 ## Pitch
 
@@ -20,7 +20,7 @@ One of those is - you can change the pitch of sounds. First, record something wi
 
 You can use this to tweak the sounds in your looping song. But you can also make mini musical instruments. First, record something long and constant, like humming, or whistling. Then, play the recording, and drag the sound up and down to modify its pitch *during* the playback. It sounds something like a slide whistle.
 
-![Arroost](img/2.png)
+![Arroost](2.png)
 
 ## Normalise sharing scrappy fiddles
 
@@ -38,7 +38,7 @@ It's only through certain musical artists, and their tools, that I've learned to
 
 I'm happy to say that Ivan Reese has now [shared a scrappy fiddle](https://elk.zone/mas.to/@spiralganglion@mastodon.social/111308849492455316) from Arroost - less than a week after telling me that he doesn't like sharing scrappy fiddles! Arroost fixed him ;)
 
-![Wikiblogarden](img/1.png)
+![Wikiblogarden](3.png)
 
 ## Wikiblogarden
 
