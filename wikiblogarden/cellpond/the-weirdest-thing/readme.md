@@ -36,7 +36,7 @@ If you run out of players to pick from, the choices get 'refilled' again. The pi
 
 ### User choice
 
-Alternatively, the user could decide what we use at a source. They can stamp two cells (one on each side of the diagram) to show that one should be used as the source for the other.
+Alternatively, the user could decide what we use as a source. They can stamp two cells (one on each side of the diagram) to show that one should be used as the source for the other.
 
 They can also stamp just *one* cell to show that it *isn't* the same as anything else.
 
