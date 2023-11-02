@@ -72,7 +72,7 @@ I explained it all to him. And he basically said (but with more politeness), "I 
 
 It was at *that point* that I knew I had to make cellpond, if only to carry on talking about it with Murilo.
 
-After the video came out, he said "Oh yeah I get it now" (but I think he was just being polite).
+After the [video](https://youtu.be/sQYUQNozljo) came out, he said "Oh yeah I get it now" (but I think he was just being polite).
 
 <br>
 
