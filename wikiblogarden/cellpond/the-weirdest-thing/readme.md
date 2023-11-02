@@ -18,7 +18,7 @@ Just pick a random colour from all possibilities! This is the simplest method.
 
 In some cases, this is what the user wants. But in some cases, it's not.
 
-(And if we're modifying a colour (eg: filling up red), just use what's already there on the grid.)
+(And if we're modifying a colour (eg: filling up red), just use what's already there on the grid as a baseline.)
 
 ### Pattern match
 
