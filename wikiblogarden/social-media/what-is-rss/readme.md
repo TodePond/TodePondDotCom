@@ -1,4 +1,4 @@
-What is RSS?
+What is RSS
 
 ## What is it?
 
