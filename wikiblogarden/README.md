@@ -17,7 +17,7 @@ Check back every day for new stuff!
 - [Better computing](./better-computing)
 - [My wikiblogarden](./my-wikiblogarden)
 
-## Other new things
+## Other highlights
 
 - [Cellpond](./cellpond)
 - [Cellpond is not robust](./cellpond/is-not-robust)
