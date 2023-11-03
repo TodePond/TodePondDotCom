@@ -14,6 +14,6 @@ It's so hard to figure out technology.
 
 ## What's wrong with people?
 
-<hr>
+<br>
 
 Back to the [rss feed](/wikiblogarden).
