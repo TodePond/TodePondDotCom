@@ -39,7 +39,7 @@
 <h1>Todepond feed</h1>
 
 Here's my feed! You can see it here. Or subscribe to the
-<a href="/index.xml">RSS feed</a>.
+<a href="/feed/index.xml">RSS feed</a>.
 
 <noscript
   >This website uses jumpyscript to load the feed. I'm planning to make this
@@ -58,7 +58,7 @@ Here's my feed! You can see it here. Or subscribe to the
 
 <script>
   const getCurrentFeed = async () => {
-    const response = await fetch("/index.xml");
+    const response = await fetch("/feed/index.xml");
     const feed = await response.text();
     const parser = new DOMParser();
     const document = parser.parseFromString(feed, "application/xml");
