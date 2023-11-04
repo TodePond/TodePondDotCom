@@ -1,4 +1,4 @@
-# Analytics
+# Are analytics good?
 
 I get analytics from my youtube channel.
 
