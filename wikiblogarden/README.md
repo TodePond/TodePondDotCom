@@ -8,7 +8,7 @@ Check back every day for new stuff!
 
 - [What is RSS?](./social-media/what-is-rss)
 - [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
-- [Analytics](./social-media/analytics)
+- [Are analytics good?](./social-media/analytics)
 
 ## Highlights
 
