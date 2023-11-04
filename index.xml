@@ -5,9 +5,19 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
     <item>
-      <title>Test</title>
+      <title>Are analytics good?</title>
+      <link>https://www.todepond.com/wikiblogarden/social-media/analytics</link>
+      <description>No.</description>
+    </item>
+    <item>
+      <title>What is RSS?</title>
       <link>https://www.todepond.com/wikiblogarden/social-media/what-is-rss</link>
-      <description>This is a test</description>
+      <description>Nobody knows.</description>
+    </item>
+    <item>
+      <title>My name</title>
+      <link>https://www.todepond.com/wikiblogarden/my-name</link>
+      <description>Why I say "Lu or Luke either's fine"</description>
     </item>
   </channel>
 </rss>
