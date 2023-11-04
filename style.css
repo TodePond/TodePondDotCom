@@ -1,0 +1,78 @@
+body {
+  color: white;
+  background-color: rgb(31, 39, 54);
+  font-family: sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  font-size: 1.1em;
+}
+
+audio {
+  width: 100%;
+}
+
+a {
+  color: #46ff80;
+}
+
+a:hover {
+  color: #4680ff;
+}
+
+blockquote {
+  color: #9faeee;
+  margin: 0px;
+  padding-left: 23px;
+  border-left: 1px #9faeee solid;
+}
+
+hr {
+  border-color: white;
+}
+
+h2 {
+  border-bottom: white 1px solid;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+img {
+  max-width: 100%;
+}
+
+input[type="text"],
+textarea {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #9faeee;
+}
+
+:focus {
+  outline-color: 2px solid #4680ff;
+  border-radius: 0%;
+}
+
+button {
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button.danger {
+  background-color: #ff4346;
+  color: white;
+}
+
+button.primary {
+  background-color: #4680ff;
+  color: white;
+}

@@ -1,0 +1,197 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Feed maker</title>
+<link rel="stylesheet" href="/style.css" />
+<style>
+  .field {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+  }
+
+  #items {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-bottom: 19px;
+  }
+
+  #feed {
+    margin-top: 19px;
+    resize: vertical;
+    height: 200px;
+    white-space: pre;
+    tab-size: 4;
+  }
+
+  .title-input-row {
+    display: flex;
+    flex-direction: row;
+    /* gap: 7px; */
+    align-items: center;
+  }
+
+  .delete-button {
+    flex-shrink: 0;
+  }
+</style>
+
+<h1>Feed maker</h1>
+
+This tool makes an RSS feed for my website. Put the info of each page into the
+form, and then hit the button to make the feed. Then copy-paste it into
+<code>index.xml</code>
+
+<h2></h2>
+<noscript
+  >This website uses jumpyscript to load and edit the feed. I'm planning to make
+  this without needing jumpyscript soon.</noscript
+>
+
+<main id="items"></main>
+
+<template id="item-template">
+  <section class="item-container">
+    <div class="title-input-row">
+      <input placeholder="Title" oninput="makeFeed()" type="text" />
+      <button class="delete-button">Delete item</button>
+    </div>
+    <input placeholder="Description" oninput="makeFeed()" type="text" />
+    <input placeholder="Link" oninput="makeFeed()" type="text" />
+  </section>
+</template>
+
+<button onclick="addItem()">Add item</button>
+
+<textarea oninput="renderItemsFromFeed()" id="feed"></textarea>
+
+<button onclick="copyFeed()">Copy feed</button>
+<button onclick="goToRepo()">Go to repo</button>
+
+<script>
+  const getCurrentFeed = async () => {
+    const response = await fetch("/index.xml");
+    const feed = await response.text();
+    const parser = new DOMParser();
+    const document = parser.parseFromString(feed, "application/xml");
+    return document;
+  };
+
+  const parseItems = (document) => {
+    const items = document.querySelectorAll("item");
+    const parsedItems = Array.from(items).map((item) => {
+      const title = item.querySelector("title").textContent;
+      const link = item.querySelector("link").textContent;
+      const description = item.querySelector("description").textContent;
+      return { title, link, description };
+    });
+    return parsedItems;
+  };
+
+  const main = async () => {
+    const currentFeed = await getCurrentFeed();
+    const currentItems = parseItems(currentFeed);
+    renderItems(currentItems);
+    makeFeed();
+  };
+
+  const renderItems = (items) => {
+    const itemsDiv = document.getElementById("items");
+    itemsDiv.innerHTML = "";
+
+    items.forEach((item, i) => {
+      const itemElement = addItem();
+
+      const [titleInput, descriptionInput, linkInput] =
+        itemElement.querySelectorAll("input[type=text]");
+
+      titleInput.value = item.title;
+      linkInput.value = item.link;
+      descriptionInput.value = item.description;
+    });
+
+    makeFeed();
+  };
+
+  const renderItemsFromFeed = () => {
+    const feed = document.getElementById("feed").value;
+    const parser = new DOMParser();
+    const _document = parser.parseFromString(feed, "application/xml");
+    const items = parseItems(_document);
+    renderItems(items);
+  };
+
+  const generateFeed = () => {
+    const items = document.querySelectorAll("#items section");
+    const parsedItems = Array.from(items).map((item) => {
+      const [titleInput, descriptionInput, linkInput] =
+        item.querySelectorAll("input[type=text]");
+
+      const title = titleInput.value;
+      const description = descriptionInput.value;
+      const link = linkInput.value;
+      return { title, description, link };
+    });
+
+    const feedItems = parsedItems
+      .map(
+        (item) => `		<item>
+			<title>${item.title}</title>
+			<link>${item.link}</link>
+			<description>${item.description}</description>
+		</item>`
+      )
+      .join("\n");
+
+    const feed = `<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Todepond dot com</title>
+		<link>http://www.todepond.com/</link>
+		<description>place for todes - ribbits aplenty</description>
+${feedItems}
+	</channel>
+</rss>`;
+
+    return feed;
+  };
+
+  const makeFeed = () => {
+    const generatedFeed = generateFeed();
+    const feed = document.getElementById("feed");
+    feed.value = generatedFeed;
+  };
+
+  const addItem = () => {
+    const itemForm = document
+      .querySelector("#item-template")
+      .content.cloneNode(true);
+
+    const itemsDiv = document.getElementById("items");
+    const section = itemForm.querySelector(".item-container");
+
+    const deleteButton = section.querySelector(".delete-button");
+    deleteButton.onclick = () => {
+      section.remove();
+      makeFeed();
+    };
+
+    itemsDiv.append(itemForm);
+    return section;
+  };
+
+  const copyFeed = () => {
+    const feed = document.getElementById("feed");
+    feed.select();
+    feed.setSelectionRange(0, 99999999);
+    document.execCommand("copy");
+  };
+
+  const goToRepo = () => {
+    window.location.replace(
+      "https://github.com/TodePond/TodePondDotCom/edit/main/index.xml"
+    );
+  };
+
+  main();
+</script>

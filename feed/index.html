@@ -1,0 +1,109 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Todepond feed</title>
+<link rel="stylesheet" href="/style.css" />
+<style>
+  .field {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+  }
+
+  #items {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-bottom: 19px;
+  }
+
+  #feed {
+    margin-top: 19px;
+    resize: vertical;
+    height: 200px;
+    white-space: pre;
+    tab-size: 4;
+  }
+
+  .title-input-row {
+    display: flex;
+    flex-direction: row;
+    /* gap: 7px; */
+    align-items: center;
+  }
+
+  .delete-button {
+    flex-shrink: 0;
+  }
+</style>
+
+<h1>Todepond feed</h1>
+
+Here's my feed! You can see it here. Or subscribe to the
+<a href="/index.xml">RSS feed</a>.
+
+<noscript
+  >This website uses jumpyscript to load the feed. I'm planning to make this
+  without needing jumpyscript soon.</noscript
+>
+
+<main id="items"></main>
+
+<template id="item-template">
+  <section class="item-container">
+    <h2 class="title">Title</h2>
+    <p class="description">Description</p>
+    <a class="link" href="#">Link</a>
+  </section>
+</template>
+
+<script>
+  const getCurrentFeed = async () => {
+    const response = await fetch("/index.xml");
+    const feed = await response.text();
+    const parser = new DOMParser();
+    const document = parser.parseFromString(feed, "application/xml");
+    return document;
+  };
+
+  const parseItems = (document) => {
+    const items = document.querySelectorAll("item");
+    const parsedItems = Array.from(items).map((item) => {
+      const title = item.querySelector("title").textContent;
+      const link = item.querySelector("link").textContent;
+      const description = item.querySelector("description").textContent;
+      return { title, link, description };
+    });
+    return parsedItems;
+  };
+
+  const main = async () => {
+    const currentFeed = await getCurrentFeed();
+    const currentItems = parseItems(currentFeed);
+    renderItems(currentItems.reverse());
+  };
+
+  const renderItems = (items) => {
+    const itemsDiv = document.getElementById("items");
+    itemsDiv.innerHTML = "";
+
+    items.forEach((item, i) => {
+      const itemSection = document
+        .getElementById("item-template")
+        .content.firstElementChild.cloneNode(true);
+
+      const title = itemSection.querySelector(".title");
+      title.textContent = item.title;
+
+      const description = itemSection.querySelector(".description");
+      description.textContent = item.description;
+
+      const link = itemSection.querySelector(".link");
+      link.textContent = item.link;
+      link.href = item.link;
+
+      itemsDiv.appendChild(itemSection);
+    });
+  };
+
+  main();
+</script>
