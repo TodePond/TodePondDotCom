@@ -70,7 +70,7 @@ form, and then hit the button to make the feed. Then copy-paste it into
 
 <script>
   const getCurrentFeed = async () => {
-    const response = await fetch("/index.xml");
+    const response = await fetch("/feed/index.xml");
     const feed = await response.text();
     const parser = new DOMParser();
     const document = parser.parseFromString(feed, "application/xml");
