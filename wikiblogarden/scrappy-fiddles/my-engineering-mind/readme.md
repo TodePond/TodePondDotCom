@@ -22,11 +22,11 @@ A book of poems about normalising sharing scrappy fiddles.
 > I hear your voice<br>
 > add some<br>
 > vibrato
-
+>
 > Which makes the vocal<br>
 > part more<br>
 > interesting
-
+>
 > And that addition<br>
 > of vibrato<br>
 > didn’t use arroost
@@ -60,14 +60,14 @@ A book of poems about normalising sharing scrappy fiddles.
 > et cetera<br>
 > needs to create<br>
 > tension
-
+>
 > Then maybe<br>
 > to resolve the tension
-
+>
 > Like playing a<br>
 > dee sus four chord<br>
 > followed by a dee chord 
-
+>
 > You can create tension<br>
 > on<br>
 > many<br>
@@ -80,7 +80,7 @@ A book of poems about normalising sharing scrappy fiddles.
 > line lengths, numbers of bars, rhyming<br>
 > et cetera<br>
 > et cetera<br>
-
+>
 > A great song<br>
 > a great work of art<br>
 > creates tension and release<br>
@@ -92,13 +92,13 @@ A book of poems about normalising sharing scrappy fiddles.
 
 > You can<br>
 > keep coming back to it
-
+>
 > and hear<br>
 > new things every time
-
+>
 > Not just<br>
 > in repeated listens
-
+>
 > but on<br>
 > a time-scale of decades
 
@@ -120,21 +120,21 @@ A book of poems about normalising sharing scrappy fiddles.
 > that can be gleaned<br>
 > by repeated study<br>
 > eye ee layered
-
+>
 > Average art is either<br>
 > simple or nuanced<br>
 > but not both
-
+>
 > Flat not layered
 
 ## Imply imbalance
 
 > From a lyric perspective
-
+>
 > Perfect rhymes<br>
 > imply perfect balance<br>
 > closure and “happiness
-
+>
 > Imperfect rhymes<br>
 > imply imbalance<br>
 > and
@@ -150,11 +150,11 @@ A book of poems about normalising sharing scrappy fiddles.
 
 > For perfect rhymes<br>
 > I use rhyme zone dot com
-
+>
 > For imperfect rhymes<br>
 > I use bee rhymes dot com<br>
 > My goto is bee rhymes dot com
-
+>
 > It gives me 100 possibilities<br>
 > and causes my mind to wander<br>
 > brainstorming
@@ -164,7 +164,7 @@ A book of poems about normalising sharing scrappy fiddles.
 > The music that you’ve<br>
 > created with arroost<br>
 > is unstable
-
+>
 > and eye em oh<br>
 > perfect rhymes don’t fit in with that<br>
 > theme
@@ -174,22 +174,22 @@ A book of poems about normalising sharing scrappy fiddles.
 > I always loved<br>
 > McCartney’s song<br>
 > “Yesterday”
-
+>
 > I tried for decades<br>
 > but could never play it<br>
 > and sing it
-
+>
 > Then someone<br>
 > Pat Pattison<br>
 > pointed out to me<br>
 > that the verse has only 7 bars<br>
 > not 8
-
+>
 > My Engineering mind<br>
 > tried to force<br>
 > singing the song<br>
 > as if it had 8 bars
-
+>
 > 7 bars makes the song sound sadder<br>
 > and prevents Engineers<br>
 > like me<br>
