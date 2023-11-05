@@ -34,6 +34,10 @@
   .delete-button {
     flex-shrink: 0;
   }
+
+  .pub-date {
+    color: #9faeee;
+  }
 </style>
 
 <h1>Todepond feed</h1>
@@ -51,6 +55,7 @@ Here's my feed! You can see it here. Or subscribe to the
 <template id="item-template">
   <section class="item-container">
     <h2 class="title">Title</h2>
+    <p class="pub-date">Date</p>
     <p class="description">Description</p>
     <a class="link" href="#">Link</a>
   </section>
@@ -71,7 +76,8 @@ Here's my feed! You can see it here. Or subscribe to the
       const title = item.querySelector("title").textContent;
       const link = item.querySelector("link").textContent;
       const description = item.querySelector("description").textContent;
-      return { title, link, description };
+      const pubDate = item.querySelector("pubDate").textContent;
+      return { title, link, description, pubDate };
     });
     return parsedItems;
   };
@@ -100,6 +106,14 @@ Here's my feed! You can see it here. Or subscribe to the
       const link = itemSection.querySelector(".link");
       link.textContent = item.link;
       link.href = item.link;
+
+      const pubDate = itemSection.querySelector(".pub-date");
+      const date = new Date(item.pubDate);
+      pubDate.textContent = date.toLocaleDateString("en-GB", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
 
       itemsDiv.appendChild(itemSection);
     });
