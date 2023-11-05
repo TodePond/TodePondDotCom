@@ -33,17 +33,17 @@ A book of poems about normalising sharing scrappy fiddles.
 
 ## Just about everything
 
-> Your vocals remind me<br>
-> of David Sylvian’s voice<br>
-> on “God’s monkey”<br>
-> and just about everything<br>
-> on “The first day”
+> Your vocals remind me of<br>
+> David Sylvian’s voice on<br>
+> God’s monkey and<br>
+> just about everything on<br>
+> The first day
 
-## Perfect!
+## Perfect
 
 > I hear perfect rhymes<br>
-> “down”<br>
-> and “clown”<br>
+> down<br>
+> and clown<br>
 > yawn
 
 ## Eff why eye
@@ -93,24 +93,24 @@ A book of poems about normalising sharing scrappy fiddles.
 > You can<br>
 > keep coming back to it
 >
-> and hear<br>
-> new things every time
+> Hear new<br>
+> things every time
 >
 > Not just<br>
 > in repeated listens
 >
-> but on<br>
+> But on<br>
 > a time-scale of decades
 
 ## Lack of nuance
 
 > Simplicity is<br>
-> “lack of nuance”
+> lack of nuance
 
 ## Lack of nuance, part two
 
 > Hence complexity<br>
-> “contains nuance”
+> contains nuance
 
 ## Average art
 
@@ -133,7 +133,7 @@ A book of poems about normalising sharing scrappy fiddles.
 >
 > Perfect rhymes<br>
 > imply perfect balance<br>
-> closure and “happiness
+> closure and happiness
 >
 > Imperfect rhymes<br>
 > imply imbalance<br>
@@ -161,8 +161,8 @@ A book of poems about normalising sharing scrappy fiddles.
 
 ## That theme
 
-> The music that you’ve<br>
-> created with arroost<br>
+> The music that you’ve created<br>
+> with arroost<br>
 > is unstable
 >
 > and eye em oh<br>
