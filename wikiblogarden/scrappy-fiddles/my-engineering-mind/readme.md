@@ -188,7 +188,7 @@ A book of poems about normalising sharing scrappy fiddles.
 > My Engineering mind<br>
 > tried to force<br>
 > singing the song<br>
-> as if it had 8 bars
+> as if it had eight bars
 >
 > Seven bars makes the song sound sadder<br>
 > and prevents Engineers<br>
