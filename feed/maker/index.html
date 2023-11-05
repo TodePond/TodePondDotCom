@@ -58,6 +58,7 @@ form, and then hit the button to make the feed. Then copy-paste it into
     </div>
     <input placeholder="Description" oninput="makeFeed()" type="text" />
     <input placeholder="Link" oninput="makeFeed()" type="text" />
+    <input type="datetime-local" oninput="makeFeed()" />
   </section>
 </template>
 
@@ -83,7 +84,8 @@ form, and then hit the button to make the feed. Then copy-paste it into
       const title = item.querySelector("title").textContent;
       const link = item.querySelector("link").textContent;
       const description = item.querySelector("description").textContent;
-      return { title, link, description };
+      const pubDate = item.querySelector("pubDate")?.textContent;
+      return { title, link, description, pubDate };
     });
     return parsedItems;
   };
@@ -102,12 +104,13 @@ form, and then hit the button to make the feed. Then copy-paste it into
     items.forEach((item, i) => {
       const itemElement = addItem();
 
-      const [titleInput, descriptionInput, linkInput] =
-        itemElement.querySelectorAll("input[type=text]");
+      const [titleInput, descriptionInput, linkInput, dateInput] =
+        itemElement.querySelectorAll("input");
 
       titleInput.value = item.title;
       linkInput.value = item.link;
       descriptionInput.value = item.description;
+      dateInput.value = convertDateToDateInputFormat(new Date(item.pubDate));
     });
 
     makeFeed();
@@ -124,33 +127,36 @@ form, and then hit the button to make the feed. Then copy-paste it into
   const generateFeed = () => {
     const items = document.querySelectorAll("#items section");
     const parsedItems = Array.from(items).map((item) => {
-      const [titleInput, descriptionInput, linkInput] =
-        item.querySelectorAll("input[type=text]");
+      const [titleInput, descriptionInput, linkInput, dateInput] =
+        item.querySelectorAll("input");
 
       const title = titleInput.value;
       const description = descriptionInput.value;
       const link = linkInput.value;
-      return { title, description, link };
+      const pubDate = new Date(dateInput.value);
+      return { title, description, link, pubDate };
     });
 
     const feedItems = parsedItems
       .map(
         (item) => `		<item>
-			<title>${item.title}</title>
-			<link>${item.link}</link>
-			<description>${item.description}</description>
-		</item>`
+  			<title>${item.title}</title>
+  			<pubDate>${convertDateToPubDateFormat(item.pubDate)}</pubDate>
+  			<link>${item.link}</link>
+  			<guid>${item.link}</guid>
+  			<description>${item.description}</description>
+  		</item>`
       )
       .join("\n");
 
     const feed = `<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-	<channel>
-		<title>Todepond dot com</title>
-		<link>http://www.todepond.com/</link>
-		<description>place for todes - ribbits aplenty</description>
+  <channel>
+    <title>Todepond dot com</title>
+    <link>http://www.todepond.com/</link>
+    <description>place for todes - ribbits aplenty</description>
 ${feedItems}
-	</channel>
+  </channel>
 </rss>`;
 
     return feed;
@@ -176,6 +182,10 @@ ${feedItems}
       makeFeed();
     };
 
+    const dateInput = section.querySelector("input[type=datetime-local]");
+    const dateValue = convertDateToDateInputFormat(new Date());
+    dateInput.value = dateValue;
+
     itemsDiv.append(itemForm);
     return section;
   };
@@ -192,6 +202,21 @@ ${feedItems}
       "https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml"
     );
   };
+
+  const convertDateToDateInputFormat = (date) => {
+    const year = date.getFullYear();
+    const month = (date.getMonth() + 1).toString().padStart(2, "0");
+    const day = date.getDate().toString().padStart(2, "0");
+    const hours = date.getHours().toString().padStart(2, "0");
+    const minutes = date.getMinutes().toString().padStart(2, "0");
+    return `${year}-${month}-${day}T${hours}:${minutes}`;
+  };
+
+  const convertDateToPubDateFormat = (date) => {
+    return date.toUTCString();
+  };
+
+  function buildRFC822Date(dateString) {}
 
   main();
 </script>
