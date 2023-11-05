@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <rss version="2.0">
-  	<channel>
-  		<title>Todepond dot com</title>
-  		<link>http://www.todepond.com/</link>
-  		<description>place for todes - ribbits aplenty</description>
-  		<item>
+<rss version="2.0">
+  <channel>
+    <title>Todepond dot com</title>
+    <link>http://www.todepond.com/</link>
+    <description>place for todes - ribbits aplenty</description>
+		<item>
   			<title>My wikiblogarden</title>
   			<pubDate>Sat, 04 Nov 2023 20:55:00 GMT</pubDate>
   			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden</link>
@@ -81,5 +81,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/social-media/analytics/</guid>
   			<description>I get analytics from my youtube channel.</description>
   		</item>
-  	</channel>
-  </rss>
+		<item>
+  			<title>Test post</title>
+  			<pubDate>Sun, 05 Nov 2023 21:17:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/what-is-rss/test</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/what-is-rss/test</guid>
+  			<description>This is a test!</description>
+  		</item>
+  </channel>
+</rss>
