@@ -127,7 +127,7 @@ A book of poems about normalising sharing scrappy fiddles.
 
 > Flat not layered
 
-## And
+## Imply imbalance
 
 > From a lyric perspective
 
