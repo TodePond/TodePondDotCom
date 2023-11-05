@@ -20,12 +20,10 @@ A book of poems about normalising sharing scrappy fiddles.
 ## Didn't use arroost
 
 > I hear your voice<br>
-> add some<br>
-> vibrato
+> add some vibrato
 >
-> Which makes the vocal<br>
-> part more<br>
-> interesting
+> Which makes the vocal part<br>
+> more interesting
 >
 > And that addition<br>
 > of vibrato<br>
@@ -90,17 +88,10 @@ A book of poems about normalising sharing scrappy fiddles.
 
 ## Hidden things
 
-> You can<br>
-> keep coming back to it
->
-> Hear new<br>
-> things every time
->
-> Not just<br>
-> in repeated listens
->
-> But on<br>
-> a time-scale of decades
+> You can keep coming back to it
+> Hear new things every time
+> Not just in repeated listens
+> But on a time-scale of decades
 
 ## Lack of nuance
 
@@ -165,7 +156,7 @@ A book of poems about normalising sharing scrappy fiddles.
 > with arroost<br>
 > is unstable
 >
-> and eye em oh<br>
+> And eye em oh<br>
 > perfect rhymes don’t fit in with that<br>
 > theme
 
@@ -173,7 +164,7 @@ A book of poems about normalising sharing scrappy fiddles.
 
 > I always loved<br>
 > McCartney’s song<br>
-> “Yesterday”
+> Yesterday
 >
 > I tried for decades<br>
 > but could never play it<br>
