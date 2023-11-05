@@ -88,9 +88,9 @@ A book of poems about normalising sharing scrappy fiddles.
 
 ## Hidden things
 
-> You can keep coming back to it
-> Hear new things every time
-> Not just in repeated listens
+> You can keep coming back to it<br>
+> Hear new things every time<br>
+> Not just in repeated listens<br>
 > But on a time-scale of decades
 
 ## Lack of nuance
