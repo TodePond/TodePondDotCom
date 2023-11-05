@@ -85,7 +85,13 @@ Here's my feed! You can see it here. Or subscribe to the
   const main = async () => {
     const currentFeed = await getCurrentFeed();
     const currentItems = parseItems(currentFeed);
-    renderItems(currentItems.reverse());
+    renderItems(
+      currentItems.sort((a, b) => {
+        const aDate = new Date(a.pubDate);
+        const bDate = new Date(b.pubDate);
+        return bDate - aDate;
+      })
+    );
   };
 
   const renderItems = (items) => {
