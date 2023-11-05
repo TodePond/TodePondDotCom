@@ -182,15 +182,15 @@ A book of poems about normalising sharing scrappy fiddles.
 > Then someone<br>
 > Pat Pattison<br>
 > pointed out to me<br>
-> that the verse has only 7 bars<br>
-> not 8
+> that the verse has only seven bars<br>
+> not eight 
 >
 > My Engineering mind<br>
 > tried to force<br>
 > singing the song<br>
 > as if it had 8 bars
 >
-> 7 bars makes the song sound sadder<br>
+> Seven bars makes the song sound sadder<br>
 > and prevents Engineers<br>
 > like me<br>
 > from cloning it
