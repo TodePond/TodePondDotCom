@@ -15,7 +15,7 @@ It's a *feed*, kind of like how twitter or facebook or [mastodon](https://elk.zo
 
 > Well, it's more like [a blog](/wikiblogarden/my-wikiblogarden) really.
 
-You craft your feed by subscribing to other feeds (?). You can see them all in [a feed-reader](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play). But if that's too weird for you, you can also just [read them online](https://nonnullish.pages.dev/feed.xml). Most people style them so they look nice - just like normal websites.
+You craft your feed by subscribing to other feeds (?). You can see them all in [a feed-reader](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play). But if that's too weird for you, you can also just [read them online](/feed). Most people style them so they look nice - just like normal websites. I don't do that yet, I just generate some [Hypertadi](/wikiblogarden/tadi-web) with a leftover script I had.
 
 ## What is a memex?
 
