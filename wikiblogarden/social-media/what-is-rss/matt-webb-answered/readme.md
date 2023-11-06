@@ -9,7 +9,7 @@ I had some unanswered questions.
 
 ## RSS
 
-[RSS](/wikiblogarden) stands for Really Simple Something, which is a lie. As Matt says on [his website](https://aboutfeeds.com/why), it can be complicated.
+[RSS](/wikiblogarden/social-media/what-is-rss) stands for Really Simple Something, which is a lie. As Matt says on [his website](https://aboutfeeds.com/why), it can be complicated.
 
 It's a *feed*, kind of like how twitter or facebook or [mastodon](https://elk.zone/mas.to/@TodePond) is a feed. Except... this feed is owned by **you**. It's a sliding scale for sure. But RSS is at the end.
 
