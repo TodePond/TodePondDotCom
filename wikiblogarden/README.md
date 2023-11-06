@@ -6,7 +6,7 @@ Check back every day for new stuff!
 
 ## New things
 
-- [What is RSS?](./social-media/what-is-rss)
+- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
 - [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
 - [Are analytics good?](./social-media/analytics)
 
@@ -25,6 +25,7 @@ Check back every day for new stuff!
 - [Padi](./tadi-web/padi)
 - [My wikiblogarden hosting](./my-wikiblogarden/hosting)
 - [Sulfasalazine](./health/sulfasalazine)
+- [What is RSS?](./social-media/what-is-rss)
 
 <hr>
 
