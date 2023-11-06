@@ -31,9 +31,11 @@ Here are some ideas I have for good analytics.
 - Ask your paying supporters to put your videos in a [tier list](https://tiermaker.com/create/sandpond-saga-episodes-16352180).
 
 ![Tier list](1.png)
+<hr>
 ![Tier list](2.png)
+<hr>
 ![Tier list](3.png)
-
+<hr>
 Tell me what you think! My contact details are on [todepond dot com](/).
 
 <br>
