@@ -30,6 +30,7 @@ Here are some ideas I have for good analytics.
 - Raise money for charity and notice which social media platforms donate the most.
 - Ask your paying supporters to put your videos in a [tier list](https://tiermaker.com/create/sandpond-saga-episodes-16352180).
 
+<hr>
 ![Tier list](1.png)
 <hr>
 ![Tier list](2.png)
