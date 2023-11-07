@@ -1,4 +1,6 @@
-<audio src="1.m4a"></audio>
+<audio controls>
+  <source src="1.m4a" type="audio/x-m4a">
+</audio>
 
 # Never stop writing
 
@@ -54,6 +56,10 @@
 > Let the people see<br>
 > Inside instead.
 
+<hr>
+
+> Also, did the audio player appear at the top of the screen for you? Let me know! Details on [todepond dot com](/). 
+
 <br>
 
-Bank to the [neverblog](/wikiblogarden).
+Back to the [neverblog](/wikiblogarden).
