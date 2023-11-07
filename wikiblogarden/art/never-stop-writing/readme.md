@@ -58,7 +58,7 @@
 
 <hr>
 
-> Also, did the audio player appear at the top of the screen for you? Let me know! Details on [todepond dot com](/). 
+Also, did the audio player appear at the top of the screen for you? Let me know! Details on [todepond dot com](/). 
 
 <br>
 
