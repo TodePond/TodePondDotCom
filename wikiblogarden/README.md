@@ -6,6 +6,7 @@ Check back every day for new stuff!
 
 ## New things
 
+- [Never stop writing](art/never-stop-writing)
 - [Good and bad analytics](./social-media/analytics/good-and-bad)
 - [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
 - [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
