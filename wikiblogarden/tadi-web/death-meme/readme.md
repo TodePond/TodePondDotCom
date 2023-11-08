@@ -1,6 +1,10 @@
 # The death of tadi web: How to make a meme
 
-One month ago, the tadi web was born. Today it dies. Let's talk about memes.
+One month ago, the tadi web was born. 
+
+Today it died.
+
+Let's talk about memes.
 
 ## Bridging
 
