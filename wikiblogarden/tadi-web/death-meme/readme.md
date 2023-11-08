@@ -1,4 +1,4 @@
-# The death of tadi web: How to make a meme
+# The death of the tadi web: How to make a meme
 
 One month ago, the tadi web was born. 
 
