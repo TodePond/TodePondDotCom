@@ -40,18 +40,6 @@ If an idea is sticky, then people can be convinced by it.
 > 
 > You only need to hear it once. And then, bam - it's stuck.
 
-### Simple without sticky
-
-If an idea is simple but not sticky... It'll be easy to explain, but hard to land. You'll need work hard to persuade people. And you'll end up repeating yourself a lot. You'll end up repeating yourself a lot.
-
-### Sticky without simply
-
-If an idea is sticky but not simple... It'll be easy to persuade people, but they might not fully understand it. And they won't be able to persuade other people on your behalf.
-
-The message will get lost in translation, with lots of different interpretations of your idea.
-
-> What *is* [local-first](/wikiblogarden/better-computing) anyway?
-
 ## Death
 
 By sharing my tadi web idea with people, I learned a lot about its strengths and weaknesses.
