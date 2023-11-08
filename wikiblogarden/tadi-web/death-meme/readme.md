@@ -10,7 +10,7 @@ Let's talk about memes.
 
 My main goal behind the tadi web was to serve as a bridge between various communities.
 
-I wanted to introduce the different camps of [better computing](/wikiblogarden/better-computing) to each other, that often like to work in isolation - thinking that their solution is the "one true way".
+I wanted to introduce the different camps of [better computing](/wikiblogarden/better-computing) to each other, that often like to work in isolation - thinking their solution is the "one true way".
 
 I also wanted to serve as an entry point for people from the [worse computing](/wikiblogarden/better-computing/worse-computing) world. Think of the tadi web as a halfway-house to being fully 'better-computing-pilled'.
 
