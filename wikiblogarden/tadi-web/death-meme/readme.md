@@ -66,8 +66,8 @@ Fortunately, the tadi web is very [slippy](https://tadiweb.com). It's nimble eno
 
 Each time the tadi web gets re-formed, it becomes a better bridge.
 
-Wishing you resilience in every part of your life,
-All the best,
+Wishing you resilience in every part of your life,<br>
+All the best,<br>
 Lu x
 
 
