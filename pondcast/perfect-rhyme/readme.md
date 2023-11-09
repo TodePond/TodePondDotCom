@@ -142,5 +142,5 @@ I was also a guest on a podcast this week! I think the episode will get released
 
 There's a lot going on. From the bottom of my heart, thank you for funding it all, and supporting my projects. And welcome to all the new people this week! You've joined a dedicated group of heroes. Until next time... I hope you have a great week 🐸
 
-_Days since tode fell asleep: 308_
+_Days since tode fell asleep: 308_<br>
 _Days since bot went missing: 273_
