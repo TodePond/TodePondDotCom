@@ -116,5 +116,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/death-meme/</guid>
   			<description>One month ago, the tadi web was born. Today it died. Let’s talk about memes.</description>
   		</item>
+		<item>
+  			<title>Rubbish hosting options</title>
+  			<pubDate>Thu, 09 Nov 2023 23:52:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/rubbish-options/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/rubbish-options/</guid>
+  			<description>My website is hosted on github pages. I don’t like it.</description>
+  		</item>
   </channel>
 </rss>
