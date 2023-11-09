@@ -68,8 +68,8 @@ Also this week, I improved the interaction for 'connecting cells together' in ar
 
 Previously, you had to:
 
-Step 1. Create a cell.
-Step 2. Create another cell.
+Step 1. Create a cell.<br>
+Step 2. Create another cell.<br>
 Step 3. Connect them together.
 
 It took an annoyingly long time! And if you 'missed' the cell while connecting (by accidentally clicking on the background)... it canceled the connection. You had to do it all over again.
