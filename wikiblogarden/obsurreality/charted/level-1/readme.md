@@ -1,5 +1,5 @@
 # LEVEL OBSURREALITY 1
-## "Science"
+## "SCIENCE"
 
 > A gifted sort<br>
 > with eyes precise<br>
