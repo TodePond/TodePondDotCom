@@ -1,6 +1,6 @@
 # The death of the tadi web: How to make a meme
 
-One month ago, the tadi web was born. 
+One month ago, the [tadi web](/wikiblogarden/tadi-web) was born. 
 
 Today it died.
 
