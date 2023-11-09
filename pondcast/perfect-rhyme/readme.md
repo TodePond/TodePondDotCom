@@ -5,7 +5,7 @@
 # TODEPOND PONDCAST: Perfect rhyme
 
 <audio controls>
-  <source src="1.m4a" type="audio/x-m4a">
+  <source src="1.mp4" type="audio/mp4">
 </audio>
 
 Would you look at the time. It's time for the weekly...
