@@ -62,7 +62,7 @@ Wishing you resilience in every part of your life,<br>
 All the best,<br>
 Lu x
 
-![tadi web standing over tadi web's grave meme](1.png)
+![tadi web standing over tadi web's grave meme](Img_2023_11_09_06_46_20.png)
 
 <br>
 
