@@ -1,6 +1,6 @@
 # The death of the tadi web: How to make a meme
 
-One month ago, the [tadi web](/wikiblogarden/tadi-web) was born. 
+One month ago, the [tadi web](/wikiblogarden/tadi-web) was born.
 
 Today it died.
 
@@ -18,8 +18,8 @@ I also wanted to serve as an entry point for people from the [worse computing](/
 
 To be an appealing bridge, you need to do some marketing. Figure out what message you can advertise with.
 
-- Are you the "bridge for the good of the people"? Cross this bridge to *save humanity*!
-- Or are you the "bridge of extreme fun"? Cross it to have the *time of your life*!
+- Are you the "bridge for the good of the people"? Cross this bridge to _save humanity_!
+- Or are you the "bridge of extreme fun"? Cross it to have the _time of your life_!
 
 What's the contagious idea that will stick with people? What lands? What doesn't?
 
@@ -41,7 +41,7 @@ If an idea is simple, then other people can easily spread it on your behalf.
 If an idea is sticky, then people can be convinced by it.
 
 > It 'sounds right' and then you can't get it out of your head. Maybe it shows you something you can't unsee. Or maybe it changes your perspective on something.
-> 
+>
 > You only need to hear it once. And then, bam - it's stuck.
 
 ## Death
@@ -65,6 +65,5 @@ Lu x
 ![tadi web standing over tadi web's grave meme](Img_2023_11_09_06_46_20.png)
 
 <br>
-
 
 Back to the [garden](/wikiblogarden).

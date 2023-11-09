@@ -6,6 +6,8 @@ Check back every day for new stuff!
 
 ## New things
 
+- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
+- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
 - [Never stop writing](art/never-stop-writing)
 - [Good and bad analytics](./social-media/analytics/good-and-bad)
 - [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)

@@ -26,4 +26,8 @@ I suppose it comes with a cost. By using it, I become more locked in to the gith
 
 Because of this, I decided to be careful with how I use it. I'd only use a very small and limited subset of the available features. That way, it'll be easy to jump ship and set sail!
 
-*Still, I hope to move elsewhere as soon as possible!* Please let me know if you have any ideas. My contact details are on the [home page](/).
+_Still, I hope to move elsewhere as soon as possible!_ Please let me know if you have any ideas. My contact details are on the [home page](/).
+
+### Update
+
+I've been exploring some [options](rubbish-options).
