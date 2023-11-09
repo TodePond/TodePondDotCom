@@ -4,7 +4,7 @@ My website is hosted on github pages. I don't like it.
 
 ## Github pages
 
-Github pages is easy. You just write some markdown, add some DNS records, and you're done. The hardest part was the DNS, but it was mostly a copy-paste job. I could set it all up again easily.
+[Github pages](https://pages.github.com/) is easy. You just write some markdown, add some DNS records, and you're done. The hardest part was the DNS, but it was mostly a copy-paste job. I could set it all up again easily.
 
 Your pages come with some default styling, and extra SEO bits that you don't want. But you can override this default 'layout'. I just cleared it all out, and started from scratch.
 
@@ -22,7 +22,7 @@ But... it's all built on top of github stuff.
 
 ## Codeberg
 
-Codeberg is like a non-evil version of github. It has many of the same features, like pages, and editors, and so on. Also, the editor is really nice!
+[Codeberg](https://codeberg.org/) is like a non-evil version of github. It has many of the same features, like pages, and editors, and so on. Also, the editor is really nice!
 
 However...
 
@@ -34,7 +34,7 @@ I'm not sure that codeberg is the place for me at this point. Maybe if their ser
 
 ## Surge
 
-Surge is a super simple static file host.
+[Surge](https://surge.sh/) is a super simple static file host.
 
 But...
 
@@ -46,7 +46,7 @@ If someone wrote a noob-friendly visual UI wrapper around surge, maybe it would 
 
 ## Neocities
 
-Neocities is fun and simple. You just put files on it. You don't need to use the terminal, but you can if you want.
+[Neocities](https://neocities.org/) is fun and simple. You just put files on it. You don't need to use the terminal, but you can if you want.
 
 - It doesn't auto-convert markdown to html though.
 
