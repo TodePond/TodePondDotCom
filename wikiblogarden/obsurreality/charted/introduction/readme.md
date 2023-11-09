@@ -16,4 +16,4 @@
 > of obsurreality<br>
 > onward steps towards dreamkind.
 
-[NEXT](/s)
+[NEXT](../level-1)
