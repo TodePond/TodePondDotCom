@@ -8,7 +8,7 @@ Trust someone and they'll trust you back.
 
 This only works most of the time.
 
-Sometimes, they'll abuse your trust. But it's worth it for all the times that it works.
+Sometimes, they'll abuse your trust. But it's worth it for all the times that it does work.
 
 Don't lose out on trust because you're afraid of making yourself vulnerable.
 
