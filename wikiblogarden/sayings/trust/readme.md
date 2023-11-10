@@ -74,7 +74,6 @@ I'm new to the tech world (and I look less like a straight guy everyday) so peop
 
 That's ok, I don't have anything to prove.
 
-<br
-  >
+<br>
 
 Back to the [den](/wikiblogarden).
