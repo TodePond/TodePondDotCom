@@ -64,7 +64,7 @@ I had loads of role-models where I worked. Someone I respected told me their sec
 
 ## Kill 'em with kindness
 
-If someone abuses your trust, double-down on it. Tell them plainly how much trust you're putting in them, and how your head is on the line for them.
+If someone abuses your trust, double-down on it. Tell them plainly how much trust you're putting in them, and how your neck is on the line for them.
 
 It's easier to let go than hold on. You'll outlast them. Be patient.
 
