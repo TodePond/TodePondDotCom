@@ -123,5 +123,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/rubbish-options/</guid>
   			<description>My website is hosted on github pages. I don’t like it.</description>
   		</item>
+		<item>
+  			<title>You can just ask</title>
+  			<pubDate>Fri, 10 Nov 2023 09:17:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/sayings/just-ask/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/sayings/just-ask/</guid>
+  			<description>Something I’m learning recently: You can just ask.</description>
+  		</item>
   </channel>
 </rss>
