@@ -6,13 +6,13 @@ Check back every day for new stuff!
 
 ## New things
 
+- [How to introduce the tadi web](tadi-web/entry-points)
+- [The easiest way to earn trust](sayings/trust)
+- [You can just ask](sayings/just-ask)
 - [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
 - [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
 - [Never stop writing](art/never-stop-writing)
 - [Good and bad analytics](./social-media/analytics/good-and-bad)
-- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
-- [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
-- [Are analytics good?](./social-media/analytics)
 
 ## Highlights
 
@@ -23,6 +23,9 @@ Check back every day for new stuff!
 
 ## Other highlights
 
+- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
+- [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
+- [Are analytics good?](./social-media/analytics)
 - [Cellpond](./cellpond)
 - [Cellpond is not robust](./cellpond/is-not-robust)
 - [Tadi web](./tadi-web)
