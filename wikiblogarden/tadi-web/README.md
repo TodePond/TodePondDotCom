@@ -3,6 +3,7 @@
 The tadi web is a small and simple part of the normal web. It follows a tiny subset of the full web spec. This means that all tadi websites work in tadi browsers, as well as normal browsers.
 
 - [Tadi web examples](https://tadiweb.com)
+- [Tadi web entry points](entry-points)
 - [The death of the tadi web: How to make a meme](death-meme)
 
 ## Slippy mindset
