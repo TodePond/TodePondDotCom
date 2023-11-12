@@ -144,5 +144,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/entry-points/</guid>
   			<description>The tadi web is a small and simple part of the normal web. How do you introduce it to someone?</description>
   		</item>
+		<item>
+  			<title>My head to your head</title>
+  			<pubDate>Sun, 12 Nov 2023 23:15:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/</guid>
+  			<description>You are currently receiving some thoughts that came from my head. They went on a long journey to get to you. Here's what happened.</description>
+  		</item>
   </channel>
 </rss>
