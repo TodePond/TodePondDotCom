@@ -65,7 +65,7 @@ The tadi web is fast as hell, even on your phone from ten years ago.
 
 I sold my soul to google. They know everything about me, and I'm stuck with them.
 
-They have a complete monopoly on the web. Firefox and safari fall behind more and more every day. New browsers are either [wrappers for chrome], or require [monumental effort].
+They have a complete monopoly on the web. Firefox and safari fall behind more and more every day. New browsers are either [wrappers for chrome](https://thebrowser.company/), or require [monumental effort](https://ladybird.dev/).
 
 > It shouldn't be so hard to escape.
 
@@ -81,7 +81,7 @@ But specifications last. They allow us to rebuild the software that we need.
 
 The tadi web is simple. But why? What's the point in being simple?
 
-It's *not* to make it any less likely to fail.
+It's *not* to make it less likely to fail.
 
 It's so that it can be rebuilt *when it fails* (again and again and again).
 
@@ -129,9 +129,9 @@ Even if they weren't, I know that I could rebuild them from scratch in a short t
 
 ## Normal web
 
-Everything in the tadi web, it's also part of the normal web. Tadi websites also work in normal browsers.
+Everything in the tadi web is also part of the normal web. Tadi websites also work in normal browsers.
 
-So you may as well.
+So you might as well build for the tadi web.
 
 ## Explore the spectrum
 
