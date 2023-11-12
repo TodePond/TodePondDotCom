@@ -2,10 +2,11 @@
 
 Welcome to my wiki / blog / garden / whatever it is / I don't care / what even is a memex.
 
-Check back every day for new stuff!
+Check back every day for new stuff! Here's the [feed](/feed).
 
 ## New things
 
+- [My head to your head](my-wikiblogarden/hosting/journey)
 - [How to introduce the tadi web](tadi-web/entry-points)
 - [The easiest way to earn trust](sayings/trust)
 - [You can just ask](sayings/just-ask)
