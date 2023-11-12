@@ -46,7 +46,11 @@ I had an idea for an extra paragraph, so I added it to the markdown file.
 
 I decided the page was ready, so I pushed a button, and my server added it as an item on my feed.
 
-## Step 9: Everything to nothing
+## Step 9: Rss to thought
+
+You're reading my page right now. It's materialising as thought in your head.
+
+## Step finale: Everything to nothing
 
 I decided I didn't like my tools and I deleted them all. I made a better version in less time. Everything was in separate pieces, so I was able to re-use some of it.
 
