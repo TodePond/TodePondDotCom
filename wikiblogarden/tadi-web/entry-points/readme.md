@@ -1,4 +1,4 @@
-# Tadi web: All the entry points
+# Tadi web
 
 The tadi web is a small and simple part of the normal web. How do you introduce it to someone?
 
