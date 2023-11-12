@@ -54,4 +54,4 @@ If someone wrote a noob-friendly visual UI wrapper around surge, maybe it would 
 
 <br>
 
-Back to the [github page](/wikiblogarden/).
+I discovered a [journey](../journey).
