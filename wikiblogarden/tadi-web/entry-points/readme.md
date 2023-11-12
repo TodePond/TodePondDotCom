@@ -31,7 +31,7 @@ The tadi web does the hard work of introducing these worlds to each other, so th
 
 ## Now and the future
 
-Perma-computing tries to move towards computing that's good for the future. Adoption is hard because people often think it's a choice between what's good for now **or**what's good for the future.
+Perma-computing tries to move towards computing that's good for the future. Adoption is hard because people often think it's a choice between what's good for now **or** what's good for the future.
 
 > They think it's one or the other.
 
@@ -79,11 +79,11 @@ But specifications last. They allow us to rebuild the software that we need.
 
 ## Resurrection
 
-The tadi web is simple. But why? What's the point in being simple?
+The tadi web is simple. But why? What's the point of being simple?
 
 It's *not* to make it less likely to fail.
 
-It's so that it can be rebuilt *when it fails* (again and again and again).
+It's so that it can be rebuilt **when it fails** (again and again and again).
 
 > Everything fails eventually. Learn to bounce back.
 
@@ -99,7 +99,7 @@ It's ok to not be backwards-compatible (sometimes it's needed). But try to make 
 
 Frogs are great because they have a funny shape.
 
-Tadpoles (tadis) are mystical little dark-pond fairies. And their whole circle feels like magic.
+Tadpoles (tadis) are mystical little dark-pond fairies. And their whole life-cycle feels like magic.
 
 > ribbit
 
