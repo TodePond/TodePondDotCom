@@ -19,7 +19,7 @@ You don't *have* to use hypertadi to be a part of the tadi web. But it might be 
 
 ## Image data
 
-[Image data](./padi) is an image format for images. It's a subset of json.
+[Image data](./image-data) is an image format for images. It's a subset of json.
 
 ## Jumpyscript
 
