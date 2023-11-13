@@ -151,5 +151,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/</guid>
   			<description>You are currently receiving some thoughts that came from my head. They went on a long journey to get to you. Here's what happened.</description>
   		</item>
+		<item>
+  			<title>Academia</title>
+  			<pubDate>Mon, 13 Nov 2023 05:56:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/academia</link>
+  			<guid>https://www.todepond.com/wikiblogarden/academia</guid>
+  			<description>Academia is a place where people tell each other their ideas really really slowly.</description>
+  		</item>
   </channel>
 </rss>
