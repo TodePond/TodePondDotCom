@@ -1,4 +1,4 @@
-# The image data image format
+# Image data
 
 > Introducing the brand new image data image format!
 
