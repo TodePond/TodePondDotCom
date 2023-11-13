@@ -6,13 +6,13 @@ Check back every day for new stuff! Here's the [feed](/feed).
 
 ## New things
 
+- [The brand new image data image format](tadi-web/image-data)
+- [Minification is evil](better-computing/worse-computing/minification)
 - [Academia](academia)
 - [My head to your head](my-wikiblogarden/hosting/journey)
 - [How to introduce the tadi web](tadi-web/entry-points)
 - [The easiest way to earn trust](sayings/trust)
 - [You can just ask](sayings/just-ask)
-- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
-- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
 
 ## Highlights
 
@@ -25,6 +25,8 @@ Check back every day for new stuff! Here's the [feed](/feed).
 
 ## Other highlights
 
+- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
+- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
 - [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
 - [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
 - [Are analytics good?](./social-media/analytics)
