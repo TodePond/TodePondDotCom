@@ -20,9 +20,9 @@ How many pixels high the image is.
 
 An array of numbers containing information about the colour of each pixel. Pixels are listed in row-order and then column-order. For example, a 3 by 2 image would be laid out like this:
 
-| 0 | 1 | 3 |
+| 0 | 1 | 2 |
 |---|---|---|
-| 4 | 5 | 6 |
+| 3 | 4 | 5 |
 
 Each pixel is represented by a list of four numbers in the array, in the following order
 
