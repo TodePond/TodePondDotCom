@@ -1,0 +1,100 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Image data maker</title>
+<link rel="stylesheet" href="/style.css" />
+<style>
+  canvas {
+    background-color: rgb(20, 25, 40);
+    width: 100%;
+    display: block;
+    image-rendering: pixelated;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
+</style>
+
+<noscript>This website uses jumpyscript to make the editor work.</noscript>
+
+<canvas width="64" height="64"></canvas>
+
+<div>
+  <button onclick="load()">Load</button>
+  <button onclick="save()">Save</button>
+</div>
+
+<script>
+  const canvas = document.querySelector("canvas");
+  const context = canvas.getContext("2d");
+  const imageData = context.createImageData(64, 64);
+  const data = imageData.data;
+
+  let isPointerDown = false;
+
+  addEventListener("pointerdown", () => (isPointerDown = true));
+  addEventListener("pointerup", () => (isPointerDown = false));
+
+  canvas.addEventListener("pointermove", (e) => {
+    if (!isPointerDown) return;
+    const x = Math.floor((e.offsetX / canvas.clientWidth) * 64);
+    const y = Math.floor((e.offsetY / canvas.clientHeight) * 64);
+    const clampedX = Math.max(0, Math.min(63, x));
+    const clampedY = Math.max(0, Math.min(63, y));
+    brush(clampedX, clampedY, 2);
+  });
+
+  const brush = (x, y, size) => {
+    for (let i = -size; i < size; i++) {
+      for (let j = -size; j < size; j++) {
+        paint(x + i, y + j);
+      }
+    }
+  };
+
+  const paint = (x, y) => {
+    const index = (y * 64 + x) * 4;
+    data[index] = 255;
+    data[index + 1] = 255;
+    data[index + 2] = 255;
+    data[index + 3] = 255;
+    context.putImageData(imageData, 0, 0);
+  };
+
+  const save = () => {
+    const link = document.createElement("a");
+    link.download = "image.json";
+    const width = 64;
+    const height = 64;
+    const file = {
+      width,
+      height,
+      data: Array.from(data),
+    };
+    link.href = URL.createObjectURL(
+      new Blob([JSON.stringify(file)], { type: "image/json" })
+    );
+    link.click();
+  };
+
+  const load = () => {
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = ".json";
+    input.onchange = (e) => {
+      const file = e.target.files[0];
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const json = JSON.parse(e.target.result);
+        const { width, height, data } = json;
+        const imageData = context.createImageData(width, height);
+        imageData.data.set(data);
+        context.putImageData(imageData, 0, 0);
+      };
+      reader.readAsText(file);
+    };
+    input.click();
+  };
+</script>
