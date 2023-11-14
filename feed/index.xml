@@ -158,5 +158,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/academia</guid>
   			<description>Academia is a place where people tell each other their ideas really really slowly.</description>
   		</item>
+		<item>
+  			<title>Minification is evil</title>
+  			<pubDate>Tue, 14 Nov 2023 07:08:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/minification/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/minification/</guid>
+  			<description>Don't minify your website.</description>
+  		</item>
   </channel>
 </rss>
