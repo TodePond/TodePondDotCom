@@ -51,6 +51,8 @@ All numbers are between 0 and 255 (inclusive).
 
 - It's counter-culture and satirical.
 
+- It makes nerds angry.
+
 - [Minification is evil](/wikiblogarden/better-computing/worse-computing/minification).
 
 ## How to try out the image data format
