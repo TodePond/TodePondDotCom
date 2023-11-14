@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Image data tester</title>
+<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/image/polyfill.css" />
+<style>
+  canvas {
+    background-color: rgb(20, 25, 40);
+    display: block;
+    image-rendering: pixelated;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
+
+  img {
+    image-rendering: pixelated;
+  }
+</style>
+<script defer src="/image/polyfill.js"></script>
+
+<noscript>This website uses jumpyscript to make the editor work.</noscript>
+
+<img src="heart.json" />
