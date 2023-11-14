@@ -69,7 +69,7 @@
     const file = {
       width,
       height,
-      data: Array.from(data),
+      data: Array.from(imageData.data),
     };
     link.href = URL.createObjectURL(
       new Blob([JSON.stringify(file)], { type: "image/json" })
