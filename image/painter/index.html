@@ -132,12 +132,19 @@
       const reader = new FileReader();
       reader.onload = (e) => {
         const json = JSON.parse(e.target.result);
+        setSize(json.width, json.height);
         imageData.data.set(json.data);
         context.putImageData(imageData, 0, 0);
       };
       reader.readAsText(file);
     };
     input.click();
+  };
+
+  const setSize = (w, h) => {
+    widthInput.value = w;
+    heightInput.value = h;
+    resize();
   };
 
   const resize = () => {
