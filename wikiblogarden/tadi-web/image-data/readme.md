@@ -57,7 +57,7 @@ All numbers are between 0 and 255 (inclusive).
 
 I'll be releasing some tools in the coming weeks. Here's the first one:
 
-- [Image data painter].
+- [Image data painter](/image/painter).
 
 It lets you make image data images, and load others. It only supports 64 by 64 images for now!
 
