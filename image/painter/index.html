@@ -43,6 +43,12 @@
     brush(x, y, 2);
   });
 
+  canvas.addEventListener("pointerdown", (e) => {
+    const x = Math.floor((e.offsetX / canvas.clientWidth) * 64);
+    const y = Math.floor((e.offsetY / canvas.clientHeight) * 64);
+    brush(x, y, 2);
+  });
+
   const brush = (x, y, size) => {
     for (let i = -size; i < size; i++) {
       for (let j = -size; j < size; j++) {
