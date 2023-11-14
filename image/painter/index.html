@@ -6,6 +6,7 @@
     touch-action: none;
     background-color: rgb(20, 25, 40);
     width: 100%;
+    max-height: 80%;
     display: block;
     image-rendering: pixelated;
   }
@@ -15,22 +16,62 @@
     flex-direction: column;
     align-items: center;
     gap: 7px;
+    padding: 7px;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+    width: 100%;
   }
 </style>
 
 <noscript>This website uses jumpyscript to make the editor work.</noscript>
 
+<div class="controls">
+  <div>
+    <input
+      style="width: 60px"
+      type="number"
+      id="width"
+      value="64"
+      oninput="resize()"
+    />
+    <span>x</span>
+    <input
+      style="width: 60px"
+      type="number"
+      id="height"
+      value="64"
+      oninput="resize()"
+    />
+  </div>
+</div>
+
 <canvas width="64" height="64"></canvas>
 
-<div>
-  <button onclick="load()">Load</button>
-  <button onclick="save()">Save</button>
+<div class="controls">
+  <div>
+    <button onclick="_clear()">Clear</button>
+  </div>
+  <div>
+    <button onclick="load()">Load</button>
+    <button onclick="save()">Save</button>
+  </div>
 </div>
 
 <script>
+  const widthInput = document.querySelector("#width");
+  const heightInput = document.querySelector("#height");
+
+  let width = widthInput.value;
+  let height = heightInput.value;
+
   const canvas = document.querySelector("canvas");
-  const context = canvas.getContext("2d");
-  const imageData = context.createImageData(64, 64);
+  const context = canvas.getContext("2d", { willReadFrequently: true });
+  let imageData = context.createImageData(width, height);
 
   let isPointerDown = false;
 
@@ -39,14 +80,14 @@
 
   canvas.addEventListener("pointermove", (e) => {
     if (!isPointerDown) return;
-    const x = Math.floor((e.offsetX / canvas.clientWidth) * 64);
-    const y = Math.floor((e.offsetY / canvas.clientHeight) * 64);
+    const x = Math.floor((e.offsetX / canvas.clientWidth) * width);
+    const y = Math.floor((e.offsetY / canvas.clientHeight) * height);
     brush(x, y, 2);
   });
 
   canvas.addEventListener("pointerdown", (e) => {
-    const x = Math.floor((e.offsetX / canvas.clientWidth) * 64);
-    const y = Math.floor((e.offsetY / canvas.clientHeight) * 64);
+    const x = Math.floor((e.offsetX / canvas.clientWidth) * width);
+    const y = Math.floor((e.offsetY / canvas.clientHeight) * height);
     brush(x, y, 2);
   });
 
@@ -59,8 +100,8 @@
   };
 
   const paint = (x, y) => {
-    if (x < 0 || x >= 64 || y < 0 || y >= 64) return;
-    const index = (y * 64 + x) * 4;
+    if (x < 0 || x >= width || y < 0 || y >= height) return;
+    const index = (y * width + x) * 4;
     imageData.data[index] = 255;
     imageData.data[index + 1] = 255;
     imageData.data[index + 2] = 255;
@@ -71,8 +112,6 @@
   const save = () => {
     const link = document.createElement("a");
     link.download = "image.json";
-    const width = 64;
-    const height = 64;
     const file = {
       width,
       height,
@@ -93,15 +132,28 @@
       const reader = new FileReader();
       reader.onload = (e) => {
         const json = JSON.parse(e.target.result);
-        if (json.width !== 64 || json.height !== 64) {
-          alert("Sorry, only 64x64 images are supported for now :(");
-          return;
-        }
         imageData.data.set(json.data);
         context.putImageData(imageData, 0, 0);
       };
       reader.readAsText(file);
     };
     input.click();
+  };
+
+  const resize = () => {
+    width = parseInt(document.querySelector("#width").value);
+    height = parseInt(document.querySelector("#height").value);
+    imageData = context.getImageData(0, 0, width, height);
+    canvas.width = width;
+    canvas.height = height;
+    context.putImageData(imageData, 0, 0);
+    imageData = context.getImageData(0, 0, width, height);
+  };
+
+  const _clear = () => {
+    const confirmation = window.confirm("Clear the screen?");
+    if (!confirmation) return;
+    imageData = context.createImageData(width, height);
+    context.putImageData(imageData, 0, 0);
   };
 </script>
