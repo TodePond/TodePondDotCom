@@ -38,12 +38,12 @@ It makes the 'replacement' randomly pick between green and blue, instead of usin
 
 <img src="4.gif">
 
-It's weird because nothing like it has been done in this space before.<br>
+Stamping weird because nothing like it has been done in this space before. <sup>[citation needed]</sup><br>
 And when I told it to some people who do work in the space, they found it weird. 🤷‍♀️
 
 ## Magic symbols
 
-Previously, things used ---
+Previous approaches used ---
 
 Ok, I should really get back to work now. I'll continue this some other time :)
 
