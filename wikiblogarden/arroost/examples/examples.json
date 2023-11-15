@@ -16,7 +16,32 @@
   },
   {
     "author": "Ivan Reese",
-    "title": "Untitled 1",
+    "title": "Skyscraper",
     "path": "skyscraper.mp4"
+  },
+  {
+    "author": "Shane Crowley",
+    "title": "Fish tank",
+    "path": "fish-tank.mp4"
+  },
+  {
+    "author": "Lu Wilson",
+    "title": "Click landing",
+    "path": "click-landing.mp4"
+  },
+  {
+    "author": "Lu Wilson",
+    "title": "Treads",
+    "path": "treads.mp4"
+  },
+  {
+    "author": "Lu Wilson",
+    "title": "Hum day",
+    "path": "hum-day.mp4"
+  },
+  {
+    "author": "Lu Wilson",
+    "title": "Perfect rhyme",
+    "path": "perfect-rhyme.mp4"
   }
 ]
