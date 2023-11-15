@@ -11,7 +11,7 @@ The 'conservation' is the conservation of cell colours from the LHS (left-hand-s
 
 eg: Look at this rule.
 
-<img src="1.png" width="300 />
+<img src="1.png" width="300" />
 
 ^ it means:
 
