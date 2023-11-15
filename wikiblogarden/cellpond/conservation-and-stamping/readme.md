@@ -7,7 +7,7 @@
 
 ## Conservation
 
-The 'conservation' is the conservation of cell colours from the LHS (left-hand-side) to the RHS (right-hand-side) of the diagram. I hoped I explained it in that post, but I've always found it a tricky one, so let me know if there's anything in particular that I lost you on 😅
+The 'conservation' is the conservation of cell colours from the LHS (left-hand-side) to the RHS (right-hand-side) of the diagram. 
 
 eg: Look at this rule.
 
