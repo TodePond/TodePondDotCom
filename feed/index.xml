@@ -165,5 +165,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/minification/</guid>
   			<description>Don't minify your website.</description>
   		</item>
+		<item>
+  			<title>The image data image format</title>
+  			<pubDate>Wed, 15 Nov 2023 06:46:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/image-data/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/image-data/</guid>
+  			<description>Introducing the brand new image data image format!</description>
+  		</item>
   </channel>
 </rss>
