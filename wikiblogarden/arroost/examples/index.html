@@ -10,6 +10,66 @@
 <button onclick="shuffle()" class="primary">Shuffle examples</button>
 <button onclick="generate()" id="generate">Generate examples html</button>
 
+<script>
+  const generateButton = document.getElementById("generate");
+
+  const generate = async () => {
+    const response = await fetch("examples.json");
+    const examples = await response.json();
+
+    const elements = [];
+
+    for (const example of examples) {
+      const { title, author, path } = example;
+      const url = `media/${path}`;
+
+      const element = `<section class="example"> 
+	<h2>${title}</h2>
+	<p>by ${author}</p>
+	<video controls src="${url}"></video>
+</section>`;
+      elements.push(element);
+    }
+
+    const html = `<div class="examples">${elements.join("")}</div>`;
+
+    copyToClipboard(html);
+    generateButton.textContent = "Copied to clipboard";
+    setTimeout(() => {
+      generateButton.textContent = "Generate examples html";
+    }, 1000);
+  };
+
+  const copyToClipboard = (text) => {
+    const el = document.createElement("textarea");
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+  };
+
+  const shuffle = () => {
+    const elements = Array.from(document.querySelectorAll(".example"));
+    shuffleArray(elements);
+    const examples = document.querySelector(".examples");
+    examples.innerHTML = "";
+    for (const element of elements) {
+      examples.append(element);
+    }
+  };
+
+  // https://github.com/TodePond/Habitat/blob/1f4153571a4270d664732b85318b324c78e591ba/source/array.js
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
+  shuffle();
+</script>
 <div class="examples">
   <section class="example">
     <h2>Noisy office</h2>
@@ -27,7 +87,7 @@
     <video controls src="media/talking-to-my-beans.mp4"></video>
   </section>
   <section class="example">
-    <h2>Skyscraper</h2>
+    <h2>I hope it's just food poisoning and not, like, norovirus</h2>
     <p>by Ivan Reese</p>
     <video controls src="media/skyscraper.mp4"></video>
   </section>
@@ -91,65 +151,24 @@
     <p>by Alex McLean</p>
     <video controls src="media/funky.mp4"></video>
   </section>
+  <section class="example">
+    <h2>Cake monster</h2>
+    <p>by Lu Wilson</p>
+    <video controls src="media/cake-monster.mp4"></video>
+  </section>
+  <section class="example">
+    <h2>Get lost</h2>
+    <p>by Lu Wilson</p>
+    <video controls src="media/get-lost.mp4"></video>
+  </section>
+  <section class="example">
+    <h2>Out of tune beans</h2>
+    <p>by Lu Wilson</p>
+    <video controls src="media/out-of-tune-beans.mp4"></video>
+  </section>
+  <section class="example">
+    <h2>Place I'd like to go</h2>
+    <p>by Lu Wilson</p>
+    <video controls src="media/place-id-like-to-go.mp4"></video>
+  </section>
 </div>
-
-<script>
-  const generateButton = document.getElementById("generate");
-
-  const generate = async () => {
-    const response = await fetch("examples.json");
-    const examples = await response.json();
-
-    const elements = [];
-
-    for (const example of examples) {
-      const { title, author, path } = example;
-      const url = `media/${path}`;
-
-      const element = `<section class="example"> 
-	<h2>${title}</h2>
-	<p>by ${author}</p>
-	<video controls src="${url}"></video>
-</section>`;
-      elements.push(element);
-    }
-
-    const html = `<div class="examples">${elements.join("")}</div>`;
-
-    copyToClipboard(html);
-    generateButton.textContent = "Copied to clipboard";
-    setTimeout(() => {
-      generateButton.textContent = "Generate examples html";
-    }, 1000);
-  };
-
-  const copyToClipboard = (text) => {
-    const el = document.createElement("textarea");
-    el.value = text;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand("copy");
-    document.body.removeChild(el);
-  };
-
-  const shuffle = () => {
-    const elements = Array.from(document.querySelectorAll(".example"));
-    shuffleArray(elements);
-    const examples = document.querySelector(".examples");
-    examples.innerHTML = "";
-    for (const element of elements) {
-      examples.append(element);
-    }
-  };
-
-  // https://github.com/TodePond/Habitat/blob/1f4153571a4270d664732b85318b324c78e591ba/source/array.js
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  };
-
-  shuffle();
-</script>

@@ -16,7 +16,7 @@
   },
   {
     "author": "Ivan Reese",
-    "title": "Skyscraper",
+    "title": "I hope it's just food poisoning and not, like, norovirus",
     "path": "skyscraper.mp4"
   },
   {
@@ -78,5 +78,25 @@
     "title": "Funky",
     "author": "Alex McLean",
     "path": "funky.mp4"
+  },
+  {
+    "title": "Cake monster",
+    "author": "Lu Wilson",
+    "path": "cake-monster.mp4"
+  },
+  {
+    "title": "Get lost",
+    "author": "Lu Wilson",
+    "path": "get-lost.mp4"
+  },
+  {
+    "title": "Out of tune beans",
+    "author": "Lu Wilson",
+    "path": "out-of-tune-beans.mp4"
+  },
+  {
+    "title": "Place I'd like to go",
+    "author": "Lu Wilson",
+    "path": "place-id-like-to-go.mp4"
   }
 ]
