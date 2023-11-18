@@ -4,9 +4,9 @@ Money. How do I get it?
 
 ## tldraw
 
-I work at [tldraw](https://tldraw.com) four days a week. [Steve Ruiz] pays me to make stuff and do stuff. It's how I get most of my money.
+I work at [tldraw](https://tldraw.com) four days a week. [Steve Ruiz](https://www.steveruiz.me/) pays me to make stuff and do stuff. It's how I get most of my money.
 
-He scouted me through twitter. One of my [tweets] went viral and he noticed.
+He scouted me through twitter. One of my [tweets](https://x.com/TodePond/status/1547200031161257986) went viral and he noticed.
 
 I became a regular guest at the office, and Steve said, half-joking, "If you need any help finding a job in tech, let me know. Hey, I'll fucking hire you." 
 
@@ -30,7 +30,7 @@ She brought me along to their new provision, and offered me a job. I was their f
 
 ## Sandspiel
 
-Before I worked at tldraw, I worked for [Max Bittker] on [Sandspiel](https://sandspiel.club).
+Before I worked at tldraw, I worked for [Max Bittker](https://maxbittker.com) on [Sandspiel](https://sandspiel.club).
 
 He knew that I was leaving teaching without a job lined up. So he kindly offered to pay me for a few months of work on Sandspiel.
 
