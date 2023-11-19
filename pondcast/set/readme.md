@@ -1,3 +1,5 @@
+<meta property="og:image" content="og.png" />
+
 > This update is for [paying supporters](https://patreon.com/TodePond) only.<br>
 > It's provided here, DRM-free :)<br>
 > I trust you to only read or listen if you've paid!
