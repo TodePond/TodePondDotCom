@@ -16,6 +16,8 @@ What's new this week?
 
 ## Noise
 
+![A recording in Arroost](1.png)
+
 In [Arroost](https://arroost.com), you can record sounds.
 
 Previously, there wasn't any indication of how long a sound was. But now, there is! A line grows when you're recording. The longer you record, the longer the line gets.
@@ -25,6 +27,8 @@ The line _is_ the sound. And you can CLICK and interact with it. You can slide i
 I'm going to add more ways of manipulating with it, like trimming either end.
 
 ## Focus
+
+![Arroost](2.png)
 
 [Arroost](https://arroost.com) makes a lot of noise.
 
@@ -37,6 +41,8 @@ So I added a "focus mode". Press [F] to enter focus mode. It's not very discover
 It makes everything mute while you're recording new sounds. It was especially important for..........
 
 ## Set
+
+![Me giving a tech talk](3.png)
 
 I presented Arroost at the [Future of Ding](https://futureofcoding.org/) event here in [London](https://lu.ma/foclondon). First, I showed the basics of how it works. Then, I showed some [examples](https://www.todepond.com/wikiblogarden/arroost/examples/) of how it works. Then, I got 5 audience members up on stage, and we recorded a song together.
 
