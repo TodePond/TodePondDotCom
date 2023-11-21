@@ -2,7 +2,7 @@
 
 Hi my name is Lu (or Luke) (either's fine).
 
-I make slightly surreal [videos](https://youtube.com/@TodePond) about [coding experiments](https://github.com/TodePond).
+I make slightly surreal [videos](https://youtube.com/@TodePond) about my coding [experiments](https://github.com/TodePond).
 
 ## Series
 
