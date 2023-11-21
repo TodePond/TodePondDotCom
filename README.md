@@ -2,10 +2,7 @@
 
 Hi my name is Lu (or Luke) (either's fine).
 
-I make slightly surreal [videos](https://youtube.com/@TodePond) about my creative coding projects.<br>
-And programming language [experiments](https://github.com/TodePond) that nobody asked for.
-
-> Hey! Check out my [feed](/feed)!
+I make slightly surreal [videos](https://youtube.com/@TodePond) about [coding experiments](https://github.com/TodePond).
 
 ## Series
 
