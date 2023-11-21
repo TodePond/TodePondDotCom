@@ -18,9 +18,9 @@ I make slightly surreal [videos](https://youtube.com/@TodePond) about my coding 
 
 - _NEW!_ [Arroost: Normalise sharing scrappy fiddles](https://www.youtube.com/watch?v=cF2OF75ivZM) at FoC
 - [Cellpond: Spatial programming without escape](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) at SPLASH / LIVE
-- [Dreamberd: A perfect programming language](https://youtu.be/52vmjZnxJb8?si=0TXlU2X2tewR1FFc) at FoC
-- [Spatial programming pipe dream](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580) at LDN CC
-- [Spatial programming pipe dream](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk) at FoC
+- [Dreamberd: Perfect programming language](https://youtu.be/52vmjZnxJb8?si=0TXlU2X2tewR1FFc) at FoC
+- [Cellpond: Spatial programming pipe dream](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580) at LDN CC
+- [Cellpond: Spatial programming pipe dream](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk) at FoC
 
 ## Projects
 
