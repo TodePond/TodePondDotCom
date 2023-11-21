@@ -186,5 +186,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence</guid>
   			<description>What will artificial intelligence do to us?</description>
   		</item>
+		<item>
+  			<title>Image data test</title>
+  			<pubDate>Tue, 21 Nov 2023 00:03:00 GMT</pubDate>
+  			<link>https://www.todepond.com/image/test</link>
+  			<guid>https://www.todepond.com/image/test</guid>
+  			<description>This page tests your browser's support for the image data image format.</description>
+  		</item>
   </channel>
 </rss>
