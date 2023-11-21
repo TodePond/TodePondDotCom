@@ -3,6 +3,7 @@
 const loadImage = async (image) => {
   const extension = image.src.split(".").pop();
   if (extension !== "json") return;
+  if (image.classList.contains("no-polyfill")) return;
   const response = await fetch(image.src);
   const json = await response.json();
   const imageData = new ImageData(
