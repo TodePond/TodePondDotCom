@@ -6,8 +6,8 @@ I make slightly surreal [videos](https://youtube.com/@TodePond) about my coding 
 
 ## Series
 
-- [Sandpond saga](https://www.youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4) (34/99)<br>
-- [Todepond pondcast](https://www.patreon.com/todepond)
+- [Sandpond saga](https://www.youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4) (34/99 episodes)<br>
+- [Todepond pondcast](https://www.patreon.com/todepond) (weekly)
 
 ## Writing
 
