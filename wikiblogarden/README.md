@@ -2,41 +2,62 @@
 
 Welcome to my wiki / blog / garden / whatever it is / I don't care / what even is a memex.
 
-Check back every day for new stuff! Here's the [feed](/feed).
+> Check the [feed](/feed) every day for new stuff!
+
+I update the contents below every now and then.
 
 ## New things
 
-- [The brand new image data image format](tadi-web/image-data)
-- [Minification is evil](better-computing/worse-computing/minification)
-- [Academia](academia)
-- [My head to your head](my-wikiblogarden/hosting/journey)
-- [How to introduce the tadi web](tadi-web/entry-points)
-- [The easiest way to earn trust](sayings/trust)
-- [You can just ask](sayings/just-ask)
+- [Image data test](/image/test)
+- [What will artificial intelligence do to us?](better-computing/worse-computing/artificial-intelligence/)
+- [How I get money](work/how-i-get-money)
 
-## Highlights
+## Vibes
 
+- [You can just ask](./sayings/just-ask)
 - [Never stop writing](art/never-stop-writing)
-- [Good and bad analytics](./social-media/analytics/good-and-bad)
-- [Just block them](./social-media/just-block-them)
 - [My name](./my-name)
+
+## The tadi web
+
 - [Better computing](./better-computing)
-- [My wikiblogarden](./my-wikiblogarden)
-
-## Other highlights
-
-- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
-- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
-- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
-- [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
-- [Are analytics good?](./social-media/analytics)
-- [Cellpond](./cellpond)
-- [Cellpond is not robust](./cellpond/is-not-robust)
 - [Tadi web](./tadi-web)
 - [Padi](./tadi-web/padi)
-- [My wikiblogarden hosting](./my-wikiblogarden/hosting)
+- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
+- [How to introduce the tadi web](tadi-web/entry-points)
+- [The brand new image data image format](tadi-web/image-data)
+
+## The internet
+
+- [My head to your head](my-wikiblogarden/hosting/journey)
+- [Just block them](./social-media/just-block-them)
+- [Are analytics good?](./social-media/analytics)
+- [Good and bad analytics](./social-media/analytics/good-and-bad)
+
+## Work
+
+- [The easiest way to earn trust](sayings/trust)
+- [Academia](academia)
+
+## Evil
+
+- [Minification is evil](better-computing/worse-computing/minification)
 - [Sulfasalazine](./health/sulfasalazine)
+
+## Meta
+
+- [My wikiblogarden](./my-wikiblogarden)
+- [My wikiblogarden hosting](./my-wikiblogarden/hosting)
+- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
 - [What is RSS?](./social-media/what-is-rss)
+- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
+
+## Cellpond
+
+- [Cellpond](./cellpond)
+- [Cellpond is not robust](./cellpond/is-not-robust)
+- [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
+- [Cellpond conversation and stamping](./cellpond/conversation-and-stamping)
 
 <hr>
 

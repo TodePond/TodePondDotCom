@@ -1,6 +1,6 @@
-# Artificial intelligence
+# What will artificial intelligence do to us?
 
-Artificial intelligence will continue to drastically shape all of our lives - as much as the internet did, and more. 
+Artificial intelligence will continue to drastically shape all of our lives - as much as the internet did, and more.
 
 It shouldn't be controlled by just 6 to 10 worshipped people at various large tech companies.
 
