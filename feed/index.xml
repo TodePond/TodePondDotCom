@@ -193,5 +193,12 @@
   			<guid>https://www.todepond.com/image/test</guid>
   			<description>This page tests your browser's support for the image data image format.</description>
   		</item>
+		<item>
+  			<title>Hackernews is a vile website</title>
+  			<pubDate>Wed, 22 Nov 2023 23:54:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/hackernews</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/hackernews</guid>
+  			<description>It doesn't need saying, right?</description>
+  		</item>
   </channel>
 </rss>
