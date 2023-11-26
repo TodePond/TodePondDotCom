@@ -84,7 +84,7 @@ Sometimes they're a form of communication. They're a way of saying "I'm angry" o
 
 But sometimes they're merely an outlet for something that just needs to *be expressed*. They don't need to be expressed to anyone in particular. They just need to *be expressed* full stop.
 
-> You could say... They need to be expressed *to the earth itself*.
+> They need to be expressed *to the earth itself*.
 
 ## It's the same for us
 
@@ -102,13 +102,13 @@ The kids were great. They'd say things like:
 
 We adults experience emotions too, and sometimes it's hard to deal with them. We need ways to express them.
 
-Over time, I learned to notice the ones that work for me. As advised by that child, I find that fiddling with a hairband is a great way for me to 'get out' my anger and worry.
+Over time, I learned to notice the ones that work for me. As advised by that child, I found that fiddling with a hairband is a great way to 'get out' my anger and worry.
 
 **And I noticed that I could express my feelings in the form of a [video](https://youtu.be/YRBtAn240j8).**
 
-But remember, it takes practice. Even though I knew I could put my feelings into a video, I still often looked for other, more harmful ways of expressing myself.
+But remember, it takes practice. Even though I knew I could put my feelings into a video, I still often looked for other, more harmful ways of expressing them.
 
-Again, I became a broken record. "Put it in a video" is what I told myself repeatedly whenever I felt bad. And it worked.
+Again, I became a broken record. "Put it in a video" is what I told myself again and again whenever I felt bad. And it worked.
 
 > Put it in a video<br>
 > Put it in a video<br>
