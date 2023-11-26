@@ -54,9 +54,9 @@ There's always something to do! If your replacement doesn't help, try something 
 
 When you finally figure out a good replacement, it seems obvious. "Why didn't we think of that before?" is something we often said. As well as, "I can't believe it was as simple as:
 
-- eating a banana."
-- scribbling on some paper."
-- feeding the guinea pigs."
+- eating a banana.
+- scribbling on some paper.
+- feeding the guinea pigs.
 
 Whatever it is, you gotta find a way to express yourself!
 
@@ -64,11 +64,11 @@ Whatever it is, you gotta find a way to express yourself!
 
 We get stuck in habits. We get used to expressing ourselves in a certain way.
 
-Even if you know of a good replacement, it's hard to remember to use it. In moments of strong emotion, thinking can go out the window. It's hard to remember to use your replacement.
+Even if you know about a good replacement, it's hard to remember to use it. In moments of strong emotion, thinking can go out the window. It's hard to remember to use your replacement.
 
 Some children wrote themselves little reminders and kept them on their desk. Some children asked us to remind them verbally.
 
-Again and again and again, I asked certain children, "Would you like to go on a short walk?" or "How about we go and visit the guinea pigs?" or "Psst. Here's a piece of paper you can scribble on and rip."
+Again and again and again, I asked certain children, "Would you like to go on a short walk?" or "How about we go and visit the guinea pigs?" or "Psst. Here's a piece of paper for scribbling and ripping."
 
 > I was a broken record<br>
 > I was a broken record<br>
@@ -84,7 +84,7 @@ Sometimes they're a form of communication. They're a way of saying "I'm angry" o
 
 But sometimes they're merely an outlet for something that just needs to *be expressed*. They don't need to be expressed to anyone in particular. They just need to *be expressed* full stop.
 
-You could say... They need to be expressed *to the earth itself*.
+> You could say... They need to be expressed *to the earth itself*.
 
 ## It's the same for us
 
@@ -106,9 +106,9 @@ Over time, I learned to notice the ones that work for me. As advised by that chi
 
 **And I noticed that I could express my feelings in the form of a [video](https://youtu.be/YRBtAn240j8).**
 
-But remember, it takes practice. Even though I knew I could put my feelings into a video, I still often looked for other, more harmful ways. Again, I became a broken record. But this time, for myself.
+But remember, it takes practice. Even though I knew I could put my feelings into a video, I still often looked for other, more harmful ways of expressing myself.
 
-"Put it in a video" is what I told myself repeatedly whenever I felt bad. And it worked.
+Again, I became a broken record. "Put it in a video" is what I told myself repeatedly whenever I felt bad. And it worked.
 
 > Put it in a video<br>
 > Put it in a video<br>
