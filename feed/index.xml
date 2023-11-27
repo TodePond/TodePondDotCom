@@ -214,5 +214,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/art/in-a-video/</guid>
   			<description>What do you do with your feelings?</description>
   		</item>
+		<item>
+  			<title>I want your feed</title>
+  			<pubDate>Mon, 27 Nov 2023 23:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/feeds-i-like</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/feeds-i-like</guid>
+  			<description>I want to read your feed</description>
+  		</item>
   </channel>
 </rss>
