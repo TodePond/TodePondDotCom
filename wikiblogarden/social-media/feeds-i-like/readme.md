@@ -11,7 +11,7 @@ Here are some I like.
 - [Interconnected](https://interconnected.org) by Matt Webb
 - [nonnullish](https://nonnullish.pages.dev/) by nonnullish
 - [taylor.town](https://taylor.town/) by Taylor
-- (your name here)
+- (your feed here) by (your name here)
 
 <br>
 
