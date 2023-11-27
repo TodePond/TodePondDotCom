@@ -18,15 +18,6 @@ I update the contents below every now and then.
 - [Never stop writing](art/never-stop-writing)
 - [My name](./my-name)
 
-## The tadi web
-
-- [Better computing](./better-computing)
-- [Tadi web](./tadi-web)
-- [Padi](./tadi-web/padi)
-- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
-- [How to introduce the tadi web](tadi-web/entry-points)
-- [The brand new image data image format](tadi-web/image-data)
-
 ## The internet
 
 - [My head to your head](my-wikiblogarden/hosting/journey)
@@ -44,7 +35,18 @@ I update the contents below every now and then.
 - [Minification is evil](better-computing/worse-computing/minification)
 - [Sulfasalazine](./health/sulfasalazine)
 
-## Meta
+## Projects
+
+### The tadi web
+
+- [Better computing](./better-computing)
+- [Tadi web](./tadi-web)
+- [Padi](./tadi-web/padi)
+- [The death of the tadi web: How to make a meme](./tadi-web/death-meme)
+- [How to introduce the tadi web](tadi-web/entry-points)
+- [The brand new image data image format](tadi-web/image-data)
+
+### Wikiblogarden
 
 - [My wikiblogarden](./my-wikiblogarden)
 - [My wikiblogarden hosting](./my-wikiblogarden/hosting)
@@ -52,7 +54,7 @@ I update the contents below every now and then.
 - [What is RSS?](./social-media/what-is-rss)
 - [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
 
-## Cellpond
+### Cellpond
 
 - [Cellpond](./cellpond)
 - [Cellpond is not robust](./cellpond/is-not-robust)
