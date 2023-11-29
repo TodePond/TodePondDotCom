@@ -5,7 +5,7 @@
 # TODEPOND PONDCAST: Multiple angles
 
 <audio controls>
-  <source src="1.mp4" type="audio/mp4">
+  <source src="1.m4a" type="audio/x-m4a">
 </audio>
 
 Hello again. It's time for the weekly...
