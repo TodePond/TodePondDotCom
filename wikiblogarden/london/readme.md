@@ -19,6 +19,7 @@ Including (but not limited to) the following communities:
 - [Jack Wild](https://www.isjackwild.com/) and his Wholesome dev content friends
 - [Peckham Digital](https://www.peckhamdigital.org/)
 - [UAL Creative Computing](https://www.arts.ac.uk/creative-computing-institute)
+- The [tinkerers](https://london.tinkerer.ai/)
 - [Taz](https://twitter.com/tazsingh) (he just turns up everywhere, takes amazing photographs, and tells terrible jokes)
 
 And also on the list:
@@ -29,27 +30,25 @@ And many many many many many more from London and elsewhere. Some travel far, so
 
 ## Code is key
 
-These communities are diverse and spread out. Some don't even know about each other! But most individuals have their feet in at least 3 to 4 of them, and therefore... they're all connected.
+These communities are diverse and spread out. Some don't even know about each other! But many individuals have their feet in at least 3 to 4 of them, and therefore... they're all connected.
 
-And those individuals would tell you that there's something that binds all these communities together ➡️ into one scene.
+And those individuals would tell you that there's something that binds all these communities together ➡ into one scene.
 
 **It's not something that's easy to put into words.**
 
 But roughly speaking: London ships code. Demos, prototypes, experiments, apps, websites, artworks, installations, gigs, products, tools, talking clocks, and *things*.
 
-While other scenes talk, London codes.
+London codes!
 
 ## Cutting through
 
 London has a certain cheekiness and humour that nowhere else seems to understand.
 
-It's understated.
-
 ## This is important
 
-tldraw sponsored some of the first Future of Coding meetups after lockdown. 18 months later, I can safely say that some of my closest friends come from those events. That community has given me more opportunity and fulfillment than I ever could have imagined.
+tldraw sponsored some of the first Future of Coding meetups after lockdown. 18 months later, I can safely say that some of my closest friends come from those events. This community has given me more opportunity and fulfillment than I could have ever imagined.
 
-So of course... when tldraw succeeds in more recent months, it's something that the whole scene can claim as its own, and celebrate. [Maggie Appleton](https://maggieappleton.com/) decreed it so at last week's meetup (which was again, sponsored by tldraw - as a sort of throwback).
+So of course... when tldraw succeeds, it's something that the whole scene can claim as its own and celebrate. [Maggie Appleton](https://maggieappleton.com/) decreed it so at last week's meetup (which was again, sponsored by tldraw - as a sort of throwback).
 
 When any individual member succeeds, it's a victory for the entire scene. It's a collective effort. When one person does a sick demo, or lands an opportunity, or makes an impact... we all win.
 
