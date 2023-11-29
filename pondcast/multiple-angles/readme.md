@@ -14,9 +14,9 @@ Hello again. It's time for the weekly...
 
 What's new this week?
 
-![Me doing a talk](1.png)
 
 ## Multiple angles
+![Me doing a talk](1.png)
 
 I did a talk last week! Luckily, lots of people filmed it, and they sent me their recordings. I edited together all of the different angles.
 
@@ -26,9 +26,9 @@ I tried to play around with the editing a little bit. I hope you enjoy it.
 
 Of course, thank you to everyone who filmed and/or *performed* in the show.
 
-![Arroost](2.png)
 
 ## Automatic
+![Arroost](2.png)
 
 I've been.. you guessed it.. continuing work on Arroost!
 
@@ -48,9 +48,9 @@ You can construct a 'program' where different tools point to (or through) other 
 
 But it's not [turing-complete](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s). Maybe one day.
 
-![Arroost](3.png)
 
 ## Text
+![Arroost](3.png)
 
 I've started to make more complicated things with Arroost. So much so, that I often get confused about what my constructions do.
 
@@ -60,9 +60,9 @@ I keep forgetting what each part of my machine does!
 
 So I've added a new tool: A text tool. It creates a label that you can type *letter* and *words* onto. This helps you to organise your machine a bit better!
 
-![Me](4.png)
 
 ## Appearances
+![Me](4.png)
 
 I recorded another podcast episode this week. Another recording is lined up for next week. And I've been arranging to be a guest on a *different* podcast.
 
