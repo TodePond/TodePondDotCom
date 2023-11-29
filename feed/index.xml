@@ -221,5 +221,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/social-media/feeds-i-like</guid>
   			<description>I want to read your feed</description>
   		</item>
+		<item>
+  			<title>Why I love the London coding scene</title>
+  			<pubDate>Wed, 29 Nov 2023 00:05:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/london</link>
+  			<guid>https://www.todepond.com/wikiblogarden/london</guid>
+  			<description>I love the London coding scene. Here's why.</description>
+  		</item>
   </channel>
 </rss>
