@@ -228,5 +228,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/london</guid>
   			<description>I love the London coding scene. Here's why.</description>
   		</item>
+		<item>
+  			<title>e/acc towards what?</title>
+  			<pubDate>Fri, 01 Dec 2023 08:13:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/e-acc</link>
+  			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/e-acc</guid>
+  			<description>Where are we heading?</description>
+  		</item>
   </channel>
 </rss>
