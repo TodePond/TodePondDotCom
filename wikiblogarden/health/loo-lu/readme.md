@@ -1,3 +1,5 @@
+# Lu loo tales
+
 My name is Lu. Every now and then, I need the loo.
 
 It doesn't always go as planned. On this page, I'll document every single unusual Lu loo visit from my life.
