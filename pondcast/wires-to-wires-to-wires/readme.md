@@ -2,7 +2,7 @@
 > It's provided here, DRM-free :)<br>
 > Please only read or listen if you've paid!
 
-<input id="paid-checkbox" type="checkbox"> Tick this box if you've paid!
+<input id="paid-checkbox" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
 
 <script>
   const paid = localStorage.getItem('pondcast/wires-to-wires-to-wires/paid')
