@@ -9,6 +9,7 @@ I update the contents below every now and then.
 
 ## New things!
 
+- [Why I love the London coding scene](london)
 - [Put it in a video](art/in-a-video/)
 - [Thank you cards](sayings/thank-you-cards)
 - [Hackernews is a vile website](social-media/hackernews)
