@@ -5,6 +5,7 @@ My name is Lu. Every now and then, I need the loo.
 It doesn't always go as planned. On this page, I'll document every single unusual Lu loo visit from my life.
 
 > - 2nd December 2023: backfilled with many times I can remember. missed out loads but it's a good start.
+> - 3rd December 2023: remembered and added the burp castle tale.
 
 ## Madame no
 
@@ -14,7 +15,7 @@ In a panic, he turned around and reached out his hand.
 
 "Madame, no!!!" he called. "That's the mens!"
 
-I nodded at him in silence. 
+I nodded at him in silence.
 
 There was an awkward pause.
 
@@ -32,13 +33,13 @@ We stood still.
 
 Shock and realisation grew on the bartender's face. "Oh no no I didn't mean-" he said.
 
-"I didn't mean you have a girls drink, sir" he said to my dad. 
+"I didn't mean you have a girls drink, sir" he said to my dad.
 
 Later on, I went to the loo. The bartender saw me walk out of the mens. He stared as if he'd just seen a ghost.
 
 ## Lu or Luke
 
-I met up with some old school friends. One of them seemed very uncomfortable around me. He kept interrupting conversations I was having with other people. 
+I met up with some old school friends. One of them seemed very uncomfortable around me. He kept interrupting conversations I was having with other people.
 
 "But is it Lu or Luke? I don't understand?"
 
@@ -52,7 +53,7 @@ When I was queuing for the loo, he joined the queue behind me. He jokingly asked
 
 I was at a meetup with a friend. I told her I was going to the loo. She said she'd come too.
 
-I started walking to the mens loo. She walked with me. I didn't know where the womens loo was. I was pretty sure it wasn't next to the mens. But hey, she was walking with me, so maybe she knew where it was. 
+I started walking to the mens loo. She walked with me. I didn't know where the womens loo was. I was pretty sure it wasn't next to the mens. But hey, she was walking with me, so maybe she knew where it was.
 
 As we were walking, she stopped and said "Wait, where is the loo?"
 
@@ -76,7 +77,7 @@ Later on, he found me at the bar and apologised for thinking I was a girl.
 
 ## Legally
 
-I was catching a drink with some old school friends. I was sharing my frustrations and fears about toilets with them. 
+I was catching a drink with some old school friends. I was sharing my frustrations and fears about toilets with them.
 
 One friend was trying to explain to me "But legally, they can't stop you."
 
@@ -88,7 +89,7 @@ I went looking for a gender-neutral loo at the Southbank Centre in London. I fou
 
 I went to the gents loo instead. As I was walking in, an old man tapped me repeatedly on the shoulder, shouting "Hey! Hey!"
 
-I walked very fast forwards into one of the cubicles. 
+I walked very fast forwards into one of the cubicles.
 
 When I was in the cubicle, I waited there for a long time, to make sure he was gone before I went out.
 
@@ -120,7 +121,7 @@ I went to the loo three times that evening. The first time, I walked past the fi
 
 ## Double-take
 
-I was at a tech conference. I went to the mens loo at the same time as a friend. We walked out the loo together, at the same time a man walked in. He gave me the most cartoonish double-take I've ever seen. 
+I was at a tech conference. I went to the mens loo at the same time as a friend. We walked out the loo together, at the same time a man walked in. He gave me the most cartoonish double-take I've ever seen.
 
 My friend found it hilarious.
 
@@ -130,13 +131,13 @@ When we moved into the new office, I noticed that there was a womens loo, a mens
 
 Day after day, it stayed locked. So I went into the mens each time.
 
-One day, I got the guts to open the disabled loo from the outside. Nobody was in there. I started using that one. 
+One day, I got the guts to open the disabled loo from the outside. Nobody was in there. I started using that one.
 
 I think it was locked because the flusher was slightly broken. It was a bit fiddly, but it worked fine.
 
 ## So sorry
 
-After a while, the disabled loo got completely locked. They put an out-of-order sign on the door too. 
+After a while, the disabled loo got completely locked. They put an out-of-order sign on the door too.
 
 So I started using the mens again.
 
@@ -148,15 +149,21 @@ I watched as he stepped out and went into the womens loo instead.
 
 I was at a tech conference and I told my friend that I was going to the loo. He said he would come too.
 
-I walked towards the womens loo, and he kept following. 
+I walked towards the womens loo, and he kept following.
 
 I pointed out the toilet sign to him. He stopped, and said, "Oh yeah".
+
+## Burp castle
+
+I was in a bar called Burp Castle and I needed the loo. I went into the mens loo, and it had loads of cool stickers & art on its walls.
+
+My partner told me it was the same in the womens too. So I went into the womens to see it. It was cool.
 
 ## Point me
 
 I was in a pub after work and I needed the loo. I noticed that I looked quite feminine that day, so I wasn't sure which one to go in. Both loos were on opposite sides of the pub, so I couldn't just pick out the emptiest one either.
 
-I wanted to get an honest opinion. I didn't think my colleagues would tell me the cold hard truth. So I went to the bar and pretended I didn't know where the loos were. 
+I wanted to get an honest opinion. I didn't think my colleagues would tell me the cold hard truth. So I went to the bar and pretended I didn't know where the loos were.
 
 "Could you point me to the loo please?" I asked.
 
