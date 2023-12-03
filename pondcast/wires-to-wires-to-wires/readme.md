@@ -33,9 +33,9 @@ It's time for another weekly episode... of the...
 
 What's new this week?
 
-![Wires in arroost](1.png)
-
 ## Wires to wires to wires
+
+![Wires in arroost](1.png)
 
 I've been working on [Arroost](https://github.com/TodePond/Arroost). The music-making tool.
 
@@ -45,9 +45,9 @@ And now, you can also connect a wire to a wire. The pulse of one wire can change
 
 It's an important feature for making more complex things in Arroost.
 
-![Coloured wires in arroost](2.png)
-
 ## Red, green, and blue
+
+![Coloured wires in arroost](2.png)
 
 I added another little button to wires! It changes the colour of the wire, cycling through red, green, blue, and white.
 
@@ -63,9 +63,9 @@ But only red pulse channels can travel through a red wire. The green and blue pa
 
 You can use the colour of wires to control the flow of pulses. Filter off certain channels, and then use it as a 'switch', to turn off parts of your machine. Or automate a computer program.
 
-![Flashing circles in arroost](3.png)
-
 ## Mix and match
+
+![Flashing circles in arroost](3.png)
 
 When a cell fires, it flashes.
 
