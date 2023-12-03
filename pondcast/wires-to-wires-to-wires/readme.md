@@ -2,6 +2,8 @@
 > It's provided here, DRM-free :)<br>
 > Please only read or listen if you've paid!
 
+<input type="checkbox">
+
 - [ ] Tick this box if you've paid!
 
 # TODEPOND PONDCAST: Wires to wires to wires
