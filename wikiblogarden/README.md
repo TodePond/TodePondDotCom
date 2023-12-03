@@ -9,10 +9,9 @@ I update the contents below every now and then.
 
 ## New things!
 
-- [Why I love the London coding scene](london)
-- [Put it in a video](art/in-a-video/)
-- [Thank you cards](sayings/thank-you-cards)
-- [Hackernews is a vile website](social-media/hackernews)
+- [Lu loo tales](health/loo-lu)
+- [e/acc towards what?](better-computing/worse-computing/e-acc)
+- [I want your feed](social-media/feeds-i-like)
 
 ## Topics
 
@@ -21,6 +20,8 @@ I update the contents below every now and then.
 - [You can just ask](./sayings/just-ask)
 - [Never stop writing](art/never-stop-writing)
 - [My name](./my-name)
+- [Put it in a video](art/in-a-video/)
+- [Why I love the London coding scene](london)
 
 ### The internet
 
@@ -33,11 +34,13 @@ I update the contents below every now and then.
 
 ### Work
 
+- [Thank you cards](sayings/thank-you-cards)
 - [How I get money](work/how-i-get-money)
 - [The easiest way to earn trust](sayings/trust)
 
 ### Evil
 
+- [Hackernews is a vile website](social-media/hackernews)
 - [Just block them](./social-media/just-block-them)
 - [What will artificial intelligence do to us?](better-computing/worse-computing/artificial-intelligence/)
 - [Minification is evil](better-computing/worse-computing/minification)
