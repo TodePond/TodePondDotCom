@@ -2,7 +2,22 @@
 > It's provided here, DRM-free :)<br>
 > Please only read or listen if you've paid!
 
-<input type="checkbox"> Tick this box if you've paid!
+<input id="paid-checkbox" type="checkbox"> Tick this box if you've paid!
+
+<script>
+  const paid = localStorage.getItem('pondcast/wires-to-wires-to-wires/paid')
+  const checkbox = document.getElementById('paid-checkbox')
+  if (paid) {
+    checkbox.checked = true
+  }
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+      localStorage.setItem('pondcast/wires-to-wires-to-wires/paid', 'true')
+    } else {
+      localStorage.removeItem('pondcast/wires-to-wires-to-wires/paid')
+    }
+  })
+</script>
 
 # TODEPOND PONDCAST: Wires to wires to wires
 
