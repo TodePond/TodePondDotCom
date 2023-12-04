@@ -77,7 +77,7 @@ Is a transphobic dog-whistle designed to get you stuck at the start.
 
 Watch the full video:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18?si=tB9g87pbRRqz_-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18?si=tB9g87pbRRqz_-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 
