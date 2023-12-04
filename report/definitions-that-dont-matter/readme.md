@@ -19,7 +19,7 @@ It doesn't matter.
 - Assembly
 - Cellpond
 
-I don't care if any of these are programming languages or not. Stop gatekeeping.
+I don't care if any of these are programming languages or not.
 
 ## What is a cellular automata?
 
@@ -51,7 +51,7 @@ Oh no not again-
 
 ## What is a fractal?
 
-You can keep zooming into them, uncovering more and more detail, and you'll never get to the end, no matter how far you go, there'll always be one wanker, with a "well-actually", pulling you up, on some bullshit point, that doesn't apply, to your current situation, forcing you, to get stuck, before you've even-
+You can keep zooming in, uncovering more and more detail, and you'll never get to the end, no matter how far you go, there'll always be one wanker, with a "well-actually", pulling you up, on some bullshit point, that doesn't apply, to your current situation, forcing you, to get stuck, before you've even-
 
 ## What is art?
 
@@ -73,10 +73,7 @@ Is a transphobic dog-whistle designed to get you stuck at the start.
 > The definition that you use<br>
 > tells us something about YOU
 >
-> I like to use my definitions very loosely
->
-> But what about you?<br>
-> What definitions do you use?
+> Not what you define
 
 
 <br>
