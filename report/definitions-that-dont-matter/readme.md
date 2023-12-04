@@ -1,3 +1,9 @@
+<style>
+  .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  </style>
+
 # RIBBIT REPORT: Definitions that don't matter
 
 Here are some definitions that don't matter.
@@ -77,7 +83,9 @@ Is a transphobic dog-whistle designed to get you stuck at the start.
 
 Watch the full video:
 
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18?si=tB9g87pbRRqz_-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <br>
 
