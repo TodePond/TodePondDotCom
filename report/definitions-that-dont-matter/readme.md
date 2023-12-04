@@ -81,7 +81,7 @@ Is a transphobic dog-whistle designed to get you stuck at the start.
 
 <br>
 
-Watch the full video:
+Watch the full [video](https://youtu.be/ZMklf0vUl18):
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18?si=tB9g87pbRRqz_-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
