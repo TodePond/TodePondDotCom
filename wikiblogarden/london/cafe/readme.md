@@ -10,7 +10,7 @@ They wish each other well at Eid and Christmas.
 
 ## Familiar faces
 
-The same faces appear each day. There's a sense of community there.
+The same faces appear each day.
 
 When one passed away, the owner travelled all the way to New York for the funeral.
 
@@ -18,7 +18,7 @@ When one passed away, the owner travelled all the way to New York for the funera
 
 It's a luxury to eat at the cafe. It's cheaper to stay at home.
 
-But it's not just a payment to a business. It's an investment in the town.
+But it's not just a payment to a business. It's an investment in the community.
 
 ## The internet doesn't work
 
