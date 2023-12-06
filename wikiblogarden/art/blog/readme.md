@@ -8,8 +8,8 @@ The real title of this post is:
 
 We've already been through this.
 
-1. [Express yourself.](/wikiblogarden/art/never-stop-writing)
-2. [Unleash your inner thoughts.](/wikiblogarden/art/in-a-video)
+1. [Unleash your inner thoughts.](/wikiblogarden/art/never-stop-writing)
+2. [Express yourself.](/wikiblogarden/art/in-a-video)
 3. [Matt Webb says you should.](/wikiblogarden/my-wikiblogarden)
 
 ## But I'm not sure
