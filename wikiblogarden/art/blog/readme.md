@@ -14,7 +14,7 @@ We've already been through this.
 
 ## But I'm not sure
 
-If you don't believe me, just [email me](/) with your concerns.
+If you don't believe me, please [email me](/) with your concerns.
 
 ## But I have nowhere to put it
 
@@ -27,10 +27,12 @@ If you need help with these steps, feel free to [email me](/).
 
 ## But but but
 
-[Email me](/) your writing. I'll put it on my site for you.
+[Email me](/) your writing. I'll put it on my site if you want.
+
+# Why you should email
+
+It's a form of writing.
 
 <br>
 
-
-
-Back to the [blog](/).
+Back to the [writing](/).
