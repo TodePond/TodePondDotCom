@@ -256,5 +256,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/london/cafe</guid>
   			<description>We've been going to the same local cafe for decades.</description>
   		</item>
+		<item>
+  			<title>Why you should blog</title>
+  			<pubDate>Wed, 06 Dec 2023 11:39:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/art/blog/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/art/blog/</guid>
+  			<description>We've already been through this.</description>
+  		</item>
   </channel>
 </rss>
