@@ -1,12 +1,10 @@
 # Why you should blog
 
-Wait wait hang on a second.
-
-"Blogging" is just a silly way of saying "writing".  The real title of this post is:
+Wait hang on. "Blog" is just a silly way of saying "write".  The real title of this post is:
 
 # Why you should write
 
-Do I really have to go through this again? There are three reasons. I've already listed them out.
+There are three reasons.
 
 1. [Express yourself.](/wikiblogarden/art/never-stop-writing)
 2. [Unleash your inner thoughts.](/wikiblogarden/art/in-a-video)
