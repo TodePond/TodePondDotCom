@@ -1,10 +1,12 @@
 # Why you should blog
 
-Wait hang on. "Blog" is just a silly way of saying "write".  The real title of this post is:
+Wait a second.
+
+The real title of this post is:
 
 # Why you should write
 
-There are three reasons.
+We've already been through this.
 
 1. [Express yourself.](/wikiblogarden/art/never-stop-writing)
 2. [Unleash your inner thoughts.](/wikiblogarden/art/in-a-video)
@@ -12,9 +14,7 @@ There are three reasons.
 
 ## But I'm not sure
 
-If you still don't believe me, just [email me](/) with your concerns.
-
-> *ha! tricked you! by emailing me, you would be **writing**! ha ha haaaaaa!*
+If you don't believe me, just [email me](/) with your concerns.
 
 ## But I have nowhere to put it
 
