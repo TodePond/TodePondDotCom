@@ -44,7 +44,7 @@ Many trans people spread this idea too. They tell me I should 'pick' and go 'ful
 
 ## Youtubers
 
-For one reason or another, there are a lot of trans youtubers. They often lean in to the 'instant switch' idea. Some even do it [during a video].
+For one reason or another, there are a lot of trans youtubers. They often lean in to the 'instant switch' idea. Some even do it [during a video](https://youtu.be/AITRzvm0Xtg?si=9Eh4i8gMazAceDRk).
 
 I think they shouldn't do that. It adds to the made-up idea that transition happens instantly. It doesn't.
 
@@ -68,3 +68,7 @@ Embrace the gradient. Transition in slow-motion. Be a [scrappy fiddle](/wikiblog
 <br>
 
 Back to the [wiki/blog/garden](/wikiblogarden).
+
+<br>
+
+> Side note: The "I'm so glad I don't have to do the voice anymore" line is the one that sticks out to me most.
