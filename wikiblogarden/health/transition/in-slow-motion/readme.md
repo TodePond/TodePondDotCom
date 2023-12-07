@@ -70,5 +70,3 @@ Embrace the gradient. Transition in slow-motion. Be a [scrappy fiddle](/wikiblog
 Back to the [wiki/blog/garden](/wikiblogarden).
 
 <br>
-
-> Side note: The "I'm so glad I don't have to do the voice anymore" line is the one that sticks out to me most.
