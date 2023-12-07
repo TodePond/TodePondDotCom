@@ -38,9 +38,9 @@ Some people would like you to believe that transition happens instantly. You go 
 
 _That's not how change works._
 
-But this idea is propagated by society on the whole. It says "You're either a man or a woman. There is no [in between]."
+But this idea is propagated by society on the whole. It says "You're either a man or a woman. There is no [in between](/report/definitions-that-dont-matter/)."
 
-Many trans people spread this idea too. They tell me I should 'pick' and go 'full-time' and do 'stealth' and never tell anyone [my name].
+Many trans people spread this idea too. They tell me I should 'pick' and go 'full-time' and do 'stealth' and never tell anyone [my name](/wikiblogarden/my-name/).
 
 ## Youtubers
 
