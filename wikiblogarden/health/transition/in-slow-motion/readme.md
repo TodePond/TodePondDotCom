@@ -59,7 +59,7 @@ I want to counteract all of the 'instant-switchers' out there.
 
 ## Transition
 
-> _"Like one song fading into another."_
+> **_"Like one song fading into another."_**
 >
 > - [Devine](https://xxiivv.com/)
 
