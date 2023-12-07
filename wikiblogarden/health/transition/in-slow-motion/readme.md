@@ -24,7 +24,7 @@ Some people do all of these steps. Some people do a few. Some people do none.
 
 Try to pick out what _you_ want. Don't listen to anyone else.
 
-## It's takes a bloody long time
+## It takes a bloody long time
 
 Transition takes for fuckin ever. It happens very slowly, but it happens.
 
