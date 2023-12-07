@@ -68,5 +68,3 @@ Embrace the gradient. Transition in slow-motion. Be a [scrappy fiddle](/wikiblog
 <br>
 
 Back to the [wiki/blog/garden](/wikiblogarden).
-
-<br>
