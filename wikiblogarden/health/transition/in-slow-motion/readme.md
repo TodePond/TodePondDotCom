@@ -44,7 +44,7 @@ Many trans people spread this idea too. They tell me I should 'pick' and go 'ful
 
 ## Youtubers
 
-For one reason or another, there are a lot of trans youtubers. They often lean in to the 'instant switch' idea. Some even do it [during a video](https://youtu.be/AITRzvm0Xtg?si=9Eh4i8gMazAceDRk).
+For one reason or another, there are a lot of trans youtubers. They often lean in to the 'instant switch' idea. Some even do it [during a video](https://youtu.be/AITRzvm0Xtg).
 
 I think they shouldn't do that. It adds to the made-up idea that transition happens instantly. It doesn't.
 
