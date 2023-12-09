@@ -1,3 +1,5 @@
+<link href="/wikiblogarden/obsurreality/style.css" />
+
 # LEVEL OBSURREALITY 1
 ## SCIENCE
 
