@@ -1,3 +1,5 @@
+<link href="/wikiblogarden/obsurreality/style.css" />
+
 # INTRODUCTION
 
 > Here we gather,<br>
