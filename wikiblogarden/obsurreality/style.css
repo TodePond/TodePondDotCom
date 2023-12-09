@@ -1,6 +1,6 @@
 body {
-  color: black;
-  background-color: white;
+  color: black !important;
+  background-color: white !important;
   font-family: sans-serif;
   max-width: 750px;
   margin: 0 auto;
