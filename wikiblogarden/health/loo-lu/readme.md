@@ -6,6 +6,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 
 > - 2nd December 2023: backfilled with many times I can remember. missed out loads but it's a good start.
 > - 3rd December 2023: remembered and added the burp castle tale.
+> - 9th December 2023: added two loo lu tales from this week.
 
 ## Madame no
 
@@ -174,6 +175,39 @@ He pointed me to the womens. I went to the womens.
 ## Turned around
 
 I was in an art gallery and I needed the loo. I went to the gents loo. When I walked out, a young man was walking in. He saw me, and looked surprised. He turned around, then turned around again. He looked up at the sign, and watched me as I walked away.
+
+
+## Gasp
+
+My colleague read these Lu loo tales and found them funny.
+
+After a meeting, I needed the loo. I told her I was just "popping to the loo". She gave me a grin and followed me there.
+
+When I went into the mens, she jokingly let out an audible gasp. And then walked into the womens.
+
+## The guard
+
+I was in a pub and I needed the loo. I tried to do my usual trick: I asked the bartender to 'point me' to the loo. He sounded annoyed and sarcastically said "Do you see the sign?" while pointing to the toilets sign.
+
+Unfortunately, both the mens and womens loos were at the same place, so my trick didn't work.
+
+A group of loud, drunken lads walked into the mens so I didn't want to go in that one.
+
+Luckily, there was a disabled loo there. It needed a radar key, but there was already a radar key in it! So I opened it and went in.
+
+But the door didn't lock from the inside. I wondered if it wasn't locking because there was still a radar key in it. So I went back outside, took the radar key out, and then went back inside.
+
+But unfortunately, it still didn't lock. So I went out again, and put the radar key back in the lock, and then I went into the womens loo.
+
+There were only two cubicles inside. One said "engaged". The other one said "vacant". I pushed the door of the "vacant" one, but it was actually "engaged". The lock was just broken.
+
+I freaked out and went back to my group at the table.
+
+My friend offered to come to the loo with me. She stood outside the disabled loo as my "guard" while I went to the loo. 
+
+Later on, I needed the loo again. My friend came with me. But unfortunately, the disabled key had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
+
+She suggested calling this Lu loo tale "The guard".
 
 <br>
 
