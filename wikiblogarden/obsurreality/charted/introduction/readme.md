@@ -1,4 +1,4 @@
-<link href="/wikiblogarden/obsurreality/style.css" />
+<link rel="stylesheet" href="/wikiblogarden/obsurreality/style.css" />
 
 # INTRODUCTION
 
