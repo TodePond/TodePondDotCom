@@ -18,4 +18,4 @@
 
 <br>
 
-Back to the [wikiblogarden](/wikiblogarden).
+back to the [WIKIBLOGARDEN](/wikiblogarden).
