@@ -1,3 +1,5 @@
+<link href="/wikiblogarden/obsurreality/style.css" />
+
 # CHARTED OBSURREALITY
 
 (a book of poems by the OBSURREALITY COUNCIL)
