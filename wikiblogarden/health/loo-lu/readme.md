@@ -205,7 +205,7 @@ I freaked out and went back to my group at the table.
 
 My friend offered to come to the loo with me. She stood outside the disabled loo as my "guard" while I went to the loo. 
 
-Later on, I needed the loo again. My friend came with me. But unfortunately, the disabled key had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
+Later on, I needed the loo again. My friend came with me again. But unfortunately, the disabled loo had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
 
 She suggested calling this Lu loo tale "The guard".
 
