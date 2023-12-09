@@ -1,4 +1,4 @@
-<link type="stylesheet" href="/wikiblogarden/obsurreality/style.css" />
+<link rel="stylesheet" href="/wikiblogarden/obsurreality/style.css" />
 
 # CHARTED OBSURREALITY
 
