@@ -4,7 +4,7 @@ I hold various bits of data on various computers.
 
 ## Various devices
 
-For example, I keep a shopping list on my phone. Through the magic of the *internet*, I keep the same shopping list on my laptop, and also my desktop, and also every[^1] computer in the entire[^2] world.
+For example, I keep a shopping list on my phone. Through the magic of the *internet*, I keep the same shopping list on my laptop, and also my desktop, and also every[^1] other computer in the entire[^2] world.
 
 Any changes I make on one computer will appear on all the others. This even works when I'm not connected to the internet. The changes get spread around as soon as I reconnect. This isn't important to everyone, but it's really important to me because I often add things to my shopping list when I'm on the tube.
 
