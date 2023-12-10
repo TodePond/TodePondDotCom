@@ -28,17 +28,17 @@ This is good. I don't want it on my own computer! I want it to be on a server so
 
 If they turn out to be bad eggs, or untrustworthy, I can move my data to another server.
 
-## But how?
+## But how does it work?
 
 When I edit my shopping list, how do my changes spread around to all the other computers? It sounds simple - just apply those same edits on all of them.
 
-But unfortunately, it's really hard. Because the other computers might have edits of their own on them.
+But unfortunately, it's really hard because the other computers might have edits of their own on them.
 
 - Which order do you do the edits in?
 - Which ones take priority?
 - What do you do if an edit doesn't even make sense anymore?
 
-There's a whole field of research trying to solve these problems. It's complicated and slow. And it seems to require a different kind of solution in every kind of program.
+There's a whole field of research trying to solve these problems. It's complicated and slow. And it seems to require a different kind of solution for every kind of program.
 
 ## Just ask
 
@@ -46,11 +46,11 @@ Remember, [you can just ask](/wikiblogarden/sayings/just-ask).
 
 When you encounter one of these problems, don't try to figure it out. **Just ask** the user.
 
-Even when we're collaborating live, just ask!
+*Even when we're collaborating live, **just ask**!*
 
 It's like my partner says...
 
-> I don't like it when technology tries to think like me. I'd rather learn the rules of it, and solve it myself.
+> I don't like it when technology tries to think like me. I'd rather learn its rules, and solve it myself.
 
 <br>
 
