@@ -32,9 +32,9 @@ Welcome back... to another weekly episode... of the...
 
 What's new this week?
 
-![Arroost](1.png)
-
 ## Pixel
+
+![Arroost](1.png)
 
 I added a new thing to Arroost. It's a square shape. And it's for **storing** information.
 
@@ -46,9 +46,9 @@ But there's now an exception. If a pulse is in a square, it stays around.
 
 You could use it to keep hold of something, for later use. Or use it as an indicator. A little light to show if something is on or off. Or combine different squares together as pixels, to make a screen. Show something on the display! Make pink sand! (Warning: very tricky)
 
-![Arroost](2.png)
-
 ## Infinity
+
+![Arroost](2.png)
 
 This week, I've been working on Arroost's final feature (at least, its final feature needed for the upcoming video).
 
@@ -58,9 +58,9 @@ I finetuned my secret 'smooth-camera' mode that I often use for longer shots. Yo
 
 And the camera now 'teleports' you to a different place when you zoom past a certain threshold. For testing purposes, it currently just teleports you back into the same 'world' that you're currently in. It feels like falling down an infinite tunnel. I know that's a bit cryptic but it's getting to the point where I don't want to spoil too much.
 
-![Ink & Switch](3.png)
-
 ## Interview
+
+![Ink & Switch](3.png)
 
 This week, I got interviewed at an internal event at [Ink & Switch]. There were quite a few people watching!
 
@@ -70,5 +70,5 @@ Sometimes, when I speak about my approach out loud, I hear how ridiculous they s
 
 **Either way, thank you for supporting me and my work! Welcome to all the new people that joined this week! And welcome back to all the old-timers. Wherever you are, I hope you have a Great week.** 🐸
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _
+Days since tode fell asleep: 339<br>
+Days since bot went missing: 304
