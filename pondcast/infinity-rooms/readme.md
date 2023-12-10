@@ -62,7 +62,7 @@ And the camera now 'teleports' you to a different place when you zoom past a cer
 
 ![Ink & Switch](3.png)
 
-This week, I got interviewed at an internal event at [Ink & Switch]. There were quite a few people watching!
+This week, I got interviewed at an internal event at [Ink & Switch](https://www.inkandswitch.com/). There were quite a few people watching!
 
 I got asked about how I got started, how I think about my projects, how I go about making them. It was very fun! But slightly odd talking about myself for so long.
 
