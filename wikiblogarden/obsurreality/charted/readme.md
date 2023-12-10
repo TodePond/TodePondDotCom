@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/wikiblogarden/obsurreality/style.css" />
+
 # CHARTED OBSURREALITY
 
 (a book of poems by the OBSURREALITY COUNCIL)
@@ -13,3 +15,7 @@
 - coming soon...
 - coming soon...
 - coming soon...
+
+<br>
+
+back to the [WIKIBLOGARDEN](/wikiblogarden).
