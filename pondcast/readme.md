@@ -2,3 +2,5 @@
 - [Perfect rhyme](perfect-rhyme)
 - [Set](set)
 - [Multiple angles](multiple-angles)
+- [Wires to wires to wires](wires-to-wires-to-wires)
+- [Infinity rooms](infinity-rooms)
