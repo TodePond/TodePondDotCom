@@ -9,9 +9,8 @@ It's remarkably hard to put data up there in the cloud.
 My dream scenario would be a simple javascript function I can call.
 
 ```js
-putDataInTheCloud({
-  key: "favourite-food",
-  value: "pasta",
+remoteStorage.setItem("favourite-food", "pasta", {
+  address: "https://todepond.com/cloud",
   password: "my-super-secret-password",
 })
 ```
@@ -19,8 +18,8 @@ putDataInTheCloud({
 And to get it back...
 
 ```js
-getDataFromTheCloud({
-  key: "favourite-food",
+remoteStorage.getItem("favourite-food", {
+  address: "https://todepond.com/cloud",
   password: "my-super-secret-password"
 })
 ```
