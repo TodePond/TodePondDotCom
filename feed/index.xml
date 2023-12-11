@@ -284,5 +284,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/cloud/</guid>
   			<description>It's remarkably hard to put data up there in the cloud. Here's my dream scenario for how it should work.</description>
   		</item>
+		<item>
+  			<title>How I write my blog</title>
+  			<pubDate>Mon, 11 Dec 2023 18:08:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo</guid>
+  			<description>This is a demo.</description>
+  		</item>
   </channel>
 </rss>
