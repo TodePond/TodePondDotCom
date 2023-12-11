@@ -59,9 +59,9 @@ I wouldn't actually pass it over as a string literal. That would mean that other
 You can even store the password locally. That way, you don't need to type it in each time.
 
 <pre>
-<input type="password" oninput="handleInput()" />
+&lt;input type="password" oninput="handleInput()" />
 
-<script>
+&lt;script>
   const address = "https://todepond.com/cloud";
   const input = document.querySelector("input");
 
