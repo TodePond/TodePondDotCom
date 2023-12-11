@@ -87,6 +87,6 @@ pre {
 }
 
 pre mark {
-  background-color: #46ff80;
-  color: black;
+  color: #46ff80;
+  background: none;
 }
