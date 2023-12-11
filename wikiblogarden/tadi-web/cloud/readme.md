@@ -104,7 +104,7 @@ A simple "save password to local storage" toggle would let the user choose.
   const handleInput = () => {
     <mark>if (checkbox.checked) {</mark>
       localStorage.setItem("password", input.value);
-    }
+    <mark>}</mark>
   };
 
   const handleToggle = () => {
