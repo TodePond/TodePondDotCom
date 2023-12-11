@@ -58,7 +58,7 @@ I wouldn't actually pass it over as a string literal. That would mean that other
 
 You can even store the password locally. That way, you don't need to type it in each time.
 
-```html
+<pre>
 <input type="password" oninput="handleInput()" />
 
 <script>
@@ -78,7 +78,7 @@ You can even store the password locally. That way, you don't need to type it in 
     });
   };
 </script>
-```
+</pre>
 
 ## But but cross-site scripting!!
 
