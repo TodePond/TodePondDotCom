@@ -85,3 +85,8 @@ pre {
   padding: 11px;
   overflow-x: auto;
 }
+
+pre mark {
+  background-color: #9faeee;
+  color: black;
+}

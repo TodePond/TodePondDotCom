@@ -65,11 +65,11 @@ You can even store the password locally. That way, you don't need to type it in 
   const address = "https://todepond.com/cloud";
   const input = document.querySelector("input");
 
-  input.value = localStorage.getItem("password") ?? "";
+  <mark>input.value = localStorage.getItem("password") ?? "";</mark>;
 
-  const handleInput = () => {
+  <mark>const handleInput = () => {
     localStorage.setItem("password", input.value);
-  };
+  };</mark>
 
   const setFavourite = (food) => {
     remoteStorage.setItem("favourite-food", food, {
