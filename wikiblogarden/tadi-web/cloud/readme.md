@@ -2,7 +2,7 @@
 
 # Putting data in the cloud
 
-It's remarkably hard to put data up there in the cloud.
+It's remarkably hard to put data up there in the [cloud](https://www.todepond.com/wikiblogarden/better-computing/synchronising-data/).
 
 ## Dream scenario
 
@@ -145,7 +145,7 @@ How else could I do this?
 
 No, I don't want to set up something bulky like supabase. No, I don't want to lock myself into a stack like deno. No, I don't want to use node, or vercel, or anything like that.
 
-Tally of people who suggested these things anyway: 1
+Tally of people who suggested these things anyway: 2
 
 <br>
 
