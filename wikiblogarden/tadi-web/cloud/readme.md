@@ -43,12 +43,12 @@ I wouldn't actually pass it over as a string literal. That would mean that other
 
 <script>
 const input = document.querySelector("input")
+const address = "https://todepond.com/cloud"
 
 const setFavourite = (food) => {
-  putDataInTheCloud({
-    key: "favourite-food",
-    value: food,
-    password: input.value,
+  remoteStorage.setItem("favourite-food", food, {
+    address,
+    password: input.value
   })
 }
 </script>
