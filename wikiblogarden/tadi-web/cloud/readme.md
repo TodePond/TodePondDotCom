@@ -70,7 +70,7 @@ You can even store the password locally. That way, you don't need to type it in 
   const handleInput = () => {
     localStorage.setItem("password", input.value);
   }</mark>
-  
+
   const setFavourite = (food) => {
     remoteStorage.setItem("favourite-food", food, {
       address,
@@ -86,36 +86,34 @@ If someone has access to your browser, it's already game over. They could just r
 
 A simple "save password to local storage" toggle would let the user choose.
 
-```html
-<input type="password" oninput="handleInput()" id="password" />
-<input type="checked" onchange="handleToggle()" id="save" />
-<label for="save">Save password to local storage</label>
+<pre>
+&lt;input type="password" oninput="handleInput()" id="password" />
+<mark>&lt;input type="checked" onchange="handleToggle()" id="save" />
+&lt;label for="save">Save password to local storage</label></mark>
 
-<script>
+&lt;script>
   const address = "https://todepond.com/cloud";
   const input = document.querySelector("#password");
-  const checkbox = document.querySelector("#save");
+<mark>  const checkbox = document.querySelector("#save");
 
   checkbox.checked = localStorage.getItem("save") ?? false;
-
   if (checkbox.checked) {
     input.value = localStorage.getItem("password") ?? "";
-  }
+  }</mark>
 
   const handleInput = () => {
-    if (checkbox.checked) {
+    <mark>if (checkbox.checked) {</mark>
       localStorage.setItem("password", input.value);
     }
   };
 
   const handleToggle = () => {
-    localStorage.setItem("save", checkbox.checked);
-
-    if (checkbox.checked) {
+<mark>    localStorage.setItem("save", checkbox.checked);
+    if (checkbox.checked) {</mark>
       localStorage.setItem("password", input.value);
-    } else {
+<mark>    } else {
       localStorage.removeItem("password");
-    }
+    }</mark>
   };
 
   const setFavourite = (food) => {
@@ -125,7 +123,7 @@ A simple "save password to local storage" toggle would let the user choose.
     });
   };
 </script>
-```
+</pre>
 
 ## Two factor authentication
 
