@@ -78,3 +78,10 @@ button.primary {
   background-color: #4680ff;
   color: white;
 }
+
+pre {
+  background-color: #374362;
+  color: #9faeee;
+  padding: 10px;
+  overflow-x: scroll;
+}
