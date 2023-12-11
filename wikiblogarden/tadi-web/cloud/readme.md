@@ -30,7 +30,7 @@ The first argument is the `key`. It lets me get back the same value later on.
 
 ## Value
 
-The `value` is what I store up there.
+The second argument is the `value`. It's what I store up there.
 
 ## Password
 
