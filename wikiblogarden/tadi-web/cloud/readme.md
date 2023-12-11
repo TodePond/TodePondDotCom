@@ -115,13 +115,6 @@ A simple "save password to local storage" toggle would let the user choose.
       localStorage.removeItem("password");
     }
   };</mark>
-
-  const setFavourite = (food) => {
-    remoteStorage.setItem("favourite-food", food, {
-      address,
-      password: input.value,
-    });
-  };
 </script>
 </pre>
 
