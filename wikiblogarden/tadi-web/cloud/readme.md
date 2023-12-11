@@ -70,7 +70,7 @@ You can even store the password locally. That way, you don't need to type it in 
   const handleInput = () => {
     localStorage.setItem("password", input.value);
   }</mark>
-
+  
   const setFavourite = (food) => {
     remoteStorage.setItem("favourite-food", food, {
       address,
