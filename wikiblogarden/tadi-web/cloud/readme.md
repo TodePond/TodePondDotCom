@@ -35,7 +35,7 @@ The `value` is what I store up there.
 
 ## Password
 
-The `password` is a setting that I have set on my rented server. It means that only I can use my rented cloud.
+The `password` is a secret that I've configured on my rented cloud. It means that other people can't use it - just me.
 
 I wouldn't actually pass it over as a string literal. That would mean that other people could view source and steal my password. Instead, there would be a password field in the user interface. To use the program, I would need to type in my password.
 
