@@ -86,7 +86,7 @@ If someone has access to your browser, it's already game over. They could just r
 
 A simple "save password to local storage" toggle would let the user choose.
 
-<pre>
+<pre class="changelog">
 &lt;input type="password" oninput="handleInput()" id="password" />
 <mark>&lt;input type="checked" onchange="handleToggle()" id="save" />
 &lt;label for="save">Save password to local storage</label></mark>

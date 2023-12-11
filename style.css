@@ -86,6 +86,14 @@ pre {
   overflow-x: auto;
 }
 
+pre.changelog {
+  color: #9faeee;
+}
+
+pre.changelog mark {
+  color: white;
+}
+
 pre mark {
   color: #46ff80;
   background: none;
