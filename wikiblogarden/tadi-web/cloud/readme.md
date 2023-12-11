@@ -40,14 +40,37 @@ The `password` is a secret that I've configured on my rented cloud. It means tha
 I wouldn't actually pass it over as a string literal. That would mean that other people could view source and steal my password. Instead, there would be a password field in the user interface. To use the program, I would need to type in my password.
 
 ```html
-<input type="password" oninput="handleInput()" />
+<input type="password" />
 
 <script>
-let password = ""
 const input = document.querySelector("input")
 
-const handleInput = () => {
-  password = input.value
+const setFavourite = (food) => {
+  putDataInTheCloud({
+    key: "favourite-food",
+    value: food,
+    password: input.value,
+  })
+}
+</script>
+```
+
+## Local storage
+
+You can even store the password locally. That way, you don't need to type it in each time.
+
+```html
+<input type="password" />
+
+<script>
+const input = document.querySelector("input")
+
+const setFavourite = (food) => {
+  putDataInTheCloud({
+    key: "favourite-food",
+    value: food,
+    password: input.value,
+  })
 }
 </script>
 ```
@@ -60,14 +83,20 @@ You can even store the password locally. That way, you don't need to type it in 
 <input type="password" oninput="handleInput()" />
 
 <script>
-let password = localStorage.get("password") ?? ""
 const input = document.querySelector("input")
 
-input.value = password
+input.value = localStorage.getItem("password") ?? ""
 
 const handleInput = () => {
-  password = input.value
-  localStorage.set("password", password)
+  localStorage.setItem("password", input.value)
+}
+
+const setFavourite = (food) => {
+  putDataInTheCloud({
+    key: "favourite-food",
+    value: food,
+    password: input.value,
+  })
 }
 </script>
 ```
@@ -76,7 +105,47 @@ const handleInput = () => {
 
 If someone has access to your browser, it's already game over. They could just read the password out of the input as you type it, or log your key presses.
 
-A simple "save password to local storage" toggle would let the user device.
+A simple "save password to local storage" toggle would let the user choose.
+
+```html
+<input type="password" oninput="handleInput()" id="password" />
+<input type="checked" onchange="handleToggle()" id="save" />
+
+<script>
+const input = document.querySelector("#password")
+const checkbox = document.querySelector("#save")
+
+checkbox.checked = localStorage.getItem("save") ?? false
+
+if (checkbox.checked) {
+  input.value = localStorage.getItem("password") ?? ""
+}
+
+const handleInput = () => {
+  if (checkbox.checked) {
+    localStorage.setItem("password", input.value)
+  }
+}
+
+const handleToggle = () => {
+  localStorage.setItem("save", checkbox.checked)
+
+  if (checkbox.checked) {
+    localStorage.setItem("password", input.value)
+  } else {
+    localStorage.removeItem("password")
+  }
+}
+
+const setFavourite = (food) => {
+  putDataInTheCloud({
+    key: "favourite-food",
+    value: food,
+    password: input.value,
+  })
+}
+</script>
+```
 
 ## Two factor authentication
 
