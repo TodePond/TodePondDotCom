@@ -12,7 +12,7 @@ My dream scenario would be a simple javascript function I can call.
 remoteStorage.setItem("favourite-food", "pasta", {
   address: "https://todepond.com/cloud",
   password: "my-super-secret-password",
-})
+});
 ```
 
 And to get it back...
@@ -20,13 +20,13 @@ And to get it back...
 ```js
 remoteStorage.getItem("favourite-food", {
   address: "https://todepond.com/cloud",
-  password: "my-super-secret-password"
-})
+  password: "my-super-secret-password",
+});
 ```
 
 ## Key
 
-The `key` option lets me get back the same value later on. 
+The first argument is the `key`. It lets me get back the same value later on.
 
 ## Value
 
@@ -42,15 +42,15 @@ I wouldn't actually pass it over as a string literal. That would mean that other
 <input type="password" />
 
 <script>
-const input = document.querySelector("input")
-const address = "https://todepond.com/cloud"
+  const address = "https://todepond.com/cloud";
+  const input = document.querySelector("input");
 
-const setFavourite = (food) => {
-  remoteStorage.setItem("favourite-food", food, {
-    address,
-    password: input.value
-  })
-}
+  const setFavourite = (food) => {
+    remoteStorage.setItem("favourite-food", food, {
+      address,
+      password: input.value,
+    });
+  };
 </script>
 ```
 
@@ -62,21 +62,21 @@ You can even store the password locally. That way, you don't need to type it in 
 <input type="password" oninput="handleInput()" />
 
 <script>
-const input = document.querySelector("input")
+  const address = "https://todepond.com/cloud";
+  const input = document.querySelector("input");
 
-input.value = localStorage.getItem("password") ?? ""
+  input.value = localStorage.getItem("password") ?? "";
 
-const handleInput = () => {
-  localStorage.setItem("password", input.value)
-}
+  const handleInput = () => {
+    localStorage.setItem("password", input.value);
+  };
 
-const setFavourite = (food) => {
-  putDataInTheCloud({
-    key: "favourite-food",
-    value: food,
-    password: input.value,
-  })
-}
+  const setFavourite = (food) => {
+    remoteStorage.setItem("favourite-food", food, {
+      address,
+      password: input.value,
+    });
+  };
 </script>
 ```
 
@@ -92,44 +92,44 @@ A simple "save password to local storage" toggle would let the user choose.
 <label for="save">Save password to local storage</label>
 
 <script>
-const input = document.querySelector("#password")
-const checkbox = document.querySelector("#save")
+  const address = "https://todepond.com/cloud";
+  const input = document.querySelector("#password");
+  const checkbox = document.querySelector("#save");
 
-checkbox.checked = localStorage.getItem("save") ?? false
-
-if (checkbox.checked) {
-  input.value = localStorage.getItem("password") ?? ""
-}
-
-const handleInput = () => {
-  if (checkbox.checked) {
-    localStorage.setItem("password", input.value)
-  }
-}
-
-const handleToggle = () => {
-  localStorage.setItem("save", checkbox.checked)
+  checkbox.checked = localStorage.getItem("save") ?? false;
 
   if (checkbox.checked) {
-    localStorage.setItem("password", input.value)
-  } else {
-    localStorage.removeItem("password")
+    input.value = localStorage.getItem("password") ?? "";
   }
-}
 
-const setFavourite = (food) => {
-  putDataInTheCloud({
-    key: "favourite-food",
-    value: food,
-    password: input.value,
-  })
-}
+  const handleInput = () => {
+    if (checkbox.checked) {
+      localStorage.setItem("password", input.value);
+    }
+  };
+
+  const handleToggle = () => {
+    localStorage.setItem("save", checkbox.checked);
+
+    if (checkbox.checked) {
+      localStorage.setItem("password", input.value);
+    } else {
+      localStorage.removeItem("password");
+    }
+  };
+
+  const setFavourite = (food) => {
+    remoteStorage.setItem("favourite-food", food, {
+      address,
+      password: input.value,
+    });
+  };
 </script>
 ```
 
 ## Two factor authentication
 
-A better form of security would be two-factor authentication. When you login from a browser that looks different, your cloud server could email you to ask if it's really you. 
+A better form of security would be two-factor authentication. When you login from a browser that looks different, your cloud server could email you to ask if it's really you.
 
 ## Val town
 
