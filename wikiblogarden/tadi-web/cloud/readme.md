@@ -110,6 +110,7 @@ A simple "save password to local storage" toggle would let the user choose.
 ```html
 <input type="password" oninput="handleInput()" id="password" />
 <input type="checked" onchange="handleToggle()" id="save" />
+<label for="save">Save password to local storage</label>
 
 <script>
 const input = document.querySelector("#password")
