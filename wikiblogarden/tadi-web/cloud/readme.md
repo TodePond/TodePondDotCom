@@ -60,26 +60,6 @@ const setFavourite = (food) => {
 You can even store the password locally. That way, you don't need to type it in each time.
 
 ```html
-<input type="password" />
-
-<script>
-const input = document.querySelector("input")
-
-const setFavourite = (food) => {
-  putDataInTheCloud({
-    key: "favourite-food",
-    value: food,
-    password: input.value,
-  })
-}
-</script>
-```
-
-## Local storage
-
-You can even store the password locally. That way, you don't need to type it in each time.
-
-```html
 <input type="password" oninput="handleInput()" />
 
 <script>
