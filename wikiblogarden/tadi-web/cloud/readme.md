@@ -145,7 +145,7 @@ How else could I do this?
 
 No, I don't want to set up something bulky like supabase. No, I don't want to lock myself into a stack like deno. No, I don't want to use node, or vercel, or anything like that.
 
-Tally of people who suggested these things anyway: 0
+Tally of people who suggested these things anyway: 1
 
 <br>
 
