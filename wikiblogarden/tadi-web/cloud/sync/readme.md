@@ -84,6 +84,10 @@ If the lists are out of sync, you need to merge them together somehow.
 
 To do this, show the user both versions, and ask them which one to keep. Let them copy stuff from one to the other as well.
 
+## What about live collaboration?
+
+Just do the same, but quicker.
+
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden)
