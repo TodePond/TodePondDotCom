@@ -30,7 +30,7 @@ We need to send it off to the cloud as well. For this example, I'll use my [imag
 Let's store our login details. Replace with your own address.
 
 ```html
-<imput type="password" onInput="handleInput()" />
+<input type="password" onInput="handleInput()" />
 <script>
 const input = document.querySelector("input")
 const login = {
