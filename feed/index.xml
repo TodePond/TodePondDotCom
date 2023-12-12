@@ -291,5 +291,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo</guid>
   			<description>This is a demo.</description>
   		</item>
+		<item>
+  			<title>How to synchronise data</title>
+  			<pubDate>Tue, 12 Dec 2023 09:03:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync</guid>
+  			<description>Here's how to synchronise data, tadi web style.</description>
+  		</item>
   </channel>
 </rss>
