@@ -298,5 +298,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync</guid>
   			<description>Here's how to synchronise data, tadi web style.</description>
   		</item>
+		<item>
+  			<title>Things Alex wants to write about</title>
+  			<pubDate>Wed, 13 Dec 2023 21:28:00 GMT</pubDate>
+  			<link>https://www.todepond.com/art/things-alex-wants-to-write-about</link>
+  			<guid>https://www.todepond.com/art/things-alex-wants-to-write-about</guid>
+  			<description>She told me.</description>
+  		</item>
   </channel>
 </rss>
