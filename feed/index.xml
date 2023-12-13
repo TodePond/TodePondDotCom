@@ -305,5 +305,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/art/things-alex-wants-to-write-about</guid>
   			<description>She told me.</description>
   		</item>
+		<item>
+  			<title>You have my explicit permission to post my stuff to hackernews</title>
+  			<pubDate>Wed, 13 Dec 2023 23:09:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/hackernews/permission</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/hackernews/permission</guid>
+  			<description>Hackernews is a vile website. That's exactly why you should post my stuff there.</description>
+  		</item>
   </channel>
 </rss>
