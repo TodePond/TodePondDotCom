@@ -7,6 +7,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 > - 2nd December 2023: backfilled with many times I can remember. missed out loads but it's a good start.
 > - 3rd December 2023: remembered and added the burp castle tale.
 > - 9th December 2023: added two loo lu tales from this week.
+> - 13th December 2023: added a flood-related tale.
 
 ## Madame no
 
@@ -208,6 +209,24 @@ My friend offered to come to the loo with me. She stood outside the disabled loo
 Later on, I needed the loo again. My friend came with me again. But unfortunately, the disabled loo had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
 
 She suggested calling this Lu loo tale "The guard".
+
+## Flood
+
+I was in a pub and I needed the loo. The 'point me' strategy worked here before, so I asked the bartender to point me to the loo.
+
+As I was asking, he was gearing up to point me to the womens. But when I said "loo", my voice slipped and went lower. He looked a bit confused, then said "The mens are over there, and the womens are over there."
+
+I went to the womens loo. None of the cubicle doors were shutting. I left the loo.
+
+I went back 5 minutes later, and the single non-broken cubicle was free. I used that one. Still, you had to push it quite hard to get it locked.
+
+When I was in there, I heard someone open the door to one of the other cubicles and say "Oh shit, sorry!"
+
+Someone else said that there had been a flood down here, and now the doors don't shut.
+
+I waited for the chatting to stop, and then I left the loo.
+
+The guy I was with told me that he thinks I pass.
 
 <br>
 
