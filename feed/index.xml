@@ -312,5 +312,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/social-media/hackernews/permission</guid>
   			<description>Hackernews is a vile website. That's exactly why you should post my stuff there.</description>
   		</item>
+		<item>
+  			<title>Hello world, tadi style</title>
+  			<pubDate>Thu, 14 Dec 2023 23:40:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/hello-world/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/hello-world/</guid>
+  			<description>Here’s how to code all the classic ‘hello world’ examples using a slippy mindset.</description>
+  		</item>
   </channel>
 </rss>
