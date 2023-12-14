@@ -10,8 +10,6 @@ Easy, just an html file with the following words.
 Hello world!
 ```
 
-<hr>
-
 Hello world!
 
 ## Button counter
@@ -30,8 +28,6 @@ const handleClick = () => {
 }
 </script>
 ```
-
-<hr>
 
 <button onclick="handleClick()">
   Count: <span id="count">0</span>
@@ -75,8 +71,6 @@ const addItem = () => {
 }
 </script>
 ```
-
-<hr>
 
 <main>
 </main>
