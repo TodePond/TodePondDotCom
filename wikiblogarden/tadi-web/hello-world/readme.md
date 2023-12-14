@@ -92,8 +92,8 @@ const template = document.querySelector("template")
 
 const addItem = () => {
   const item = template.content.cloneNode(true)
-  const delete = item.querySelector("button")
-  delete.addEventListener("click", () => item.remove())
+  const button = item.querySelector("button")
+  button.addEventListener("click", () => item.remove())
   main.append(item)
 }
 </script>
