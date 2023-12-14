@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/style.css" />
+
+<main></main>
+<button onclick="addItem()">Add item</button>
+
+<template>
+  <p style="display: flex; gap: 11px">
+    <input type="checkbox" />
+    <input type="text" />
+    <button>Delete</button>
+  </p>
+</template>
+
+<script>
+  const main = document.querySelector("main");
+  const template = document.querySelector("template");
+
+  const addItem = () => {
+    const fragment = template.content.cloneNode(true);
+    const item = fragment.querySelector("p");
+    const button = item.querySelector("button");
+    button.addEventListener("click", () => item.remove());
+    main.append(item);
+  };
+</script>

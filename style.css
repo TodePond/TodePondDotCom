@@ -98,3 +98,7 @@ pre mark {
   color: #46ff80;
   background: none;
 }
+
+input[type="checkbox"] {
+  width: 29px;
+}

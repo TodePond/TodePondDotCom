@@ -17,15 +17,13 @@ Hello world!
 Another classic. A button that counts upwards.
 
 ```html
-<button onclick="handleClick()">
-  Count: <span id="count">0</span>
-</button>
+<button onclick="handleClick()">Count: <span id="count">0</span></button>
 
 <script>
-const span = document.querySelector("#count")
-const handleClick = () => {
-  span.textContent = parseInt(span.textContent) + 1
-}
+  const span = document.querySelector("#count");
+  const handleClick = () => {
+    span.textContent = parseInt(span.textContent) + 1;
+  };
 </script>
 ```
 
@@ -45,14 +43,11 @@ const handleClick = () => {
 We can use templates for this one.
 
 ```html
-<main>
-</main>
-<button onclick="addItem()">
-  Add item
-</button>
+<main></main>
+<button onclick="addItem()">Add item</button>
 
 <template>
-  <p>
+  <p style="display: flex; gap: 11px">
     <input type="checkbox" />
     <input type="text" />
     <button>Delete</button>
@@ -60,26 +55,24 @@ We can use templates for this one.
 </template>
 
 <script>
-const main = document.querySelector("main")
-const template = document.querySelector("template")
+  const main = document.querySelector("main");
+  const template = document.querySelector("template");
 
-const addItem = () => {
-  const item = template.content.cloneNode(true)
-  const delete = item.querySelector("button")
-  delete.addEventListener("click", () => item.remove())
-  main.append(item)
-}
+  const addItem = () => {
+    const fragment = template.content.cloneNode(true);
+    const item = fragment.querySelector("p");
+    const button = item.querySelector("button");
+    button.addEventListener("click", () => item.remove());
+    main.append(item);
+  };
 </script>
 ```
 
-<main>
-</main>
-<button onclick="addItem()">
-  Add item
-</button>
+<main></main>
+<button onclick="addItem()">Add item</button>
 
 <template>
-  <p>
+  <p style="display: flex; gap: 11px">
     <input type="checkbox" />
     <input type="text" />
     <button>Delete</button>
@@ -87,15 +80,16 @@ const addItem = () => {
 </template>
 
 <script>
-const main = document.querySelector("main")
-const template = document.querySelector("template")
+  const main = document.querySelector("main");
+  const template = document.querySelector("template");
 
-const addItem = () => {
-  const item = template.content.cloneNode(true)
-  const button = item.querySelector("button")
-  button.addEventListener("click", () => item.remove())
-  main.append(item)
-}
+  const addItem = () => {
+    const fragment = template.content.cloneNode(true);
+    const item = fragment.querySelector("p");
+    const button = item.querySelector("button");
+    button.addEventListener("click", () => item.remove());
+    main.append(item);
+  };
 </script>
 
 ## Any others?
