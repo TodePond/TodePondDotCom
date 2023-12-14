@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="/style.css" />
+
+<main></main>
+<button onclick="addItem()">Add item</button>
+
+<template>
+  <p style="display: flex; gap: 11px">
+    <input onchange="saveItems()" type="checkbox" />
+    <input oninput="saveItems()" type="text" />
+    <button>Delete</button>
+  </p>
+</template>
+
+<script>
+  const main = document.querySelector("main");
+  const template = document.querySelector("template");
+
+  const addItem = ({ done = false, text = "" } = {}) => {
+    const fragment = template.content.cloneNode(true);
+    const item = fragment.querySelector("p");
+    const button = item.querySelector("button");
+    button.addEventListener("click", () => item.remove());
+    const checkbox = item.querySelector("input[type=checkbox]");
+    checkbox.checked = done;
+    const input = item.querySelector("input[type=text]");
+    input.value = text;
+    main.append(item);
+  };
+
+  const loadItems = () => {
+    const items = JSON.parse(localStorage.getItem("items")) ?? [];
+    for (const item of items) {
+      addItem(item);
+    }
+  };
+
+  saveItems = () => {
+    const items = [];
+    for (const item of main.querySelectorAll("p")) {
+      const checkbox = item.querySelector("input[type=checkbox]");
+      const input = item.querySelector("input[type=text]");
+      items.push({
+        done: checkbox.checked,
+        text: input.value,
+      });
+    }
+    localStorage.setItem("items", JSON.stringify(items));
+  };
+
+  loadItems();
+</script>
