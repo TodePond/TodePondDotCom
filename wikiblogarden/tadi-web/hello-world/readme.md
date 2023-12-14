@@ -20,11 +20,11 @@ Another classic. A button that counts upwards.
 
 ```html
 <button onclick="handleClick()">
-  Count: <span>0</span>
+  Count: <span id="count">0</span>
 </button>
 
 <script>
-const span = document.querySelector("span")
+const span = document.querySelector("#count")
 const handleClick = () => {
   span.textContent = parseInt(span.textContent) + 1
 }
@@ -34,11 +34,11 @@ const handleClick = () => {
 <hr>
 
 <button onclick="handleClick()">
-  Count: <span>0</span>
+  Count: <span id="count">0</span>
 </button>
 
 <script>
-const span = document.querySelector("span")
+const span = document.querySelector("#count")
 const handleClick = () => {
   span.textContent = parseInt(span.textContent) + 1
 }
@@ -51,7 +51,7 @@ We can use templates for this one.
 ```html
 <main>
 </main>
-<button onclick="handleAddItem()">
+<button onclick="addItem()">
   Add item
 </button>
 
@@ -67,7 +67,7 @@ We can use templates for this one.
 const main = document.querySelector("main")
 const template = document.querySelector("template")
 
-const handleAddItem = () => {
+const addItem = () => {
   const item = template.content.cloneNode(true)
   const delete = item.querySelector("button")
   delete.addEventListener("click", () => item.remove())
@@ -80,7 +80,7 @@ const handleAddItem = () => {
 
 <main>
 </main>
-<button onclick="handleAddItem()">
+<button onclick="addItem()">
   Add item
 </button>
 
@@ -96,7 +96,7 @@ const handleAddItem = () => {
 const main = document.querySelector("main")
 const template = document.querySelector("template")
 
-const handleAddItem = () => {
+const addItem = () => {
   const item = template.content.cloneNode(true)
   const delete = item.querySelector("button")
   delete.addEventListener("click", () => item.remove())
