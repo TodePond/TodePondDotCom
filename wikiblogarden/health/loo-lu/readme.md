@@ -228,6 +228,12 @@ I waited for the chatting to stop, and then I left the loo.
 
 The guy I was with told me that he thinks I pass.
 
+## Your hair looks big
+
+<audio controls>
+  <source src="big-hair.m4a" type="audio/x-m4a">
+</audio>
+
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden).
