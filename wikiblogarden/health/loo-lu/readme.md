@@ -8,6 +8,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 > - 3rd December 2023: remembered and added the burp castle tale.
 > - 9th December 2023: added two loo lu tales from this week.
 > - 13th December 2023: added a flood-related tale.
+> - 16th December 2023: added the first audio entry.
 
 ## Madame no
 
