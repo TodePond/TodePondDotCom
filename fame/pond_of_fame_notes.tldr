@@ -40,7 +40,7 @@
           "note": 4,
           "line": 1,
           "frame": 0,
-          "arrow": 1,
+          "arrow": 2,
           "highlight": 0,
           "embed": 4,
           "image": 2,
@@ -93,8 +93,8 @@
       "screenBounds": {
         "x": 0,
         "y": 0,
-        "w": 1147,
-        "h": 468
+        "w": 1091,
+        "h": 859
       },
       "zoomBrush": null,
       "isGridMode": false,
@@ -107,10 +107,7 @@
       "devicePixelRatio": 2,
       "isCoarsePointer": false,
       "isHoveringCanvas": true,
-      "openMenus": [
-        "pages",
-        "page-menu"
-      ],
+      "openMenus": [],
       "isChangingStyle": false,
       "isReadonly": false,
       "meta": {},
@@ -231,9 +228,9 @@
       "typeName": "camera"
     },
     {
-      "x": 3914.016589354972,
-      "y": -777.2967261192483,
-      "z": 0.1,
+      "x": -327.5002106703014,
+      "y": -2704.4832343224957,
+      "z": 0.3976663335343425,
       "meta": {},
       "id": "camera:page:jxB4P-_ylTzniQStvIehP",
       "typeName": "camera"
@@ -286,9 +283,9 @@
     {
       "id": "pointer:pointer",
       "typeName": "pointer",
-      "x": -1500.657214354972,
-      "y": 3326.2811011192484,
-      "lastActivityTimestamp": 1701860059447,
+      "x": 1303.9587507957908,
+      "y": 3564.61859443706,
+      "lastActivityTimestamp": 1702841563687,
       "meta": {}
     },
     {
@@ -337,7 +334,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -346,7 +344,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -439,7 +438,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -448,7 +448,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -795,7 +796,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -804,7 +806,8 @@
             "x": 0.496437371510849,
             "y": 0.1397838476594748
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -1195,7 +1198,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -1204,7 +1208,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -1377,7 +1382,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -1386,7 +1392,8 @@
             "x": 0.1855725429409157,
             "y": 0.5257370410575793
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -2031,7 +2038,8 @@
             "x": 0.7223220068058372,
             "y": 0.9182640547060639
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -2040,7 +2048,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -3160,7 +3169,8 @@
             "x": 0.9463836605947032,
             "y": 0.5233655534676332
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -3169,7 +3179,8 @@
             "x": 0.14756596189347174,
             "y": 0.7050062558727243
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -3204,7 +3215,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -3213,7 +3225,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -3455,7 +3468,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -3464,7 +3478,8 @@
             "x": 0.14951301839952394,
             "y": 0.5650828116479257
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -4113,7 +4128,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -4122,7 +4138,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -4785,7 +4802,8 @@
             "x": 0.8580259004213746,
             "y": 0.6842066029274319
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -4820,7 +4838,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -4829,7 +4848,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -4988,7 +5008,8 @@
             "x": 0.1403763760888206,
             "y": 0.47760516567475153
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -5023,7 +5044,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -5032,7 +5054,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -5089,7 +5112,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -5141,7 +5165,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -5150,7 +5175,8 @@
             "x": 0.8851282769380044,
             "y": 0.36466884490907747
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -5228,7 +5254,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -5237,7 +5264,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -5632,7 +5660,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -5641,7 +5670,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -6268,7 +6298,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -6277,7 +6308,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -7029,7 +7061,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -7038,7 +7071,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -9419,7 +9453,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -9428,7 +9463,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -9777,7 +9813,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -9786,7 +9823,8 @@
             "x": 0.8654245276273284,
             "y": 0.7174305727404587
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -10628,7 +10666,8 @@
             "x": 0.2418023789821679,
             "y": 0.4752128974632502
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -10637,7 +10676,8 @@
             "x": 0.7248465928825889,
             "y": 0.8302481592801447
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12423,7 +12463,8 @@
             "x": 0.9641972871985771,
             "y": 0.4249749798597969
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -12432,7 +12473,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12466,7 +12508,8 @@
             "x": 0.43715186630314334,
             "y": 0.5516852065224841
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -12475,7 +12518,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12583,7 +12627,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -12592,7 +12637,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12649,7 +12695,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -12658,7 +12705,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12870,7 +12918,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -12879,7 +12928,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -12962,7 +13012,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -13915,7 +13966,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -13924,7 +13976,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -15476,7 +15529,8 @@
             "x": 0.9641972871985771,
             "y": 0.4249749798597969
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -15485,7 +15539,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -15519,7 +15574,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -15528,7 +15584,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -15714,7 +15771,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -15887,7 +15945,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -15896,7 +15955,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -16406,7 +16466,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -17617,7 +17678,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -17626,7 +17688,8 @@
             "x": 0.17603269802551363,
             "y": 0.59320306650044
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -17780,7 +17843,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -17789,7 +17853,8 @@
             "x": 0.1330180342998915,
             "y": 0.4990944581608326
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -18005,7 +18070,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -18014,7 +18080,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -18276,7 +18343,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -18285,7 +18353,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -18432,7 +18501,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -18757,7 +18827,8 @@
             "x": 0.1741812999659804,
             "y": 0.39392188629945285
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -19000,7 +19071,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -19068,7 +19140,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -19077,7 +19150,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -19134,7 +19208,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -19143,7 +19218,8 @@
             "x": 0.7658010542562202,
             "y": 0.7804516408749207
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -19341,7 +19417,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -19350,7 +19427,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -19398,7 +19476,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -19536,7 +19615,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -19545,7 +19625,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -19630,7 +19711,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -19669,7 +19751,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -19678,7 +19761,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -20414,7 +20498,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -20452,7 +20537,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -20702,7 +20788,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -20711,7 +20798,8 @@
             "x": 0.3008083398551656,
             "y": 0.4691238197307342
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -21429,7 +21517,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -22024,7 +22113,8 @@
             "x": 0.41028613407045583,
             "y": 0.01818566346255617
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -22033,7 +22123,8 @@
             "x": 0.7036968976381659,
             "y": 0.9422168304604451
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -22318,7 +22409,8 @@
             "x": 0.19114961218293106,
             "y": 0.2995165117932624
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -22327,7 +22419,8 @@
             "x": 0.8184393386025487,
             "y": 0.7037868574880686
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -24220,7 +24313,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -25270,7 +25364,8 @@
             "x": 0.21208537735124716,
             "y": 0.7320070460398952
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25363,7 +25458,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -25372,7 +25468,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25405,7 +25502,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -25414,7 +25512,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25524,7 +25623,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -25533,7 +25633,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25739,7 +25840,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -25748,7 +25850,8 @@
             "x": 0.17321276840187602,
             "y": 0.5177856428729238
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25783,7 +25886,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -25792,7 +25896,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -25962,7 +26067,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -25971,7 +26077,8 @@
             "x": 0.8852829372032287,
             "y": 0.6880448510771737
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -26005,7 +26112,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -26014,7 +26122,8 @@
             "x": 0.8709884622391638,
             "y": 0.7379353562443416
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -26634,7 +26743,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -26643,7 +26753,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -26846,7 +26957,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -26855,7 +26967,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -28847,7 +28960,8 @@
             "x": 0.43715186630314334,
             "y": 0.5516852065224841
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -28856,7 +28970,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30107,7 +30222,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30116,7 +30232,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30231,7 +30348,8 @@
             "x": 0.803542355361148,
             "y": 0.8545475983813792
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -30240,7 +30358,8 @@
             "x": 0.15041087952993376,
             "y": 0.24142805703806167
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30289,7 +30408,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30298,7 +30418,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30459,7 +30580,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30468,7 +30590,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30559,7 +30682,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30568,7 +30692,8 @@
             "x": 0.28365482475490095,
             "y": 0.6036916246002891
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30603,7 +30728,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30612,7 +30738,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -30745,7 +30872,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -30754,7 +30882,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -32881,7 +33010,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -32890,7 +33020,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -32976,7 +33107,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -32985,7 +33117,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -33768,7 +33901,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -33777,7 +33911,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -34170,7 +34305,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -34179,7 +34315,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -34563,7 +34700,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -34572,7 +34710,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -34884,7 +35023,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -34893,7 +35033,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -35093,7 +35234,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -35102,7 +35244,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -35286,7 +35429,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -35295,7 +35439,8 @@
             "x": 0.3574686932210254,
             "y": 0.43481142989343663
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -35549,7 +35694,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -35558,7 +35704,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -35591,7 +35738,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -35600,7 +35748,8 @@
             "x": 0.1980855057552281,
             "y": 0.7503475448961163
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -35635,7 +35784,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -35644,7 +35794,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -37442,7 +37593,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -37451,7 +37603,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -37704,7 +37857,8 @@
             "x": 0.570200624966236,
             "y": 0.6223499559207141
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -37713,7 +37867,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -37833,7 +37988,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -37842,7 +37998,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -38116,7 +38273,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -38125,7 +38283,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -38218,7 +38377,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -38227,7 +38387,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40054,7 +40215,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -40063,7 +40225,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40143,7 +40306,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -40152,7 +40316,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40268,7 +40433,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -40277,7 +40443,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40450,7 +40617,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -40547,7 +40715,8 @@
             "x": 0.9227988030781287,
             "y": 0.548094058067435
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -40556,7 +40725,8 @@
             "x": 0.08366558435523043,
             "y": 0.5106655480331503
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40689,7 +40859,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -40698,7 +40869,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -40865,7 +41037,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -40961,7 +41134,8 @@
             "x": 0.37766978548586655,
             "y": 0.4274349412206356
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -41196,7 +41370,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -41205,7 +41380,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -43560,7 +43736,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -43569,7 +43746,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -43664,7 +43842,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -43760,7 +43939,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -43769,7 +43949,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -43808,7 +43989,8 @@
             "x": 0.8029373182452925,
             "y": 0.9906683461649589
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -43889,7 +44071,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -43898,7 +44081,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -44021,7 +44205,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -44030,7 +44215,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -44063,7 +44249,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -44072,7 +44259,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -44298,7 +44486,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -44307,7 +44496,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -44426,7 +44616,8 @@
             "x": 0.8355153987045201,
             "y": 0.3302858495574189
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -44744,7 +44935,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -45053,7 +45245,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -45062,7 +45255,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -45207,7 +45401,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -45216,7 +45411,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -45250,7 +45446,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -45259,7 +45456,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -46767,7 +46965,8 @@
             "x": 0.9846358439790647,
             "y": 0.11761525882395507
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -46893,7 +47092,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -46902,7 +47102,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -47086,7 +47287,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -47095,7 +47297,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -47130,7 +47333,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -47139,7 +47343,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -47561,7 +47766,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -47570,7 +47776,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -48036,7 +48243,8 @@
             "x": 0.08869638790827027,
             "y": 0.5947297093931945
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -49278,7 +49486,8 @@
             "x": 0.14347129446748674,
             "y": 0.5641839680955584
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -49341,7 +49550,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -49350,7 +49560,8 @@
             "x": 0.12166437358994049,
             "y": 0.5320164836806333
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -49570,7 +49781,8 @@
             "x": 0.570200624966236,
             "y": 0.6223499559207141
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -49579,7 +49791,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -50370,7 +50583,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -50379,7 +50593,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -50721,7 +50936,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -50730,7 +50946,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -51351,7 +51568,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -51360,7 +51578,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -53680,7 +53899,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -53689,7 +53909,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -55770,7 +55991,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -57561,7 +57783,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -57570,7 +57793,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -57797,7 +58021,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -57806,7 +58031,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -57908,7 +58134,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -57917,7 +58144,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -59122,7 +59350,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -59227,7 +59456,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -59380,7 +59610,8 @@
             "x": 0.8204108212074405,
             "y": 0.8702075586011829
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -59389,7 +59620,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -59505,7 +59737,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -59514,7 +59747,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -60212,7 +60446,8 @@
             "x": 0.09645348118143357,
             "y": 0.6556801239178977
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -60221,7 +60456,8 @@
             "x": 0.9867771665265586,
             "y": 0.5282793721513995
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -60292,7 +60528,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -62075,7 +62312,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -62084,7 +62322,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -62117,7 +62356,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -62126,7 +62366,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -62981,7 +63222,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -62990,7 +63232,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64159,7 +64402,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64168,7 +64412,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64203,7 +64448,8 @@
             "x": 0.9641972871985771,
             "y": 0.4249749798597969
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -64212,7 +64458,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64245,7 +64492,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64254,7 +64502,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64302,7 +64551,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64311,7 +64561,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64413,7 +64664,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -64748,7 +65000,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64757,7 +65010,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64847,7 +65101,8 @@
             "x": 0.8788612923178908,
             "y": 0.530586886637817
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64882,7 +65137,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64891,7 +65147,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -64925,7 +65182,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -64934,7 +65192,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -65019,7 +65278,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -65059,7 +65319,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -65068,7 +65329,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -65746,7 +66008,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -65755,7 +66018,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -65789,7 +66053,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -65798,7 +66063,8 @@
             "x": 0.8453366229487645,
             "y": 0.3759709577523463
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -65926,7 +66192,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -65935,7 +66202,8 @@
             "x": 0.1515521258498962,
             "y": 0.3748351664689527
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -66068,7 +66336,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -66077,7 +66346,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -66327,7 +66597,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -66336,7 +66607,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -67606,7 +67878,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -67615,7 +67888,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -67653,7 +67927,8 @@
             "x": 0.988423148024482,
             "y": 0.11761525882395507
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -67822,7 +68097,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -67831,7 +68107,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -71322,7 +71599,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -71331,7 +71609,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -71475,7 +71754,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -71484,7 +71764,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -71541,7 +71822,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -71550,7 +71832,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -71822,7 +72105,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -71927,7 +72211,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -71936,7 +72221,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -72159,7 +72445,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -72168,7 +72455,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -73183,7 +73471,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -73192,7 +73481,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -74734,7 +75024,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -74743,7 +75034,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -75286,7 +75578,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -75295,7 +75588,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -75329,7 +75623,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -75338,7 +75633,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -75372,7 +75668,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -75381,7 +75678,8 @@
             "x": 0.3759579892587721,
             "y": 0.7967227514582366
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -75414,7 +75712,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -75423,7 +75722,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -76359,7 +76659,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -76368,7 +76669,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -76536,7 +76838,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": true
+          "isExact": true,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -76545,7 +76848,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": true
+          "isExact": true,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "none",
@@ -76732,7 +77036,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -76741,7 +77046,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -76775,7 +77081,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -76814,7 +77121,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -76823,7 +77131,8 @@
             "x": 0.9348094876254417,
             "y": 0.5616734747208308
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -77671,7 +77980,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -77680,7 +77990,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -78078,7 +78389,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -78087,7 +78399,8 @@
             "x": 0.17197997435191872,
             "y": 0.4313609092837993
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -78165,7 +78478,8 @@
             "x": 0.8029373182452926,
             "y": 0.9706283192703465
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -78362,7 +78676,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -78371,7 +78686,8 @@
             "x": 0.8453366229487645,
             "y": 0.3759709577523463
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -79283,7 +79599,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -79779,7 +80096,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -79788,7 +80106,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -79822,7 +80141,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -79831,7 +80151,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -80207,7 +80528,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -80297,7 +80619,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -80306,7 +80629,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -84747,7 +85071,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -84756,7 +85081,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -87006,7 +87332,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -87015,7 +87342,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -87049,7 +87377,8 @@
             "x": 0.9641972871985771,
             "y": 0.4249749798597969
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -87058,7 +87387,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -89153,7 +89483,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -89162,7 +89493,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91019,7 +91351,8 @@
             "x": 0.44989186127868963,
             "y": 0.968412339660785
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -91028,7 +91361,8 @@
             "x": 0.5520456009426531,
             "y": 0.18221247502012608
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91062,7 +91396,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -91071,7 +91406,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91152,7 +91488,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -91161,7 +91498,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91379,7 +91717,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -91388,7 +91727,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91831,7 +92171,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -91894,7 +92235,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -91903,7 +92245,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -91966,7 +92309,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -91975,7 +92319,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -92013,7 +92358,8 @@
             "x": 0.898717302187732,
             "y": 0.5526335565570697
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -92999,7 +93345,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -93008,7 +93355,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -93084,7 +93432,8 @@
             "x": 0.20587687746004665,
             "y": 0.6372285288947037
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -95367,7 +95716,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -95376,7 +95726,8 @@
             "x": 0.1665204285760123,
             "y": 0.7692112714312842
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -95572,7 +95923,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -95581,7 +95933,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -95768,7 +96121,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -95777,7 +96131,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -95957,7 +96312,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -96089,7 +96445,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -96098,7 +96455,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -96615,7 +96973,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -96624,7 +96983,8 @@
             "x": 0.5199765619817319,
             "y": 0.12048390405231126
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -96756,7 +97116,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -96765,7 +97126,8 @@
             "x": 0.9276511794996392,
             "y": 0.5519504564084282
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -96939,7 +97301,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -96948,7 +97311,8 @@
             "x": 0.3574686932210254,
             "y": 0.43481142989343663
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -97088,7 +97452,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -97097,7 +97462,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -97154,7 +97520,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "point",
@@ -99192,7 +99559,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -99306,7 +99674,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -99315,7 +99684,8 @@
             "x": 0.8989027529031939,
             "y": 0.5999003990064152
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -99350,7 +99720,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -99359,7 +99730,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -99548,7 +99920,8 @@
             "x": 0.13861641705844485,
             "y": 0.8225706894519421
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -99557,7 +99930,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -99702,7 +100076,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -99711,7 +100086,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -99750,7 +100126,8 @@
             "x": 0.7297780860756694,
             "y": 0.7711145118536009
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -101025,7 +101402,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -101034,7 +101412,8 @@
             "x": 0.935886454965648,
             "y": 0.5514354924252164
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -101285,7 +101664,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -101294,7 +101674,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -104981,7 +105362,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -104990,7 +105372,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -107344,7 +107727,8 @@
             "x": 0.40088755295996165,
             "y": 0.40123718568265127
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -107353,7 +107737,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -107401,7 +107786,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": true
+          "isExact": true,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -107410,7 +107796,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": true
+          "isExact": true,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "none",
@@ -107967,7 +108354,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -107976,7 +108364,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -108575,7 +108964,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -108584,7 +108974,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -109100,7 +109491,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -109109,7 +109501,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -109172,7 +109565,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -109181,7 +109575,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -109802,7 +110197,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -109811,7 +110207,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -110585,7 +110982,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -110594,7 +110992,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -111705,7 +112104,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -111714,7 +112114,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -112238,7 +112639,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -112247,7 +112649,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -112402,7 +112805,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -112411,7 +112815,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -113244,7 +113649,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -113253,7 +113659,8 @@
             "x": 0.11667281910773038,
             "y": 0.5754597736535498
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -115161,7 +115568,8 @@
             "x": 0.41817126434308444,
             "y": 0.8798078688644242
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -115170,7 +115578,8 @@
             "x": 0.51710349585367,
             "y": 0.1207054481749922
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -115204,7 +115613,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -115213,7 +115623,8 @@
             "x": 0.1453086776903217,
             "y": 0.41970545518238467
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -115329,7 +115740,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -115338,7 +115750,8 @@
             "x": 0.17516426194644075,
             "y": 0.06138312295675711
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -115372,7 +115785,8 @@
             "x": 0.3820394108957477,
             "y": 0.01771427757414147
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -115381,7 +115795,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -116111,7 +116526,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -116120,7 +116536,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "arrow",
         "arrowheadEnd": "arrow",
@@ -116154,7 +116571,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "end": {
           "type": "binding",
@@ -116163,7 +116581,8 @@
             "x": 0.5,
             "y": 0.5
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": false
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
@@ -118883,7 +119302,8 @@
             "x": 0.9533360576407999,
             "y": 0.722411770765208
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "end": {
           "type": "binding",
@@ -118892,7 +119312,8 @@
             "x": 0.022228616879131736,
             "y": 0.537390996788409
           },
-          "isExact": false
+          "isExact": false,
+          "isPrecise": true
         },
         "arrowheadStart": "none",
         "arrowheadEnd": "arrow",
