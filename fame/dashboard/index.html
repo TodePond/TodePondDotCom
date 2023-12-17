@@ -10,26 +10,104 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
-  #pond-of-fame {
-    /* margin-top: 19px; */
+  #pond-of-fame-dashboard-json {
+    margin-top: 19px;
     resize: vertical;
-    height: 200px;
+    height: 400px;
     white-space: pre;
     tab-size: 4;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
   }
 </style>
 
 <h1>Pond of fame dashboard</h1>
 
-<textarea readonly id="pond-of-fame" placeholder="Loading..."></textarea>
+<main>
+  <input
+    type="password"
+    id="pond-of-fame-dashboard-password"
+    placeholder="Password"
+    oninput="savePassword()"
+  />
+  <textarea
+    id="pond-of-fame-dashboard-json"
+    placeholder="Loading..."
+    oninput="pushPondOfFame()"
+  ></textarea>
+</main>
 
 <script>
+  const PASSWORD_KEY = "pond-of-fame-dashboard-password";
+  const JSON_KEY = "pond-of-fame-dashboard-json";
+
   const main = async () => {
+    loadPassword();
+    pullPondOfFame();
+  };
+
+  const getRemotePondOfFame = async () => {
     const response = await fetch(
       "https://todepond-get_pond_of_fame.web.val.run"
     );
-    const pondOfFame = await response.text();
-    document.getElementById("pond-of-fame").value = pondOfFame;
+    return await response.text();
+  };
+
+  const setRemotePondOfFame = async (pondOfFame) => {
+    // Access to fetch at 'https://todepond-set_pond_of_fame.web.val.run/' from origin 'http://localhost:4507' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+    const response = await fetch(
+      "https://todepond-set_pond_of_fame.web.val.run"
+    );
+    console.log(await response.text());
+  };
+
+  const getLocalPondOfFame = () => {
+    return document.getElementById(JSON_KEY).value;
+  };
+
+  const setLocalPondOfFame = (pondOfFame) => {
+    const prettyPondOfFame = JSON.stringify(JSON.parse(pondOfFame), null, 2);
+    document.getElementById(JSON_KEY).value = prettyPondOfFame;
+  };
+
+  const pullPondOfFame = async () => {
+    const remotePondOfFame = await getRemotePondOfFame();
+    setLocalPondOfFame(remotePondOfFame);
+  };
+
+  const pushPondOfFame = async () => {
+    const localPondOfFame = getLocalPondOfFame();
+    if (localPondOfFame === "") return;
+    const remotePondOfFame = await getRemotePondOfFame();
+    if (localPondOfFame === remotePondOfFame) return;
+    await setRemotePondOfFame(localPondOfFame);
+  };
+
+  const savePassword = () => {
+    const apiKey = document.getElementById(PASSWORD_KEY).value;
+    localStorage.setItem(PASSWORD_KEY, apiKey);
+    if (apiKey === "") {
+      document.getElementById(JSON_KEY).setAttribute("readonly", true);
+    } else {
+      document.getElementById(JSON_KEY).removeAttribute("readonly");
+    }
+  };
+
+  const loadPassword = () => {
+    const apiKey = localStorage.getItem(PASSWORD_KEY);
+    document.getElementById(PASSWORD_KEY).value = apiKey;
+    if (apiKey === "") {
+      document.getElementById(JSON_KEY).setAttribute("readonly", true);
+    } else {
+      document.getElementById(JSON_KEY).removeAttribute("readonly");
+    }
+  };
+
+  const getPassword = () => {
+    return document.getElementById(PASSWORD_KEY).value;
   };
 
   main();
