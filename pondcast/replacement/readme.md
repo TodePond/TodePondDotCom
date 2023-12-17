@@ -20,13 +20,11 @@
   })
 </script>
 
-# TODEPOND PONDCAST:
+# TODEPOND PONDCAST: Replacement
 
 <audio controls>
   <source src="1.m4a" type="audio/x-m4a">
 </audio>
-
-# TODEPOND PONDCAST: Replacement
 
 Can you hear me ok? It's time for another weekly episode of the...
 
