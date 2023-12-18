@@ -50,7 +50,7 @@ In 2022, I decided to become a more mysterious person.
 
 But why?
 
-Is it just a marketing ploy? Am I just narcissistic? Is it an artistic statement? Or just for convenience? Have I gone insane? Is it a cry for help? Do I actually believe what I say? Is it just a storytelling device? Did it just feel right? Was it an accident? How intentional is it? Do I think about? Or does it just happen? Is any of this even true? Is all of it true? Is none of it true? Am I being mysterious for mystery's sake? Is there any point to all this? Will we ever know?
+Is it just a marketing ploy? Is it an artistic statement? Or just for convenience? Have I gone insane? Is it a cry for help? Am I just narcissistic? Do I actually believe what I say? Is it just a storytelling device? Was it an accident? Did it just feel right? How intentional is it? Do I think about? Or does it just happen? Is any of this even true? Is all of it true? Is none of it true? Am I being mysterious for mystery's sake? Is there any point to all this? Will we ever know? Is this a forced meme?
 
 <br>
 
