@@ -28,7 +28,7 @@ Is Kirin J Callinan for real? Is it intentional? Or is he just like that? Does h
 
 I met, and got to know, a whole bunch of Gaulier clowns. They were exceptionally kind, and warm, and hilarious.
 
-They were naturally funny. And it was never clear when they were performing or not. When they went up on stage, nothing changed. When they left the stage, nothing stage.
+They were naturally funny. And it was never clear when they were performing or not. When they went up on stage, nothing changed. When they left the stage, nothing changed.
 
 Does this make them fake? If they're always performing, how do you know? How can you possibly know?
 
@@ -42,7 +42,7 @@ Is she doing it for a laugh? Is she just expressing herself fully, with no filte
 
 A friend of mine knows her, but he doesn't seem keen to talk about her. This just adds to the mystery to me.
 
-Bip Ling recently nuked her whole internet presence. All her videos, posts, and songs... are gone. No trace, no reason. Only a few morcels [remain](https://youtu.be/UeZQ-WzgfhM). This just adds to the mystery for me.
+Bip Ling recently nuked her whole internet presence. All her videos, posts, and songs... are gone. No trace, no reason. Only a few morsels [remain](https://youtu.be/UeZQ-WzgfhM). This just adds to the mystery for me.
 
 ## Lu (or Luke) Wilson
 
@@ -50,7 +50,7 @@ In 2022, I decided to become a more mysterious person.
 
 But why?
 
-Is it just a marketing ploy? Is it an artistic statement? Or just for convenience? Have I gone insane? Is it a cry for help? Am I just narcissistic? Do I actually believe what I say? Is it just a storytelling device? Was it an accident? Did it just feel right? How intentional is it? Do I think about? Or does it just happen? Is any of this even true? Is all of it true? Is none of it true? Am I being mysterious for mystery's sake? Is there any point to all this? Will we ever know? Is this a forced meme?
+Is it just a marketing ploy? Is it an artistic statement? Or just for convenience? Have I gone insane? Is it a cry for help? Am I just narcissistic? Do I actually believe what I say? Is it just a storytelling device? Was it an accident? Did it just feel right? How intentional is it? Do I think about it? Or does it just happen? Is any of this even true? Is all of it true? Is none of it true? Am I being mysterious for mystery's sake? Is there any point to all this? Will we ever know? Is this a forced meme?
 
 <br>
 
