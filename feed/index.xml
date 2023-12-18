@@ -319,5 +319,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/hello-world/</guid>
   			<description>Here’s how to code all the classic ‘hello world’ examples using a slippy mindset.</description>
   		</item>
+		<item>
+  			<title>Mysterious people</title>
+  			<pubDate>Mon, 18 Dec 2023 00:19:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/art/mysterious-people/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/art/mysterious-people/</guid>
+  			<description>There are some mysterious people out there. Let me introduce them to you.</description>
+  		</item>
   </channel>
 </rss>
