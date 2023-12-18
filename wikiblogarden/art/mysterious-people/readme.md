@@ -44,9 +44,9 @@ A friend of mine knows her, but he doesn't seem keen to talk about her. This jus
 
 Bip Ling recently nuked her whole internet presence. All her videos, posts, and songs... are gone. No trace, no reason. Only a few morcels [remain](https://youtu.be/UeZQ-WzgfhM). This just adds to the mystery for me.
 
-## Lu Wilson
+## Lu (or Luke) Wilson
 
-In 2022, I decided that I wanted to become a more mysterious person.
+In 2022, I decided to become a more mysterious person.
 
 But why?
 
