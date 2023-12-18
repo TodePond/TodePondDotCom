@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
-  #pond-of-fame-dashboard-json {
+  #fame-dashboard-json {
     margin-top: 19px;
     resize: vertical;
     height: 400px;
@@ -29,40 +29,26 @@
 <main>
   <input
     type="password"
-    id="pond-of-fame-dashboard-password"
+    id="fame-dashboard-admin-password"
     placeholder="Password"
     oninput="savePassword()"
   />
   <textarea
-    id="pond-of-fame-dashboard-json"
+    id="fame-dashboard-json"
     placeholder="Loading..."
     oninput="pushPondOfFame()"
   ></textarea>
 </main>
 
-<script>
-  const PASSWORD_KEY = "pond-of-fame-dashboard-password";
-  const JSON_KEY = "pond-of-fame-dashboard-json";
-
+<script type="module">
+  import { getRemotePondOfFame, setRemotePondOfFame } from "/fame/fame.js";
   const main = async () => {
     loadPassword();
     pullPondOfFame();
   };
 
-  const getRemotePondOfFame = async () => {
-    const response = await fetch(
-      "https://todepond-get_pond_of_fame.web.val.run"
-    );
-    return await response.text();
-  };
-
-  const setRemotePondOfFame = async (pondOfFame) => {
-    // Access to fetch at 'https://todepond-set_pond_of_fame.web.val.run/' from origin 'http://localhost:4507' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-    const response = await fetch(
-      "https://todepond-set_pond_of_fame.web.val.run"
-    );
-    console.log(await response.text());
-  };
+  const PASSWORD_KEY = "fame-dashboard-admin-password";
+  const JSON_KEY = "fame-dashboard-json";
 
   const getLocalPondOfFame = () => {
     return document.getElementById(JSON_KEY).value;
@@ -78,15 +64,18 @@
     setLocalPondOfFame(remotePondOfFame);
   };
 
-  const pushPondOfFame = async () => {
+  window.pushPondOfFame = async () => {
     const localPondOfFame = getLocalPondOfFame();
     if (localPondOfFame === "") return;
     const remotePondOfFame = await getRemotePondOfFame();
     if (localPondOfFame === remotePondOfFame) return;
-    await setRemotePondOfFame(localPondOfFame);
+    await setRemotePondOfFame({
+      pondOfFame: localPondOfFame,
+      password: getPassword(),
+    });
   };
 
-  const savePassword = () => {
+  window.savePassword = () => {
     const apiKey = document.getElementById(PASSWORD_KEY).value;
     localStorage.setItem(PASSWORD_KEY, apiKey);
     if (apiKey === "") {

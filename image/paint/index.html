@@ -49,6 +49,7 @@
     />
   </div>
   <div>
+    <input type="range" min="0" max="10" value="2" oninput="resizeBrush()" />
     <input type="color" value="#ffffff" oninput="recolour()" />
   </div>
 </div>
@@ -69,6 +70,7 @@
   const widthInput = document.querySelector("#width");
   const heightInput = document.querySelector("#height");
   const colourInput = document.querySelector("input[type=color]");
+  const brushSizeInput = document.querySelector("input[type=range]");
 
   const parseColour = (hex) => {
     const r = parseInt(hex.slice(1, 3), 16);
@@ -80,6 +82,7 @@
   let width = parseInt(widthInput.value);
   let height = parseInt(heightInput.value);
   let colour = parseColour(colourInput.value);
+  let brushSize = parseInt(brushSizeInput.value);
 
   const canvas = document.querySelector("canvas");
   const context = canvas.getContext("2d", { willReadFrequently: true });
@@ -94,16 +97,17 @@
     if (!isPointerDown) return;
     const x = Math.floor((e.offsetX / canvas.clientWidth) * width);
     const y = Math.floor((e.offsetY / canvas.clientHeight) * height);
-    brush(x, y, 2);
+    brush(x, y, brushSize);
   });
 
   canvas.addEventListener("pointerdown", (e) => {
     const x = Math.floor((e.offsetX / canvas.clientWidth) * width);
     const y = Math.floor((e.offsetY / canvas.clientHeight) * height);
-    brush(x, y, 2);
+    brush(x, y, brushSize);
   });
 
   const brush = (x, y, size) => {
+    if (size === 0) return paint(x, y);
     for (let i = -size; i < size; i++) {
       for (let j = -size; j < size; j++) {
         paint(x + i, y + j);
@@ -177,8 +181,13 @@
   };
 
   const recolour = () => {
-    const value = document.querySelector("input[type=color]").value;
+    const value = colourInput.value;
     colour = parseColour(value);
+  };
+
+  const resizeBrush = () => {
+    const value = brushSizeInput.value;
+    brushSize = parseInt(value);
   };
 
   recolour();
