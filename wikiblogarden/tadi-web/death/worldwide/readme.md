@@ -1,6 +1,6 @@
 # DEATH OF THE TADI WEB: Worldwide
 
-[Yet again], the tadi web has died.
+[Yet again](/wikiblogarden/tadi-web/death-meme), the tadi web has died.
 
 *Sorry everyone. Pack your bags. Show's over.*
 
@@ -8,9 +8,9 @@ I've decided to end the tadi web project. Here's why.
 
 ## Islands
 
-[As I've said before], the tadi web is supposed to be a way of connecting various different communities together.
+[As I've said before](/wikiblogarden/tadi-web/entry-points), the tadi web is supposed to be a way of connecting various different communities together.
 
-There are loads of communities out there trying to make [computing better]. But none of them talk to each other.
+There are loads of communities out there trying to make [computing better](/wikiblogarden/better-computing). But none of them talk to each other.
 
 **None of them**.
 
@@ -43,6 +43,8 @@ But I know one thing. The tadi web cannot be a single bridge. It can't be a sing
 *There are simply too many islands to connect!*
 
 The movement can't be a single community, or 'place'. We need tadi web enthusiasts embedded in EVERY single OTHER community. Forming... a web.
+
+A tadi... web...
 
 # Worldwide
 
