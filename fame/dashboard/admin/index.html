@@ -41,7 +41,7 @@
   <textarea id="heroes-json" placeholder="Loading..."></textarea>
   <section style=>
     <button onclick="handlePullClick()">Pull heroes</button>
-    <button onclick="handlePushClick()">Push heroes</button>
+    <button disabled id="heroes-json-push-button" onclick="handlePushClick()">Push heroes</button>
   </section>
   <span id="heroes-json-log">Loading...</span>
 </main>
@@ -50,6 +50,7 @@
   const passwordInput = document.getElementById("password");
   const heroesJsonInput = document.getElementById("heroes-json");
   const heroesJsonLog = document.getElementById("heroes-json-log");
+  const heroesJsonPushButton = document.getElementById("heroes-json-push-button");
 
   const val = async (handle, name, ...args) => {
     const query = args.length > 0 ? `?args=${JSON.stringify(args)}` : "";
@@ -81,7 +82,7 @@
 
   const pushHeroes = async (heroes) => {
     heroesJsonLog.textContent = "Pushing...";
-    const result = await val("todepond", "setHeroes", heroes, originalHeroes);
+    const result = await val("todepond", "setHeroes", heroes, originalHeroes, passwordInput.value);
     if (result.success) {
       heroesJsonLog.textContent = "Pushed!";
       originalHeroes = heroes;
@@ -128,20 +129,22 @@
   const loadPassword = () => {
     const apiKey = localStorage.getItem(PASSWORD_STORAGE_KEY);
     passwordInput.value = apiKey;
-    updateHeroesJsonReadonly();
+    updateAdminControls();
   };
 
-  const updateHeroesJsonReadonly = () => {
+  const updateAdminControls = () => {
     if (passwordInput.value === "") {
       heroesJsonInput.setAttribute("readonly", true);
+      heroesJsonPushButton.setAttribute("disabled", true);
     } else {
       heroesJsonInput.removeAttribute("readonly");
+      heroesJsonPushButton.removeAttribute("disabled");
     }
   };
 
   window.handlePasswordInput = () => {
     savePassword();
-    updateHeroesJsonReadonly();
+    updateAdminControls();
   };
 
   loadPassword();
