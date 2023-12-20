@@ -37,7 +37,7 @@ I update the contents below every now and then.
 ### People with whom which I have interacted
 
 - [Why I love the London coding scene](london)
-- [Thank you cards](sayings/thank-you-cards)
+- [Thank you cards](work/thank-you-cards)
 
 ### Evil nerds
 
