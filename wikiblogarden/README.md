@@ -24,6 +24,8 @@ I update the contents below every now and then.
 
 ### Primary call to action
 
+- None.
+
 ### Things I learned the hard way
 
 - [You can just ask](./sayings/just-ask)
