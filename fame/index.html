@@ -3,6 +3,20 @@
     font-family: Rosario;
     src: url("fonts/Rosario-Bold.ttf");
   }
+
+  * {
+    margin: 0px;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  html {
+    cursor: grab;
+  }
 </style>
 <title>Pond of Fame</title>
 <meta name="viewport" content="user-scalable=no, initial-scale=1" />
@@ -14,3 +28,22 @@
 </script>
 <script src="source/pond.js"></script>
 <script type="module" src="patrons.js"></script>
+<div
+  id="loading"
+  style="
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 1;
+    background-color: black;
+    color: white;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+    position: absolute;
+    inset: 0px;
+  "
+>
+  <h1>Loading! :)</h1>
+</div>

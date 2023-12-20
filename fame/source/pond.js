@@ -336,8 +336,10 @@ on.mousemove(
     updateHovers();
     if (Mouse.Middle || (!EDIT_MODE && (Mouse.Left || Mouse.Right))) {
       const { movementX, movementY } = e;
-      camera.x -= movementX / (camera.scale * camera.scaleMod);
-      camera.y -= movementY / (camera.scale * camera.scaleMod);
+      camera.x -=
+        (movementX * devicePixelRatio) / (camera.scale * camera.scaleMod);
+      camera.y -=
+        (movementY * devicePixelRatio) / (camera.scale * camera.scaleMod);
     } else if (Mouse.Right) {
       const { movementX, movementY } = e;
 
@@ -365,6 +367,7 @@ on.mousemove(
 
 on.mousedown(
   (e) => {
+    document.body.style.cursor = "grabbing";
     e.preventDefault();
     if (!EDIT_MODE) return;
     if (e.button === 0) {
@@ -377,6 +380,7 @@ on.mousedown(
 );
 
 on.mouseup((e) => {
+  document.body.style.cursor = "grab";
   if (!EDIT_MODE) return;
   if (e.button === 0) {
     const [mx, my] = Mouse.position;

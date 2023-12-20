@@ -53,4 +53,6 @@ const createTree = (patrons) => {
 };
 
 console.log(heroes);
+window.heroes = heroes;
 createTree(flappyHeroes);
+document.querySelector("#loading").style.opacity = 0;
