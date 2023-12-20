@@ -10,8 +10,7 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
-  #fame-dashboard-json {
-    margin-top: 19px;
+  #heroes-json {
     resize: vertical;
     height: 400px;
     white-space: pre;
@@ -21,83 +20,129 @@
   main {
     display: flex;
     flex-direction: column;
+    gap: 11px;
+  }
+
+  #heroes-json-log {
+    color: #9faeee;
   }
 </style>
 
-<h1>Pond of fame dashboard</h1>
+<h1>Pond of fame — admin dashboard</h1>
 
 <main>
   <input
     type="password"
-    id="fame-dashboard-admin-password"
+    id="password"
     placeholder="Password"
-    oninput="savePassword()"
+    oninput="handlePasswordInput()"
   />
-  <textarea
-    id="fame-dashboard-json"
-    placeholder="Loading..."
-    oninput="pushPondOfFame()"
-  ></textarea>
+
+  <textarea id="heroes-json" placeholder="Loading..."></textarea>
+  <section style=>
+    <button onclick="handlePullClick()">Pull heroes</button>
+    <button onclick="handlePushClick()">Push heroes</button>
+  </section>
+  <span id="heroes-json-log">Loading...</span>
 </main>
 
 <script type="module">
-  import { getRemotePondOfFame, setRemotePondOfFame } from "/fame/fame.js";
-  const main = async () => {
-    loadPassword();
-    pullPondOfFame();
-  };
+  const passwordInput = document.getElementById("password");
+  const heroesJsonInput = document.getElementById("heroes-json");
+  const heroesJsonLog = document.getElementById("heroes-json-log");
 
-  const PASSWORD_KEY = "fame-dashboard-admin-password";
-  const JSON_KEY = "fame-dashboard-json";
-
-  const getLocalPondOfFame = () => {
-    return document.getElementById(JSON_KEY).value;
-  };
-
-  const setLocalPondOfFame = (pondOfFame) => {
-    const prettyPondOfFame = JSON.stringify(JSON.parse(pondOfFame), null, 2);
-    document.getElementById(JSON_KEY).value = prettyPondOfFame;
-  };
-
-  const pullPondOfFame = async () => {
-    const remotePondOfFame = await getRemotePondOfFame();
-    setLocalPondOfFame(remotePondOfFame);
-  };
-
-  window.pushPondOfFame = async () => {
-    const localPondOfFame = getLocalPondOfFame();
-    if (localPondOfFame === "") return;
-    const remotePondOfFame = await getRemotePondOfFame();
-    if (localPondOfFame === remotePondOfFame) return;
-    await setRemotePondOfFame({
-      pondOfFame: localPondOfFame,
-      password: getPassword(),
-    });
-  };
-
-  window.savePassword = () => {
-    const apiKey = document.getElementById(PASSWORD_KEY).value;
-    localStorage.setItem(PASSWORD_KEY, apiKey);
-    if (apiKey === "") {
-      document.getElementById(JSON_KEY).setAttribute("readonly", true);
-    } else {
-      document.getElementById(JSON_KEY).removeAttribute("readonly");
+  const val = async (handle, name, ...args) => {
+    const query = args.length > 0 ? `?args=${JSON.stringify(args)}` : "";
+    try {
+      const response = await fetch(
+        `https://api.val.town/v1/run/${handle}.${name}${query}`
+      );
+      const text = await response.text();
+      try {
+        const json = JSON.parse(text);
+        return json;
+      } catch (e) {
+        return text;
+      }
+    } catch (e) {
+      heroesJsonLog.textContent = "Error: " + e;
+      throw e;
     }
+  };
+
+  //=============//
+  // HEROES JSON //
+  //=============//
+  const pullHeroes = async () => {
+    const heroes = await val("todepond", "getHeroes");
+    heroesJsonInput.value = formatHeroes(heroes);
+    return heroes;
+  };
+
+  const pushHeroes = async (heroes) => {
+    heroesJsonLog.textContent = "Pushing...";
+    const result = await val("todepond", "setHeroes", heroes, originalHeroes);
+    if (result.success) {
+      heroesJsonLog.textContent = "Pushed!";
+      originalHeroes = heroes;
+    } else {
+      heroesJsonLog.textContent = "Error: " + result.error;
+    }
+  };
+
+  const formatHeroes = (heroes) => {
+    return JSON.stringify(heroes, null, 2);
+  };
+
+  window.handlePushClick = async () => {
+    try {
+      JSON.parse(heroesJsonInput.value);
+    } catch (e) {
+      heroesJsonLog.textContent = "Invalid JSON";
+      throw new Error("Invalid JSON");
+    }
+    const heroes = JSON.parse(heroesJsonInput.value);
+    await pushHeroes(heroes, originalHeroes);
+  };
+
+  window.handlePullClick = async () => {
+    heroesJsonLog.textContent = "Pulling...";
+    originalHeroes = await pullHeroes();
+    heroesJsonLog.textContent = "Pulled!";
+  };
+
+  let originalHeroes = {};
+  pullHeroes().then((heroes) => {
+    originalHeroes = heroes;
+    heroesJsonLog.textContent = "Loaded!";
+  });
+
+  //==========//
+  // PASSWORD //
+  //==========//
+  const PASSWORD_STORAGE_KEY = "fame-admin-password";
+  const savePassword = () => {
+    localStorage.setItem(PASSWORD_STORAGE_KEY, passwordInput.value);
   };
 
   const loadPassword = () => {
-    const apiKey = localStorage.getItem(PASSWORD_KEY);
-    document.getElementById(PASSWORD_KEY).value = apiKey;
-    if (apiKey === "") {
-      document.getElementById(JSON_KEY).setAttribute("readonly", true);
+    const apiKey = localStorage.getItem(PASSWORD_STORAGE_KEY);
+    passwordInput.value = apiKey;
+    updateHeroesJsonReadonly();
+  };
+
+  const updateHeroesJsonReadonly = () => {
+    if (passwordInput.value === "") {
+      heroesJsonInput.setAttribute("readonly", true);
     } else {
-      document.getElementById(JSON_KEY).removeAttribute("readonly");
+      heroesJsonInput.removeAttribute("readonly");
     }
   };
 
-  const getPassword = () => {
-    return document.getElementById(PASSWORD_KEY).value;
+  window.handlePasswordInput = () => {
+    savePassword();
+    updateHeroesJsonReadonly();
   };
 
-  main();
+  loadPassword();
 </script>
