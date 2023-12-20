@@ -9,6 +9,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 > - 9th December 2023: added two loo lu tales from this week.
 > - 13th December 2023: added a flood-related tale.
 > - 16th December 2023: added the first audio entry.
+> - 20th December 2023: added a new entry from work.
 
 ## Madame no
 
@@ -178,7 +179,6 @@ He pointed me to the womens. I went to the womens.
 
 I was in an art gallery and I needed the loo. I went to the gents loo. When I walked out, a young man was walking in. He saw me, and looked surprised. He turned around, then turned around again. He looked up at the sign, and watched me as I walked away.
 
-
 ## Gasp
 
 My colleague read these Lu loo tales and found them funny.
@@ -205,7 +205,7 @@ There were only two cubicles inside. One said "engaged". The other one said "vac
 
 I freaked out and went back to my group at the table.
 
-My friend offered to come to the loo with me. She stood outside the disabled loo as my "guard" while I went to the loo. 
+My friend offered to come to the loo with me. She stood outside the disabled loo as my "guard" while I went to the loo.
 
 Later on, I needed the loo again. My friend came with me again. But unfortunately, the disabled loo had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
 
@@ -234,6 +234,14 @@ The guy I was with told me that he thinks I pass.
 <audio controls>
   <source src="big-hair.m4a" type="audio/x-m4a">
 </audio>
+
+## Saw someone
+
+I was at work, and I needed the loo. The disabled loo is still out of order.
+
+When I was walking to the loo, I saw someone go into the mens, so I went in the womens.
+
+Later on, I needed the loo again. When I was walking there, I saw someone go into the womens, so I went in the mens.
 
 <br>
 
