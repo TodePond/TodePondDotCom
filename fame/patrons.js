@@ -195,3 +195,4 @@ createPond(froggyHeroes);
 createTree(flappyHeroes);
 createAmbience();
 document.querySelector("#loading").style.opacity = 0;
+window.val = val;
