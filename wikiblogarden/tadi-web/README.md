@@ -12,6 +12,11 @@ The tadi web is a small and simple part of the normal web. It follows a tiny sub
 - [Entry points](entry-points)
 - [Graveyard](graveyard)
 
+- [How I write my blog](https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo)
+- [Synchronising data](https://www.todepond.com/wikiblogarden/better-computing/synchronising-data)
+- [Putting data in the cloud](https://www.todepond.com/wikiblogarden/tadi-web/cloud)
+- [How to synchronise data](https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync)
+
 ## Slippy mindset
 
 The most important part of the tadi web is the slippy mindset.
