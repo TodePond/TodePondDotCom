@@ -66,6 +66,10 @@ I am vegetarian because I don't want animals to be killed in my name. It is not 
 
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
 
+## But the animals have a good life when they're alive
+
+I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
+
 ## But you just want to cause an inconvenience
 
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
@@ -89,6 +93,10 @@ Anyway, I am vegetarian because I don't want animals to be killed in my name. It
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
 
 ## But it's a waste if you don't eat some meat that's gonna be thrown away
+
+I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
+
+## But it's so annoying how you always go on about it, you're always bringing it up, shoving it down people's faces, please for the love of God, by all means, do that stuff in your own home, just don't go flaunting it around or making it your entire personality
 
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
 
@@ -141,6 +149,10 @@ I am vegetarian because I don't want animals to be killed in my name. It is not 
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
 
 ## But all the farm animals will die out if we stop killing and eating them
+
+I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
+
+## But the animals have a good life when they're alive
 
 I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.
 
