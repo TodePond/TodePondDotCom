@@ -102,9 +102,10 @@
     type="text"
     id="hero-name"
     placeholder="Please write your chosen name here"
+    oninput="drawHero()"
   />
 
-  <select id="colour-dropdown">
+  <select id="colour-dropdown" onchange="drawHero()">
     <option value="fire">Fire</option>
     <option value="water">Water</option>
     <option value="air">Air</option>
@@ -229,10 +230,12 @@
       nameInput.value = "";
       colourDropdown.value = "fire";
       supporterTier = "froggy";
+      drawHero();
     } else {
       nameInput.value = hero.name;
       colourDropdown.value = hero.flavour;
       supporterTier = hero.tier;
+      drawHero();
     }
   };
 
@@ -268,6 +271,67 @@
     secretLog.innerHTML = `Sending...`;
     await val("todepond.sendSupporterCode", email);
     secretLog.innerHTML = `Sent! Check your inbox. Contact <a href="mailto:todepond@gmail.com">todepond@gmail.com</a> if you want help.`;
+  };
+
+  const canvas = document.querySelector("canvas");
+  const ctx = canvas.getContext("2d");
+
+  const heroImages = {};
+
+  const COLOUR_MAP = {
+    fire: "Red",
+    water: "Blue",
+    air: "Cyan",
+    sand: "Yellow",
+    wood: "Orange",
+    flower: "Pink",
+    "pink sand": "Pink2",
+    metal: "Silver",
+    poison: "Purple",
+    leaf: "Green",
+    void: "Void",
+    cloud: "White",
+  };
+
+  const loadImages = () => {
+    for (const tier of ["froggy", "flappy"]) {
+      heroImages[tier] = {};
+      for (const flavour of [
+        "fire",
+        "water",
+        "air",
+        "sand",
+        "wood",
+        "flower",
+        "pink sand",
+        "metal",
+        "poison",
+        "leaf",
+        "cloud",
+      ]) {
+        const image = new Image();
+        let Tier = tier[0].toUpperCase() + tier.slice(1);
+        if (Tier === "Flappy") Tier = "Flappy/";
+        const colour = COLOUR_MAP[flavour];
+        const Colour = colour[0].toUpperCase() + colour.slice(1);
+        image.src = `/fame/images/Colours/${Tier}${Colour}.png`;
+        heroImages[tier][flavour] = image;
+      }
+    }
+  };
+  loadImages();
+
+  window.drawHero = () => {
+    const name = nameInput.value;
+    const colour = colourDropdown.value;
+    const tier = supporterTier;
+    const image = heroImages[tier][colour];
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "white";
+    ctx.font = "bold 30px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(name, canvas.width / 2, canvas.height - 60);
   };
 
   window.val = val;
