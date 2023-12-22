@@ -49,7 +49,7 @@
     height: 100%;
     max-width: 400px;
     max-height: 400px;
-    background-color: black;
+    background-color: rgb(18, 22, 30);
   }
 
   button {
@@ -162,6 +162,15 @@
   };
 
   const loadPassword = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const secretParam = urlParams.get("secret");
+    if (secretParam) {
+      passwordInput.value = secretParam;
+      savePassword();
+      login();
+      // Clear the URL so that the secret code isn't leaked
+      window.history.replaceState({}, document.title, "/fame/dashboard/");
+    }
     const apiKey = localStorage.getItem(PASSWORD_STORAGE_KEY);
     passwordInput.value = apiKey;
     if (apiKey) {
@@ -170,6 +179,8 @@
   };
 
   let supporterId = null;
+  let supporterTier = "froggy";
+
   const login = async () => {
     if (passwordInput.value === "") {
       secretLog.textContent = "Please enter your secret code first";
@@ -217,9 +228,11 @@
     if (hero === undefined) {
       nameInput.value = "";
       colourDropdown.value = "fire";
+      supporterTier = "froggy";
     } else {
       nameInput.value = hero.name;
       colourDropdown.value = hero.flavour;
+      supporterTier = hero.tier;
     }
   };
 
