@@ -27,14 +27,21 @@
     flex-direction: row;
     gap: 11px;
     align-items: center;
+    width: 100%;
   }
 
-  main {
+  main,
+  header {
     display: flex;
     flex-direction: column;
     gap: 11px;
     align-items: flex-start;
     width: 100%;
+  }
+
+  form {
+    padding: 0px;
+    margin: 0px;
   }
 
   canvas {
@@ -44,20 +51,50 @@
     max-height: 400px;
     background-color: black;
   }
+
+  button {
+    flex-shrink: 0;
+  }
 </style>
 
 <h1>Pond of fame — supporter dashboard</h1>
 
-<form action="javascript:;" onsubmit="handleSecretSubmitClick()" class="row">
-  <input
-    type="password"
-    id="password"
-    placeholder="Enter your secret code here"
-  />
-  <button>Submit</button>
-</form>
-<span class="log" id="secret-log"></span>
-
+<header>
+  <form action="javascript:;" onsubmit="handleSecretSubmitClick()" class="row">
+    <input
+      type="password"
+      id="password"
+      placeholder="Enter your secret code here"
+      oninput="handleSecretInput()"
+    />
+    <button>Login</button>
+  </form>
+  <a id="forgot-button" href="javascript:;" onclick="handleForgotClick()">
+    I want a new secret code
+  </a>
+  <form
+    style="display: none; flex-direction: column; align-items: flex-start"
+    action="javascript:;"
+    onsubmit="handleEmailClick()"
+    class="row"
+    id="email-form"
+  >
+    <br />
+    <span for="email">
+      Please use the same email you used to sign up on patreon or substack or
+      liberapay.
+    </span>
+    <span class="row">
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email address here."
+      />
+      <button>Send code</button></span
+    >
+  </form>
+  <span class="log" id="secret-log"></span>
+</header>
 <main id="hero-designer" style="display: none">
   <h2>Hero designer</h2>
 
@@ -152,6 +189,10 @@
     }
   };
 
+  window.handleSecretInput = () => {
+    savePassword();
+  };
+
   window.handleSecretSubmitClick = () => {
     login();
   };
@@ -199,6 +240,21 @@
       heroLog.textContent = "Error saving hero: " + result.error;
       console.log(result);
     }
+  };
+
+  const emailInput = document.getElementById("email-form");
+  const forgotButton = document.getElementById("forgot-button");
+
+  window.handleForgotClick = () => {
+    forgotButton.style.display = "none";
+    emailInput.style.display = "flex";
+  };
+
+  window.handleEmailClick = async () => {
+    const email = document.getElementById("email").value;
+    secretLog.innerHTML = `Sending...`;
+    await val("todepond.sendSupporterCode", email);
+    secretLog.innerHTML = `Sent! Check your inbox. Contact <a href="mailto:todepond@gmail.com">todepond@gmail.com</a> if you want help.`;
   };
 
   window.val = val;
