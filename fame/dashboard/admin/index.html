@@ -286,5 +286,11 @@
     });
   };
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const addSupporterParam = urlParams.get("addSupporter");
+  if (addSupporterParam) {
+    addSupporterEmail.value = addSupporterParam;
+  }
+
   window.val = val;
 </script>
