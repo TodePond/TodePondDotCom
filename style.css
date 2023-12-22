@@ -32,6 +32,15 @@ hr {
   border-color: white;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: 100%;
+}
+
 h2 {
   border-bottom: white 1px solid;
   padding-bottom: 19px;
@@ -109,4 +118,12 @@ pre mark {
 
 input[type="checkbox"] {
   width: 29px;
+}
+
+select {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
 }

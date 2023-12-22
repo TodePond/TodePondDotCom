@@ -21,22 +21,34 @@
     color: #9faeee;
   }
 
-  .controls {
+  .row {
     /* padding: 11px 0px; */
     display: flex;
     flex-direction: row;
     gap: 11px;
     align-items: center;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  canvas {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: black;
+  }
 </style>
 
 <h1>Pond of fame — supporter dashboard</h1>
 
-<form
-  action="javascript:;"
-  onsubmit="handleSecretSubmitClick()"
-  class="controls"
->
+<form action="javascript:;" onsubmit="handleSecretSubmitClick()" class="row">
   <input
     type="password"
     id="password"
@@ -48,6 +60,13 @@
 
 <main id="hero-designer" style="display: none">
   <h2>Hero designer</h2>
+
+  <input
+    type="text"
+    id="hero-name"
+    placeholder="Please write your chosen name here"
+  />
+
   <select id="colour-dropdown">
     <option value="fire">Fire</option>
     <option value="water">Water</option>
@@ -55,12 +74,18 @@
     <option value="sand">Sand</option>
     <option value="wood">Wood</option>
     <option value="flower">Flower</option>
-    <option value="pink-sand">Pink sand</option>
+    <option value="pink sand">Pink sand</option>
     <option value="metal">Metal</option>
     <option value="poison">Poison</option>
     <option value="leaf">Leaf</option>
     <option value="cloud">Cloud</option>
   </select>
+
+  <canvas width="400" height="400"></canvas>
+  <span class="row">
+    <button onclick="handleSaveHeroClick()">Save hero</button>
+    <span class="log" id="hero-log"></span
+  ></span>
 </main>
 
 <script type="module">
@@ -89,6 +114,7 @@
 
   const passwordInput = document.getElementById("password");
   const secretLog = document.getElementById("secret-log");
+  const heroDesigner = document.getElementById("hero-designer");
 
   //==========//
   // PASSWORD //
@@ -106,11 +132,23 @@
     }
   };
 
-  const login = () => {
+  let supporterId = null;
+  const login = async () => {
     if (passwordInput.value === "") {
       secretLog.textContent = "Please enter your secret code first";
     } else {
       secretLog.textContent = "Logging in...";
+      const id = await val("todepond.loginSupporter", passwordInput.value);
+      if (id === null || typeof id !== "number") {
+        secretLog.textContent = "Invalid secret code";
+      } else {
+        supporterId = id;
+        savePassword();
+        secretLog.textContent = "Loading...";
+        await pullHero();
+        secretLog.textContent = "";
+        heroDesigner.style.display = "flex";
+      }
     }
   };
 
@@ -119,6 +157,49 @@
   };
 
   loadPassword();
+
+  //===============//
+  // HERO DESIGNER //
+  //===============//
+  const nameInput = document.getElementById("hero-name");
+  const colourDropdown = document.getElementById("colour-dropdown");
+  const heroLog = document.getElementById("hero-log");
+
+  const pullHero = async () => {
+    if (supporterId === null) {
+      console.log("hi");
+      secretLog.textContent = "Error getting hero";
+      return;
+    }
+    const heroes = await val("todepond.getHeroes", passwordInput.value);
+    const hero = heroes.find((hero) => hero.supporter == supporterId);
+    if (hero === undefined) {
+      nameInput.value = "";
+      colourDropdown.value = "fire";
+    } else {
+      nameInput.value = hero.name;
+      colourDropdown.value = hero.flavour;
+    }
+  };
+
+  window.handleSaveHeroClick = async () => {
+    const name = nameInput.value;
+    const colour = colourDropdown.value;
+
+    heroLog.textContent = "Saving...";
+    const result = await val(
+      "todepond.setHero",
+      passwordInput.value,
+      name,
+      colour
+    );
+    if (result.success) {
+      heroLog.textContent = "Saved!";
+    } else {
+      heroLog.textContent = "Error saving hero: " + result.error;
+      console.log(result);
+    }
+  };
 
   window.val = val;
 </script>
