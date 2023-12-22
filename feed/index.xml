@@ -347,5 +347,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-name/vegetarian/</guid>
   			<description>I am vegetarian because I don't want animals to be killed in my name. It is not for any other reason.</description>
   		</item>
+		<item>
+  			<title>Long posts</title>
+  			<pubDate>Fri, 22 Dec 2023 07:56:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long</guid>
+  			<description>Blog posts can be long or short.</description>
+  		</item>
   </channel>
 </rss>
