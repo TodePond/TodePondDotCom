@@ -28,6 +28,10 @@
     gap: 11px;
     align-items: center;
   }
+
+  button {
+    flex-shrink: 0;
+  }
 </style>
 
 <h1>Pond of fame — admin dashboard</h1>
@@ -38,6 +42,19 @@
   placeholder="Password"
   oninput="handlePasswordInput()"
 />
+
+<h2>Admin</h2>
+<form action="javascript:;" onsubmit="handleAddSupporterClick()">
+  <input type="email" id="add-supporter-email" placeholder="Supporter email" />
+  <input type="text" id="add-supporter-name" placeholder="Supporter name" />
+  <select id="add-supporter-tier">
+    <option value="beepy">Beepy</option>
+    <option value="flappy">Flappy</option>
+    <option value="froggy">Froggy</option>
+  </select>
+  <button>Add supporter</button>
+  <span class="log" id="add-supporter-log"></span>
+</form>
 
 <h2>Heroes</h2>
 <textarea id="heroes" class="json" placeholder="Loading..."></textarea>
@@ -246,6 +263,28 @@
   };
 
   loadPassword();
+
+  const addSupporterLog = document.getElementById("add-supporter-log");
+  const addSupporterEmail = document.getElementById("add-supporter-email");
+  const addSupporterName = document.getElementById("add-supporter-name");
+  const addSupporterTier = document.getElementById("add-supporter-tier");
+  window.handleAddSupporterClick = () => {
+    addSupporterLog.textContent = "Adding...";
+    val(
+      "todepond.addSupporter",
+      addSupporterEmail.value,
+      addSupporterName.value,
+      addSupporterTier.value,
+      "red",
+      passwordInput.value
+    ).then((result) => {
+      if (result.success) {
+        addSupporterLog.textContent = "Added!";
+      } else {
+        addSupporterLog.textContent = "Error: " + result.error;
+      }
+    });
+  };
 
   window.val = val;
 </script>
