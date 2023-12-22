@@ -290,6 +290,8 @@
   const addSupporterParam = urlParams.get("addSupporter");
   if (addSupporterParam) {
     addSupporterEmail.value = addSupporterParam;
+    // Clear the URL
+    window.history.replaceState({}, document.title, "/fame/dashboard/admin/");
   }
 
   window.val = val;
