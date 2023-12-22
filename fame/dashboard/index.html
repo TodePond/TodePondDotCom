@@ -1,0 +1,124 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="/og.png" />
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  .json {
+    resize: vertical;
+    height: 400px;
+    white-space: pre;
+    tab-size: 4;
+  }
+
+  .log {
+    color: #9faeee;
+  }
+
+  .controls {
+    /* padding: 11px 0px; */
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+  }
+</style>
+
+<h1>Pond of fame — supporter dashboard</h1>
+
+<form
+  action="javascript:;"
+  onsubmit="handleSecretSubmitClick()"
+  class="controls"
+>
+  <input
+    type="password"
+    id="password"
+    placeholder="Enter your secret code here"
+  />
+  <button>Submit</button>
+</form>
+<span class="log" id="secret-log"></span>
+
+<main id="hero-designer" style="display: none">
+  <h2>Hero designer</h2>
+  <select id="colour-dropdown">
+    <option value="fire">Fire</option>
+    <option value="water">Water</option>
+    <option value="air">Air</option>
+    <option value="sand">Sand</option>
+    <option value="wood">Wood</option>
+    <option value="flower">Flower</option>
+    <option value="pink-sand">Pink sand</option>
+    <option value="metal">Metal</option>
+    <option value="poison">Poison</option>
+    <option value="leaf">Leaf</option>
+    <option value="cloud">Cloud</option>
+  </select>
+</main>
+
+<script type="module">
+  export const val = async (address, ...args) => {
+    const [handle, name] = address.split(".");
+    if (handle === undefined || name === undefined) {
+      throw new Error("Invalid address format. Expected 'handle.name'");
+    }
+    const body = args.length > 0 ? JSON.stringify({ args }) : null;
+
+    const response = await fetch(
+      `https://api.val.town/v1/run/${handle}.${name}`,
+      {
+        method: "POST",
+        body,
+      }
+    );
+
+    const text = await response.text();
+    try {
+      return JSON.parse(text);
+    } catch (e) {
+      return text;
+    }
+  };
+
+  const passwordInput = document.getElementById("password");
+  const secretLog = document.getElementById("secret-log");
+
+  //==========//
+  // PASSWORD //
+  //==========//
+  const PASSWORD_STORAGE_KEY = "fame-supporter-password";
+  const savePassword = () => {
+    localStorage.setItem(PASSWORD_STORAGE_KEY, passwordInput.value);
+  };
+
+  const loadPassword = () => {
+    const apiKey = localStorage.getItem(PASSWORD_STORAGE_KEY);
+    passwordInput.value = apiKey;
+    if (apiKey) {
+      login();
+    }
+  };
+
+  const login = () => {
+    if (passwordInput.value === "") {
+      secretLog.textContent = "Please enter your secret code first";
+    } else {
+      secretLog.textContent = "Logging in...";
+    }
+  };
+
+  window.handleSecretSubmitClick = () => {
+    login();
+  };
+
+  loadPassword();
+
+  window.val = val;
+</script>

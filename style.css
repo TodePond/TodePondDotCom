@@ -73,6 +73,10 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
 button.danger {
   background-color: #ff4346;
   color: white;
