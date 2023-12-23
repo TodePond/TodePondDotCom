@@ -12,7 +12,7 @@ You could make a website just by writing html, and uploading each file.
 
 This is the NO BUILD build process. It's the simplest build process of all.
 
-<iframe src="no-build" />
+<iframe src="no-build"></iframe>
 
 ## Copy paste
 
@@ -32,7 +32,7 @@ You can achieve this by writing that code once, and then copy-pasting it into ev
 
 This is known as the COPY PASTE build process. It's another simple one.
 
-<iframe src="copy-paste" />
+<iframe src="copy-paste"></iframe>
 
 # Embed
 
@@ -46,4 +46,4 @@ Instead, you could write them in another file, and EMBED them in.
 <iframe src="/nav.html" />
 ```
 
-<iframe src="embed" />
+<iframe src="embed"></iframe>
