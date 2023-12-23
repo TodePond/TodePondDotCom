@@ -1,8 +1,8 @@
-<script>
+<style>
   iframe {
     background-color: white;
   }
-</script>
+</style>
 # Unorthodox build processes for your website
 
 What is a build process?
