@@ -3,6 +3,7 @@ import { val } from "https://esm.town/v/todepond/val";
 const heroes = await val("todepond.getHeroes");
 const froggyHeroes = heroes.filter((h) => h.tier === "froggy");
 const flappyHeroes = heroes.filter((h) => h.tier === "flappy");
+const beepyHeroes = heroes.filter((h) => h.tier === "beepy");
 
 const COLOUR_MAP = {
   fire: "Red",
@@ -51,6 +52,8 @@ const createTree = (patrons) => {
     y: -(patrons.length - 2) * 656,
   });
 };
+
+const createScreen = (patrons) => {};
 
 const createPond = (patrons) => {
   if (patrons.length === 0) return;
