@@ -297,7 +297,7 @@
   };
 
   const loadImages = () => {
-    for (const tier of ["froggy", "flappy"]) {
+    for (const tier of ["froggy", "flappy", "beepy"]) {
       heroImages[tier] = {};
       for (const flavour of [
         "fire",
@@ -315,6 +315,7 @@
         const image = new Image();
         let Tier = tier[0].toUpperCase() + tier.slice(1);
         if (Tier === "Flappy") Tier = "Flappy/";
+        if (Tier === "Beepy") Tier = "Beepy/";
         const colour = COLOUR_MAP[flavour];
         const Colour = colour[0].toUpperCase() + colour.slice(1);
         image.src = `/fame/images/Colours/${Tier}${Colour}.png`;
@@ -330,7 +331,13 @@
     const tier = supporterTier;
     const image = heroImages[tier][colour];
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+    ctx.drawImage(
+      image,
+      canvas.width * 0.05,
+      canvas.height * 0,
+      canvas.width * 0.9,
+      canvas.height * 0.9
+    );
     ctx.fillStyle = "white";
     ctx.font = "bold 60px sans-serif";
     ctx.textAlign = "center";
