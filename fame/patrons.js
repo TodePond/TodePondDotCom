@@ -53,7 +53,27 @@ const createTree = (patrons) => {
   });
 };
 
-const createScreen = (patrons) => {};
+const createScreen = (patrons) => {
+  if (patrons.length === 0) return;
+  for (let i = 0; i < patrons.length; i++) {
+    const patron = patrons[i];
+    createEntity(`Colours/Beepy/${COLOUR_MAP[patron.flavour]}.png`, {
+      x: 8000,
+      y: -i * 656 + 400,
+      scale: 0.75,
+      text: patron.name,
+      ignoreSave: true,
+    });
+  }
+
+  createEntity("rect", {
+    x: 8000,
+    y: 400,
+    width: 1000,
+    height: 1000,
+    ignoreSave: true,
+  });
+};
 
 const createPond = (patrons) => {
   if (patrons.length === 0) return;
@@ -197,6 +217,7 @@ console.log(heroes);
 window.heroes = heroes;
 createPond(froggyHeroes);
 createTree(flappyHeroes);
+createScreen(beepyHeroes);
 createAmbience();
 document.querySelector("#loading").style.opacity = 0;
 window.val = val;

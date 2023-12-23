@@ -99,6 +99,8 @@ const makeEntity = (
     y = 0,
     z = 0,
     scale = 1,
+    height = 100,
+    width = 100,
     rotation = 0,
     text,
     ignoreSave = false,
@@ -113,6 +115,8 @@ const makeEntity = (
     y,
     z,
     scale,
+    height,
+    width,
     rotation,
     text,
     ignoreSave,
@@ -122,6 +126,7 @@ const makeEntity = (
 
 // Get an image element (make one if needed)
 const getImage = (source) => {
+  if (source === "rect") return;
   if (source === undefined) return new Image();
   const cachedImage = imageCache.get(source);
   if (cachedImage !== undefined) return cachedImage;
@@ -598,7 +603,10 @@ const makeSpace = ({
 
 const getEntitySpace = (entity) => {
   const image = entity.image;
-  const [width, height] = [image.width, image.height];
+  const [width, height] = [
+    image?.width ?? entity.width,
+    image?.height ?? entity.height,
+  ];
   const { scale, x, y, rotation } = entity;
   return makeSpace({ scale, x, y, width, height, rotation });
 };
@@ -712,7 +720,14 @@ stage.draw = () => {
 
       context.translate(cx, cy);
       context.rotate(rotation);
-      context.drawImage(image, ox, oy, width, height);
+      if (image) {
+        context.drawImage(image, ox, oy, width, height);
+      }
+      if (entity.source === "rect") {
+        context.strokeStyle = "#4680ff";
+        context.strokeRect(ox, oy, width, height);
+      }
+
       if (entity.text !== "undefined") {
         //haha woops
 
