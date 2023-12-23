@@ -1,3 +1,8 @@
+<script>
+  iframe {
+    background-color: white;
+  }
+</script>
 # Unorthodox build processes for your website
 
 What is a build process?
@@ -12,7 +17,7 @@ You could make a website just by writing html, and uploading each file.
 
 This is the NO BUILD build process. It's the simplest build process of all.
 
-<iframe src="no-build" allowtransparency="false"></iframe>
+<iframe src="no-build"></iframe>
 
 ## Copy paste
 
