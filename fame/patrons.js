@@ -59,18 +59,21 @@ const createScreen = (patrons) => {
     const patron = patrons[i];
     createEntity(`Colours/Beepy/${COLOUR_MAP[patron.flavour]}.png`, {
       x: 8000,
-      y: -i * 656 + 400,
+      y: -i * 656 * 0.75 + 400,
       scale: 0.75,
       text: patron.name,
       ignoreSave: true,
     });
   }
 
+  const yMidPoint = (patrons.length * 656 * 0.75 + 400) / 2;
+  const rectHeight = patrons.length * 656 * 0.75 + 200;
+
   createEntity("rect", {
     x: 8000,
-    y: 400,
+    y: 800,
     width: 1000,
-    height: 1000,
+    height: rectHeight,
     ignoreSave: true,
   });
 };

@@ -725,7 +725,7 @@ stage.draw = () => {
       }
       if (entity.source === "rect") {
         context.strokeStyle = "#4680ff";
-        context.strokeRect(ox, oy, width, height);
+        context.strokeRect(ox, -height, width, height);
       }
 
       if (entity.text !== "undefined") {
