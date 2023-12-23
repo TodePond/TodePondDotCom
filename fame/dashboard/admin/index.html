@@ -46,7 +46,12 @@
 <h2>Admin</h2>
 <form action="javascript:;" onsubmit="handleAddSupporterClick()">
   <input type="email" id="add-supporter-email" placeholder="Supporter email" />
-  <input type="text" id="add-supporter-name" placeholder="Supporter name" />
+  <input
+    type="text"
+    id="add-supporter-name"
+    placeholder="Supporter name"
+    maxlength="30"
+  />
   <select id="add-supporter-tier">
     <option value="froggy">Froggy</option>
     <option value="flappy">Flappy</option>
