@@ -6,6 +6,8 @@ In this post, I won't go into the history of the Pond of Fame, or the story behi
 
 # Pond of Fame
 
+The Pond of Fame is basically a still image of a bunch of cute characters with nametags.
+
 ## Heroes
 
 There's a blob of data out there in the [cloud](/wikiblogarden/better-computing/synchronising-data/). It's a list of all the cute characters that appear in the Pond of Fame. I call them HEROES.
