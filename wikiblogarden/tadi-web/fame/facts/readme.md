@@ -56,11 +56,11 @@ We use the hero's `tier` and `flavour` to determine which image we load. We add 
 
 # Admin dashboard 
 
+I have an admin dashboard that lets me edit and manage the blob.
+
 ## Password
 
-I have an admin dashboard where I can edit the blob. It's password-protected, so that other people can't use it.
-
-I have a password input at the top of the page.
+It's password-protected. There's a password input at the top of the page.
 
 ```html
 <input
