@@ -50,7 +50,7 @@ createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
 });
 ```
 
-We use the hero's `flavour` to determine which colour image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
+We use the hero's `tier` and `flavour` to determine which image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
 
 # Admin dashboard 
 
