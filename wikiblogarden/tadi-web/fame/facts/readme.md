@@ -100,3 +100,17 @@ The list of heroes gets loaded into a big textbox.
 </script>
 ```
 
+I can edit the heroes, push a button to upload those changes.
+
+```html
+<button onclick="handlePushHeroes()">Push heroes</button>
+<script>
+  window.handlePushHeroes = async () => {
+    const newHeroes = JSON.parse(heroesInput.value)
+    const result = await val("todepond.setHeroes", newHeroes, heroes, passwordInput.value)
+    if (result.success) {
+      heroes = newHeroes
+    }
+  }
+</script>
+```
