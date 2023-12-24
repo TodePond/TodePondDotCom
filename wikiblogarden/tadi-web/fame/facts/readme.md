@@ -100,7 +100,7 @@ The list of heroes gets loaded into a big textbox.
 </script>
 ```
 
-I can edit the heroes, push a button to upload those changes.
+I can edit the heroes, and then push a button to upload those changes.
 
 ```html
 <button onclick="handlePushHeroes()">Push heroes</button>
