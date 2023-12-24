@@ -5,3 +5,4 @@
 - [Wires to wires to wires](wires-to-wires-to-wires)
 - [Infinity rooms](infinity-rooms)
 - [Replacement](replacement)
+- [CHOOSE: Your hero](choose-your-hero)
