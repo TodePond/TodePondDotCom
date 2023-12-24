@@ -52,7 +52,9 @@ createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
 });
 ```
 
-We use the hero's `tier` and `flavour` to determine which image we load. We add the hero's `name` as a text label. And we position it dynamically, based on  where it appears in the list.
+We use the hero's `tier` and `flavour` to determine which image we load. The images were originally drawn by [Flora Caulton](https://floracaulton.com). I tweaked their size and colour in photoshop.
+
+We also add the hero's `name` as a text label. And we position it dynamically, based on  where it appears in the list.
 
 # Admin dashboard 
 
@@ -109,6 +111,7 @@ I can edit the heroes, and then push a button to upload those changes.
     const newHeroes = JSON.parse(heroesInput.value)
     const oldHeroes = heroes
     const password = passwordInput.value
+
     const result = await val("todepond.setHeroes", newHeroes, oldHeroes, password)
     if (result.success) {
       heroes = newHeroes
@@ -135,10 +138,11 @@ A supporter looks like this:
 
 The `id` property lets us identify the supporter without referring to any personal information. The `email` lets us contact them. The `secret` is their way of editing their hero. We'll get to that later!
 
-Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that it needs the password in both cases now.
+Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that it needs the password in both cases.
 
 ```js
 const supporters = await val("todepond.getSupporters", password)
+
 await val("todepond.setSupporters", newSupporters, oldSupporters, password)
 ```
 
