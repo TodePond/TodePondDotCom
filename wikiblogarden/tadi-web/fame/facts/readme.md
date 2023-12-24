@@ -118,3 +118,32 @@ I can edit the heroes, and then push a button to upload those changes.
 ```
 
 This time, we have to send a `password` along too. We also send along a copy of what **we think** the current heroes are. It lets the server check if you're up-to-date. If you're out-of-date, it rejects you because you might be overriding newer data.
+
+## Supporters
+
+Surprise! There's another blob of data. This one's private: It's a list of paying SUPPORTERS.
+
+A supporter looks like this:
+
+```json
+{
+  "id": 123,
+  "email": "todepond@gmail.com",
+  "secret": "abcde-fghijklmn-etc"
+}
+```
+
+The `id` property lets us identify the supporter without referring to any personal information. The `email` lets us contact them. The `secret` is their way of editing their hero. We'll get to that later!
+
+Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that it needs the password in both cases now.
+
+```js
+const supporters = await val("todepond.getSupporters", password)
+await val("todepond.setSupporters", newSupporters, oldSupporters, password)
+```
+
+There are also some differences with how it's stored in the cloud, for additional security. We'll get to that later.
+
+# Supporter dashboard
+
+## Secret
