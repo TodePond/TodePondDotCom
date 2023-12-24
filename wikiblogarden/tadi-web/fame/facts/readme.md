@@ -38,7 +38,6 @@ When the Pond of Fame loads, it fetches the list of heroes. Then it creates an e
 createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
   x: 5675 - i * 24,
   y: 240 - i * 656,
-  scale: 0.75,
   text: hero.name,
 });
 ```
