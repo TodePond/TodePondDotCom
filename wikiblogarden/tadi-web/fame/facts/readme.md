@@ -86,7 +86,7 @@ passwordInput.value = localStorage.getItem("fame-admin-password") ?? ""
 The list of heroes gets loaded into a big textbox.
 
 ```html
-<textarea id="heroes"></heroes>
+<textarea id="heroes"></textearea>
 <script>
   const heroesInput = document.querySelector("#heroes")
   let heroes = []
