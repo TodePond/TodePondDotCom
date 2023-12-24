@@ -117,4 +117,4 @@ I can edit the heroes, push a button to upload those changes.
 </script>
 ```
 
-This time, we have to send a `password` along too. We also send along a copy of what **we think** the current heroes are. It lets the server check if you're up-to-date. If you're out-of-date, you might be overriding newer data, so it rejects it.
+This time, we have to send a `password` along too. We also send along a copy of what **we think** the current heroes are. It lets the server check if you're up-to-date. If you're out-of-date, it rejects you because you might be overriding newer data.
