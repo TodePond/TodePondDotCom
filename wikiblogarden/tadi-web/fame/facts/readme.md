@@ -28,4 +28,20 @@ Each hero object contains some information. Here's an example:
 
 The `name`, `tier`, and `flavour` properties determine how the hero should look in the Pond of Fame. The `supporter` property is the ID of the person who added the hero to the Pond of Fame. We'll get to that later.
 
-## The Pond of Fame
+## Entities
+
+The Pond of Fame itself is a mini canvas engine. It has a big list of ENTITIES. Every frame, it draws every entity on the screen.
+
+When the Pond of Fame loads, it fetches the list of heroes. Then it creates an entity for each one. Here's a snippet from that code:
+
+```js
+createEntity(`Colours/Flappy/${COLOUR_MAP[hero.flavour]}.png`, {
+  x: 5675 - i * 24,
+  ignoreSave: true,
+  y: 240 - i * 656,
+  scale: 0.75,
+  text: hero.name,
+});
+```
+
+We use the hero's `flavour` to determine which colour image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
