@@ -107,10 +107,14 @@ I can edit the heroes, push a button to upload those changes.
 <script>
   window.handlePushHeroes = async () => {
     const newHeroes = JSON.parse(heroesInput.value)
-    const result = await val("todepond.setHeroes", newHeroes, heroes, passwordInput.value)
+    const oldHeroes = heroes
+    const password = passwordInput.value
+    const result = await val("todepond.setHeroes", newHeroes, oldHeroes, password)
     if (result.success) {
       heroes = newHeroes
     }
   }
 </script>
 ```
+
+This time, we have to send a `password` along too. We also send along a copy of what **we think** the current heroes are. It lets the server check if you're up-to-date. If you're out-of-date, you might be overriding newer data, so it rejects it.
