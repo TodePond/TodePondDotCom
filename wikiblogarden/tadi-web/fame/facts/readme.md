@@ -6,7 +6,7 @@ In this post, I won't go into the history of the Pond of Fame, or the story behi
 
 ## Heroes
 
-There's a blob of data out there in the cloud. It's a list of all the cute characters that appear in the Pond of Fame. I call them HEROES.
+There's a blob of data out there in the [cloud](/wikiblogarden/better-computing/synchronising-data/). It's a list of all the cute characters that appear in the Pond of Fame. I call them HEROES.
 
 Anyone can see the blob! There's nothing sensitive in it. Here's how you get it:
 
@@ -46,3 +46,5 @@ createEntity(`Colours/Flappy/${COLOUR_MAP[hero.flavour]}.png`, {
 We use the hero's `flavour` to determine which colour image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
 
 ## Admin
+
+How does the blob of data get updated? There are a few ways. One of those is my ADMIN dashboard.
