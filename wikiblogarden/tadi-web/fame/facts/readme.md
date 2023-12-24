@@ -4,6 +4,8 @@ I made a thing called the [Pond of Fame](/fame). It's the world's first full-sta
 
 In this post, I won't go into the history of the Pond of Fame, or the story behind it. I'll just go through the cold, hard facts of how it works.
 
+# Pond of Fame
+
 ## Heroes
 
 There's a blob of data out there in the [cloud](/wikiblogarden/better-computing/synchronising-data/). It's a list of all the cute characters that appear in the Pond of Fame. I call them HEROES.
@@ -13,6 +15,12 @@ Anyone can see the blob! There's nothing sensitive in it. Here's how you get it:
 ```js
 const response = await fetch("https://api.val.town/v1/run/todepond.getHeroes");
 const heroes = await response.json();
+```
+
+I have a little helper function that simplifies this. It lets me call any [val.town](https://val.town) function.
+
+```js
+const heroes = await val("todepond.getHeroes")
 ```
 
 Each hero object contains some information. Here's an example:
@@ -44,7 +52,9 @@ createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
 
 We use the hero's `flavour` to determine which colour image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
 
-## Admin password
+# Admin dashboard 
+
+## Password
 
 I have an admin dashboard where I can edit the blob. It's password-protected, so that other people can't use it.
 
@@ -68,3 +78,22 @@ window.handlePasswordInput = () => {
 
 passwordInput.value = localStorage.getItem("fame-admin-password") ?? ""
 ```
+
+## Heroes
+
+The list of heroes gets loaded into a big textbox.
+
+```html
+<textarea id="heroes"></heroes>
+<script>
+  const heroesInput = document.querySelector("#heroes")
+  let heroes = []
+  const pullHeroes = async () => {
+    heroes = await val("todepond.getHeroes")
+    heroesInput.value = JSON.stringify(heroes, null, 2)
+  }
+
+  pullHeroes()
+</script>
+```
+
