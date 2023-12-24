@@ -35,7 +35,7 @@ The Pond of Fame itself is a mini canvas engine. It has a big list of ENTITIES. 
 When the Pond of Fame loads, it fetches the list of heroes. Then it creates an entity for each one. Here's a snippet from that code:
 
 ```js
-createEntity(`Colours/Flappy/${COLOUR_MAP[hero.flavour]}.png`, {
+createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
   x: 5675 - i * 24,
   y: 240 - i * 656,
   scale: 0.75,
@@ -45,6 +45,27 @@ createEntity(`Colours/Flappy/${COLOUR_MAP[hero.flavour]}.png`, {
 
 We use the hero's `flavour` to determine which colour image we load. We add the hero's `name` as a text label. And we position each patron dynamically, based on the order they appear in the list.
 
-## Admin
+## Admin password
 
-How does the blob of data get updated? There are a few ways. One of those is my ADMIN dashboard.
+I have an admin dashboard where I can edit the blob. It's password-protected, so that other people can't use it.
+
+I have a password input at the top of the page.
+
+```html
+<input
+  type="password"
+  id="password"
+  oninput="handlePasswordInput()"
+/>
+```
+
+The password gets stored to local storage, so I don't need to type it in each time.
+
+```js
+const passwordInput = document.querySelector("#password")
+window.handlePasswordInput = () => {
+  localStorage.setItem("fame-admin-password", passwordInput.value);
+};
+
+passwordInput.value = localStorage.getItem("fame-admin-password") ?? ""
+```
