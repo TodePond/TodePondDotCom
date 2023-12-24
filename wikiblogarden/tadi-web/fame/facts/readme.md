@@ -88,6 +88,7 @@ The list of heroes gets loaded into a big textbox.
 <script>
   const heroesInput = document.querySelector("#heroes")
   let heroes = []
+
   const pullHeroes = async () => {
     heroes = await val("todepond.getHeroes")
     heroesInput.value = JSON.stringify(heroes, null, 2)
