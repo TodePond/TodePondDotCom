@@ -77,8 +77,8 @@ The password gets stored to local storage.
 ```js
 const passwordInput = document.querySelector("#password")
 
-window.handlePasswordInput = () => {
-  localStorage.setItem("password", passwordInput.value);
+const handlePasswordInput = () => {
+  localStorage.setItem("password", passwordInput.value)
 };
 ```
 
@@ -112,7 +112,7 @@ I can edit the heroes, and then push a button to upload those changes.
 ```html
 <button onclick="handlePushHeroes()">Push heroes</button>
 <script>
-  window.handlePushHeroes = async () => {
+  const handlePushHeroes = async () => {
     const result = await val(
       "todepond.setHeroes",
       JSON.parse(heroesInput.value),
@@ -177,7 +177,7 @@ You paste in your SECRET, and the dashboard fetches your ID.
 ```js
 const secretInput = document.querySelector("#secret")
 
-window.handleLogin = async () => {
+const handleLogin = async () => {
   const id = await val("todepond.loginSupporter", secretInput.value)
 }
 ```
@@ -228,7 +228,7 @@ Make your changes and then hit the "Save hero" button! Your secret gets sent alo
 <button onclick="handleSave()">Save hero</button>
 
 <script>
-  window.handleSave = async () => {
+  const handleSave = async () => {
     await val(
       "todepond.setHero",
       secretInput.value,
@@ -241,7 +241,7 @@ Make your changes and then hit the "Save hero" button! Your secret gets sent alo
 
 ## Hero preview 
 
-I show you a preview of what your hero will look like in a canvas.
+I also show you a preview of what your hero will look like on a canvas.
 
 ```html
 <canvas width="800" height="800"></canvas>
@@ -253,7 +253,7 @@ Every time you edit something, I redraw the preview.
 const canvas = document.querySelector("canvas")
 const context = canvas getContext("2d")
 
-window.drawPreview = () => {
+const drawPreview = () => {
     const image = IMAGE_MAP[hero.tier][flavourInput.value]
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.drawImage(image, 0, 0)
@@ -262,4 +262,23 @@ window.drawPreview = () => {
     context.textAlign = "center"
     context.fillText(name, canvas.width / 2, canvas.height - 120)
 }
+```
+
+# Email
+
+But wait! How do you get your secret code in the first place?
+
+There's a button for that.
+
+```html
+<button onclick="handleNoCode()">I don't have a code!</button>
+```
+
+When you click it, an email input appears.
+
+```html
+<form action="#" onsubmit="handleEmail()">
+  <input type="email" id="email" />
+  <button>Send code</button>
+</form>
 ```
