@@ -72,15 +72,20 @@ It's password-protected. There's a password input at the top of the page.
 />
 ```
 
-The password gets stored to local storage so that I don't need to type it in each time.
+The password gets stored to local storage.
 
 ```js
 const passwordInput = document.querySelector("#password")
-window.handlePasswordInput = () => {
-  localStorage.setItem("fame-admin-password", passwordInput.value);
-};
 
-passwordInput.value = localStorage.getItem("fame-admin-password") ?? ""
+window.handlePasswordInput = () => {
+  localStorage.setItem("password", passwordInput.value);
+};
+```
+
+Automatically load the saved password so that I don't need to type it in each time.
+
+```js
+passwordInput.value = localStorage.getItem("password") ?? ""
 ```
 
 ## Heroes
@@ -91,7 +96,7 @@ The list of heroes gets loaded into a big textbox.
 <textarea id="heroes"></textearea>
 <script>
   const heroesInput = document.querySelector("#heroes")
-  let heroes = []
+  let heroes = null
 
   const pullHeroes = async () => {
     heroes = await val("todepond.getHeroes")
@@ -108,14 +113,12 @@ I can edit the heroes, and then push a button to upload those changes.
 <button onclick="handlePushHeroes()">Push heroes</button>
 <script>
   window.handlePushHeroes = async () => {
-    const newHeroes = JSON.parse(heroesInput.value)
-    const oldHeroes = heroes
-    const password = passwordInput.value
-
-    const result = await val("todepond.setHeroes", newHeroes, oldHeroes, password)
-    if (result.success) {
-      heroes = newHeroes
-    }
+    const result = await val(
+      "todepond.setHeroes",
+      JSON.parse(heroesInput.value),
+      heroes,
+      passwordInput.value,
+    )
   }
 </script>
 ```
@@ -190,8 +193,48 @@ const hero = heroes.find(v => v.supporter === id)
 
 ## Hero designer
 
-Your hero gets loaded into the hero designer. But before we get to that... what's the hero designer?
+There are some inputs for setting your hero's name and flavour.
 
 ```html
+<input type="text" id="name" />
+<select id="flavour">
+  <option value="fire">Fire</option>
+  <option value="water">Water</option>
+  <option value="air">Air</option>
+  <option value="sand">Sand</option>
+  <option value="wood">Wood</option>
+  <option value="flower">Flower</option>
+  <option value="pink sand">Pink sand</option>
+  <option value="metal">Metal</option>
+  <option value="poison">Poison</option>
+  <option value="leaf">Leaf</option>
+  <option value="cloud">Cloud</option>
+</select>
+```
 
+Your current choices get loaded in.
+
+```js
+const nameInput = document.querySelector("#name")
+const flavourInput = document.querySelector("#flavour")
+
+nameInput.value = hero.name
+flavourInput.value = hero.flavour
+```
+
+Make your changes and then hit the "Save hero" button!
+
+```html
+<button onclick="handleSave()">Save hero</button>
+
+<script>
+  window.handleSave = async () => {
+    await val(
+      "todepond.setHero",
+      secretInput.value,
+      nameInput.value,
+      colourInput.value
+    );
+  }
+</script>
 ```
