@@ -354,5 +354,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long</guid>
   			<description>Blog posts can be long or short.</description>
   		</item>
+		<item>
+  			<title>Peace</title>
+  			<pubDate>Mon, 25 Dec 2023 13:13:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/genocide/peace/christmas/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/genocide/peace/christmas/</guid>
+  			<description>Today is christmas day.</description>
+  		</item>
   </channel>
 </rss>
