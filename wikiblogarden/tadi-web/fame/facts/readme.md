@@ -2,7 +2,7 @@
 
 I made a thing called the [Pond of Fame](/fame). It's the world's first full-stack [tadi](/wikiblogarden/tadi-web/) website.
 
-In this post, I won't go into the history of the Pond of Fame, or the story behind it. I'll just go through the cold, hard facts of how it works.
+Here's how it works.
 
 # Pond of Fame
 
