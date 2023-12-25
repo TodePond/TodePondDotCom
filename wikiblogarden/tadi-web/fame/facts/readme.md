@@ -6,7 +6,7 @@ Here's how it works.
 
 # Pond of Fame
 
-The Pond of Fame is basically a still image of a bunch of cute characters with nametags.
+The Pond of Fame is basically a still image of a bunch of cute creatures.
 
 ## Heroes
 
