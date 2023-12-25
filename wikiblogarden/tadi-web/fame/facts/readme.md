@@ -212,7 +212,7 @@ There are some inputs for setting your hero's name and flavour.
 </select>
 ```
 
-Your current choices get loaded in.
+To begin with, your hero's data gets loaded in.
 
 ```js
 const nameInput = document.querySelector("#name")
@@ -222,7 +222,7 @@ nameInput.value = hero.name
 flavourInput.value = hero.flavour
 ```
 
-Make your changes and then hit the "Save hero" button! Your secret gets sent along too give you permission to do this.
+Make your changes and then hit the "Save hero" button! Your secret gets sent along to grant you permission.
 
 ```html
 <button onclick="handleSave()">Save hero</button>
@@ -277,8 +277,21 @@ There's a button for that.
 When you click it, an email input appears.
 
 ```html
-<form action="#" onsubmit="handleEmail()">
+<form
+  id="email-form"
+  style="display:none"
+  action="#"
+  onsubmit="handleEmail()"
+>
   <input type="email" id="email" />
   <button>Send code</button>
 </form>
+
+<script>
+  const emailForm = document.querySelector("email-form")
+
+  const handleNoCode = () => {
+    emailForm.style.display = "flex"
+  }
+</script>
 ```
