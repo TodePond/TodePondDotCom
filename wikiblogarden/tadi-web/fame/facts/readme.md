@@ -222,7 +222,7 @@ nameInput.value = hero.name
 flavourInput.value = hero.flavour
 ```
 
-Make your changes and then hit the "Save hero" button!
+Make your changes and then hit the "Save hero" button! Your secret gets sent along too give you permission to do this.
 
 ```html
 <button onclick="handleSave()">Save hero</button>
@@ -237,4 +237,29 @@ Make your changes and then hit the "Save hero" button!
     );
   }
 </script>
+```
+
+## Hero preview 
+
+I show you a preview of what your hero will look like in a canvas.
+
+```html
+<canvas width="800" height="800"></canvas>
+```
+
+Every time you edit something, I redraw the preview.
+
+```js
+const canvas = document.querySelector("canvas")
+const context = canvas getContext("2d")
+
+window.drawPreview = () => {
+    const image = IMAGE_MAP[hero.tier][flavourInput.value]
+    context.clearRect(0, 0, canvas.width, canvas.height)
+    context.drawImage(image, 0, 0)
+    context.fillStyle = "white"
+    context.font = "bold 60px sans-serif"
+    context.textAlign = "center"
+    context.fillText(name, canvas.width / 2, canvas.height - 120)
+}
 ```
