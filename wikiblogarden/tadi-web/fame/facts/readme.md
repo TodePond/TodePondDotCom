@@ -52,7 +52,7 @@ createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
 });
 ```
 
-I use the hero's `tier` and `flavour` to determine which image we load. The images were originally drawn by [Flora Caulton](https://floracaulton.com). I tweaked their size and colour in photoshop.
+I use the hero's `tier` and `flavour` to determine which image to load. The images were originally drawn by [Flora Caulton](https://floracaulton.com). I tweaked their size and colour in photoshop.
 
 I also add the hero's `name` as a text label. And I position the hero dynamically, based on where it appears in the list.
 
