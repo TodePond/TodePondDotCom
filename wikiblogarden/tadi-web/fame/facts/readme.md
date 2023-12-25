@@ -10,9 +10,9 @@ The Pond of Fame is basically a still image of a bunch of cute creatures.
 
 ## Heroes
 
-There's a blob of data out there in the [cloud](/wikiblogarden/better-computing/synchronising-data/). It's a list of all the cute characters that appear in the Pond of Fame. I call them HEROES.
+There's a blob of data out there in the [cloud](/wikiblogarden/better-computing/synchronising-data/). It's a list of all the creatures that appear in the Pond of Fame. I call them HEROES.
 
-Anyone can see the blob! There's nothing sensitive in it. Here's how you get it:
+Anyone can see the blob! There's nothing private in it. Here's how you get it:
 
 ```js
 const response = await fetch("https://api.val.town/v1/run/todepond.getHeroes");
@@ -36,7 +36,7 @@ Each hero object contains some information. Here's an example:
 }
 ```
 
-The `name`, `tier`, and `flavour` properties determine how the hero should look in the Pond of Fame. The `supporter` property tells us which supporter added the hero. We'll get to that later.
+The `name`, `tier`, and `flavour` properties determine how the hero should look in the Pond of Fame. The `supporter` property tells me which supporter added the hero. I'll get to that later.
 
 ## Entities
 
@@ -52,9 +52,9 @@ createEntity(`Colours/${hero.tier}/${COLOUR_MAP[hero.flavour]}.png`, {
 });
 ```
 
-We use the hero's `tier` and `flavour` to determine which image we load. The images were originally drawn by [Flora Caulton](https://floracaulton.com). I tweaked their size and colour in photoshop.
+I use the hero's `tier` and `flavour` to determine which image we load. The images were originally drawn by [Flora Caulton](https://floracaulton.com). I tweaked their size and colour in photoshop.
 
-We also add the hero's `name` as a text label. And we position it dynamically, based on  where it appears in the list.
+I also add the hero's `name` as a text label. And I position the hero dynamically, based on where it appears in the list.
 
 # Admin dashboard 
 
@@ -72,7 +72,7 @@ It's password-protected. There's a password input at the top of the page.
 />
 ```
 
-The password gets stored to local storage, so I don't need to type it in each time.
+The password gets stored to local storage so that I don't need to type it in each time.
 
 ```js
 const passwordInput = document.querySelector("#password")
@@ -120,7 +120,9 @@ I can edit the heroes, and then push a button to upload those changes.
 </script>
 ```
 
-This time, we have to send a `password` along too. We also send along a copy of what **we think** the current heroes are. It lets the server check if you're up-to-date. If you're out-of-date, it rejects you because you might be overriding newer data.
+This time, I have to send a `password` along too.
+
+I also send along a copy of what **I think** the current heroes are. It lets the server check if I'm up-to-date. If I'm out-of-date, it rejects me because I might be overriding newer data.
 
 ## Supporters
 
@@ -136,7 +138,7 @@ A supporter looks like this:
 }
 ```
 
-The `id` property lets us identify the supporter without referring to any personal information. The `email` lets us contact them. The `secret` is their way of editing their hero. We'll get to that later!
+The `id` property lets me identify the supporter without referring to any personal information. The `email` lets me contact them. The `secret` is something they can use to edit their hero. I'll get to that later!
 
 Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that it needs the password in both cases.
 
@@ -146,8 +148,34 @@ const supporters = await val("todepond.getSupporters", password)
 await val("todepond.setSupporters", newSupporters, oldSupporters, password)
 ```
 
-There are also some differences with how it's stored in the cloud, for additional security. We'll get to that later.
+There are also some differences with how it's stored in the cloud, for additional security. I'll get to that later too!
 
 # Supporter dashboard
 
+Supporters can edit their hero on the supporter dashboard.
+
 ## Secret
+
+They're only allowed to edit their own hero, of course. So there's a password input at the top of the screen, similar to the admin dashboard.
+
+```html
+<form action="#" onsubmit="handleLogin()">
+  <input
+    type="password"
+    id="secret"
+    oninput="saveSecret()"
+  />
+  <button>Login</button>
+</form>
+```
+
+The supporter types (or pastes) their SECRET, and the dashboard gets their ID.
+
+```js
+const secretInput = document.querySelector("#secret")
+
+let id = null
+window.handleLogin = async () => {
+  id = await val("todepond.loginSupporter", secretInput.value)
+}
+```
