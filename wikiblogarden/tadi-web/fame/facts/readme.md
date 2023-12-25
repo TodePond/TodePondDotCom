@@ -126,7 +126,7 @@ I also send along a copy of what **I think** the current heroes are. It lets the
 
 ## Supporters
 
-Surprise! There's another blob of data. This one's private: It's a list of paying SUPPORTERS.
+Surprise! There's another blob of data. This one's private: It's a list of paying SUPPORTERS (that's you).
 
 A supporter looks like this:
 
@@ -138,25 +138,23 @@ A supporter looks like this:
 }
 ```
 
-The `id` property lets me identify the supporter without referring to any personal information. The `email` lets me contact them. The `secret` is something they can use to edit their hero. I'll get to that later!
+The `id` property lets me identify you without referring to any personal information. The `email` lets me contact you. The `secret` is something you can use to edit your hero. I'll get to that later!
 
-Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that it needs the password in both cases.
+Getting and setting the supporters blob works similarly to the heroes blob. The only difference is that I need to send the password even when I'm just fetching it.
 
 ```js
 const supporters = await val("todepond.getSupporters", password)
-
-await val("todepond.setSupporters", newSupporters, oldSupporters, password)
 ```
 
 There are also some differences with how it's stored in the cloud, for additional security. I'll get to that later too!
 
 # Supporter dashboard
 
-Supporters can edit their hero on the supporter dashboard.
+You can edit your hero in the supporter dashboard.
 
 ## Secret
 
-They're only allowed to edit their own hero, of course. So there's a password input at the top of the screen, similar to the admin dashboard.
+You're only allowed to edit your own hero, of course. So there's a password input at the top of the screen, similar to the admin dashboard.
 
 ```html
 <form action="#" onsubmit="handleLogin()">
@@ -169,13 +167,31 @@ They're only allowed to edit their own hero, of course. So there's a password in
 </form>
 ```
 
-The supporter types (or pastes) their SECRET, and the dashboard gets their ID.
+## Id
+
+You paste in your SECRET, and the dashboard fetches your ID.
 
 ```js
 const secretInput = document.querySelector("#secret")
 
-let id = null
 window.handleLogin = async () => {
-  id = await val("todepond.loginSupporter", secretInput.value)
+  const id = await val("todepond.loginSupporter", secretInput.value)
 }
+```
+
+## Hero
+
+The dashboard uses your ID to get your HERO.
+
+```js
+const heroes = await val("todepond.getHeroes")
+const hero = heroes.find(v => v.supporter === id)
+```
+
+## Hero designer
+
+Your hero gets loaded into the hero designer. But before we get to that... what's the hero designer?
+
+```html
+
 ```
