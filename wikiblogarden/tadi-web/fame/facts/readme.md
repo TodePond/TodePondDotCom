@@ -266,12 +266,14 @@ const drawPreview = () => {
 
 # Email
 
-But wait! How do you get your secret code in the first place?
+Your account is managed via email.
 
-There's a button for that.
+## Register
+
+There's a button for getting your secret code.
 
 ```html
-<button onclick="handleNoCode()">I don't have a code!</button>
+<button onclick="handleNoCode()">I don't have a code</button>
 ```
 
 When you click it, an email input appears.
