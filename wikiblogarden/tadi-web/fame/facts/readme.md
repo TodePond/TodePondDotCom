@@ -82,7 +82,7 @@ const handlePasswordInput = () => {
 };
 ```
 
-Automatically load the saved password so that I don't need to type it in each time.
+I automatically load the saved password so that I don't need to type it in each time.
 
 ```js
 passwordInput.value = localStorage.getItem("password") ?? ""
