@@ -276,9 +276,7 @@ There's a button for getting your secret code.
 <button onclick="handleNoCode()">I don't have a code</button>
 ```
 
-There's also a *hidden* email input 
-
-When you click it, an email input appears.
+There's also a *hidden* email input.
 
 ```html
 <form
@@ -300,4 +298,37 @@ const emailForm = document.querySelector("email-form")
 const handleNoCode = () => {
   emailForm.style.display = "flex"
 }
+```
+
+## Approve
+
+When you register, I get sent an email notification. I check if you're email is on the list of members. If it is, I click the magic link in the email.
+
+The magic link has the supporter's email address as a search parameter.
+
+```
+https://todepond.com/fame/dashboard/admin?addSupporter=todepond@gmail.com
+```
+
+The link takes me to the admin dashboard, where there's a form for adding new supporters.
+
+```html
+<input type="email" id="email" />
+<select id="add-supporter-tier">
+  <option value="froggy">Froggy</option>
+  <option value="flappy">Flappy</option>
+  <option value="beepy">Beepy</option>
+</select>
+<button>Add supporter</button>
+```
+
+The email input gets filled in automatically by the search parameter.
+
+```js
+const emailInput = document. querySelector("")
+const params = new URLSearchParams(window.location.search)
+const email = params.get("addSupporter")
+if (email) {
+    emailInput.value = email
+  }
 ```
