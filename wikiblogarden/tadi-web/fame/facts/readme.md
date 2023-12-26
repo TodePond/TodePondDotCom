@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="/highlight/default.css">
+<script src="/highlight/highlight.min.js"></script>
+
 # World's first full-stack tadi website
 
 I made a thing called the [Pond of Fame](/fame). It's the world's first full-stack [tadi](/wikiblogarden/tadi-web/) website.
@@ -531,3 +534,5 @@ The pond of fame is all [open-source](https://github.com/TodePond/TodePondDotCom
 If you want to be part of the pond of fame, sign up on my [patreon](https://patreon.com/TodePond).
 
 Tell me what you think! If anything seems unclear, or this helped you, or you have any thoughts at all, please let me know! My email is on [todepond dot com](https://todepond.com).
+
+<script>hljs.highlightAll();</script>
