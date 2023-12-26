@@ -302,24 +302,26 @@ const handleNoCode = () => {
 
 ## Approve
 
-When you register, I get sent an email notification. I check if you're email is on the list of members. If it is, I click the magic link in the email.
+When you register, I get sent an email notification. I check if you're on the list of members. If you are, I click the magic link in the email.
 
-The magic link has the supporter's email address as a search parameter.
+The magic link has your email address as a search parameter.
 
 ```
-https://todepond.com/fame/dashboard/admin?addSupporter=todepond@gmail.com
+todepond.com/fame/dashboard/admin?addSupporter=todepond@gmail.com
 ```
 
 The link takes me to the admin dashboard, where there's a form for adding new supporters.
 
 ```html
-<input type="email" id="email" />
-<select id="add-supporter-tier">
-  <option value="froggy">Froggy</option>
-  <option value="flappy">Flappy</option>
-  <option value="beepy">Beepy</option>
-</select>
-<button>Add supporter</button>
+<form action="#" onsubmit="handleAddSupporter()">
+  <input type="email" id="email" />
+  <select id="tier">
+    <option value="froggy">Froggy</option>
+    <option value="flappy">Flappy</option>
+    <option value="beepy">Beepy</option>
+  </select>
+  <button>Add supporter</button>
+</form>
 ```
 
 The email input gets filled in automatically by the search parameter.
@@ -331,4 +333,67 @@ const email = params.get("addSupporter")
 if (email) {
   emailInput.value = email
 }
+```
+
+I click the button, and it adds you to the Pond!
+
+```js
+const handleAddSupporter = () => {
+    val(
+      "todepond.addSupporter",
+      emailInput.value,
+      tierInput.value,
+      passwordInput.value
+    )
+}
+```
+
+## Login
+
+Then, you get an email with your secret code. Again, the email comes with a magic link that lets you login instantly.
+
+```
+todepond.com/fame/dashboard?secret=abcde-fghijk-etc
+```
+
+# Server
+
+All those API calls get handled by [val.town](https://val.town).
+
+## Get heroes
+
+Easy, just get the blob.
+
+```js
+import { blob } from "https://esm.town/v/std/blob";
+
+export async function getHeroes() {
+  return await blob.getJSON("heroes");
+}
+```
+
+## Set heroes
+
+Similar, but check the password first.
+
+```js
+if (password !== process.env.FAME_ADMIN_PASSWORD) {
+  return { success: false, error: "Wrong password" };
+}
+```
+
+And make sure you aren't out-of-sync.
+
+```js
+const actualHeroes = await blob.getJSON("heroes");
+  if (JSON.stringify(actualHeroes) !== JSON.stringify(heroes)) {
+    return { success: false, error: "Conflict" };
+}
+```
+
+Then set the blob!
+
+```js
+await blob.setJSON("heroes", heroes);
+return { success: true };
 ```
