@@ -1,11 +1,3 @@
-<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/default.min.css">
-<script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
-<style>
-  pre {
-    padding: 0px;
-  }
-</style>
-
 # World's first full-stack tadi website
 
 I made a thing called the [Pond of Fame](/fame). It's the world's first full-stack [tadi](/wikiblogarden/tadi-web/) website.
@@ -249,7 +241,7 @@ Make your changes and then hit the "Save hero" button! Your secret gets sent alo
 
 ## Hero preview 
 
-I also show you a preview of what your hero will look like on a canvas.
+I show you a preview of what your hero will look like on a canvas.
 
 ```html
 <canvas width="800" height="800"></canvas>
@@ -298,7 +290,7 @@ There's also a *hidden* email input.
 </form>
 ```
 
-When you click on the button, it reveals the hidden form.
+When you click on the button, it reveals the hidden input.
 
 ```js
 const emailForm = document.querySelector("email-form")
@@ -335,7 +327,7 @@ The link takes me to the admin dashboard, where there's a form for adding new su
 The email input gets filled in automatically by the search parameter.
 
 ```js
-const emailInput = document. querySelector("#email")
+const emailInput = document.querySelector("#email")
 const params = new URLSearchParams(window.location.search)
 const email = params.get("addSupporter")
 if (email) {
@@ -531,13 +523,10 @@ So... for me, it's a no-brainer to pay for val town. It lets me stay slippier th
 No but I do like the people behind it, so maybe I'm biased. Take with a grain of salt.
 
 <br>
-
-# Links
+<br>
 
 The pond of fame is all [open-source](https://github.com/TodePond/TodePondDotCom/tree/main/fame/dashboard)! And my vals are all either public or unlisted on [my val town](https://www.val.town/u/TodePond).
 
 If you want to be part of the pond of fame, sign up on my [patreon](https://patreon.com/TodePond).
 
 Tell me what you think! If anything seems unclear, or this helped you, or you have any thoughts at all, please let me know! My email is on [todepond dot com](https://todepond.com).
-
-<script>hljs.highlightAll();</script>
