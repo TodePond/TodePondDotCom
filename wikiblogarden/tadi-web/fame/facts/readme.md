@@ -441,4 +441,91 @@ if (!supporter) {
 return supporter.id;
 ```
 
+## Emailing
 
+Val town makes emailing really easy.
+
+```js
+import { email } from "https://esm.town/v/std/email";
+
+await email({
+  to: "todepond@gmail.com",
+  from: "todepond.com@valtown.email",
+  subject: "Secret code request",
+  html: `Secret code request from ${address}`
+});
+```
+
+## Secret code
+
+Generate a unique, secure, secret code.
+
+```js
+let secret = crypto.randomUUID();
+while (isCollision(secret, supporters)) {
+  secret = crypto.randomUUID();
+}
+```
+
+Don't really need to check for duplicate codes, but why not eh.
+
+```js
+function isCollision(secret, supporters) {
+  return supporters.some((s) => s.secret === secret);
+}
+```
+
+## Backup
+
+I get daily backups via email by running over of my vals on a very long interval.
+
+```js
+email({
+  text: JSON.stringify(heroes) + "\n" + JSON.stringify(encryptedSupporters),
+  to: "todepond@gmail.com",
+  from: "todepond.com@valtown.email",
+  subject: "Pond of fame backup",
+});
+```
+
+# The end
+
+That's everything! That's all you need.
+
+Listed out, it seems like quite a lot. But that's because I went through it in such close detail.
+
+I hope that nothing was left out as 'assumed knowledge'.
+
+## Slippy as hell
+
+All of the code behind this is highly portable. You're not locked into any stack or ecosystem, like vercel, deno, supabase, react, next, github, node, blah blah.
+
+## What about val town though?
+
+Val town uses deno and cloudflare workers. But it provides a wrapper around them that is highly portable. It's a way of using these closed-off ecosystems in a way that doesn't lock you in. Because of this, I'm more than happy to pay for val town for higher rate limits, and more customisation.
+
+Their [recent changes](https://blog.val.town/blog/introducing-val-town-v3/) made val town even more portable, which I'm pleased about.
+
+## But what if they go bad?
+
+I trust the people behind val town. I've met [André Terron](https://www.andreterron.com/) in person, and I admire [Steve Krouse](https://stevekrouse.com/)'s work.
+
+But if they DO go bad, or sell out... I know I could pull out all my code and it'll work somewhere else (with a little bit of tweaking).
+
+And it's all simple enough that I could probably rebuild it from scratch! I didn't have to spend weeks learning a whole new messy pile of systems (like most other providers). I built the whole thing in 3 days. If I started again now, I could probably do it in 1.
+
+So... for me, it's a no-brainer to pay for val town. It lets me stay slippier than ever.
+
+## Are val town paying you to say this?
+
+No but I do like the people behind it, so maybe I'm biased. Take with a grain of salt.
+
+<br>
+
+# Links
+
+The pond of fame is all [open-source](https://github.com/TodePond/TodePondDotCom/tree/main/fame/dashboard)! And my vals are all either public or unlisted on [my val town](https://www.val.town/u/TodePond).
+
+If you want to be part of the pond of fame, sign up on my [patreon](https://patreon.com/TodePond).
+
+Tell me what you think! If anything seems unclear, or this helped you, or you have any thoughts at all, please let me know! My email is on [todepond dot com](https://todepond.com).
