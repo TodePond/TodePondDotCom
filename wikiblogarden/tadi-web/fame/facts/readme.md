@@ -356,6 +356,10 @@ Then, you get an email with your secret code. Again, the email comes with a magi
 todepond.com/fame/dashboard?secret=abcde-fghijk-etc
 ```
 
+## Forgot code
+
+If you forget or lose your code, you can click on the "I don't have a code" button. It'll send you a new one.
+
 # Server
 
 All those API calls get handled by [val.town](https://val.town).
@@ -386,8 +390,8 @@ And make sure you aren't out-of-sync.
 
 ```js
 const actualHeroes = await blob.getJSON("heroes");
-  if (JSON.stringify(actualHeroes) !== JSON.stringify(heroes)) {
-    return { success: false, error: "Conflict" };
+if (JSON.stringify(actualHeroes) !== JSON.stringify(heroes)) {
+  return { success: false, error: "Conflict" };
 }
 ```
 
@@ -397,3 +401,44 @@ Then set the blob!
 await blob.setJSON("heroes", heroes);
 return { success: true };
 ```
+
+## Get supporters
+
+Similar, but decode the data first.
+
+```js
+const supporters = await decrypt(
+  encryptedSupporters,
+  process.env.FAME_SUPPORTER_ENCRYPTION_KEY
+);
+```
+
+## Set supporters
+
+Encrypt the data before saving it. This means your email won't be exposed if there's a data breach, or if I mess up somehow.
+
+```js
+const encryptedSupporters = await encrypt(
+  JSON.stringify(supporters),
+  process.env.FAME_SUPPORTER_ENCRYPTION_KEY
+);
+```
+
+## Encryption
+
+To do the encryption, I copy-pasted some code from stack overflow.
+
+## Login
+
+Check if your secret code is valid, and give back your id 
+
+```js
+const supporters = await getSupporters(process.env.FAME_ADMIN_PASSWORD);
+const supporter = supporters.find((s) => s.secret === secret);
+if (!supporter) {
+  return null;
+}
+return supporter.id;
+```
+
+
