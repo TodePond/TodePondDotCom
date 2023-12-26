@@ -504,7 +504,7 @@ It's just html files. And javascript functions. I think I said that already.
 
 ## What about val town though?
 
-Val town uses deno and cloudflare workers behind-the-scenes. But it provides a wrapper around them that is highly portable. It's a way of using these closed-off ecosystems in a way that doesn't lock you in. Because of this, I'm more than happy to pay for val town for higher rate limits, and more customisation.
+Val town uses deno and r2 behind-the-scenes. But it provides a wrapper around them that is highly portable. It's a way of using these closed-off ecosystems in a way that doesn't lock you in. Because of this, I'm more than happy to pay for val town for higher rate limits, and more customisation.
 
 Their [recent changes](https://blog.val.town/blog/introducing-val-town-v3/) made val town even more portable, which I'm pleased about.
 
