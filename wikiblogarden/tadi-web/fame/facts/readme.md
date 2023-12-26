@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/highlight/default.css">
-<script src="/highlight/highlight.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
 
 # World's first full-stack tadi website
 
