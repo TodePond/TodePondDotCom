@@ -2,7 +2,7 @@
 <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
 <style>
   pre {
-    all: unset;
+    padding: 0px;
   }
 </style>
 
