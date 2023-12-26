@@ -276,6 +276,8 @@ There's a button for getting your secret code.
 <button onclick="handleNoCode()">I don't have a code</button>
 ```
 
+There's also a *hidden* email input 
+
 When you click it, an email input appears.
 
 ```html
@@ -288,12 +290,14 @@ When you click it, an email input appears.
   <input type="email" id="email" />
   <button>Send code</button>
 </form>
+```
 
-<script>
-  const emailForm = document.querySelector("email-form")
+When you click on the button, it reveals the hidden form.
 
-  const handleNoCode = () => {
-    emailForm.style.display = "flex"
-  }
-</script>
+```js
+const emailForm = document.querySelector("email-form")
+
+const handleNoCode = () => {
+  emailForm.style.display = "flex"
+}
 ```
