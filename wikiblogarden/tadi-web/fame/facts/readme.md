@@ -325,7 +325,7 @@ The link takes me to the admin dashboard, where there's a form for adding new su
 The email input gets filled in automatically by the search parameter.
 
 ```js
-const emailInput = document. querySelector("")
+const emailInput = document. querySelector("#email")
 const params = new URLSearchParams(window.location.search)
 const email = params.get("addSupporter")
 if (email) {
