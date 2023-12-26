@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/default.min.css">
 <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+<style>
+  pre {
+    all: unset;
+  }
+</style>
 
 # World's first full-stack tadi website
 
