@@ -329,6 +329,6 @@ const emailInput = document. querySelector("")
 const params = new URLSearchParams(window.location.search)
 const email = params.get("addSupporter")
 if (email) {
-    emailInput.value = email
-  }
+  emailInput.value = email
+}
 ```
