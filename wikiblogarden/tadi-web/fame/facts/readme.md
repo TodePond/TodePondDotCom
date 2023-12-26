@@ -492,17 +492,19 @@ email({
 
 That's everything! That's all you need.
 
-Listed out, it seems like quite a lot. But that's because I went through it in such close detail.
+Listed out, it seems like quite a lot. But that's because I went through it in such close detail. I hope that nothing was left out as 'assumed knowledge'.
 
-I hope that nothing was left out as 'assumed knowledge'.
+And the number of concepts was actually very low. Everything was written with fairly boring html and javascript. There was no build step, no environment setup, no extra tooling. JUST HTML FILES AND JAVASCRIPT FUNCTIONS. BEAUTIFUL BORING SIMPLICITY.
 
 ## Slippy as hell
 
-All of the code behind this is highly portable. You're not locked into any stack or ecosystem, like vercel, deno, supabase, react, next, github, node, blah blah.
+Of course, all of my code behind this is highly portable. You're not locked into any stack or ecosystem, like vercel, deno, supabase, react, next, github, node, blah blah.
+
+It's just html files. And javascript functions. I think I said that already.
 
 ## What about val town though?
 
-Val town uses deno and cloudflare workers. But it provides a wrapper around them that is highly portable. It's a way of using these closed-off ecosystems in a way that doesn't lock you in. Because of this, I'm more than happy to pay for val town for higher rate limits, and more customisation.
+Val town uses deno and cloudflare workers behind-the-scenes. But it provides a wrapper around them that is highly portable. It's a way of using these closed-off ecosystems in a way that doesn't lock you in. Because of this, I'm more than happy to pay for val town for higher rate limits, and more customisation.
 
 Their [recent changes](https://blog.val.town/blog/introducing-val-town-v3/) made val town even more portable, which I'm pleased about.
 
