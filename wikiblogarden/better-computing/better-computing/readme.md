@@ -20,7 +20,7 @@ Oh and there's the [gemini web](https://geminiprotocol.net/), and the [spartan w
 
 Each one of these is the best bett bester computing of them all!
 
-Oh and not forgetting the [cozy web](https://maggieappleton.com/cozy-web)!
+And also the [cozy web](https://maggieappleton.com/cozy-web)!
 
 ## Small-perma-local-robust-small-gemini-spartan-smol-gopher-dat-cozy computing-web
 
