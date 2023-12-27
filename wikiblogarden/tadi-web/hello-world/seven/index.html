@@ -45,10 +45,8 @@
 
 <h2>Flight booker</h2>
 
-<form
-  action="javascript:;"
+<section
   style="display: flex; flex-direction: column; gap: 5px; max-width: 200px"
-  onsubmit="handleBook()"
 >
   <select id="flight-type" onchange="handleUpdateFlightType()">
     <option value="one-way">One-way flight</option>
@@ -56,8 +54,8 @@
   </select>
   <input id="departure" type="date" onchange="updateButton()" />
   <input id="return" type="date" onchange="updateButton()" />
-  <button id="book">Book</button>
-</form>
+  <button id="book" onclick="handleBook()">Book</button>
+</section>
 
 <script>
   const flightType = document.querySelector("#flight-type");
