@@ -64,6 +64,7 @@ textarea {
   color: white;
   padding: 5px;
   width: 100%;
+  max-width: 100px;
   font-size: 1em;
 }
 
