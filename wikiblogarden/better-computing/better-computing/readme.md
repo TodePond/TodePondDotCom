@@ -8,7 +8,7 @@ I've gone through a few of them [already](/wikiblogarden/better-computing/)! But
 
 Recap: There's [robust-first computing](https://andrewwalpole.com/blog/an-introduction-to-robust-first-computation/), [local-first computing](https://www.inkandswitch.com/local-first/), [permacomputing](https://permacomputing.net/permacomputing/), and [perma-local-robust-first computing](/wikiblogarden/better-computing/).
 
-And not to forget the [tadi web](/wikiblogarden/tadi-web/)! The tadi web is the best better computing of them all!
+And there's the [tadi web](/wikiblogarden/tadi-web/)! The tadi web is the best better computing of them all!
 
 ## Best better best computing
 
