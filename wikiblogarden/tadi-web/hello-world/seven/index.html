@@ -45,8 +45,10 @@
 
 <h2>Flight booker</h2>
 
-<section
+<form
+  action="javascript:;"
   style="display: flex; flex-direction: column; gap: 5px; max-width: 200px"
+  onsubmit="handleBook()"
 >
   <select id="flight-type" onchange="handleUpdateFlightType()">
     <option value="one-way">One-way flight</option>
@@ -54,8 +56,8 @@
   </select>
   <input id="departure" type="date" onchange="updateButton()" />
   <input id="return" type="date" onchange="updateButton()" />
-  <button id="book" onclick="book()">Book</button>
-</section>
+  <button id="book">Book</button>
+</form>
 
 <script>
   const flightType = document.querySelector("#flight-type");
@@ -74,7 +76,7 @@
         (!returnDate.value || returnDate.value < departure.value));
   };
 
-  const book = () => {
+  const handleBook = () => {
     let message = `Booked a ${flightType.value} flight on ${departure.value}`;
     if (flightType.value === "return") {
       message += `, coming back on ${returnDate.value}`;
