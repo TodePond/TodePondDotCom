@@ -2,9 +2,7 @@
 
 There are **lots and lots and lots** of people out there trying to make us **use computers better**.
 
-I've gone through a few of them [already](/wikiblogarden/better-computing/)!
-
-But I keep finding more.
+I've gone through a few of them [already](/wikiblogarden/better-computing/)! But I keep finding more.
 
 ## Best better computing
 
