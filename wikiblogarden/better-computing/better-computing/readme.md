@@ -26,9 +26,9 @@ And also the [cozy web](https://maggieappleton.com/cozy-web)!
 
 It's easy, we just add them all together for the **BESTEREST computering web**. And we call that... the `tadi web`.
 
-The tadi web is nothing new. It's simply what you get when you merge together all of the above, and more! It's something you discover. Not something you make.
+The tadi web is nothing new. It's simply what you get when you merge together all of the above, and more! It's something you discover. Not something you make. This is why I can't tell you if something is or isn't part of the tadi web. I don't frickin know! You work it out >:)
 
-_The whole point is that it introduces NOTHING NEW. `NO MORE IDEAS!!!`_
+_The whole point is that the tadi web introduces NOTHING NEW. `NO MORE IDEAS!!!`_
 
 Say it with me...
 
