@@ -84,3 +84,52 @@
 
   handleUpdateFlightType();
 </script>
+
+<h2>Timer</h2>
+
+<section
+  style="display: flex; flex-direction: column; gap: 5px; max-width: 300px"
+>
+  <span>
+    <label for="progress-bar">Elapsed time:</label>
+    <progress id="progress-bar" max="10000" min="0" value="0"></progress>
+  </span>
+  <label for="progress-bar" id="progress-label">0.0s</label>
+  <span>
+    <label for="duration">Duration:</label>
+    <input
+      id="duration"
+      type="range"
+      value="10"
+      min="0"
+      max="20"
+      oninput="handleDurationChange()"
+    />
+  </span>
+  <button onclick="handleReset()">Reset</button>
+</section>
+
+<script>
+  const progressBar = document.querySelector("#progress-bar");
+  const progressLabel = document.querySelector("#progress-label");
+  const duration = document.querySelector("#duration");
+  let start = Date.now();
+
+  const handleReset = () => {
+    start = Date.now();
+  };
+
+  const handleDurationChange = () => {
+    progressBar.max = duration.value * 1000;
+  };
+
+  const update = () => {
+    requestAnimationFrame(update);
+    const elapsed = Date.now() - start;
+    if (elapsed >= progressBar.max) return;
+    progressBar.value = elapsed;
+    progressLabel.textContent = `${(elapsed / 1000).toFixed(1)}s`;
+  };
+
+  update();
+</script>

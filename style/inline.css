@@ -72,6 +72,10 @@ input[type="date"] {
   height: 30px;
 }
 
+input[type="range"] {
+  height: 0.9em;
+}
+
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
