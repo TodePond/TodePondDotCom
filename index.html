@@ -188,8 +188,13 @@
       });
     }
 
-    for (const raindrop of bubbles) {
-      raindrop.y -= raindrop.speed * delta;
+    for (let i = 0; i < bubbles.length; i++) {
+      const bubble = bubbles[i];
+      bubble.y -= bubble.speed * delta;
+      if (bubble.y < -bubble.size) {
+        bubbles.splice(i, 1);
+        i--;
+      }
     }
   };
 
