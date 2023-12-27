@@ -63,23 +63,15 @@
   const returnDate = document.querySelector("#return");
   const bookButton = document.querySelector("#book");
   const handleUpdateFlightType = () => {
-    if (flightType.value === "one-way") {
-      returnDate.disabled = true;
-    } else {
-      returnDate.disabled = false;
-    }
-
+    returnDate.disabled = flightType.value === "one-way";
     updateButton();
   };
 
   const updateButton = () => {
-    if (!departure.value) {
-      bookButton.disabled = true;
-    } else if (flightType.value === "return" && !returnDate.value) {
-      bookButton.disabled = true;
-    } else {
-      bookButton.disabled = false;
-    }
+    bookButton.disabled =
+      !departure.value ||
+      (flightType.value === "return" &&
+        (!returnDate.value || returnDate.value < departure.value));
   };
 
   const book = () => {
