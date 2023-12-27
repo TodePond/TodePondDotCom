@@ -368,5 +368,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/tadi-web/fame/facts/</guid>
   			<description>I made a thing called the Pond of Fame. It's the world's first full-stack tadi website. Here's how it works.</description>
   		</item>
+		<item>
+  			<title>Better better computing</title>
+  			<pubDate>Wed, 27 Dec 2023 21:40:00 GMT</pubDate>
+  			<link>https://www.todepond.com/better-computing/better-computing</link>
+  			<guid>https://www.todepond.com/better-computing/better-computing</guid>
+  			<description>There are lots and lots and lots of people out there trying to make us use computers better. I’ve gone through a few of them already! But I keep finding more.</description>
+  		</item>
   </channel>
 </rss>
