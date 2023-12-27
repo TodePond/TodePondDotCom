@@ -16,12 +16,12 @@
 
 <h2>Counter</h2>
 
-<p id="count">0</p>
+<input type="number" disabled value="0" id="count" />
 <button onclick="increment()">Increment</button>
 <script>
   const count = document.querySelector("#count");
   const increment = () => {
-    count.textContent = parseInt(count.textContent) + 1;
+    count.value++;
   };
 </script>
 
@@ -44,3 +44,51 @@
 </script>
 
 <h2>Flight booker</h2>
+
+<section
+  style="display: flex; flex-direction: column; gap: 5px; max-width: 200px"
+>
+  <select id="flight-type" onchange="handleUpdateFlightType()">
+    <option value="one-way">One-way flight</option>
+    <option value="return">Return flight</option>
+  </select>
+  <input id="departure" type="date" onchange="updateButton()" />
+  <input id="return" type="date" onchange="updateButton()" />
+  <button id="book" onclick="book()">Book</button>
+</section>
+
+<script>
+  const flightType = document.querySelector("#flight-type");
+  const departure = document.querySelector("#departure");
+  const returnDate = document.querySelector("#return");
+  const bookButton = document.querySelector("#book");
+  const handleUpdateFlightType = () => {
+    if (flightType.value === "one-way") {
+      returnDate.disabled = true;
+    } else {
+      returnDate.disabled = false;
+    }
+
+    updateButton();
+  };
+
+  const updateButton = () => {
+    if (!departure.value) {
+      bookButton.disabled = true;
+    } else if (flightType.value === "return" && !returnDate.value) {
+      bookButton.disabled = true;
+    } else {
+      bookButton.disabled = false;
+    }
+  };
+
+  const book = () => {
+    let message = `Booked a ${flightType.value} flight on ${departure.value}`;
+    if (flightType.value === "return") {
+      message += `, coming back on ${returnDate.value}`;
+    }
+    alert(message);
+  };
+
+  handleUpdateFlightType();
+</script>

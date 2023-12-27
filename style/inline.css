@@ -68,6 +68,10 @@ textarea {
   font-size: 1em;
 }
 
+input[type="date"] {
+  height: 30px;
+}
+
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
