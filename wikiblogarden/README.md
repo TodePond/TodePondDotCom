@@ -9,16 +9,11 @@ I update the contents below every now and then.
 
 ## New things!
 
-- [Synchronising data](better-computing/synchronising-data)
-- [Putting data in the cloud](tadi-web/cloud)
-- [How I write my blog](my-wikiblogarden/demo)
-- [How to synchronise data](tadi-web/cloud/sync)
-- [Things Alex wants to write about](art/things-alex-wants-to-write-about/)
-- [You have my explicit permission to post my stuff to hackernews](social-media/hackernews/permission/)
-- [Hello world, tadi style](tadi-web/hello-world/)
-- [Mysterious people](art/mysterious-people/)
-- [DEATH OF THE TADI WEB: Worldwide](tadi-web/death/worldwide)
-- [Today is a sad day](genocide/sad-day)
+- [Why I am vegetarian](my-name/vegetarian/)
+- [Long posts](my-wikiblogarden/posts/long/)
+- [Peace](genocide/peace/christmas/)
+- [World's first full-stack tadi website](tadi-web/fame/facts/)
+- [Better better computing](better-computing/better-computing/)
 
 ## Topics
 
@@ -39,22 +34,25 @@ I update the contents below every now and then.
 
 - [My name](./my-name)
 - [Transition in slow motion](/wikiblogarden/health/transition/in-slow-motion/)
+- [Today is a sad day](genocide/sad-day)
 - [Sulfasalazine](./health/sulfasalazine)
 - [How I get money](work/how-i-get-money)
-
 - [LU LOO TALES](health/loo-lu)
 - [RIBBIT REPORT: Definitions that don't matter](/report/definitions-that-dont-matter)
 
 ### People with whom which I have interacted
 
 - [Why I love the London coding scene](london)
+- [Mysterious people](art/mysterious-people/)
 - [Thank you cards](work/thank-you-cards)
 - [Regulars](/wikiblogarden/london/cafe)
+- [Things Alex wants to write about](art/things-alex-wants-to-write-about/)
 
 ### Evil nerds
 
 - [e/acc towards what?](better-computing/worse-computing/e-acc)
 - [Hackernews is a vile website](social-media/hackernews)
+  - [You have my explicit permission to post my stuff to hackernews](social-media/hackernews/permission/)
 - [Just block them](./social-media/just-block-them)
 - [What will artificial intelligence do to us?](better-computing/worse-computing/artificial-intelligence/)
 - [Minification is evil](better-computing/worse-computing/minification)
@@ -65,33 +63,38 @@ I update the contents below every now and then.
 
 ## Projects
 
-### [Tadi web](tadi-web)
+### Tadi web
 
 - [Better computing](./better-computing)
-- [Hello world](hello-world)
-- [Examples](https://tadiweb.com)
-- [Entry points](entry-points)
-- [Graveyard](graveyard)
+  - [Entry points](tadi-web/entry-points)
+  - [The tadi web](tadi-web)
+- [Hello world](tadi-web/hello-world)
+  - [Spectrum](https://tadiweb.com)
+- [Graveyard](tadi-web/graveyard)
+  - [Synchronising data](better-computing/synchronising-data)
+  - [Putting data in the cloud](tadi-web/cloud)
+  - [How to synchronise data](tadi-web/cloud/sync)
+- [DEATH OF THE TADI WEB: How to make a meme](tadi-web/death-meme)
+- [DEATH OF THE TADI WEB: Worldwide](tadi-web/death/worldwide)
 
-- [DEATH OF THE TADI WEB: How to make a meme](death-meme)
-- [DEATH OF THE TADI WEB: Worldwide](death/worldwide)
+### Wikiblogarden
 
-### [Wikiblogarden](my-wikiblogarden)
-
+- [My wikiblogarden](my-wikiblogarden)
+  - [How I write my blog](my-wikiblogarden/demo)
 - [What is RSS?](./social-media/what-is-rss)
-- [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
+  - [Matt Webb answered all my questions](./social-media/what-is-rss/matt-webb-answered)
 - [My wikiblogarden hosting](./my-wikiblogarden/hosting)
-- [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
-- [My head to your head](my-wikiblogarden/hosting/journey)
+  - [Rubbish hosting options](./my-wikiblogarden/hosting/rubbish-options)
+  - [My head to your head](my-wikiblogarden/hosting/journey)
+- [Are analytics good?](./social-media/analytics)
+  - [Good and bad analytics](./social-media/analytics/good-and-bad)
 
-- [ANALYTICS: Are analytics good?](./social-media/analytics)
-- [ANALYTICS: Good and bad analytics](./social-media/analytics/good-and-bad)
+### Cellpond
 
-### [Cellpond](cellpond)
-
-- [Cellpond is not robust](./cellpond/is-not-robust)
-- [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
-- [Cellpond conservation and stamping](./cellpond/conservation-and-stamping)
+- [Cellpond](cellpond)
+  - [Cellpond is not robust](./cellpond/is-not-robust)
+  - [The weirdest thing about cellpond](./cellpond/the-weirdest-thing)
+- [Conservation and stamping](./cellpond/conservation-and-stamping)
 
 ### Arroost
 
