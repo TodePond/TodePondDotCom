@@ -101,7 +101,7 @@ button.primary {
 
 pre {
   background-color: #374362;
-  color: white;
+  /*color: white;*/
   padding: 11px;
   overflow-x: auto;
 }
