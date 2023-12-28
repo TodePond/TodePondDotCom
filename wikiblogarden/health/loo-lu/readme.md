@@ -10,6 +10,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 > - 13th December 2023: added a flood-related tale.
 > - 16th December 2023: added the first audio entry.
 > - 20th December 2023: added a new entry from work.
+> - 28th December 2023: added today's lu loo tale.
 
 ## Madame no
 
@@ -242,6 +243,20 @@ I was at work, and I needed the loo. The disabled loo is still out of order.
 When I was walking to the loo, I saw someone go into the mens, so I went in the womens.
 
 Later on, I needed the loo again. When I was walking there, I saw someone go into the womens, so I went in the mens.
+
+## Love
+
+I was at a pub and I needed the loo. I looked at myself in a reflection and I wasn't sure which one to go in. I asked my friends at the table and one friend suggested that I go into the 'vixens'.
+
+I walked to the bar and I could see the womens quite hidden in the corner, so I went to that one.
+
+Later on, I needed the loo again. I went to the womens but both cubicles were engaged. I decided to ask where the mens was instead.
+
+I walked over to a server to ask him, and he thought I was trying to walk past him instead. He said "sorry, love" to me.
+
+Because it was quite a young guy saying, I assumed that his 'love' was a generated use of the word, as opposed to the more gender-neutral use you get from some women.
+
+I went back to the table, and went back to the womens loo later. I watched as one woman walked away from the loos, and took that as my chance to go.
 
 <br>
 
