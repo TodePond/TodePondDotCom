@@ -1,6 +1,6 @@
-# What if computer club
-
 > This is a DRAFT invite. The real one will be much better.
+
+# What if computer club
 
 The what if computer club is a new computer club, run by me and [alex](https://wiggle.website/@noods).
 
