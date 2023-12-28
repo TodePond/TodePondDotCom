@@ -254,7 +254,7 @@ Later on, I needed the loo again. I went to the womens but both cubicles were en
 
 I walked over to a server to ask him, and he thought I was trying to walk past him instead. He said "sorry, love" to me.
 
-Because it was quite a young guy saying, I assumed that his 'love' was a generated use of the word, as opposed to the more gender-neutral use you get from some women.
+From the way he said it, I assumed that his 'love' was a gendered use of the word, as opposed to the more gender-neutral use you get from some people.
 
 I went back to the table, and went back to the womens loo later. I watched as one woman walked away from the loos, and took that as my chance to go.
 
