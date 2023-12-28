@@ -24,7 +24,7 @@ By doing the what if computer club, we will all learn the answer to the question
 
 ## When and where
 
-I dunno.
+In a room at some point.
 
 
 
