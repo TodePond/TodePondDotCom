@@ -358,7 +358,7 @@ That couldn't be further from the truth.
 
 I recently started documenting every single unusual loo visit of my life in the [Lu loo tales](/wikiblogarden/health/loo-lu).
 
-I didn't expect it to resonate so much with people. Many have contacted me to reach out, or thank me.
+I didn't expect it to resonate so much with people. Many have contacted me to reach out, or thank me, or share their own experiences.
 
 It feels funny to me, because it's just one of the mundane realities of my life. But for others, maybe it's not. I wonder if this conversation therapy story will resonate with people too 🤷
 
