@@ -76,7 +76,7 @@ And he was pleased for me if I was. He congratulated me for 'getting a girlfrien
 
 He never considered that I might also like guys.
 
-And anyway, why would he ask me about all that? I wasn't there to talk about relationships. I didn't want to. But I trusted that it was for a reason. After all, he already helped me feel so good in other ways.
+And anyway, why would he ask me about all that? I wasn't there to talk about relationships. I didn't want to. But I trusted that it was for a good reason. After all, he already helped me so much in other ways.
 
 ## Do you masturbate?
 
