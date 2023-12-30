@@ -294,7 +294,7 @@ I was successfully 'converted'.
 
 ## Perspective
 
-When various things happen to you, you gain a new sense of perspective. A diagnosis, a death, a global pandemic.
+When certain things happen to you, you gain a new sense of perspective. A diagnosis, a death, a global pandemic.
 
 When these happen... things which once felt big... start to feel small.
 
