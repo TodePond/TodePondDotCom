@@ -72,7 +72,7 @@ But that's not what I booked counselling for. I went there because I was trans, 
 
 He often asked me about girls. He asked me if I liked girls - if I was dating girls.
 
-And he was pleased for me if I was. He congratulated me for 'getting a girlfriend'. Although, at that age, it felt more like 'playing couple' rather than a real relationship.
+And he was pleased for me if I was. He congratulated me for 'getting a girlfriend'. Although, at that age, it felt more like 'playing couple' than a real relationship.
 
 He never considered that I might also like guys.
 
