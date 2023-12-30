@@ -16,7 +16,7 @@ I went to a posh boys school where homophobic bullying was rampant. From both th
 
 So of course, I was in the closet for a long time. Even though I always knew I was trans.
 
-One day, something happened to someone in our friendship group that shocked us all. It's not my story to tell, but it suddenly put a lot of things into perspective. We were all shell-shocked.
+One day, something happened to someone in our friendship group. It's not my story to tell, but it suddenly put a lot of things into perspective. We were all shell-shocked.
 
 That night, I stayed over at a friend's house, and I came out. It wasn't a big deal, and it went a thousand times better than I ever could have imagined. We're close friends to this day.
 
