@@ -64,7 +64,7 @@ He taught me more techniques for calming down. I became very good at it. I learn
 
 Going to a session became a high. I always left feeling confident.
 
-But that's not what I originally booked counselling for. I went there because I was trans, and I wanted to do something about it. I didn't want to be calm. I didn't want to be ok with the status quo of my life.
+But that's not what I booked counselling for. I went there because I was trans, and I wanted to do something about it. I didn't want to be calm. I didn't want to be ok with the status quo of my life.
 
 # Part two: The man
 
