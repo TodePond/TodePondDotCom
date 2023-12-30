@@ -80,7 +80,7 @@ And anyway, why would he ask me about all that? I wasn't there to talk about rel
 
 ## Do you masturbate?
 
-He asked me if I masturbate or not. He asked me how often I masturbate. He asked me if I enjoyed it.
+He asked me if I masturbate or not. He asked me how often I masturbate. He asked me if I enjoy it.
 
 I didn't know why he asked. But still I told him.
 
