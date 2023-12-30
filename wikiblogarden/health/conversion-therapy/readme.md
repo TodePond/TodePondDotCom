@@ -4,7 +4,7 @@ Perhaps the most personal thing I've ever written.
 
 Content warning, obviously.
 
-## Why share something so personal
+## Why share something so personal?
 
 I'll explain at the end.
 
@@ -314,11 +314,11 @@ I skipped out a lot, but things feel different now. Hurdles are annoyances that 
 
 # Part six: Why
 
-## Why share something so personal
+## Why share something so personal?
 
 Many reasons.
 
-## What is conversion therapy
+## What is conversion therapy?
 
 I don't think people know what conversion therapy is.
 
@@ -334,7 +334,7 @@ More indirectly, my doctor tried to stop me from continuing my transition. I don
 
 Some years later, there was an inquiry into that doctor. Many many queer people had reported abuse they received. As requested, I shared details of my experience there. I hope something happened as a result.
 
-## What does conversion therapy look like
+## What does conversion therapy look like?
 
 If you're a queer person, maybe you now have more awareness of what conversion therapy can look like. Maybe you'll be more prepared to sense it, if it starts happening to you. Please learn from my mistakes.
 
