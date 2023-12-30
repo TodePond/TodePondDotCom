@@ -74,7 +74,7 @@ He often asked me about girls. He asked me if I liked girls - if I was dating gi
 
 And he was pleased for me if I was. He congratulated me for "getting a girlfriend". Although, at that age, it felt more like "playing couple", rather than a real relationship.
 
-He never considered that I might also like guys.
+He never considered that I might like guys.
 
 And anyway, why would he ask me about all that? I wasn't there to talk about relationships. I didn't want to. But I trusted that it was for a good reason. After all, he already helped me so much in other ways.
 
