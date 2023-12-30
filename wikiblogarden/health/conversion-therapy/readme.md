@@ -18,7 +18,7 @@ So of course, I was in the closet for a long time. Even though I always knew I w
 
 One day, something happened to someone in our friendship group. It's not my story to tell, but it suddenly put a lot of things into perspective. We were all shell-shocked.
 
-That night, I stayed over at a friend's house, and I came out to them. It wasn't a big deal, and it went a thousand times better than I ever could have imagined. We're close friends to this day.
+That night, I stayed over at a friend's house, and I came out to them. It wasn't a big deal, and it went a thousand times better than I expected. We're close friends to this day.
 
 ## School counsellor
 
