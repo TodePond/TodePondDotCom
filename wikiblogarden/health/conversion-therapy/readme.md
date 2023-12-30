@@ -202,7 +202,7 @@ She wrote down on a piece of paper that I wasn't insane.
 
 ## Doctor
 
-I went back to the doctor. I had to have an hour long session with a psychiatrist nurse.
+I went back to the doctor. I had to have an hour long session with a psychiatric nurse.
 
 He asked me all sorts of things.
 
@@ -368,7 +368,7 @@ I recently started documenting every single unusual loo visit of my life in the 
 
 I didn't expect it to resonate so much with people. Many have contacted me to reach out, or thank me, or share their own experiences.
 
-It feels funny to me, because it's just one of the mundane realities of my life. But for others, maybe it's not. I wonder if this conversation therapy story will resonate with people too 🤷
+It feels funny to me, because it's just one of the mundane realities of my life. But for others, maybe it's not. I wonder if this conversion therapy story will resonate with people too 🤷
 
 ## Maybe you should start believing people
 
