@@ -324,7 +324,7 @@ I don't think people know what conversion therapy is.
 
 It's often described as something that involves electric shocks, or religious rituals. It certainly can involve those things. But more often than not, it has a more mundane appearance. It's a wolf in sheep's clothing.
 
-I want to help to demystify conversion therapy.
+I want to help demystify it.
 
 My counsellor abused his position of trust. He manipulated me into thinking that I wasn't actually trans. He tried to 'convert' me.
 
@@ -332,7 +332,7 @@ It was psychological abuse - psychological torture. It left me with long-lasting
 
 More indirectly, my doctor tried to stop me from continuing my transition. I don't really care if you think this is truly 'conversion therapy' or not. Either way, he abused his position of power to try to make me change course.
 
-Some years later, there was an inquiry into that doctor. Many many queer people had reported abuse they received. As requested, I shared details of my experience there. I hope something happened as a result.
+Some years later, there was an inquiry into that doctor. Many queer people reported abuse they received from him. As requested, I shared details of my experience there. I hope something happened as a result.
 
 ## What does conversion therapy look like?
 
