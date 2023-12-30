@@ -344,7 +344,9 @@ If you're a cis or straight person, maybe you'll be more equipped to spot it - a
 
 Maybe you think that conversion therapy is a rare thing, and it doesn't happen to anyone you know.
 
-Well, now you know someone that it happened to. Me!
+Well, now you know someone.
+
+Me!
 
 ## Lu loo tales
 
