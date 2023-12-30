@@ -44,7 +44,7 @@ It felt great to be able to regulate my own emotions like that. I felt in-contro
 
 Then I came out to *everyone*. It was super easy. I felt silly for waiting so long. The vast majority of people were fine. The occasional person acted weird.
 
-Either way, it was a thrill. It was a rush. It gave me an endorphin high.
+Either way, it gave me a rush - an endorphin high.
 
 It was the beginning of those `"wow, you're so brave and beautiful"` comments that I've now learned to hate.
 
@@ -56,7 +56,7 @@ During this time, the sessions carried on. And all I did was breathing exercises
 
 It felt great.
 
-But I found it very weird that we didn't talk about what I originally said. Instead, we did more and more and more 'mindfulness'.
+But I found it weird that we didn't talk about what I originally said. Instead, we did more and more and more 'mindfulness'.
 
 ## Mindfulness
 
@@ -74,9 +74,9 @@ He often asked me about girls. He asked me if I liked girls - if I was dating gi
 
 And he was pleased for me if I was. He congratulated me for 'getting a girlfriend'. Although, at that age, it felt more like 'playing couple' rather than a real relationship.
 
-It was never considered that I might also like guys.
+He never considered that I might also like guys.
 
-And abreast, why would he ask me about all that? I wasn't there to talk about relationships. I didn't want to. But I trusted that it was for a reason. After all, he already helped me feel so good in other ways.
+And anyway, why would he ask me about all that? I wasn't there to talk about relationships. I didn't want to. But I trusted that it was for a reason. After all, he already helped me feel so good in other ways.
 
 ## Do you masturbate?
 
