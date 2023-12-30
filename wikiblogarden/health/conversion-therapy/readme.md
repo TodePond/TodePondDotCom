@@ -80,9 +80,9 @@ And anyway, why would he ask me about all that? I wasn't there to talk about rel
 
 ## Do you masturbate?
 
-He asked me if I masturbate. He asked me how often I masturbate.
+He asked me if I masturbate or not. He asked me how often I masturbate. He asked me if I enjoyed it.
 
-I didn't know why. But still I told him.
+I didn't know why he asked. But still I told him.
 
 ## The man
 
@@ -94,7 +94,7 @@ He told me that there was a man inside me. And I needed to foster that man, and 
 
 As instructed, I practised being more 'manly' and squashed down any feelings of being a woman.
 
-> I look back now with disbelief. How did I not see this for the transphobic rubbish that it was? How could I possibly go along with it? I find it appalling.
+> I look back now with disbelief. Why did I listen to him? How did I not see this for the transphobic rubbish it was? How could I possibly go along with it?
 
 ## Someone like you
 
@@ -102,7 +102,7 @@ He told me "I've worked with someone like you before."
 
 "He even thought he was going to take things further. But he eventually realised that he was happy as a man."
 
-> How did I not see the signs. I want to scream at my younger self. "Get out of there! Run for the hills!"
+> How did I not see the signs. I want to scream at my younger self. Get out of there.
 
 ## No
 
@@ -118,9 +118,9 @@ At one point he commented on a nervous tick I had. I kept pulling my jumper down
 
 I've had various nervous ticks throughout my life, and I still do the jumper one today! Though not as much as I used to.
 
-He told me that I was doing it because I was ashamed of my penis.
+He told me that I pull my jumper down because I'm ashamed of my penis. I should be proud of it instead.
 
-> What the fuck.
+> A strange thing to say to a minor.
 
 ## We'll take it from here
 
@@ -136,7 +136,7 @@ Time went on, and I got better at getting calm. I got better at controlling my b
 
 And I desperately sought the approval and affection of others to fill that void.
 
-I became bitter. I knew something was wrong, but I didn't know what.
+I became bitter. I knew something was wrong, but I didn't know what. I mean I did, but I...
 
 I had given up on the idea of persuing any more transition.
 
