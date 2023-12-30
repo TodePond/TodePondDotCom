@@ -36,7 +36,7 @@ He immediately talked me through some breathing exercises, and all I did in the 
 
 He guided me through some 'mindfulness', which mostly involved paying attention to my own breathing. It felt like a kind of meditation. And it worked really really really well.
 
-It felt great to be able to regulate my own emotions like that. I felt in-control. And I walked away from that first session feeling amazing. I felt invincible.
+It felt great to be able to regulate my own emotions like that. I felt in-control. And I walked away from that first session feeling invincible.
 
 > Looking back, I now know that this 'great feeling' became one of the main reasons why I stuck with the conversion therapy for so long.
 
