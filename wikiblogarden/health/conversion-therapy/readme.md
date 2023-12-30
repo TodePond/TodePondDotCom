@@ -254,7 +254,11 @@ I started to lose hope.
 
 ## Doctor
 
-"We think you should stop coming to check" is what they told me when I went back to the doctor one time.
+"We think you should stop coming to check."
+
+I think I was starting to annoy them by turning up so much.
+
+"We'll contact you if we hear anything."
 
 I stopped checking, and I completely gave up. It was too much trouble.
 
@@ -290,9 +294,9 @@ When these happen... things which once felt big... start to feel small.
 
 Combined with stubbornness, perspective can go a long way.
 
-"I can't let them win."
-
 When someone wants to make your life a misery, the best revenge is to do what makes you happy.
+
+Don't let them win!
 
 ## Avoiding the knee-jerk
 
@@ -300,13 +304,13 @@ As a knee-jerk reaction to my bad experiences with counsellors and doctors, I ha
 
 I eventually realised that this was a knee-jerk reaction to those bad experiences.
 
-I actually like a lot of my masculine traits. But I also like a lot of my feminine traits. True freedom came from acting completely independently from the trauma they gave me.
-
-I don't do what they want me to do. And I don't do the opposite of what they want me to do. **I do what I want to do.**
+I actually like a lot of my masculine traits. But I also like a lot of my feminine traits. True freedom came from acting independently of the trauma they gave me.
 
 ## Now
 
 Nowadays, I'm leading the life I want to. It took a long time, but I'm finally there.
+
+I skipped out a lot, but things feel different now. Hurdles are annoyances that I'll get through eventually. I don't have a choice.
 
 # Part six: Why
 
@@ -320,17 +324,19 @@ I don't think people know what conversion therapy is.
 
 It's often described as something that involves electric shocks, or religious rituals. It certainly can involve those things. But more often than not, it has a more mundane appearance. It's a wolf in sheep's clothing.
 
+I want to help to demystify conversion therapy.
+
 My counsellor abused his position of trust. He manipulated me into thinking that I wasn't actually trans. He tried to 'convert' me.
 
 It was psychological abuse - psychological torture. It left me with long-lasting damage, both emotional and physical, that I'm still not rid of.
 
 More indirectly, my doctor tried to stop me from continuing my transition. I don't really care if you think this is truly 'conversion therapy' or not. Either way, he abused his position of power to try to make me change course.
 
-Some years later, there was an inquiry into that doctor. Many many queer people had reported abuse they received. As requested, I shared details of my experience there. I hope something happened to him.
+Some years later, there was an inquiry into that doctor. Many many queer people had reported abuse they received. As requested, I shared details of my experience there. I hope something happened as a result.
 
 ## What does conversion therapy look like
 
-If you're a queer person, maybe you have more awareness of conversion therapy now. Maybe you'll be more prepared to sense it, if it starts happening to you. Please learn from my mistakes.
+If you're a queer person, maybe you now have more awareness of what conversion therapy can look like. Maybe you'll be more prepared to sense it, if it starts happening to you. Please learn from my mistakes.
 
 If you're a cis or straight person, maybe you'll be more equipped to spot it - and call it out.
 
@@ -340,17 +346,13 @@ Maybe you think that conversion therapy is a rare thing, and it doesn't happen t
 
 Well, now you know someone that it happened to. Me!
 
-It's not made up. It's real.
-
 ## Lu loo tales
 
-I've always shared how tricky it is to go to the loo when you look like me. But many people didn't believe me...
+I recently started documenting every single unusual loo visit of my life in the [Lu loo tales](/wikiblogarden/health/loo-lu).
 
-... until I started documenting every single unusual loo visit of my life in the [Lu loo tales](/wikiblogarden/health/loo-lu).
+I didn't expect it to resonate so much with people. Many people have contacted me to thank me for sharing it.
 
-Since then, some of those people have now told me, "I had no idea!"
-
-I guess these things just need spelling out for some people!
+It's funny, because it's a mundane normality in my life. But for others, maybe it's not. I wonder if this conversation therapy story will resonate with people too 🤷
 
 ## Maybe you should start believing people
 
@@ -358,15 +360,13 @@ When people tell you about the hardships they experience, maybe you should just 
 
 When someone shares the abuse they receive as a queer person, as a black person, as a woman... Maybe you should take them seriously.
 
-Maybe this post will prompt you to think about that.
+Maybe this post will prompt you to think about that. Maybe not.
 
 ## The world is better with empathy
 
 I share personal things because I think the world would be better if we understood each other better. If we empathised with each other more, there would be more cohesion, more cooperation, more peace.
 
 It doesn't take a genius to understand that.
-
-I think you should share personal stuff too, so that other people can understand YOU.
 
 ## Conversion therapy is still legal here
 
