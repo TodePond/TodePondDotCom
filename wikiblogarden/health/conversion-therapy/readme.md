@@ -374,7 +374,7 @@ The lying tory government refuses to ban conversion therapy in my country. It's 
 
 ## He's still out there
 
-I looked up my school counsellor. He is **still working in schools** today. He is **still abusing his position of trust** to abuse people.
+I looked up my school counsellor. He is still working in schools today. He is still abusing his position of trust to abuse people.
 
 He is **still asking kids if they masturbate**.
 
