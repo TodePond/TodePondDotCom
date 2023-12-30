@@ -348,13 +348,19 @@ Well, now you know someone.
 
 Me!
 
+## It's hard to get to a gender clinic
+
+There's a ridiculous idea that floats around some transphobic circles. They think it's really easy to start hormones.
+
+That couldn't be further from the truth.
+
 ## Lu loo tales
 
 I recently started documenting every single unusual loo visit of my life in the [Lu loo tales](/wikiblogarden/health/loo-lu).
 
-I didn't expect it to resonate so much with people. Many people have contacted me to thank me for sharing it.
+I didn't expect it to resonate so much with people. Many have contacted me to reach out, or thank me.
 
-It's funny, because it's a mundane normality in my life. But for others, maybe it's not. I wonder if this conversation therapy story will resonate with people too 🤷
+It feels funny to me, because it's just one of the mundane realities of my life. But for others, maybe it's not. I wonder if this conversation therapy story will resonate with people too 🤷
 
 ## Maybe you should start believing people
 
@@ -372,11 +378,11 @@ It doesn't take a genius to understand that.
 
 ## Conversion therapy is still legal here
 
-The lying tory government refuses to ban conversion therapy in my country. It's still completely legal here.
+The lying tory government still refuses to ban conversion therapy here. It's still completely legal in my country.
 
 ## He's still out there
 
-I looked up my school counsellor. He is still working in schools today. He is still abusing his position of trust to abuse people.
+I looked up my school counsellor. He is still working in schools today. He is still abusing his position of trust to harm people.
 
 He is **still asking kids if they masturbate**.
 
