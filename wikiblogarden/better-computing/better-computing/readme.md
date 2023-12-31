@@ -22,7 +22,9 @@ Each one of these is the best bett bester computing of them all!
 
 And also the [cozy web](https://maggieappleton.com/cozy-web)!
 
-## Small-perma-local-robust-small-gemini-spartan-smol-gopher-dat-cozy computing-web
+EDIT: And now, the brand new [cold-blooded software](https://dubroy.com/blog/cold-blooded-software/)!
+
+## Small-perma-local-robust-small-gemini-spartan-cold-blooded-smol-gopher-dat-cozy computing-web-software
 
 It's easy, we just add them all together for the **BESTEREST computering web**. And we call that... the `tadi web`.
 
