@@ -6,3 +6,4 @@
 - [Infinity rooms](infinity-rooms)
 - [Replacement](replacement)
 - [CHOOSE: Your hero](choose-your-hero)
+- [Puss in boots](puss-in-boots)
