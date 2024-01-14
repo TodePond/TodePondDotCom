@@ -26,14 +26,22 @@ I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond
 
 ## DREAMBERD: Perfect programming language
 
-I continued work on [dreamberd](https://github.com/TodePond/DreamBerd), and it [went viral](https://youtube.com/shorts/-tCi-SX8vw8).
+I continued work on [dreamberd](https://github.com/TodePond/DreamBerd), and it [went](https://www.youtube.com/watch?v=tDexugp8EmM) [viral](https://youtube.com/shorts/-tCi-SX8vw8).
 
-I gave a [talk] about it at [london future of coding].
+I gave a [talk](https://www.youtube.com/watch?v=52vmjZnxJb8) about it at [london future of coding](https://lu.ma/foclondon).
 
-I was interviewed about it on [mr the primeagen]'s livestream. But the recording was not uploaded.
+I was interviewed about it on [mr the primeagen](https://www.twitch.tv/theprimeagen)'s livestream. But the recording was not uploaded.
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/-tCi-SX8vw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/tDexugp8EmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/52vmjZnxJb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## FUTURE OF CODING: Intercal
