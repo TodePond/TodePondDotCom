@@ -104,13 +104,15 @@ I gave three talks about make real: At [ai tinkerers](https://aitinkerers.org/),
 
 ![ai-tinkerers](ai-tinkerers.jpeg)
 
-![react-advanced](react-advanced.jpeg)
+![react-advanced](react-advanced.png)
 
 ## INK & SWITCH: Todepond
 
-I was interviewed as part of an internal workshop at [ink & switch].
+I was interviewed as part of an internal workshop at [ink & switch](https://www.inkandswitch.com/).
 
 I have now joined ink & switch as a researcher-in-residence.
+
+![ink and switch](ink-and-switch.png)
 
 ## FUTURE OF CODING: Myths and mythconceptions
 
