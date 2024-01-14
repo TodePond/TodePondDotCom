@@ -72,7 +72,7 @@ I think my favourite episode was [fractal bucket](https://www.patreon.com/posts/
 
 Me and [ivan reese](https://ivanish.ca/) ran a session about weird coding at the [local-first unconference](https://lu.ma/localfirstswunconf-stlouis) as part of [strange loop](https://www.thestrangeloop.com/).
 
-![weirdcoding](weirdcoding.png)
+![weird coding](weirdcoding.png)
 
 ## CELLPOND: Spatial programming without escape
 
@@ -102,9 +102,9 @@ I was interviewed on the [thursdai show](https://thursdai.news/) about it.
 
 I gave three talks about make real: At [ai tinkerers](https://aitinkerers.org/), [react advanced](https://guild.host/react-advanced-london/), and [supabase](https://supabase.com/blog/community-meetups-lwx) meetups.
 
-![ai-tinkerers](ai-tinkerers.jpeg)
+![ai tinkerers](ai-tinkerers.jpeg)
 
-![react-advanced](react-advanced.png)
+![react advanced](react-advanced.png)
 
 ## INK & SWITCH: Todepond
 
@@ -116,20 +116,52 @@ I have now joined ink & switch as a researcher-in-residence.
 
 ## FUTURE OF CODING: Myths and mythconceptions
 
-I have now joined the [future of coding] podcast as a permanent co-host.
+I have now joined the [future of coding](https://futureofcoding.org) podcast as a permanent co-host.
 
-My [first episode] was just released.
+My [first episode](https://futureofcoding.org/episodes/069) was recently released.
 
-My [first bonus episode] was also released.
+<iframe src="https://omny.fm/shows/future-of-coding/myths-and-mythconceptions-by-mary-shaw/embed" width="100%" height="180" frameborder="0" style="margin-bottom: 1em"></iframe>
+
+My [first bonus episode](https://www.patreon.com/posts/sgge-95562934) was also released.
 
 ## TADI WEB: The slippy mindset
 
-I discovered the [tadi web] initiative for [better computing].
+I discovered the [tadi web](https://tadiweb.com) initiative for [better computing](https://www.todepond.com/wikiblogarden/better-computing/).
+
+![tadi web](tadi-web.png)
 
 ## TODEPOND DOT COM: Wikiblogarden
 
-I made my [personal website], and started a daily [wikiblogarden].
+I made my [personal website](https://todepond.com), and started a daily [wikiblogarden](https://www.todepond.com/wikiblogarden/my-wikiblogarden/).
+
+![todepond dot com](og.png)
 
 ## POND OF FAME: Choose your hero
 
-I made a [dashboard] that lets paying supporters [claim their spot] in the [pond of fame].
+I made a [dashboard](/fame/dashboard/) that lets paying supporters claim their spot in the [pond of fame](/fame).
+
+![choose](choose.png)
+
+## SANDPOND SAGA: Arrows in arrows in arrows
+
+I made a [short film](https://youtu.be/DNBKdU6XrLY) about arrows.
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/DNBKdU6XrLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## What's next?
+
+2024 is the year of chaos. Much more will happen.
+
+The next sandpond saga video will be TOP 99 WAYS TO MAKE SAND.
+
+There will soon be a vote for the one after that. If you want to vote, sign up to my [patreon](https://patreon.com/TodePond).
+
+Peace,
+
+lu x
+
+<br>
+
+Back to the [wikiblogarden](/wikiblogarden/).
