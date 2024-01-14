@@ -4,9 +4,9 @@
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 </style>
 
-# 2024: Year of truth
+# 2023: Year of truth
 
-Here's everything I released in 2024.
+Here's everything I released in 2023, the year of truth.
 
 ## SANDPOND SAGA: Define define
 
@@ -18,7 +18,7 @@ I made a [short film](https://youtu.be/ZMklf0vUl18) about definitions.
 
 ## CELLPOND: Spatial programming pipe dream
 
-I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond] at [london creative coding](https://www.meetup.com/london-creative-coding/), as part of [peckham digital](https://www.peckhamdigital.org/).
+I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond](https://github.com/TodePond/CellPond) at [london creative coding](https://www.meetup.com/london-creative-coding/), as part of [peckham digital](https://www.peckhamdigital.org/).
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/L2U_Sd1qMJ4?start=2580&end=3929" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -26,11 +26,15 @@ I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond
 
 ## DREAMBERD: Perfect programming language
 
-I continued work on [dreamberd], and it [went viral].
+I continued work on [dreamberd](https://github.com/TodePond/DreamBerd), and it [went viral](https://youtube.com/shorts/-tCi-SX8vw8).
 
 I gave a [talk] about it at [london future of coding].
 
-I was interviewed about it on [mr the primeagen]'s livestream.
+I was interviewed about it on [mr the primeagen]'s livestream. But the recording was not uploaded.
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/-tCi-SX8vw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## FUTURE OF CODING: Intercal
 
