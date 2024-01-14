@@ -96,11 +96,15 @@ I gave a [talk](https://www.youtube.com/watch?v=cF2OF75ivZM) about it at [london
 
 ## TLDRAW: Make real
 
-I made the viral [make real] demo as part of my work at [tldraw](https://tldraw.com). I also made [draw fast] and [make happen].
+I made the viral [make real](https://tldraw.substack.com/p/make-real-the-story-so-far) demo as part of my work at [tldraw](https://tldraw.com). I also made [draw fast](https://twitter.com/tldraw/status/1727728068968460778) and [make happen](https://twitter.com/tldraw/status/1734624421623521719).
 
-I was interviewed on the [thursdai show] about make real.
+I was interviewed on the [thursdai show](https://thursdai.news/) about it.
 
-I gave three talks about make real: At [ai tinkerers], [react advanced], and [supabase] meetups.
+I gave three talks about make real: At [ai tinkerers](https://aitinkerers.org/), [react advanced](https://guild.host/react-advanced-london/), and [supabase](https://supabase.com/blog/community-meetups-lwx) meetups.
+
+![ai-tinkerers](ai-tinkerers.jpeg)
+
+![react-advanced](react-advanced.jpeg)
 
 ## INK & SWITCH: Todepond
 
