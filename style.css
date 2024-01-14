@@ -21,7 +21,8 @@ a {
 }
 
 a:hover {
-  color: #4680ff;
+  color: black;
+  background-color: #46ff80;
 }
 
 ul {
@@ -41,7 +42,8 @@ a.secondary {
 }
 
 a.secondary:hover {
-  color: #46ff80;
+  color: black;
+  background-color: #4680ff;
 }
 
 p.secondary {
