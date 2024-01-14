@@ -44,6 +44,10 @@ a.secondary:hover {
   color: #46ff80;
 }
 
+p.secondary {
+  color: #9faeee;
+}
+
 blockquote {
   color: #9faeee;
   margin: 0px;
