@@ -24,6 +24,26 @@ a:hover {
   color: #4680ff;
 }
 
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::before {
+  content: " — ";
+}
+
+a.secondary {
+  color: #4680ff;
+}
+
+a.secondary:hover {
+  color: #46ff80;
+}
+
 blockquote {
   color: #9faeee;
   margin: 0px;
