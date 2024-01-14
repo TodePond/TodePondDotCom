@@ -403,5 +403,12 @@
   			<guid>https://todepond.com/wikiblogarden/social-media/write-less</guid>
   			<description>Here it is.</description>
   		</item>
+		<item>
+  			<title>2023: Year of truth</title>
+  			<pubDate>Sun, 14 Jan 2024 18:12:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/year/2023/roundup/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/year/2023/roundup/</guid>
+  			<description>Here's everything I released in 2023.</description>
+  		</item>
   </channel>
 </rss>
