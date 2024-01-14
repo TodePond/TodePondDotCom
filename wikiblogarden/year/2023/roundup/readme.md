@@ -96,7 +96,7 @@ I gave a [talk](https://www.youtube.com/watch?v=cF2OF75ivZM) about it at [london
 
 ## TLDRAW: Make real
 
-I made the viral [make real](https://tldraw.substack.com/p/make-real-the-story-so-far) demo as part of my work at [tldraw](https://tldraw.com). I also made [draw fast](https://twitter.com/tldraw/status/1727728068968460778) and [make happen](https://twitter.com/tldraw/status/1734624421623521719).
+I made the [make real](https://tldraw.substack.com/p/make-real-the-story-so-far) demo as part of my work at [tldraw](https://tldraw.com) and it [went](https://www.tiktok.com/@tiffintech/video/7302884828934835461) [viral](https://www.tiktok.com/@rpnickson/video/7302515265428851998). I also made [draw fast](https://twitter.com/tldraw/status/1727728068968460778) and [make happen](https://twitter.com/tldraw/status/1734624421623521719).
 
 I was interviewed on the [thursdai show](https://thursdai.news/) about it.
 
