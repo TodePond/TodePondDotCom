@@ -158,7 +158,9 @@ The next sandpond saga video will be TOP 99 WAYS TO MAKE SAND.
 
 There will soon be a vote for the one after that. If you want to vote, sign up to my [patreon](https://patreon.com/TodePond).
 
-Peace,
+<br>
+
+Chaos,
 
 lu x
 
