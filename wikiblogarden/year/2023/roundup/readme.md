@@ -6,7 +6,7 @@
 
 # 2023: Year of truth
 
-Here's everything I released in 2023, the year of truth.
+Here's everything I finished in 2023, the year of truth.
 
 ## SANDPOND SAGA: Define define
 
@@ -23,6 +23,12 @@ I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/L2U_Sd1qMJ4?start=2580&end=3929" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+## FUTURE OF CODING: Intercal
+
+I was a guest co-host on the [future of coding](https://futureofcoding.org/episodes/)'s [intercal episode](https://futureofcoding.org/episodes/064).
+
+<iframe src="https://omny.fm/shows/future-of-coding/intercal-by-donald-woods-and-james-lyon/embed" width="100%" height="180" frameborder="0" style="margin-bottom: 1em"></iframe>
 
 ## DREAMBERD: Perfect programming language
 
@@ -44,9 +50,11 @@ I was interviewed about it on [mr the primeagen](https://www.twitch.tv/theprimea
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/52vmjZnxJb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## FUTURE OF CODING: Intercal
+The dreamberd virality got me up to 99 patrons on [patreon](https://patreon.com/TodePond)! Twice!
 
-I was a guest co-host on the [future of coding]'s [intercal episode].
+Thank you everyone.
+
+![Pond of fame](pond.png)
 
 ## TODEPOND PONDCAST: Todepond times
 
