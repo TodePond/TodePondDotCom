@@ -5,7 +5,7 @@
 </style>
 
 # 2024: Year of truth
- 
+
 Here's everything I released in 2024.
 
 ## SANDPOND SAGA: Define define
@@ -13,12 +13,16 @@ Here's everything I released in 2024.
 I made a [short film](https://youtu.be/ZMklf0vUl18) about definitions.
 
 <div class="video-container">
-<iframe width="100%" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18?si=tB9g87pbRRqz_-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/ZMklf0vUl18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## CELLPOND: Spatial programming pipe dream
 
-I gave a [talk] about [cellpond] at [london creative coding], as part of [peckham digital].
+I gave a [talk](https://www.youtube.com/live/L2U_Sd1qMJ4?t=2580) about [cellpond] at [london creative coding](https://www.meetup.com/london-creative-coding/), as part of [peckham digital](https://www.peckhamdigital.org/).
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/L2U_Sd1qMJ4?start=2580&end=3929" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## DREAMBERD: Perfect programming language
 
