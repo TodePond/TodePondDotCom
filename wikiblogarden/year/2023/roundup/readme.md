@@ -88,7 +88,11 @@ I gave a [talk](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) about it at
 
 I made [arroost](https://github.com/TodePond/Arroost), a silly music-making tool.
 
-I gave a [talk]() about it at [london future of coding].
+I gave a [talk](https://www.youtube.com/watch?v=cF2OF75ivZM) about it at [london future of coding](https://lu.ma/foclondon).
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/cF2OF75ivZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## TLDRAW: Make real
 
