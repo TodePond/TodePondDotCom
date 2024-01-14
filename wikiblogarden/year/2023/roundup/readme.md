@@ -38,17 +38,13 @@ I gave a [talk](https://www.youtube.com/watch?v=52vmjZnxJb8) about it at [london
 
 I was also interviewed about it on [mr the primeagen](https://www.twitch.tv/theprimeagen)'s livestream.
 
-<div class="video-container">
+<div class="video-container" style="margin-bottom: 11px">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/-tCi-SX8vw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<br>
-
-<div class="video-container">
+<div class="video-container" style="margin-bottom: 11px">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/tDexugp8EmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-<br>
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/52vmjZnxJb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,19 +70,25 @@ I think my favourite episode was [fractal bucket](https://www.patreon.com/posts/
 
 ## INSTITUTE OF WEIRDCODING: Stop computerprogramming
 
-Me and [ivan reese] ran a session about weird coding at the [local-first unconference] as part of [strange loop].
+Me and [ivan reese](https://ivanish.ca/) ran a session about weird coding at the [local-first unconference](https://lu.ma/localfirstswunconf-stlouis) as part of [strange loop](https://www.thestrangeloop.com/).
+
+![weirdcoding](weirdcoding.png)
 
 ## CELLPOND: Spatial programming without escape
 
-I made a new version of [cellpond].
+I made a new version of [cellpond](https://cellpond.cool/legacy/).
 
-I gave a [talk] about it at [live] as part of [splash].
+I gave a [talk](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) about it at [live](https://2023.splashcon.org/home/live-2023) as part of [splash](https://2023.splashcon.org/).
+
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/cBYudbaqHAk?start=6704&end=8862" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## ARROOST: Normalise sharing scrappy fiddles
 
-I made [arroost](https://arroost.com), a silly music-making tool.
+I made [arroost](https://github.com/TodePond/Arroost), a silly music-making tool.
 
-I gave a [talk] about it at [london future of coding].
+I gave a [talk]() about it at [london future of coding].
 
 ## TLDRAW: Make real
 
