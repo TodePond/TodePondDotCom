@@ -6,7 +6,7 @@
 
 # 2023: Year of truth
 
-Here's everything I finished in 2023, the year of truth.
+Here's everything I released in 2023, the year of truth.
 
 ## SANDPOND SAGA: Define define
 
@@ -36,7 +36,7 @@ I continued work on [dreamberd](https://github.com/TodePond/DreamBerd), and it [
 
 I gave a [talk](https://www.youtube.com/watch?v=52vmjZnxJb8) about it at [london future of coding](https://lu.ma/foclondon).
 
-I was interviewed about it on [mr the primeagen](https://www.twitch.tv/theprimeagen)'s livestream. But the recording was not uploaded.
+I was also interviewed about it on [mr the primeagen](https://www.twitch.tv/theprimeagen)'s livestream.
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/-tCi-SX8vw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -60,9 +60,17 @@ Thank you everyone.
 
 ![Pond of fame](pond.png)
 
-## TODEPOND PONDCAST: Todepond times
+## TODEPOND PONDCAST: Fractal bucket
 
 I started a [weekly podcast](https://patreon.com/TodePond) for paying supporters.
+
+I think my favourite episode was [fractal bucket](https://www.patreon.com/posts/todepond-fractal-89529064).
+
+<audio controls>
+  <source src="fractal-bucket.mp3" type="audio/mpeg">
+</audio>
+
+![Fractal bucket](fractal-bucket.png)
 
 ## INSTITUTE OF WEIRDCODING: Stop computerprogramming
 
@@ -86,7 +94,7 @@ I made the viral [make real] demo as part of my work at [tldraw](https://tldraw.
 
 I was interviewed on the [thursdai show] about make real.
 
-I gave three talks about the demos: At [ai tinkerers], [react advanced], and [supabase] meetups.
+I gave three talks about make real: At [ai tinkerers], [react advanced], and [supabase] meetups.
 
 ## INK & SWITCH: Todepond
 
