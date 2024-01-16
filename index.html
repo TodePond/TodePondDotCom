@@ -24,9 +24,19 @@
     display: none;
   }
 
+  .mobile {
+    display: inline;
+  }
+
   @media (min-width: 600px) {
     .desktop {
       display: inline;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .mobile {
+      display: none;
     }
   }
 </style>
@@ -82,35 +92,48 @@
 <ul>
   <li>
     <a href="https://www.youtube.com/watch?v=cF2OF75ivZM"
-      >ARROOST: Normalise sharing scrappy fiddles</a
-    >
-    at FoC
+      >ARROOST<span class="desktop">:</span
+      ><span class="mobile"><br /></span> Normalise sharing scrappy fiddles</a
+    ><span class="mobile"><br /></span>
+    at FoC<span class="mobile"
+    ><br /><br
+  />
   </li>
   <li>
     <a href="https://www.youtube.com/watch?v=cBYudbaqHAk&amp;t=6704s"
-      >CELLPOND: Spatial programming without escape</a
+      >CELLPOND<span class="desktop">:</span
+      ><span class="mobile"><br /></span> Spatial programming without escape</a
     >
-    at SPLASH / LIVE
+    <span class="mobile"><br /></span>at SPLASH / LIVE<span class="mobile"
+    ><br /><br
+  />
   </li>
   <li>
     <a class="secondary" href="https://youtu.be/52vmjZnxJb8?si=0TXlU2X2tewR1FFc"
-      >DREAMBERD: Perfect programming language</a
+      >DREAMBERD<span class="desktop">:</span
+      ><span class="mobile"><br /></span> Perfect programming language</a
     >
-    at FoC
+    <span class="mobile"><br /></span>at FoC<span class="mobile"
+      ><br /><br
+    /></span>
   </li>
   <li>
     <a
       class="secondary"
       href="https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&amp;t=2580"
-      >CELLPOND: Spatial programming pipe dream</a
+      >CELLPOND<span class="desktop">:</span
+      ><span class="mobile"><br /></span> Spatial programming pipe dream</a
     >
-    at LDN CC
+    <span class="mobile"><br /></span>at LDN CC<span class="mobile"
+    ><br /><br
+  />
   </li>
   <li>
     <a class="secondary" href="https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk"
-      >CELLPOND: Spatial programming pipe dream</a
+      >CELLPOND<span class="desktop">:</span
+      ><span class="mobile"><br /></span> Spatial programming pipe dream</a
     >
-    at FoC
+    <span class="mobile"><br /></span>at FoC
   </li>
 </ul>
 
