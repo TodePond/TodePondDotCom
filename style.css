@@ -26,11 +26,12 @@ a:hover {
 }
 
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 20px;
 }
 
 li {
   list-style: " — ";
+  /* margin-left: 0px; */
 }
 
 a.secondary {
