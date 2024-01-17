@@ -148,9 +148,9 @@ I made a lot of mistakes.
 
 But something got me through in the end...
 
-## Slippy mindset
+## The slippy mindset
 
-I picked up a new mindset along the way. I've been trying out a relentless embrace of simplicity and minimalism in my work. I call it the "slippy mindset" or the "tadi web".
+I picked up a new mindset along the way. I've been trying out a relentless embrace of simplicity and minimalism in my work. I call it the "[slippy mindset](https://www.tadiweb.com/style.html)" or the "[tadi web](https://www.tadiweb.com/)".
 
 And it helped me get the video across the line.
 
