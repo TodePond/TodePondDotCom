@@ -7,3 +7,4 @@
 - [Replacement](replacement)
 - [CHOOSE: Your hero](choose-your-hero)
 - [Puss in boots](puss-in-boots)
+- [Berd has flown away](berd-has-flown-away)

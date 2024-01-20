@@ -22,7 +22,23 @@
 
 <hr>
 
-# TODEPOND PONDCAST:
+# TODEPOND PONDCAST: Berd has flown away
+
+Welcome back to another weekly episode of the ...
+
+🐸 TODEPOND PONDCAST 🐸
+
+What's new this week?
+
+## Arrows in arrows in arrows
+
+The new video is FINALLY OUT!!!!
+
+Go watch it [here](https://www.youtube.com/watch?v=DNBKdU6XrLY) before reading on. As this pondcast will include some major spoilers!!!!!
+
+I feel such a sense of relief from getting it out. That video has been brewing for SO LONG. And I'm so pleased with the response so far. Thank you - yes you - for supporting its development all this time. It really was my most ambitious project (so far), and I learned a lot of lessons along the way.
+
+As promised, I wrote up all the reasons why it took so long, in this [retrospective]().
 
 <audio controls>
   <source src="1.m4a" type="audio/x-m4a">
