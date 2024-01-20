@@ -32,6 +32,8 @@ What's new this week?
 
 ## Arrows in arrows in arrows
 
+![arrows](1.png)
+
 The new video is FINALLY OUT!!!!
 
 Go watch it [here](https://www.youtube.com/watch?v=DNBKdU6XrLY) before reading on. As this pondcast includes some major spoilers, as you may have noticed!!!!!
@@ -44,6 +46,8 @@ And now I can finally talk about some of those spoilers.
 
 ## Berd has flown away
 
+![branch](2.png)
+
 As you may have noticed, berd has left. Where have they gone? Will we ever see them again? All will be revealed in future videos.
 
 It's such a joy - to try to craft out these stories that span over such a long period of time. They may take years to resolve. Or longer. But that feels special to me.
@@ -54,6 +58,8 @@ I'll continue to mess around with the odd combination of 'tech youtube' and... w
 
 ## Flora Caulton
 
+![berd](3.png)
+
 Did you see those insanely good animations of berd? There were the dances. And there was also the style-escaping dream sequence. Berd... grew a body? or something?
 
 I'm so thrilled with how it came out. The style is perfect for the video - I love it. Its scrappy edges, and motion, and colouring. It's the perfect puzzle piece to kick off the Sandpond Saga's move to a more chaotic place.
@@ -61,6 +67,8 @@ I'm so thrilled with how it came out. The style is perfect for the video - I lov
 The pond's characters - berd and tode - have their subtle personalities because of Flora's animations over the years. It wouldn't be half as good without them.
 
 ## Light mode
+
+![light mode](4.png)
 
 One of the last things I coded for the video was LIGHT MODE. The background turned white. And all the colours were flipped.
 
