@@ -43,11 +43,16 @@
 
   main,
   section,
-  header {
+  header,
+  footer {
     display: flex;
     flex-direction: column;
     gap: 11px;
     align-items: flex-start;
+    width: 100%;
+  }
+
+  hr {
     width: 100%;
   }
 
@@ -82,9 +87,24 @@
     />
     <button>Login</button>
   </form>
-  <a id="forgot-button" href="javascript:;" onclick="handleForgotClick()">
-    I don't have a secret code
+  <a
+    id="new-button"
+    href="javascript:;"
+    onclick="handleForgotClick()"
+    style="display: none"
+  >
+    I don't have a secret code yet!
   </a>
+  <a
+    class="secondary"
+    id="forgot-button"
+    href="javascript:;"
+    onclick="handleForgotClick()"
+    style="display: none"
+  >
+    Reset secret code
+  </a>
+  <span class="log" id="secret-log"></span>
   <form
     style="display: none; flex-direction: column; align-items: flex-start"
     action="javascript:;"
@@ -93,7 +113,7 @@
     id="email-form"
   >
     <br />
-    <span for="email">
+    <span>
       Please use the same email you used to sign up on patreon or substack or
       liberapay.
     </span>
@@ -105,8 +125,15 @@
       />
       <button>Send code</button></span
     >
+    <span class="log" id="email-log"></span>
+
+    <span style="padding-top: 40px">
+      This dashboard is for paying supporters. If you're not a paying supporter
+      yet, you can sign up on
+      <a href="https://patreon.com/todepond">patreon</a> or
+      <a href="https://liberapay.com/todepond">liberapay</a>.
+    </span>
   </form>
-  <span class="log" id="secret-log"></span>
 </header>
 <section id="vote" style="display: none">
   <h2>Vote</h2>
@@ -164,6 +191,16 @@
     <span class="log" id="hero-log"></span
   ></span>
 </section>
+<footer style="padding-top: 41px; display: none">
+  <hr />
+  <span class="row">
+    <button class="danger" onclick="handleResetClick()">
+      Reset secret code
+    </button>
+    <button class="danger" onclick="handleClickLogout()">Logout</button>
+  </span>
+  <span class="log" id="reset-log"></span>
+</footer>
 
 <script type="module">
   export const val = async (address, ...args) => {
@@ -191,6 +228,7 @@
 
   const passwordInput = document.getElementById("password");
   const secretLog = document.getElementById("secret-log");
+  const emailLog = document.getElementById("email-log");
   const heroDesigner = document.getElementById("hero-designer");
 
   const newFractalCheckbox = document.getElementById("new-fractal");
@@ -198,6 +236,16 @@
   const snakesInSnakesInSnakesCheckbox = document.getElementById(
     "snakes-in-snakes-in-snakes"
   );
+
+  const resetLog = document.getElementById("reset-log");
+
+  const emailInput = document.getElementById("email-form");
+  const forgotButton = document.getElementById("forgot-button");
+  const newButton = document.getElementById("new-button");
+
+  const logoutSection = document.querySelector(".logout-section");
+  const footer = document.querySelector("footer");
+
   //==========//
   // PASSWORD //
   //==========//
@@ -221,10 +269,16 @@
     if (apiKey) {
       login();
     }
+
+    if (passwordInput.value === "") {
+      forgotButton.style.display = "flex";
+      newButton.style.display = "flex";
+    }
   };
 
   let supporterId = null;
   let supporterTier = "froggy";
+  let g_supporter = null; //lol
 
   const voteSection = document.getElementById("vote");
 
@@ -240,13 +294,20 @@
 
       if (supporter === null) {
         secretLog.textContent = "Invalid secret code";
+        newButton.style.display = "flex";
+        forgotButton.style.display = "flex";
       } else {
         supporterId = supporter.id;
+        g_supporter = supporter;
         savePassword();
         secretLog.textContent = "Loading...";
         await pullHero();
         secretLog.textContent = "";
         heroDesigner.style.display = "flex";
+        footer.style.display = "flex";
+        forgotButton.style.display = "none";
+        newButton.style.display = "none";
+        emailInput.style.display = "none";
 
         if (supporter.canVote) {
           voteSection.style.display = "flex";
@@ -315,19 +376,31 @@
     }
   };
 
-  const emailInput = document.getElementById("email-form");
-  const forgotButton = document.getElementById("forgot-button");
-
   window.handleForgotClick = () => {
     forgotButton.style.display = "none";
+    newButton.style.display = "none";
     emailInput.style.display = "flex";
   };
 
   window.handleEmailClick = async () => {
     const email = document.getElementById("email").value;
-    secretLog.innerHTML = `Sending...`;
+    emailLog.innerHTML = `Sending...`;
     await val("todepond.sendSupporterCode", email);
+    emailLog.innerHTML = `Sent! Check your inbox. Contact <a href="mailto:todepond@gmail.com">todepond@gmail.com</a> if you want help.`;
+  };
+
+  window.handleResetClick = async () => {
+    resetLog.innerHTML = `Sending...`;
+    await val("todepond.sendSupporterCode", g_supporter.email);
+    resetLog.innerHTML = `Sent! Check your inbox. Contact <a href="mailto:todepond@gmail.com">todepond@gmail.com</a> if you want help.`;
+    heroDesigner.style.display = "none";
+    footer.style.display = "none";
+    voteSection.style.display = "none";
+    newButton.style.display = "flex";
+    forgotButton.style.display = "flex";
     secretLog.innerHTML = `Sent! Check your inbox. Contact <a href="mailto:todepond@gmail.com">todepond@gmail.com</a> if you want help.`;
+    passwordInput.value = "";
+    localStorage.removeItem(PASSWORD_STORAGE_KEY);
   };
 
   const canvas = document.querySelector("canvas");
@@ -418,6 +491,11 @@
       votesLog.textContent = "Error saving votes: " + result.error;
       console.log(result);
     }
+  };
+
+  window.handleClickLogout = () => {
+    localStorage.removeItem(PASSWORD_STORAGE_KEY);
+    window.location.reload();
   };
 
   window.val = val;

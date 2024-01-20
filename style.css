@@ -55,7 +55,9 @@ blockquote {
 }
 
 hr {
-  border-color: white;
+  border: none;
+  height: 1px;
+  background-color: white;
 }
 
 h1,
