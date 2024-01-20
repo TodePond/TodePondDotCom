@@ -30,7 +30,19 @@
     width: 100%;
   }
 
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .vote-label {
+    font-size: 20px;
+    /* font-weight: bold; */
+  }
+
   main,
+  section,
   header {
     display: flex;
     flex-direction: column;
@@ -96,7 +108,31 @@
   </form>
   <span class="log" id="secret-log"></span>
 </header>
-<main id="hero-designer" style="display: none">
+<section id="vote" style="display: none">
+  <h2>Vote</h2>
+  <span class="row">
+    <input type="checkbox" id="new-fractal" />
+    <label class="vote-label" for="new-fractal">🌈 &nbsp;NEW Fractal</label>
+  </span>
+  <span class="row">
+    <input type="checkbox" id="this-is-a-tode" />
+    <label class="vote-label" for="this-is-a-tode"
+      >🐿️ &nbsp;This is a Tode</label
+    >
+  </span>
+  <span class="row">
+    <input type="checkbox" id="snakes-in-snakes-in-snakes" />
+    <label class="vote-label" for="snakes-in-snakes-in-snakes"
+      >🐍 &nbsp;Snakes in Snakes in Snakes</label
+    >
+  </span>
+  <span class="row" style="padding-top: 13px">
+    <button onclick="handleSaveVotesClick()">Save votes</button>
+    <span class="log" id="vote-log"></span>
+  </span>
+</section>
+
+<section id="hero-designer" style="display: none">
   <h2>Hero designer</h2>
 
   <input
@@ -127,7 +163,7 @@
     <button onclick="handleSaveHeroClick()">Save hero</button>
     <span class="log" id="hero-log"></span
   ></span>
-</main>
+</section>
 
 <script type="module">
   export const val = async (address, ...args) => {
@@ -157,6 +193,11 @@
   const secretLog = document.getElementById("secret-log");
   const heroDesigner = document.getElementById("hero-designer");
 
+  const newFractalCheckbox = document.getElementById("new-fractal");
+  const thisIsATodeCheckbox = document.getElementById("this-is-a-tode");
+  const snakesInSnakesInSnakesCheckbox = document.getElementById(
+    "snakes-in-snakes-in-snakes"
+  );
   //==========//
   // PASSWORD //
   //==========//
@@ -185,21 +226,35 @@
   let supporterId = null;
   let supporterTier = "froggy";
 
+  const voteSection = document.getElementById("vote");
+
   const login = async () => {
     if (passwordInput.value === "") {
       secretLog.textContent = "Please enter your secret code first";
     } else {
       secretLog.textContent = "Logging in...";
-      const id = await val("todepond.loginSupporter", passwordInput.value);
-      if (id === null || typeof id !== "number") {
+      const supporter = await val(
+        "todepond.loginAndGetSupporter",
+        passwordInput.value
+      );
+
+      if (supporter === null) {
         secretLog.textContent = "Invalid secret code";
       } else {
-        supporterId = id;
+        supporterId = supporter.id;
         savePassword();
         secretLog.textContent = "Loading...";
         await pullHero();
         secretLog.textContent = "";
         heroDesigner.style.display = "flex";
+
+        if (supporter.canVote) {
+          voteSection.style.display = "flex";
+          newFractalCheckbox.checked = supporter.votes?.newFractal;
+          thisIsATodeCheckbox.checked = supporter.votes?.thisIsATode;
+          snakesInSnakesInSnakesCheckbox.checked =
+            supporter.votes?.snakesInSnakesInSnakes;
+        }
       }
     }
   };
@@ -223,7 +278,6 @@
 
   const pullHero = async () => {
     if (supporterId === null) {
-      console.log("hi");
       secretLog.textContent = "Error getting hero";
       return;
     }
@@ -342,6 +396,28 @@
     ctx.font = "bold 60px sans-serif";
     ctx.textAlign = "center";
     ctx.fillText(name, canvas.width / 2, canvas.height - 120);
+  };
+
+  const votesLog = document.getElementById("vote-log");
+  window.handleSaveVotesClick = async () => {
+    const newFractal = newFractalCheckbox.checked;
+    const thisIsATode = thisIsATodeCheckbox.checked;
+    const snakesInSnakesInSnakes = snakesInSnakesInSnakesCheckbox.checked;
+
+    const votes = {
+      newFractal,
+      thisIsATode,
+      snakesInSnakesInSnakes,
+    };
+
+    votesLog.textContent = "Saving...";
+    const result = await val("todepond.setVotes", passwordInput.value, votes);
+    if (result.success) {
+      votesLog.textContent = "Saved!";
+    } else {
+      votesLog.textContent = "Error saving votes: " + result.error;
+      console.log(result);
+    }
   };
 
   window.val = val;
