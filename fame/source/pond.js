@@ -372,7 +372,8 @@ on.mousemove(
 
 on.mousedown(
   (e) => {
-    document.body.style.cursor = "grabbing";
+    if (RENDER_MODE) return;
+    // document.body.style.cursor = "grabbing";
     e.preventDefault();
     if (!EDIT_MODE) return;
     if (e.button === 0) {
@@ -385,7 +386,8 @@ on.mousedown(
 );
 
 on.mouseup((e) => {
-  document.body.style.cursor = "grab";
+  if (RENDER_MODE) return;
+  // document.body.style.cursor = "grab";
   if (!EDIT_MODE) return;
   if (e.button === 0) {
     const [mx, my] = Mouse.position;
@@ -598,6 +600,7 @@ const makeSpace = ({
     center,
     corners,
     rotation: toRadians(rotation),
+    rawPosition: [x, y],
   };
 };
 
@@ -687,16 +690,16 @@ const getCurve = (
 };
 
 let flightDelay = 0;
-const animateRoute = (route, plane = 0) => {
+const animateRoute = (route, plane = undefined) => {
   const r = routes.get(route);
-  const p = entities.get(plane);
-  p.flying = true;
+  // const p = entities.get(plane);
+  // p.flying = true;
   r.flightProgress = 0;
   r.flying = true;
-  flightDelay = 200;
+  flightDelay = 100;
 };
 
-const MAX_SPEED = 2;
+const MAX_SPEED = 10;
 let prevRoute = undefined;
 let prevPlaneRot = undefined;
 stage.draw = () => {
@@ -776,8 +779,8 @@ stage.draw = () => {
       deleteRoute(route.id);
       continue;
     }
-    const [sx, sy] = getEntitySpace(s).center;
-    const [ex, ey] = getEntitySpace(e).center;
+    const [sx, sy] = getEntitySpace(s).rawPosition;
+    const [ex, ey] = getEntitySpace(e).rawPosition;
     const curve = getCurve([sx, sy], [ex, ey], { slope, length, type, flip });
 
     context.beginPath();
@@ -788,9 +791,10 @@ stage.draw = () => {
       i++;
       if (route.flying && i > route.flightProgress) {
         currentFrame = [previous, [x, y]];
+        setCameraCenter([x, y]);
         break;
       }
-      context.lineTo(x, y, ex, ey);
+      // context.lineTo(x, y, ex, ey);
       previous = [x, y];
     }
     if (route.flying && flightDelay <= 0) {
@@ -986,3 +990,64 @@ const load = (save) => {
   }
   return result;
 };
+
+const numberKeys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+
+const locations = {};
+
+addEventListener("keydown", (e) => {
+  if (numberKeys.includes(e.key)) {
+    const currentPosition = [camera.x, camera.y, camera.scale];
+    const entity = createEntity("rect", {
+      x: currentPosition[0],
+      y: currentPosition[1],
+      width: 0,
+      height: 0,
+      rotation: 0,
+      ignoreSave: true,
+    });
+    console.log(entity);
+    locations[e.key] = entity;
+    return;
+  }
+
+  if (e.key === "Enter") {
+    const startEntity = locations["1"];
+    const endEntity = locations["2"];
+
+    camera.x = startEntity.x;
+    camera.y = startEntity.y;
+    const tick = (time) => {
+      const [sx, sy] = [camera.x, camera.y];
+      const [ex, ey] = [endEntity.x, endEntity.y];
+      const [dx, dy] = [ex - sx, ey - sy];
+      const distance = Math.hypot(dx, dy);
+      if (distance < 1) return;
+
+      const speed = 5;
+      const [ix, iy] = [dx / distance, dy / distance];
+      const [x, y] = [sx + ix * speed, sy + iy * speed];
+
+      setCameraCenter([x, y]);
+      requestAnimationFrame((time) => {
+        tick(time);
+      });
+    };
+    const startTime = performance.now();
+    requestAnimationFrame((time) => {
+      tick(time);
+    });
+
+    // const route = createRoute(startEntity.id, endEntity.id, {
+    //   length: 5000,
+    //   type: "single",
+    // });
+
+    // animateRoute(route.id);
+  }
+});
+
+function setCameraCenter([x, y]) {
+  camera.x = x;
+  camera.y = y;
+}
