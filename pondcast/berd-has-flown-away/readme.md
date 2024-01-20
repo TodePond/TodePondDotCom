@@ -24,6 +24,10 @@
 
 # TODEPOND PONDCAST: Berd has flown away
 
+<audio controls>
+  <source src="1.m4a" type="audio/x-m4a">
+</audio>
+
 Welcome back to another weekly episode of the ...
 
 🐸 TODEPOND PONDCAST 🐸
@@ -79,10 +83,6 @@ I really liked it, and I wanted to commit to it. So I did the same for Arroost.
 I haven't pushed any of that code yet. It's still sitting on my computer, along with some of the other final changes. I'll put them up eventually! But for now, I've been enjoying a hard-earned break from Arroost. After 11 months.
 
 **Thank you for supporting me and my odd projects. I'm pleased you've been able to join me over the course of 2023, as I've built this thing. And I hope you've been able to enjoy its arrival last Friday. For all the new joiners this week - welcome! And I hope you enjoy the gradual buildup to the next video: Top 99 Ways To Make Sand. Next week, there will be a vote for the video _after_ that one. See you then! And have a great week - wherever you are in the world.**
-
-<audio controls>
-  <source src="1.m4a" type="audio/x-m4a">
-</audio>
 
 _Days since tode fell asleep: 380_<br>
 _Days since bot went missing: 345_<br>
