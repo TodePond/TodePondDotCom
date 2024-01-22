@@ -20,7 +20,7 @@ Nobody wants to go to burger king. So they suddenly say where they'd rather go.
 > "Pizza."<br>
 > "Soup."
 
-It's hard to pluck a good idea out of thin air. But it's easy to think of something better than burger king.
+It's hard to pluck a good idea out of thin air. But it's easy to say a better idea than burger king.
 
 ## Burger king
 
