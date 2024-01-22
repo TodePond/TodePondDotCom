@@ -36,7 +36,7 @@ Or are you just presenting them with a blank canvas?
 
 ## Normalise sharing scrappy fiddles
 
-It's clear. We need to normalise sharing scrappy. For the betterment of ideas!
+It's clear. We need to normalise sharing scrappy fiddles. For the betterment of ideas!
 
 <br>
 
