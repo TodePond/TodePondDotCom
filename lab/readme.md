@@ -76,9 +76,9 @@ The basic premise is this:
 
 > Just show a visual of the Line
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/4a8c0783-0b5e-497f-bc1d-cc0b8aa0c4de)
-
 (ie: the stack / heap / register)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/4a8c0783-0b5e-497f-bc1d-cc0b8aa0c4de)
 
 That's the starting point. But in the usual style, it will take us to some unusual places (will write out more notes soon)
 
