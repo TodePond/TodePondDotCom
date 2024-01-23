@@ -72,7 +72,7 @@ No... wait, no.
 
 I don't think there are any perks for Tom MacWright. It's dead after all.
 
-## The death of the tadi web
+## Death of the tadi web
 
 The tadi web is dead. Long live the tadi web!
 
