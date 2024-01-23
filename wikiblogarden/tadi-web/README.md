@@ -14,19 +14,20 @@ The tadi web often dies.
 - [DEATH OF THE TADI WEB: Worldwide](death/worldwide)
 - [DEATH OF THE TADI WEB: A clean start for the web](death/clean-start)
 
-## Concepts
+## Getting started
 
 - [Slippy mindset](https://tadiweb.com)
 - [Entry points](entry-points)
-- [Graveyard](graveyard)
-
-## Guides
-
 - [Hello world](hello-world)
+
+## Advanced tadi web
+
 - [How I write my blog](https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo)
 - [Synchronising data](https://www.todepond.com/wikiblogarden/better-computing/synchronising-data)
 - [Putting data in the cloud](https://www.todepond.com/wikiblogarden/tadi-web/cloud)
 - [How to synchronise data](https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync)
+- [World's first full-stack tadi website](/wikiblogarden/tadi-web/fame/facts)
+- [Graveyard](graveyard)
 
 <br>
 
