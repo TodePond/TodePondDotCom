@@ -59,8 +59,10 @@ Hang on a second... The tadi web *is* a subset... but it's [*not*](/wikiblogarde
 Tadi websites *are* compatible with normal browsers... but tadi web browsers (ie: replacement web browsers) [*don't*](/wikiblogarden/tadi-web/entry-points) support everything...
 
 ```
-Through repeated death and adaptation, could the tadi web... be growing more resilient? Will it finally be study enough to survive these blows?
+Through repeated death and adaptation, could the tadi web... be growing more resilient? Will it finally be sturdy enough to survive these blows? Could this be the tadi web's big moment?
 ```
+
+## Big moment
 
 > Rule #3 is make it better for everyone. There should be a perk for everyone in the ecosystem: people making pages, people reading them, and people making the technology for them to be readable.
 
