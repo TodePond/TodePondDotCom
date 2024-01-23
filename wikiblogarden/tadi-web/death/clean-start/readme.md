@@ -48,13 +48,17 @@ Let's look at the reasoning behind each rule.
 
 > Rule #1 is don’t make a subset. If the replacement for the web is just whatever features were in Firefox 10 years ago, it’s not going to be a compelling vision.
 
-Hang on a second... The tadi web *is* a subset... but it's [*not*]() the features from firefox 10 years ago.
+Hang on a second... The tadi web *is* a subset... but it's [*not*](/wikiblogarden/tadi-web/entry-points) the features from firefox 10 years ago.
 
 > Rule #2 is don’t make it compatible. If the replacement web lives alongside, undifferentiated from the current web, then you’ll never actually reduce complexity because replacement web browsers will still support everything, and people won’t be encouraged to leave the old web.
 
 *Hang on a second...*
 
-Tadi websites *are* compatible with normal browsers... but tadi web browsers (ie: replacement web browsers) *don't* support everything...
+Tadi websites *are* compatible with normal browsers... but tadi web browsers (ie: replacement web browsers) [*don't*](/wikiblogarden/tadi-web/entry-points) support everything...
+
+```
+Through repeated death and adaptation, could the tadi web... be growing more resilient? Will it finally be study enough to survive these blows?
+```
 
 > Rule #3 is make it better for everyone. There should be a perk for everyone in the ecosystem: people making pages, people reading them, and people making the technology for them to be readable.
 
