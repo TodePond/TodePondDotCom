@@ -22,5 +22,7 @@ It's easy, we just add them all together for the **BEST computing**.
 
 <br>
 
+<hr>
+
 Back to the [blogidemex](/wikiblogarden).<br>
 Or continue down the [rabbit hole](/wikiblogarden/better-computing/better-computing).
