@@ -10,7 +10,7 @@ I'm shutting it down. Here's why.
 
 There's a fab article by [Tom MacWright](https://macwright.com/about/) called [A clean start to the web](https://macwright.com/2020/08/22/clean-starts-for-the-web).
 
-The article outlines some of the web's biggest issues. It spells out how we're losing control of the browsers that we use. And how it's increasingly monopolised by a just few megacorps. I highly recommend [reading it](https://macwright.com/2020/08/22/clean-starts-for-the-web)! It does a great job of introducing these concepts.
+The article outlines some of the web's biggest issues. It spells out how we're losing control of the browsers that we use. And how it's increasingly monopolised by a just few megacorps.
 
 This is clearly a political issue - a governance, regulation issue. But it might have a technological solution. Introducing...
 
