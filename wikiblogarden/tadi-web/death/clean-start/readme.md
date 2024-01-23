@@ -8,7 +8,7 @@ I'm shutting it down. Here's why.
 
 ## A clean start for the web
 
-There's a fab article by [Tom MacWright](https://macwright.com/about/) called [A clean start to the web](https://macwright.com/2020/08/22/clean-starts-for-the-web).
+There's a fab article by [Tom MacWright](https://macwright.com/about/) called [A clean start for the web](https://macwright.com/2020/08/22/clean-starts-for-the-web).
 
 The article outlines some of the web's biggest issues. It spells out how we're losing control of the browsers that we use. And how it's increasingly monopolised by a just few megacorps.
 
