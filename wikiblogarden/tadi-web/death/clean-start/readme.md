@@ -79,5 +79,5 @@ The tadi web is dead. Long live the tadi web!
 <br>
 
 Back to the [tadi
-web 2.0](wikiblogarden/tadi-web).
+web 2.0](/wikiblogarden/tadi-web).
 
