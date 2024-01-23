@@ -1,5 +1,3 @@
-> Hello hackernews! Please check out my [blog post about hackernews](/wikiblogarden/social-media/hackernews/).
-
 # Tadi web
 
 The tadi web is a small and simple part of the normal web.
