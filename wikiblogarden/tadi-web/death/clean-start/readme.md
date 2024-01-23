@@ -38,9 +38,9 @@ The tadi web is [better for everyone](/wikiblogarden/academia/opinion) except To
 
 ## Death of the tadi web
 
-The tadi web is [not a new idea](https://www.todepond.com/wikiblogarden/my-wikiblogarden/). It's simply the [result of what you get when you merge together every single type of better computing out there](https://www.todepond.com/wikiblogarden/tadi-web/).
+The tadi web is [not a new idea](https://www.todepond.com/wikiblogarden/my-wikiblogarden/). It's simply what you get when you [merge together every single type of better computing out there](https://www.todepond.com/wikiblogarden/tadi-web/).
 
-But clearly, it's not compatible with the document web 2.0. So it is now pronounce it **dead**.
+But clearly, it's not compatible with the document web 2.0. So I now pronounce it **dead**.
 
 # Post mortem
 
