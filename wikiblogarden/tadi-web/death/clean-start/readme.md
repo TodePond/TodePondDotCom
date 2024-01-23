@@ -70,7 +70,7 @@ Through repeated death and adaptation, could the tadi web... be growing more res
 
 No... wait, no.
 
-I don't think Tom MacWright would like the tadi web. It's dead after all.
+I don't think there are any perks for Tom MacWright. It's dead after all.
 
 ## The death of the tadi web
 
