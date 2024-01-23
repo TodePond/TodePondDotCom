@@ -112,3 +112,11 @@ I've been devising a way of introducing the SEE IT project in a way that capture
 - how do we merge them together?
 
 > reflection: this is the first time I'm trying to adapt one of my weird experiments to a more practical setting.
+
+## SEE IT: PRIOR ART
+
+I've collected together some prior art for `memory visibility` that I *don't like*. Namely the debugging tools that I tend to use.
+
+Next, I'm digesting the prior art that I *do* like. Namely the examples that have been shared with me here! Thank you so much for all those!
+
+> I should be able to properly introduce some of these topics in a friday call in the next few weeks
