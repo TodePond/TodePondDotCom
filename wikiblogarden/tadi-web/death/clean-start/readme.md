@@ -42,7 +42,7 @@ The tadi web is [not a new idea](https://www.todepond.com/wikiblogarden/my-wikib
 
 But clearly, it's not compatible with the document web 2.0. So I now pronounce it **dead**.
 
-# Post mortem
+## Post mortem
 
 Let's look at the reasoning behind each rule.
 
