@@ -12,7 +12,7 @@ There's a fab article by [Tom MacWright](https://macwright.com/about/) called [A
 
 The article outlines some of the web's biggest issues. It spells out how we're losing control of the browsers that we use. And how it's increasingly monopolised by a just few megacorps.
 
-This is clearly a political issue - a governance, regulation issue. `But it might have a technological solution.` (Right?)
+This is clearly a political issue - a governance, regulation issue. `But it might have a technological solution.`
 
 Introducing...
 
