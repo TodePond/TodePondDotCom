@@ -431,5 +431,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/art/burger-king/</guid>
   			<description>My friend showed me a life hack.</description>
   		</item>
+		<item>
+  			<title>DEATH OF THE TADI WEB: A clean start for the web</title>
+  			<pubDate>Tue, 23 Jan 2024 07:58:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/death/clean-start/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/death/clean-start/</guid>
+  			<description>I read a blog post by Tom MacRight. And I've now stopped the tadi web project.</description>
+  		</item>
   </channel>
 </rss>
