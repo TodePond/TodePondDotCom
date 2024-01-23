@@ -12,7 +12,9 @@ There's a fab article by [Tom MacWright](https://macwright.com/about/) called [A
 
 The article outlines some of the web's biggest issues. It spells out how we're losing control of the browsers that we use. And how it's increasingly monopolised by a just few megacorps.
 
-This is clearly a political issue - a governance, regulation issue. But it might have a technological solution. Introducing...
+This is clearly a political issue - a governance, regulation issue. `But it might have a technological solution.` (Right?)
+
+Introducing...
 
 ## The document web 2.0
 
@@ -66,7 +68,7 @@ Through repeated death and adaptation, could the tadi web... be growing more res
 
 No... wait, no.
 
-I don't think Tom MacWright will ever like the tadi web. It's dead after all.
+I don't think Tom MacWright would like the tadi web. It's dead after all.
 
 ## The death of the tadi web
 
