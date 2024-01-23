@@ -27,6 +27,7 @@ The tadi web often dies.
 - [Putting data in the cloud](https://www.todepond.com/wikiblogarden/tadi-web/cloud)
 - [How to synchronise data](https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync)
 - [World's first full-stack tadi website](/wikiblogarden/tadi-web/fame/facts)
+- [Image data](/wikiblogarden/tadi-web/image-data)
 - [Graveyard](graveyard)
 
 <br>
