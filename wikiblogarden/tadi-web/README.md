@@ -2,9 +2,7 @@
 
 # Tadi web
 
-The tadi web is a small and simple part of the normal web. It follows a tiny subset of the full web spec. This means that all tadi websites work in tadi browsers, as well as normal browsers.
-
-The spec is up to you! I trust you to decide what to use.
+The tadi web is a small and simple part of the normal web.
 
 ## Slippy mindset
 
