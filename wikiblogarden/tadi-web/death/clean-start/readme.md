@@ -18,7 +18,7 @@ Introducing...
 
 ## The document web 2.0
 
-Tom introduces a new type of [better](/wikiblogarden/better-computing) [computing](wikiblogarden/better-computing/better-computing) called the **document web 2.0**.
+Tom introduces a new type of [better](/wikiblogarden/better-computing) [computing](/wikiblogarden/better-computing/better-computing) called the **document web 2.0**.
 
 It has some [rules](/wikiblogarden/rules).
 
