@@ -1,6 +1,6 @@
 # Dear spotify product manager
 
-Here are some features I would like to see in your app.
+Here are some features that I'd like to see in your app.
 
 If you add them all, I promise that I'll triple my payments to spotify!
 
