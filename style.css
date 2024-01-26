@@ -1,6 +1,10 @@
 /* GRAVEYARD CSS */
 /* The tadi css is dead. Long live the tadi css! */
 
+* {
+  accent-color: #4680ff;
+}
+
 body {
   color: white;
   background-color: rgb(31, 39, 54);
