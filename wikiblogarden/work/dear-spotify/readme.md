@@ -12,7 +12,7 @@ They're only using spotify for exposure anyway.
 
 ## Add more shuffle modes
 
-I would like to cycle through lots of different modes when I want to turn off shuffle. Maybe you could "mood shuffle", "seasonal shuffle" and "ai shuffle".
+I would like to cycle through lots of different modes when I want to turn off shuffle. Maybe you could add "mood shuffle", "seasonal shuffle" and "ai shuffle".
 
 Even better if they require an internet connection, so that it's impossible to cycle through when I have low connection!
 
