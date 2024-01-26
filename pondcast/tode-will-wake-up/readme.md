@@ -16,9 +16,9 @@ Tode will have just woken up. So what should happen next? The choice is in your 
 
 You can vote for one choice, or many, or none, or all, of them. And the current tally will be available at [todepond.com/fame/vote](https://todepond.com/fame/vote)
 
-![berd window](1.png)
-
 ## How to vote
+
+![berd window](1.png)
 
 To vote, go to [todepond.com/fame/dashboard](https://todepond.com/fame/dashboard). If you've already signed in with a secret code, you'll be able to vote straight away!
 
@@ -26,15 +26,15 @@ If it's your first time, request a secret code, and wait for me to let you in. Y
 
 Without further ado... Here are your choices. I **will** make the video with the most votes.
 
-## 🌈 NEW Fractal
+### 🌈 NEW Fractal
 
 A brand NEW VIDEO! Never been done before. Bot will make a brand NEW fractal. And that fractal will be a fractal. And inside that fractal- there's a- In the- There's another- Sorry to interrupt. I'm editing the video right now. And I've- berd- just realised that this isn't actually- berd- a NEW fractal. It's actually-
 
-## 🐿️ This is a Tode
+### 🐿️ This is a Tode
 
 THIS is a tode. It might not look like it. Because it's a squirrel.
 
-## 🐍 Snakes in Snakes in Snakes
+### 🐍 Snakes in Snakes in Snakes
 
 Today we're making a new engine! But to make the engine, we need to make a language first. And to make the language, we need to make a library first. And to make the library, we need to make an editor. And to make the editor, we need to make a computer. And to make the computer, we need to make an engine. And to make the engine, we need to make a language. And for that we need a library. For which we need an editor. But we need a computer for that. And we need an engine for that. And a language for that. And an editor. And a computer. And an engine. A language. A library. An editor. A computer. A computer. A-
 
