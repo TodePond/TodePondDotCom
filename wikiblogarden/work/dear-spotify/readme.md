@@ -22,7 +22,7 @@ Even better if they pop up a toast, so that I can't tap the controls!
 
 When I want to find a particular playlist... I don't want to find it immediately.
 
-Please bury it down as far as you can. Guide me on an archaeological journey through your different design systems. 
+Please bury it down as deep as you can. Guide me on an archaeological journey through your different design systems. 
 
 And when I get there, list my playlists in a different order each time.
 
