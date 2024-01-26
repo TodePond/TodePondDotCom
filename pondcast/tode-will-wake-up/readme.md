@@ -30,17 +30,25 @@ If it's your first time, request a secret code, and wait for me to let you in. Y
 
 Without further ado... Here are your choices. I **will** make the video with the most votes.
 
+<hr>
+
 ### 🌈 NEW Fractal
 
 A brand NEW VIDEO! Never been done before. Bot will make a brand NEW fractal. And that fractal will be a fractal. And inside that fractal- there's a- In the- There's another- Sorry to interrupt. I'm editing the video right now. And I've- berd- just realised that this isn't actually- berd- a NEW fractal. It's actually-
 
+<hr>
+ 
 ### 🐿️ This is a Tode
 
 THIS is a tode. It might not look like it. Because it's a squirrel.
 
+<hr>
+
 ### 🐍 Snakes in Snakes in Snakes
 
 Today we're making a new engine! But to make the engine, we need to make a language first. And to make the language, we need to make a library first. And to make the library, we need to make an editor. And to make the editor, we need to make a computer. And to make the computer, we need to make an engine. And to make the engine, we need to make a language. And for that we need a library. For which we need an editor. But we need a computer for that. And we need an engine for that. And a language for that. And an editor. And a computer. And an engine. A language. A library. An editor. A computer. A computer. A-
+
+<hr>
 
 **Those are your choices! I look forward to receiving your votes. Thank you so much for your support. And welcome to all the new joiners this week! Wherever you are in the world... whatever you're doing... I hope you have a great week.**
 
