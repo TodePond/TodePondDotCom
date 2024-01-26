@@ -4,6 +4,10 @@
 
 # VIDEO VOTE: Tode will wake up
 
+<audio controls>
+  <source src="1.m4a" type="audio/x-m4a">
+</audio>
+
 It's been a very very long time since the [last video vote](https://www.patreon.com/posts/vote-next-next-74119630). But the next video vote is finally here! It's the...
 
 🐸 VIDEO VOTE 🐸
@@ -39,10 +43,6 @@ THIS is a tode. It might not look like it. Because it's a squirrel.
 Today we're making a new engine! But to make the engine, we need to make a language first. And to make the language, we need to make a library first. And to make the library, we need to make an editor. And to make the editor, we need to make a computer. And to make the computer, we need to make an engine. And to make the engine, we need to make a language. And for that we need a library. For which we need an editor. But we need a computer for that. And we need an engine for that. And a language for that. And an editor. And a computer. And an engine. A language. A library. An editor. A computer. A computer. A-
 
 **Those are your choices! I look forward to receiving your votes. Thank you so much for your support. And welcome to all the new joiners this week! Wherever you are in the world... whatever you're doing... I hope you have a great week.**
-
-<audio controls>
-  <source src="1.m4a" type="audio/x-m4a">
-</audio>
 
 _Days since tode fell asleep: 386_<br>
 _Days since bot went missing: 351_<br>
