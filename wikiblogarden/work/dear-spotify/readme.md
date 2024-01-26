@@ -2,7 +2,7 @@
 
 Here are some features I would like to see in your app.
 
-If you add them all, I promise I will take triple my payments to you!
+If you add them all, I promise that I'll triple my payments to spotify!
 
 ## Pay artists less
 
