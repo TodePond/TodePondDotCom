@@ -30,7 +30,7 @@ Just don't use a framework (like nextjs). It's easy. It'll solve all your proble
 
 It's good.
 
-## Just don't use talking
+## Just don't use tailwind 
 
 It's bad.
 
