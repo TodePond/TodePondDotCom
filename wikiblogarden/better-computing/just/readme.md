@@ -42,12 +42,12 @@ Just. Just. Just.
 
 What's easy for you might not be easy for others. There's always a trade-off.
 
-Simplicity is a [luxury](https://macwright.com/2023/12/31/luxury-of-simplicity). It's really hard. But it's a trade-off I like to take, so that I can [stay slippy](https://tadiweb.com). Some people and projects can't afford to take that trade-off.
+Simplicity is a [luxury](https://macwright.com/2023/12/31/luxury-of-simplicity). It's really hard. And it's never "just".
 
-There are lots of problems with simplicity. Hopefully, we'll eventually figure them all out. So that the trade-off gets smaller. But from what I've seen...
+We should try understand what makes it hard. And make it easier.
 
 > If your solution to a problem<br>
-> Starts with the word "just"<br>
+> Starts with "just"<br>
 > It's just a waste of time
 
-Back to the [wikiblogart](/wikiblogarden).
+Back to the [wikiblogarden](/wikiblogarden).
