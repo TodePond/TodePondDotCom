@@ -1,3 +1,5 @@
+> Hello hackernews! Please read my [article](/wikiblogarden/social-media/hackernews/) about hackernews.
+
 # Just
 
 I don't like that word.
@@ -30,7 +32,7 @@ Just don't use a framework (like nextjs). It's easy. It'll solve all your proble
 
 It's good.
 
-## Just don't use tailwind 
+## Just don't use tailwind
 
 It's bad.
 
