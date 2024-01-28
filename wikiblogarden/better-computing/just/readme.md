@@ -1,5 +1,3 @@
-> Hello hackernews! Please read my [article](/wikiblogarden/social-media/hackernews/) about hackernews.
-
 # Just
 
 I don't like that word.
