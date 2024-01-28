@@ -44,7 +44,7 @@ What's easy for you might not be easy for others. There's always a trade-off.
 
 Simplicity is a [luxury](https://macwright.com/2023/12/31/luxury-of-simplicity). It's really hard. And it's never "just".
 
-We should try understand what makes it hard. And make it easier.
+We should try to understand what makes it hard. And make it easier.
 
 > If your solution to a problem<br>
 > Starts with "just"<br>
