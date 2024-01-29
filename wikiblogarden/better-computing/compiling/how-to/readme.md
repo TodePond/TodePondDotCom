@@ -32,13 +32,13 @@ A good example for this is turning typescript into javascript. They're similar e
 
 Or consider this made-up lispy language:
 
-```
+```lisp
 (print (add 3 2))
 ```
 
 Its concepts map cleanly to javascript:
 
-```
+```js
 console.log(3 + 2)
 ```
 
@@ -67,7 +67,7 @@ I find it really hard to map colourtode's concepts to javascript.
 
 I needed an *intermediate representation* of colourtode that's much closer to javascript. So I invented one called dragon.
 
-```
+```js
 {
   left: [
     { type: "check", colour: 371, position: [0, 0] },
@@ -89,7 +89,7 @@ We're now a lot closer to our destination. Let's finish it off by [parsing and e
 
 The generated javascript looks something like this:
 
-```
+```js
 function behave() {
   if (!check(371, [0, 0])) return
   if (!check(0, [0, 1])) return
