@@ -8,7 +8,7 @@ Ask someone. They might not know either. But they might.
 
 ## Struggling to choose?
 
-Ask. Get some advice. Sometimes you don't even need the answer. You just need to hear the question out loud (or written down).
+Ask. Get some advice. Sometimes you don't even need the answer. You need to hear the question out loud (or written down).
 
 ## Want to know something?
 
