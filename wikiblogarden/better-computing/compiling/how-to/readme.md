@@ -91,10 +91,10 @@ The generated javascript looks something like this:
 
 ```
 function behave() {
-  if (check(371, [0, 0]) && check(0, [0, 1])) {
-    recolour(0, [0, 0])
-    recolour(371, [0, 1])
-  }
+  if (!check(371, [0, 0])) return
+  if (!check(0, [0, 1])) return
+  recolour(0, [0, 0])
+  recolour(371, [0, 1])
 }
 ```
 
