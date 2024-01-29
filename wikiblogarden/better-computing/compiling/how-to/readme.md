@@ -28,6 +28,8 @@ If they're close together, it's easy! Just [parse and emit](/wikiblogarden/bette
 
 A good example for this is turning typescript into javascript. They're similar enough that you can just run through the code, stripping out all the types as you go.
 
+<img width="405" alt="shapes at 24-01-29 18 30 28" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/417feea3-7bf8-4918-b726-506a6ef3a535">
+
 Or consider this made-up lispy language:
 
 ```
@@ -39,6 +41,9 @@ Its concepts map cleanly to javascript:
 ```
 console.log(3 + 2)
 ```
+
+<img width="405" alt="shapes at 24-01-29 18 30 42" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/1b19752c-dc5c-4350-923a-e4b14f1b6942">
+
 
 ## If they're far apart
 
@@ -54,6 +59,9 @@ Imagine having a spatial programming language with this syntax:
 This language is called colourtode, and it's used in [cellpond](https://github.com/TodePond/CellPond). It means "if a yellow cell is above a black cell, they swap positions".
 
 I find it really hard to map colourtode's concepts to javascript.
+
+<img width="543" alt="shapes at 24-01-29 18 31 49" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/470c67c1-b55c-429d-8e19-3f48e31e5de2">
+
 
 > Oh no! We can't reach!
 
@@ -72,7 +80,12 @@ I needed an *intermediate representation* of colourtode that's much closer to ja
 }
 ```
 
+<img width="543" alt="shapes at 24-01-29 18 31 25" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9244c12c-ae23-477a-a04d-25a4ef7da7e5">
+
+
 We're now a lot closer to our destination. Let's finish it off by [parsing and emitting](/wikiblogarden/better-computing/compiling/parsing/emitting) dragon into javascript.
+
+
 
 The generated javascript looks something like this:
 
@@ -88,6 +101,9 @@ function behave() {
 ## We did it
 
 We carved out a path from start to finish. We compiled colourtode into javascript.
+
+<img width="567" alt="shapes at 24-01-29 18 30 54" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/97b2cce0-bf74-4d65-8661-282525179cf6">
+
 
 ## Everyone's different
 
