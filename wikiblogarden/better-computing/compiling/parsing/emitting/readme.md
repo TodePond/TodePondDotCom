@@ -16,6 +16,8 @@ When you parse, you often want to emit something as well. Maybe you want to emit
 
 Or maybe you don't. You might just want to check if the code is valid or not.
 
+Or maybe you want the emitted code and nothing else. (I highly recommend against this, as it's very hard to debug).
+
 ## What do you want to know?
 
 When you parse something, what information do you want back?
