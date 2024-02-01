@@ -36,7 +36,7 @@ A copy of the source code that you tried to parse. For your reference purposes o
 
 ### Snippet
 
-The snippet of code that you successfully parsed. It could be a small party of if, or your entire source, or nothing.
+The snippet of code that you successfully parsed. It could be a small part of it, or your entire source, or nothing.
 
 If the parse failed, it's the *longest possible snippet of code that is valid*, which is highly subjective.
 
