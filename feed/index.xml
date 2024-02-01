@@ -487,5 +487,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/art/voice/finding/</guid>
   			<description>One of the nicest things.</description>
   		</item>
+		<item>
+  			<title>Parsing and emitting</title>
+  			<pubDate>Thu, 01 Feb 2024 01:01:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/better-computing/compiling/parsing/emitting/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/better-computing/compiling/parsing/emitting/</guid>
+  			<description>If you’re making a compiler, you probably need to do some parsing and emitting.</description>
+  		</item>
   </channel>
 </rss>
