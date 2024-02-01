@@ -50,7 +50,7 @@ An object with some helpful information. It always includes a message. It might 
 
 ### Fatal
 
-Whether a failure should throw an error or not. Yes or no.
+Whether a failure should interrupt the parse or not. Yes or no.
 
 ### Tree
 
