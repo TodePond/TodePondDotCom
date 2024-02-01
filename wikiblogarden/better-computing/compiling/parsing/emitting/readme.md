@@ -12,9 +12,7 @@ If you're [making a compiler](/wikiblogarden/better-computing/compiling/how-to/)
 
 ## Parsing and emitting
 
-When you parse, you often want to emit something as well. Maybe you want to emit your target language. Or an intermediate representation (eg: an abstract syntax tree). Or something else.
-
-Or maybe you don't. You might just want to check if the code is valid or not.
+When you parse, you often want to emit something as well. Maybe you want to emit your target language. Or an intermediate representation (eg: an abstract syntax tree). Or maybe you just want to emit whether the code is valid or not.
 
 ## What do you want to know?
 
