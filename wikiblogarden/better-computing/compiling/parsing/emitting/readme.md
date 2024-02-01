@@ -74,7 +74,7 @@ Here's the twist. Maybe.
 
 The code you parse... doesn't have to be text. It could be an array, a tree, or anything you want. And you can emit anything you want too.
 
-No matter what, these are the concepts I reach for whenever I want to parse something. Whether that's some [text](/wikiblogarden/better-computing/compiling/parsing/emitting/text), a [list of tokens](/wikiblogarden/better-computing/compiling/parsing/emitting/tokens), or a [tree](/wikiblogarden/better-computing/compiling/parsing/emitting/tree).
+No matter what, these are the concepts I reach for whenever I want to parse something. Whether that's some [text](/wikiblogarden/better-computing/compiling/parsing/emitting/text), a list of [tokens](/wikiblogarden/better-computing/compiling/parsing/emitting/tokens), or a [tree](/wikiblogarden/better-computing/compiling/parsing/emitting/tree).
 
 <br>
 
