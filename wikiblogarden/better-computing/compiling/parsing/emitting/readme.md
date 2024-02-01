@@ -48,7 +48,7 @@ The remainding code, after you take off the snippet.
 
 An object with some helpful information. It always includes a message. It might include some more information on a case-by-case basis.
 
-## Fatal
+### Fatal
 
 Whether a failure should throw an error or not. Yes or no.
 
