@@ -60,9 +60,13 @@ Nested arrays containing results for everything that was parsed as part of this 
 
 Your emitted code. What your snippet got transformed into.
 
+### Term
+
+The term that the compiler attempted to parse.
+
 ### Meta
 
-Optionally, the result can contain some extra information. Anything you want.
+Optionally, some extra information. Anything you want.
 
 ## The twist
 
