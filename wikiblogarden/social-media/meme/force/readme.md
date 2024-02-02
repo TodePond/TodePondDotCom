@@ -20,5 +20,4 @@ All you need to do to force a meme.
 
 <br>
 
-Back to the [wikiblogarden](/wikib
-logarden).
+Back to the [wikiblogarden](/wikiblogarden).
