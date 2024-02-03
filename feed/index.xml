@@ -473,5 +473,33 @@
   			<guid>https://www.todepond.com/wikiblogarden/genocide/peace/empathy</guid>
   			<description>The world is better with empathy</description>
   		</item>
+		<item>
+  			<title>How to compile</title>
+  			<pubDate>Mon, 29 Jan 2024 18:52:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/better-computing/compiling/how-to/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/better-computing/compiling/how-to/</guid>
+  			<description>How to compile from one language to another</description>
+  		</item>
+		<item>
+  			<title>Finding my voice</title>
+  			<pubDate>Wed, 31 Jan 2024 00:36:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/art/voice/finding/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/art/voice/finding/</guid>
+  			<description>One of the nicest things.</description>
+  		</item>
+		<item>
+  			<title>Parsing and emitting</title>
+  			<pubDate>Thu, 01 Feb 2024 01:01:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/better-computing/compiling/parsing/emitting/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/better-computing/compiling/parsing/emitting/</guid>
+  			<description>If you’re making a compiler, you probably need to do some parsing and emitting.</description>
+  		</item>
+		<item>
+  			<title>How to force a meme</title>
+  			<pubDate>Fri, 02 Feb 2024 00:10:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/meme/force</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/meme/force</guid>
+  			<description>Here's how to force a meme, and will it into existence.</description>
+  		</item>
   </channel>
 </rss>
