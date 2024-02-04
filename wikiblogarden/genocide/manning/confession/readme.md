@@ -1,6 +1,6 @@
 # Manspreading and mansplaining
 
-It's worse than you think.
+It's worse than I thought.
 
 ## My confession
 
