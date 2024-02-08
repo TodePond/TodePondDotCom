@@ -508,5 +508,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/genocide/manning/confession</guid>
   			<description>It's worse than I thought.</description>
   		</item>
+		<item>
+  			<title>Three long posts</title>
+  			<pubDate>Thu, 08 Feb 2024 22:44:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long/three</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long/three</guid>
+  			<description>I'm usually writing two to three blog posts at any given time.</description>
+  		</item>
   </channel>
 </rss>
