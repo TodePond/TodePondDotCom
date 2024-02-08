@@ -24,7 +24,7 @@
   /* crop top and bottom 25% of video */
   video {
     object-fit: cover;
-    height: 50%;
+    height: 200px;
   }
 </style>
 
