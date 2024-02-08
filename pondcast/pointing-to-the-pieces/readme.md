@@ -87,9 +87,19 @@ I also liked how annoying it sounded. So it eventually became...
 
 ## Arrow in an arrow
 
+<video controls>
+  <source src="arrow-in-an-arrow.mp4" type="video/mp4">
+</video>
 
+In my head, I knew I wanted to end up on this song. "Arrow in an arrow" swirled around my head for the following 9 months. It started to drive me a bit crazy. And it annoyed my colleagues, as I couldn't stop humming it. It was the recurring tune that guided the rest of the music.
 
-## Please don't give me
+In the video, I used it in the coming out sequence.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=442&amp;end=467" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## I will be here for too long
+
+Next, I tried to find some phrases that could lead into "arrow in an arrow". I started 
 
 ## Taking too long
 
