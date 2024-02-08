@@ -20,6 +20,14 @@
   })
 </script>
 
+<style>
+  /* crop top and bottom 25% of video */
+  video {
+    object-fit: cover;
+    height: 50%;
+  }
+</style>
+
 <hr>
 
 # TODEPOND PONDCAST: Pointing to the pieces
@@ -71,11 +79,15 @@ I found one that I recorded on christmas eve in 2019, named...
   <source src="up-and-on-the-highway.mp4" type="video/mp4">
 </video>
 
+Please excuse the grating whistling. It was trying to jot down this tune in any way I could, so that I wouldn't forget it.
 
+When I found it two years later, I liked how it was a bit jolly, and a bit melancholy. I call it... melanjolly.
 
-
+I also liked how annoying it sounded. So it eventually became...
 
 ## Arrow in an arrow
+
+
 
 ## Please don't give me
 
