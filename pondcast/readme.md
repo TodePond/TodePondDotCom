@@ -10,3 +10,4 @@
 - [Berd has flown away](berd-has-flown-away)
 - [VIDEO VOTE: Tode will wake up](tode-will-wake-up)
 - [Sixteen scrappy fiddles](sixteen-scrappy-fiddles)
+- [Pointing to the pieces](pointing-to-the-pieces)
