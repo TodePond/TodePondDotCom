@@ -27,7 +27,7 @@
     height: 200px;
   }
 
-  .video-container { position: relative; padding-bottom: 56.25%; padding-top: 0px; height: 0; overflow: hidden; }
+  .video-container { position: relative; overflow: hidden; }
 
   .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 </style>
@@ -62,6 +62,7 @@ My first draft of the script was built around a quieter trance tune, [There Is P
 
 <div class="video-container" style="
   display: flex;
+  height: 200px;
 ">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/noZ2jXz35vA?si=OO8bgmLIs-NiIPmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kYGjKviJOu8?si=PUS2rYNdiWENhFOF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,7 +75,7 @@ I still feel attached to that first version of the video. But I decided that it 
 
 I eventually decided to make all the music myself. (Except for a track called [Nara](https://www.youtube.com/watch?v=PXiwC4tcYmA) in the intro and ending).
 
-<div class="video-container">
+<div class="video-container" style="height: 200px">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PXiwC4tcYmA?si=vOSjEv7iYCKJdtNd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -111,7 +112,7 @@ In my head, I knew I wanted to end up on this song. "Arrow in an arrow" swirled 
 
 In the video, I used it in the coming out sequence.
 
-<div class="video-container">
+<div class="video-container" style="padding-bottom: 56.25%; padding-top: 0px; height: 0;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=442&amp;end=467" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
