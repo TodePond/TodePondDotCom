@@ -174,7 +174,26 @@ It also appeared in the dream sequence.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=427&amp;end=437" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-##
+## Berd will have to do the video
+
+I had most of the main parts figured out. But I was still missing some recognisable tune that I could repeat at various points throughout the video. I kept playing around with little riffs, until I landed on something simple.
+
+
+<video controls>
+  <source src="berd-will-have-to-do-the-video.mp4" type="video/mp4">
+</video>
+
+I used it near the start, to kick off the song.
+
+<div class="video-container" style="height: 200px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=167&amp;end=192" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+I revisited it later, as a callback.
+
+<div class="video-container" style="height: 200px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=437&amp;end=468" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 _Days since tode fell asleep: _<br>
 _Days since bot went missing: _<br>
