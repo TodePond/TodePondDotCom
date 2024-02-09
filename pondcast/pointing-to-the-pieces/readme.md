@@ -212,7 +212,7 @@ I used it in the dream sequence.
 
 ## Berd has flown away
 
-I changed the ending quite late in the video-making process. It felt unsatisfying. It wrapped up too quickly, and it needed an extra 'conclusion' section on the end. So I quickly figured a calm phrase to add on.
+I changed the ending quite late in the video-making process. It felt unsatisfying. It wrapped up too quickly, and it needed an extra 'conclusion' section on the end. So I quickly figured out a calm phrase to add on.
 
 <video controls>
   <source src="berd-has-flown-away.mp4" type="video/mp4">
