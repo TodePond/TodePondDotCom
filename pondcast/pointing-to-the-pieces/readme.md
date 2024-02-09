@@ -132,9 +132,18 @@ I didn't find any phrases I liked, but I grew attached to the strumming pattern.
 
 ## Taking too long
 
+
+<video controls>
+  <source src="too-long.mp4" type="video/mp4">
+</video>
+
 <video controls>
   <source src="taking-too-long.mp4" type="video/mp4">
 </video>
+
+<div class="video-container" style="height: 200px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=335&amp;end=376" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## How much longer
 
