@@ -148,6 +148,12 @@ I used this bit of music in the "automation" section.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=335&amp;end=376" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+I used the unextended version earlier on in the video.
+
+<div class="video-container" style="height: 200px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=149&amp;end=166" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## How much longer
 
 I wanted a part that expressed some of the desperation of being stuck. Here I am singing some gibberish to explore that.
