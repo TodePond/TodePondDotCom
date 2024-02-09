@@ -122,6 +122,10 @@ Next, I tried to find some phrases that could lead into "arrow in an arrow". I s
 
 ## Taking too long
 
+<video controls>
+  <source src="taking-too-long.mp4" type="video/mp4">
+</video>
+
 ## How much longer
 
 ## Take it back again
