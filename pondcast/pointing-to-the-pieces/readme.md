@@ -112,7 +112,7 @@ In my head, I knew I wanted to end up on this song. "Arrow in an arrow" swirled 
 
 In the video, I used it in the coming out sequence.
 
-<div class="video-container" style="padding-bottom: 56.25%; padding-top: 0px; height: 0;">
+<div class="video-container" style="height: 200px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=442&amp;end=467" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
