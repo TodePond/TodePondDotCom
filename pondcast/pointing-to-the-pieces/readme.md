@@ -46,6 +46,8 @@ Uh, this week, let's take a behind-the-scenes look into the music of the [Arrows
 
 ## Time travel
 
+![snake tail](1.png)
+
 I planned out the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video in the year 2021.
 
 It was shortly after the [Time Travel](https://www.youtube.com/watch?v=Z24NKn6rQRY) video dropped. And my head was full of ideas on how to implement time travel in a better way.
