@@ -72,7 +72,11 @@ I still feel attached to that first version of the video. But I decided that it 
 
 ## Make it all myself
 
-I eventually decided to make all the music myself. (Except from a track called [Nara] in the intro and ending).
+I eventually decided to make all the music myself. (Except for a track called [Nara](https://www.youtube.com/watch?v=PXiwC4tcYmA) in the intro and ending).
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXiwC4tcYmA?si=vOSjEv7iYCKJdtNd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Over the following 24 months, I tried and tried and tried to come up with some simple sounds that I could use as background music. I needed it to be:
 
