@@ -58,7 +58,7 @@ It was shortly after the [Time Travel](https://www.youtube.com/watch?v=Z24NKn6rQ
 
 But how do I demonstrate *sound* in a video? My videos already have tons of loud music playing in the background. It would all clash.
 
-My first draft of the script was built around a quieter trance tune, [There Is Peace Beyond](https://www.youtube.com/watch?v=noZ2jXz35vA) and its [remix]. Arroost's noises would complement the tracks, landing in-time and in-tune with the music.
+My first draft of the script was built around a quieter trance tune, [There Is Peace Beyond](https://www.youtube.com/watch?v=noZ2jXz35vA) and its [remix](https://www.youtube.com/watch?v=kYGjKviJOu8). Arroost's noises would complement the tracks, landing in-time and in-tune with the music.
 
 <div class="video-container" style="
   display: flex;
