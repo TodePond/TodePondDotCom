@@ -156,7 +156,7 @@ I used the unextended version earlier on in the video.
 
 ## How much longer
 
-I wanted a part that expressed some of the desperation of being stuck. Here I am singing some gibberish to explore that.
+I wanted a part that expressed some of the desperation of being stuck. Here I am singing some gibberish out-of-tune to explore that.
 
 <video controls>
   <source src="how-much-longer.mp4" type="video/mp4">
