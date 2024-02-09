@@ -42,7 +42,7 @@
 
 Ohhhhhh yes. It's time again... for the weekly...
 
-Uh, this week, let's take a behind-the-scenes look into the music of the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video. It's time for a...
+Uh, this week, let's take a behind-the-scenes look into the music of the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video. It's time for a DEEP DIVE.
 
 ## Time travel
 
