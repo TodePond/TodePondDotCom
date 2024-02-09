@@ -132,14 +132,19 @@ I didn't find any phrases I liked, but I grew attached to the strumming pattern.
 
 ## Taking too long
 
+I wanted to add more of a feeling of "stuckness". I wanted to capture the frustration of something taking too long. So I played around with extending the occasional phrase with an extra strum. I liked how it felt like a forced pause - some compulsory calmness.
 
 <video controls>
   <source src="too-long.mp4" type="video/mp4">
 </video>
 
+I also liked how it dragged out some parts of the music - longer than it was supposed to. I liked how it felt like it was falling behind. I added some words and posted it on [mastodon](https://elk.zone/mas.to/@TodePond@universeodon.com/110238035743502664).
+
 <video controls>
   <source src="taking-too-long.mp4" type="video/mp4">
 </video>
+
+I used this bit of music in the "automation" section.
 
 <div class="video-container" style="height: 200px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=335&amp;end=376" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
