@@ -60,13 +60,13 @@ But how do I demonstrate *sound* in a video? My videos already have tons of loud
 
 My first draft of the script was built around a quieter trance tune, [There Is Peace Beyond](https://www.youtube.com/watch?v=noZ2jXz35vA) and its [remix]. Arroost's noises would complement the tracks, landing in-time and in-tune with the music.
 
-<div class="video-container">
+<div class="video-container" style="
+  display: flex;
+">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/noZ2jXz35vA?si=OO8bgmLIs-NiIPmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kYGjKviJOu8?si=PUS2rYNdiWENhFOF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
 
 I still feel attached to that first version of the video. But I decided that it would be too hard. It would be easier... to just...
 
@@ -95,7 +95,7 @@ I found one that I recorded on christmas eve in 2019, named...
   <source src="up-and-on-the-highway.mp4" type="video/mp4">
 </video>
 
-Please excuse the grating whistling. It was trying to jot down this tune in any way I could, so that I wouldn't forget it.
+Please excuse the grating whistling. I was trying to jot down this tune in any way I could, so that I wouldn't forget it.
 
 When I found it two years later, I liked how it was a bit jolly, and a bit melancholy. I call it... melanjolly.
 
@@ -107,7 +107,7 @@ I also liked how annoying it sounded. So it eventually became...
   <source src="arrow-in-an-arrow.mp4" type="video/mp4">
 </video>
 
-In my head, I knew I wanted to end up on this song. "Arrow in an arrow" swirled around my head for the following 9 months. It started to drive me a bit crazy. And it annoyed my colleagues, as I couldn't stop humming it. It was the recurring tune that guided the rest of the music.
+In my head, I knew I wanted to end up on this song. "Arrow in an arrow" swirled around my head for the following 9 months. It started to drive me a bit crazy. And my colleagues too, as I couldn't stop humming it. It was the recurring tune that guided the rest of the music.
 
 In the video, I used it in the coming out sequence.
 
