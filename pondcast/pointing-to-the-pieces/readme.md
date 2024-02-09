@@ -127,7 +127,7 @@ Next, I tried to find some phrases that could lead into "arrow in an arrow".
 I didn't find any phrases I liked, but I grew attached to the strumming pattern. Nothing special. It appeared in the "chaining sounds" section.
 
 <div class="video-container" style="height: 200px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=442&amp;end=467" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNBKdU6XrLY?si=fuJ9_okEXIdI4UaQ&amp;start=264&amp;end=283" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Taking too long
