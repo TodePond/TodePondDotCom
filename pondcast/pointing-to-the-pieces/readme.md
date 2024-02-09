@@ -48,9 +48,9 @@ What's new this week?
 
 ## Time travel
 
-I planned out the [Arrows] video in the year 2021.
+I planned out the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video in the year 2021.
 
-It was shortly after the [Time Travel] video dropped. And my head was full of ideas on how to implement time travel in a better way.
+It was shortly after the [Time Travel](https://www.youtube.com/watch?v=Z24NKn6rQRY) video dropped. And my head was full of ideas on how to implement time travel in a better way.
 
 > It was also a big time for me personally, deciding to leave my job, and changing my name, and so on.
 
@@ -58,7 +58,15 @@ It was shortly after the [Time Travel] video dropped. And my head was full of id
 
 But how do I demonstrate *sound* in a video? My videos already have tons of loud music playing in the background. It would all clash.
 
-My first draft of the script was built around a quieter trance tune, [There Is Peace Beyond] and its [remix]. Arroost's noises would complement the tracks, landing in-time and in-tune with the music.
+My first draft of the script was built around a quieter trance tune, [There Is Peace Beyond](https://www.youtube.com/watch?v=noZ2jXz35vA) and its [remix]. Arroost's noises would complement the tracks, landing in-time and in-tune with the music.
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/noZ2jXz35vA?si=OO8bgmLIs-NiIPmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kYGjKviJOu8?si=PUS2rYNdiWENhFOF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 I still feel attached to that first version of the video. But I decided that it would be too hard. It would be easier... to just...
 
