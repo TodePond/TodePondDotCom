@@ -29,7 +29,7 @@
 
   .video-container { position: relative; overflow: hidden; }
 
-  .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .video-container iframe, .video-container object, .video-container embed { }
 </style>
 
 <hr>
