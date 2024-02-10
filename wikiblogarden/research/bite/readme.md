@@ -10,7 +10,7 @@ It's that moment when you decide to stop planning and just build the damn thing.
 
 When do you do it? How do you know that you're ready? How do you know it'll be worth it? How do you know it'll reasonable? How do you make that decision?
 
-As I make more and more bites, I'm learning more and more about what makes a bite good or bad.
+As I make more and more bites, I'm learning more about what makes a bite good or bad.
 
 But what do you think?
 
