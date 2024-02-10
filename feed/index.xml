@@ -515,5 +515,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/long/three</guid>
   			<description>I'm usually writing two to three blog posts at any given time.</description>
   		</item>
+		<item>
+  			<title>The bite</title>
+  			<pubDate>Sat, 10 Feb 2024 10:23:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/research/bite</link>
+  			<guid>https://www.todepond.com/wikiblogarden/research/bite</guid>
+  			<description>Building a prototype involves a planning stage and a building stage. The bit in the middle is called a bite.</description>
+  		</item>
   </channel>
 </rss>
