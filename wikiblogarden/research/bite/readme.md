@@ -1,4 +1,4 @@
-## The Bite
+# The Bite
 
 I make a bunch of prototypes for my work at [tldraw](https://tldraw.com), [todepond](https://youtube.com/@todepond), and [ink & switch](https://inkandswitch.com).
 
