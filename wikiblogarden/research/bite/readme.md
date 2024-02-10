@@ -2,9 +2,9 @@
 
 I make a bunch of prototypes for my work at [tldraw](https://tldraw.com), [todepond](https://youtube.com/@todepond), and [ink & switch](https://inkandswitch.com).
 
-They involve a **planning stage** and a **building stage**. The bit in between is called **the bite**
+They involve a **planning stage** and a **building stage**. The bit in between is called **the bite**.
 
-> That moment when you decide to stop planning and just build the damn thing.
+It's that moment when you decide to stop planning and just build the damn thing.
 
 ## When to bite
 
