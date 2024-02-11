@@ -86,4 +86,4 @@ And that clown was me!
 
 <br>
 
-Back to [repetition].
+Back to [repetition](/wikiblogarden/repetition).
