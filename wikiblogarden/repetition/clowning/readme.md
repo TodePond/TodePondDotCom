@@ -1,6 +1,6 @@
 # CHAPTER ONE: Clowning
 
-A single clown stood at the front of the stage in silence, then said "sorry to interrupt".
+A single clown stood at the front of the stage and said "sorry to interrupt".
 
 ## Sorry to interrupt
 
