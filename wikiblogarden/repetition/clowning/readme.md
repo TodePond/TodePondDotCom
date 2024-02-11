@@ -12,7 +12,9 @@ I watched this show every day for a month, and the audience always loved it, and
 
 ## Sorry to interrupt
 
-Gaulier clowns like to say the same thing again and again until it becomes funny. But it's not quite as simple as that! There's an art to it. A delicate mixture of bravery and patience.
+Gaulier clowns like to say the same thing again and again until it becomes funny.
+
+It's not easy. There's an art to it. A delicate mixture of bravery and patience.
 
 In another show, two clowns called out names from a clipboard.
 
