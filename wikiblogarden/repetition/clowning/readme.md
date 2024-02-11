@@ -12,7 +12,7 @@ I watched this show every day for a month, and the audience always loved it, and
 
 ## Sorry to interrupt
 
-Gaulier clowns like to say the same thing again and again until it becomes funny.
+[Gaulier](https://en.m.wikipedia.org/wiki/Philippe_Gaulier) clowns like to say the same thing again and again until it becomes funny.
 
 It's not easy. There's an art to it. A delicate mixture of bravery and patience.
 
