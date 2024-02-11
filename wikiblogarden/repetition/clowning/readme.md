@@ -8,7 +8,7 @@ A single clown stood at the front of the stage in silence, then said "sorry to i
 
 Then he stood silently for a few minutes. Then he said the line again. Then he repeated this for a long time.
 
-I watched this show every day for a month, and the audience always loved it, and I didn't understand why. It was funny... but it was so stupid. And it didn't make sense.
+I watched this show every day for a month, and the audience always loved it, and I didn't understand why. It was funny but it was so stupid. And it didn't make sense.
 
 ## Sorry to interrupt
 
