@@ -1,4 +1,4 @@
-# Sulfasalazine: Part two
+# Sulfasalazine: The sequel
 
 Once again my doctor is refusing to prescribe me medicine.
 
