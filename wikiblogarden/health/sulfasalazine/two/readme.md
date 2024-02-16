@@ -14,7 +14,7 @@ It also affects my skin. I get huge scabs over all parts of my body. The worst I
 
 I take various medicines to calm down my immune system. I inject my leg once every two weeks with something called Adalimumab. It's great - it works like magic. And it gets sent to me by courier from the hospital. I have to keep it in the fridge.
 
-It's not enough on its own though, and I have to also take Sulfasalazine. It's a yellow pill and I have to take four of them again. It calms down my white blood cells.
+It's not enough on its own though, and I have to also take Sulfasalazine. It's a yellow pill and I have to take four of them everyday. It calms down my white blood cells.
 
 My GP is supposed to prescribe me Sulfasalazine, but they don't. And I've now run out, and my joints hurt like hell again.
 
