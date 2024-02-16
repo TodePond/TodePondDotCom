@@ -23,6 +23,7 @@ I've also made a bunch of things about it! They're listed below.
 - You're reading it right now.
 - [Cellpond is not robust](./is-not-robust)
 - [The weirdest thing about cellpond](./the-weirdest-thing)
+- [Conservation and stamping](./conservation-and-stamping)
 
 <hr>
 
