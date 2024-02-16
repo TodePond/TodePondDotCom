@@ -1,6 +1,6 @@
 # Sulfasalazine: The sequel
 
-Once again my doctor is refusing to prescribe me medicine.
+[Once again](/wikiblogarden/health/sulfasalazine) my doctor is refusing to prescribe me medicine.
 
 # Part one: Medicine
 
