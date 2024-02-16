@@ -118,11 +118,11 @@ And we must instill a better voting system, like proportional representation, so
 
 ### Update
 
-I called the GP and the receptionist confirmed that a doctor hasn't looked at the letter yet. They said they would get a doctor to look at it today, and I should call back at the 5:30pm.
+I called the GP and the receptionist confirmed that a doctor hasn't approved the letter yet. They said they would get a doctor to look at it today, and I should call back at 5:30pm.
 
-I called the GP at 5:30pm and the receptionist confirmed that a doctor hasn't looked at the letter yet. They said they would get a doctor to look at it today, and I should call back at the 6:30pm.
+I called the GP at 5:30pm and the receptionist confirmed that a doctor hasn't approved the letter yet. They said they would get a doctor to look at it today, and I should call back at 6:30pm.
 
-I called the GP at 6:30pm and the receptionist confirmed that a doctor hasn't looked at the letter yet. They said they would get a doctor to look at it today, and I should call back in the morning tomorrow.
+I called the GP at 6:30pm and the receptionist confirmed that a doctor hasn't approved the letter yet. They said they would get a doctor to look at it today, and I should call back in the morning tomorrow.
 
 Tune in tomorrow for another update.
 
