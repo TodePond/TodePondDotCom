@@ -108,7 +108,7 @@ Today I am going to call up the GP, and if that doesn't work, I'll go there in p
 
 ## The lying tory government
 
-The lying tory government drastically cuts funding to health services because of their fetish with stealing money. And they pressure doctors refuse services to trans people, and they build a culture of hate, which kills people.
+The lying tory government drastically cuts funding to health services because of their fetish with stealing money. And they pressure doctors to refuse services to trans people, and they build a culture of hate, which kills people.
 
 We must vote them out. Don't be too proud to vote tactically. Don't waste your vote. 
 
