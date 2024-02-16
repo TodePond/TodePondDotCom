@@ -16,7 +16,7 @@ I take various medicines to calm down my immune system. I inject my leg once eve
 
 It's not enough on its own though, and I have to also take Sulfasalazine. It's a yellow pill and I have to take four of them everyday. It calms down my white blood cells.
 
-My GP is supposed to prescribe me Sulfasalazine, but they don't. And I've now run out, and my joints hurt like hell again.
+My GP is supposed to prescribe me Sulfasalazine, but they don't. And I've now run out, and my joints hurt like hell.
 
 ## Blood
 
@@ -98,7 +98,7 @@ They said they did, and they'd get back to me in a day.
 
 They didn't.
 
-I've now run out of Sulfasalazine again and it hurts like hell again.
+I've now run out of Sulfasalazine again and it hurts like hell.
 
 ## Anger
 
@@ -108,7 +108,7 @@ Today I am going to call up the GP, and if that doesn't work, I'll go there in p
 
 ## The lying tory government
 
-The lying tory government drastically cuts funding to health services because of their fetish with stealing money. And they pressure doctors to refuse services to trans people, and they build a culture of hate, which kills people.
+The lying tory government drastically cuts funding to health services because of their fetish with stealing money, and they pressure doctors to refuse services to trans people, and they build a culture of hate, which kills people.
 
 We must vote them out. Don't be too proud to vote tactically. Don't waste your vote. 
 
