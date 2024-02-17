@@ -1,5 +1,14 @@
 # Prior art for See It
 
+## Cellpond
+
+"i can See It"
+
+<img width="1025" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/587325a8-53b8-48f0-8766-6bae32bb6a25">
+
+https://www.youtube.com/live/cBYudbaqHAk?si=MjZEz_TREL6DWtzX&t=7631
+
+
 ## Chrome step debugger
 
 https://developer.chrome.com/docs/devtools/javascript
