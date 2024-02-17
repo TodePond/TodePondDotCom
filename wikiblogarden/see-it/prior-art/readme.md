@@ -1,5 +1,39 @@
 # Prior art for See It
 
+## Hand-made contraptions
+
+https://www.youtube.com/watch?v=vo8izCKHiF0
+
+https://www.youtube.com/watch?v=E3keLeMwfHY
+
+<img width="1211" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/daaad350-3a1e-45a4-9597-f4c12bc9f249">
+
+<img width="1145" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9f424560-644b-48cb-93bc-2a94091bc85e">
+
+
+## Defragmenting
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/7c0687a8-9dcf-44df-a33f-e51bf5d898ac)
+
+
+## Visualizing the Java heap to detect memory problems
+
+https://www.researchgate.net/publication/221193019_Visualizing_the_Java_heap_to_detect_memory_problems
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/bae7076d-1a21-4baa-97f7-4a4e47391ba2)
+
+
+## Hard drive noises
+
+https://discord.com/channels/721409715602587698/1187501380999581757/1197975927003562136
+
+<img width="652" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9ebc42e2-785c-4ad9-9364-084f85fb4bb0">
+
+<img width="390" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/2cd75e54-e1ed-4048-90d9-e4e55b4e5169">
+
+<img width="657" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/0caaf68d-16b6-4a95-b865-8c535ae492d2">
+
+
 ## Self-hosted Dynamicland
 
 https://discord.com/channels/721409715602587698/1187501380999581757/1198052132402778273
