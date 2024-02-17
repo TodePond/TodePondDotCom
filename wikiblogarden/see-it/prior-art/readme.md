@@ -178,6 +178,8 @@ https://joshuahhh.com/projects/pane/
 
 ## This class that Joshua Horowitz was in
 
+https://discord.com/channels/721409715602587698/1187501380999581757/1199064849745981440
+
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5cef3fea-2348-44bd-a611-399799f193ea)
 
 ## Core war
