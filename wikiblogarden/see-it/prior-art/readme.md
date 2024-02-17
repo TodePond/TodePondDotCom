@@ -1,5 +1,86 @@
 # Prior art for See It
 
+## Chrome step debugger
+
+https://developer.chrome.com/docs/devtools/javascript
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a2fc2ed6-38af-4260-a19b-3686f09c3e7d)
+
+we can do better!
+
+^ this is a controversial opinion
+
+## Flowistry
+
+https://github.com/willcrichton/flowistry
+
+> In focus mode, Flowistry will automatically compute the information flow within a given function once you put your cursor there.
+
+<img width="858" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7f2bddc2-3132-4a4f-b60d-8d397160ceec">
+
+
+## Video scrubber
+
+<img width="302" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/afdae0e7-1909-4e8d-b6b3-577bc3196b31">
+
+## Replay
+
+https://www.replay.io/
+
+<img width="1219" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/81446e91-e20d-4926-8d06-0a7ba2c24a6c">
+
+## Seymour: Live Programming for the Classroom
+
+https://harc.github.io/seymour-live2017/
+
+<img width="758" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7a532f79-cf46-41ed-8216-de9ca7969a52">
+
+## Visualising Sorting Algorithms
+
+https://corte.si/posts/code/visualisingsorting/
+
+<img width="746" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9eb08639-5886-4665-b58a-abe0b40d590c">
+
+
+## Bubble Sort - An explorable explanation & introduction to algorithms
+
+http://glench.com/BubbleSort/
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/9cfb920d-ccc2-4f3a-9831-b18ba8a34e9d)
+
+## Sorting algorithm visualisations moodboard
+
+by Marcel Goethals
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/ad0bf1f4-a446-433a-9253-39fa1c3182f5)
+
+https://corte.si/posts/code/visualisingsorting/
+
+## tldraw
+
+https://www.tldraw.com/
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/43e4ae09-5f98-4686-99e0-46a0b9c4f538)
+
+
+## Visual overview of a custom malloc() implementation
+
+https://silent-tower.net/projects/visual-overview-malloc
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2b58aa41-564e-41f7-a323-13da2619b5d7)
+
+
+## Silly Seet
+
+https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1707432918721889
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/98429250-b4df-4fad-949b-25ad71d7f491)
+
+<img width="495" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/4d5ee892-ff0a-4304-a2f4-9328209823a3">
+
+<img width="494" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/e515dda9-1492-455b-ba67-4b5084107322">
+
+
 ## Hand-made contraptions
 
 https://www.youtube.com/watch?v=vo8izCKHiF0
