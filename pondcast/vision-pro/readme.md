@@ -36,6 +36,8 @@ What's new this week?
 
 ## Vision pro
 
+![vision pro](1.png)
+
 I made a stupid little video that parodies the Apple vision pro. Go [watch it](https://youtu.be/QRKnrFEjDF0)!
 
 Previously, I've posted any "bonus" content as unlisted videos. But this one felt polished enough to make public. It isn't a "main episode" though, so I didn't push it out to your subscriptions feed.
@@ -48,6 +50,8 @@ Speaking of Ivan Reese...
 
 ## Top 99 Ways To Make Sand
 
+![top 99 ways to make sand](2.png)
+
 The next video will be the finale of the [Sleeping Tode Trilogy] and tode will finally wake up. The finale will be called 🏆 **Top 99 Ways To Make Sand**.
 
 I've been doing LOADS of work on it. Let's get you up to speed.
@@ -56,7 +60,7 @@ I've been doing LOADS of work on it. Let's get you up to speed.
 
 A long time ago, I put down a stretch goal on my patreon. If I ever got to 99 patrons, I promised to make a video called Top 99 Ways To Make Sand. It would be a throwback to the [Top 9 Ways To Make Sand] video, which was the first one that got more than a handful of views.
 
-I honestly thought that it would take years to reach 99 patrons, but then [Dreamberd] went viral, and here we are.
+I honestly thought that it would take years to reach 99 patrons, but then [Dreamberd](https://github.com/TodePond/DreamBerd) went viral, and here we are.
 
 Either way, I meant it. I did some back-of-the-envelope maths to see how feasible it would be to make a video with 99 parts. Yeah! I can do it!
 
@@ -64,19 +68,21 @@ hahahahahahAaAaaaaaaaa....
 
 ## How many digits
 
+![how many digits](3.png)
+
 I usually plan a couple of videos ahead. I source music, make plans, buy props, etc...
 
-I was looking hard for some appropriate music for the Top 99 video, and I found some fitting ones from the [anjuna] labels. But then... my channel started being eligible for adverts.
+I was looking hard for some appropriate music for the Top 99 video, and I found some fitting ones from the [anjuna](https://anjunadeep.com/gb) labels. But then... my channel started being eligible for adverts.
 
 Anjuna have been very generous in allowing me to use their music for free. But this means that youtube gets to decide where to place adverts in my videos. I don't get to choose. And youtube loves to place adverts in the MIDDLE of my videos.
 
-I really don't want adverts in the middle of my videos, so I switched to the [monstercat] label for the [Arrows] video. They let me pay a [monthly fee] to control the ads placement. The only problem is the selection isn't as good as anjuna's.
+I really don't want adverts in the middle of my videos, so I switched to the [monstercat](https://www.monstercat.com/) label for the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video. They let me pay a [monthly fee](https://www.monstercat.com/gold) to control the ads placement. The only problem is the selection isn't as good as anjuna's.
 
 I couldn't find anything... What should I do?
 
 I found a good track! It was by an independent artist, so I contacted them to ask for permission. But... oh no... the track uses some samples they didn't get permission for... It's probably fine... but not with the risk...
 
-So I shot for the moon. Could I ask [Ivan Reese] to make some custom music for me?
+So I shot for the moon. Could I ask [Ivan Reese](https://ivanish.ca/) to make some custom music for me?
 
 "How many digits do I need to pay you?" I asked him.
 
