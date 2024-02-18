@@ -52,13 +52,13 @@ Speaking of Ivan Reese...
 
 ![top 99 ways to make sand](2.png)
 
-The next video will be the finale of the [Sleeping Tode Trilogy] and tode will finally wake up. The finale will be called 🏆 **Top 99 Ways To Make Sand**.
+The next video will be the finale of the [Sleeping Tode Trilogy](https://www.youtube.com/playlist?list=PL9uRa69RF-7wCDlX55WjK7-gEb9nb3UPm) and tode will finally wake up. The finale will be called 🏆 **Top 99 Ways To Make Sand**.
 
 I've been doing LOADS of work on it. Let's get you up to speed.
 
 <hr />
 
-A long time ago, I put down a stretch goal on my patreon. If I ever got to 99 patrons, I promised to make a video called Top 99 Ways To Make Sand. It would be a throwback to the [Top 9 Ways To Make Sand] video, which was the first one that got more than a handful of views.
+A long time ago, I put down a stretch goal on my patreon. If I ever got to 99 patrons, I promised to make a video called Top 99 Ways To Make Sand. It would be a throwback to the [Top 9 Ways To Make Sand](https://www.youtube.com/watch?v=BDyvjkAs5-Y) video, which was the first one that got more than a handful of views.
 
 I honestly thought that it would take years to reach 99 patrons, but then [Dreamberd](https://github.com/TodePond/DreamBerd) went viral, and here we are.
 
@@ -92,6 +92,6 @@ The answer surprised me. So I took out a mortgage four times my salary and now I
 
 **See you next week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 409_<br>
+_Days since bot went missing: 374_<br>
+_Days since berd flew away: 37_
