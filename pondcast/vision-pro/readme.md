@@ -88,6 +88,8 @@ So I shot for the moon. Could I ask [Ivan Reese](https://ivanish.ca/) to make so
 
 The answer surprised me. So I took out a mortgage four times my salary and now I owe the bank thousands of pounds a month. I face a lifetime of debt. But it's worth it, because Ivan has made me some amazing original music for the next video.
 
+<hr>
+
 **Thank you for supporting me with your contributions each month! It's helping me to pay off my six digit mortgage and stop my possessions getting repossessed. Be sure to share my patreon with everyone you know. If you're a zoomer, tell your mutuals that joining the Pond gives them rizz. If you're a millennial, tell your bezzies that my pondcast is literally epic. If you're a boomer then tell your network that my videos make you LOL 😂. If you're in generation alpha, then _look at dis funny froggy so cute_**.
 
 **See you next week.**
