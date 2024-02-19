@@ -24,7 +24,7 @@ I can't succeed if I get beaten by someone else.
 
 I used to worry that I'd miss my moment. What if someone does my idea, but sooner and better? What if they beat me to it?
 
-But now I know how it always goes.
+But now I know what happens.
 
 Someone might overtake me, but then they'll stop. They'll get tired, or bored, or start again, or move to something else. And then I'll plod on by.
 
