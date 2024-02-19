@@ -39,12 +39,21 @@ li {
 }
 
 a.secondary {
-  color: #4680ff;
+  color: #4699ff;
 }
 
 a.secondary:hover {
   color: black;
   background-color: #4680ff;
+}
+
+a.danger {
+  color: #ff4346;
+}
+
+a.danger:hover {
+  color: black;
+  background-color: #ff4346;
 }
 
 p.secondary {
