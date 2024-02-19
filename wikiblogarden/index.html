@@ -6,6 +6,12 @@
 ></script>
 <title>Todepond dot com</title>
 <link rel="shortcut icon" href="/favicon.png" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="Todepond dot com"
+  href="https://todepond.com/feed/index.xml"
+/>
 <meta property="og:image" content="/og.png" />
 <link rel="stylesheet" href="/style.css" />
 <style>
@@ -89,262 +95,278 @@
 
 <!-- <p id="new-loading" class="secondary">Loading...</p> -->
 
-
 <main>
+  <script type="module">
+    // const newLoading = document.querySelector("#new-loading");
+    const newSection = document.querySelector("#new-section");
 
-<script type="module">
-  // const newLoading = document.querySelector("#new-loading");
-  const newSection = document.querySelector("#new-section");
+    const getCurrentFeed = async () => {
+      const response = await fetch("/feed/index.xml");
+      const feed = await response.text();
+      const parser = new DOMParser();
+      const document = parser.parseFromString(feed, "application/xml");
+      return document;
+    };
 
-  const getCurrentFeed = async () => {
-    const response = await fetch("/feed/index.xml");
-    const feed = await response.text();
-    const parser = new DOMParser();
-    const document = parser.parseFromString(feed, "application/xml");
-    return document;
-  };
+    const parseItems = (document) => {
+      const items = document.querySelectorAll("item");
+      const parsedItems = Array.from(items).map((item) => {
+        const title = item.querySelector("title").textContent;
+        const link = item.querySelector("link").textContent;
+        const description = item.querySelector("description").textContent;
+        const pubDate = item.querySelector("pubDate").textContent;
+        return { title, link, description, pubDate };
+      });
+      return parsedItems;
+    };
 
-  const parseItems = (document) => {
-    const items = document.querySelectorAll("item");
-    const parsedItems = Array.from(items).map((item) => {
-      const title = item.querySelector("title").textContent;
-      const link = item.querySelector("link").textContent;
-      const description = item.querySelector("description").textContent;
-      const pubDate = item.querySelector("pubDate").textContent;
-      return { title, link, description, pubDate };
-    });
-    return parsedItems;
-  };
-
-  function normaliseUrl(url) {
-    url = url.toLowerCase();
-    url = url.replace("localhost:4507", "");
-    url = url.replace("todepond.com", "");
-    url = url.replace("https://", "");
-    url = url.replace("http://", "");
-    url = url.replace("www.", "");
-    if (url.length > 1 && url[url.length - 1] === "/") {
-      url = url.slice(0, -1);
-    }
-    return url;
-  }
-
-  function getCurrentUrlsOnPage() {
-    const urls = [];
-    for (const a of document.querySelectorAll("a")) {
-      const href = normaliseUrl(a.href);
-      urls.push(href);
-    }
-    return urls;
-  }
-
-  function renderItems(items) {
-    const currentUrls = getCurrentUrlsOnPage();
-    // newLoading.remove();
-    for (const item of items) {
-      const normalisedLink = normaliseUrl(item.link);
-      if (currentUrls.includes(normalisedLink)) {
-        continue;
+    function normaliseUrl(url) {
+      url = url.toLowerCase();
+      url = url.replace("localhost:4507", "");
+      url = url.replace("todepond.com", "");
+      url = url.replace("https://", "");
+      url = url.replace("http://", "");
+      url = url.replace("www.", "");
+      if (url.length > 1 && url[url.length - 1] === "/") {
+        url = url.slice(0, -1);
       }
-      const template = document.querySelector("#new-item-template");
-      const clone = template.content.cloneNode(true);
-      const a = clone.querySelector("a");
-      a.href = item.link;
-      a.textContent = item.title;
-      newSection.appendChild(clone);
+      return url;
     }
-  }
 
-  const parsedItems = parseItems(await getCurrentFeed());
-  renderItems(
-    parsedItems.sort((a, b) => {
-      const aDate = new Date(a.pubDate);
-      const bDate = new Date(b.pubDate);
-      return bDate - aDate;
-    })
-  );
-</script>
+    function getCurrentUrlsOnPage() {
+      const urls = [];
+      for (const a of document.querySelectorAll("a")) {
+        const href = normaliseUrl(a.href);
+        urls.push(href);
+      }
+      return urls;
+    }
 
-<h2 id="topics">Topics</h2>
+    function renderItems(items) {
+      const currentUrls = getCurrentUrlsOnPage();
+      // newLoading.remove();
+      for (const item of items) {
+        const normalisedLink = normaliseUrl(item.link);
+        if (currentUrls.includes(normalisedLink)) {
+          continue;
+        }
+        const template = document.querySelector("#new-item-template");
+        const clone = template.content.cloneNode(true);
+        const a = clone.querySelector("a");
+        a.href = item.link;
+        a.textContent = item.title;
+        newSection.appendChild(clone);
+      }
+    }
 
-<h3 id="primary-call-to-action">Primary call to action</h3>
+    const parsedItems = parseItems(await getCurrentFeed());
+    renderItems(
+      parsedItems.sort((a, b) => {
+        const aDate = new Date(a.pubDate);
+        const bDate = new Date(b.pubDate);
+        return bDate - aDate;
+      })
+    );
+  </script>
 
-<ul>
-  <li>None.</li>
-</ul>
+  <h2 id="topics">Topics</h2>
 
-<h3 id="things-i-learned-the-hard-way">Things I learned the hard way</h3>
+  <h3 id="primary-call-to-action">Primary call to action</h3>
 
-<ul>
-  <li>
-    <a href="/wikiblogarden/art/voice/finding/">Finding my voice</a>
-  </li>
-  <li><a href="/wikiblogarden/sayings/just-ask">You can just ask</a></li>
-  <li><a href="/wikiblogarden/sayings/trust">The easiest way to earn trust</a></li>
-  <li><a href="/wikiblogarden/art/never-stop-writing">Never stop writing</a></li>
-  <li><a href="/wikiblogarden/art/in-a-video/">Put it in a video</a></li>
-  <li><a href="/wikiblogarden/art/blog/">Why you should blog</a></li>
-  <li><a href="/wikiblogarden/social-media/feeds-i-like">I want your feed</a></li>
-  <li><a href="/wikiblogarden/my-name/vegetarian/">Why I am vegetarian</a></li>
-  <li>
-    <a href="/wikiblogarden/social-media/meme/force/">How to force a meme </a>
-  </li>
-  <li>
-    <a href="/wikiblogarden/social-media/write-less/">
-      My number one tip for posting viral tweets, toots, posts, etc
-    </a>
-  </li>
-</ul>
+  <ul>
+    <li>None.</li>
+  </ul>
 
-<h3>Boasting</h3>
-<ul>
-  <li><a href="/wikiblogarden/year/2023/roundup/">2023: Year of truth</a></li>
-  <li>
-    <a href="/wikiblogarden/research/er-in-residence/"
-      >I'm joining Ink + Switch</a
-    >
-  </li>
-</ul>
+  <h3 id="things-i-learned-the-hard-way">Things I learned the hard way</h3>
 
-<h3 id="trying-to-exist">Trying to exist</h3>
+  <ul>
+    <li>
+      <a href="/wikiblogarden/art/voice/finding/">Finding my voice</a>
+    </li>
+    <li><a href="/wikiblogarden/sayings/just-ask">You can just ask</a></li>
+    <li>
+      <a href="/wikiblogarden/sayings/trust">The easiest way to earn trust</a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/art/never-stop-writing">Never stop writing</a>
+    </li>
+    <li><a href="/wikiblogarden/art/in-a-video/">Put it in a video</a></li>
+    <li><a href="/wikiblogarden/art/blog/">Why you should blog</a></li>
+    <li>
+      <a href="/wikiblogarden/social-media/feeds-i-like">I want your feed</a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/my-name/vegetarian/">Why I am vegetarian</a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/meme/force/">How to force a meme </a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/write-less/">
+        My number one tip for posting viral tweets, toots, posts, etc
+      </a>
+    </li>
+  </ul>
 
-<ul>
-  <li><a href="/wikiblogarden/my-name">My name</a></li>
-  <li>
-    <a href="/wikiblogarden/health/transition/in-slow-motion/"
-      >Transition in slow motion</a
-    >
-  </li>
-  <li><a href="/wikiblogarden/genocide/sad-day">Today is a sad day</a></li>
-  <li><a href="/wikiblogarden/health/sulfasalazine">Sulfasalazine</a></li>
-  <li><a href="/wikiblogarden/work/how-i-get-money">How I get money</a></li>
-  <li><a href="/wikiblogarden/genocide/peace/christmas/">Peace</a></li>
-  <li>
-    <a href="/wikiblogarden/health/conversion-therapy/"
-      >My conversion therapy story</a
-    >
-  </li>
-  <li>
-    <a href="/wikiblogarden/genocide/peace/empathy"
-      >The world is better with empathy</a
-    >
-  </li>
-  <br />
-  <li>
-    <a href="/report/definitions-that-dont-matter"
-      >RIBBIT REPORT: Definitions that don’t matter</a
-    >
-  </li>
-  <li><a href="/wikiblogarden/health/loo-lu">LU LOO TALES</a></li>
-</ul>
+  <h3>Boasting</h3>
+  <ul>
+    <li><a href="/wikiblogarden/year/2023/roundup/">2023: Year of truth</a></li>
+    <li>
+      <a href="/wikiblogarden/research/er-in-residence/"
+        >I'm joining Ink + Switch</a
+      >
+    </li>
+  </ul>
 
-<h3 id="people-with-whom-which-i-have-interacted">
-  People with whom which I have interacted
-</h3>
+  <h3 id="trying-to-exist">Trying to exist</h3>
 
-<ul>
-  <li>
-    <a href="/wikiblogarden/london">Why I love the London coding scene</a>
-  </li>
-  <li><a href="/wikiblogarden/art/mysterious-people/">Mysterious people</a></li>
-  <li>
-    <a href="/wikiblogarden/london/dozing-claws/">Mind the dozing claws</a>
-  </li>
-  <li><a href="/wikiblogarden/work/thank-you-cards">Thank you cards</a></li>
-  <li><a href="/wikiblogarden/london/cafe">Regulars</a></li>
+  <ul>
+    <li><a href="/wikiblogarden/my-name">My name</a></li>
+    <li>
+      <a href="/wikiblogarden/health/transition/in-slow-motion/"
+        >Transition in slow motion</a
+      >
+    </li>
+    <li><a href="/wikiblogarden/genocide/sad-day">Today is a sad day</a></li>
+    <li><a href="/wikiblogarden/health/sulfasalazine">Sulfasalazine</a></li>
+    <li><a href="/wikiblogarden/work/how-i-get-money">How I get money</a></li>
+    <li><a href="/wikiblogarden/genocide/peace/christmas/">Peace</a></li>
+    <li>
+      <a href="/wikiblogarden/health/conversion-therapy/"
+        >My conversion therapy story</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/genocide/peace/empathy"
+        >The world is better with empathy</a
+      >
+    </li>
+    <br />
+    <li>
+      <a href="/report/definitions-that-dont-matter"
+        >RIBBIT REPORT: Definitions that don’t matter</a
+      >
+    </li>
+    <li><a href="/wikiblogarden/health/loo-lu">LU LOO TALES</a></li>
+  </ul>
 
-  <li>
-    <a href="/wikiblogarden/work/dear-spotify/"
-      >Dear spotify product manager
-    </a>
-  </li>
-</ul>
+  <h3 id="people-with-whom-which-i-have-interacted">
+    People with whom which I have interacted
+  </h3>
 
-<h3 id="evil-nerds">Evil nerds</h3>
+  <ul>
+    <li>
+      <a href="/wikiblogarden/london">Why I love the London coding scene</a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/art/mysterious-people/">Mysterious people</a>
+    </li>
+    <li>
+      <a href="/wikiblogarden/london/dozing-claws/">Mind the dozing claws</a>
+    </li>
+    <li><a href="/wikiblogarden/work/thank-you-cards">Thank you cards</a></li>
+    <li><a href="/wikiblogarden/london/cafe">Regulars</a></li>
 
-<ul>
-  <li><a href="/wikiblogarden/better-computing/just/">Just</a></li>
-  <li>
-    <a href="/wikiblogarden/better-computing/worse-computing/e-acc"
-      >e/acc towards what?</a
-    >
-  </li>
-  <li>
-    <a href="/wikiblogarden/social-media/hackernews"
-      >Hackernews is a vile website</a
-    >
+    <li>
+      <a href="/wikiblogarden/work/dear-spotify/"
+        >Dear spotify product manager
+      </a>
+    </li>
+  </ul>
+
+  <h3 id="evil-nerds">Evil nerds</h3>
+
+  <ul>
+    <li><a href="/wikiblogarden/better-computing/just/">Just</a></li>
+    <li>
+      <a href="/wikiblogarden/better-computing/worse-computing/e-acc"
+        >e/acc towards what?</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/hackernews"
+        >Hackernews is a vile website</a
+      >
+      <ul>
+        <li>
+          <a href="/wikiblogarden/social-media/hackernews/permission/"
+            >You have my explicit permission to post my stuff to hackernews</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/just-block-them">Just block them</a>
+    </li>
+    <li>
+      <a
+        href="/wikiblogarden/better-computing/worse-computing/artificial-intelligence/"
+        >What will artificial intelligence do to us?</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/better-computing/worse-computing/minification"
+        >Minification is evil</a
+      >
+    </li>
+  </ul>
+
+  <h3>Alex Dytrych</h3>
+  <ul>
+    <li>
+      <a href="/wikiblogarden/art/things-alex-wants-to-write-about/"
+        >Things Alex wants to write about</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/what-if/invite/draft/">What if computer club</a>
+    </li>
+    <li><a href="/wikiblogarden/art/burger-king/">Burger king</a></li>
+  </ul>
+
+  <h3 id="the-academia-bin">The academia bin</h3>
+
+  <ul>
+    <li><a href="/wikiblogarden/academia">Academia</a></li>
+  </ul>
+
+  <h2 id="projects">Projects</h2>
+
+  <h3 id="tadi-web">Tadi web</h3>
+
+  <ul>
+    <li><a href="/wikiblogarden/tadi-web">The tadi web</a></li>
+    <li><a href="https://tadiweb.com">Slippy mindset</a></li>
     <ul>
       <li>
-        <a href="/wikiblogarden/social-media/hackernews/permission/"
-          >You have my explicit permission to post my stuff to hackernews</a
+        <a href="/wikiblogarden/better-computing">Better computing</a>
+      </li>
+      <li>
+        <a href="/wikiblogarden/better-computing/better-computing/"
+          >Better better computing</a
         >
       </li>
     </ul>
-  </li>
-  <li>
-    <a href="/wikiblogarden/social-media/just-block-them">Just block them</a>
-  </li>
-  <li>
-    <a
-      href="/wikiblogarden/better-computing/worse-computing/artificial-intelligence/"
-      >What will artificial intelligence do to us?</a
-    >
-  </li>
-  <li>
-    <a href="/wikiblogarden/better-computing/worse-computing/minification"
-      >Minification is evil</a
-    >
-  </li>
-</ul>
+    <li><a href="/wikiblogarden/tadi-web/entry-points">Entry points</a></li>
 
-<h3>Alex Dytrych</h3>
-<ul>
-  <li>
-    <a href="/wikiblogarden/art/things-alex-wants-to-write-about/"
-      >Things Alex wants to write about</a
-    >
-  </li>
-  <li>
-    <a href="/wikiblogarden/what-if/invite/draft/">What if computer club</a>
-  </li>
-  <li><a href="/wikiblogarden/art/burger-king/">Burger king</a></li>
-</ul>
+    <ul>
+      <li><a href="/wikiblogarden/tadi-web/hello-world">Hello world</a></li>
+      <li>
+        <a href="/wikiblogarden/tadi-web/fame/facts/"
+          >World’s first full-stack tadi website</a
+        >
+      </li>
+    </ul>
 
-<h3 id="the-academia-bin">The academia bin</h3>
-
-<ul>
-  <li><a href="/wikiblogarden/academia">Academia</a></li>
-</ul>
-
-<h2 id="projects">Projects</h2>
-
-<h3 id="tadi-web">Tadi web</h3>
-
-<ul>
-  <li><a href="/wikiblogarden/tadi-web">The tadi web</a></li>
-  <li><a href="https://tadiweb.com">Slippy mindset</a></li>
-  <ul>
     <li>
-      <a href="/wikiblogarden/better-computing">Better computing</a>
+      <a href="/wikiblogarden/better-computing/compiling/"
+        >What is compiling?
+      </a>
     </li>
     <li>
-      <a href="/wikiblogarden/better-computing/better-computing/">Better better computing</a>
+      <a href="/wikiblogarden/tadi-web/graveyard">Graveyard</a>
     </li>
-  </ul>
-  <li><a href="/wikiblogarden/tadi-web/entry-points">Entry points</a></li>
 
-  <ul>
-    <li><a href="/wikiblogarden/tadi-web/hello-world">Hello world</a></li>
-    <li>
-      <a href="/wikiblogarden/tadi-web/fame/facts/">World’s first full-stack tadi website</a>
-    </li>
-  </ul>
-
-  <li>
-    <a href="/wikiblogarden/better-computing/compiling/">What is compiling? </a>
-  </li>
-  <li>
-    <a href="/wikiblogarden/tadi-web/graveyard">Graveyard</a>
     <li>
       <a href="/wikiblogarden/tadi-web/padi/">Padi image format</a>
     </li>
@@ -356,10 +378,16 @@
     </li>
     <ul>
       <li>
-        <a href="/wikiblogarden/better-computing/synchronising-data">Synchronising data</a>
+        <a href="/wikiblogarden/better-computing/synchronising-data"
+          >Synchronising data</a
+        >
       </li>
-      <li><a href="/wikiblogarden/tadi-web/cloud">Putting data in the cloud</a></li>
-      <li><a href="/wikiblogarden/tadi-web/cloud/sync">How to synchronise data</a></li>
+      <li>
+        <a href="/wikiblogarden/tadi-web/cloud">Putting data in the cloud</a>
+      </li>
+      <li>
+        <a href="/wikiblogarden/tadi-web/cloud/sync">How to synchronise data</a>
+      </li>
       <li>
         <a href="/wikiblogarden/better-computing/compiling/"
           >What is compiling?
@@ -376,187 +404,194 @@
         </a>
       </li>
     </ul>
-  </li>
+    <br />
+    <li>
+      <a href="/wikiblogarden/tadi-web/death-meme"
+        >DEATH OF THE TADI WEB: How to make a meme</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/tadi-web/death/worldwide"
+        >DEATH OF THE TADI WEB: Worldwide</a
+      >
+    </li>
+    <li>
+      <a href="/wikiblogarden/tadi-web/death/clean-start/"
+        >DEATH OF THE TADI WEB: A clean start for the web
+      </a>
+    </li>
+  </ul>
+
+  <h3 id="wikiblogarden">Wikiblogarden</h3>
+
+  <ul>
+    <li>
+      <a href="/wikiblogarden/my-wikiblogarden">My wikiblogarden</a>
+      <ul>
+        <li>
+          <a href="/wikiblogarden/my-wikiblogarden/demo">How I write my blog</a>
+        </li>
+        <li>
+          <a href="/wikiblogarden/my-wikiblogarden/posts/long/">Long posts</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/what-is-rss">What is RSS?</a>
+      <ul>
+        <li>
+          <a href="/wikiblogarden/social-media/what-is-rss/matt-webb-answered"
+            >Matt Webb answered all my questions</a
+          >
+        </li>
+        <li>
+          <a href="/wikiblogarden/social-media/what-is-rss/test">Test post</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/wikiblogarden/my-wikiblogarden/hosting"
+        >My wikiblogarden hosting</a
+      >
+      <ul>
+        <li>
+          <a href="/wikiblogarden/my-wikiblogarden/hosting/rubbish-options"
+            >Rubbish hosting options</a
+          >
+        </li>
+        <li>
+          <a href="/wikiblogarden/my-wikiblogarden/hosting/journey"
+            >My head to your head</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/wikiblogarden/social-media/analytics">Are analytics good?</a>
+      <ul>
+        <li>
+          <a href="/wikiblogarden/social-media/analytics/good-and-bad"
+            >Good and bad analytics</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3 id="cellpond">Cellpond</h3>
+
+  <ul>
+    <li>
+      <a href="/wikiblogarden/cellpond">Cellpond</a>
+      <ul>
+        <li>
+          <a href="/wikiblogarden/cellpond/is-not-robust"
+            >Cellpond is not robust</a
+          >
+        </li>
+        <li>
+          <a href="/wikiblogarden/cellpond/the-weirdest-thing"
+            >The weirdest thing about cellpond</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/wikiblogarden/cellpond/conservation-and-stamping"
+        >Conservation and stamping</a
+      >
+    </li>
+  </ul>
+
+  <h3 id="arroost">Arroost</h3>
+
+  <ul>
+    <li><a href="/wikiblogarden/arroost/examples/">Examples</a></li>
+    <li><a href="/wikiblogarden/arroost/hiatus/">Holiday hiatus</a></li>
+    <li>
+      <a href="/wikiblogarden/arroost/so-long/"
+        >Why the arrows video took so long</a
+      >
+    </li>
+  </ul>
+
   <br />
-  <li>
-    <a href="/wikiblogarden/tadi-web/death-meme">DEATH OF THE TADI WEB: How to make a meme</a>
-  </li>
-  <li>
-    <a href="/wikiblogarden/tadi-web/death/worldwide">DEATH OF THE TADI WEB: Worldwide</a>
-  </li>
-  <li>
-    <a href="/wikiblogarden/tadi-web/death/clean-start/"
-      >DEATH OF THE TADI WEB: A clean start for the web
-    </a>
-  </li>
-</ul>
 
-<h3 id="wikiblogarden">Wikiblogarden</h3>
+  <p>There’s more on <a href="/">todepond dot com</a>.</p>
 
-<ul>
-  <li>
-    <a href="/wikiblogarden/my-wikiblogarden">My wikiblogarden</a>
-    <ul>
-      <li>
-        <a href="/wikiblogarden/my-wikiblogarden/demo">How I write my blog</a>
-      </li>
-      <li>
-        <a href="/wikiblogarden/my-wikiblogarden/posts/long/">Long posts</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="/wikiblogarden/social-media/what-is-rss">What is RSS?</a>
-    <ul>
-      <li>
-        <a href="/wikiblogarden/social-media/what-is-rss/matt-webb-answered"
-          >Matt Webb answered all my questions</a
-        >
-      </li>
-      <li>
-        <a href="/wikiblogarden/social-media/what-is-rss/test"
-          >Test post</a
-        >
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="/wikiblogarden/my-wikiblogarden/hosting"
-      >My wikiblogarden hosting</a
-    >
-    <ul>
-      <li>
-        <a href="/wikiblogarden/my-wikiblogarden/hosting/rubbish-options"
-          >Rubbish hosting options</a
-        >
-      </li>
-      <li>
-        <a href="/wikiblogarden/my-wikiblogarden/hosting/journey"
-          >My head to your head</a
-        >
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="/wikiblogarden/social-media/analytics">Are analytics good?</a>
-    <ul>
-      <li>
-        <a href="/wikiblogarden/social-media/analytics/good-and-bad"
-          >Good and bad analytics</a
-        >
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="cellpond">Cellpond</h3>
-
-<ul>
-  <li>
-    <a href="/wikiblogarden/cellpond">Cellpond</a>
-    <ul>
-      <li>
-        <a href="/wikiblogarden/cellpond/is-not-robust"
-          >Cellpond is not robust</a
-        >
-      </li>
-      <li>
-        <a href="/wikiblogarden/cellpond/the-weirdest-thing"
-          >The weirdest thing about cellpond</a
-        >
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="/wikiblogarden/cellpond/conservation-and-stamping"
-      >Conservation and stamping</a
-    >
-  </li>
-</ul>
-
-<h3 id="arroost">Arroost</h3>
-
-<ul>
-  <li><a href="/wikiblogarden/arroost/examples/">Examples</a></li>
-  <li><a href="/wikiblogarden/arroost/hiatus/">Holiday hiatus</a></li>
-  <li>
-    <a href="/wikiblogarden/arroost/so-long/"
-      >Why the arrows video took so long</a
-    >
-  </li>
-</ul>
-
-<br />
-
-<p>There’s more on <a href="/">todepond dot com</a>.</p>
-
-<style>
-  canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -1;
-  }
-</style>
-<canvas></canvas>
-<script>
-  const canvas = document.querySelector("canvas");
-  const context = canvas.getContext("2d");
-
-  document.body.onresize = () => {
-    canvas.width = window.innerWidth * devicePixelRatio;
-    canvas.height = window.innerHeight * devicePixelRatio;
-  };
-
-  document.body.onresize();
-
-  const bubbles = [];
-
-  const draw = () => {
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    context.strokeStyle = "#374362";
-    context.lineWidth = 5;
-    for (const raindrop of bubbles) {
-      context.beginPath();
-      context.arc(raindrop.x, raindrop.y, raindrop.size, 0, Math.PI * 2, false);
-      context.stroke();
+  <style>
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
     }
-  };
+  </style>
+  <canvas></canvas>
+  <script>
+    const canvas = document.querySelector("canvas");
+    const context = canvas.getContext("2d");
 
-  const update = (delta) => {
-    if (Math.random() < delta * 0.5) {
-      const size = 50 + Math.random() * 50;
-      bubbles.push({
-        x: Math.random() * canvas.width,
-        y: canvas.height + size,
-        size,
-        speed: 50 + Math.random() * 50,
-      });
-    }
+    document.body.onresize = () => {
+      canvas.width = window.innerWidth * devicePixelRatio;
+      canvas.height = window.innerHeight * devicePixelRatio;
+    };
 
-    for (let i = 0; i < bubbles.length; i++) {
-      const bubble = bubbles[i];
-      bubble.y -= bubble.speed * delta;
-      if (bubble.y < -bubble.size) {
-        bubbles.splice(i, 1);
-        i--;
+    document.body.onresize();
+
+    const bubbles = [];
+
+    const draw = () => {
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      context.strokeStyle = "#374362";
+      context.lineWidth = 5;
+      for (const raindrop of bubbles) {
+        context.beginPath();
+        context.arc(
+          raindrop.x,
+          raindrop.y,
+          raindrop.size,
+          0,
+          Math.PI * 2,
+          false
+        );
+        context.stroke();
       }
-    }
-  };
+    };
 
-  let lastTime = 0;
-  const loop = (time) => {
-    const delta = (time - lastTime) / 1000;
-    lastTime = time;
-    update(delta);
-    draw();
-    requestAnimationFrame(loop);
-  };
+    const update = (delta) => {
+      if (Math.random() < delta * 0.5) {
+        const size = 50 + Math.random() * 50;
+        bubbles.push({
+          x: Math.random() * canvas.width,
+          y: canvas.height + size,
+          size,
+          speed: 50 + Math.random() * 50,
+        });
+      }
 
-  loop();
-</script>
+      for (let i = 0; i < bubbles.length; i++) {
+        const bubble = bubbles[i];
+        bubble.y -= bubble.speed * delta;
+        if (bubble.y < -bubble.size) {
+          bubbles.splice(i, 1);
+          i--;
+        }
+      }
+    };
 
+    let lastTime = 0;
+    const loop = (time) => {
+      const delta = (time - lastTime) / 1000;
+      lastTime = time;
+      update(delta);
+      draw();
+      requestAnimationFrame(loop);
+    };
+
+    loop();
+  </script>
 </main>
