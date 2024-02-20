@@ -50,7 +50,7 @@ Well you can't have it both ways. You can't decouple one without decoupling the 
 
 <br>
 
-Part two coming soon™️.
+To be continued.
 
 <br>
 
