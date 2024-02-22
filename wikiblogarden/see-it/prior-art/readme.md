@@ -1,5 +1,7 @@
 # Prior art for See It
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/940eb193-5247-4ac1-85b2-f5b00de5e83b)
+
 ## Cellpond
 
 "i can See It"
@@ -8,12 +10,19 @@
 
 https://www.youtube.com/live/cBYudbaqHAk?si=MjZEz_TREL6DWtzX&t=7631
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/ba2dc722-076c-435e-b555-e9779c7251e5)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/1252b93d-7334-4b79-85a9-fd561e7c7a53)
+
 
 ## Chrome step debugger
 
 https://developer.chrome.com/docs/devtools/javascript
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a2fc2ed6-38af-4260-a19b-3686f09c3e7d)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/b9f0f00a-851e-452b-a6a2-6509e5195940)
+
 
 we can do better!
 
@@ -38,17 +47,25 @@ https://www.replay.io/
 
 <img width="1219" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/81446e91-e20d-4926-8d06-0a7ba2c24a6c">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/55c7a141-d152-466d-bdd3-d479c9b48179)
+
+
 ## Seymour: Live Programming for the Classroom
 
 https://harc.github.io/seymour-live2017/
 
 <img width="758" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7a532f79-cf46-41ed-8216-de9ca7969a52">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/310fda6f-73ef-45e9-bf84-a9eac1bbd114)
+
+
 ## Visualising Sorting Algorithms
 
 https://corte.si/posts/code/visualisingsorting/
 
 <img width="746" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9eb08639-5886-4665-b58a-abe0b40d590c">
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/e950c24e-e68d-4edd-9d8c-524aa3b8f0d6)
 
 
 ## Bubble Sort - An explorable explanation & introduction to algorithms
@@ -57,11 +74,17 @@ http://glench.com/BubbleSort/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/9cfb920d-ccc2-4f3a-9831-b18ba8a34e9d)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/dabc5759-5fac-4fd3-ae9a-63463ef857b2)
+
+
 ## Sorting algorithm visualisations moodboard
 
 by Marcel Goethals
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/ad0bf1f4-a446-433a-9253-39fa1c3182f5)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/eabdedc6-9d23-4e0c-96a2-0e394ba774f0)
+
 
 https://corte.si/posts/code/visualisingsorting/
 
@@ -71,12 +94,17 @@ https://www.tldraw.com/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/43e4ae09-5f98-4686-99e0-46a0b9c4f538)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a06f8bc1-d96e-4864-8da5-47abbd5127c1)
+
+
 
 ## Visual overview of a custom malloc() implementation
 
 https://silent-tower.net/projects/visual-overview-malloc
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2b58aa41-564e-41f7-a323-13da2619b5d7)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c249d0f6-fb64-47c6-9215-6f3865c70154)
 
 
 ## Silly Seet
@@ -89,6 +117,12 @@ https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1707432918721889
 
 <img width="494" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/e515dda9-1492-455b-ba67-4b5084107322">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/180620b3-0338-4bde-a8c4-dc24f0e62922)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/9bdfebaa-5c5d-4933-ac2b-bf3ecb41ae38)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c1d53ebc-462b-45c8-89e7-48bef5a05fc5)
+
 
 ## Hand-made contraptions
 
@@ -100,17 +134,28 @@ https://www.youtube.com/watch?v=E3keLeMwfHY
 
 <img width="1145" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/9f424560-644b-48cb-93bc-2a94091bc85e">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/106fbc75-3a0e-4d25-8608-2c5add1ff1da)
+
 
 ## Defragmenting
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/7c0687a8-9dcf-44df-a33f-e51bf5d898ac)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a433f1e1-1158-4407-af7f-437b51965e5f)
+
+
 
 ## Visualizing the Java heap to detect memory problems
+
+> The default display has the tree rooted at the left to
+growing toward the right, as shown in Figure 1. This
+figure shows the memory usage of a multi-body simulation program using Barnes-Hut. Each block in the diagram contains information as detailed in Figure 2. Vertical size is used to represent the amount of memory owned by the class. The children of a node are displayed to its right starting at the top, and are ordered from top to bottom by the amount of memory they own. This make it easy for the user to see where memory is being used in the application and to follow the ownership relation for a particular class. Moreover, each class has a gap on the right at the bottom of its display that represents the storage used just for theobjects of that class. For simple classes like String, this shows the overhead inherent in the String object as opposed to its char array contents. Next, we color the nodes based on the fraction of memory that the objects of that class actually occupy disregarding ownership. Here we use a scale that goes from green to red where red represents the class with the largest local memory usage. We also vary the intensity of the color of a node based on the fraction of the memory that it represents. This means that nodes that are replicated due to the conversion from a graph to a tree are shown in a lighter shade, with the actual shade being dependent on the amount of duplication
 
 https://www.researchgate.net/publication/221193019_Visualizing_the_Java_heap_to_detect_memory_problems
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/bae7076d-1a21-4baa-97f7-4a4e47391ba2)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0e2df4db-30e8-4c65-a10b-2a6caa789b19)
 
 
 ## Hard drive noises
@@ -130,12 +175,16 @@ https://discord.com/channels/721409715602587698/1187501380999581757/119805213240
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/d3a60a5f-7246-44af-ae71-27c4b55bfaf5)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c74cc126-bc51-412b-8055-7dbb616f78c3)
+
 
 ## Playable Quotes for Game Boy Games
 
 https://www.youtube.com/watch?v=z9JYOZWLMlo
 
 <img width="798" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/cf5c91b4-8eb5-48dd-9303-a9c79bfe9a24">
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/614d22d2-b2dd-4428-a196-e03ec9b9dfd3)
 
 
 ## Observable
@@ -144,11 +193,16 @@ https://observablehq.com/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0713aced-057d-432a-bb98-63091da69255)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/9a16e4a3-a47c-44a2-966b-c121320c7626)
+
+
 ## Lambdu
 
 https://www.lamdu.org/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/4f812501-7f78-430c-8394-ebe07fb5816f)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f91dc651-1e6d-43b9-8080-0e647e6a5eec)
 
 
 ## Flowsheets
@@ -156,6 +210,9 @@ https://www.lamdu.org/
 https://www.youtube.com/watch?v=y1Ca5czOY7Q
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/7d47b8de-39c7-4f54-99bf-b851bf6b6255)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2f5a4aa0-5998-412d-a9e2-48cf8615d875)
+
 
 ## Tangible Functional Programming
 
