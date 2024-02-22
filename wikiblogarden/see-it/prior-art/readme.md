@@ -1,6 +1,6 @@
 # Prior art for See It
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/fb9955bc-a241-404c-b301-7a3d3e8cbcea)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/6f4898b4-7a13-4a53-8f9c-621d21ae3981)
 
 ## Cellpond
 
@@ -56,7 +56,7 @@ https://harc.github.io/seymour-live2017/
 
 <img width="758" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7a532f79-cf46-41ed-8216-de9ca7969a52">
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/310fda6f-73ef-45e9-bf84-a9eac1bbd114)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0cf0e3f0-299e-4824-97d9-f2e03ce94ddf)
 
 
 ## Visualising Sorting Algorithms
@@ -280,7 +280,7 @@ https://twitter.com/kipperrii/status/1750317027057893697
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/3d861518-156d-46b1-95cc-01709dff0d95)
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2c815b51-e716-4a66-a6fe-97af4a301553)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a677c496-6926-49b1-bc62-2ab6f812ce0a)
 
 
 ## Untitles Comic Book Coding Environment
