@@ -236,6 +236,8 @@ https://web.media.mit.edu/~lieber/Lieberary/ZStep/ZStep-SoftViz/ZStep-SoftViz.ht
 
 https://samwho.dev/memory-allocation/
 
+<img width="771" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/bd3d2aeb-06e9-4f91-a375-6399215a29e2">
+
 <img width="773" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/e6ac5118-2150-47a2-b244-bc2187ac6943">
 
 ## Binary interactive explorable exploration
