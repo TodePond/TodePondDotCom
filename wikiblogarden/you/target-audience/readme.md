@@ -6,7 +6,7 @@ When I'm doing this, I'm speaking directly to my target audience!
 
 ## My target audience
 
-The only person in my target audience is myself from ten years ago. When I talk in second person, I'm speaking to my younger self.
+The only person in my target audience is myself. When I talk in second person, I'm speaking to my younger self.
 
 I don't know how common this approach is. When I listen to a song, and I hear the word "you", I usually imagine the singer singing to someone they know, a lover, a friend, an enemy, a family member, and certainly not themselves. But maybe they are? I don't know.
 
