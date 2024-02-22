@@ -232,5 +232,14 @@ https://web.media.mit.edu/~lieber/Lieberary/ZStep/ZStep-SoftViz/ZStep-SoftViz.ht
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/6f4ab59b-875b-4439-92cb-8db458fb1775)
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/62c8c6c9-4d31-4b4f-8c50-2843b7565cf7)
 
+## Memory Allocation
 
+https://samwho.dev/memory-allocation/
 
+<img width="773" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/e6ac5118-2150-47a2-b244-bc2187ac6943">
+
+## Binary interactive explorable exploration
+
+https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1708448999666629
+
+<img width="538" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/bceac2f9-3176-4ead-b7fd-40da3b4eaf49">
