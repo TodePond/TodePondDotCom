@@ -233,11 +233,17 @@ https://joshuahhh.com/projects/pane/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/1014cb00-73af-4819-9880-0996a4a3c513)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a9980516-6e1f-4e0f-957e-19eeb3d9d2cb)
+
+
 ## This class that Joshua Horowitz was in
 
 https://discord.com/channels/721409715602587698/1187501380999581757/1199064849745981440
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5cef3fea-2348-44bd-a611-399799f193ea)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/411f430d-2e32-454e-801c-eb80393cf918)
+
 
 ## Core war
 
@@ -247,6 +253,8 @@ https://en.wikipedia.org/wiki/Core_War
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/8c1d19d0-fa5b-4c9a-a511-1b98b689d5c1)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/18127750-ee0d-45bf-861d-499bae7ca5a6)
+
 
 ## Python Tutor
 
@@ -254,17 +262,26 @@ https://pythontutor.com/
 
 <img width="784" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/a9bac17d-65a2-4611-9424-9f56d7de9cc1">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5fbee4d3-7396-40ed-8d39-04a09ffcc15c)
+
+
 ## Bluefish
 
 https://bluefishjs.org/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/87a2d669-36ab-44e8-b1e7-e67a844ef51a)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a000a502-d680-4e35-aa52-ccc4e4deb14f)
+
+
 ## ML debugging example
 
 https://twitter.com/kipperrii/status/1750317027057893697
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/3d861518-156d-46b1-95cc-01709dff0d95)
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2c815b51-e716-4a66-a6fe-97af4a301553)
+
 
 ## Untitles Comic Book Coding Environment
 
@@ -274,6 +291,9 @@ https://elk.zone/mas.to/@wolkenmachine@mastodon.social/111795681494646518
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5ca1bd41-f421-4ba3-8733-21aa578597d0)
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c150a2b1-929f-47ee-974d-3bc4c774c4d3)
+
+
 ## Inventing on Principle
 
 Bret Victor
@@ -281,6 +301,9 @@ Bret Victor
 https://vimeo.com/906418692
 
 <img width="740" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/fae58da3-c86b-4ca1-9da0-5c737852ad50">
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f4ac6e45-716e-4324-9d4e-08758f54e085)
+
 
 ## ZStep 95
 
@@ -297,8 +320,14 @@ https://samwho.dev/memory-allocation/
 
 <img width="773" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/e6ac5118-2150-47a2-b244-bc2187ac6943">
 
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/1df66976-1161-496e-abbf-16b51de258de)
+
+
 ## Binary interactive explorable exploration
 
 https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1708448999666629
 
 <img width="538" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/bceac2f9-3176-4ead-b7fd-40da3b4eaf49">
+
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f5abf355-0aa3-4f08-88bf-35b2c5dc6d85)
+
