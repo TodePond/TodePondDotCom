@@ -283,7 +283,7 @@ https://twitter.com/kipperrii/status/1750317027057893697
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a677c496-6926-49b1-bc62-2ab6f812ce0a)
 
 
-## Untitles Comic Book Coding Environment
+## Untitled Comic Book Coding Environment
 
 Marcel Goethals
 
@@ -302,7 +302,7 @@ https://vimeo.com/906418692
 
 <img width="740" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/fae58da3-c86b-4ca1-9da0-5c737852ad50">
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f4ac6e45-716e-4324-9d4e-08758f54e085)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/e5919581-6734-4b3a-b6ee-804c00b2d76e)
 
 
 ## ZStep 95
