@@ -1,6 +1,6 @@
 # Prior art for See It
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/940eb193-5247-4ac1-85b2-f5b00de5e83b)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/fb9955bc-a241-404c-b301-7a3d3e8cbcea)
 
 ## Cellpond
 
