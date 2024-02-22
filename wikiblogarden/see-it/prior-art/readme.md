@@ -202,7 +202,7 @@ https://www.lamdu.org/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/4f812501-7f78-430c-8394-ebe07fb5816f)
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f91dc651-1e6d-43b9-8080-0e647e6a5eec)
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2fa06560-128c-47f0-9145-c87e4498c6b5)
 
 
 ## Flowsheets
