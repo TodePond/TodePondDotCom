@@ -51,4 +51,4 @@ Anyway, I should stop yapping away. Hopefully you now know what my website is ab
 
 <hr>
 
-Continued in [my wikiblogarden hosting](./hosting)...
+Continue to the [wikiblogarden](/wikiblogarden).
