@@ -38,6 +38,8 @@ What's new this week?
 
 ## Part one: Final shot
 
+![99](1.png)
+
 [Last week](https://www.todepond.com/pondcast/vision-pro/), I told you that [Ivan Reese](https://ivanish.ca/) agreed to make the music for my next video, Top 99 Ways To Make Sand.
 
 I needed to give him some information about the video, so that he'd know what sort of thing to make. I spoiled the ending of the [Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY) video for him. Then I spoiled the ending of the Top 99 video too. And I told him about the general themes and messages and feelings of them.
@@ -47,6 +49,8 @@ I blocked out the structure of the video. And I made a storyboard of the entire 
 And then he made some music.
 
 ## Part two: Animatic
+
+![episode 39](2.png)
 
 I took Ivan's music, and I placed it onto the video timeline. I transferred my storyboard to it too. And I marked out the whole thing, all the different parts of the video, and timed them to the music.
 
@@ -59,6 +63,8 @@ But the transitions between sections weren't smooth enough. The video stopped. T
 So I restructured the video so that each track of music _overlaps_ and blends between sections. Track 1 goes through Section 1 and Section 2. Track 2 goes through Section 2 and Section 3.
 
 ## Part three: Dreamberd interpreter
+
+![things made with dreamberd](3.png)
 
 I have a silly little joke language called [Dreamberd](https://github.com/TodePond/DreamBerd). It's not a real language. It's made up.
 
