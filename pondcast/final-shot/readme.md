@@ -70,6 +70,6 @@ A highschool student called [Vivaan Singhvi](https://vivaansinghvi07.github.io/)
 
 Goodbye.
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 417_<br>
+_Days since bot went missing: 382_<br>
+_Days since berd flew away: 45_
