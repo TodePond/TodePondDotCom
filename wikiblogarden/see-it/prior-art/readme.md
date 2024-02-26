@@ -14,7 +14,6 @@ https://www.youtube.com/live/cBYudbaqHAk?si=MjZEz_TREL6DWtzX&t=7631
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/1252b93d-7334-4b79-85a9-fd561e7c7a53)
 
-
 ## Chrome step debugger
 
 https://developer.chrome.com/docs/devtools/javascript
@@ -22,7 +21,6 @@ https://developer.chrome.com/docs/devtools/javascript
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a2fc2ed6-38af-4260-a19b-3686f09c3e7d)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/b9f0f00a-851e-452b-a6a2-6509e5195940)
-
 
 we can do better!
 
@@ -36,7 +34,6 @@ https://github.com/willcrichton/flowistry
 
 <img width="858" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7f2bddc2-3132-4a4f-b60d-8d397160ceec">
 
-
 ## Video scrubber
 
 <img width="302" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/afdae0e7-1909-4e8d-b6b3-577bc3196b31">
@@ -49,7 +46,6 @@ https://www.replay.io/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/55c7a141-d152-466d-bdd3-d479c9b48179)
 
-
 ## Seymour: Live Programming for the Classroom
 
 https://harc.github.io/seymour-live2017/
@@ -57,7 +53,6 @@ https://harc.github.io/seymour-live2017/
 <img width="758" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/7a532f79-cf46-41ed-8216-de9ca7969a52">
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0cf0e3f0-299e-4824-97d9-f2e03ce94ddf)
-
 
 ## Visualising Sorting Algorithms
 
@@ -67,7 +62,6 @@ https://corte.si/posts/code/visualisingsorting/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/e950c24e-e68d-4edd-9d8c-524aa3b8f0d6)
 
-
 ## Bubble Sort - An explorable explanation & introduction to algorithms
 
 http://glench.com/BubbleSort/
@@ -76,7 +70,6 @@ http://glench.com/BubbleSort/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/dabc5759-5fac-4fd3-ae9a-63463ef857b2)
 
-
 ## Sorting algorithm visualisations moodboard
 
 by Marcel Goethals
@@ -84,7 +77,6 @@ by Marcel Goethals
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/ad0bf1f4-a446-433a-9253-39fa1c3182f5)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/eabdedc6-9d23-4e0c-96a2-0e394ba774f0)
-
 
 https://corte.si/posts/code/visualisingsorting/
 
@@ -96,8 +88,6 @@ https://www.tldraw.com/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a06f8bc1-d96e-4864-8da5-47abbd5127c1)
 
-
-
 ## Visual overview of a custom malloc() implementation
 
 https://silent-tower.net/projects/visual-overview-malloc
@@ -105,7 +95,6 @@ https://silent-tower.net/projects/visual-overview-malloc
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2b58aa41-564e-41f7-a323-13da2619b5d7)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c249d0f6-fb64-47c6-9215-6f3865c70154)
-
 
 ## Silly Seet
 
@@ -123,7 +112,6 @@ https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1707432918721889
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c1d53ebc-462b-45c8-89e7-48bef5a05fc5)
 
-
 ## Hand-made contraptions
 
 https://www.youtube.com/watch?v=vo8izCKHiF0
@@ -136,27 +124,23 @@ https://www.youtube.com/watch?v=E3keLeMwfHY
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/106fbc75-3a0e-4d25-8608-2c5add1ff1da)
 
-
 ## Defragmenting
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/7c0687a8-9dcf-44df-a33f-e51bf5d898ac)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a433f1e1-1158-4407-af7f-437b51965e5f)
 
-
-
 ## Visualizing the Java heap to detect memory problems
 
 > The default display has the tree rooted at the left to
-growing toward the right, as shown in Figure 1. This
-figure shows the memory usage of a multi-body simulation program using Barnes-Hut. Each block in the diagram contains information as detailed in Figure 2. Vertical size is used to represent the amount of memory owned by the class. The children of a node are displayed to its right starting at the top, and are ordered from top to bottom by the amount of memory they own. This make it easy for the user to see where memory is being used in the application and to follow the ownership relation for a particular class. Moreover, each class has a gap on the right at the bottom of its display that represents the storage used just for theobjects of that class. For simple classes like String, this shows the overhead inherent in the String object as opposed to its char array contents. Next, we color the nodes based on the fraction of memory that the objects of that class actually occupy disregarding ownership. Here we use a scale that goes from green to red where red represents the class with the largest local memory usage. We also vary the intensity of the color of a node based on the fraction of the memory that it represents. This means that nodes that are replicated due to the conversion from a graph to a tree are shown in a lighter shade, with the actual shade being dependent on the amount of duplication
+> growing toward the right, as shown in Figure 1. This
+> figure shows the memory usage of a multi-body simulation program using Barnes-Hut. Each block in the diagram contains information as detailed in Figure 2. Vertical size is used to represent the amount of memory owned by the class. The children of a node are displayed to its right starting at the top, and are ordered from top to bottom by the amount of memory they own. This make it easy for the user to see where memory is being used in the application and to follow the ownership relation for a particular class. Moreover, each class has a gap on the right at the bottom of its display that represents the storage used just for theobjects of that class. For simple classes like String, this shows the overhead inherent in the String object as opposed to its char array contents. Next, we color the nodes based on the fraction of memory that the objects of that class actually occupy disregarding ownership. Here we use a scale that goes from green to red where red represents the class with the largest local memory usage. We also vary the intensity of the color of a node based on the fraction of the memory that it represents. This means that nodes that are replicated due to the conversion from a graph to a tree are shown in a lighter shade, with the actual shade being dependent on the amount of duplication
 
 https://www.researchgate.net/publication/221193019_Visualizing_the_Java_heap_to_detect_memory_problems
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/bae7076d-1a21-4baa-97f7-4a4e47391ba2)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0e2df4db-30e8-4c65-a10b-2a6caa789b19)
-
 
 ## Hard drive noises
 
@@ -168,7 +152,6 @@ https://discord.com/channels/721409715602587698/1187501380999581757/119797592700
 
 <img width="657" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/0caaf68d-16b6-4a95-b865-8c535ae492d2">
 
-
 ## Self-hosted Dynamicland
 
 https://discord.com/channels/721409715602587698/1187501380999581757/1198052132402778273
@@ -176,7 +159,6 @@ https://discord.com/channels/721409715602587698/1187501380999581757/119805213240
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/d3a60a5f-7246-44af-ae71-27c4b55bfaf5)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c74cc126-bc51-412b-8055-7dbb616f78c3)
-
 
 ## Playable Quotes for Game Boy Games
 
@@ -186,7 +168,6 @@ https://www.youtube.com/watch?v=z9JYOZWLMlo
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/614d22d2-b2dd-4428-a196-e03ec9b9dfd3)
 
-
 ## Observable
 
 https://observablehq.com/
@@ -194,7 +175,6 @@ https://observablehq.com/
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/0713aced-057d-432a-bb98-63091da69255)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/9a16e4a3-a47c-44a2-966b-c121320c7626)
-
 
 ## Lambdu
 
@@ -204,7 +184,6 @@ https://www.lamdu.org/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2fa06560-128c-47f0-9145-c87e4498c6b5)
 
-
 ## Flowsheets
 
 https://www.youtube.com/watch?v=y1Ca5czOY7Q
@@ -213,13 +192,11 @@ https://www.youtube.com/watch?v=y1Ca5czOY7Q
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/2f5a4aa0-5998-412d-a9e2-48cf8615d875)
 
-
 ## Tangible Functional Programming
 
 http://conal.net/papers/Eros/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/570692db-bb2d-41d2-90fa-d0cef5537f78)
-
 
 ## Subtext
 
@@ -235,7 +212,6 @@ https://joshuahhh.com/projects/pane/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a9980516-6e1f-4e0f-957e-19eeb3d9d2cb)
 
-
 ## This class that Joshua Horowitz was in
 
 https://discord.com/channels/721409715602587698/1187501380999581757/1199064849745981440
@@ -243,7 +219,6 @@ https://discord.com/channels/721409715602587698/1187501380999581757/119906484974
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5cef3fea-2348-44bd-a611-399799f193ea)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/411f430d-2e32-454e-801c-eb80393cf918)
-
 
 ## Core war
 
@@ -255,7 +230,6 @@ https://en.wikipedia.org/wiki/Core_War
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/18127750-ee0d-45bf-861d-499bae7ca5a6)
 
-
 ## Python Tutor
 
 https://pythontutor.com/
@@ -263,7 +237,6 @@ https://pythontutor.com/
 <img width="784" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/a9bac17d-65a2-4611-9424-9f56d7de9cc1">
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/5fbee4d3-7396-40ed-8d39-04a09ffcc15c)
-
 
 ## Bluefish
 
@@ -273,7 +246,6 @@ https://bluefishjs.org/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a000a502-d680-4e35-aa52-ccc4e4deb14f)
 
-
 ## ML debugging example
 
 https://twitter.com/kipperrii/status/1750317027057893697
@@ -281,7 +253,6 @@ https://twitter.com/kipperrii/status/1750317027057893697
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/3d861518-156d-46b1-95cc-01709dff0d95)
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/a677c496-6926-49b1-bc62-2ab6f812ce0a)
-
 
 ## Untitled Comic Book Coding Environment
 
@@ -293,7 +264,6 @@ https://elk.zone/mas.to/@wolkenmachine@mastodon.social/111795681494646518
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/c150a2b1-929f-47ee-974d-3bc4c774c4d3)
 
-
 ## Inventing on Principle
 
 Bret Victor
@@ -303,7 +273,6 @@ https://vimeo.com/906418692
 <img width="740" alt="image" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/fae58da3-c86b-4ca1-9da0-5c737852ad50">
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/e5919581-6734-4b3a-b6ee-804c00b2d76e)
-
 
 ## ZStep 95
 
@@ -322,7 +291,6 @@ https://samwho.dev/memory-allocation/
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/1df66976-1161-496e-abbf-16b51de258de)
 
-
 ## Binary interactive explorable exploration
 
 https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1708448999666629
@@ -331,3 +299,6 @@ https://futureofcoding.slack.com/archives/C03RR0W5DGC/p1708448999666629
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/f5abf355-0aa3-4f08-88bf-35b2c5dc6d85)
 
+<br>
+
+Back to the [wikiblogarden](/wikiblogarden).
