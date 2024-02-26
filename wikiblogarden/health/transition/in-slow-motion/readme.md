@@ -63,7 +63,7 @@ I want to counteract all of the 'instant-switchers' out there.
 >
 > - [Devine](https://xxiivv.com/)
 
-Embrace the gradient. Transition in slow-motion. Be a [scrappy fiddle](/wikiblogarden/arroost/normalise-sharing-scrappy-fiddles/)!
+Embrace the gradient. Transition in slow-motion. Be a [scrappy fiddle](https://youtu.be/DNBKdU6XrLY).
 
 <br>
 
