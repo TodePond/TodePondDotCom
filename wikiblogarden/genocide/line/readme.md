@@ -4,7 +4,7 @@
 
 They think that everything that happens has happened before, and will happen again, at least in some form. They think that our world has a habit of repeating itself. They think that we're cursed with eternal repetition.
 
-But they're wrong.
+But...
 
 ## Can you see it?
 
