@@ -18,17 +18,17 @@ Can you see it? Can you visualise the timeline?
 
 On the far left it's the start of the universe. On the far right it's the present day.
 
-The entire timeline represents the age of the universe.
+The full timeline represents the age of the universe.
 
 One third of the timeline represents the age of planet earth.
 
 One hundredth of the timeline represents the time between the rise and fall of the dinosaurs.
 
-What about humans? The entirety of human existence can be fit onto a section that's zero point zero zero two percent of the whole timeline. 
+And the entirety of human existence can fit into a section that's zero point zero zero two percent of the whole timeline. 
 
 As a species, the dinosaurs lasted over 500 times more than we have so far.
 
-Your entire life, assuming you live to 100 years old, represents 0.0000007% of the line.
+Your entire life, assuming you live to 100 years old, fills up 0.0000007% of the line.
 
 ## Time is a line
 
