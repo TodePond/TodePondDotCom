@@ -6,7 +6,7 @@ They think that everything that happens has happened before, and will happen aga
 
 But they're wrong.
 
-## Time is a line
+## Can you see it?
 
 Once upon a time, our universe started. Then nine billion years happened.
 
@@ -30,11 +30,9 @@ As a species, the dinosaurs lasted over 500 times more than we have so far.
 
 Your entire life, assuming you live to 100 years old, represents 0.0000007% of the line.
 
-## Time
+## Time is a line
 
 We're not cursed with eternal repetition because we're cursed with a start and end.
-
-<img width="508" alt="shapes at 24-02-27 13 30 45" src="https://github.com/TodePond/TodePondDotCom/assets/15892272/6518987c-8874-4c0b-b483-4680075fd597">
 
 <br>
 
