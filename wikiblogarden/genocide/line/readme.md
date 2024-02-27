@@ -2,7 +2,7 @@
 
 *Some people* out there have been saying that time is a circle, a flat circle.
 
-They think that everything that happens has happened before, and will happen again, at least in some form. They think that our world has a habit of repeating itself. They think that we're cursed with eternal repetition.
+They think that everything that happens has happened before, and will happen again, at least in some form. They think that our world has a habit of repeating itself. They think that we're "cursed with eternal repetition".
 
 But...
 
