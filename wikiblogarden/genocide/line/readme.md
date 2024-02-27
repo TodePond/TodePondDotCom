@@ -21,7 +21,7 @@ On the far left it's the start of the universe. On the far right it's the presen
 - One hundredth of the timeline represents the time between the rise and fall of the dinosaurs.
 - And the entirety of human existence can fit into a section that's zero point zero zero two percent of the whole timeline. 
 
-> As a species, the dinosaurs lasted over 500 times more than we have so far.
+As a species, the dinosaurs lasted over 500 times more than we have so far.
 
 Your entire life, assuming you live to 100 years old, fills up 0.0000007% of the line.
 
