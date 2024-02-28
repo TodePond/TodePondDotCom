@@ -8,7 +8,7 @@ When I made [this video](https://youtu.be/rlO993Jbqpo), I was just starting to d
 
 ## 🦠 Cells in Cells in Cells
 
-What's the point of [this video]? I don't know.
+What's the point of [this video](https://youtu.be/gv40Z9tVjAI)? I don't know.
 
 ## *Stupid little jokes*
 
