@@ -16,6 +16,10 @@ When I [first started](https://youtu.be/zLP4ZwudAKs), I found it very embarrassi
 
 When it came to editing, I found these *stupid little jokes* even more embarrassing, so I added extra cuts, titles, and effects to them, to try to make them less weird, and to try to make fun of myself. I don't think it helped.
 
+## ⛰️ SandPond Saga
+
+When I [first put my face on camera](https://youtu.be/nER7-DVLEjA), I found it very embarrassing. Editing the video was tough. It didn't help that I was wearing a stupid outfit in a public place.
+
 ## Shows
 
 I sometimes think back to certain shows that I performed in. Mainly the ones that went really badly. Sometimes it was my fault. Sometimes I was tangled up in someone else's mess.
