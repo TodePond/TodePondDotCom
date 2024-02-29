@@ -45,6 +45,8 @@ This is what I think.
 I think that AI is "good" as in it's "quite capable".<br>
 But I think it's "bad" as in it "harmful" because it has lots of unsolved issues that don't look like they'll ever get fixed. Like stealing copyrighted material, mass unemployment, exaggeration of biases, and danger from use in tasks it isn't ready for.  
 
+You might agree with me. You might disagree. But at least you know what I mean.
+
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/90a4ee5a-af18-4f43-85db-24f95ca4f2f5)
 
 ## You
