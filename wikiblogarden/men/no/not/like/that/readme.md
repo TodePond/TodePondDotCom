@@ -1,6 +1,6 @@
 # No not like that
 
-A recurring pattern in my online interactions.
+A recurring pattern in my online interaction.
 
 ## Dear Lu
 
