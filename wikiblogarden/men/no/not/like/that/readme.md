@@ -4,7 +4,7 @@ A recurring pattern in my online interaction.
 
 ## Dear Lu
 
-I enjoyed watching your talk at _____ and I was wondering about how you went about building and designing ________ because I'm keen to do a similar thing myself.
+I enjoyed watching your talk at \_\_\_\_\_ and I was wondering about how you went about building and designing \_\_\_\_\_\_\_\_ because I'm keen to do a similar thing myself.
 
 > Oh sure, the approach I took was to ________ and focus on ______ as much as possible and that seemed to work ok in this case.
 
