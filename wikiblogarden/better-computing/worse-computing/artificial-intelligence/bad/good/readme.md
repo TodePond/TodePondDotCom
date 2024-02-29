@@ -1,6 +1,6 @@
 # AI is bad/good actually
 
-I used different titles on different platforms for maximum engagement.
+I used different titles in different places for more engagement.
 
 ## Ai is bad/good
 
@@ -12,7 +12,7 @@ You've probably heard lots of people out there saying "AI is bad" or "AI is good
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/3d7f7ffc-7a4e-489c-bda4-b84432b18f7a)
 
-But what do they actually mean by that? I find it very confusing because some people mean "AI is bad, as in it's bad at doing things" and some people mean "AI is bad, as in it's bad for the world". These are two very different ideas, and I find it hard to keep up.
+But what do they mean? I find it very confusing because some people mean "AI is bad, as in it's bad at doing things" and some people mean "AI is bad, as in it's bad for the world". These are two very different ideas, and I find it hard to keep up.
 
 ![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/b604c2b2-9e40-423d-b5ec-406169c1278f)
 
@@ -34,6 +34,8 @@ And find out what people really mean.
 
 I suppose I should give this thing a name. I call it... the.... um...
 
+<br>
+
 Actually I don't care.
 
 ## Me
@@ -52,6 +54,12 @@ What about you?
 <br>
 
 Back to the [wikiblog-](/wikiblogarden)
+
+<br>
+
+<br>
+
+<br>
 
 > Uhhhhhhhhhhhh ackshully sorry to interrupt but it seems like you're referring to LLMs when you say AI and AI is ackshully a much bigg-
 
