@@ -42,16 +42,17 @@ Actually I don't care.
 
 This is what I think.
 
-I think that AI is "good" as in it's "quite capable".<br>
+![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/90a4ee5a-af18-4f43-85db-24f95ca4f2f5)
+
+I think that AI is "good" as in it's "quite capable".
+
 But I think it's "bad" as in it "harmful" because it has lots of unsolved issues that don't look like they'll ever get fixed. Like stealing copyrighted material, mass unemployment, exaggeration of biases, and danger from use in tasks it isn't ready for.  
 
 You might agree with me. You might disagree. But at least you know what I mean.
 
-![image](https://github.com/TodePond/TodePondDotCom/assets/15892272/90a4ee5a-af18-4f43-85db-24f95ca4f2f5)
-
 ## You
 
-What about you?
+What about you? What do you think?
 
 <br>
 
@@ -64,5 +65,3 @@ Back to the [wikiblog-](/wikiblogarden)
 <br>
 
 > Uhhhhhhhhhhhh ackshully sorry to interrupt but it seems like you're referring to LLMs when you say AI and AI is ackshully a much bigg-
-
-Read the context of the room nerd!
