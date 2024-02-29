@@ -28,7 +28,7 @@ No that can't be right, I'm sure it's just \_\_\_\_. Good for you anyway.
 
 ## Dear Lu
 
-I've been reading your \_\_\_\_\_\_\_\_\_ lately and it was \_\_\_\_\_\_\_\_\_\_\_ and I \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ that I think you should do. Basically you need to \_\_\_\_\_\_\_\_\_\_\_\_\_\_. What do you think?
+I've been reading your \_\_\_\_\_\_\_\_\_ lately and it was \_\_\_\_\_\_\_\_\_\_\_ and I \_\_\_\_\_\_\_\_\_\_\_\_ that I think you should do. Basically you need to \_\_\_\_\_\_\_\_. What do you think?
 
 > Oo err well the thing is I'm actually very \_\_\_\_\_\_\_\_\_ about what I \_\_\_\_\_\_\_\_\_ so the main thing I think about is \_\_\_\_\_\_\_\_ and making sure I \_\_\_\_\_\_\_\_\_ because that seems to make it \_\_\_\_\_\_\_. When I done do that, it seems to \_\_\_\_\_\_\_\_\_. Maybe a \_\_\_\_\_\_\_ would be \_\_\_\_\_\_.
 
