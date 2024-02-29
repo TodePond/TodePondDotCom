@@ -30,19 +30,18 @@ No that can't be right, I'm sure it's just \_\_\_\_. Good for you anyway.
 
 I've been reading your \_\_\_\_\_\_\_\_\_ lately and it was \_\_\_\_\_\_\_\_\_\_\_ and I \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ that I think you should do. Basically you need to \_\_\_\_\_\_\_\_\_\_\_\_\_\_. What do you think?
 
-> Oo err well the thing is I'm actually very \_\_\_\_\_\_\_\_\_ about what I _________ so the main thing I think about is ________ and making sure I _________ because that seems to make it _______. When I done do that, it seems to _________. Maybe a _______ would be ______.
+> Oo err well the thing is I'm actually very \_\_\_\_\_\_\_\_\_ about what I \_\_\_\_\_\_\_\_\_ so the main thing I think about is \_\_\_\_\_\_\_\_ and making sure I \_\_\_\_\_\_\_\_\_ because that seems to make it \_\_\_\_\_\_\_. When I done do that, it seems to \_\_\_\_\_\_\_\_\_. Maybe a \_\_\_\_\_\_\_ would be \_\_\_\_\_\_.
 
-No that would be _________. Nevermind.
+No that would be \_\_\_\_\_\_\_\_\_. Nevermind.
 
 ## Dear Lu
 
-I've been thinking about your ________ and how you're ___________ and I ________ myself so how would you approach ____________ in your opinion.
+I've been thinking about your \_\_\_\_\_\_\_\_ and how you're \_\_\_\_\_\_\_\_\_\_\_ and I \_\_\_\_\_\_\_\_ myself so how would you approach \_\_\_\_\_\_\_\_\_\_\_\_ in your opinion.
 
-> Oh let me think, maybe I'd __________ and _________ so that I can __________ and __________ and yeah that sounds quite fun actually.
+> Oh let me think, maybe I'd \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_ so that I can \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_ and yeah that sounds quite fun actually.
 
 No not like that.
 
 <br>
 
-Back to the [wikibloga
-rden](/wikiblogarden).
+Back to the [wikiblogarden](/wikiblogarden).
