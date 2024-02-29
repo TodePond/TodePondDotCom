@@ -14,7 +14,7 @@ Ok well I appreciate your unique perspective however that's not quite what I had
 
 I _____ your new project _______ and it had a ________ effect on me that I didn't quite fully understand or expect. How did you _____ such a _________ thing?
 
-## Oh uhh I guess that I ignored the usual _______ approach that's typically followed in  ________ and instead I prioritised _________ instead.
+> Oh uhh I guess that I ignored the usual _______ approach that's typically followed in  ________ and instead I prioritised _________ instead.
 
 That's very admirable of you but that can't be right. Also you said "instead" twice. Thank you and good day.
 
