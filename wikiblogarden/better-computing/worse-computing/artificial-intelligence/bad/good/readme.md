@@ -64,4 +64,4 @@ Back to the [wikiblog-](/wikiblogarden)
 
 <br>
 
-> Uhhhhhhhhhhhh ackshully [sorry to interrupt](https://youtu.be/Q4OIcwt8vcE) but it seems like you're referring to LLMs when you say AI and AI is ackshully a much bigg-
+> Uhhhhhhhhhhhh ackshully [sorry to interrupt](https://youtu.be/ZMklf0vUl18) but it seems like you're referring to LLMs when you say AI and AI is ackshully a much bigg-
