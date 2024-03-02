@@ -620,5 +620,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/</guid>
   			<description>Pick whichever one outrages you more </description>
   		</item>
+		<item>
+  			<title>No more esoteric posts</title>
+  			<pubDate>Sat, 02 Mar 2024 06:54:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/esoteric/no-more</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/esoteric/no-more</guid>
+  			<description>I've decided to stop writing esoteric posts.</description>
+  		</item>
   </channel>
 </rss>
