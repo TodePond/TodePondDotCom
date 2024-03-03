@@ -32,7 +32,7 @@ Why would you want to be academic anyway? What's the point?
 
 Well..........
 
-Jonathan Edwards recently wrote a [blog post](https://alarmingdevelopment.org/?p=1708) (not a a paper) (a blog post) (not a paper) encouraging researchers to publish a paper (not a blog post) (a paper) (not a blog post).
+Jonathan Edwards recently wrote a [blog post](https://alarmingdevelopment.org/?p=1708) (not a a paper) (a blog post) (not a paper) encouraging researchers to publish a paper (not a blog post) (a paper) (not a blog post) to Onward!.
 
 In the blog post (not a paper) (a blog post) (not a paper) he tells researchers that "publishing a paper" (not a blog a post) (a paper) (not a blog post) "is the only proven way to engage with other researchers over the long term."
 
