@@ -1,6 +1,6 @@
 # Academia from the outside
 
-What do we do with academia? Here's my view from the *outside*.
+What should we do with academia? Here's my view from the *outside*.
 
 ## Put it in the bin
 
