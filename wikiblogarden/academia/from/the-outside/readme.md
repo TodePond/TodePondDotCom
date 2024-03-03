@@ -24,7 +24,7 @@ So maybe we should try to find a halfway house.
 
 They're still very long and slow and considered. But I dunno.
 
-Hey reader, what do you think? Do you think this academ-ish approach is good? Yes or no? And why? Let me know RIGHT NOW.
+Hey reader, what do you think? Do you think this academ-ish approach is good? Yes or no? And why? Let me know RIGHT NOW. But first,
 
 ## Why academia
 
