@@ -44,7 +44,7 @@ No but really. I do appreciate the blog post (blog post). Jonathan Edwards puts 
 
 His blog post (not his paper) successfully encouraged me to submit paper(s) to various things to Onward!.
 
-*Ironically, this disproves his point by demonstrating the influential power that blog posts has on fellow researchers (not papers) (blog posts) (not papers).*
+*Ironically, this disproves his point by demonstrating the influential power that blog posts can have on fellow researchers (not papers) (blog posts) (not papers).*
 
 <br>
 
