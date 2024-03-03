@@ -42,7 +42,7 @@ The thing is, I would have found it more convincing if he'd written it as a pape
 
 No but really. I do appreciate the blog post (blog post). Jonathan Edwards puts out a message of encouragement and inclusivity, which is immensely valuable. And I have a soft spot for Jonathan because he said [nice things](https://x.com/jonathoda/status/1719165351039270978?s=20) about me [twice](https://x.com/jonathoda/status/1762195359789392068?s=20).
 
-This blog post has successfully encouraged me to submit paper(s) to various things at SPLASH. 
+His blog post (not his paper) successfully encouraged me to submit paper(s) to various things to Onward!.
 
 *Ironically, this disproves his point by demonstrating the influential power that blog posts has on fellow researchers (not papers) (blog posts) (not papers).*
 
