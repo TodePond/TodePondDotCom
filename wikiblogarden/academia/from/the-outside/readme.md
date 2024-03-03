@@ -18,7 +18,7 @@ Some people reading this will be thinking "What's so bad about that?" which is..
 
 ## Academ-ish
 
-So maybe you try to find a halfway house.
+So maybe we should try to find a halfway house.
 
 [Ink & Switch](https://inkandswitch.com) speaks with an 'academ-ish' voice. Its 'papers' aren't actually papers. They have too much branding and too much character. I like them a lot!
 
