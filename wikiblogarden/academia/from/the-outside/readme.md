@@ -14,7 +14,7 @@ Take all of your academia. And put it in the [bin](/wikiblogarden/academia/).
 
 Ok I'm just kidding. But you can understand why though? It's a white-straight-male-dominated world obsessed with intellectualism. The whole 'paper process' aims to sap out all the fun and feeling, devoiding your work of any emotion. "All we need is rational thought and reason" making no room for emotion and empathy. No wonder it's so cold.
 
-Some people reading this will be thinking "What's so bad about that?" which is... uhhh... hahaa nevermind
+Some people reading this will be thinking "What's so bad about that?" which is... uh nevermind
 
 ## Academ-ish
 
