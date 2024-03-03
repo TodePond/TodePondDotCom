@@ -24,7 +24,7 @@ So maybe we should try to find a halfway house.
 
 They're still very long and slow and considered. But I dunno.
 
-Hey reader, what do you think? Do you think this academ-ish approach is good? Yes or no? And why? Let me know RIGHT NOW. But first,
+Hey reader, what do you think? Do you think this academ-ish approach is good? Yes or no? And why? Let me know. But first,
 
 ## Why academia
 
@@ -32,7 +32,7 @@ Why would you want to be academic anyway? What's the point?
 
 Well..........
 
-Jonathan Edwards recently wrote a [blog post](https://alarmingdevelopment.org/?p=1708) (not a a paper) (a blog post) (not a paper) encouraging researchers to publish a paper (not a blog post) (a paper) (not a blog post) to Onward!.
+Jonathan Edwards recently wrote a [blog post](https://alarmingdevelopment.org/?p=1708) (not a paper) (a blog post) (not a paper) encouraging researchers to publish a paper (not a blog post) (a paper) (not a blog post) to Onward!.
 
 In the blog post (not a paper) (a blog post) (not a paper) he tells researchers that "publishing a paper" (not a blog post) (a paper) (not a blog post) "is the only proven way to engage with other researchers over the long term."
 
