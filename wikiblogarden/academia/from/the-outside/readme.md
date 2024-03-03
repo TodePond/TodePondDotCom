@@ -34,23 +34,23 @@ Well..........
 
 Jonathan Edwards recently wrote a [blog post](https://alarmingdevelopment.org/?p=1708) (not a a paper) (a blog post) (not a paper) encouraging researchers to publish a paper (not a blog post) (a paper) (not a blog post) to Onward!.
 
-In the blog post (not a paper) (a blog post) (not a paper) he tells researchers that "publishing a paper" (not a blog a post) (a paper) (not a blog post) "is the only proven way to engage with other researchers over the long term."
+In the blog post (not a paper) (a blog post) (not a paper) he tells researchers that "publishing a paper" (not a blog post) (a paper) (not a blog post) "is the only proven way to engage with other researchers over the long term."
 
 The thing is, I would have found it more convincing if he'd written it as a paper (not a blog post) (a paper) (not a blog post).
 
 ## Good intentions
 
-No but really. I do appreciate the blog post (blog post). Jonathan Edwards puts out a message of encouragement and inclusivity, which is immensely valuable. And I have a soft spot for Jonathan because he said [nice things](https://x.com/jonathoda/status/1719165351039270978?s=20) about me [twice](https://x.com/jonathoda/status/1762195359789392068?s=20).
+No but really. I do appreciate the blog post (blog post) (not paper). Jonathan Edwards puts out a message of encouragement and inclusivity, which is immensely valuable. And I have a soft spot for Jonathan because he said [nice things](https://x.com/jonathoda/status/1719165351039270978?s=20) about me [twice](https://x.com/jonathoda/status/1762195359789392068?s=20).
 
-His blog post (not his paper) successfully encouraged me to submit paper(s) to various things to Onward!.
+His blog post (not his paper) (his blog post) has successfully encouraged me to submit paper(s) (not blog posts) to Onward!.
 
-*Ironically, this disproves his point by demonstrating the influential power that blog posts can have on fellow researchers (not papers) (blog posts) (not papers).*
+*Ironically, this disproves his point by demonstrating the influential power that blog posts (not papers) can have on fellow researchers (not papers) (blog posts) (not papers).*
 
 <br>
 
 **Only blog posts (not papers) express the mundane humour, the comedic rigour, the surrealist heart, of humanity.**
 
-Papers don't stand a chance.
+Papers (not blog posts) don't stand a chance.
 
 <br>
 
