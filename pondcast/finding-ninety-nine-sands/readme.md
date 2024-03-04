@@ -38,6 +38,8 @@ What's new this week?
 
 ## Top 100
 
+![chart of sands](1.png)
+
 "Top 100" is a popular video format on youtube.
 
 - [Top 100 Ways To Walk](https://www.youtube.com/watch?v=HEoUhlesN9E)
@@ -50,6 +52,8 @@ I love this kind of video. There's something so satisfying about a long list. It
 
 ## Nine
 
+![frogs](2.png)
+
 Top 100 videos often start out strong. Every number of the countdown brings something fresh and unique. They stand on their own two feet. Each entry is a new idea!
 
 But as the video goes on, the ideas can start to get weaker. As you run out of ideas, you end up re-using some multiple times, and they start to lose their impact.
@@ -61,6 +65,8 @@ And hey, this is what happened! I made a [Top 10 Sands](https://www.youtube.com/
 So I decided to cut one sand out! And the video became [Top 9 Sands](https://www.youtube.com/watch?v=BDyvjkAs5-Y) and here we are over three years later, and the number Nine has become a recurring in-joke in the [Sandpond Saga](https://www.youtube.com/playlist?list=PL9uRa69RF-7ySCA9p13KOvzWjOOrxe46o).
 
 ## Top 99
+
+![sands](3.png)
 
 This week, I've been working on the next video, Top 99 Ways To Make Sand. And I have a rule!
 
