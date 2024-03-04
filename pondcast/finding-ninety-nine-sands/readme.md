@@ -28,8 +28,6 @@
   <source src="1.m4a" type="audio/x-m4a">
 </audio>
 
-# TODEPOND PONDCAST: Finding ninety nine sands
-
 Welcome one, welcome all. To another weekly episode of the...
 
 🐸 TODEPOND PONDCAST 🐸
