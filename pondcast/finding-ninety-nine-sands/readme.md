@@ -79,10 +79,16 @@ I've got a lot of unique sands. Now I'm putting them in order.
 
 **There's a method to the madness! Thank you for supporting me with it all. I can't thank you enough. I really mean that!**
 
+<br>
+
+Appearances this week:
+
 - [Future of coding: Beyond efficiency](https://futureofcoding.org/episodes/070)
 - [Scaling devtools: Show the whole process](https://www.youtube.com/watch?v=yVAGf1zVde8)
 - [AI is bad/good actually](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/)
 - [Put academia in the bin](https://www.todepond.com/wikiblogarden/academia/from/the-outside/)
+
+<br>
 
 _Days since tode fell asleep: 424_<br>
 _Days since bot went missing: 389_<br>
