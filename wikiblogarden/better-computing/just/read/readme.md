@@ -48,4 +48,10 @@ Keep scrolling to test your subtext reading skills. What do you think the subtex
 
 ## AI is bad/good actually
 
+No hard feelings :)
+
 ![Screenshot_20240305-074403](https://github.com/TodePond/TodePondDotCom/assets/15892272/ee54e591-3300-4a58-b9bd-926f425e87c6)
+
+## Academia from the outside
+
+Ok so the thing with jokes is that you say what you *don't* think
