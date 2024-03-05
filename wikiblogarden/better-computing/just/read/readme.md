@@ -18,8 +18,9 @@ However, many people didn't read the whole post, or they couldn't see the subtex
 
 It wasn't 'anti command line'. It was 'anti unempathetic tech bro'.
 
-I'm starting a new theory that *all the best blog posts prove thems
-elves*.
+I'm starting a new theory that *all the best blog posts don't need proof because they prove themselves*.
+
+Keep scrolling to test your subtext reading skills. What do you think the subtext is here?
 
 ![Screenshot_20240305-071317](https://github.com/TodePond/TodePondDotCom/assets/15892272/bdf3db85-6fb7-4cde-a087-81e95b422585)
 
@@ -32,3 +33,7 @@ elves*.
 ![Screenshot_20240305-070332](https://github.com/TodePond/TodePondDotCom/assets/15892272/5b0f6f61-4925-4146-8a57-0d4b63f97991)
 ![Screenshot_20240305-070112](https://github.com/TodePond/TodePondDotCom/assets/15892272/dd2904ab-c214-4327-906f-bfb6f8991957)
 ![Screenshot_20240305-070737](https://github.com/TodePond/TodePondDotCom/assets/15892272/84a96eda-1b39-4c0b-9a07-74113712a8e1)
+![Screenshot_20240305-071028](https://github.com/TodePond/TodePondDotCom/assets/15892272/ce2fbda3-e0e0-4ef4-b341-6362a168aa7c)
+![Screenshot_20240305-070943](https://github.com/TodePond/TodePondDotCom/assets/15892272/6f6be05c-d5a6-469f-a33a-cfea4d51100b)
+![Screenshot_20240305-070415](https://github.com/TodePond/TodePondDotCom/assets/15892272/7576c88d-a9df-4312-b8b3-2ec161461ef3)
+![Screenshot_20240305-071151](https://github.com/TodePond/TodePondDotCom/assets/15892272/758052e9-f983-4d85-995a-535888a08843)
