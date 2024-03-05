@@ -4,19 +4,19 @@ You didn't read the article did you.
 
 ## Just
 
-I wrote about how [everything's a trade-off](/wikiblogarden/better-computing/just/). Saying "just use the command line" is as bad as saying "just use github desktop". There's nothing "just" about it. There are trade-offs to each.
+I recently wrote about how [everything's a trade-off](/wikiblogarden/better-computing/just/). Saying "just use the command line" is as bad as saying "just use github desktop". There's nothing "just" about it. There are trade-offs to each.
 
 And I think we should be empathetic towards people who are navigating their way through these trade-offs. It's not "team terminal" versus "team user interface". It's *just* "team trying to get this done".
 
-That being said, it feels imbalanced. Command line enthusiasts are much more sensitive and emotional, because they're mainly [men](/wikiblogarden/men). This is why I used the command line as my provocative opening to the article.
+That being said, it feels imbalanced. Command line enthusiasts are much more sensitive and emotional, because they're mainly [men](/wikiblogarden/men). This is why I used the command line as my provocative opening in the article.
 
 ## Just read the subtext
 
-However, many people didn't read the whole post, or they couldn't see the subtext. They thought that the article was "anti command line".
+Many people didn't read the whole article, or they couldn't see the subtext. They thought that the article was "anti command line".
 
 It wasn't "anti command line". It was something else.
 
-Keep scrolling to test your subtext reading skills. What do you think the subtext is here?
+Keep scrolling to test your subtext reading skills. What do you think the subtext is here? What do these responses reveal?
 
 ![Screenshot_20240305-071317](https://github.com/TodePond/TodePondDotCom/assets/15892272/bdf3db85-6fb7-4cde-a087-81e95b422585)
 
@@ -48,10 +48,15 @@ Keep scrolling to test your subtext reading skills. What do you think the subtex
 
 ## AI is bad/good actually
 
-No hard feelings :)
-
 ![Screenshot_20240305-074403](https://github.com/TodePond/TodePondDotCom/assets/15892272/ee54e591-3300-4a58-b9bd-926f425e87c6)
 
 ## Academia from the outside
 
-Ok so the thing with jokes is that you say what you *don't* think
+Hey this one's going on right now! Couple questions for you:
+
+- What do you think the [article](/wikiblogarden/academia/from/the-outside/) is saying?
+- But what do you think it's *really* saying?
+- Do you think that commenters have read the whole article? Or just the opening joke?
+- What's the subtext around the whole situation? What are people revealing with their responses?
+
+Back to the [wikiblarden](/wikiblogarden).
