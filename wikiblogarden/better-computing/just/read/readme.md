@@ -4,7 +4,7 @@ You didn't read the article did you.
 
 ## Just
 
-I recently wrote about how [everything's a trade-off](/wikiblogarden/better-computing/just/). Saying "just use the command line" is as bad as saying "just use github desktop". There's nothing "just" about it. There are trade-offs to each.
+I recently wrote about how [everything's a trade-off](/wikiblogarden/better-computing/just/). Saying "just use the command line" is as bad as saying "just use the user interface". There's nothing "just" about it. There are trade-offs to each.
 
 And I think we should be empathetic towards people who are navigating their way through these trade-offs. It's not "team terminal" versus "team user interface". It's *just* "team trying to get this done".
 
