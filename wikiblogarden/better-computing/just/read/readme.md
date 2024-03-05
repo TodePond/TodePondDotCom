@@ -1,6 +1,6 @@
 # Just read the article
 
-You don't bloody read do you.
+You didn't read the article did you.
 
 ## Just
 
@@ -10,15 +10,11 @@ And I think we should be empathetic towards people who are navigating their way 
 
 That being said, it feels imbalanced. Command line enthusiasts are much more sensitive and emotional, because they're mainly [men](/wikiblogarden/men). This is why I used the command line as the provocative opening to the article.
 
-It seems to have worked! It triggered a lot of discussion.
-
 ## Just read the subtext
 
-However, many people didn't read the whole post, or they couldn't see the subtext. They thought that the article was 'anti command line'.
+However, many people didn't read the whole post, or they couldn't see the subtext. They thought that the article was "anti command line".
 
-It wasn't 'anti command line'. It was 'anti unempathetic tech bro'.
-
-I'm starting a new theory that *all the best blog posts don't need proof because they prove themselves*.
+It wasn't "anti command line". It was something else.
 
 Keep scrolling to test your subtext reading skills. What do you think the subtext is here?
 
@@ -49,3 +45,7 @@ Keep scrolling to test your subtext reading skills. What do you think the subtex
 ![Screenshot_20240305-071219](https://github.com/TodePond/TodePondDotCom/assets/15892272/03bf7f66-b0e4-4cb4-826d-b450ea3e8c44)
 
 ![Screenshot_20240305-071113](https://github.com/TodePond/TodePondDotCom/assets/15892272/92504bbe-5c58-4085-9adc-ab247b9cc1aa)
+
+## AI is bad/good actually
+
+![Screenshot_20240305-074403](https://github.com/TodePond/TodePondDotCom/assets/15892272/ee54e591-3300-4a58-b9bd-926f425e87c6)
