@@ -8,7 +8,7 @@ I recently wrote about how [everything's a trade-off](/wikiblogarden/better-comp
 
 And I think we should be empathetic towards people who are navigating their way through these trade-offs. It's not "team terminal" versus "team user interface". It's *just* "team trying to get this done".
 
-That being said, it feels imbalanced. Command line enthusiasts are much more sensitive and emotional, because they're mainly [men](/wikiblogarden/men). This is why I used the command line as the provocative opening in the article.
+That being said, it feels imbalanced. Command line enthusiasts are much more sensitive and emotional, because they're mainly [men](/wikiblogarden/men). This is why I used the command line as the provocative opening to the article.
 
 ## Just read the subtext
 
