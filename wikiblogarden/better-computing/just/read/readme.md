@@ -16,7 +16,7 @@ Many people didn't read the whole article, or they couldn't see the subtext. The
 
 It wasn't "anti command line". It was something else.
 
-Keep scrolling to test your subtext reading skills. What do you think the subtext is here? What do these responses reveal?
+Keep scrolling to test your subtext reading skills. What do you think the subtext is here? What do these responses reveal? What picture does it paint of tech's online culture?
 
 ![Screenshot_20240305-071317](https://github.com/TodePond/TodePondDotCom/assets/15892272/bdf3db85-6fb7-4cde-a087-81e95b422585)
 
