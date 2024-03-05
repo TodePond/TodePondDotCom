@@ -59,4 +59,7 @@ Hey this one's going on right now! Couple questions for you:
 - Do you think that commenters have read the whole article? Or just the opening joke?
 - What's the subtext around the whole situation? What are people revealing with their responses?
 
+![Screenshot_20240305-081727](https://github.com/TodePond/TodePondDotCom/assets/15892272/96e1c61a-4c2b-46e7-a8a1-d4c7f0a2fe04)
+
+
 Back to the [wikiblarden](/wikiblogarden).
