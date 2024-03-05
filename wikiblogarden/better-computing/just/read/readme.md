@@ -31,9 +31,21 @@ Keep scrolling to test your subtext reading skills. What do you think the subtex
 ![Screenshot_20240305-070600](https://github.com/TodePond/TodePondDotCom/assets/15892272/9851948b-4340-4dda-b2d8-b6b3d434feb1)
 
 ![Screenshot_20240305-070332](https://github.com/TodePond/TodePondDotCom/assets/15892272/5b0f6f61-4925-4146-8a57-0d4b63f97991)
+
 ![Screenshot_20240305-070112](https://github.com/TodePond/TodePondDotCom/assets/15892272/dd2904ab-c214-4327-906f-bfb6f8991957)
+
 ![Screenshot_20240305-070737](https://github.com/TodePond/TodePondDotCom/assets/15892272/84a96eda-1b39-4c0b-9a07-74113712a8e1)
+
 ![Screenshot_20240305-071028](https://github.com/TodePond/TodePondDotCom/assets/15892272/ce2fbda3-e0e0-4ef4-b341-6362a168aa7c)
+
 ![Screenshot_20240305-070943](https://github.com/TodePond/TodePondDotCom/assets/15892272/6f6be05c-d5a6-469f-a33a-cfea4d51100b)
+
 ![Screenshot_20240305-070415](https://github.com/TodePond/TodePondDotCom/assets/15892272/7576c88d-a9df-4312-b8b3-2ec161461ef3)
+
 ![Screenshot_20240305-071151](https://github.com/TodePond/TodePondDotCom/assets/15892272/758052e9-f983-4d85-995a-535888a08843)
+
+![Screenshot_20240305-070804](https://github.com/TodePond/TodePondDotCom/assets/15892272/77265d2d-d588-48cd-b2dc-d32d6f5e7cbd)
+
+![Screenshot_20240305-071219](https://github.com/TodePond/TodePondDotCom/assets/15892272/03bf7f66-b0e4-4cb4-826d-b450ea3e8c44)
+
+![Screenshot_20240305-071113](https://github.com/TodePond/TodePondDotCom/assets/15892272/92504bbe-5c58-4085-9adc-ab247b9cc1aa)
