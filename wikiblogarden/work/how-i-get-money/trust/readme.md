@@ -56,11 +56,9 @@ I could move to yet another platform. Maybe something self-hosted. I looked into
 
 Listen, I don't want *another* complicated platform, I just want to stop people from stealing my content.
 
-But wait a second-
+## But why
 
-## Why
-
-All this time and I've been worrying about people accessing my work, which is like... the opposite of what I should be doing.
+All this time I've been worrying about people accessing my work, which is like... the opposite of what I should be doing.
 
 I don't want to give away the updates for *free*. But also... Why am I so afraid of people stealing them?
 
