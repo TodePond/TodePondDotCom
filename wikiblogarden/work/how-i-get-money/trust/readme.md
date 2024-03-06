@@ -68,7 +68,7 @@ So now, I upload the updates for everyone on [todepond dot com](/pondcast). I ha
 
 ## Trust
 
-At the top of each update, there's a little message saying that the update is for paying supporters only. I've started putting a checkbox too.
+At the top of each update, there's a little message saying that the update is for paying supporters only. I've started putting a checkbox too, that doesn't do anything.
 
 I love how different this feels to most platforms. For me, it's a continuation of my [values](/wikiblogarden/art/why-bother/).
 
@@ -79,6 +79,12 @@ Since adding this DRM-free version of my update, I haven't noticed any differenc
 The occasional person reaches out to me and says "I read your update without paying. I assume that's ok?
 
 No it's not ok! You've abused my trust to steal something you haven't paid for. But you can solve this problem very easily. Just sign up to my [patreon](https://patreon.com/todepond).
+
+## Isn't this just nagware?
+
+I don't think it's nagware because there's no nagging. There aren't any popups, warnings or indicators that you can get rid of by paying.
+
+Maybe I'll switch to that one day, but I hope I don't. Please [pay](https://patreon.com/todepond)) to help me out!
 
 <br>
 
