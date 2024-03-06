@@ -26,7 +26,7 @@ Sounds good right? WRONG.
 
 ## Problems with patreon
 
-Sometimes I want to add someone as a supporter for free. As a freebie gift voucher, or a prize, or a thank you. Unfortunately, patreon doesn't let me do this.
+Sometimes I want to add someone as a supporter for free, as a freebie gift voucher, or a prize, or a thank you. Unfortunately, patreon doesn't let me do this.
 
 Also, I want to let people pay me on different platforms, like [liberapay](https://liberapay.com/TodePond), then get access to the patreon. Again, patreon doesn't let me do this.
 
