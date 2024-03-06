@@ -42,9 +42,9 @@ Sounds good right? WRONG.
 
 ## Problems with substack
 
-First of all, substack is full of [nazi cunts](https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/), which is pretty bad.
+First of all, substack is full of [nazis](https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/), which is pretty bad.
 
-Secondly, uh... no wait that's enough.
+Secondly, uh... no wait that's enough-
 
 ## Problems
 
@@ -52,7 +52,7 @@ So what do I do? (rhetorical question, please don't reply guy me)
 
 I could move to yet another platform. Maybe something self-hosted. I looked into a lot of options in detail (please don't reply guy me).
 
-> "[just](/wikiblogarden/better-computing/just/) use \_\_\_\_ lol"
+> ["just use \_\_\_\_ lol"](/wikiblogarden/better-computing/just/)
 
 Listen, I don't want *another* complicated platform, I just want to stop people from stealing my content.
 
