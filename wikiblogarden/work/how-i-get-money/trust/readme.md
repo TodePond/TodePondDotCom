@@ -36,7 +36,7 @@ And it's just annoying to have to log in. The weekly update is a way for me to t
 
 And to top it all off, patreon is often quite buggy. Audio wasn't working for firefox on some updates.
 
-So....... I started cross-posting to [https://todepond.substack.com]. It lets me add people for free, and show teasers, and it works great.
+So....... I started cross-posting to [substack](https://todepond.substack.com). It lets me add people for free, and show teasers, and it works great.
 
 Sounds good right? WRONG.
 
