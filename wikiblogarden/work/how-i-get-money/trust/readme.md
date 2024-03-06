@@ -64,13 +64,13 @@ I don't want to give away the updates for *free*. But also... Why am I so afraid
 
 I don't want to 'cheapen' the updates. I want them to be special - for supporters only. A place where I can speak to them directly. But I'd rather make the experience simpler and better for the people that do pay - which means no paywalls, no DRM, no nothing.
 
-So now, I upload the updates for everyone on [todepond dot com](/pondcast). I haven't set up a feed for it yet, but I will soon, now that I know I'll stick with it.
+So now, I upload the updates for everyone on [todepond dot com](/pondcast). I haven't set up a feed for it yet, but I will soon, now that I know I'm sticking with it.
 
 ## Trust
 
 At the top of each update, there's a little message saying that the update is for paying supporters only. I've started putting a checkbox too.
 
-I love how different this feels to most platforms. For me, it's a continuation of my expression and [values] (/wikiblogarden/art/why-bother/).
+I love how different this feels to most platforms. For me, it's a continuation of my [values](/wikiblogarden/art/why-bother/).
 
 ## Money
 
