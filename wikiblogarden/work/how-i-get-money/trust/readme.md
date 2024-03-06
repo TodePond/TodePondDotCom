@@ -84,7 +84,7 @@ No it's not ok! You've abused my trust to steal something you haven't paid for. 
 
 I don't think it's nagware because there's no nagging. There aren't any popups, warnings or indicators that you can get rid of by paying.
 
-Maybe I'll switch to that one day, but I hope I don't. Please [pay](https://patreon.com/todepond)) to help me out!
+Maybe I'll switch to that one day, but I hope I don't. Please [pay](https://patreon.com/todepond) to help me out!
 
 <br>
 
