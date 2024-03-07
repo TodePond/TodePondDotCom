@@ -648,5 +648,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/work/how-i-get-money/trust/</guid>
   			<description>How I get money on the internet by trusting people.</description>
   		</item>
+		<item>
+  			<title>I wrote a blog post about that</title>
+  			<pubDate>Thu, 07 Mar 2024 11:11:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that</guid>
+  			<description>My only goal with this blog.</description>
+  		</item>
   </channel>
 </rss>
