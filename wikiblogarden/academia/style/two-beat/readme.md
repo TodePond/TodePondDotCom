@@ -12,7 +12,7 @@ It got me thinking: "What would my own style guide look like if I wrote it down?
 
 The hard thing is that I tend to use a real mixture of styles and voices. Sometimes I'm [simple](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools/), sometimes I'm [not](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools/). Sometimes I'm [stupid](https://www.todepond.com/wikiblogarden/men/), sometimes I'm [not](https://www.todepond.com/wikiblogarden/men/).
 
-But I am quite careful about style and voice. I have a handful of styles that I slip into. Some are more concrete than others but I keep coming back to the same ones. In fact, I'm using one right now!
+But I am quite careful about style and voice. I have a handful of styles that I slip into. Some are more concrete than others, but I keep coming back to the same ones. In fact, I'm using one right now!
 
 ## Two beat style
 
