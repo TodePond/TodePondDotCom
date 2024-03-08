@@ -655,5 +655,12 @@
   			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that</guid>
   			<description>My only goal with this blog.</description>
   		</item>
+		<item>
+  			<title>Two beat style</title>
+  			<pubDate>Fri, 08 Mar 2024 07:49:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/academia/style/two-beat</link>
+  			<guid>https://www.todepond.com/wikiblogarden/academia/style/two-beat</guid>
+  			<description>A Todepond style guide.</description>
+  		</item>
   </channel>
 </rss>
