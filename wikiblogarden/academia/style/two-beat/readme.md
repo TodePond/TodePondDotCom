@@ -22,7 +22,7 @@ I use this style in a lot of my films on youtube, like [Nothing](https://youtu.b
 
 ## But why
 
-I think that this style is good for showing how to do things. I think it forces you to keep things simple. No fancy words creep in that the reader might not know. And it has a certain feeling to it. It kind of switches the mode of your brain. You can turn off the language bit, and just hear the words. It sounds awkward and twisted, making a dreamlike effect. It sends you to sleep. It's calm. It makes you relax. It's weird, but it's what I've seen.
+I think that this style is good for showing how to do things. I think it forces you to keep things simple. No fancy words creep in that the reader might not know. And it has a certain feeling to it. It kind of switches the mode of your brain. You can turn off the language part, and just hear the words. It sounds awkward and twisted, making a dreamlike effect. It sends you to sleep. It's calm. It makes you relax. It's weird, but it's what I've seen.
 
 And it's a huge contrast from what you tend to get in papers, which use lots of big words and weird terms.
 
