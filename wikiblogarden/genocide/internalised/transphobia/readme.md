@@ -10,6 +10,8 @@
 
 I used to be transphobic.
 
+<br>
+
 # My confession
 
 When the world tells you the same thing again and again and again, it can become lodged in your head.
