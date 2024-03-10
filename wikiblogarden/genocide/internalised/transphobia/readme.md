@@ -106,11 +106,15 @@ So I've rewritten this post a few times. I'm still worried about how it steers c
 
 When someone is hateful, it has a knock-on effect. It gets carried along to someone else, who carries it on to someone else, and so on.
 
-I struggle to think about how many chains of transphobia I started:
+I struggle to think about how many cycles of transphobia I've started:
 
-It only takes one person to start a chain.
+It only takes one person to start a cycle.
 
-Likewise, it only takes one person to stop a chain. And that person............... could be you.
+Likewise, it only takes one person to stop a cycle. And that person............... could be you.
+
+## Humour
+
+One way of breaking the cycle is through humour. By satirising, parodying, mocking the transphobia... its power gets weaker.
 
 <br>
 
