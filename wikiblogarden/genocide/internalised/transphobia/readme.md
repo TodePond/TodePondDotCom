@@ -1,17 +1,8 @@
+> I wasn't sure about publishing this post. I think it has a good chance of getting misinterpreted by some people, and being used as an excuse to punch down. That's the opposite of its purpose, but you need to read to the end to see how. **Please either read the whole thing or read nothing.**
+
 # My internalised transphobia
 
 I used to be transphobic.
-
-<details>
-  <summary>
-    I wasn't sure about publishing this post. I think it has a good chance of getting misinterpreted by some people, and being used as an excuse to punch down. That's the opposite of its purpose, but you need to read to the end to see how. Please either:
-
-  - read the whole thing.
-- read nothing.
-
-    (Click to open)
-  </summary>
-
 
 # My confession
 
