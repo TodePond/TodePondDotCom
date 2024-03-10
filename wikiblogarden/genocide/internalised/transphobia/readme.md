@@ -118,7 +118,7 @@ Likewise, it only takes one person to stop a chain. And that person.............
 
 It's wrong to say that I'm completely un-transphobic now. There's no way I've got rid of all my learned bias and prejudice. And I think it's good to try to become more aware of my own misconceptions over time.
 
-I could say the same for my perceptions of race, class, age, disability. I hear alarm bells when someone says they don't have any biases at all. We're human. Everyone does. What matters is how you learn to be aware of them, and overcome them, and grow. This comes from listening and empathising with other people.
+I could say the same for my perceptions of race, class, age, disability, and do on. I hear alarm bells when someone says they don't have any biases at all. We're human. Everyone does. What matters is how you learn to be aware of them, and overcome them, and grow. This comes from listening and empathising with other people.
 
 I think I've been pretty open here with some of my journey. You're welcome to judge me however you want.
 
