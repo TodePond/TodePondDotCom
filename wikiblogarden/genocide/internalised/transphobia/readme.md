@@ -56,7 +56,7 @@ Sometimes this is from cisgender (not trans) people, and sometimes this is from 
 
 A lot of the time, trans people don't believe me when I tell them that I like any pronoun, and [either name](/wikiblogarden/my-name) is fine.
 
-They tell me that "you're not accepting you're true self", which is funny because that's the exact same thing that some transphobic cis people tell me.
+They tell me that "you're not accepting your true self", which is funny because that's the exact same thing that some transphobic cis people tell me.
 
 ## "Change your appearance"
 
@@ -88,7 +88,7 @@ Some cis people use my non-binary-ness as a stick to attack other trans people. 
 
 [Some trans people](/wikiblogarden/academia/citation/intentionally/held/back) on social media try to appease these terfs by being 'one of the good ones', submitting to any dehumanising whim and demand that they demand.
 
-Every trans person is allowed to express their gender in any way they want. There's no "one true way" of transitioning, or being yourself.
+Every trans person is allowed to express their gender in any way they want. There's no "one true way" of transitioning, or [being yourself](/wikiblogarden/health/transition/in-slow-motion/).
 
 Some trans people lean into hyper-feminity, or hyper-masculinity. Some trans people lean into hyper-androgyny and fluidity. Source: It's my friend.
 
