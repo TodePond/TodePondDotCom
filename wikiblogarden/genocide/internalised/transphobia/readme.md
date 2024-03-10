@@ -124,4 +124,4 @@ I think I've been pretty open here with some of my journey. You're welcome to ju
 
 <br>
 
-Back to the [cheesyblogarden](/wikiblogarden).
+Back to the [biasblogarden](/wikiblogarden).
