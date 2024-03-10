@@ -648,5 +648,33 @@
   			<guid>https://www.todepond.com/wikiblogarden/work/how-i-get-money/trust/</guid>
   			<description>How I get money on the internet by trusting people.</description>
   		</item>
+		<item>
+  			<title>I wrote a blog post about that</title>
+  			<pubDate>Thu, 07 Mar 2024 11:11:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that</guid>
+  			<description>My only goal with this blog.</description>
+  		</item>
+		<item>
+  			<title>Two beat style</title>
+  			<pubDate>Fri, 08 Mar 2024 07:49:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/academia/style/two-beat</link>
+  			<guid>https://www.todepond.com/wikiblogarden/academia/style/two-beat</guid>
+  			<description>A Todepond style guide.</description>
+  		</item>
+		<item>
+  			<title>Todepond stuff</title>
+  			<pubDate>Sat, 09 Mar 2024 08:19:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/art/todepond/stuff</link>
+  			<guid>https://www.todepond.com/wikiblogarden/art/todepond/stuff</guid>
+  			<description>I’m thankful for all the opportunities I get to make “todepond stuff”.</description>
+  		</item>
+		<item>
+  			<title>My internalised transphobia</title>
+  			<pubDate>Sun, 10 Mar 2024 09:01:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/</guid>
+  			<description>I used to be transphobic.</description>
+  		</item>
   </channel>
 </rss>
