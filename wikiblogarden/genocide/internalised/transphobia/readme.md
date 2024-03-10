@@ -42,6 +42,8 @@ I think I was ashamed and embarrassed about feeling different. I had such a stro
 
 I don't believe those lies anymore, and things are better, but it took me a long time to unlearn them.
 
+<br>
+
 # Your confession 
 
 The fun (not fun) part is that I'm now subjected to other people's transphobia and misogyny instead.
@@ -90,6 +92,8 @@ Some trans people lean into hyper-feminity, or hyper-masculinity. Some trans peo
 
 However you express yourself, it's completely fine. Don't let anyone tell you you're being trans 'wrong'.
 
+<br>
+
 # Our confession
 
 I've had doubts about publishing this post. I've gone back and forth on it for sure. Mainly because, what good does it do to point the finger at other people in the queer community? We should be grouping together, not pulling apart.
@@ -106,7 +110,17 @@ It only takes one person to start a chain.
 
 Likewise, it only takes one person to stop a chain. And that person............... could be you.
 
-</details>
+<br>
+
+<br>
+
+# Addendum 
+
+It's wrong to say that I'm completely un-transphobic now. There's no way I've got rid of all my learned bias and prejudice. And I think it's good to try to become more aware of my own misconceptions over time.
+
+I could say the same for my perceptions of race, class, age, disability. I hear alarm bells when someone says they don't have any biases at all. We're human. Everyone does. What matters is how you learn to be aware of them, and overcome them, and grow. This comes from listening and empathising with other people.
+
+I think I've been pretty open here with some of my journey. You're welcome to judge me however you want.
 
 <br>
 
