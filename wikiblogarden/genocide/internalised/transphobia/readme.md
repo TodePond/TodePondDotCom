@@ -4,7 +4,7 @@ I used to be transphobic.
 
 <details>
   <summary>
-    I wasn't sure about publishing this post. I think it has a good chance of getting misinterpreted by some people, and being used as a stick to punch down. That's the opposite of its purpose - but you need to read to the end to see how. Please either:
+    I wasn't sure about publishing this post. I think it has a good chance of getting misinterpreted by some people, and being used as an excuse to punch down. That's the opposite of its purpose, but you need to read to the end to see how. Please either:
 
   - read the whole thing.
 - read nothing.
@@ -55,7 +55,7 @@ Sometimes this is from cisgender (not trans) people, and sometimes this is from 
 
 A lot of the time, trans people don't believe me when I tell them that I like any pronoun, and [either name](/wikiblogarden/my-name) is fine.
 
-They tell me that "you're not accepting you're true self", which is funny because that's the exact same thing that some cis people tell me.
+They tell me that "you're not accepting you're true self", which is funny because that's the exact same thing that some transphobic cis people tell me.
 
 ## "Change your appearance"
 
@@ -73,11 +73,25 @@ Funnily enough, cis people tell me the exact same thing. "Do this with your hair
 
 Do you see it yet?
 
+## "I see you"
+
+"I see you as a man."
+
+"I see you as a woman."
+
+With some people, I don't seem to have a say in the matter.
+
 ## "One of the good ones"
 
 Some cis people use my non-binary-ness as a stick to attack other trans people. I tell them I'm happy with any pronoun, and they say "Oh thank god. Not like some of those other trans people. Some people get so offended - did you know that?"
 
 [Some trans people](/wikiblogarden/academia/citation/intentionally/held/back) on social media try to appease these terfs by being 'one of the good ones', submitting to any dehumanising whim and demand that they demand.
+
+Every trans person is allowed to express their gender in any way they want. There's no "one true way" of transitioning, or being yourself.
+
+Some trans people lean into hyper-feminity, or hyper-masculinity. Some trans people lean into hyper-androgyny and fluidity. Source: It's my friend.
+
+However you express yourself, it's completely fine. Don't let anyone tell you you're being trans 'wrong'.
 
 # Our confession
 
