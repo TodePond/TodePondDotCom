@@ -2,6 +2,17 @@
 
 I used to be transphobic.
 
+<details>
+  <summary>
+    I wasn't sure about publishing this post. I think it has a good chance of getting misinterpreted by some people, and being used as a stick to punch down. That's the opposite of its purpose - but you need to read to the end to see how. Please either:
+
+  - read the whole thing.
+- read nothing.
+
+    (Click to open)
+  </summary>
+
+
 # My confession
 
 When the world tells you the same thing again and again and again, it can become lodged in your head.
@@ -83,6 +94,8 @@ I struggle to think about how many chains of transphobia I started:
 It only takes one person to start a chain.
 
 Likewise, it only takes one person to stop a chain. And that person............... could be you.
+
+</details>
 
 <br>
 
