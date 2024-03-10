@@ -36,7 +36,7 @@ However, I *did* think that trans women needed to 'pass' and be feminine, which 
 
 I used to believe this lie. I thought that non-binary people didn't exist. I thought it wasn't a real thing.
 
-I think I was ashamed and embarrassed about feeling different. I had such a strong reaction to non-binary stuff because... in my heart, I knew that I was non-binary, and that was scary. It felt easier and safer to just say I'm a woman.
+I think I was ashamed and embarrassed about feeling different. I had such a strong reaction to non-binary stuff because... in my heart, I knew that I was non-binary myself, and that was scary. It felt easier and safer to just say I'm a woman.
 
 ## Nowadays
 
