@@ -36,6 +36,8 @@ What's new this week? A lot.
 
 ## Twenty minutes
 
+![line graph](1.png)
+
 I've been editing and arranging the video, getting all the sands in order. As part of this, I've been cutting up and stretching around different pieces. This has caused some bits of music to get very disformed and messed up. It's got to a point where I've completely blasphemised [Ivan](https://ivanish.ca/)'s original score.
 
 He said he'd be happy to do a better version of some of my edits. It's funny, the same exact thing happened with [Flora](https://floracaulton.com/) when I first tried to draw berd using her artstyle. Sometimes I can secure help just by doing something infuriatingly badly!
@@ -46,6 +48,8 @@ Oh, and also, it's currently a twenty minute video.
 
 ## Four point five billion years
 
+![circle](2.png)
+
 This week, I've also been planning a future video. It's not one of the choices from the [vote](https://www.todepond.com/fame/vote/). It'll come out a long long long from now, maybe multiple years away.
 
 Why?
@@ -55,6 +59,8 @@ Because this video will be 100% animated, drawn frame-by-frame. So I've been dis
 God I wish I could work on this stuff full-time. Please tell your friends to sign up to the [patreon](https://patreon.com/TodePond).
 
 ## Seet
+
+![line](3.png)
 
 As part of my [research residency](https://www.todepond.com/wikiblogarden/research/er-in-residence/) at [ink and switch](https://www.inkandswitch.com/), I've been building? designing? exploring?
 
@@ -68,6 +74,8 @@ When I write it out like this, the project sounds really boring to me, which is 
 
 ## Fractal bucket
 
+![squiggles](4.png)
+
 I've started building [fractal bucket](https://www.patreon.com/posts/todepond-fractal-89529064), which is a programming language that you can paint (on the computer screen). I've been building it with a thing called [WebGPU](https://codelabs.developers.google.com/your-first-webgpu-app) that lets you make it run very fast by using your computer's graphics card. It also lets you make it look very pretty and colourful.
 
 First I had to learn WebGPU, and now I have an extremely barebones starting point for [fractal bucket](https://github.com/todePond/FractalBucket). I've built the basics - painting brush strokes, changing tools, and stuff. I've been focusing on making it feel nice, and smooth, and claylike.
@@ -75,6 +83,8 @@ First I had to learn WebGPU, and now I have an extremely barebones starting poin
 On the canvas, you can paint two different things. You can paint pipes. And you can paint ... paint. Paint and pipes can overlap each other, or not, and paint gets drawn through pipes. I've tried out some different ways of visually representing this, and I don't like it yet. It needs to be more splodgy.
 
 ## Torn leaf
+
+![zigzag](5.png)
 
 I'm setting up an experimental online gallery called [torn leaf](https://tornleaf.gallery). It's something that I've been thinking about for a long long time. And I think I finally have the chance to do it.
 
@@ -85,6 +95,8 @@ I'm heavily influenced by [surrealist](https://www.metmuseum.org/exhibitions/sur
 There's a good chance that torn leaf fails, but I really want to try. So please help! [Submit your submission](https://tornleaf.gallery) and invite others as well. I want to publish a wide range of diverse voices, including those who normally wouldn't do this sort of thing.
 
 ## Beyond efficiency
+
+![future of coding](6.png)
 
 Last week, I appeared on the [future of coding](https://futureofcoding.org/) podcast's new [episode](https://futureofcoding.org/episodes/070). This time, it was about [Dave Ackley](https://www.cs.unm.edu/~ackley/)'s paper, [Beyond Efficiency](https://dl.acm.org/doi/pdf/10.1145/2505340).
 
