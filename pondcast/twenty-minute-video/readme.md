@@ -68,9 +68,9 @@ When I write it out like this, the project sounds really boring to me, which is 
 
 ## Fractal bucket
 
-I've started building [fractal bucket](https://www.patreon.com/posts/todepond-fractal-89529064), which is a programming language that you can paint (on the computer screen). I've been building it with a thing called [WebGPU] that lets you make it run very fast by using your computer's graphics card. It also lets you make it look very pretty and colourful.
+I've started building [fractal bucket](https://www.patreon.com/posts/todepond-fractal-89529064), which is a programming language that you can paint (on the computer screen). I've been building it with a thing called [WebGPU](https://codelabs.developers.google.com/your-first-webgpu-app) that lets you make it run very fast by using your computer's graphics card. It also lets you make it look very pretty and colourful.
 
-First I had to learn WebGPU, and now I have an extremely barebones starting point for [fractal bucket]. I've built the basics - painting brush strokes, changing tools, and stuff. I've been focusing on making it feel nice, and smooth, and claylike.
+First I had to learn WebGPU, and now I have an extremely barebones starting point for [fractal bucket](https://github.com/todePond/FractalBucket). I've built the basics - painting brush strokes, changing tools, and stuff. I've been focusing on making it feel nice, and smooth, and claylike.
 
 On the canvas, you can paint two different things. You can paint pipes. And you can paint ... paint. Paint and pipes can overlap each other, or not, and paint gets drawn through pipes. I've tried out some different ways of visually representing this, and I don't like it yet. It needs to be more splodgy.
 
@@ -80,20 +80,20 @@ I'm setting up an experimental online gallery called [torn leaf](https://tornlea
 
 Check out the torn leaf [website](https://tornleaf.gallery) for more information, and please submit something! You can submit anything, as long as you follow the format.
 
-I'm heavily influenced by [surrealist] movements that mixed together all sorts of fields, like art, philosophy, politics, comedy, literature, research. Let's see if we improve on that in the online age. I'd like to make something that feels human, and empathetic, and rebellious.
+I'm heavily influenced by [surrealist](https://www.metmuseum.org/exhibitions/surrealism-beyond-borders) movements that mixed together all sorts of fields, like art, philosophy, politics, comedy, literature, research. Let's see if we improve on that in the online age. I'd like to make something that feels human, and empathetic, and rebellious.
 
 There's a good chance that torn leaf fails, but I really want to try. So please help! [Submit your submission](https://tornleaf.gallery) and invite others as well. I want to publish a wide range of diverse voices, including those who normally wouldn't do this sort of thing.
 
 ## Beyond efficiency
 
-Last week, I appeared on the [future of coding] podcast's new [episode]. This time, it was about [Dave Ackley]'s paper, [Beyond Efficiency].
+Last week, I appeared on the [future of coding](https://futureofcoding.org/) podcast's new [episode](https://futureofcoding.org/episodes/070). This time, it was about [Dave Ackley](https://www.cs.unm.edu/~ackley/)'s paper, [Beyond Efficiency](https://dl.acm.org/doi/pdf/10.1145/2505340).
 
-This was an important moment for me because Beyond Efficiency was the paper that got me into coding sand in the [first place]. Dave's [accompanying video] inspired me to combine falling sand games with a robust-first approach, and the rest is [history](https://youtube.com/@Todepond).
+This was an important moment for me because Beyond Efficiency was the paper that got me into coding sand in the [first place](https://youtu.be/zLP4ZwudAKs?si=ce04Q9X5cOj7mtLz). Dave's [accompanying video](https://www.youtube.com/watch?v=7hwO8Q_TyCA) inspired me to combine falling sand games with a robust-first approach, and the rest is [history](https://youtube.com/@Todepond).
 
 I hope people enjoy the episode and the rabbit hole.
 
-And that's it for this week! Thank you so much for supporting me and my projects, and welcome to all the new supporters this week!
+And that's it for this week! Thank you so much for supporting me and my projects, and welcome to all the new supporters this week! Whatever you're doing, wherever you are, I hope you have a great week.
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 431_<br>
+_Days since bot went missing: 396_<br>
+_Days since berd flew away: 59_
