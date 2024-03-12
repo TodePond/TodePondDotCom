@@ -43,7 +43,7 @@ It's just pointing and laughing - punching down.
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 and [people still aren't comfortable laughing at Ricky Gervais](https://youtu.be/adh0KGmgmQw?si=6hELtUy_KEKn1yet). (risky click)
+It's the year 2024 and [people still aren't comfortable laughing at Ricky Gervais](https://youtu.be/adh0KGmgmQw?si=6hELtUy_KEKn1yet). (risky click)
 
 <br>
 
