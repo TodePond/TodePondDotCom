@@ -32,14 +32,14 @@ Sorry I can't-
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 and tech bros still don't know what a joke is. Tech humour is terrible because:
+It's a joke that it's the year 2024 tech humour is still terrible because:
 
 - It doesn't defy expectation.
 - There's no hidden subtext.
 
-It's just pointing and laughing - also known as punching down.
+It's just pointing and laughing - punching down.
 
-> This blog post is inspired by all the terrible jokes that get submitted to me for [dreamberd](https://github.com/todepond/dreamberd). Hopefully you're better equipped now.
+> This blog post is inspired by all the terrible jokes that get submitted to me for [dreamberd](https://github.com/todepond/dreamberd).
 
 ## What is a joke?
 
