@@ -20,7 +20,7 @@ That subtext can be some shared suffering that you both go through. It can be an
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 and some people still don't know that comedy is about human interaction. They think that a joke is only made funny-or-not by its setup and punchline. But that's wrong, because that's only two thirds of the joke.
+Some people still don't know that comedy is about human interaction. They think that a joke is only made funny-or-not by its setup and punchline. But that's wrong, because that's only two thirds of the joke.
 
 Jokes are only funny because of the unspoken subtext. This is why they stop being funny when you explain the subtext. The mutual understanding is lost and they become cold.
 
@@ -32,7 +32,7 @@ Sorry I can't-
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 tech humour is still terrible because:
+Tech humour is still terrible because:
 
 - It doesn't defy expectation.
 - There's no hidden subtext.
