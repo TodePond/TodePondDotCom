@@ -30,8 +30,6 @@ And if an AI tells a joke, there's no-
 
 Sorry I can't-
 
-If you think we should get an AI to tell jokes then it's already too late.
-
 ## What is a joke?
 
 It's a joke that it's the year 2024 and tech bros still don't know what a joke is. Tech humour is terrible because:
