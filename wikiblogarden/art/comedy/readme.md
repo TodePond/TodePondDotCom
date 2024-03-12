@@ -47,9 +47,4 @@ It's the year 2024 and [people still aren't comfortable laughing at Ricky Gervai
 
 <br>
 
-> "Not all tech bros" arriving in 3 ... 2 ...
-
-<br>
-
-Quick, before they get here! Get back to the [wikiblogarden](/wikiblogarden).
-
+Quick! Get back to the [wikiblogarden](/wikiblogarden).
