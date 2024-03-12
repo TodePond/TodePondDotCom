@@ -2,6 +2,8 @@
 
 It's about expectation.
 
+## What is a joke?
+
 You set up an expectation (the setup), and then do something else (the punchline).
 
 But looking back, the punchline *was* expected in some esoteric way (the subtext). By understanding that esoteric reason, you're in on the joke, and you have a shared understanding with the joke-teller. This human connection makes you feel good, so you laugh.
