@@ -21,15 +21,18 @@
 
   img {
     /* max-width: 450px; */
-    width: 50%;
+    width: calc(50%);
   }
 
   .slide {
     display: flex;
-    /* justify-content: center; */
+    justify-content: flex-end;
     margin-bottom: 1em;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
+    width: 50%;
+    position: relative;
+    left: calc(50%);
   }
 
   @media (max-width: 980px) {
@@ -38,7 +41,7 @@
     }
 
     .script {
-      white-space: normal !important;
+      /* white-space: normal !important; */
     }
 
     .tabdown {
@@ -50,31 +53,26 @@
     display: none;
   }
 
-  @media (max-width: 600px) {
-    .slide {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    img {
-      width: 100%;
-    }
-  }
-
   .script {
     all: unset;
-    flex-basis: 100%;
-    flex-grow: 1;
+    /* flex-basis: 100%; */
+    /* flex-grow: 1; */
+    width: 50%;
+    /* background-color: red; */
     /* text-overflow: clip; */
+
+    /* position: relative; */
+    /* left: calc(100%); */
 
     /* text-wrap: nowrap; */
 
     /* dont auto wrap */
-    white-space: nowrap;
+    /* white-space: nowrap; */
   }
 
   body {
-    max-width: 900px;
+    /* max-width: 900px; */
+    max-width: 100%;
     overflow-x: hidden;
   }
 
@@ -82,24 +80,96 @@
     width: 100%;
     aspect-ratio: 16 / 9;
     height: auto;
+    transition: max-width 1s;
+    max-width: calc(50% - 10px);
+    z-index: 1;
+    position: relative;
+  }
+
+  .shrunk-iframe {
+    max-width: calc(50% - 10px);
+  }
+
+  .video-wrapper {
+    position: sticky;
+    top: 10px;
+    text-align: left;
+    z-index: 1;
+    /* width: 100vw; */
+    /* left: 0px; */
   }
 
   hr {
     margin: 20px 0;
   }
+
+  .part {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+  }
+
+  h2 {
+    width: calc(50%);
+    position: relative;
+    left: calc(50%);
+    z-index: 0;
+  }
+
+  @media (max-width: 600px) {
+    .slide {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    img {
+      width: 100% !important;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+
+    .shrunk-iframe {
+      max-width: 100%;
+    }
+  }
 </style>
 
 <h1>CELLPOND<br />SPATIAL PROGRAMMING <br class="tabdown" />WITHOUT ESCAPE</h1>
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/eQgxFuw8f1U?si=ATdgwCxMeirzk0b0"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+<div class="video-wrapper">
+  <iframe
+    id="video"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/eQgxFuw8f1U?si=ATdgwCxMeirzk0b0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
+
+<script type="module">
+  const video = document.querySelector("#video");
+
+  let state = "big";
+
+  function handleScroll() {
+    // const rect = video.getBoundingClientRect();
+    const scroll = window.scrollY;
+    if (state === "big" && scroll > 15) {
+      video.classList.add("shrunk-iframe");
+      state = "small";
+    } else if (state === "small" && scroll < 15) {
+      video.classList.remove("shrunk-iframe");
+      state = "big";
+    }
+  }
+
+  addEventListener("scroll", handleScroll);
+</script>
 
 <div class="part">
   <h2>Introduction</h2>
