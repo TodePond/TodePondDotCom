@@ -2,6 +2,8 @@
 
 > Jam.
 
+I stopped playing this game.
+
 ## What's in the box?
 
 > Cabbage.
