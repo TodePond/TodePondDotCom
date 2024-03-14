@@ -2,6 +2,8 @@
 
 It's about expectation.
 
+## What is a joke?
+
 You set up an expectation (the setup), and then do something else (the punchline).
 
 But looking back, the punchline *was* expected in some esoteric way (the subtext). By understanding that esoteric reason, you're in on the joke, and you have a shared understanding with the joke-teller. This human connection makes you feel good, so you laugh.
@@ -18,7 +20,7 @@ That subtext can be some shared suffering that you both go through. It can be an
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 and some people still don't know that comedy is about human interaction. They think that a joke is only made funny-or-not by its setup and punchline. But that's wrong, because that's only two thirds of the joke.
+Some people still don't know that comedy is about human interaction. They think that a joke is only made funny-or-not by its setup and punchline. But that's wrong, because that's only two thirds of the joke.
 
 Jokes are only funny because of the unspoken subtext. This is why they stop being funny when you explain the subtext. The mutual understanding is lost and they become cold.
 
@@ -28,28 +30,21 @@ And if an AI tells a joke, there's no-
 
 Sorry I can't-
 
-If you think we should get an AI to tell jokes then it's already too late.
-
 ## What is a joke?
 
-It's a joke that it's the year 2024 and tech bros still don't know what a joke is. Tech humour is terrible because:
+Tech humour is still terrible because:
 
 - It doesn't defy expectation.
 - There's no hidden subtext.
 
-It's just pointing and laughing - also known as punching down.
+It's just pointing and laughing - punching down.
 
-> This blog post is inspired by all the terrible jokes that get submitted to me for [dreamberd](https://github.com/todepond/dreamberd). Hopefully you're better equipped now.
+> This blog post is inspired by all the terrible jokes that get submitted to me for [dreamberd](https://github.com/todepond/dreamberd).
 
 ## What is a joke?
 
-It's a joke that it's the year 2024 and [people still aren't comfortable laughing at Ricky Gervais](https://youtu.be/adh0KGmgmQw?si=6hELtUy_KEKn1yet). (risky click)
+It's the year 2024 and [people still aren't comfortable laughing at Ricky Gervais](https://youtu.be/adh0KGmgmQw?si=6hELtUy_KEKn1yet). (risky click)
 
 <br>
 
-> "Not all tech bros" arriving in 3 ... 2 ...
-
-<br>
-
-Quick, before they get here! Get back to the [wikiblogarden](/wikiblogarden).
-
+Quick! Get back to the [wikiblogarden](/wikiblogarden).
