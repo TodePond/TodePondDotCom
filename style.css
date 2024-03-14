@@ -36,6 +36,13 @@ ul {
   /* line-height: 1.2; */
 }
 
+*::selection {
+  background-color: rgb(87, 101, 147);
+  /* outline: 2px solid white; */
+  /* color: black; */
+  /* color: white; */
+}
+
 li {
   list-style: " — ";
   /* margin-left: 0px; */
