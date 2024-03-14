@@ -27,10 +27,13 @@ a {
 a:hover {
   color: black;
   background-color: #46ff80;
+  outline: 2px solid #46ff80;
 }
 
 ul {
   padding-inline-start: 20px;
+
+  /* line-height: 1.2; */
 }
 
 li {
@@ -45,6 +48,7 @@ a.secondary {
 a.secondary:hover {
   color: black;
   background-color: #4680ff;
+  outline: 2px solid #4680ff;
 }
 
 a.danger {
@@ -54,6 +58,7 @@ a.danger {
 a.danger:hover {
   color: black;
   background-color: #ff4346;
+  outline: 2px solid #ff4346;
 }
 
 p.secondary {
