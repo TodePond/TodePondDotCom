@@ -44,7 +44,7 @@ In my time at festivals, I watched a lot of [clowny comedy](/wikiblogarden/repet
 
 This made me double down on my opinion. When you're performing off the cuff, *don't try to avoid repetition*. Because if you do that, you'll try to avoid repetition, and you'll *think too much* about avoiding repetition, when repetition can often be the most compelling thing.
 
-Instead, go for a [surrealist automatism](https://en.wikipedia.org/wiki/Surrealist_automatism) approach. Let your inner thoughts and feelings bubble out, without any judgement! You might repeat yourself, and people probably won't understand what you're talking about, and you might repeat yourself. And the top comment on your youtube might be "Can someone explain what this is?"
+Instead, go for a [surrealist automatism](https://en.wikipedia.org/wiki/Surrealist_automatism) approach. Let your inner thoughts and feelings bubble out, without any judgement! You might repeat yourself, and people probably won't understand what you're talking about, and you might repeat yourself. And the top comment on your youtube video might be "Can someone explain what this is?"
 
 But at least it's *you*.
 
