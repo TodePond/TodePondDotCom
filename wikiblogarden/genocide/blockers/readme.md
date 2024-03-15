@@ -2,7 +2,7 @@
 
 They've [stopped](https://www.thepinknews.com/2024/03/12/trans-puberty-blockers-nhs-england-prescribe-gender-affirming-healthcare/) giving puberty blockers to trans kids and I can't believe it. The pain and torment that this will cause is unbearable to think of.
 
- ## It was bad anyway
+## It was bad anyway
 
 It was [exceedingly hard](https://www.thepinknews.com/2023/02/09/tavistock-gender-clinic-closure-staff-open-letter-trans-healthcare/) to get access to blockers anyway. So this is just the final nail in the coffin for countless trans children, unfortunately quite literally.
 
