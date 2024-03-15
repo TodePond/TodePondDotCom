@@ -26,10 +26,6 @@ Trans children are just the start. We all know who's next. Are you just gonna st
 
 <br>
 
-When it comes to hormones, or arse-holes, my policy is the same: 
+When it comes to hormones, or transphobes, my policy is the same: 
 
 [Just block them.](/wikiblogarden/social-media/just-block-them/)
-
-<br>
-
-Back to the [wikiblogarden](/wikiblogarden).
