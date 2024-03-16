@@ -19,8 +19,16 @@ You can clean it up later if you want, but get it down now. You must write your 
 <br>
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-### Music adaptation
+## Music adaptation
 
 by [ngons](https://mathstodon.xyz/@ngons/112105422898363468)
 
