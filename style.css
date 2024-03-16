@@ -108,6 +108,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"],
+input[type="search"],
 textarea {
   background-color: #374362;
   border: 1px solid #9faeee;
@@ -120,6 +121,7 @@ textarea {
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
+input[type="search"]::placeholder,
 textarea::placeholder {
   color: #9faeee;
 }

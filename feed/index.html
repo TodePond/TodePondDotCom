@@ -47,6 +47,28 @@
   .pub-date {
     color: #9faeee;
   }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+  }
+
+  h2 {
+    padding-top: 30px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  .tablet {
+    display: inline;
+  }
 </style>
 
 <h1>Todepond feed</h1>
@@ -58,6 +80,10 @@ Here's my feed! You can see it here. Or subscribe to the
   >This website uses jumpyscript to load the feed. I'm planning to make this
   without needing jumpyscript soon.</noscript
 >
+
+<header style="margin-top: 19px">
+  <input type="search" id="search" placeholder="Search" />
+</header>
 
 <main id="items"></main>
 
@@ -91,9 +117,11 @@ Here's my feed! You can see it here. Or subscribe to the
     return parsedItems;
   };
 
+  let currentItems = [];
+
   const main = async () => {
     const currentFeed = await getCurrentFeed();
-    const currentItems = parseItems(currentFeed);
+    currentItems = parseItems(currentFeed);
     renderItems(
       currentItems.sort((a, b) => {
         const aDate = new Date(a.pubDate);
@@ -133,6 +161,81 @@ Here's my feed! You can see it here. Or subscribe to the
       itemsDiv.appendChild(itemSection);
     });
   };
+
+  const search = document.querySelector("#search");
+
+  search.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    const exactTerms = searchTerm
+      .split('"')
+      .filter((term, i) => i % 2 === 1)
+      .filter((term) => term !== "");
+
+    const searchTerms = searchTerm.split(" ").filter((term) => term !== "");
+    const items = currentItems;
+    const scores = items.map((item) => {
+      let score = 0;
+      const fullSearchTerm = searchTerm;
+
+      if (
+        item.title.toLowerCase() === fullSearchTerm ||
+        item.link.toLowerCase() === fullSearchTerm ||
+        item.description.toLowerCase() === fullSearchTerm
+      ) {
+        score += 10000;
+      }
+
+      if (
+        item.title.toLowerCase().includes(fullSearchTerm) ||
+        item.description.toLowerCase().includes(fullSearchTerm) ||
+        item.link.toLowerCase().includes(fullSearchTerm)
+      ) {
+        score += 1000;
+      }
+
+      searchTerms.forEach((term) => {
+        if (item.title.toLowerCase().includes(term)) {
+          score += 100;
+        }
+
+        if (item.description.toLowerCase().includes(term)) {
+          score += 10;
+        }
+
+        if (item.link.toLowerCase().includes(term)) {
+          score += 1;
+        }
+      });
+
+      exactTerms.forEach((term) => {
+        if (item.title.toLowerCase().includes(term)) {
+          score += 100;
+        }
+
+        if (item.description.toLowerCase().includes(term)) {
+          score += 1;
+        }
+
+        if (item.link.toLowerCase().includes(term)) {
+          score += 1;
+        }
+      });
+      return score;
+    });
+
+    const sortedItems = items
+      .map((item, i) => ({ item, score: scores[i] }))
+      .filter((item) => item.score > 0)
+      .sort((a, b) => {
+        if (a.score === b.score) {
+          return new Date(b.pubDate) - new Date(a.pubDate);
+        }
+        return b.score - a.score;
+      })
+      .map((item) => item.item);
+
+    renderItems(sortedItems);
+  });
 
   main();
 </script>
