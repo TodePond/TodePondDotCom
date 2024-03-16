@@ -18,4 +18,16 @@ You can clean it up later if you want, but get it down now. You must write your 
 
 <br>
 
+<br>
+
+### Music adaptation
+
+by [ngons](https://mathstodon.xyz/@ngons/112105422898363468)
+
+<video controls>
+  <source src="1.mp4" type="video/mp4">
+</video>
+
+<br>
+
 Back to the [wikiblogarden](/wikiblogarden).
