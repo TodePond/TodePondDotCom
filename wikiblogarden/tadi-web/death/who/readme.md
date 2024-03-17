@@ -8,7 +8,7 @@ I've decided to shut down the project.
 
 Nobody bloody knows what the tadi web is, not even me.
 
-> You're probably sitting there right now, thinking "What is the tadi web? Never heard of her."
+> You're probably sitting there right now, thinking "Who's the tadi web? Never heard of her."
 
 This is because nobody's talking about the tadi web, not even me. And so it has stopped spreading, and so it has died.
 
