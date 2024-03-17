@@ -151,6 +151,8 @@
         } else if (item.media.type.startsWith("video")) {
           const media = document.createElement("video");
           media.src = item.media.url;
+          media.autoplay = true;
+          media.muted = true;
           media.controls = true;
           media.style.maxWidth = "100%";
           body.appendChild(media);
