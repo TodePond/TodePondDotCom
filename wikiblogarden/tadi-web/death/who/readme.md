@@ -54,7 +54,9 @@ By staying slippy, the tadi web can slip in and out of all [better computing](/w
 
 ## Is there any evidence for this?
 
-You ask a lot of questions. But sure, I can tell you that I use the tadi web for all my projects now, and I'm genuinely shocked in how it has changed things for me. I'm not trying to persuade you of this. I'm sharing this in order to be helpful. You're welcome to take it or leave it!
+You ask a lot of questions. But sure, I can tell you that I use the tadi web for all my projects now, and I'm genuinely shocked in how it has changed things for me (for the better).
+
+I'm not trying to persuade you of this. I'm sharing it in order to be helpful. You're welcome to take it or leave it!
 
 > "No [not like that](/wikiblogarden/men/no/not/like/that/)"
 
