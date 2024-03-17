@@ -6,7 +6,7 @@ I've decided to shut down the project.
 
 ## Why?
 
-Nobody's bloody knows what the tadi web is, not even me.
+Nobody bloody knows what the tadi web is, not even me.
 
 > You're probably sitting there right now, thinking "What is the tadi web? Never heard of her."
 
