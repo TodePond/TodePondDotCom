@@ -36,6 +36,8 @@ What's new this week?
 
 ## Bot went missing
 
+![ground](1.png)
+
 This week, [Flora Caulton](https://floracaulton.com/) made some concept art for an animation she's making for the next video, Top 99 Ways To Make Sand. And I love it.
 
 If you didn't notice, I like to 'connect' consecutive videos together in some sort of way, so that there's at least a semblence of continuity.
@@ -49,6 +51,8 @@ Flora's animation will appear at the beginning of Top 99, as a way of connecting
 
 ## Don't do maths
 
+![cake maybe](2.png)
+
 Most of the next video's music is part of an original score. ie: [Ivan Reese](https://ivanish.ca/) made it from scratch for this particular video.
 
 However, I'm also using one of his existing tracks. He's now made me an updated version of that track, so that it fits better into the video, and to what I'm using it for. I love it!
@@ -56,6 +60,8 @@ However, I'm also using one of his existing tracks. He's now made me an updated 
 We also discussed one of the other sections of the video, that doesn't have finalised music yet. I've blended together some of the different tracks to create a blend. There's a chance that Ivan might be able to do that blend himself, for a more seamless effect.
 
 ## Dream
+
+![99](3.png)
 
 In many of my recent videos, there's been a "dream" sequence towards the end of the video. The zoom out section in [Screens](https://youtu.be/Q4OIcwt8vcE), the dance section in [Arrows](https://youtu.be/DNBKdU6XrLY), the fractal section in [Define](https://youtu.be/ZMklf0vUl18), even the rainbow section of [Spellular](https://youtu.be/xvlsJ3FqNYU), and the real world section of [Tourism 2]. It's some section that goes a bit off-piste from the rest of the video. Some sort of right-angle twist. "Dream" is what I called those sections in my planning and notes.
 
@@ -71,6 +77,6 @@ I do wonder sometimes, why do I put so much time and detail into just a few shor
 
 **Thank you for enabling my unhealthy obsession with making weird youtube videos. This is all your fault. But yeah, really, thank you for your support, and welcome to all the new people this week. Wherever you are in the world, whatever you're doing, I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 438_<br>
+_Days since bot went missing: 403_<br>
+_Days since berd flew away: 66_
