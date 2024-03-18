@@ -2,7 +2,7 @@
 
 # True for me style
 
-If I make a claim it has to be true for me.
+If I make a claim, it has to be true for me.
 
 ## True for me
 
