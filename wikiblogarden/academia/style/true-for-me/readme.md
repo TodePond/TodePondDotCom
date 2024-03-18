@@ -20,4 +20,4 @@ All I can do is give my view. Take it or leave it, the rest is up to you.
 
 <br>
 
-Back to the [wikiblogarden](/wikiblarden).
+Back to the [wikiblogarden](/wikiblogarden).
