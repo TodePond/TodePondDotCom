@@ -1,6 +1,6 @@
 > This is part of a series of [writing style guides](/wikiblogarden/academia/style/two-beat).
 
-# True for me
+# True for me style
 
 If I make a claim it has to be true for me.
 
