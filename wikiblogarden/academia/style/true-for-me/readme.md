@@ -16,8 +16,8 @@ I think you see it.
 
 All I can do is give my view. Take it or leave it, the rest is up to you.
 
-> That's just my opinion anyway.
+> That's just how I see it anyway.
 
 <br>
 
-Back to the [wikiblogarden](/wikiblogarden).
+Back to the [wikiblogarden](/wikiblarden).
