@@ -56,6 +56,17 @@
     width: 250px;
     height: 250px;
   }
+
+  .headshot:hover {
+    /* background-color: #46ff80; */
+    outline: 2px solid #46ff80;
+  }
+
+  .headshot-link:hover {
+    background-color: transparent;
+    outline: none;
+  }
+
   @media (max-width: 750px) {
     header {
       flex-direction: column;
@@ -102,7 +113,7 @@
     </ul>
   </section>
   <section>
-    <a href="/wikiblogarden">
+    <a href="/wikiblogarden" class="headshot-link">
       <img class="headshot" src="/image/frog-me-cropped.jpeg" alt="Lu" />
     </a>
   </section>
