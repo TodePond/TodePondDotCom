@@ -14,16 +14,13 @@ I've also made a bunch of things about it! They're listed below.
 
 ## Talks
 
-- [Cellpond: Spatial programming without escape](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) @ LIVE @ SPLASH<br>
-- [Spatial programming pipe dream](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580) @ London creative coding<br>
-- [Spatial programming pipe dream](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk) @ Future of coding
+- [Cellpond: Spatial programming without escape](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) at LIVE / SPLASH<br>
+- [Spatial programming pipe dream](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580) at London Creative Coding<br>
+- [Spatial programming pipe dream](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk) @ Future of Coding
 
 ## Writing
 
-- You're reading it right now.
-- [Cellpond is not robust](./is-not-robust)
-- [The weirdest thing about cellpond](./the-weirdest-thing)
-- [Conservation and stamping](./conservation-and-stamping)
+- Search the [wikiblogarden](/feed) for `cellpond` to find all the posts about it.
 
 <hr>
 

@@ -1,3 +1,6 @@
+> The weekly TODEPOND PONDCAST is for paying supporters only. Please only listen / read if you've [paid](https://www.patreon.com/todepond) :)
+
+- All older pondcasts are available on my [patreon](https://www.patreon.com/todepond).
 - [Normalise sharing scrappy fiddles](demo)
 - [Perfect rhyme](perfect-rhyme)
 - [Set](set)
