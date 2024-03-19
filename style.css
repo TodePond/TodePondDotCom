@@ -68,6 +68,16 @@ a.danger:hover {
   outline: 2px solid #ff4346;
 }
 
+a.tertiary {
+  color: #9faeee;
+}
+
+a.tertiary:hover {
+  color: black;
+  background-color: #9faeee;
+  outline: 2px solid #9faeee;
+}
+
 p.secondary {
   color: #9faeee;
 }
