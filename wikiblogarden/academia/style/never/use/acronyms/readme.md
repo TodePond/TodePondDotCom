@@ -1,4 +1,4 @@
-# Never use acronyns
+# Never use acronyms
 
 Never use acronyms unless you don't need to know what the acronym stands for.
 
@@ -8,7 +8,7 @@ I did a [talk at SPLASH](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) la
 
 Sadly, I know exactly what INTERCAL stands for but I [wish I didn't](https://futureofcoding.org/episodes/064).
 
-## Never use acronyns
+## Never use acronyms
 
 Otherwise, never use acronyms if need to know what the acronym stands for. It excludes people and it's ugly as hell. It's very stupid.
 
