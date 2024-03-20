@@ -26,7 +26,7 @@ The worst is when someone tries to sound [smart](https://www.todepond.com/wikibl
 
 Yes it's quicker, but that's not always good. Maybe you should slow down for once in your life.
 
-Anyway it's just in IMHO FYI only so DWYW with it and TTYL and DDAIWD but HMU if you need me to SAH.
+Anyway it's just IMHO FYI only so DWYW with it and TTYL and DDAIWD but HMU if you need me to SAH.
 
 TTYL.
 
