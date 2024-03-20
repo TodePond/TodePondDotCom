@@ -10,7 +10,7 @@ Sadly, I know exactly what INTERCAL stands for but I [wish I didn't](https://fut
 
 ## Never use acronyns
 
-Apart from times like that, never use acronyms if you need to know what it stands for. It excludes people and it's ugly as hell. It's very stupid.
+Otherwise, never use acronyms if need to know what the acronym stands for. It excludes people and it's ugly as hell. It's very stupid.
 
 ## Always say the full thing
 
