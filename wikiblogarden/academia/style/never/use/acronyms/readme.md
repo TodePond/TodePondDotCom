@@ -2,7 +2,7 @@
 
 Never use acronyms unless you don't need to know what the acronym stands for.
 
-For example, I have no idea what [RSS](https://www.todepond.com/wikiblogarden/social-media/what-is-rss/) stands for and I have no desire to find out. I don't care what it stands for, but that doesn't stop me using it as a word of its own.
+For example, I have no idea what [RSS](https://www.todepond.com/wikiblogarden/social-media/what-is-rss/) stands for and I have no desire to find out. I simply don't care, but that doesn't stop me using it as a word of its own.
 
 I did a [talk at SPLASH](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) last year. I have no idea what SPLASH stands for but I bet it's something stupid. But it's fine because I don't need to understand what it means, and it seems like it's just a bit of fun.
 
