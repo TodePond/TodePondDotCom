@@ -14,7 +14,7 @@ Otherwise, never use acronyms if need to know what the acronym stands for. It ex
 
 ## Always say the full thing
 
-Always say [cellular automata](https://www.youtube.com/watch?v=WMJ1H3Ai-qs), and [programming language](https://www.youtube.com/watch?v=evdtjDGPhv0), and [human computer interface](https://www.youtube.com/watch?v=sQYUQNozljo) and all that rubbish. And [social and emotional mental health](https://www.todepond.com/wikiblogarden/art/in-a-video/), and [special educational needs](https://www.todepond.com/wikiblogarden/work/thank-you-cards/). And [senior leadership team](https://www.todepond.com/wikiblogarden/sayings/trust/).
+Always say [cellular automata](https://www.youtube.com/watch?v=WMJ1H3Ai-qs), and [programming language](https://www.youtube.com/watch?v=evdtjDGPhv0), and [human computer interaction](https://www.youtube.com/watch?v=sQYUQNozljo) and all that rubbish. And [social and emotional mental health](https://www.todepond.com/wikiblogarden/art/in-a-video/), and [special educational needs](https://www.todepond.com/wikiblogarden/work/thank-you-cards/). And [senior leadership team](https://www.todepond.com/wikiblogarden/sayings/trust/).
 
 It might even highlight to you (and others) how overly wordy some of these words are.
 
