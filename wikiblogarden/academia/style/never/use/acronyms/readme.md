@@ -20,7 +20,7 @@ It might even highlight to you (and others) how overly wordy some of these words
 
 ## The worst
 
-The worst is when someone tries to sound smart by using lots of acronyms in one go. I see it a lot at tech events.
+The worst is when someone tries to sound [smart](https://www.todepond.com/wikiblogarden/better-computing/just/) by using lots of acronyms in one go. I see it a lot at tech events.
 
 ## "But it's quicker"
 
