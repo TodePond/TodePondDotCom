@@ -30,7 +30,7 @@ I put my full trust in an american company that only cares about profits. I mean
 
 It was a valuable lesson to not rely on a single pillar. So I decided to build my own part of the web, that didn't do that.
 
-The [tadi web](https://tadiweb.com) lives on, even if the pillars underneath it due.
+The [tadi web](https://tadiweb.com) lives on, even if the pillars underneath it die.
 
 ## Todepond dot com
 
