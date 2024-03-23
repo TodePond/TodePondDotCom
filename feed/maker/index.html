@@ -42,19 +42,16 @@ This tool makes an RSS feed for my website. Put the info of each page into the
 form, and then hit the button to make the feed. Then copy-paste it into
 <code>feed/index.xml</code>
 
-<h2></h2>
 <noscript
   >This website uses jumpyscript to load and edit the feed. I'm planning to make
   this without needing jumpyscript soon.</noscript
 >
 
-<main id="items"></main>
-
 <template id="item-template">
   <section class="item-container">
     <div class="title-input-row">
       <input placeholder="Title" oninput="makeFeed()" type="text" />
-      <button class="delete-button">Delete item</button>
+      <button class="delete-button danger">Delete item</button>
     </div>
     <input placeholder="Description" oninput="makeFeed()" type="text" />
     <input placeholder="Link" oninput="makeFeed()" type="text" />
@@ -62,12 +59,23 @@ form, and then hit the button to make the feed. Then copy-paste it into
   </section>
 </template>
 
-<button onclick="addItem()">Add item</button>
-
 <textarea oninput="renderItemsFromFeed()" id="feed"></textarea>
 
-<button onclick="copyFeed()">Copy feed</button>
-<button onclick="goToRepo()">Go to repo</button>
+<section
+  style="display: flex; align-items: center; justify-content: space-between"
+>
+  <button onclick="copyFeed()">Copy feed</button>
+  <a href="https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml">
+    Go to repo
+  </a>
+</section>
+<hr style="margin-top: 25px" />
+
+<button onclick="addItem()" style="margin-top: 20px" class="primary">
+  Add item
+</button>
+
+<main id="items" style="padding-top: 20px"></main>
 
 <script>
   const getCurrentFeed = async () => {
@@ -186,7 +194,7 @@ ${feedItems}
     const dateValue = convertDateToDateInputFormat(new Date());
     dateInput.value = dateValue;
 
-    itemsDiv.append(itemForm);
+    itemsDiv.prepend(itemForm);
     return section;
   };
 
@@ -195,12 +203,6 @@ ${feedItems}
     feed.select();
     feed.setSelectionRange(0, 99999999);
     document.execCommand("copy");
-  };
-
-  const goToRepo = () => {
-    window.location.replace(
-      "https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml"
-    );
   };
 
   const convertDateToDateInputFormat = (date) => {
