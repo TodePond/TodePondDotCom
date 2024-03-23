@@ -6,7 +6,7 @@ When a disney villain took over twitter, twitter died for me.
 
 I found it very sad because I had spent so much time putting my work on twitter, and building friends there. It allowed me to build the community that I'm now part of today.
 
-I didn't want to support a platform that platforms hateful views. But I didn't want to move somewhere else. Something had to budge.
+I didn't want to support a platform that platformed hateful views. But I didn't want to move somewhere else. Something had to budge.
 
 ## I ended it
 
@@ -14,7 +14,7 @@ I stopped posting my work on twitter, and I immediately felt ten times better. T
 
 ## The elephant place
 
-I started posting on mastodon instead. At first, I hated how much worse it workef. But funnily enough, that has now become part of the charm for me.
+I started posting on mastodon instead. At first, I hated how much worse it worked. But funnily enough, that has now become part of the charm for me.
 
 Huge waves of my communities moved there too, and we've all stayed there ever since. I love it. It feels like home.
 
