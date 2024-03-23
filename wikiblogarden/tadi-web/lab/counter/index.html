@@ -20,7 +20,7 @@
 <p>This is a counter. Push it and the number goes up for <em>everyone</em>.</p>
 
 <button>Count: <span id="count">0</span></button>
-<span id="loading" class="secondary" style="display: none">...</span>
+<span id="loading" class="secondary" style="display: inline">...</span>
 
 <script type="module">
   const button = document.querySelector("button");
@@ -29,7 +29,11 @@
 
   let imaginedCount = getLocalCount();
   setDocumentCount(imaginedCount);
-  pullRemoteCount();
+  pullRemoteCount().then(() => {
+    if (messagesPending === 0) {
+      loading.style.display = "none";
+    }
+  });
 
   setInterval(refreshCount, 5000);
 
@@ -42,6 +46,7 @@
     loading.style.display = "inline";
     window.onbeforeunload = () => true;
     messagesPending++;
+    // loading.textContent = new Array(messagesPending).fill("...").join(" ");
 
     incrementRemoteCount().then((remoteCount) => {
       if (remoteCount > imaginedCount) {
@@ -51,6 +56,8 @@
       }
 
       messagesPending--;
+      // loading.textContent = new Array(messagesPending).fill("...").join(" ");
+
       if (messagesPending === 0) {
         loading.style.display = "none";
         window.onbeforeunload = null;
