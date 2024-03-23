@@ -33,23 +33,29 @@
 
   setInterval(refreshCount, 5000);
 
+  let messagesPending = 0;
+
   button.addEventListener("click", async () => {
     imaginedCount = imaginedCount + 1;
     setDocumentCount(imaginedCount);
     setLocalCount(imaginedCount);
     loading.style.display = "inline";
     window.onbeforeunload = () => true;
+    messagesPending++;
 
-    const remoteCount = await incrementRemoteCount();
-    if (remoteCount > imaginedCount) {
-      imaginedCount = remoteCount;
-      setDocumentCount(remoteCount);
-      setLocalCount(remoteCount);
-    }
-    if (remoteCount === imaginedCount) {
-      loading.style.display = "none";
-      window.onbeforeunload = null;
-    }
+    incrementRemoteCount().then((remoteCount) => {
+      if (remoteCount > imaginedCount) {
+        imaginedCount = remoteCount;
+        setDocumentCount(remoteCount);
+        setLocalCount(remoteCount);
+      }
+
+      messagesPending--;
+      if (messagesPending === 0) {
+        loading.style.display = "none";
+        window.onbeforeunload = null;
+      }
+    });
   });
 
   function getLocalCount() {
@@ -73,19 +79,28 @@
   }
 
   async function incrementRemoteCount() {
-    const response = await fetch(
-      "https://todepond-incremementCloudLabCount.web.val.run"
+    return fetch("https://todepond-incremementCloudLabCount.web.val.run").then(
+      async (response) => {
+        if (!response.ok) {
+          alert("Error sending click :(");
+          throw new Error("Failed to increment count");
+        }
+        return response.json();
+      }
     );
-    return await response.json();
   }
 
   async function pullRemoteCount() {
     const remoteCount = await getRemoteCount();
     setDocumentCount(remoteCount);
     setLocalCount(remoteCount);
+    imaginedCount = remoteCount;
   }
 
   async function refreshCount() {
+    if (loading.style.display === "inline") {
+      return;
+    }
     const remoteCount = await getRemoteCount();
     if (remoteCount > imaginedCount) {
       imaginedCount = remoteCount;
