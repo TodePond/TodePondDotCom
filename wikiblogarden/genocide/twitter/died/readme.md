@@ -10,7 +10,9 @@ I didn't want to support a platform that platformed hateful views. But I didn't 
 
 ## I ended it
 
-I stopped posting my work on twitter, and I immediately felt ten times better. Though it always was a little sad. I definitely felt some FOMO from time to time.
+I stopped posting my work on twitter, and I immediately felt ten times better.
+
+Though it always was a little sad. I definitely felt some FOMO from time to time.
 
 ## The elephant place
 
