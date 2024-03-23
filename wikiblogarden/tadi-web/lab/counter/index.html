@@ -38,6 +38,7 @@
     setDocumentCount(imaginedCount);
     setLocalCount(imaginedCount);
     loading.style.display = "inline";
+    window.onbeforeunload = () => true;
 
     const remoteCount = await incrementRemoteCount();
     if (remoteCount > imaginedCount) {
@@ -47,6 +48,7 @@
     }
     if (remoteCount === imaginedCount) {
       loading.style.display = "none";
+      window.onbeforeunload = null;
     }
   });
 
