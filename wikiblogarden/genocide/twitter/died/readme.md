@@ -28,7 +28,9 @@ It felt like twitter was ripped out from under my feet. I completely relied on i
 
 I put my full trust in an american company that only cares about profits. I mean, looking back, I feel like an idiot.
 
-It was a valuable lesson to not rely on a single pillar. So I decided to build my own part of the web, that didn't do that. The [tadi web](https://tadiweb.com) lives on, even if the pillars underneath it due.
+It was a valuable lesson to not rely on a single pillar. So I decided to build my own part of the web, that didn't do that.
+
+The [tadi web](https://tadiweb.com) lives on, even if the pillars underneath it due.
 
 ## Todepond dot com
 
@@ -38,7 +40,7 @@ It has brought me nothing but joy and opportunity!
 
 ## Send them here
 
-I still post to [twitter](https://twitter.com/todepond), but I don't put my work there anymore. Instead, I send them here, to my house!
+I still post to [twitter](https://twitter.com/todepond), but I don't put my work there anymore. Instead, I send people here, to my house!
 
 I treat my twitter like an advert, or billboard, or portfolio, for myself. Kinda like a linkedin. So I never host my personal work there.
 
