@@ -64,7 +64,7 @@ form, and then hit the button to make the feed. Then copy-paste it into
 <section
   style="display: flex; align-items: center; justify-content: space-between"
 >
-  <button onclick="copyFeed()">Copy feed</button>
+  <button onclick="copyFeed()" id="copy-feed-button">Copy feed</button>
   <a href="https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml">
     Go to repo
   </a>
@@ -108,6 +108,10 @@ form, and then hit the button to make the feed. Then copy-paste it into
   const renderItems = (items) => {
     const itemsDiv = document.getElementById("items");
     itemsDiv.innerHTML = "";
+
+    items.sort((a, b) => {
+      return new Date(b.pubDate) - new Date(a.pubDate);
+    });
 
     items.forEach((item, i) => {
       const itemElement = addItem();
@@ -194,15 +198,27 @@ ${feedItems}
     const dateValue = convertDateToDateInputFormat(new Date());
     dateInput.value = dateValue;
 
-    itemsDiv.prepend(itemForm);
+    itemsDiv.append(itemForm);
     return section;
   };
 
+  const copyFeedButton = document.querySelector("#copy-feed-button");
+  let copies = 0;
   const copyFeed = () => {
     const feed = document.getElementById("feed");
     feed.select();
     feed.setSelectionRange(0, 99999999);
     document.execCommand("copy");
+    feed.blur();
+
+    copyFeedButton.textContent = "Copied!";
+    copies++;
+    setTimeout(() => {
+      copies--;
+      if (copies <= 0) {
+        copyFeedButton.textContent = "Copy feed";
+      }
+    }, 1000);
   };
 
   const convertDateToDateInputFormat = (date) => {
