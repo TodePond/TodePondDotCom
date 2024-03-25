@@ -22,7 +22,7 @@ They're only supposed to move fashion forwards. They're supposed to be radical a
 
 You might become motivated to make something real based on what you see. Can you take an idea and put it into practice? Or can you not?
 
-My bet is that, if the fashion show is good, you leave with broader horizons. You leave wanting to build something new.
+My bet is that, if the fashion show is good, you leave with broader horizons. And you leave wanting to build something new.
 
 ## You might hate it
 
