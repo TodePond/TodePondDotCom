@@ -10,7 +10,7 @@ The clothes on the catwalk are ridiculous. They're impractical and weird. They'r
 
 ## They move fashion forwards
 
-It doesn't matter how genuinely viable the outfits actually are. They're not supposed to be sold in the supermarket. They're not supposed to be worn by the masses.
+It doesn't matter how genuinely viable the outfits are. They're not supposed to be sold in the supermarket. They're not supposed to be worn by the masses.
 
 They're only supposed to move fashion forwards. They're supposed to be radical and provocative. They get you to think.
 
