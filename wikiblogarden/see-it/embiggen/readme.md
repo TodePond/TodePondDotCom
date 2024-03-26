@@ -1,6 +1,6 @@
 # Embiggen
 
-If you're doing a demo to an audience, you must embiggen your screen. 
+If you're giving a demo to an audience, you must embiggen your screen. 
 
 ## Embiggen
 
@@ -30,7 +30,7 @@ But no! You need to make it bloody big. It's often the deciding factor.
 
 ## Stevelike tip
 
-I actually learned this from my boss [Steve](https://twitter.com/steveruizok), who's known for calling out "embiggen" during every [future of coding](https://futureofcoding.org/) meetup.
+I actually learned this from my boss [Steve](https://twitter.com/steveruizok), who's known for calling out "embiggen" during every single [future of coding](https://futureofcoding.org/) meetup.
 
 <br>
 
