@@ -5,6 +5,13 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
+  			<title>Fashion show</title>
+  			<pubDate>Mon, 25 Mar 2024 06:42:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/research/fashion/show</link>
+  			<guid>https://www.todepond.com/wikiblogarden/research/fashion/show</guid>
+  			<description>Most of my coding projects are fashion shows.</description>
+  		</item>
+		<item>
   			<title>Counter</title>
   			<pubDate>Sat, 23 Mar 2024 11:33:00 GMT</pubDate>
   			<link>https://www.todepond.com/wikiblogarden/tadi-web/lab/counter/</link>
@@ -754,11 +761,11 @@
   			<description>Todepond dot com is my wiki or blog or digital garden. I made it because Devine told me to. Let me explain what happened…</description>
   		</item>
 		<item>
-  			<title>Fashion show</title>
-  			<pubDate>Mon, 25 Mar 2024 06:42:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/research/fashion/show</link>
-  			<guid>https://www.todepond.com/wikiblogarden/research/fashion/show</guid>
-  			<description>Most of my coding projects are fashion shows.</description>
+  			<title>Embiggen</title>
+  			<pubDate>Tue, 26 Mar 2024 21:54:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/see-it/embiggen</link>
+  			<guid>https://www.todepond.com/wikiblogarden/see-it/embiggen</guid>
+  			<description>If you're giving a demo to an audience, you must embiggen your screen.</description>
   		</item>
   </channel>
 </rss>
