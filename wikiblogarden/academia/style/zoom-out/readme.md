@@ -2,7 +2,7 @@
 
 # Zoom out style
 
-To write in this style, start with a zoomed out view of everything, then zoom in.
+Start with a zoomed out view of everything, then zoom in.
 
 ## Overview
 
