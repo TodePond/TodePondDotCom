@@ -24,7 +24,7 @@ If someone needs to embiggen, you need to tell them, for everyone's sake. Call o
 
 ## Demo tips
 
-When people ask me for tips on how to do good demos, or talks, I think they usually expect something more high-level. Like "plan ahead thoroughly" or "think through the structure" or "keep it relevant".
+When people ask me for tips on how to do good [demos](https://youtu.be/cF2OF75ivZM), or [talks](https://youtu.be/eQgxFuw8f1U), I think they usually expect something more high-level. Like "plan ahead thoroughly" or "think through the structure" or "keep it relevant".
 
 But no! You need to make it bloody big. It's often the deciding factor. 
 
