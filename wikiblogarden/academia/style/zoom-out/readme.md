@@ -30,7 +30,7 @@ So I guess you can predict that we're going to zoom out again now.
 
 And we'll go even further. We'll zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
 
-Finally, we can see what's going on. It has become meta. So now it's time to wrap it all up into a neat conclusion.
+Finally, we can see what's going on. It has become meta (ugh, so cliché). So now it's time to wrap it all up into a neat conclusion.
 
 ## Zoom out
 
