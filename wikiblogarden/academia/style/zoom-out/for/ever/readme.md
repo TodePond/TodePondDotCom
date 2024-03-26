@@ -6,4 +6,4 @@ But every now and then, it might resonate with one person, maybe one in a thousa
 
 <br>
 
-Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/forever) (for real this time).
+Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever) (for real this time).
