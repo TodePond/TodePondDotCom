@@ -64,7 +64,7 @@ Let them believe that they know what it is by giving them some truth to hold ont
 
 ## Start zooming out
 
-Now show them something that breaks their current mental model, but don't show them *everything* yet. Allow them to construct a new theory about what is going on.
+Now show them something that breaks their current mental model, but don't show them *everything* yet. Allow them to construct a new theory about what's going on.
 
 ## Zoom out again
 
@@ -106,7 +106,7 @@ Zoom out style is a style of writing where you say the same thing again and agai
 
 ## Zoom out style
 
-It's a stupid style of joke where you speak with less and less detail over time.
+It's a stupid style of joke writing where you speak with less and less detail over time.
 
 ## Zoom out style
 
@@ -158,3 +158,8 @@ Lu x
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/forever).
+
+
+<br>
+
+So it becomes this stupid game of chicken where you [push](https://www.todepond.com/wikiblogarden/repetition/clowning/) how far you can keep going.
