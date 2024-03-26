@@ -134,9 +134,11 @@ It's a guide for writing where you keep coming out.
 
 <br>
 
-> Ok but really, is zoom out style really a writing style, or is this all just a stupid joke?
+<br>
 
-<hr>
+<br>
+
+> Is zoom out style real?
 
 <br>
 
