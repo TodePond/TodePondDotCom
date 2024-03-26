@@ -8,11 +8,11 @@ Start with a zoomed out view of everything, then zoom in.
 
 In this blog post, I'll introduce you to one of my more common writing styles for talks, videos, and articles.
 
-First, I'll show you how to set the stage by starting from a zoomed out overview. Then I'll show you how to focus on specific points in detail by zooming in on various areas. And finally, I'll show you how to return to the original zoomed out view, wrapping it all together in a satisfying conclusion.
+First, I'll show you how to set the stage by starting from a zoomed out overview. Then I'll show you how to focus on specific points by zooming in on various areas in detail. And finally, I'll show you how to return to the original zoomed out view, wrapping it all together in a satisfying conclusion.
 
 ## Zoom out
 
-Except, none of that was true. Everything I've told you up until now was a lie.
+Except, none of that was true. Everything I just told you was a lie.
 
 We weren't actually zoomed out at all. We were extremely zoomed in. So much so, that you couldn't see that I was 'in character' for that first section, and that I was lying to you.
 
