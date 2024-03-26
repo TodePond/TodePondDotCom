@@ -4,7 +4,7 @@ If you're giving a demo to an audience, you must embiggen your screen.
 
 ## Embiggen
 
-If you're doing a demo to an audience, where you're showing your screen - it could be in person, or on a video call - then you must zoom in. 
+If you're giving a demo to an audience, where you're showing your screen - it could be in person, or on a video call - then you must zoom in. 
 
 Zoom in until it feels like you've gone too far. And then zoom in the same amount again. 
 
