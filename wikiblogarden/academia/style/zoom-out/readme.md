@@ -142,9 +142,7 @@ It's a style of writing where you keep stepping back.
 
 <br>
 
-## Zoom out style
-
-> Yeah, so that's zoom out style. I don't think it comes across very well in blog post format, but hopefully this is just a dry explainer about how I think about my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
+> Yeah so that's zoom out style. I don't think it comes across very well in blog post format, but hopefully this is just a dry explainer about how I think about my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
 
 <br>
 
