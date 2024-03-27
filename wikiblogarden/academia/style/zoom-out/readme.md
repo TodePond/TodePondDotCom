@@ -36,7 +36,7 @@ Finally, we can see what's going on from the outside. It's becoming meta (ugh) a
 
 We don't reach the conclusion. We zoom out again-
 
-And it's becoming tiresome now. The law of diminishing returns has been broken, but we'll keep on going. Get ready to-
+And it's becoming tiresome now. The law of diminishing returns has been broken, but we'll keep on going anyway. Get ready to-
 
 ## Zoom out
 
