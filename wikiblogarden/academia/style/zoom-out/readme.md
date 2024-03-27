@@ -1,4 +1,4 @@
-> This is part of a larger series of [writing style guides](https://www.todepond.com/wikiblogarden/academia/style/true-for-me/).
+> This is part of a larger series of [writing style guides](https://www.todepond.com/wikiblogarden/academia/style).
 
 # Zoom out style
 
