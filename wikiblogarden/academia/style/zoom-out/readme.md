@@ -2,7 +2,7 @@
 
 # Zoom out style
 
-Start with a zoomed out view. Then zoom in.
+Start zoomed out. Then zoom in.
 
 ## Overview
 
@@ -56,7 +56,7 @@ Yet again, and-
 
 # Zoom out style
 
-Start with a zoomed in view. Then zoom out.
+Start zoomed in. Then zoom out.
 
 ## Start zoomed in
 
