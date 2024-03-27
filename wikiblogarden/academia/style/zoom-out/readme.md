@@ -20,7 +20,7 @@ But why would I deceive you? To understand better, we'll now zoom in on the lie 
 
 ## Zoom out
 
-Except, we won't do that. Instead, we'll zoom out again, and look at everything from a higher level.
+Except, we won't do that. Instead, we zoom out again, and look at everything from a higher level.
 
 What's happened so far? I told you that we'd zoom in, then we zoomed out. I told you again that we'd zoom in, then we zoomed out again.
 
@@ -28,15 +28,15 @@ Can you guess what's coming next?
 
 ## Zoom out
 
-We'll go even further. We'll zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
+We go even further. We zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
 
-Finally, we can see what's going on from the outside. It's becoming meta (ugh). And now it's time to wrap it all up into a neat conclusion. But you know that's not going to happen.
+Finally, we can see what's going on from the outside. It's becoming meta (ugh). And now it's time to wrap it all up into a neat conclusion. But you know that we won't do that.
 
 ## Zoom out
 
-Except, we don't reach the conclusion. We'll zoom out again-
+We don't reach the conclusion. We zoom out again-
 
-And it's becoming tiresome now. The law of diminished returns has been broken, but we'll keep on going. Get ready to-
+And it's becoming tiresome now. The law of diminishing returns has been broken, but we'll keep on going. Get ready to-
 
 ## Zoom out
 
@@ -52,19 +52,21 @@ Yet again, and-
 
 <br>
 
+<br>
+
 # Zoom out style
 
-To write in this style, start with a zoomed in view, and then zoom out.
+Start with a zoomed in view. Then zoom out.
 
 ## Start zoomed in
 
 Gather the intrigue of your audience by showing them part of something, but not the whole thing. But let them believe that they can see the whole thing.
 
-Let them believe that they know what it is by giving them some truth to hold onto.
+Let them believe that they know what it is - by giving them some truth to hold onto.
 
 ## Start zooming out
 
-Now show them something that breaks their current mental model, but don't show them *everything* yet. Allow them to construct a new theory about what's going on.
+Now show them something that breaks their current mental model - but don't show them *everything* yet. Allow them to construct a new theory about what's going on.
 
 ## Zoom out again
 
@@ -126,7 +128,7 @@ It's a style of zooming out.
 
 ## Zoom out style
 
-It's a guide for writing where you keep coming out.
+It's a style of writing where you keep stepping back.
 
 <br>
 
@@ -138,13 +140,13 @@ It's a guide for writing where you keep coming out.
 
 <br>
 
-> Is zoom out style real?
+> Is zoom out for real? or is it just a joke?
 
 <br>
 
 ## Zoom out style
 
-Yeah, so that's zoom out style. I don't think it comes across very well in a blog post format, but hopefully this is just a dry explainer about how I think my videos and talks and stuff. I really do think in terms of zoom out style for [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s), [videos](https://youtu.be/Q4OIcwt8vcE) and [articles](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions feel free to email me at todepond at gmail dot com.
+Yeah, so that's zoom out style. I don't think it comes across very well in blog post format, but hopefully this is just a dry explainer about how I think my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
 
 All the best!
 
