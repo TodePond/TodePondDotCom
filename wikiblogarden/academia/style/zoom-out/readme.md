@@ -8,7 +8,7 @@ Start with a zoomed out view. Then zoom in.
 
 In this blog post, I'll introduce one of my favourite writing styles for talks, videos, articles, and more.
 
-First, I'll show you how to set the stage, by starting from a zoomed out overview. Then I'll show you how to focus on specific points in detail, by zooming in close on various parts. And finally, I'll show you how to return to the original zoomed out view, wrapping it all together in a satisfying conclusion.
+First, I'll show you how to set the stage - by starting from a zoomed out overview. Then I'll show you how to focus on specific points in detail - by zooming in close on various parts. And finally, I'll show you how to return to the original zoomed out view, wrapping it all together into a satisfying conclusion.
 
 ## Zoom out
 
