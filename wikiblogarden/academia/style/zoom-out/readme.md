@@ -159,6 +159,6 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 <br>
 
-So it becomes this stupid game of chicken where you [push](https://www.todepond.com/wikiblogarden/repetition/clowning/) how far you can keep going.
+So it becomes this stupid game of chicken where you keep pushing how far you can go.
 
-Anyway, this post wasn't actually the zoom out style guide. The real zoom out style guide is [here](/wikiblogarden/academia/style/zoom-out/for/real).
+Anyway, this post wasn't actually the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
