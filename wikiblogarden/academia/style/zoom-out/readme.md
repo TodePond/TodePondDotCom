@@ -22,13 +22,13 @@ But why would I deceive you? To understand better, we'll now zoom in on the lie 
 
 Except, we won't do that. Instead, we'll zoom out again, and look at everything from a higher level.
 
-Let's think. What just happened? I told you that we'd zoom in, and then we zoomed out. I told you again that we'd zoom in, and then we zoomed out.
+What's happened so far? I told you that we'd zoom in, then we zoomed out. I told you again that we'd zoom in, then we zoomed out again.
 
-So I guess you can predict that we're going to zoom out again now.
+Can you guess what's coming next?
 
 ## Zoom out
 
-And we'll go even further. We'll zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
+We'll go out even further. We'll zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
 
 Finally, we can see what's going on. It has become meta (ugh, so cliché). So now it's time to wrap it all up into a neat conclusion.
 
