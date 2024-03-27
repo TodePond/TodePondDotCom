@@ -16,7 +16,7 @@ Except, none of that was true. Everything I just told you was a lie.
 
 We weren't actually zoomed out at all. We were extremely zoomed in. So much so, that you couldn't see that I was 'in character' for that first section, and that I was lying to you.
 
-But why would I deceive you? To understand better, we'll now zoom in on the lie itself, and take a closer look, analysing it in detail.
+But why would I do that? To understand better, we'll now zoom in on the lie itself, and take a closer look, analysing it in detail.
 
 ## Zoom out
 
