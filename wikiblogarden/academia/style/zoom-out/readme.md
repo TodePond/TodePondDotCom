@@ -22,7 +22,7 @@ But why would I do that? To understand better, we'll now zoom in on the lie itse
 
 Except, we won't do that. Instead, we'll zoom out again, and look at everything from a higher level.
 
-What's happened so far? I told you that we'd zoom in, then we zoomed out. I told you again that we'd zoom in, then we zoomed out again.
+What's happened so far? I told you that we'd zoom in, then we zoomed out. I told you that we'd zoom in, then we zoomed out.
 
 Can you guess what's coming next?
 
