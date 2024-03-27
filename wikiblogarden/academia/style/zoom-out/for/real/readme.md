@@ -1,6 +1,6 @@
 # Zoom out style
 
-Zoom out style is a style of storytelling where you start zoomed in, and then zoom out.
+Zoom out style is a style of storytelling where you start zoomed in, then zoom out.
 
 ## Start zoomed in
 
