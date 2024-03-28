@@ -16,7 +16,7 @@ Anyway, [there it is](https://youtu.be/nER7-DVLEjA?si=mV3XsqqX-8RHaFz0).
 
 ## tldraw voice
 
-[Hey](https://twitter.com/tldraw)
+Hey
 
 come over here a second
 
@@ -24,13 +24,13 @@ let me show you this style of content we're building
 
 we share it around internally, so i may as well show it to you as well
 
-here, look over my shoulder
+here, look over my [shoulder](https://twitter.com/tldraw)
 
 ## DreamBerd Voice
 
 On this day today, on this very single day, we proudly present to you this presentation. 
 
-Many programmers have been saying that "DevRel voice is evil" and this is what passes for programming humour [nowadays](https://github.com/todepond/dreamberd).
+Many programmers have been saying that "DevRel voice is bad" and this is what passes for programming humour [nowadays](https://github.com/todepond/dreamberd).
 
 <br>
 
