@@ -52,7 +52,23 @@ Yet again, and-
 
 <br>
 
+<br><br>
+
 <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
 
 # Zoom out style
 
@@ -158,13 +174,25 @@ What is zoom out style?
 
 Zoom out style is a style of writing where you say the same thing again and again and again, from higher and higher levels.
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+
 ## Zoom out style
 
 It's a style of writing where you speak with less and less detail over time.
-
-## Zoom out style
-
-It's a fractal writing technique.
 
 <br>
 
