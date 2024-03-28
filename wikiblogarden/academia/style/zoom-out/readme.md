@@ -100,6 +100,9 @@ Let them think they know what's going on. And then-
 
 Keep breaking their mental model until they give up trying to make new ones. 
 
+<br>
+
+
 Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 <br>
@@ -225,6 +228,9 @@ It's a style of writing where you speak with less and less detail over time.
 
 
 > Anyway so that's zoom out style. I don't think it comes across very well in blog post format, but hopefully this is just a dry explainer about how I think about my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
+
+<br>
+
 
 Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
