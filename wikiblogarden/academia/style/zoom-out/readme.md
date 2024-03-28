@@ -84,7 +84,7 @@ Let them believe that they know what it is - by giving them some truth to hold o
 
 ## Start zooming out
 
-Now show them something that breaks their current mental model - but don't show them *everything* yet. Allow them to construct a new theory about what's going on.
+Now show them something that breaks their current mental model - but don't show them everything yet. Allow them to construct a new theory about what's going on.
 
 ## Zoom out again
 
