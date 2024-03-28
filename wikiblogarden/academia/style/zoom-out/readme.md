@@ -220,4 +220,4 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 
 
-Actually, I was lying to you. This wasn't the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
+Actually, I was lying to you - this wasn't the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
