@@ -8,6 +8,7 @@ But every now and then, it might resonate with one person, maybe one in a thousa
 
 Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever) (for real this time).
 
+
 <script>
   const count= localStorage.get("zoom-count") ?? 0
   const again = document. querySelector("#again")
