@@ -20,9 +20,9 @@ Anyway, [there it is](https://youtu.be/nER7-DVLEjA?si=mV3XsqqX-8RHaFz0).
 
 come over here a second
 
-let me show you this style of content we've been building
+let me show you this style of content we're building
 
-we share it around internally, so we may as well show it to you as well
+we share it around internally, so i may as well show it to you as well
 
 here, look over my shoulder
 
