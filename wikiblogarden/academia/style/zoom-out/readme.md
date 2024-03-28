@@ -181,56 +181,9 @@ What is zoom out style?
 
 Zoom out style is a style of writing where you say the same thing again and again and again, from higher and higher levels.
 
-<br>
+> Ok to be honest, I don't think that zoom out style it comes across very well in blog post format, but hopefully this guide is just a dry explainer on how I think about my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
 
 <br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-
-
-## Zoom out style
-
-It's a style of writing where you speak with less and less detail over time.
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-
-
-> Anyway so that's zoom out style. I don't think it comes across very well in blog post format, but hopefully this is just a dry explainer about how I think about my [videos](https://youtu.be/Q4OIcwt8vcE) and [talks](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s) and [stuff](https://www.todepond.com/report/definitions-that-dont-matter/). If you have any questions, feel free to email me at todepond at gmail dot com.
-
-<br>
-
 
 Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
@@ -249,10 +202,6 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 <br>
 
-
-
-<hr>
-
 <br>
 
 <br>
@@ -271,4 +220,4 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 
 
-Anyway, this post wasn't actually the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
+Actually, I was lying. This wasn't the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
