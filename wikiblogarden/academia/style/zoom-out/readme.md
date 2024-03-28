@@ -108,27 +108,11 @@ Zoom out style is a style of writing where you say the same thing again and agai
 
 ## Zoom out style
 
-It's a stupid style of joke writing where you speak with less and less detail over time.
+It's a style of writing where you speak with less and less detail over time.
 
 ## Zoom out style
 
-It's a backwards fractal writing technique.
-
-## Zoom out style
-
-It's zoom out style.
-
-## Zoom out style
-
-It's a style.
-
-## Zoom out style 
-
-It's a style of zooming out. 
-
-## Zoom out style
-
-It's a style of writing where you keep stepping back.
+It's a fractal writing technique.
 
 <br>
 
@@ -157,6 +141,6 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
 
 <br>
 
-So it becomes this stupid game of chicken where you keep pushing how far you can go.
+<br>
 
 Anyway, this post wasn't actually the zoom out style guide. The real zoom out style guide can be found [here](/wikiblogarden/academia/style/zoom-out/for/real).
