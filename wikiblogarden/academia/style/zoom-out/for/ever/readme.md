@@ -10,10 +10,11 @@ Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever) (fo
 
 
 <script>
-  const count= localStorage.get("zoom-count") ?? 0
+  const key = "zoom-count"
+  const count= localStorage.getItem(key) ?? 0
   const again = document. querySelector("#again")
   for (let i = 0; i < count; i++) {
     again. textContent += " (again)"
   }
-  localStorage.set("zoom-count", count + 1)
+  localStorage.setItem(key, count + 1)
 </script>
