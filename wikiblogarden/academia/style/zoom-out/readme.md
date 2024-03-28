@@ -84,8 +84,6 @@ Keep breaking their mental model until they give up trying to make new ones.
 
 <br>
 
-Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/ever).
-
 <br>
 
 <br>
