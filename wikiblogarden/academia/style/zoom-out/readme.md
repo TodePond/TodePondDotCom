@@ -20,23 +20,23 @@ But why would I do that? To understand better, we'll now zoom in on the lie itse
 
 ## Zoom out
 
-Except, we won't do that. Instead, we'll zoom out again, and look at everything from a higher level.
+Except, we won't do that. Instead, we'll zoom out again, and look at everything from an even higher level.
 
-What's happened so far? I told you that we'd zoom in, then we zoomed out. I told you that we'd zoom in, then we zoomed out.
+I told you that we'd zoom in, then we zoomed out. I told you that we'd zoom in, then we zoomed out.
 
 Can you guess what's coming next?
 
 ## Zoom out
 
-We go even further. We zoom out from the zooming out itself, and get an overview of the zooming out that's continuing to happen in front of us. 
+We go even further, zooming out from the zooming out itself, and get an overview of the zooming out that's continuing to zoom out in front of us. 
 
-Finally, we can see what's going on from the outside. It's becoming meta (ugh) and now it's time to wrap it all up into a neat conclusion.
+Finally, we can see what's going on from the outside. It's becoming meta (ugh). And now it's time to wrap it all up into a neat conclusion.
 
 ## Zoom out
 
-We don't reach the conclusion. We zoom out again-
+We zoom out again-
 
-And it's becoming tiresome now. The law of diminishing returns has been broken, but we'll keep on going anyway. Get ready to-
+And it's becoming tiresome now. The law of diminishing returns has been broken, and I'm losing your interest. But we'll keep on going anyway. Get ready to-
 
 ## Zoom out
 
