@@ -28,7 +28,7 @@ Can you guess what's coming next?
 
 ## Zoom out
 
-We go even further, zooming out from the zooming out itself, and get an overview of the zooming out that's continuing to zoom out in front of us. 
+We go even further, zooming out from the zooming out itself, and we get an overview of the zooming out that's continuing to zoom out in front of us. 
 
 Finally, we can see what's going on from the outside. It's becoming meta (ugh). And now it's time to wrap it all up into a neat conclusion.
 
