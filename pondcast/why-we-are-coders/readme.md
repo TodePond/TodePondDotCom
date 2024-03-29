@@ -28,8 +28,6 @@
   <source src="1.mp3" type="audio/mpeg">
 </audio>
 
-# TODEPOND PONDCAST: Why we are coders
-
 And so we return. For another weekly episode of the...
 
 🐸 TODEPOND PONDCAST 🐸
