@@ -25,7 +25,7 @@
 # TODEPOND PONDCAST: Why we are coders
 
 <audio controls>
-  <source src="1.m4a" type="audio/x-m4a">
+  <source src="1.mp3" type="audio/mpeg">
 </audio>
 
 # TODEPOND PONDCAST: Why we are coders
