@@ -38,6 +38,8 @@ What's new this week?
 
 ## Why we are coders
 
+![self image](1.png)
+
 I've been working with [Dave Ackley](https://www.cs.unm.edu/~ackley/). We've been trying to put together an essay to submit to [splash](https://2024.splashcon.org/), where I talked [last year](https://www.youtube.com/watch?v=cBYudbaqHAk&t=6704s).
 
 Specifically, we're hoping to submit to [onward essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays), with an unusual essay about language and code. It's in the form of a dialog between me and Dave, where I ask him some questions, and I try to prod out some answers.
@@ -50,6 +52,8 @@ Who knows if we'll get accepted, or even finish it in time! The odds feel agains
 
 ## Fractal pulses
 
+![fractal bucket](2.png)
+
 I've been doing more work on [fractal bucket](https://www.patreon.com/posts/todepond-fractal-89529064), a future project.
 
 In fractal bucket, you send paint around pipes. And I've been exploring the different ways of how that can work. I want the paint to move forwards as if it were a pulse of slow electricity, leaving behind a trail.
@@ -59,6 +63,8 @@ It's been a little bit confusing figuring out which part of the paint is the 'fl
 Next up, I need to restructure the engine a little bit to support more complex paint behaviours (of both kinds) (of paints).
 
 ## 99 shots
+
+![sand](3.png)
 
 Work has continued on the next video, Top 99 Ways To Make Sand. [Flora](https://floracaulton.com/) has made some more concept art for an animated section. And I've been considering a new music track for one small part.
 
