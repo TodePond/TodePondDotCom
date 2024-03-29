@@ -1,6 +1,6 @@
-> This update is for [paying supporters](https://patreon.com/TodePond) of my work.<br>
+> This update is for paying supporters of my work.<br>
 > It's provided here, DRM-free :)<br>
-> Please only read or listen if you've paid!
+> Please only read or listen if you've <a href="https://patreon.com/TodePond" class="danger">paid</a>!
 
 <input id="paid-checkbox" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
 
