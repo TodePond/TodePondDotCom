@@ -12,7 +12,7 @@ If you think these ones are bad, just wait until you see the rejects!
 
 To make a [youtube video](https://youtube.com/@todepond), I put all of my ideas down onto the script, or storyboard, or timeline. And then I cut and cut and cut and cut until there's barely anything left. 
 
-What's left is the final core of what I want to get across, and nothing more (but maybe less).
+What's left is the final core of what I want to say, and nothing more (but maybe less).
 
 ## Talks
 
