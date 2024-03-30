@@ -46,4 +46,6 @@ It's a scrappy fiddle, just like you and me.
 
 > ❌ This blog post was rejected by quality control.
 
+<br>
+
 Back to the [wikiblogarden](/wikiblogarden).
