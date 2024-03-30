@@ -4,7 +4,7 @@ Most of the things I make don't make it through quality control.
 
 ## Wikiblogarden 
 
-I write tons and tons and tons of [blog posts](/wikiblogarden). Most of them don't make their way onto my website. Even less make it onto the feed. Even less get shared by me on social media. 
+I write tons and tons and tons of [blog posts](/wikiblogarden). Most of them don't make it onto my website. Even less make it onto the feed. Even less get shared on social media. 
 
 If you think these ones are bad, just wait until you see the rejects!
 
