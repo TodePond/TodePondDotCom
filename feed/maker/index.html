@@ -64,8 +64,14 @@ form, and then hit the button to make the feed. Then copy-paste it into
 <section
   style="display: flex; align-items: center; justify-content: space-between"
 >
-  <button onclick="copyFeed()" id="copy-feed-button">Copy feed</button>
-  <a href="https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml">
+  <section>
+    <button onclick="copyFeed()" id="copy-feed-button">Copy feed</button>
+    <span class="secondary" id="copied-count"></span>
+  </section>
+  <a
+    href="https://github.com/TodePond/TodePondDotCom/edit/main/feed/index.xml"
+    target="_blank"
+  >
     Go to repo
   </a>
 </section>
@@ -203,6 +209,7 @@ ${feedItems}
   };
 
   const copyFeedButton = document.querySelector("#copy-feed-button");
+  const copiedCount = document.querySelector("#copied-count");
   let copies = 0;
   const copyFeed = () => {
     const feed = document.getElementById("feed");
@@ -211,14 +218,8 @@ ${feedItems}
     document.execCommand("copy");
     feed.blur();
 
-    copyFeedButton.textContent = "Copied!";
     copies++;
-    setTimeout(() => {
-      copies--;
-      if (copies <= 0) {
-        copyFeedButton.textContent = "Copy feed";
-      }
-    }, 3000);
+    copiedCount.textContent = `Copied! ${copies > 1 ? ` x${copies}` : ""}`;
   };
 
   const convertDateToDateInputFormat = (date) => {
