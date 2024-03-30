@@ -6,7 +6,7 @@ Most of the things I make don't get through quality control.
 
 I write tons and tons and tons of [blog posts](/wikiblogarden). Most of them don't make their way onto my website. Even less make it onto the feed. Even less get shared by me on social media. 
 
-If you think this blog post is bad, just wait until you see the rejects!
+If you think these ones are bad, just wait until you see the rejects!
 
 ## Sandpond saga
 
