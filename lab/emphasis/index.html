@@ -1,0 +1,141 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Emphasis</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Emphasis</h1>
+
+<style>
+  main {
+    display: flex;
+    gap: 10px;
+    /* height: 100%; */
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  #output,
+  #input {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #input {
+    resize: vertical;
+    height: 200px;
+  }
+
+  #output {
+    font-family: sans-serif;
+    white-space: pre-wrap;
+  }
+
+  .emphasised {
+    display: inline-block;
+    /* overflow to next line */
+    white-space: pre-wrap;
+  }
+
+  br {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 620px) {
+    main {
+      flex-direction: column;
+    }
+
+    #input,
+    #output {
+      width: auto;
+    }
+  }
+</style>
+
+<main>
+  <textarea id="input">
+Use asterisks for *nested emphasis* and *more*.</textarea
+  >
+  <pre id="output"></pre>
+</main>
+<script type="module">
+  const input = document.getElementById("input");
+  const output = document.getElementById("output");
+
+  output.innerHTML = getHtmlFromMarkdown(input.value);
+
+  input.addEventListener("input", () => {
+    output.innerHTML = getHtmlFromMarkdown(input.value);
+  });
+
+  function getHtmlFromMarkdown(markdown) {
+    const asteriskCount = markdown.split("*").length - 1;
+    const midPoint = asteriskCount / 2;
+
+    let asterisksPassed = 0;
+    let html = "";
+
+    for (let i = 0; i < markdown.length; i++) {
+      const character = markdown[i];
+      if (character === "*") {
+        asterisksPassed++;
+
+        const isWaxing = asterisksPassed < midPoint;
+        const level = isWaxing
+          ? asterisksPassed
+          : asteriskCount - asterisksPassed;
+
+        if (asterisksPassed > 1) {
+          html += `</span>`;
+        }
+
+        html += `<span
+          class="emphasised"
+          style="transform: skewX(${level * -20}deg);">`;
+
+        continue;
+      }
+
+      if (asterisksPassed === 0) {
+        const emittedCharacter = character === "\n" ? "<br>" : character;
+        html += emittedCharacter;
+        continue;
+      }
+
+      const isWaxing = asterisksPassed < midPoint;
+      const level = isWaxing
+        ? asterisksPassed
+        : asteriskCount - asterisksPassed;
+
+      if (character === " " || character === "\n") {
+        const emittedCharacter = character === "\n" ? "<br>​" : character;
+        html += `</span>${emittedCharacter}<span
+          class="emphasised"
+          style="transform: skewX(${level * -20}deg);">`;
+      } else {
+        const emittedCharacter = character === "\n" ? "<br>" : character;
+        html += emittedCharacter;
+      }
+    }
+
+    return html;
+  }
+</script>
