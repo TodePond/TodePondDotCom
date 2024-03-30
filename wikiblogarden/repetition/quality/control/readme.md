@@ -1,6 +1,6 @@
 # Quality control
 
-Most of the things I make don't get through quality control.
+Most of the things I make don't make it through quality control.
 
 ## Wikiblogarden 
 
