@@ -40,7 +40,7 @@ I have no expectation to make something good, from myself, or anyone else. I can
 
 Sometimes, when I show people my work, they don't seem to understand this approach. They feel obliged to tell me "oh no no you've got it all wrong" or "don't put down your own work like that" or "this is terrible, what were you thinking?"
 
-It's a scrappy fiddle, just like you and me.
+It's a scrappy fiddle, like you and me.
 
 <br>
 
