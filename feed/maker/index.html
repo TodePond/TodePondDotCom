@@ -198,7 +198,7 @@ ${feedItems}
     const dateValue = convertDateToDateInputFormat(new Date());
     dateInput.value = dateValue;
 
-    itemsDiv.append(itemForm);
+    itemsDiv.prepend(itemForm);
     return section;
   };
 
