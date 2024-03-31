@@ -22,9 +22,9 @@ In comes [GenderGP](https://www.gendergp.com/). They're a for-profit company (fo
 
 It worked great! After a consultation, and some blood tests, and some fertility stuff (yuck), and quitting my job, and changing my name to [appease my doctor](https://www.todepond.com/wikiblogarden/my-name/), I started on a tiny dose.
 
-Three months later, nothing had happened, and my bloods were still the same, so I switched to more powerful medicine. This repeated a few times until I ended up on the dose that I'm on now. And it's going great. 
+Three months later, nothing happened, and my bloods were still the same, so I switched to more powerful medicine. This repeated a few times until I ended up on the dose that I'm on now. And it's going great. 
 
-During all of this time, I always felt properly looked after, and cared for. They answered any questions I gave them. The smaller ones were answered by support staff. The biggest ones were answered by doctors.
+During all of this time, I always felt properly looked after, and cared for. They answered any questions I gave them. The smaller ones were answered by support staff. The bigger ones were answered by doctors.
 
 All good. Everyone lived happily ever after. The end. 
 
@@ -36,7 +36,7 @@ Hahahahahahahaha-
 
 GenderGP is a for-profit company (callback) and has recently [enshittified](https://doctorow.medium.com/social-quitting-1ce85b67b456) their entire system, with zero warning. You can no longer contact staff or doctors. You can no longer send emails. You can no longer make specific requests. You can no longer request your repeat prescription. 
 
-Oh no no, wait, you can! But it costs *extra money* on top of the recurring subscription that you to pay. 
+Oh no no, wait, you can! But it costs *extra money* on top of the recurring subscription that you already have to pay. 
 
 *It's in their interest to make their own service worse, because then you'll pay more to use their extra services. They're trying to up-sell you constantly. It is [shit](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5) by design.*
 
