@@ -62,7 +62,7 @@ I have *paid more money* to have a 15 minute call with GenderGP on Monday. Let's
 
 What do I do in the long-term? Do I try to fast-track through to a much more restrictive and exploitative private provider? Do I start sending daily emails to my GP, [Andy Dufresne style](https://youtu.be/-nkXe2XpqEk?si=rnA9_Ks4nD7aMHv6)? Do I buy hormones off the black-market, and do do-it-yourself? At this rate, I'll be medicine-less.
 
-## Despite it all
+## The wider context
 
 Even with all of these changes, with all this enshittification, GenderGP is still (by far) the best option out there. It doesn't take [decades](https://www.thepinknews.com/2023/08/07/nhs-wait-times-trans-healthcare-porterbrook/) like the NHS. And it doesn't do creepy intrusive psychoanalysis bullshit like [other private providers](https://www.todepond.com/wikiblogarden/men), which also [gatekeep](/wikiblogarden/academia/experience) strongly against [non-typical transition](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
 
