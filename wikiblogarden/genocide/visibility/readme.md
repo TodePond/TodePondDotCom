@@ -76,7 +76,9 @@ One of the reasons I try so hard to build an audience, and a platform, is to sha
 
 ## Call to action
 
-**GenderGP, revert all the changes immediately. They are clearly worse, and not ready for a full rollout. I will happily speak with you, sharing my experience, and some of the things that I've learned from the wider community.**
+**GenderGP, revert all the changes immediately. They are not ready for a full rollout. And make a public commitment to never use AI in the administering of medicine. I will happily speak with you, sharing my experience, and some of the things that I've learned from the wider community.**
+
+> GenderGP were reached out to for comment but they tried to charge me 20 quid for it, so I didn't bother.
 
 <br>
 
