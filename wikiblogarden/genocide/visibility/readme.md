@@ -74,6 +74,10 @@ One of the reasons I try so hard to build an audience, and a platform, is to sha
 
 *Unhappy day of trans visibility everybody.*
 
+## Call to action
+
+**GenderGP, revert all the changes immediately. They are clearly worse, and not ready for a full rollout. I will happily speak with you, sharing my experience, and some of the things that I've learned from the wider community.**
+
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden).
