@@ -40,7 +40,9 @@ Oh no no, wait, you can! But it costs *extra money* on top of the recurring subs
 
 *It's in their interest to make their own service worse, because then you'll pay more to use their extra services. They're trying to up-sell you constantly. It is [shit](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5) by design.*
 
-It now takes weeks, or months, to get a response back. It used to take 3 to 5 days. Now it takes 3 to 5 weeks. This is simply not good enough for people who are relying on GenderGP for life-changing medicine.
+It now takes weeks, or months, to get a response back. It used to take 3 to 5 days.
+
+This is simply not good enough for people who are relying on GenderGP for life-changing medicine.
 
 ## What now
 
