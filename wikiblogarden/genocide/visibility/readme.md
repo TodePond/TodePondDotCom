@@ -34,9 +34,9 @@ Hahahahahahahaha-
 
 ## Capitalism
 
-GenderGP is a for-profit company (callback) and has recently [enshittified](https://doctorow.medium.com/social-quitting-1ce85b67b456) their entire system, with zero warning. You can no longer contact staff or doctors. You can no longer send emails. You can no longer make specific requests. You can no longer request your repeat prescription. 
+GenderGP is a for-profit company (callback) and has recently [enshittified](https://doctorow.medium.com/social-quitting-1ce85b67b456) their entire system, with zero warning. You can no longer contact staff or doctors. You can no longer send emails. You can no longer make specific requests. You can no longer request your repeat prescription.
 
-Oh no no, wait, you can! But it costs *extra money* on top of the recurring subscription that you already have to pay. 
+Oh no no, wait, you *can* still do all these things! But they cost *extra money* on top of the recurring subscription that you already have to pay. 
 
 *It's in their interest to make their own service worse, because then you'll pay more to use their extra services. They're trying to up-sell you constantly. It is [shit](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5) by design.*
 
@@ -46,7 +46,7 @@ This is simply not good enough for people who are relying on GenderGP for life-c
 
 ## What now
 
-Online communities are now full of people in complete panic because they've run out of medication. Their medical [transition] is reverting in front of their eyes.
+Online communities are now full of people in complete panic because they've run out of medication. Their medical [transition](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/) is reverting in front of their eyes.
 
 I think this amounts to [torture](/wikiblogarden/academia/experience). It's a form of real-life body horror. 
 
