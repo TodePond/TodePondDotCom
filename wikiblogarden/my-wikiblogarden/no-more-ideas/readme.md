@@ -16,7 +16,7 @@ Don't be that person. Don't make a new idea.
 
 ## Ideas are not special
 
-There's a common misconception that ideas are [precious](https://youtu.be/a6lxJdkaUMc?si=eBBpKhV9s0fq8KUr), or [valuable](https://youtu.be/PUv66718DII?si=Nky4UYqC_34GfNPT), and that we should protect them. I couldn't disagree more.
+There's a common misconception that ideas are [precious](https://youtu.be/a6lxJdkaUMc?si=eBBpKhV9s0fq8KUr), or [valuable](https://youtu.be/PUv66718DII?si=Nky4UYqC_34GfNPT), and that we should protect them. But that's wrong.
 
 Your idea is nothing, it's worthless. It doesn't exist. 
 
