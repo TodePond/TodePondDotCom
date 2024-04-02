@@ -42,9 +42,7 @@ Find someone with the same idea as you, and weave a shared language. Or spot the
 
 We need less nodes and more wires. Less dots and more lines. Less islands and more bridges.
 
-Less individuals, and more collectives. 
-
-Less heroes and more teams. Less stars and more systems. Less ideas, and more calm.
+Less individuals, and more collectives. Less heroes and more teams. Less stars and more systems. Less ideas and more calm.
 
 For now and forever, I say.
 
