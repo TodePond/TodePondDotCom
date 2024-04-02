@@ -2,7 +2,7 @@
 
 The theme of my wiki-blog-garden is [NO MORE IDEAS](https://www.todepond.com/wikiblogarden/my-wikiblogarden).
 
-I strongly believe that we shouldn't come up with any more ideas. We should merge existing ideas instead (while being careful not to make any new ideas in the process).
+I strongly believe that we shouldn't come up with any more ideas. We should merge existing ones instead (while being careful not to create any new ideas in the process).
 
 We should reduce the total number of ideas in the universe!
 
