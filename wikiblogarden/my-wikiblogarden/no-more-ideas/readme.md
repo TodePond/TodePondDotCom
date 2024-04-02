@@ -1,6 +1,6 @@
 # No more ideas 
 
-The [theme of my wiki-blog-garden](https://www.todepond.com/wikiblogarden/my-wikiblogarden) is [NO MORE IDEAS](https://www.todepond.com/wikiblogarden/better-computing/).
+The theme of my wiki-blog-garden is [NO MORE IDEAS](https://www.todepond.com/wikiblogarden/my-wikiblogarden).
 
 I strongly believe that we shouldn't come up with any more ideas. We should merge existing ideas instead (while being careful not to make any new ideas in the process).
 
