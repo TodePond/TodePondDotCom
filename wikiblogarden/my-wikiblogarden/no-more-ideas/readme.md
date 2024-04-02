@@ -34,7 +34,7 @@ If an idea survives, it's not all bad news. You can still get rid of your idea b
 
 Perhaps your idea is just a different way of phrasing an idea that already exists? Perhaps your idea is old news in another field?
 
-*Try to join your idea with another idea. Bring them closer together.*
+> Try to join your idea with another idea. Bring them closer together.
 
 Find someone with the same idea as you, and weave a shared language. Or spot the same idea in two different people, and put them on the same page, even if they don't like it.
 
@@ -48,7 +48,7 @@ Less heroes and more teams. Less stars and more systems. Less ideas, and more ca
 
 For now and forever, I say.
 
-> NO MORE IDEAS
+> NO MORE IDEAS<br>
 > WE HAVE ENOUGH 
 
 <br>
