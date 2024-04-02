@@ -40,9 +40,9 @@ Find someone with the same idea as you, and weave a shared language. Or spot the
 
 ## This is important
 
-We need less nodes and more wires. Less dots and more lines. Less islands and more bridges. Less junk and more pipes.
+We need less nodes and more wires. We need less dots and more lines. We need less pen and more paper. We need less junk and more pipe.
 
-Less individuals, and more collectives. Less heroes and more teams. Less stars and more systems. Less ideas and more peace and quiet!
+Less individuals, and more collectives. Less heroes and more teams. Less stars and more systems. Less islands, more bridges. Less ideas. More quiet!
 
 For now and forever, I say.
 
