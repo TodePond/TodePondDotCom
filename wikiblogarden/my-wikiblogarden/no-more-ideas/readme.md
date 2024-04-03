@@ -8,7 +8,7 @@ We should reduce the total number of ideas in the universe!
 
 ## That xdcd comic
 
-The "NO MORE IDEAS" idea is not a new idea. There's already an [xcyd comic](https://xkcd.com/927/) about it.
+The "NO MORE IDEAS" idea is not a new idea. There's already an [xkcd comic](https://xkcd.com/927/) about it.
 
 ![comic](https://imgs.xkcd.com/comics/standards.png)
 
