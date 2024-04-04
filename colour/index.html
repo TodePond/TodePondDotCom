@@ -87,7 +87,6 @@
     const clone = template.content.cloneNode(true);
     const section = clone.querySelector(".colour");
     section.style.backgroundColor = `rgb(${value})`;
-    section.style.outline = border ? "0.5px solid white" : "none";
     const nameElement = section.querySelector(".name");
     nameElement.textContent = name;
     nameElement.style.color = theme === "light" ? "black" : "white";
