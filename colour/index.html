@@ -106,7 +106,7 @@
       if (!section.textContent.includes("Copied")) {
         nameElement.textContent = `${name} Copied`;
       } else if (!section.textContent.includes("Copied x")) {
-        nameElement.textContent = `${name} Copied x1`;
+        nameElement.textContent = `${name} Copied x2`;
       } else {
         const count = parseInt(nameElement.textContent.split("x")[1]) + 1;
         nameElement.textContent = `${name} Copied x${count}`;
