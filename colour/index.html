@@ -1,0 +1,112 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Colour</h1>
+
+<p>Click a colour to copy its value to your clipboard.</p>
+
+<br />
+
+<template>
+  <button class="colour">
+    <p class="name">Name</p>
+  </button>
+</template>
+
+<main id="hues"></main>
+<br />
+<main id="shades"></main>
+
+<style>
+  .colour {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    gap: 10px;
+  }
+
+  #shades {
+    padding-top: 10px;
+  }
+</style>
+
+<script type="module">
+  import { HUES, SHADES, toHex } from "/colour/habitat.js";
+
+  const [GREEN, CYAN, BLUE, PURPLE, PINK, CORAL, RED, ORANGE, YELLOW] = HUES;
+
+  const template = document.querySelector("template");
+  const main = document.querySelector("#hues");
+  const shades = document.querySelector("#shades");
+
+  appendColour("Green", GREEN);
+  appendColour("Cyan", CYAN);
+  appendColour("Blue", BLUE);
+  appendColour("Purple", PURPLE);
+  appendColour("Pink", PINK);
+  appendColour("Coral", CORAL);
+  appendColour("Red", RED);
+  appendColour("Orange", ORANGE);
+  appendColour("Yellow", YELLOW);
+
+  appendColour("Shade 0", SHADES[0], "dark", "shades");
+  appendColour("Shade 1", SHADES[1], "dark", "shades");
+  appendColour("Shade 2", SHADES[2], "dark", "shades");
+  appendColour("Shade 3", SHADES[3], "dark", "shades");
+  appendColour("Shade 4", SHADES[4], "dark", "shades");
+  appendColour("Shade 5", SHADES[5], "dark", "shades");
+  appendColour("Shade 6", SHADES[6], "light", "shades");
+  appendColour("Shade 7", SHADES[7], "light", "shades");
+  appendColour("Shade 8", SHADES[8], "light", "shades");
+  appendColour("Shade 9", SHADES[9], "light", "shades");
+  appendColour("Shade 10", SHADES[10], "light", "shades");
+
+  function appendColour(name, value, theme = "light", id = "hues", border) {
+    const clone = template.content.cloneNode(true);
+    const section = clone.querySelector(".colour");
+    section.style.backgroundColor = `rgb(${value})`;
+    section.style.outline = border ? "0.5px solid white" : "none";
+    const nameElement = section.querySelector(".name");
+    nameElement.textContent = name;
+    nameElement.style.color = theme === "light" ? "black" : "white";
+    if (id === "shades") {
+      shades.append(clone);
+    } else {
+      main.append(clone);
+    }
+
+    section.addEventListener("click", () => {
+      navigator.clipboard.writeText(toHex(value));
+      if (!section.textContent.includes("Copied")) {
+        nameElement.textContent = `${name} Copied`;
+      } else if (!section.textContent.includes("Copied x")) {
+        nameElement.textContent = `${name} Copied x1`;
+      } else {
+        const count = parseInt(nameElement.textContent.split("x")[1]) + 1;
+        nameElement.textContent = `${name} Copied x${count}`;
+      }
+    });
+  }
+</script>
