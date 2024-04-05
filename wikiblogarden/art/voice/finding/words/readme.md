@@ -43,7 +43,7 @@ When you take an unstructured thought, and put it into words, you're likely to *
 
 It takes skill to keep all the essence of a thought in words, and it usually involves tightly packing information into subtext.
 
-Still, words are a great format. They're easy to copy and spread. And there's a joy to their rhythm and pace. I enjoy the pitter patter, step and slide, turn and tumble, of muthafuckin words.
+Still, words are a great format. They're easy to copy and spread. And there's a joy to their rhythm and pace. I enjoy the pitter patter, step and slide, turn and tumble, of words words words.
 
 ## Words don't need to make sense
 
@@ -51,7 +51,7 @@ Words don't need to make sense to do their job. They can convey a feeling withou
 
 ## Words are code
 
-Words have power because they can *change* other people. They can do a lot.
+Words have power because they can *change* people. They can do a lot.
 
 So words are a really crucial thing to get good at.
 
