@@ -69,7 +69,7 @@ I tried very very very hard to bring it back, but I still suck.
 
 It frustrates me that I have certain things in my head, certain feelings, that I can't get out. I'll keep practising here on this [blog](/feed) and you're welcome to read along. 
 
-But you don't have to. As my friend [Jani Eväkallio](https://jevakallio.dev/) told me today...
+But you don't have to. As my friend [Jani Eväkallio](https://jevakallio.dev/) told me today,
 
 > "I used to read your blog posts but you started posting too much."
 
