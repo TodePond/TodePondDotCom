@@ -11,7 +11,7 @@ Sometimes I find it hard to find the right words to say what words I want to-
 
 <br>
 
-# Words are hard. 
+# Words are hard
 
 Words are so hard. 
 
