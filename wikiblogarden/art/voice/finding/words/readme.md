@@ -63,7 +63,7 @@ I like to use [simple words](https://www.todepond.com/wikiblogarden/academia/sty
 
 When I was a teacher, I got quite good at sticking to simple words. So much so, that my words started to lose all their flourish.
 
-I tried very very very hard to bring it back, but I still suck at it.
+I tried very very very hard to bring it back, but I still suck.
 
 ## Words can be frustrating
 
