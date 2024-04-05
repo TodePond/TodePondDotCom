@@ -29,7 +29,7 @@ The same is true for speaking, and anything that involves words. Actually I shou
 
 It's hard to make words. It's hard to receive words.
 
-## Conversion
+## Converting thoughts
 
 It's hard because it involves converting thoughts between-
 
