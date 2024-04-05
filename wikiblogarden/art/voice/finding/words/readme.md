@@ -39,29 +39,33 @@ It's hard because it involves converting thoughts between-
 
 They're a lossy format.
 
-When you take an unstructured thought, and put it into words, you're likely to *lose* something along the way. It takes skill to keep all the essence of a thought in words, and it usually involves tightly packing information into subtext.
+When you take an unstructured thought, and put it into words, you're likely to *lose* something along the way.
 
-Still, words are a great format. They're easy to copy and spread. And there can be a joy to their pace and rhythm. I enjoy the pitter patter, step and slide, turn and tumble, of words.
+It takes skill to keep all the essence of a thought in words, and it usually involves tightly packing information into subtext.
+
+Still, words are a great format. They're easy to copy and spread. And there's a joy to their rhythm and pace. I enjoy the pitter patter, step and slide, turn and tumble, of muthafuckin words.
 
 ## Words don't need to make sense
 
-Words don't need to make sense to do their. They can convey a feeling without making any sense at all.
+Words don't need to make sense to do their job. They can convey a feeling without making any sense at all.
 
 ## Words are code
 
 Words have power because they can *change* other people. They can do a lot.
 
-So words are a really crucial thing to get good at. The best way to get good at something is to do it again and again and again and again. So here I am, writing *words* again and again, day after day. Some of my words are nonsense (like this blog post) and some are not. But either way, it's [practice](https://www.todepond.com/wikiblogarden/art/never-stop-writing/).
+So words are a really crucial thing to get good at.
+
+The best way to get good at something is to do it again and again and again and again. So here I am, writing *words* again and again, day after day. Some of my words are [nonsense](https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/esoteric/no-more/) and some are [not](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone/). But either way, it's [practice](https://www.todepond.com/wikiblogarden/art/never-stop-writing/).
 
 ## Words can be simple
 
 I like to use [simple words](https://www.todepond.com/wikiblogarden/academia/style/two-beat), because I like the ring it gives [my voice](https://www.todepond.com/wikiblogarden/art/voice/finding/).
 
-When I was a teacher, I got quite good at sticking to simple words. So much so, that I started to find it hard to add flourish.
+When I was a teacher, I got quite good at sticking to simple words. So much so, that my words started to lose all their flourish.
 
-I had to try very very very hard to bring that back.
+I tried very very very hard to bring that back.
 
-But I still suck at it. 
+But I still suck at it.
 
 ## Words can be frustrating
 
