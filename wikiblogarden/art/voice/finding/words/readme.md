@@ -61,7 +61,7 @@ The best way to get good at something is to do it again and again and again and 
 
 I like to use [simple words](https://www.todepond.com/wikiblogarden/academia/style/two-beat), because I like the ring it gives [my voice](https://www.todepond.com/wikiblogarden/art/voice/finding/).
 
-When I was a teacher, I got quite good at sticking to simple words. So much so, that my words started to lose all their flourish.
+When I was a [teacher](https://www.todepond.com/wikiblogarden/work/thank-you-cards/), I got quite good at sticking to simple words. So much so, that my words started to lose all their flourish.
 
 I tried very very very hard to bring it back, but I still suck.
 
