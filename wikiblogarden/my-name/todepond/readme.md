@@ -119,11 +119,11 @@ But wait there's more.
 
 ## Todepond
 
-At some point this year, I stopped capitalising the P. Especially here on [Todepond dot com](/).
+At some point last year, I stopped capitalising the 'P'. Especially here on [Todepond dot com](/).
 
 ## todepond
 
-I even started leaving the T as lower case. its the beginning of a calm descent into chaos
+I started leaving the 'T' as lower case too. its the beginning of a calm descent into chaos
 
 ## what i learned
 
