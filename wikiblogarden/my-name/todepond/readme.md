@@ -30,7 +30,7 @@ I set up a forum for the tightrope community, and people suggested all sorts of 
 
 ## Tightrope
 
-I was still a teenager at the time, and I found it very tricky to manage Tightrope at the same time as all the other [stuff I was dealing with](https://www.todepond.com/wikiblogarden/health/conversion-therapy/).
+I was still a teenager, and I found it very tricky to manage Tightrope at the same time as all the other [stuff I was dealing with](https://www.todepond.com/wikiblogarden/health/conversion-therapy/).
 
 I was struggling to get any updates out, and I was doing a bad job at moderating the forum. People were being arseholes to each other, and I should have immediately banned them instead of thinking "i can fix him".
 
