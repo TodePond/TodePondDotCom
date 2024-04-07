@@ -99,7 +99,7 @@ Also it was after quite a few pints.
 
 Unfortunately, [tode.com](https://tode.com) wasn't available for over-the-counter purchase. I emailed the owner of the domain, and offered to buy it. They quoted me a price of forty five thousand dollars. I offered them fifty quid. 
 
-They offered me a slightly lower price, still in the tens of thousands. I offered the sales person a personalised video of a tortoise. He jokingly replied "yes, it's a deal."
+They offered me a slightly lower price, still in the tens of thousands. I offered the sales person a personalised video of a tortoise. He jokingly replied "sure, it's a deal."
 
 We printed out his face and taped it onto Flora's tortoise. I sent him the video, and he has ghosted me ever since. 
 
