@@ -89,7 +89,7 @@ I wanted to give the Thing language a better name. At the pub, my partner [Flora
 - It does the typical tech thing of misspelling a real word. 
 - It sounds like "code".
 
-After the pub, we opened up photoshop, and Flora drew the very first drawing of [tode](https://youtu.be/nER7-DVLEjA?si=Q5zSg2_csphbviY-). It was iteration two or three.
+After the pub, we opened up photoshop, and Flora drew the very first drawing of [tode](https://youtu.be/nER7-DVLEjA?si=Q5zSg2_csphbviY-).
 
 We used my computer for it, so Flora didn't have her usual stylus input, and she had to use my mouse instead. This is why the original logo was so wobbly.
 
