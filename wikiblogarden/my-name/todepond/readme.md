@@ -48,7 +48,7 @@ But maybe it was fine.
 
 Separately, I saw a screenshot of a message by [Jonas Kærlev](https://jonaskaerlev.net/), where they say that Tightrope was a copy of their own mod, [Advanced Weaponiser](https://wiki.teamfortress.com/wiki/Advanced_Weaponiser). And this was my first time experiencing an [oh berd](https://youtu.be/WMJ1H3Ai-qs) moment.
 
-This all motivated me to make a new tool, cheesily titled "Your Fortress". It would let you make new features for team fortress 2, without needing to know how to code.
+This all motivated me to make a new tool, cheesily titled "Your Fortress". It would let you make new features for team fortress 2, without you needing to know how to code.
 
 It was the first no-code tool that I ever made, and I ended up creating multiple languages and parsers for it, along the way. It was a wonderful learning experience for me. 
 
