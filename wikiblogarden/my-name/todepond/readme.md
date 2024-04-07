@@ -70,7 +70,7 @@ Jonas made a little game you might have heard of, called [A Hat In Time](https:/
 
 And I carried on work.
 
-I repackaged everything I made for Your Fortress into a language called "Thing". That was the working title for a very strange low-code thing where everything was a "Thing".
+I repackaged everything I made for Your Fortress into a language called "Thing". That was the working title for my very strange low-code thing where everything was a "Thing".
 
 It had all sorts of esoteric features like...
 
