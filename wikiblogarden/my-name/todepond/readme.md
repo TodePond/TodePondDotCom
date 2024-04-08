@@ -1,6 +1,6 @@
 # Why I'm called todepond
 
-Are you ready for it? Here's the whole story behind the name "todepond".
+Are you ready? Here's the whole story behind the name "todepond".
 
 ## Biggest update ever
 
