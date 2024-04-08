@@ -38,7 +38,7 @@ What's new this week?
 
 ## Natural code
 
-![self image](1.png)
+<img src="1.png" alt="self image" width="100%"/>
 
 Work continues on the essay that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/)! We've been having many more chats and recorded 'dialogues'. It's about the idea of `natural code`.
 
@@ -52,7 +52,8 @@ This person-computer comparison is something that feels at-home in Sandpond Saga
 
 ## Overflow
 
-![50](2.png)
+<!-- ![50](2.png) -->
+<img src="2.png" alt="50" width="100%"/>
 
 I've continued to work on the next video, Top 99 Ways To Make Sand. This week, I added a new piece of music to the middle section. Again, it's a track by [Ivan Reese](https://ivanish.ca/).
 
@@ -80,7 +81,8 @@ The scenes are as follows:
 
 ## Normalise sharing scrappy fiddles
 
-![arroost](3.png)
+<!-- ![arroost](3.png) -->
+<img src="3.png" alt="arroost" width="100%"/>
 
 I think I've recovered from [Arroost](https://www.youtube.com/watch?v=DNBKdU6XrLY) now. I think I can finally start to do retrospectives on it.
 
