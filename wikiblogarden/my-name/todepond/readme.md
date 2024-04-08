@@ -12,7 +12,7 @@ At some point, I lost all the code and content for the BUE.
 
 Luckily, a woman known as [SnickerPuffs](https://steamcommunity.com/id/holysnickerpuffs/) managed to grab the BUE's content before it went down, and she rebuilt the site from scratch.
 
-Since then, SnickerPuffs has kept the BUE up and available [here](https://jboby1.github.io/BUEv2/index.html). And she [changed and added](https://github.com/Jboby1/BUEv2/commits/master) lots of things too, which I think is really nice.
+Since then, SnickerPuffs has kept the BUE up and available [here](https://jboby1.github.io/BUEv2/index.html). And she [changed and added](https://github.com/Jboby1/BUEv2/commits/master) lots of things too, which I think is really nice. It's different enough now that it's her own sequel, "the BUE v2".
 
 > Her site does [credit](https://jboby1.github.io/BUEv2/credits.html) the wrong person as having created the BUE (and Tightrope, which I'll get to next), but that's all okay with me. [Trotim](https://ko-fi.com/trotim) is a very worthy person to get credit in this case, after all.
 
