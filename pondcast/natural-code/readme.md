@@ -1,3 +1,5 @@
+# Hey, this pondcast is scheduled to come out during [CSS Naked Day](https://css-naked-day.github.io/)! So it might look really different to usual haha
+
 > This update is for [paying supporters](https://patreon.com/TodePond) of my work.<br>
 > It's provided here, DRM-free :)<br>
 > Please only read or listen if you've paid!
@@ -36,6 +38,8 @@ What's new this week?
 
 ## Natural code
 
+![self image](1.png)
+
 Work continues on the essay that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/)! We've been having many more chats and recorded 'dialogues'. It's about the idea of `natural code`.
 
 Basically... um... and this might sound a bit odd... but it's this idea that we can see all communication as a form of `code`, similar to computer code in some ways. And in fact... it's useful for us to do that... therefore, we should!
@@ -47,6 +51,8 @@ It has been very interesting for me to learn more about this way of thinking. I 
 This person-computer comparison is something that feels at-home in Sandpond Saga extended universe.
 
 ## Overflow
+
+![50](2.png)
 
 I've continued to work on the next video, Top 99 Ways To Make Sand. This week, I added a new piece of music to the middle section. Again, it's a track by [Ivan Reese](https://ivanish.ca/).
 
@@ -74,6 +80,8 @@ The scenes are as follows:
 
 ## Normalise sharing scrappy fiddles
 
+![arroost](3.png)
+
 I think I've recovered from [Arroost](https://www.youtube.com/watch?v=DNBKdU6XrLY) now. I think I can finally start to do retrospectives on it.
 
 I've been thinking about how to present Arroost in a more serious way — in a more academic setting. And I'd like to hone in on the idea of `normalising sharing scrappy fiddles`.
@@ -88,6 +96,6 @@ I've convinced myself. Now I need to convince everyone else. Or, at the very lea
 
 **Thank you so so much for supporting me and my projects. My current projects might seem to be in a loose and scrappy state, because they are. But those of you who have been here a while will know that it does _eventually_ turn into a finished thing. I can only do that because of your help. So Thank you Thank you! And wherever you are in the world... Whatever you're doing... I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 459_<br>
+_Days since bot went missing: 424_<br>
+_Days since berd flew away: 87_
