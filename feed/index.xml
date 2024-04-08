@@ -5,11 +5,11 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
-  			<title>Colour picker</title>
-  			<pubDate>Thu, 04 Apr 2024 23:09:00 GMT</pubDate>
-  			<link>https://www.todepond.com/colour/</link>
-  			<guid>https://www.todepond.com/colour/</guid>
-  			<description>Click a colour to copy its value to your clipboard.</description>
+  			<title>Why I'm called "todepond"</title>
+  			<pubDate>Sun, 07 Apr 2024 23:21:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/my-name/todepond/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-name/todepond/</guid>
+  			<description>Here’s the whole story behind the name “todepond”.</description>
   		</item>
 		<item>
   			<title>My wikiblogarden</title>
@@ -815,6 +815,20 @@
   			<link>https://www.todepond.com/wikiblogarden/my-name/gender</link>
   			<guid>https://www.todepond.com/wikiblogarden/my-name/gender</guid>
   			<description>Time to set the record straight.</description>
+  		</item>
+		<item>
+  			<title>Colour picker</title>
+  			<pubDate>Thu, 04 Apr 2024 23:09:00 GMT</pubDate>
+  			<link>https://www.todepond.com/colour/</link>
+  			<guid>https://www.todepond.com/colour/</guid>
+  			<description>Click a colour to copy its value to your clipboard.</description>
+  		</item>
+		<item>
+  			<title>Words are hard</title>
+  			<pubDate>Fri, 05 Apr 2024 16:51:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/art/voice/finding/words</link>
+  			<guid>https://www.todepond.com/wikiblogarden/art/voice/finding/words</guid>
+  			<description>Words are so hard-</description>
   		</item>
   </channel>
 </rss>
