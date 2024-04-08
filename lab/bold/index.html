@@ -1,0 +1,250 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Emphasis</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Asterisk</h1>
+
+<!-- <style>
+  main {
+    display: flex;
+    gap: 10px;
+    /* height: 100%; */
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  #output,
+  #input {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #input {
+    resize: vertical;
+    height: 200px;
+  }
+
+  #output {
+    font-family: sans-serif;
+    white-space: pre-wrap;
+  }
+
+  .emphasised {
+    display: inline-block;
+    /* overflow to next line */
+    white-space: pre-wrap;
+  }
+
+  br {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 620px) {
+    main {
+      flex-direction: column;
+    }
+
+    #input,
+    #output {
+      width: auto;
+    }
+  }
+</style> -->
+
+<main>
+  <textarea id="input" cols="50" rows="7">
+Use asterisks for *emphasis*. Use double asterisks for **boldening**. Use triple asterisks for ***underline***. Use quadruple asterisks for ****strikethrough****. And *****so on*****.
+</textarea
+  >
+  <p id="output"></p>
+</main>
+
+<br />
+
+<p>Back to the <a href="/wikiblogarden">wikiblogarden</a>.</p>
+
+<script type="module">
+  const input = document.getElementById("input");
+  const output = document.getElementById("output");
+
+  output.innerHTML = getHtmlFromMarkdown(input.value);
+
+  input.addEventListener("input", () => {
+    output.innerHTML = getHtmlFromMarkdown(input.value);
+  });
+
+  function getHtmlFromMarkdown(markdown) {
+    let inItalics = false;
+    let inBold = false;
+    let inUnderline = false;
+    let inStrikethrough = false;
+    let inSuperscript = false;
+    let inSmallCaps = false;
+    let inFantasy = false;
+    let inFakeLink = false;
+    let inFunky = false;
+    let html = "";
+
+    for (let i = 0; i < markdown.length; i++) {
+      const character = markdown[i];
+      const lookahead = markdown[i + 1];
+      const lookaheadLookahead = markdown[i + 2];
+      const lookaheadLookaheadLookahead = markdown[i + 3];
+      const lookaheadLookaheadLookaheadLookahead = markdown[i + 4];
+      const lookaheadLookaheadLookaheadLookaheadLookahead = markdown[i + 5];
+      const lookaheadLookaheadLookaheadLookaheadLookaheadLookahead =
+        markdown[i + 6];
+      const lookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookahead =
+        markdown[i + 7];
+      const lookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookahead =
+        markdown[i + 8];
+
+      if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookahead ===
+          "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookahead ===
+          "*"
+      ) {
+        if (inFunky) {
+          html += "</span>";
+        } else {
+          html += "<span style='text-shadow: 2px 2px lightgrey;'>";
+        }
+        inFunky = !inFunky;
+        i += 8;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookaheadLookahead === "*"
+      ) {
+        if (inFakeLink) {
+          html += "</a>";
+        } else {
+          html += "<a href='#'>";
+        }
+        inFakeLink = !inFakeLink;
+        i += 7;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookaheadLookahead === "*"
+      ) {
+        if (inFantasy) {
+          html += "</span>";
+        } else {
+          html += "<span style='text-shadow: blue 1px 0 10px'>";
+        }
+        inFantasy = !inFantasy;
+        i += 6;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookaheadLookahead === "*"
+      ) {
+        if (inSmallCaps) {
+          html += "</span>";
+        } else {
+          html += "<span style='font-variant: small-caps;'>";
+        }
+        inSmallCaps = !inSmallCaps;
+        i += 5;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*" &&
+        lookaheadLookaheadLookaheadLookahead === "*"
+      ) {
+        if (inSuperscript) {
+          html += "</abbr>";
+        } else {
+          html += `<abbr title="an abbreviation">`;
+        }
+        inSuperscript = !inSuperscript;
+        i += 4;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*" &&
+        lookaheadLookaheadLookahead === "*"
+      ) {
+        if (inStrikethrough) {
+          html += "</del>";
+        } else {
+          html += "<del>";
+        }
+        inStrikethrough = !inStrikethrough;
+        i += 3;
+      } else if (
+        character === "*" &&
+        lookahead === "*" &&
+        lookaheadLookahead === "*"
+      ) {
+        if (inUnderline) {
+          html += "</u>";
+        } else {
+          html += "<u>";
+        }
+        inUnderline = !inUnderline;
+        i += 2;
+      } else if (character === "*" && lookahead === "*") {
+        if (inBold) {
+          html += "</strong>";
+        } else {
+          html += "<strong>";
+        }
+        inBold = !inBold;
+        i++;
+      } else if (character === "*") {
+        if (inItalics) {
+          html += "</em>";
+        } else {
+          html += "<em>";
+        }
+        inItalics = !inItalics;
+      } else {
+        html += character;
+      }
+    }
+
+    return html;
+  }
+</script>
