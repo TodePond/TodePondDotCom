@@ -4,7 +4,7 @@ I love the London coding scene. Here's why.
 
 ## Where is it?
 
-It's in London. Mostly north and east. Not to be confused with the London *tech* scene.
+It's in London. Mostly north and east. Not to be confused with the London _tech_ scene.
 
 ## Who is it?
 
@@ -20,6 +20,7 @@ Including (but not limited to) the following communities:
 - [Peckham Digital](https://www.peckhamdigital.org/)
 - [UAL Creative Computing](https://www.arts.ac.uk/creative-computing-institute)
 - The [tinkerers](https://london.tinkerer.ai/)
+- The [nighters]](https://events.next47.com/next47/rsvp/register?e=ai-night-london-hosted-by-next-47-x-incident-io)
 - [Taz](https://twitter.com/tazsingh) (he just turns up everywhere, takes amazing photographs, and tells terrible jokes)
 
 And also on the list:
@@ -36,7 +37,7 @@ And those individuals would tell you that there's something that binds all these
 
 **It's not something that's easy to put into words.**
 
-But roughly speaking: London ships code. Demos, prototypes, experiments, apps, websites, artworks, installations, gigs, products, tools, talking clocks, and *things*.
+But roughly speaking: London ships code. Demos, prototypes, experiments, apps, websites, artworks, installations, gigs, products, tools, talking clocks, and _things_.
 
 London codes!
 
