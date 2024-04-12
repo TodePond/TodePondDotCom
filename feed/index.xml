@@ -5,11 +5,11 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
-  			<title>Asterisk</title>
-  			<pubDate>Mon, 08 Apr 2024 22:29:00 GMT</pubDate>
-  			<link>https://www.todepond.com/lab/asterisk/</link>
-  			<guid>https://www.todepond.com/lab/asterisk/</guid>
-  			<description>Use asterisks for *emphasis*. Use more for **more**.</description>
+  			<title>Elastic bands</title>
+  			<pubDate>Wed, 10 Apr 2024 18:05:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/see-it/my-head/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/see-it/my-head/</guid>
+  			<description>This is what it feels like to have my head.</description>
   		</item>
 		<item>
   			<title>My wikiblogarden</title>
@@ -836,6 +836,20 @@
   			<link>https://www.todepond.com/wikiblogarden/my-name/todepond/</link>
   			<guid>https://www.todepond.com/wikiblogarden/my-name/todepond/</guid>
   			<description>Here’s the whole story behind the name “todepond”.</description>
+  		</item>
+		<item>
+  			<title>Asterisk</title>
+  			<pubDate>Mon, 08 Apr 2024 22:29:00 GMT</pubDate>
+  			<link>https://www.todepond.com/lab/asterisk/</link>
+  			<guid>https://www.todepond.com/lab/asterisk/</guid>
+  			<description>Use asterisks for *emphasis*. Use more for **more**.</description>
+  		</item>
+		<item>
+  			<title>It's ok to be binary</title>
+  			<pubDate>Wed, 10 Apr 2024 07:25:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/genocide/binary</link>
+  			<guid>https://www.todepond.com/wikiblogarden/genocide/binary</guid>
+  			<description>Let me be clear.</description>
   		</item>
   </channel>
 </rss>
