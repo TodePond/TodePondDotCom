@@ -4,11 +4,11 @@ I've got into a habit of thanking the [london coding scene](https://www.todepond
 
 ## Debt
 
-The london coding scene has given me a lot — for both my community and my career — so I owe it a lot in return.
+The london coding scene has given me a lot. It gave me both my community and my career, so I owe it a lot in return.
 
 <br>
 
-So anyway uh this blog post felt much longer in my head. Better think of some filler... quick...
+So anyway this blog post felt much longer in my head.
 
 I'd like to give thanks to the london coding scene, whose hard work made this dreadful blog post happen. 
 
