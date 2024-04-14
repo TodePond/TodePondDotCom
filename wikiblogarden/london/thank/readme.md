@@ -8,7 +8,7 @@ The london coding scene gave me my community and my career, so I owe it a lot.
 
 <br>
 
-In my head, this blog post felt much longer, but on the page it's very small. I guess that's fine. 
+In my head, this blog post felt longer, but on the page it's very small. I guess that's fine. 
 
 Anyway, yeah, that's it. 
 
