@@ -1,6 +1,6 @@
 import { val } from "https://esm.town/v/todepond/val";
 
-const heroes = await val("todepond.getHeroes");
+const heroes = await val("todepond.getHeroes", {});
 const froggyHeroes = heroes.filter((h) => h.tier === "froggy");
 const flappyHeroes = heroes.filter((h) => h.tier === "flappy");
 const beepyHeroes = heroes.filter((h) => h.tier === "beepy");
