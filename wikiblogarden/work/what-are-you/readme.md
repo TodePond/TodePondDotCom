@@ -26,17 +26,7 @@ And they asked again -
 
 And I answered again -
 
-"I don't know."
-
-## Repetition
-
-I don't know why I find [repetition](https://www.todepond.com/wikiblogarden/repetition/) so [funny](https://www.todepond.com/wikiblogarden/art/comedy/), but I do.
-
-I wasn't just saying the same thing again and again. I was also repeating a conversation that I've had many times before about [my name](https://www.todepond.com/wikiblogarden/my-name/) and also [me](https://www.todepond.com/wikiblogarden/my-name/gender).
-
-If there's one thing I know, it's that people like to put things into [neat little boxes](https://www.todepond.com/report/definitions-that-dont-matter/). And that includes fields of work. 
-
-But in my humble opinion, the best work comes from [blending fields](https://tornleaf.gallery).
+["I don't know."](https://www.todepond.com/wikiblogarden/my-name/gender)
 
 <br>
 
