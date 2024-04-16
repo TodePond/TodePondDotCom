@@ -84,6 +84,6 @@ This [todepond stuff](https://www.todepond.com/wikiblogarden/art/todepond/stuff/
 
 **At the end of the day, this is all my extended art project, not my career, and I can't possibly thank you enough for allowing me to continue it. Thank you from the bottom of my heart! I hope you've been enjoying the journey along the way. Some of you have been here for quite a long time now! And welcome to all the new people this week, who have stumbled here from my various demos and talks recently. Welcome to the pond! And hey, wherever you are in the world, whatever you're doing, I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 467_<br>
+_Days since bot went missing: 432_<br>
+_Days since berd flew away: 95_
