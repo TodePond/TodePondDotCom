@@ -20,7 +20,7 @@ Including (but not limited to) the following communities:
 - [Peckham Digital](https://www.peckhamdigital.org/)
 - [UAL Creative Computing](https://www.arts.ac.uk/creative-computing-institute)
 - The [tinkerers](https://london.tinkerer.ai/)
-- The [nighters]](https://events.next47.com/next47/rsvp/register?e=ai-night-london-hosted-by-next-47-x-incident-io)
+- The [nighters](https://events.next47.com/next47/rsvp/register?e=ai-night-london-hosted-by-next-47-x-incident-io)
 - [Taz](https://twitter.com/tazsingh) (he just turns up everywhere, takes amazing photographs, and tells terrible jokes)
 
 And also on the list:

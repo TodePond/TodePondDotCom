@@ -5,11 +5,11 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
-  			<title>Elastic bands</title>
-  			<pubDate>Wed, 10 Apr 2024 18:05:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/see-it/my-head/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/see-it/my-head/</guid>
-  			<description>This is what it feels like to have my head.</description>
+  			<title>Blending fields</title>
+  			<pubDate>Mon, 15 Apr 2024 17:58:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/blending/fields</link>
+  			<guid>https://www.todepond.com/wikiblogarden/blending/fields</guid>
+  			<description>I want to work in blending fields.</description>
   		</item>
 		<item>
   			<title>My wikiblogarden</title>
@@ -850,6 +850,34 @@
   			<link>https://www.todepond.com/wikiblogarden/genocide/binary</link>
   			<guid>https://www.todepond.com/wikiblogarden/genocide/binary</guid>
   			<description>Let me be clear.</description>
+  		</item>
+		<item>
+  			<title>Elastic bands</title>
+  			<pubDate>Wed, 10 Apr 2024 18:05:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/see-it/my-head/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/see-it/my-head/</guid>
+  			<description>This is what it feels like to have my head.</description>
+  		</item>
+		<item>
+  			<title>Clickbait title</title>
+  			<pubDate>Fri, 12 Apr 2024 23:53:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/genocide/sad-day/cass</link>
+  			<guid>https://www.todepond.com/wikiblogarden/genocide/sad-day/cass</guid>
+  			<description>I could have written so many blog posts today.</description>
+  		</item>
+		<item>
+  			<title>What are you</title>
+  			<pubDate>Sun, 14 Apr 2024 05:41:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/work/what-are-you/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/work/what-are-you/</guid>
+  			<description>I was at a meetup last week, and two different people asked me the same question.</description>
+  		</item>
+		<item>
+  			<title>Why I thank the London coding scene</title>
+  			<pubDate>Sun, 14 Apr 2024 06:23:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/london/thank</link>
+  			<guid>https://www.todepond.com/wikiblogarden/london/thank</guid>
+  			<description>I've got into a habit of thanking the london coding scene whenever I finish a talk or appearance or whatever. Here's why.</description>
   		</item>
   </channel>
 </rss>
