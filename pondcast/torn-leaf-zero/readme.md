@@ -36,6 +36,8 @@ What's new this week?
 
 ## Torn leaf zero
 
+![torn leaf zero](1.png)
+
 This week, I made a [video](https://youtu.be/-FgAHiI3ZNY?si=zSZH01u2jcFchK4J) to announce my- wait I should fill you in first-
 
 I've been creating an 'experimental online gallery' called [torn leaf](https://tornleaf.gallery). It's currently (and always) accepting submissions for its next exhibition.
@@ -50,6 +52,8 @@ I am also accepting full [torn leaf zero submissions](https://tornleaf.gallery/)
 
 ## Non-determinism
 
+![self image](2.png)
+
 This week, I've been working on the essay that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/). I've been editing together the conclusion, and I've been adding a whole lot about non-deterministic code, which is- which-
 
 Let me explain. When you run some code on your phone, or laptop, or device- When you do something on your phone, you can guess what it will do in most cases, right? In fact, you can _know_ what it will do, because the same thing should happen every time, right?
@@ -59,6 +63,8 @@ Wrong! It's not really like that. There's always a chance that your device does 
 All the computer code that we write is non-deterministic. But that doesn't mean it isn't [worth running](https://www.youtube.com/watch?v=eQgxFuw8f1U).
 
 ## Tiers
+
+![beepy heroes](3.png)
 
 If you're reading/listening to this, then you're a paying supporter of my work! (If you're not, then please [pay](https://patreon.com/Todepond) or leave).
 
