@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15;
+    padding: 14;
     height: 100%;
   }
 </style>
@@ -50,7 +50,7 @@
   button.addEventListener("click", () => {
     const iframe = document.createElement("iframe");
     iframe.src = "/lab/deeper?level=" + Math.random();
-    iframe.style.transform = "rotate(2deg)";
+    iframe.style.transform = "skew(2deg, 1deg) rotate(-1deg)";
     button.replaceWith(iframe);
   });
 </script>
