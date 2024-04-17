@@ -1,0 +1,175 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    cursor: grab;
+    position: relative;
+  }
+
+  canvas {
+    position: fixed;
+    z-index: -1;
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<img
+  id="pencil"
+  src="/lab/tool/pencil.png"
+  alt="pencil"
+  style="left: 0px; top: 0px"
+  draggable="false"
+/>
+
+<img
+  id="eraser"
+  src="/lab/tool/rubber.png"
+  alt="rubber"
+  style="left: 0px; top: 0px"
+  draggable="false"
+/>
+
+<canvas></canvas>
+
+<script>
+  const pencil = document.querySelector("#pencil");
+  const eraser = document.querySelector("#eraser");
+  const canvas = document.querySelector("canvas");
+  const context = canvas.getContext("2d");
+
+  let dragging = null;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  function handlePointerDown(event, element) {
+    dragging = element;
+    element.setPointerCapture(event.pointerId);
+    element.style.cursor = "grabbing";
+    offsetX = event.clientX - element.style.left.slice(0, -2);
+    offsetY = event.clientY - element.style.top.slice(0, -2);
+    event.preventDefault();
+  }
+
+  const LEFT_PENCIL_OFFSET = 10;
+  const TOP_PENCIL_OFFSET = 10;
+
+  const LEFT_ERASER_OFFSET = 15;
+  const TOP_ERASER_OFFSET = 15;
+  const BOTTOM_ERASER_OFFSET = 15;
+  const RIGHT_ERASER_OFFSET = 20;
+
+  function handlePointerMove(event, element) {
+    if (dragging === element) {
+      const rect = element.getBoundingClientRect();
+      const bottomLeft = {
+        x: (rect.left + LEFT_PENCIL_OFFSET) * window.devicePixelRatio,
+        y: (rect.bottom - TOP_PENCIL_OFFSET) * window.devicePixelRatio,
+      };
+
+      const topLeft = {
+        x: (rect.left + LEFT_ERASER_OFFSET) * window.devicePixelRatio,
+        y: (rect.top + TOP_ERASER_OFFSET) * window.devicePixelRatio,
+      };
+
+      const bottomRight = {
+        x: (rect.right - RIGHT_ERASER_OFFSET) * window.devicePixelRatio,
+        y: (rect.bottom - BOTTOM_ERASER_OFFSET) * window.devicePixelRatio,
+      };
+
+      element.style.left = event.clientX - offsetX + "px";
+      element.style.top = event.clientY - offsetY + "px";
+
+      const newRect = element.getBoundingClientRect();
+      const newBottomLeft = {
+        x: (newRect.left + LEFT_PENCIL_OFFSET) * window.devicePixelRatio,
+        y: (newRect.bottom - TOP_PENCIL_OFFSET) * window.devicePixelRatio,
+      };
+
+      const newTopLeft = {
+        x: (newRect.left + LEFT_ERASER_OFFSET) * window.devicePixelRatio,
+        y: (newRect.top + TOP_ERASER_OFFSET) * window.devicePixelRatio,
+      };
+
+      const newBottomRight = {
+        x: (newRect.right - RIGHT_ERASER_OFFSET) * window.devicePixelRatio,
+        y: (newRect.bottom - BOTTOM_ERASER_OFFSET) * window.devicePixelRatio,
+      };
+
+      if (element === pencil) {
+        context.beginPath();
+        context.moveTo(bottomLeft.x, bottomLeft.y);
+        context.lineTo(newBottomLeft.x, newBottomLeft.y);
+        console.log(bottomLeft, newBottomLeft);
+        context.strokeStyle = "white";
+        context.lineWidth = 10;
+        context.lineCap = "round";
+        context.stroke();
+      } else if (element === eraser) {
+        context.beginPath();
+        context.moveTo(topLeft.x, topLeft.y);
+        context.lineTo(newTopLeft.x, newTopLeft.y);
+        context.lineTo(newBottomRight.x, newBottomRight.y);
+        context.lineTo(bottomRight.x, bottomRight.y);
+        context.lineTo(topLeft.x, topLeft.y);
+        // context.fillStyle = "white";
+        context.fillStyle = "rgb(31, 39, 54)";
+        context.fill("nonzero");
+        context.lineWidth = 5;
+        context.strokeStyle = "rgb(31, 39, 54)";
+        context.lineCap = "round";
+        context.stroke();
+      }
+    }
+  }
+
+  function handlePointerUp(event, element) {
+    if (dragging === element) {
+      dragging = null;
+      element.style.cursor = "grab";
+    }
+  }
+
+  function handleResize() {
+    const canvas = document.querySelector("canvas");
+    canvas.width = window.innerWidth * window.devicePixelRatio;
+    canvas.height = window.innerHeight * window.devicePixelRatio;
+  }
+
+  window.addEventListener("resize", handleResize);
+  handleResize();
+
+  for (const tool of [pencil, eraser]) {
+    tool.addEventListener("pointerdown", (event) => {
+      handlePointerDown(event, tool);
+    });
+    tool.addEventListener("pointermove", (event) => {
+      handlePointerMove(event, tool);
+    });
+    tool.addEventListener("pointerup", (event) => {
+      handlePointerUp(event, tool);
+    });
+  }
+</script>
