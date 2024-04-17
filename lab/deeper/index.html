@@ -50,7 +50,7 @@
   button.addEventListener("click", () => {
     const iframe = document.createElement("iframe");
     iframe.src = "/lab/deeper?level=" + Math.random();
-    iframe.style.transform = "skew(2deg, 1deg) rotate(-1deg)";
+    iframe.style.transform = "skew(-1deg, 0deg) rotate(2deg)";
     button.replaceWith(iframe);
   });
 </script>
