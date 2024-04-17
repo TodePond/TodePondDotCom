@@ -28,9 +28,8 @@ A demo is when you show something you've made.
 
 ## You must demo
 
-If you turn up to an event in the [london coding scene], you must demo. 
+If you turn up to an event in the [london coding scene](https://www.todepond.com/wikiblogarden/london), you must demo. 
 
 <br>
 
-Back to the [wikiblogarden](/wiki
-blogarden).
+Back to the [wikiblogarden](/wikiblogarden).
