@@ -321,7 +321,7 @@ And then I got back to my emails.
 > to all of that\
 > so I tape them together\
 > like cardboard stuck\
-> to a page\
+> to a paper page\
 > (long may it last).
 
 ## Quiet 
