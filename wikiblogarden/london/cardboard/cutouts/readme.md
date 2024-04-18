@@ -198,9 +198,13 @@ Then he sung me a song. It was beautiful! I think he learnt it from Peppa Pig.
 
 We managed to film him doing it a second time, and we showed his mum at the end of the day. His mum was such a kind woman, and always wore an elegant headscarf. Mo enjoyed showing her the song again and again, and I decided to leave my ukulele at school. It's ok, I had another one at home anyway!
 
+<br>
+
 ## Making
 
 I told him that this would either be my making or my breaking, and he said to me, looking me dead in the eye, "It'll be your making, lad."
+
+<br>
 
 ## Windmill
 
