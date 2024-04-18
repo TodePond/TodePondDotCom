@@ -318,7 +318,7 @@ And then I got back to my emails.
 > but tiny snippets\
 > of folded moments\
 > connected together\
-> like cardboard grooves.
+> with cardboard grooves.
 > 
 > They try to remind me\
 > of what's important\
@@ -330,7 +330,7 @@ And then I got back to my emails.
 > I hope to hold on\
 > to all of that\
 > so I tape them together\
-> like cardboard stuck\
+> torn cardboard stuck\
 > to a paper page\
 > (long may it last).
 
