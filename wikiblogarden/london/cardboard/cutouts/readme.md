@@ -340,7 +340,7 @@ And then I got back to my emails.
 
 "Yes it must be."
 
-"You have to practise. You know, myson is 14 years old. Guess how long he fasted."
+"You have to practise. You know, my son is 14 years old. Guess how long he fasted."
 
 "I don't know. How long?"
 
