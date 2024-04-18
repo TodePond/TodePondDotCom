@@ -300,6 +300,8 @@ And then I got back to my emails.
 
 "How's it going Mr W"
 
+## Cardboard cutouts
+
 > I can't help but think through\
 > all these cutout memories.
 > 
