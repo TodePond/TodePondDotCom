@@ -114,7 +114,7 @@ Ok great, just checking.
 
 ## Dance
 
-Divali! The school was decorated from head to toe with colourful cardboard decorations. My colleague Mrs N told me about all the preparations she had to do over the weekend for her family. Marty was practising his dance for the special school assembly. And Karan told me about his family's Divali celebrations. 
+Divali! The school was decorated from head to toe with colourful cardboard decorations. My colleague Mrs N told me about all the preparations she had to do over the weekend for her family. Marty was practising his dance for the Divali assembly. And Karan told me about his family's Divali plans. 
 
 "Wait, didn't you celebrate Eid, Karan?"
 
@@ -256,11 +256,17 @@ And then I got back to my emails.
 
 "Mo!"
 
-"Ok everyone, get out some drawing
+"Ok everyone, let's get out some drawing and-" and I almost gave up on my big email plans until-
 
 "Alright Mr Wilson!" said Alex, as they walked into the classroom half an hour early. 
 
-"Alright everyone, let's go outside and let Mr Wilson do his emails."
+"Alright everyone, let's go outside and let Mr Wilson do his emails. Look, I can see The Flash outside already!"
+
+"Miss J, that's technically not The Flash. That's actually Karan."
+
+"I know, Eddy. I'm just joking."
+
+"Oh yes- I mean- ha ha ha."
 
 ## Cardboard
 
