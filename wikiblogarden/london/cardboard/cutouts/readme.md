@@ -174,7 +174,9 @@ I was sitting in the staff room, eating my lunch, exhausted. Mr Thomas was sitti
 
 "MARVELLOUS assembly today. My class were RAVING about it. FULLY ENGAGED. And they had so many FOLLOW UP QUESTIONS afterwards. You MUST COME and speak with them this afternoon."
 
-"Oh- uhh- yes- I"
+"Oh- uhh- yes- I-"
+
+Mr Thomas tried to compose himself, and just about managed to keep his kippah from falling off his head.
 
 "DON'T WORRY Mr Thomas, I'll take your class for the end of the day" she said while sitting herself down in between the two of us. "BESIDES. I've been looking forward to saying hello to AMEER again anyway."
 
