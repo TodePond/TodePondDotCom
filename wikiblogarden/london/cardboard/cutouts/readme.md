@@ -316,7 +316,7 @@ like cardboard stuck onto\
 my blog post page\
 long may it last.
 
-## 29
+## Quiet 
 
 "Yes, 29!!"
 
@@ -334,9 +334,9 @@ long may it last.
 
 "I don't know. How long?"
 
-"28 days!"
+"18 days!"
 
-"28!?!"
+"18!?!"
 
 <br>
 
