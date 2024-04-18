@@ -170,27 +170,31 @@ I was sitting in the staff room, eating my lunch, exhausted. Mr Thomas was sitti
 
 "I started when everyone else did" he told me. "The only difference is, I never stopped. And it turns out someone set up a gym exactly where the-"
 
-"MR THOMAS!" said the loudest and most respected person in the school, Mrs Gordon, waking in with her walking stick. She's deputy head teacher, loved and feared by all children and adults alike. She's the one that got me this job in the first place.
+"MR THOMAS!" said the loudest and most respected person in the school, Mrs Gordon, walking in with her walking stick. She's deputy head teacher, loved and feared by all children and adults alike. She's the one that got me this job in the first place.
 
 "MARVELLOUS assembly today. My class were RAVING about it. FULLY ENGAGED. And they had so many FOLLOW UP QUESTIONS afterwards. You MUST COME and speak with them this afternoon."
 
 "Oh- uhh- yes- I"
 
-"DON'T WORRY Mr Thomas, I'll take your class for the end of the day" she said while sitting in between the two of us. "BESIDES. I've been looking forward to saying hello to AMEER again anyway"
+"DON'T WORRY Mr Thomas, I'll take your class for the end of the day" she said while sitting herself down in between the two of us. "BESIDES. I've been looking forward to saying hello to AMEER again anyway."
 
-Then she gave me a wink. 
+Then she gave me a wink.
 
 ## Ukulele
 
-I brought in my ukulele to show the class. Mo loved it. He brought it to the sensory room and looked at himself in mirror as he played it. Strumming strumming strumming. In his own world, strumming strumming strumming. Then he turned to me and said the most words I ever heard him say in a row. 
+I brought in my ukulele to show the class. Mo loved it. He brought it to the sensory room and looked at himself in mirror as he played it. Strumming strumming strumming. In his own world, strumming strumming strumming. Then he turned to me and said the most words I ever heard him say in a row.
 
 "You want to hear it?"
 
 Yes! Yes I do! 
 
-Then he sung me a song. It was beautiful! I think he learned it from Peppa Pig.
+Then he sung me a song. It was beautiful! I think he learnt it from Peppa Pig.
 
 We managed to film him doing it a second time, and we showed his mum at the end of the day. His mum was such a kind woman, and always wore an elegant headscarf. Mo enjoyed showing her the song again and again, and I decided to leave my ukulele at school. It's ok, I had another one at home anyway!
+
+## Making
+
+I told him that this would either be my making or my breaking, and he said to me, looking me dead in the eye, "It'll be your making, lad."
 
 ## Windmill
 
@@ -198,13 +202,13 @@ We managed to film him doing it a second time, and we showed his mum at the end 
 
 Mrs S looked exhausted, and out of breath, standing there in the doorway.
 
-I turned to make eye contact with Alex, and I pointed at them while tilting my head. They pointed back at me, then they pointed at Eddy next to them. I rolled my hands over each other like a windmill. Then they nodded at me, and stood up. 
+I turned to make eye contact with Alex, and I pointed at them while tilting my head. They pointed back at me, then they pointed at Eddy next to them. I rolled my hands over each other like a windmill. Then they nodded at me, and they stood up. 
 
 "Ok everyone, Mr Wilson is going to go say hello to Josh so we're going to-"
 
-Alex's voice faded as I walked away with Mrs S.
+Alex's voice faded away as I walked down the corridor with Mrs S.
 
-"Good to see you, Mrs S. Why don't you talk me through what happened."
+"Good to see you, Mrs S. Why don't you talk me through everything that happened."
 
 ## Training
 
@@ -226,10 +230,6 @@ Uh oh, it's Mrs Gordon.
 
 "Ok I'm coming."
 
-## Making
-
-I told him that this would either be my making or my breaking, and he said "It'll be your making, lad."
-
 ## Football
 
 "Ok, Josh, you're in school very early with me this morning, so I'd like to ask you to help me get the classroom ready. Is that ok?"
@@ -238,13 +238,13 @@ Josh gave me a salute, and started getting out the chairs. And I carried on writ
 
 "Marty!!!!!" Josh called out.
 
-Oh ok, looks like Marty is here too.
+Oh ok, looks like Marty is here early too.
 
 "Josh!!!!" said Marty.
 
 Marty's dad came running behind him. "Sorry Mr Wilson, I've got to get to the hospital so is it ok if I drop off Marty early today?"
 
-"Ah- I mean- well... ok sure thing" and then I got back to my emails, while Marty set up the timetable. 
+"Ah- I mean- well... ok sure thing" and then I got back to my emails, while Marty started setting up the timetable.
 
 "Eddy!!!!!" said Josh. 
 
@@ -276,40 +276,51 @@ And then I got back to my emails.
 
 "Miss J, that's technically not The Flash. That's actually Karan."
 
-"I know, Eddy. I'm just joking."
+"Karan!!!!"
 
-"Oh yes- I mean- ha ha ha."
+## Oi Wilson
 
-## Cardboard
+"Oi Wilson"
+
+"Alright Wilson"
+
+"Hello Mr Wilson"
+
+"Mr Wilson"
+
+"How's it going Mr W"
+
+## 
 
 I can't help but think through\
-all these cutout memories
+all these cutout memories.
 
 I don't recall them\
 as continuous stories\
 but tiny snippets\
 of folded moments\
 connected together\
-like cardboard grooves
+like cardboard grooves.
 
 They try to remind me\
 of what's important\
 the humanity I encountered\
 seemed small at the time\
 but looking back\
-brought me so much meaning
+brought me so much meaning.
 
 I hope to hold on\
 to all of that\
 so I tape them together\
 like cardboard stuck onto\
-my blog post page.
+my blog post page\
+long may it last.
 
-## 28
+## 29
 
 "Yes, 29!!"
 
-"Wow! That's incredible! 29!? Inside there!??!"
+"That's incredible! 29 people!? Inside there!??!"
 
 "Yes that's right."
 
@@ -319,7 +330,7 @@ my blog post page.
 
 "Yes it must be."
 
-"You have to practise. You know, my son is 14 years old. Guess how long he fasted for."
+"You have to practise. You know, my son is 14 years old. Guess how long he fasted."
 
 "I don't know. How long?"
 
