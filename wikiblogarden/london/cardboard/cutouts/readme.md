@@ -18,7 +18,7 @@ And I asked him "How have you been?"
 
 He shook his head and said, "It's been so quiet. Very quiet this year."
 
-"Oh yeah, you were fasting?"
+"Oh yeah, you were fasting?" I said.
 
 "So many people this year..."
 
