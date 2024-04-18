@@ -136,7 +136,7 @@ I look over and see a nervous-looking Ameer standing behind his dad.
 
 "Ameer has come to apologise" his dad said to me (and him).
 
-Oh yes, I remember. He brought l broke all my pencils this morning after getting a question wrong.
+Oh yes, I remember. He broke all my pencils this morning after getting a question wrong.
 
 "We just want to thank you for all your help with- And you see, in my culture, we have a lot of respect for teachers."
 
