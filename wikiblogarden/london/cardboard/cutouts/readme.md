@@ -300,14 +300,6 @@ And then I got back to my emails.
 
 "How's it going Mr W"
 
-<br>
-
-<br>
-
-<br>
-
-<br>
-
 ## Cardboard cutouts
 
 > I can't help but think through\
@@ -334,16 +326,6 @@ And then I got back to my emails.
 > to a paper page\
 > (long may it last).
 
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
 ## Quiet 
 
 "Yes, 29!!"
@@ -358,7 +340,7 @@ And then I got back to my emails.
 
 "Yes it must be."
 
-"You have to practise. You know, my son is 14 years old. Guess how long he fasted."
+"You have to practise. You know, myson is 14 years old. Guess how long he fasted."
 
 "I don't know. How long?"
 
