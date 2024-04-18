@@ -146,7 +146,23 @@ Oh yes, I remember. He broke all my pencils this morning after getting a questio
 
 <br>
 
+<br>
+
 "That's ok Ameer, it's finished now. Tomorrow is a new day."
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+## Cards
+
+I dropped all of my cards on the floor, and they flickered around everywhere, and that was enough, after that day, and I just started welling up, with my knees on the floor, and Mrs H came to pick me up, and looked me in the eye, and told me that everything was going to be ok.
 
 ## Pokémon
 
@@ -175,10 +191,6 @@ Yes! Yes I do!
 Then he sung me a song. It was beautiful! I think he learned it from Peppa Pig.
 
 We managed to film him doing it a second time, and we showed his mum at the end of the day. His mum was such a kind woman, and always wore an elegant headscarf. Mo enjoyed showing her the song again and again, and I decided to leave my ukulele at school. It's ok, I had another one at home anyway!
-
-## Cards
-
-I dropped all my cards on the floor, and they flickered around everywhere, and that was enough, after that day, that day, and I just started welling up, with my knees on the floor, and Mrs H came to pick me up, and looked me in the eye, and told me that everything was going to be ok.
 
 ## Windmill
 
