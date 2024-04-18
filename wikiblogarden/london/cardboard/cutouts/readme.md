@@ -112,9 +112,9 @@ He laughed and then caught his breath and then said, "Oh he sees 'mum' as an ear
 
 Ok great, just checking. 
 
-## Dance
+## Cardboard 
 
-Divali! The school was decorated from head to toe with colourful cardboard decorations. My colleague Mrs N told me about all the preparations she had to do over the weekend for her family. Marty was practising his dance for the Divali assembly. And Karan told me about his family's Divali plans. 
+Divali! The school was decorated from head to toe with colourful cutout cardboard decorations. My colleague Mrs N told me about all the preparations she had to do over the weekend for her family. Marty was practising his dance for the Divali assembly. And Karan told me about his family's Divali plans. 
 
 "Wait, didn't you celebrate Eid, Karan?"
 
