@@ -300,6 +300,14 @@ And then I got back to my emails.
 
 "How's it going Mr W"
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 ## Cardboard cutouts
 
 > I can't help but think through\
@@ -316,7 +324,7 @@ And then I got back to my emails.
 > of what's important\
 > the humanity I saw\
 > seemed small at the time\
-> but looking back
+> but looking back\
 > brought me so much meaning.
 > 
 > I hope to hold on\
@@ -325,6 +333,16 @@ And then I got back to my emails.
 > like cardboard stuck\
 > to a paper page\
 > (long may it last).
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ## Quiet 
 
