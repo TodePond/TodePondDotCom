@@ -22,7 +22,7 @@ He shook his head and said, "It's been so quiet. Very quiet this year."
 
 "So many people this year..."
 
-I couldn't quite tell how he was feeling. Was he pleased about so many people joining in with fasting? Or was he sad that his business was slower than usual? I think it was probably both. 
+I couldn't quite tell how he was feeling. Was he pleased about how many people  were joining in with fasting? Or was he sad that his business was slower than usual? I think it was probably both. 
 
 "Do you remember?" he asked. "Do you remember the first time you came to this cafe?"
 
