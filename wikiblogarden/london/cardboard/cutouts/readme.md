@@ -1,4 +1,4 @@
-# Cutouts of cardboard
+# Cardboard cutouts
 
 Yesterday I picked up some takeaway noodles from town, and when I was walking back, a man waved at me from the cafe next door.
 
