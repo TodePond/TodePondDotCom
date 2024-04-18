@@ -300,31 +300,22 @@ And then I got back to my emails.
 
 "How's it going Mr W"
 
-## 
+> I can't help but think through all these cutout memories.
+> 
+> I don't recall them as continuous stories\
+> but tiny snippets of folded moments\
+> connected together like cardboard grooves.
 
-I can't help but think through\
-all these cutout memories.
+> They try to remind me of what's important\
+> the humanity I encountered seemed small at the time\
+> but looking back
+> brought me so much meaning.
 
-I don't recall them\
-as continuous stories\
-but tiny snippets\
-of folded moments\
-connected together\
-like cardboard grooves.
-
-They try to remind me\
-of what's important\
-the humanity I encountered\
-seemed small at the time\
-but looking back\
-brought me so much meaning.
-
-I hope to hold on\
-to all of that\
-so I tape them together\
-like cardboard stuck onto\
-my blog post page\
-long may it last.
+> I hope to hold on to all of that\
+> so I tape them together\
+> like cardboard stuck on\
+> to my blog post page\
+> (long may it last).
 
 ## Quiet 
 
