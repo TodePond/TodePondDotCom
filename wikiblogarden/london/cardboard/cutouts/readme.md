@@ -74,7 +74,7 @@ And then he demonstrated how fast The Flash runs by running on the spot.
 
 I told his mum what he said at the end of the day, and it made her laugh. Then we said "Eid Mubarak" to each other and they walked home. 
 
-## Eddy's mum
+## Eddy's dad
 
 The other kids got excited too. The school was so empty that it felt special. It felt like a holiday. We'd mostly pause teaching, and do something more fun instead.
 
@@ -98,7 +98,7 @@ Kids sometimes see and say things exactly as they are. They aren't burdened with
 
 If only more of us could take that stance, and let go of our prejudices. I learned a lot from working in that school. 
 
-"Hello Eddy's mum. Well done for being Eddy's dad now."
+"Hello Eddy's dad. Well done for being Eddy's dad now."
 
 "Thank you very much Katie" said Eddy's dad, giggling to himself.
 
@@ -184,7 +184,7 @@ Then she gave me a wink.
 
 ## Ukulele
 
-I brought in my ukulele to show the class. Mo loved it. He brought it to the sensory room and looked at himself in mirror as he played it. Strumming strumming strumming. In his own world, strumming strumming strumming. Then he turned to me and said the most words I ever heard him say in a row.
+I brought in my ukulele to show the class. Mo loved it. He brought it into the sensory room and looked at himself in the mirror as he played it. Strumming strumming strumming. In his own world, strumming strumming strumming. Then he turned to me and said the most words I ever heard him say in a row.
 
 "You want to hear it?"
 
