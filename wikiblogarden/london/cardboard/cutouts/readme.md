@@ -76,7 +76,7 @@ I told his mum what he said at the end of the day, and it made her laugh. Then w
 
 ## Eddy's mum
 
-The other kids got excited too. The school was so empty that day that it felt special. It felt like a holiday. We'd mostly pause teaching, and do something more fun instead.
+The other kids got excited too. The school was so empty that it felt special. It felt like a holiday. We'd mostly pause teaching, and do something more fun instead.
 
 "Why are Karan and Ameer not in school today, Mr Wilson?"
 
@@ -176,6 +176,10 @@ Then he sung me a song. It was beautiful! I think he learned it from Peppa Pig.
 
 We managed to film him doing it a second time, and we showed his mum at the end of the day. His mum was such a kind woman, and always wore an elegant headscarf. Mo enjoyed showing her the song again and again, and I decided to leave my ukulele at school. It's ok, I had another one at home anyway!
 
+## Cards
+
+I dropped all my cards on the floor, and they flickered around everywhere, and that was enough, after that day, that day, and I just started welling up, with my knees on the floor, and Mrs H came to pick me up, and looked me in the eye, and told me that everything was going to be ok.
+
 ## Windmill
 
 "Mr Wilson, we need your help with Josh in reception. He's fighting again and-"
@@ -190,9 +194,13 @@ Alex's voice faded as I walked away with Mrs S.
 
 "Good to see you, Mrs S. Why don't you talk me through what happened."
 
+## Training
+
+"Now I know what the government advice has been saying. But we *are* going to teach all of the-"
+
 ## Playground 
 
-Mrs K was sitting next to me in the staff room, and she told me "Luke, I have a chronic illness too."
+Mrs K sat next to me in the staff room, and she told me "Luke, I have a chronic illness too."
 
 "Oh really?"
 
@@ -206,17 +214,53 @@ Uh oh, it's Mrs Gordon.
 
 "Ok I'm coming."
 
-## Cards
-
-I dropped all my cards on the floor, and they flickered around everywhere, and that was enough, after that day, that day, and I just started welling up, with my knees on the floor, and Mrs H came to pick me up, and looked me in the eye, and told me that everything was going to be ok.
-
 ## Making
 
 I told him that this would either be my making or my breaking, and he said "It'll be your making, lad."
 
-## Training
+## Football
 
-"Now I know what the government advice has been saying. But we *are* going to teach all of the-"
+"Ok, Josh, you're in school very early with me this morning, so I'd like to ask you to help me get the classroom ready. Is that ok?"
+
+Josh gave me a salute, and started getting out the chairs. And I carried on writing emails, until-
+
+"Marty!!!!!" Josh called out.
+
+Oh ok, looks like Marty is here too.
+
+"Josh!!!!" said Marty.
+
+Marty's dad came running behind him. "Sorry Mr Wilson, I've got to get to the hospital so is it ok if I drop off Marty early today?"
+
+"Ah- I mean- well... ok sure thing" and then I got back to my emails, while Marty set up the timetable. 
+
+"Eddy!!!!!" said Josh. 
+
+"Josh!!!" said Eddy.
+
+"Eddy!!!" said Marty. 
+
+"Marty!!!" said Eddy. 
+
+"Sorry, we didn't have to pick up Olly today, so Eddy's here early" said the transport assistant. 
+
+"Ok... no worries. Come on in, Eddy."
+
+And then I got back to my emails. 
+
+"Ameer!!!!"
+
+"Katie!!!"
+
+"Ameer!!"
+
+"Mo!"
+
+"Ok everyone, get out some drawing
+
+"Alright Mr Wilson!" said Alex, as they walked into the classroom half an hour early. 
+
+"Alright everyone, let's go outside and let Mr Wilson do his emails."
 
 ## Cardboard
 
