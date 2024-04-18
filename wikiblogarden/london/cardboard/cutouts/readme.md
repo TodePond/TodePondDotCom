@@ -126,7 +126,7 @@ Yes, that's right. His dad's side is Muslim. His mum's side is Hindu.
 
 Then I saw Marty's parents standing with an excited looking Marty.
 
-"You were so good Marty!" his mum said. I guess she was referring to his dance in assembly. I don't think they celebrated Divali, or anything at all, but Marty did tell me his favourite subject was RE (religious education), and Mrs N did tell me that Marty was being great in her lesson. And, oh yes, Marty is jumping up and down, shaking his hands with excitement. That's good. He could really do with a confidence boost seeing as-
+"You were so good Marty!" his mum said. I guess she was referring to his dance in assembly. I don't think they celebrate Divali, or anything at all, but Marty did tell me that his favourite subject was RE (religious education), and Mrs N did tell me that Marty was being great in her lesson. And, oh yes, Marty is jumping up and down, shaking his hands with excitement. That's good. He could really do with a confidence boost seeing as-
 
 "Mr Wilson?"
 
