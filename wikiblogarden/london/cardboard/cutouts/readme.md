@@ -164,6 +164,10 @@ Oh yes, I remember. He broke all my pencils this morning after getting a questio
 
 I dropped all of my cards on the floor, and they flickered around everywhere, and that was enough, after that day, and I just started welling up, with my knees on the floor, and Mrs H came to pick me up, and looked me in the eye, and told me that everything was going to be ok.
 
+<br>
+
+<br>
+
 ## Pokémon
 
 I was sitting in the staff room, eating my lunch, exhausted. Mr Thomas was sitting beside me, playing Pokémon GO. 
