@@ -1,29 +1,34 @@
-# Zoom out style
+# Zoom out style for real
 
-Zoom out style is a style of storytelling where you start zoomed in, then zoom out.
+Ok I put up a [joke post](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/) about my approach to storytelling, sorry about that. Now here's the real thing.
 
-## Start zoomed in
+## Start zoomed out
 
-Show the audience a small part of the monster, and let them imagine the whole thing. But make sure they get it wrong! Get them to imagine a different monster.
+When I tell a story, I like to start from a zoomed out overview, so that the reader/listener/viewer can see everything that's going on. 
 
-- Make them think it's a [drawing tool].
-- Make them think it's a [2D array].
-- Make them think it's a [quadtree].
-- Make them think that those loops are all from [different languages].
-- Make them think that you'll make [99 sands].
+## Then zoom in
 
-## Show the monster
+Then I start zooming in on one part, but very slowly. At this point, the read/listen/viewer isn't sure which point in particular we're zooming on. But they can see the rough direction. 
 
-But not all at once. Show one small part at a time. The order is very important. 
+## Get closer 
 
-When I demo [screenpond] to people, I sometimes mess it up. It's really important to *not show* the infinite recursion until the very end. If I show it too early, it ruins the effect, because there's no expectation, or imagination, of what the monster really is. If I show all the monster in one go, then nobody cares.
+Continue zooming in, at increasing speed. Most of the original zoomed out view is now hidden from view, but that's ok, because the re/lis/viewer can position where they are in their mental model. They know the larger picture, and they don't feel disorientated at all. 
 
-## Why
+## Arrive
 
-I think that the feeling of having your assumptions broken is very powerful. That sort of experience really sticks with you. People describe it as [numinous] and [trippy]. It can be [confusing] and [disorienting].
+Arrive at your final point, the conclusion, and stop zooming in.
 
-This is important to me because I think that humans are too close-minded on the whole. I think we need to get better at dropping assumptions, and broadening horizons.
+Your point is small, about some small detail, and doesn't have any impact on its own.
 
-Now you finally know what zoom out style is.
+But in the larger, grander, scheme of things, it has some impact - something about it that resonates - some melancholy - or humour - or both.
 
-Back to the [wikiblogarden](/wikiblogarden/academia/style/zoom-out/for/example).l
+<br>
+
+Except..........
+
+That isn't zoom out style at all, it's another joke post. I made all of this up! That wasn't zoom out style at all. 
+
+<br>
+
+Back to the [wikiblogarden](/wikiblogarden).
+
