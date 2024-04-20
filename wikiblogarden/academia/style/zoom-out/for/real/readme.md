@@ -8,25 +8,27 @@ When I tell a story, I like to start from a zoomed out overview, so that the rea
 
 ## Then zoom in
 
-Then I start zooming in on one part, but very slowly. At this point, the read/listen/viewer isn't sure which point in particular we're zooming on. But they can see the rough direction. 
+Then I start zooming in on one part, but very slowly. At this point, the read/listen/viewer isn't sure which point in particular we're zooming in on. But they can see the rough direction. 
 
 ## Get closer 
 
-Continue zooming in, at increasing speed. Most of the original zoomed out view is now hidden from view, but that's ok, because the re/lis/viewer can position where they are in their mental model. They know the larger picture, and they don't feel disorientated at all. 
+Continue zooming in, at increasing speed. Most of the original zoomed out view is now hidden from view, but that's ok, because the re/lis/viewer can position where they are in the larger picture. They have a clear mental model of it, and they don't feel disorientated at all. 
 
 ## Arrive
 
-Arrive at your final point, the conclusion, and stop zooming in.
+Arrive at your final destination, fully zoomed into the conclusion, and then stop zooming in!
 
-Your point is small, about some small detail, and doesn't have any impact on its own.
+Your point is small, about some small detail, and doesn't have any standing impact on its own.
 
-But in the larger, grander, scheme of things, it has some impact - something about it that resonates - some melancholy - or humour - or both.
+But in the larger, grander, scheme of things, it has some power of some sort - something about it that resonates - some melancholy - or humour - or both - some learning that you won't forget because you *felt* it.
 
 <br>
 
 Except..........
 
-That isn't zoom out style at all, it's another joke post. I made all of this up! That wasn't zoom out style at all. 
+That wasn't zoom out style at all - this is just another joke post! I made it up!
+
+Or actually, this approach is what I see many people do, and I don't like it at all. I think it leads to rather boring stories.
 
 <br>
 
