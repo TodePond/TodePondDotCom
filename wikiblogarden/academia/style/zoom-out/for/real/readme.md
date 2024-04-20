@@ -18,9 +18,9 @@ Continue zooming in, at increasing speed. Most of the original zoomed out view i
 
 Arrive at your final destination, fully zoomed into the conclusion, and then stop zooming in!
 
-Your point is small, about some small detail, and doesn't have any standing impact on its own.
+Your point is small, about some small detail, and it doesn't have any standing impact on its own.
 
-But in the larger, grander, scheme of things, it has some power of some sort - something about it that resonates - some melancholy - or humour - or both - some learning that you won't forget because you *felt* it.
+But in the larger, grander, scheme of things, it has a power of some sort - something about it that resonates - some melancholy - or humour - or both - some learning that you won't forget because you *felt* it.
 
 <br>
 
