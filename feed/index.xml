@@ -5,11 +5,11 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
-  			<title>Zoom out style for real</title>
-  			<pubDate>Sat, 20 Apr 2024 07:57:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</guid>
-  			<description>Ok this is really zoom out style.</description>
+  			<title>Stop worshipping tech idols</title>
+  			<pubDate>Sun, 21 Apr 2024 22:29:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/hackernews/idols/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/hackernews/idols/</guid>
+  			<description>Stop it.</description>
   		</item>
 		<item>
   			<title>My wikiblogarden</title>
@@ -19,60 +19,11 @@
   			<description>Todepond dot com is my wiki or blog or digital garden. I made it because Devine told me to. Let me explain what happened…</description>
   		</item>
 		<item>
-  			<title>Are analytics good?</title>
+  			<title>My wikiblogarden hosting</title>
   			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/social-media/analytics/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/social-media/analytics/</guid>
-  			<description>I get analytics from my youtube channel.</description>
-  		</item>
-		<item>
-  			<title>The weirdest thing about cellpond</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/cellpond/the-weirdest-thing/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/cellpond/the-weirdest-thing/</guid>
-  			<description>Cellpond’s splitting+merging is its most flashy+visual ‘weird thing’ so it’s what I show off most. But it’s not the weirdest thing about cellpond.</description>
-  		</item>
-		<item>
-  			<title>Just block them</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/social-media/just-block-them/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/social-media/just-block-them/</guid>
-  			<description>It's fine.</description>
-  		</item>
-		<item>
-  			<title>Sulfasalazine</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/health/sulfasalazine/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/health/sulfasalazine/</guid>
-  			<description>I’m supposed to take medicine every day. But it doesn't always work out like that.</description>
-  		</item>
-		<item>
-  			<title>Cellpond is not robust</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/cellpond/is-not-robust/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/cellpond/is-not-robust/</guid>
-  			<description>I made a thing called cellpond. It takes lots of inspiration from robust-first computing. However…</description>
-  		</item>
-		<item>
-  			<title>Padi</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/tadi-web/padi/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/padi/</guid>
-  			<description>How hard can it be to write a minimal PNG parser?</description>
-  		</item>
-		<item>
-  			<title>Tadi web</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/tadi-web/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/</guid>
-  			<description>The tadi web is a small and simple part of the normal web.</description>
-  		</item>
-		<item>
-  			<title>My name</title>
-  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/my-name/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/my-name/</guid>
-  			<description>My name is Lu or Luke (either’s fine).</description>
+  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting</guid>
+  			<description>When I decided to make a wiki, I started to think about how to host it.</description>
   		</item>
 		<item>
   			<title>Better computing</title>
@@ -82,11 +33,60 @@
   			<description>There are some people out there trying to make us use computers better.</description>
   		</item>
 		<item>
-  			<title>My wikiblogarden hosting</title>
+  			<title>My name</title>
   			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting</link>
-  			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting</guid>
-  			<description>When I decided to make a wiki, I started to think about how to host it.</description>
+  			<link>https://www.todepond.com/wikiblogarden/my-name/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/my-name/</guid>
+  			<description>My name is Lu or Luke (either’s fine).</description>
+  		</item>
+		<item>
+  			<title>Tadi web</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/</guid>
+  			<description>The tadi web is a small and simple part of the normal web.</description>
+  		</item>
+		<item>
+  			<title>Padi</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/tadi-web/padi/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/tadi-web/padi/</guid>
+  			<description>How hard can it be to write a minimal PNG parser?</description>
+  		</item>
+		<item>
+  			<title>Cellpond is not robust</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/cellpond/is-not-robust/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/cellpond/is-not-robust/</guid>
+  			<description>I made a thing called cellpond. It takes lots of inspiration from robust-first computing. However…</description>
+  		</item>
+		<item>
+  			<title>Sulfasalazine</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/health/sulfasalazine/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/health/sulfasalazine/</guid>
+  			<description>I’m supposed to take medicine every day. But it doesn't always work out like that.</description>
+  		</item>
+		<item>
+  			<title>Just block them</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/just-block-them/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/just-block-them/</guid>
+  			<description>It's fine.</description>
+  		</item>
+		<item>
+  			<title>The weirdest thing about cellpond</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/cellpond/the-weirdest-thing/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/cellpond/the-weirdest-thing/</guid>
+  			<description>Cellpond’s splitting+merging is its most flashy+visual ‘weird thing’ so it’s what I show off most. But it’s not the weirdest thing about cellpond.</description>
+  		</item>
+		<item>
+  			<title>Are analytics good?</title>
+  			<pubDate>Sun, 05 Nov 2023 20:55:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/social-media/analytics/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/social-media/analytics/</guid>
+  			<description>I get analytics from my youtube channel.</description>
   		</item>
 		<item>
   			<title>Test post</title>
@@ -920,6 +920,13 @@
   			<link>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/</link>
   			<guid>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/</guid>
   			<description>I tried and failed to write out my approach to storytelling.</description>
+  		</item>
+		<item>
+  			<title>Zoom out style for real</title>
+  			<pubDate>Sat, 20 Apr 2024 07:57:00 GMT</pubDate>
+  			<link>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</link>
+  			<guid>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</guid>
+  			<description>Ok this is really zoom out style.</description>
   		</item>
   </channel>
 </rss>
