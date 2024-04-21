@@ -60,9 +60,9 @@ Leave Dan alone too!
 
 Too many to list.
 
-## They're all white guys
+## They're usually white guys
 
-What do all these people have in common? Well, they're all white, they're all well-off, they're all in positions of power, and they're all men.
+What do all these people have in common? Well, they're all well-off, they're all in positions of power, and they're all men.
 
 Take it or leave it.
 
