@@ -60,7 +60,7 @@ Leave Dan alone too!
 
 Too many to list.
 
-## They're all been
+## They're all men
 
 What do all these people have in common? Well, they're all well-off, they're all in positions of power, and they're all [men](https://www.todepond.com/wikiblogarden/men).
 
