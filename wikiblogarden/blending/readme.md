@@ -2,10 +2,10 @@
 
 [No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/)!
 You must [stop making ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/).
-Yes [no more ideas](https://todepond.com/wikiblogarden/art/why-bother).\
+Yes [no more ideas](https://todepond.com/wikiblogarden/art/why-bother).
 It's my [guiding principle](https://futureofcoding.org/episodes/071).
 
-You must [merge the ideas](https://www.todepond.com/wikiblogarden/tadi-web/entry-points/).\
+You must [merge the ideas](https://www.todepond.com/wikiblogarden/tadi-web/entry-points/).
 You must [merge them instead](https://tornleaf.gallery). Take the existing ideas,
 already out there,
 and blend them into one,
