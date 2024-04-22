@@ -10,9 +10,9 @@ It stands for 'effective accelerationism' as a spinoff/rejection of 'effective a
 
 ## Obviously ridiculous
 
-They're obviously ridiculous. Molly White put it best in her article: [Effective obfuscation](https://newsletter.mollywhite.net/p/effective-obfuscation)
+They're obviously ridiculous. Molly White put it best in her article: [Effective obfuscation](https://www.citationneeded.news/effective-obfuscation/)
 
-**You need to read [her article](https://newsletter.mollywhite.net/p/effective-obfuscation) before continuing.**
+**You need to read [her article](https://www.citationneeded.news/effective-obfuscation/) before continuing.**
 
 I'll only add one thing...
 
