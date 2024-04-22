@@ -11,7 +11,7 @@ already out there,
 and blend them into one,
 while being careful to,
 not create any new,
-ideas in the process.
+ideas in the [process](https://youtu.be/WMJ1H3Ai-qs).
 
 > NO MORE IDEAS\
 > WE HAVE ENOUGH 
