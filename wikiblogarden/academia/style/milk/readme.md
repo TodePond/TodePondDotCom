@@ -4,11 +4,11 @@ When giving a demo, you need to milk it. Here's a simple guide on how to do that
 
 ## Hiding the monster
 
-In horror films, the director doesn't show you the whole monster straight away. You only see a small part of it and the rest of it is hidden, out of sight. But the *idea* of the monster is placed firmly in your head - the idea of what the monster *could be*. And that monster you construct in your imagination ends up being ten times scarier than what they could have possibly showed on screen. It's why the [blair witch project] is so scary, and why the [five nights at freddies] are not.
+In horror films, the director doesn't show you the whole monster straight away. You only see a small part of it and the rest of it is hidden, out of sight. But the *idea* of the monster gets placed firmly in your head - the idea of what the monster *could be*. And that monster you construct in your imagination ends up being ten times scarier than what they could have possibly showed on screen. It's why [blair witch project](https://youtu.be/MBZ-POVsrlI?si=gAkMs_6Oh-RjO3ie) is so scary, and [five nights at freddies](https://youtu.be/Z_T0o5uNrlY?si=-TpD5z_syEGkELfE) is not.
 
 ## But there's a twist
 
-**Hiding the monster** sets you up to create some horrific twists. The director leads you down a wrong path - hints you towards a wrong mental model - tricks you into getting a wrong idea. And then...
+**Hiding the monster** sets you up for some horrific twists. The director leads you down a wrong path - hints you towards a wrong mental model - tricks you into getting a wrong idea. And then...
 
 Then there can be this magical moment of "it's so much worse than I thought!"
 
