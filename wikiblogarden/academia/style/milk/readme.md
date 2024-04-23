@@ -1,6 +1,6 @@
 # How to milk your demo
 
-When giving a demo, you need to milk it. Here's a simple guide on how to do that.
+When you give a demo, you need to milk it. Here's a simple guide on how to do that.
 
 ## Hiding the monster
 
