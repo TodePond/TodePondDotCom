@@ -32,7 +32,7 @@ Yes, this post isn't really about milking your demo - it's about ZOOM OUT STYLE 
 
 I use zoom out style in all of my [talks](https://www.youtube.com/watch?v=eQgxFuw8f1U), [videos](https://youtu.be/Q4OIcwt8vcE), [posts](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/), [papers](/wikiblogarden/academia/citation/soon) and [demos](https://youtu.be/cF2OF75ivZM).
 
-If I do it wrong, it leaves people feeling bored and confused. But if I do it right, people say that it's ["numinous"](https://x.com/jonathoda/status/1719165351039270978) and it ["changed their life"](https://x.com/cwervo/status/1719437682839875777) and [so on](https://x.com/milanlajtos/status/1716404397356228945).
+If I do it wrong, it leaves people feeling bored and confused. But if I do it right, people say that it's ["numinous"](https://x.com/jonathoda/status/1719165351039270978) and it ["changed my life"](https://x.com/cwervo/status/1719437682839875777) and [so on](https://x.com/milanlajtos/status/1716404397356228945).
 
 The approach is inspired by *twists*...
 
