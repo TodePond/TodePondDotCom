@@ -20,7 +20,7 @@ It also happens in some games, stories, songs, all sorts, and it's always my fav
 
 *It's a wonderful feeling to discover that something is much bigger than you imagined.*
 
-That's what [zoom out style] is.
+That's what [zoom out style](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/) is.
 
 <br>
 
