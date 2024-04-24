@@ -14,7 +14,7 @@ they bounced off each other! they're reflections of one another, joined at the h
 
 ## arroost + tldraw
 
-[arroost](https://youtu.be/cF2OF75ivZM) happened after i joined at [tldraw](https://tldraw.com)
+[arroost](https://youtu.be/cF2OF75ivZM) happened after i joined [tldraw](https://tldraw.com)
 
 i learned to embrace the 'wobbliness' of tldraw's freehand lines - and you can feel that in arroost
 
