@@ -1,6 +1,6 @@
 # parallel projects
 
-the more time i spend working in this industry the more i realise how important is for me to work to work on so many projects in parallel 
+the more time i spend working in this industry the more i realise how important it is for me to work to work on so many projects in parallel 
 
 ppl tend to have one or two projects on the go but ive always reached for having several 
 
