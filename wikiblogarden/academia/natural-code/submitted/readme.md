@@ -86,13 +86,13 @@ We collected together everything in a private repository called "`LD10`". (I sug
 
 ## Natural code
 
-We started building out a `.tex` file, and I learned how awful that format is, and that it's pronounced `lay teck` not `latex`.
+We started building out a `.tex` file, and I learned just how awful that format is, and that it's pronounced `lay teck` not `latex`.
 
-> And no! I don't want to `use a microsoft word template`, or `some other closed off system`. By writing directly into a `.tex` file, we were able to see diffs, and do [version control](https://www.inkandswitch.com/patchwork/notebook/) and all sorts, in a way that I'm used to.
+> And no! I don't want to `use a microsoft word template`, or `some other closed off system` because — by writing directly into a `.tex` file, we were able to see diffs, and do [version control](https://www.inkandswitch.com/patchwork/notebook/) and all sorts of stuff in a way that I'm familiar with.
 
-Writing writing writing, editing editing, and — we needed more content for certain parts, or we needed to address a point, or a criticism, so we recorded more and more talks, and I put them into the essay in various places. 
+Writing writing writing, editing editing, and — when we needed more content for certain parts, or we needed to address a point, or a criticism — we recorded more and more talks — and I put them into the essay in various places. 
 
-We chose this approach because it demonstrated the `non-deterministic` `robust` principles that we were both calling for. We were `putting our money where our mouth is` in a way. 
+We chose an unusual format in the end because it demonstrated the `non-deterministic` and `robust` principles that we were both calling for. We were `putting our money where our mouth was` in a way. 
 
 ## Finishing
 
