@@ -114,7 +114,7 @@ I *hope* we get accepted. We put in so much work and effort and care, and I thin
 
 Whatever happens, I don't regret this experience. I've learned so so so much from it. I've learned all the little tricks and best practices, on picking your title, crafting your abstract, even choosing the right keywords. On thinking through in detail, and re-thinking and re-thinking, and phrasing and re-phrasing.
 
-When we get hear back, I hope to share more about how the writing process went. 
+When we hear back, I hope to share more about how the writing process went. 
 
 ## Blending fields
 
