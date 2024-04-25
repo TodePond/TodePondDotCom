@@ -120,7 +120,7 @@ When we hear back, I hope to share more about how the writing process went.
 
 [Jonathan Edwards](https://alarmingdevelopment.org/) told me (and all of us) to [write a paper](https://www.todepond.com/wikiblogarden/academia/from/the-outside/). And, hey, I didn't write a paper, but I did write an essay, with a great friend and mentor of mine. It was a huge amount of fun, a huge amount of stress — of lost evenings and weekends — and yet also...
 
-A huge amount of joy gained. All the moments of cross-continent cross-generation collaboration are not ones that I will ever forget. Not to mention all the things I learned and the skills I practised for the first time.
+A huge amount of joy gained. All those moments of cross-continental cross-generational collaboration are not ones that I ever plan to forget. Not to mention all the things I learned and the skills I practised for the first time.
 
 Would I recommend this for everyone? Certainly not. But I would encourage you to dabble, at the very least. I truly believe that the most satisfying and rounded work comes from [blending fields](https://www.todepond.com/wikiblogarden/blending/), science, art, academia, and fun and pain and all the rest. 
 
