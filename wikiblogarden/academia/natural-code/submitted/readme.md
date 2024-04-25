@@ -126,7 +126,9 @@ Would I recommend this for everyone? Certainly not. But I would encourage you to
 
 Whatever code you speak in, there's a Bloody Lot of good that can come from learning a new language every now and then.
 
-end.
+<br>
+
+and that's it. step by step.
 
 <hr>
 
