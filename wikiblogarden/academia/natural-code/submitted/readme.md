@@ -102,9 +102,9 @@ And so the work became less about writing, and more about getting the figures in
 
 **LU:** Are you sure we can use [tldraw](https://tldraw.com) as a reference?
 
-And today we pushed the button! (hopefully) 
+And today we pushed the button!
 
-Today we will submitted this thing to onward essays!
+Today we submitted this thing to onward essays!
 
 ## Getting rejected
 
