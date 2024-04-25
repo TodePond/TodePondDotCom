@@ -28,7 +28,7 @@ Then I sat and *thought about it* for a year.
 
 ## Sandpond saga
 
-Then I turned it 3D. It [worked again](https://youtu.be/2Gi8fdvmvqY)! And so the [sandpond saga] was born.
+Then I turned it 3D. It [worked again](https://youtu.be/2Gi8fdvmvqY)! And so the [sandpond saga](https://youtube.com/@todepond) was born.
 
 [Andrew Walpole](https://andrewwalpole.com/blog/an-introduction-to-robust-first-computation/) noticed my videos, and shared them in Dave's [community chat](https://discord.com/invite/bbGaSCaJEk). I was lurking there at the time! It had gone full circle, and Dave got to hear someone *repeating his ideas back at him*.
 
