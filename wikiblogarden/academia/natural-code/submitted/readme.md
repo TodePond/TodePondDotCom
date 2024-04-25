@@ -128,7 +128,7 @@ Whatever code you speak in, there's a Bloody Lot of good that can come from lear
 
 <br>
 
-and that's it. step by step.
+and that's it done, step by step.
 
 <hr>
 
