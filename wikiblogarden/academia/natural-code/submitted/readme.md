@@ -122,7 +122,7 @@ When we hear back, I hope to share more about how the writing process went.
 
 A huge amount of joy gained. All those moments of cross-continental cross-generational collaboration are not ones that I ever plan to forget. Not to mention all the things I learned and the skills I practised for the first time.
 
-Would I recommend this for everyone? Certainly not. But I would encourage you to dabble, at the very least. I truly believe that the most satisfying and rounded work comes from [blending fields](https://www.todepond.com/wikiblogarden/blending/), science, art, academia, and fun and pain and all the rest. 
+Would I recommend this for everyone? Certainly not. But I would encourage you to dabble, at the very least. I truly believe that the most satisfying and rounded work comes from [blending fields](https://www.todepond.com/wikiblogarden/blending/), science, art, academia, fun pain, and all the rest. 
 
 Whatever code you speak in, there's a Bloody Lot of good that can come from learning a new language every now and then.
 
