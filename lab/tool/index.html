@@ -27,6 +27,10 @@
   body {
     background-color: rgb(31, 39, 54);
   }
+
+  #tool-layer {
+    pointer-events: none;
+  }
 </style>
 
 <canvas id="drawing-layer"></canvas>
@@ -54,6 +58,9 @@
     toolCanvas.height = window.innerHeight * devicePixelRatio;
     drawingCanvas.width = window.innerWidth * devicePixelRatio;
     drawingCanvas.height = window.innerHeight * devicePixelRatio;
+
+    drawingContext.fillStyle = "rgb(31, 39, 54)";
+    drawingContext.fillRect(0, 0, drawingCanvas.width, drawingCanvas.height);
   }
 
   addEventListener("resize", handleResize);
