@@ -40,16 +40,16 @@
   >Show preview</label
 >
 
-<textarea id="input">My favourite food is </textarea>
+<textarea id="input"></textarea>
 <!-- prettier-ignore -->
-<p id="preview" style="display: none">My favourite food is </p>
+<p id="preview" style="display: none"></p>
 
 <script type="module">
   const previewToggle = document.querySelector("#preview-toggle");
   const input = document.querySelector("#input");
   const preview = document.querySelector("#preview");
 
-  input.value = localStorage.getItem("lab-text") ?? input.value;
+  input.value = localStorage.getItem("lab-text") ?? "My favourite food is ";
   preview.textContent = input.value;
 
   selectEnd(input);
