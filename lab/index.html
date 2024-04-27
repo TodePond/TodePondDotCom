@@ -25,8 +25,17 @@
 
 <hr />
 
-<section id="topics">
-  <details>
+<section
+  id="topics"
+  style="
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-between;
+  "
+>
+  <details style="display: inline-block">
     <summary>Filter by topic</summary>
     <span>
       <label for="all" value="all" class="secondary">
@@ -35,6 +44,12 @@
       </label>
     </span>
   </details>
+  <button
+    id="clear-filter"
+    style="display: none; margin-top: -1px; margin-bottom: -1px"
+  >
+    x Clear filter
+  </button>
 </section>
 
 <style>
@@ -188,6 +203,11 @@
         Array.from(topicsSpan.querySelectorAll("input")).some(
           (input) => input.checked
         );
+      if (allChecked) {
+        document.querySelector("#clear-filter").style.display = "none";
+      } else {
+        document.querySelector("#clear-filter").style.display = "inline";
+      }
     });
     label.append(topic);
     topicsSpan.append(label);
@@ -198,13 +218,25 @@
       for (const topic of TOPICS) {
         document.querySelector(`input[value="${topic}"]`).checked = false;
       }
+      document.querySelector("#clear-filter").style.display = "inline";
     } else {
       for (const topic of TOPICS) {
         document.querySelector(`input[value="${topic}"]`).checked = true;
       }
+      document.querySelector("#clear-filter").style.display = "none";
     }
 
     renderExperiments();
+  });
+
+  document.querySelector("#clear-filter").addEventListener("click", () => {
+    for (const topic of TOPICS) {
+      document.querySelector(`input[value="${topic}"]`).checked = true;
+    }
+    all.checked = true;
+    all.indeterminate = false;
+    renderExperiments();
+    document.querySelector("#clear-filter").style.display = "none";
   });
 
   renderExperiments();
