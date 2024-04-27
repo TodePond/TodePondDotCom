@@ -73,6 +73,7 @@
 
   function handleLeave() {
     if (left) return;
+    stopped = true;
     left = true;
     clearInterval(interval);
     alert(
