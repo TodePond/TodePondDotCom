@@ -121,16 +121,29 @@ Here's my feed! You can see it here. Or subscribe to the
 
   let currentItems = [];
 
+  function getLocalFeed() {
+    const feed = localStorage.getItem("feed");
+    if (feed) return JSON.parse(feed);
+  }
+
+  function setLocalFeed(feed) {
+    localStorage.setItem("feed", JSON.stringify(feed));
+  }
+
   const main = async () => {
+    const localFeed = getLocalFeed();
+    if (localFeed) {
+      renderItems(localFeed);
+    }
     const currentFeed = await getCurrentFeed();
     currentItems = parseItems(currentFeed);
-    renderItems(
-      currentItems.sort((a, b) => {
-        const aDate = new Date(a.pubDate);
-        const bDate = new Date(b.pubDate);
-        return bDate - aDate;
-      })
-    );
+    const sorted = currentItems.sort((a, b) => {
+      const aDate = new Date(a.pubDate);
+      const bDate = new Date(b.pubDate);
+      return bDate - aDate;
+    });
+    renderItems(sorted);
+    setLocalFeed(sorted);
   };
 
   const renderItems = (items) => {
