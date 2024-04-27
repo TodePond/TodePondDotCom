@@ -29,6 +29,10 @@
     white-space: pre;
     tab-size: 4;
   }
+
+  label {
+    user-select: none;
+  }
 </style>
 <h1>Text</h1>
 
@@ -36,13 +40,19 @@
   >Show preview</label
 >
 
-<textarea id="input">Press tab to toggle preview</textarea>
-<p id="preview" style="display: none">Press tab to toggle preview</p>
+<textarea id="input">My favourite food is </textarea>
+<!-- prettier-ignore -->
+<p id="preview" style="display: none">My favourite food is </p>
 
 <script type="module">
   const previewToggle = document.querySelector("#preview-toggle");
   const input = document.querySelector("#input");
   const preview = document.querySelector("#preview");
+
+  input.value = localStorage.getItem("lab-text") ?? input.value;
+  preview.textContent = input.value;
+
+  selectEnd(input);
 
   addEventListener("keydown", (e) => {
     if (e.key === "Tab") {
@@ -54,6 +64,7 @@
 
   input.addEventListener("input", () => {
     preview.textContent = input.value;
+    localStorage.setItem("lab-text", input.value);
   });
 
   previewToggle.addEventListener("change", () => {
@@ -69,5 +80,10 @@
     if (!previewToggle.checked) {
       input.focus();
     }
+  }
+
+  function selectEnd(el) {
+    el.focus();
+    el.setSelectionRange(el.value.length, el.value.length);
   }
 </script>
