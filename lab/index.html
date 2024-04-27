@@ -28,7 +28,12 @@
 <section id="topics">
   <details>
     <summary>Filter by topic</summary>
-    <span></span>
+    <span>
+      <label for="all" value="all" class="secondary">
+        <input type="checkbox" id="all" checked />
+        all
+      </label>
+    </span>
   </details>
 </section>
 
@@ -111,7 +116,7 @@
       topics: ["text", "persistence", "collaboration", "creativity"],
     },
     {
-      path: "asterisk",
+      path: "emphasis",
       topics: ["text", "parsing", "creativity"],
     },
     {
@@ -127,7 +132,7 @@
       topics: ["canvas", "user interface"],
     },
     {
-      path: "emphasis",
+      path: "asterisk",
       topics: ["text", "parsing", "creativity"],
     },
     {
@@ -161,6 +166,8 @@
     }
   }
 
+  const all = document.querySelector("#all");
+
   const topicsSpan = document.querySelector("#topics span");
 
   for (const topic of TOPICS) {
@@ -172,10 +179,33 @@
     input.checked = true;
     input.addEventListener("change", () => {
       renderExperiments();
+      const allChecked = Array.from(topicsSpan.querySelectorAll("input")).every(
+        (input) => input === all || input.checked
+      );
+      all.checked = allChecked;
+      all.indeterminate =
+        !allChecked &&
+        Array.from(topicsSpan.querySelectorAll("input")).some(
+          (input) => input.checked
+        );
     });
     label.append(topic);
     topicsSpan.append(label);
   }
+
+  all.addEventListener("change", () => {
+    if (!all.checked) {
+      for (const topic of TOPICS) {
+        document.querySelector(`input[value="${topic}"]`).checked = false;
+      }
+    } else {
+      for (const topic of TOPICS) {
+        document.querySelector(`input[value="${topic}"]`).checked = true;
+      }
+    }
+
+    renderExperiments();
+  });
 
   renderExperiments();
 </script>

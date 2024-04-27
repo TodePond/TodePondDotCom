@@ -82,6 +82,7 @@ a.tertiary:hover {
   outline: 2px solid #9faeee;
 }
 
+label.secondary,
 span.secondary,
 p.secondary {
   color: #9faeee;
