@@ -44,13 +44,35 @@
 <!-- prettier-ignore -->
 <p id="preview" style="display: none"></p>
 
+<button id="share" style="margin-top: 20px">Share</button>
+<span class="secondary" style="margin-left: 10px" id="share-message"></span>
+
 <script type="module">
   const previewToggle = document.querySelector("#preview-toggle");
   const input = document.querySelector("#input");
   const preview = document.querySelector("#preview");
+  const share = document.querySelector("#share");
+  const shareMessage = document.querySelector("#share-message");
 
   input.value = localStorage.getItem("lab-text") ?? "My favourite food is ";
   preview.textContent = input.value;
+
+  share.addEventListener("click", () => {
+    const url = `https://todepond.com/lab/text?text=${encodeURIComponent(
+      input.value
+    )}`;
+
+    navigator.clipboard.writeText(url).then(() => {
+      if (shareMessage.textContent === "") {
+        shareMessage.textContent = "Copied to clipboard";
+      } else if (shareMessage.textContent === "Copied to clipboard") {
+        shareMessage.textContent = "Copied to clipboard x2";
+      } else {
+        const count = parseInt(shareMessage.textContent.split("x")[1]);
+        shareMessage.textContent = "Copied to clipboard x" + (count + 1);
+      }
+    });
+  });
 
   const urlParams = new URLSearchParams(window.location.search);
   const myParam = urlParams.get("text");
@@ -61,6 +83,7 @@
     if (result) {
       input.value = myParam;
       preview.textContent = myParam;
+      localStorage.setItem("lab-text", myParam);
     }
     // remove the query string
     window.history.replaceState({}, document.title, "/lab/text");
