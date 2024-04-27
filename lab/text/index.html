@@ -52,6 +52,20 @@
   input.value = localStorage.getItem("lab-text") ?? "My favourite food is ";
   preview.textContent = input.value;
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const myParam = urlParams.get("text");
+  if (myParam) {
+    const result = confirm(
+      `Are you sure you want to load this file, and override your current save?`
+    );
+    if (result) {
+      input.value = myParam;
+      preview.textContent = myParam;
+    }
+    // remove the query string
+    window.history.replaceState({}, document.title, "/lab/text");
+  }
+
   selectEnd(input);
 
   addEventListener("keydown", (e) => {
