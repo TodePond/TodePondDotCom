@@ -1,0 +1,122 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Append</h1>
+
+<style>
+  hgroup {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 11px;
+  }
+
+  input {
+    height: 40px;
+    font-size: 20px;
+  }
+  body {
+    max-width: 400px;
+  }
+</style>
+
+<hgroup>
+  <input type="text" id="a" value="Hello, " />
+  <input type="text" id="b" value="world!" />
+</hgroup>
+
+<input type="text" id="result" value="Hello, world!" />
+
+<script type="module">
+  const a = document.querySelector("#a");
+  const b = document.querySelector("#b");
+  const result = document.querySelector("#result");
+
+  a.addEventListener("input", () => {
+    result.value = a.value + b.value;
+  });
+
+  b.addEventListener("input", () => {
+    result.value = a.value + b.value;
+  });
+
+  result.addEventListener("input", (e) => {
+    const previous = a.value + b.value;
+    const current = result.value;
+
+    console.log({ previous, current });
+
+    // no change
+    if (previous === current) return;
+
+    // only b changed
+    if (current.startsWith(a.value)) {
+      b.value = current.slice(a.value.length);
+      return;
+    }
+
+    // only a changed
+    if (current.endsWith(b.value)) {
+      a.value = current.slice(0, -b.value.length);
+      return;
+    }
+
+    // both changed
+    let winningScore = Infinity;
+    let winningIndex = 0;
+    for (let i = 0; i < current.length; i++) {
+      const potentialA = current.slice(0, i);
+      const potentialB = current.slice(i);
+      const scoreA = levenshtein(a.value, potentialA);
+      const scoreB = levenshtein(b.value, potentialB);
+      const score = scoreA + scoreB;
+      if (score < winningScore) {
+        winningScore = score;
+        winningIndex = i;
+      }
+    }
+
+    a.value = current.slice(0, winningIndex);
+    b.value = current.slice(winningIndex);
+  });
+
+  function levenshtein(a, b) {
+    const matrix = Array.from({ length: a.length + 1 }, () =>
+      Array.from({ length: b.length + 1 }, () => 0)
+    );
+
+    for (let i = 0; i <= a.length; i++) {
+      matrix[i][0] = i;
+    }
+
+    for (let j = 0; j <= b.length; j++) {
+      matrix[0][j] = j;
+    }
+
+    for (let i = 1; i <= a.length; i++) {
+      for (let j = 1; j <= b.length; j++) {
+        const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j - 1] + cost
+        );
+      }
+    }
+
+    return matrix[a.length][b.length];
+  }
+</script>
