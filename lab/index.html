@@ -1,0 +1,173 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Tadi lab</h1>
+
+<p>
+  As I venture into the <a href="https://tadiweb.com">tadi web</a>, I find
+  myself having to relearn everything I thought I knew about coding. In this
+  lab, I'm building all the experiments that will help me do that.
+</p>
+
+<hr />
+
+<section id="topics">
+  <details>
+    <summary>Filter by topic</summary>
+    <span></span>
+  </details>
+</section>
+
+<style>
+  label {
+    margin-right: 10px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  input[type="checkbox"] {
+    /* margin-right: 5px; */
+    width: 20px;
+    height: 20px;
+  }
+
+  li {
+    line-height: 3;
+  }
+</style>
+
+<ul id="experiments"></ul>
+
+<template id="experiment">
+  <li>
+    <a href="path">Name</a>
+  </li>
+</template>
+
+<script type="module">
+  const TOPICS = /** @type {const} */ ([
+    "synchronisation",
+    "text",
+    "parsing",
+    "canvas",
+    "persistance",
+    "bidirectional",
+    "collaboration",
+    "user interface",
+    "build process",
+    "emergence",
+    "creativity",
+  ]);
+
+  /** @typedef {{
+   * 	path: string;
+   * 	topics: TOPICS[number][];
+   * }} Experiment
+   **/
+
+  /** @type {Experiment[]} */
+  const EXPERIMENTS = [
+    {
+      path: "gender",
+      topics: ["user interface"],
+    },
+    {
+      path: "append",
+      topics: [
+        "text",
+        "synchronisation",
+        "bidirectional",
+        "collaboration",
+        "creativity",
+      ],
+    },
+    {
+      path: "text",
+      topics: ["text", "persistance", "collaboration", "creativity"],
+    },
+    {
+      path: "asterisk",
+      topics: ["text", "parsing", "creativity"],
+    },
+    {
+      path: "deeper",
+      topics: ["user interface", "build process", "emergence"],
+    },
+    {
+      path: "drag",
+      topics: ["canvas", "user interface"],
+    },
+    {
+      path: "emphasis",
+      topics: ["text", "parsing", "creativity"],
+    },
+    {
+      path: "split",
+      topics: ["user interface", "build process", "emergence"],
+    },
+    {
+      path: "tool",
+      topics: ["canvas", "creativity"],
+    },
+  ];
+
+  const experiments = document.querySelector("#experiments");
+
+  function renderExperiments() {
+    experiments.innerHTML = "";
+    const topics = document.querySelectorAll("#topics input");
+    const selectedTopics = Array.from(topics)
+      .filter((topic) => topic.checked)
+      .map((topic) => topic.value);
+    for (const experiment of EXPERIMENTS) {
+      console.log(selectedTopics);
+      if (!selectedTopics.some((topic) => experiment.topics.includes(topic))) {
+        continue;
+      }
+      const template = document.querySelector("#experiment");
+      const clone = template.content.cloneNode(true);
+      const a = clone.querySelector("a");
+      const name = experiment.path[0].toUpperCase() + experiment.path.slice(1);
+      a.href = `${experiment.path}`;
+      a.textContent = name;
+      a.style.border = "3px solid #46ff80";
+      a.style.padding = "5px";
+      a.style.textDecoration = "none";
+      experiments.appendChild(clone);
+    }
+  }
+
+  const topicsSpan = document.querySelector("#topics span");
+
+  for (const topic of TOPICS) {
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    label.append(input);
+    input.type = "checkbox";
+    input.value = topic;
+    input.checked = true;
+    input.addEventListener("change", () => {
+      renderExperiments();
+    });
+    label.append(topic);
+    topicsSpan.append(label);
+  }
+
+  renderExperiments();
+</script>

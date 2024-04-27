@@ -119,6 +119,21 @@ img {
   max-width: 100%;
 }
 
+summary {
+  user-select: none;
+  cursor: pointer;
+  /* looks like a button */
+  padding: 5px;
+  border: 1px solid #9faeee;
+  background-color: #374362;
+  /* color: #9faeee; */
+  width: fit-content;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -194,7 +209,7 @@ pre mark {
 }
 
 input[type="checkbox"] {
-  width: 29px;
+  /* width: 29px; */
 }
 
 select {
