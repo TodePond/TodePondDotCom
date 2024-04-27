@@ -137,6 +137,12 @@ textarea::placeholder {
   color: #9faeee;
 }
 
+/* input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+} */
+
 :focus {
   outline-color: 2px solid #4680ff;
   border-radius: 0%;
