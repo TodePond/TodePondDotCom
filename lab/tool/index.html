@@ -32,18 +32,29 @@
   #tool-layer {
     pointer-events: none;
   }
+
+  #buffer-layer {
+    display: none;
+  }
 </style>
 
 <canvas id="drawing-layer"></canvas>
 <canvas id="tool-layer"></canvas>
+<canvas id="buffer-layer"></canvas>
 
 <script>
   /** @type {HTMLCanvasElement} */
   const toolCanvas = document.querySelector("#tool-layer");
   /** @type {HTMLCanvasElement} */
   const drawingCanvas = document.querySelector("#drawing-layer");
+  /** @type {HTMLCanvasElement} */
+  const bufferCanvas = document.querySelector("#buffer-layer");
   const toolContext = toolCanvas.getContext("2d");
   const drawingContext = drawingCanvas.getContext("2d");
+  const bufferContext = bufferCanvas.getContext("2d");
+  toolContext.imageSmoothingEnabled = false;
+  drawingContext.imageSmoothingEnabled = false;
+  bufferContext.imageSmoothingEnabled = false;
 
   let pencilPosition = [0, 0];
   let rubberPosition = [100, 100];
@@ -55,6 +66,8 @@
   rubberImage.src = "rubber.png";
 
   function handleResize() {
+    bufferContext.drawImage(drawingCanvas, 0, 0);
+
     toolCanvas.width = window.innerWidth * devicePixelRatio;
     toolCanvas.height = window.innerHeight * devicePixelRatio;
     drawingCanvas.width = window.innerWidth * devicePixelRatio;
@@ -62,6 +75,16 @@
 
     drawingContext.fillStyle = "rgb(31, 39, 54)";
     drawingContext.fillRect(0, 0, drawingCanvas.width, drawingCanvas.height);
+    drawingContext.drawImage(
+      bufferCanvas,
+      0,
+      0,
+      drawingCanvas.width,
+      drawingCanvas.height
+    );
+
+    bufferCanvas.width = window.innerWidth * devicePixelRatio;
+    bufferCanvas.height = window.innerHeight * devicePixelRatio;
   }
 
   addEventListener("resize", handleResize);
