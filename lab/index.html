@@ -66,7 +66,7 @@
     "text",
     "parsing",
     "canvas",
-    "persistance",
+    "persistence",
     "bidirectional",
     "collaboration",
     "user interface",
@@ -84,8 +84,17 @@
   /** @type {Experiment[]} */
   const EXPERIMENTS = [
     {
-      path: "gender",
-      topics: ["user interface"],
+      path: "counter",
+      topics: [
+        "synchronisation",
+        "collaboration",
+        "user interface",
+        "persistence",
+      ],
+    },
+    {
+      path: "tool",
+      topics: ["canvas", "creativity"],
     },
     {
       path: "append",
@@ -99,7 +108,7 @@
     },
     {
       path: "text",
-      topics: ["text", "persistance", "collaboration", "creativity"],
+      topics: ["text", "persistence", "collaboration", "creativity"],
     },
     {
       path: "asterisk",
@@ -107,6 +116,10 @@
     },
     {
       path: "deeper",
+      topics: ["user interface", "build process", "emergence"],
+    },
+    {
+      path: "split",
       topics: ["user interface", "build process", "emergence"],
     },
     {
@@ -118,12 +131,8 @@
       topics: ["text", "parsing", "creativity"],
     },
     {
-      path: "split",
-      topics: ["user interface", "build process", "emergence"],
-    },
-    {
-      path: "tool",
-      topics: ["canvas", "creativity"],
+      path: "gender",
+      topics: ["user interface"],
     },
   ];
 
@@ -136,7 +145,6 @@
       .filter((topic) => topic.checked)
       .map((topic) => topic.value);
     for (const experiment of EXPERIMENTS) {
-      console.log(selectedTopics);
       if (!selectedTopics.some((topic) => experiment.topics.includes(topic))) {
         continue;
       }
