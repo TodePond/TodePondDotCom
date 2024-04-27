@@ -1,0 +1,109 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  label {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+  }
+</style>
+
+<h1>Gender</h1>
+
+<p>Please pick your gender.</p>
+
+<main>
+  <label for="woman"><input type="radio" id="woman" />Woman</label>
+  <label for="female"><input type="radio" id="female" />Female</label>
+</main>
+
+<footer>
+  <button>Submit</button>
+</footer>
+
+<p class="secondary" id="working" style="display: none">
+  We're working on making this form more inclusive.
+  <a id="feedback" style="display: none" href="/lab/gender/feedback"
+    >Give feedback?</a
+  >
+</p>
+
+<script type="module">
+  const femaleRadio = document.querySelector("#female");
+  const womanRadio = document.querySelector("#woman");
+  const working = document.querySelector("#working");
+  const button = document.querySelector("button");
+  const feedback = document.querySelector("#feedback");
+
+  const femaleStorage = localStorage.getItem("lab-gender-female") === "true";
+  const womanStorage = localStorage.getItem("lab-gender-woman") === "true";
+
+  if (femaleStorage) {
+    femaleRadio.checked = true;
+  }
+  if (womanStorage) {
+    womanRadio.checked = true;
+  }
+
+  femaleRadio.addEventListener("change", () => {
+    localStorage.setItem("lab-gender-female", true);
+  });
+
+  womanRadio.addEventListener("change", () => {
+    localStorage.setItem("lab-gender-woman", true);
+  });
+
+  let spamClicks = 0;
+  const labels = document.querySelectorAll("label");
+  labels.forEach((label) => {
+    label.addEventListener("click", () => {
+      spamClicks++;
+      if (spamClicks > 6) {
+        working.style.display = "block";
+      }
+      if (spamClicks > 11) {
+        feedback.style.display = "block";
+      }
+    });
+  });
+
+  button.addEventListener("click", () => {
+    if (!femaleRadio.checked && !womanRadio.checked) {
+      alert("Please pick an option.");
+      return;
+    }
+
+    const result = confirm(
+      "Your gender must match your legal documentation. Proceed?"
+    );
+    if (!result) {
+      return;
+    }
+
+    history.pushState({}, "", "/lab/gender/transmit");
+  });
+</script>

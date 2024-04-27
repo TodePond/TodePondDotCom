@@ -24,6 +24,10 @@ a {
   color: #46ff80;
 }
 
+label {
+  user-select: none;
+}
+
 a:hover {
   color: black;
   background-color: #46ff80;
@@ -152,6 +156,7 @@ button {
   padding: 5px;
   font-size: 1em;
   cursor: pointer;
+  user-select: none;
 }
 
 button:disabled {

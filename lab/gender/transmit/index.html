@@ -1,0 +1,96 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<p class="secondary">Transmitting gender</p>
+
+<script type="module">
+  const query = new URLSearchParams(window.location.search);
+  const gender = query.get("gender");
+  const loading = document.querySelector(".secondary");
+
+  function tickLoading() {
+    loading.textContent += ".";
+  }
+
+  const RATE = 1;
+  const interval = setInterval(tickLoading, 1000 * RATE);
+
+  let stopped = false;
+  function registerMessage(message, time) {
+    setTimeout(() => {
+      if (stopped) return;
+      loading.textContent += `${message}`;
+    }, time * RATE);
+  }
+
+  setTimeout(() => clearInterval(interval), 602075 * RATE);
+  // setTimeout(() => (loading.textContent += " Please wait"), 3500);
+  // setTimeout(() => (loading.textContent += " Confirming gender"), 8200);
+  // setTimeout(() => (loading.textContent += " Gender rejected"), 31070);
+  // setTimeout(() => (loading.textContent += " INVALID GENDER"), 32070);
+  // setTimeout(() => (loading.textContent += " Please stand by"), 35075);
+  // setTimeout(() => (loading.textContent += " You are now in"), 45075);
+  // setTimeout(() => (loading.textContent += " position number 4"), 47075);
+  // setTimeout(() => (loading.textContent += " in the queue "), 52075);
+  // setTimeout(() => (loading.textContent += " Please wait"), 82075);
+  // setTimeout(() => (loading.textContent += " You are now in"), 102075);
+  // setTimeout(() => (loading.textContent += " "), 150075);
+  // setTimeout(() => (loading.textContent += " in the queue"), 202075);
+  // setTimeout(
+  //   () => (loading.textContent += " Timeout. Please try again."),
+  //   302075
+  // );
+
+  registerMessage(" Please wait", 3500);
+  registerMessage(" Confirming gender", 8200);
+  registerMessage(" Gender rejected", 31070);
+  registerMessage(" INVALID GENDER", 32070);
+  registerMessage(" Please stand by", 40075);
+  registerMessage(" You are now in", 45075);
+  registerMessage(" position number 4", 47075);
+  registerMessage(" in the queue ", 52075);
+  registerMessage(" Please wait", 102075);
+  registerMessage(" You are now in", 182075);
+  // registerMessage(" ", 150075);
+  registerMessage(" in the queue ", 310075);
+  registerMessage(" Timeout. Please try again.", 602075);
+
+  let left = false;
+
+  function handleLeave() {
+    if (left) return;
+    left = true;
+    clearInterval(interval);
+    alert(
+      "You must not do anything while gender is transmitting. Please reload to try again."
+    );
+    location.reload();
+  }
+
+  addEventListener("pointerdown", handleLeave);
+  addEventListener("keydown", handleLeave);
+  // addEventListener("pointerup", handleLeave);
+  // addEventListener("pointermove", handleLeave);
+  addEventListener("beforeunload", handleLeave);
+  addEventListener("blur", handleLeave);
+
+  addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      handleLeave();
+    }
+  });
+</script>
