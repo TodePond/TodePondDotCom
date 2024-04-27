@@ -6,187 +6,298 @@
 ></script>
 <title>Todepond dot com</title>
 <link rel="shortcut icon" href="/favicon.png" />
-<meta property="og:image" content="https://todepond.com/og.png" />
-<meta property="og:title" content="Todepond dot com" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Todepond dot com" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:image" content="https://todepond.com/og.png" />
-
-<link rel="stylesheet" href="/style.css" />
+<!-- <link rel="stylesheet" href="/style.css" /> -->
 
 <style>
   * {
-    padding: 0px;
-    margin: 0px;
-  }
-
-  html {
-    height: 100%;
-    overflow: hidden;
-  }
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 0px;
-  }
-
-  img {
-    cursor: grab;
-    position: relative;
-    touch-action: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   canvas {
-    position: fixed;
-    z-index: -1;
-    /* background-color: red; */
-    left: 0px;
-    top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    image-rendering: pixelated;
+  }
+
+  body {
+    background-color: rgb(31, 39, 54);
   }
 </style>
 
-<canvas></canvas>
-
-<img
-  id="pencil"
-  src="/lab/tool/pencil.png"
-  alt="pencil"
-  style="left: 0px; top: 0px"
-  draggable="false"
-/>
-
-<img
-  id="eraser"
-  src="/lab/tool/rubber.png"
-  alt="rubber"
-  style="left: 0px; top: 0px"
-  draggable="false"
-/>
+<canvas id="drawing-layer"></canvas>
+<canvas id="tool-layer"></canvas>
 
 <script>
-  const pencil = document.querySelector("#pencil");
-  const eraser = document.querySelector("#eraser");
-  const canvas = document.querySelector("canvas");
-  const context = canvas.getContext("2d");
+  /** @type {HTMLCanvasElement} */
+  const toolCanvas = document.querySelector("#tool-layer");
+  /** @type {HTMLCanvasElement} */
+  const drawingCanvas = document.querySelector("#drawing-layer");
+  const toolContext = toolCanvas.getContext("2d");
+  const drawingContext = drawingCanvas.getContext("2d");
 
-  let dragging = null;
-  let offsetX = 0;
-  let offsetY = 0;
+  let pencilPosition = [0, 0];
+  let rubberPosition = [100, 100];
 
-  function handlePointerDown(event, element) {
-    dragging = element;
-    element.setPointerCapture(event.pointerId);
-    element.style.cursor = "grabbing";
-    offsetX = event.clientX - element.style.left.slice(0, -2);
-    offsetY = event.clientY - element.style.top.slice(0, -2);
-    event.preventDefault();
-  }
+  const pencilImage = new Image();
+  pencilImage.src = "pencil.png";
 
-  const LEFT_PENCIL_OFFSET = 10;
-  const TOP_PENCIL_OFFSET = 10;
-
-  const LEFT_ERASER_OFFSET = 15;
-  const TOP_ERASER_OFFSET = 15;
-  const BOTTOM_ERASER_OFFSET = 15;
-  const RIGHT_ERASER_OFFSET = 20;
-
-  function handlePointerMove(event, element) {
-    if (dragging === element) {
-      const rect = element.getBoundingClientRect();
-      const bottomLeft = {
-        x: (rect.left + LEFT_PENCIL_OFFSET) * window.devicePixelRatio,
-        y: (rect.bottom - TOP_PENCIL_OFFSET) * window.devicePixelRatio,
-      };
-
-      const topLeft = {
-        x: (rect.left + LEFT_ERASER_OFFSET) * window.devicePixelRatio,
-        y: (rect.top + TOP_ERASER_OFFSET) * window.devicePixelRatio,
-      };
-
-      const bottomRight = {
-        x: (rect.right - RIGHT_ERASER_OFFSET) * window.devicePixelRatio,
-        y: (rect.bottom - BOTTOM_ERASER_OFFSET) * window.devicePixelRatio,
-      };
-
-      element.style.left = event.clientX - offsetX + "px";
-      element.style.top = event.clientY - offsetY + "px";
-
-      const newRect = element.getBoundingClientRect();
-      const newBottomLeft = {
-        x: (newRect.left + LEFT_PENCIL_OFFSET) * window.devicePixelRatio,
-        y: (newRect.bottom - TOP_PENCIL_OFFSET) * window.devicePixelRatio,
-      };
-
-      const newTopLeft = {
-        x: (newRect.left + LEFT_ERASER_OFFSET) * window.devicePixelRatio,
-        y: (newRect.top + TOP_ERASER_OFFSET) * window.devicePixelRatio,
-      };
-
-      const newBottomRight = {
-        x: (newRect.right - RIGHT_ERASER_OFFSET) * window.devicePixelRatio,
-        y: (newRect.bottom - BOTTOM_ERASER_OFFSET) * window.devicePixelRatio,
-      };
-
-      if (element === pencil) {
-        context.beginPath();
-        context.moveTo(bottomLeft.x, bottomLeft.y);
-        context.lineTo(newBottomLeft.x, newBottomLeft.y);
-        console.log(bottomLeft, newBottomLeft);
-        context.strokeStyle = "white";
-        context.lineWidth = 10;
-        context.lineCap = "round";
-        context.stroke();
-      } else if (element === eraser) {
-        context.beginPath();
-        context.moveTo(topLeft.x, topLeft.y);
-        context.lineTo(newTopLeft.x, newTopLeft.y);
-        context.lineTo(newBottomRight.x, newBottomRight.y);
-        context.lineTo(bottomRight.x, bottomRight.y);
-        context.lineTo(topLeft.x, topLeft.y);
-        // context.fillStyle = "white";
-        context.fillStyle = "rgb(31, 39, 54)";
-        context.fill("nonzero");
-        context.lineWidth = 5;
-        context.strokeStyle = "rgb(31, 39, 54)";
-        context.lineCap = "round";
-        context.stroke();
-      }
-    }
-  }
-
-  function handlePointerUp(event, element) {
-    if (dragging === element) {
-      dragging = null;
-      element.style.cursor = "grab";
-    }
-  }
+  const rubberImage = new Image();
+  rubberImage.src = "rubber.png";
 
   function handleResize() {
-    const canvas = document.querySelector("canvas");
-    canvas.width = window.innerWidth * window.devicePixelRatio;
-    canvas.height = window.innerHeight * window.devicePixelRatio;
+    toolCanvas.width = window.innerWidth * devicePixelRatio;
+    toolCanvas.height = window.innerHeight * devicePixelRatio;
+    drawingCanvas.width = window.innerWidth * devicePixelRatio;
+    drawingCanvas.height = window.innerHeight * devicePixelRatio;
   }
 
-  window.addEventListener("resize", handleResize);
+  addEventListener("resize", handleResize);
   handleResize();
 
-  for (const tool of [pencil, eraser]) {
-    tool.addEventListener("pointerdown", (event) => {
-      handlePointerDown(event, tool);
-    });
-    tool.addEventListener("pointermove", (event) => {
-      handlePointerMove(event, tool);
-    });
-    tool.addEventListener("pointerup", (event) => {
-      handlePointerUp(event, tool);
-    });
+  const center = [toolCanvas.width / 2, toolCanvas.height / 2];
+  const STARTING_GAP = 40 * devicePixelRatio;
+  pencilPosition = [
+    center[0] - STARTING_GAP - (pencilImage.width * devicePixelRatio) / 2,
+    center[1] - (pencilImage.height * devicePixelRatio) / 2,
+  ];
+  rubberPosition = [
+    center[0] + STARTING_GAP - (rubberImage.width * devicePixelRatio) / 2,
+    center[1] - (rubberImage.height * devicePixelRatio) / 2,
+  ];
+
+  function toolTick() {
+    const pointerTarget = getPointerTarget();
+    if (pointer.isDown && pointer.carrying === null) {
+      if (pointerTarget === "pencil") {
+        pointer.carrying = "pencil";
+        pointer.offset = [
+          pointer.position[0] - pencilPosition[0],
+          pointer.position[1] - pencilPosition[1],
+        ];
+      } else if (pointerTarget === "rubber") {
+        pointer.carrying = "rubber";
+        pointer.offset = [
+          pointer.position[0] - rubberPosition[0],
+          pointer.position[1] - rubberPosition[1],
+        ];
+      }
+    } else if (pointer.isDown && pointer.carrying !== null) {
+      if (pointer.carrying === "pencil") {
+        const old = pencilPosition;
+        pencilPosition = [
+          pointer.position[0] - pointer.offset[0],
+          pointer.position[1] - pointer.offset[1],
+        ];
+        drawingContext.strokeStyle = "white";
+        drawingContext.lineWidth = 15;
+        drawingContext.lineCap = "round";
+        drawingContext.beginPath();
+        const offset = [(21 * devicePixelRatio) / 2, 54 * devicePixelRatio];
+        drawingContext.moveTo(old[0] + offset[0], old[1] + offset[1]);
+        drawingContext.lineTo(
+          pencilPosition[0] + offset[0],
+          pencilPosition[1] + offset[1]
+        );
+        drawingContext.stroke();
+        drawingContext.closePath();
+      } else if (pointer.carrying === "rubber") {
+        const old = rubberPosition;
+        rubberPosition = [
+          pointer.position[0] - pointer.offset[0],
+          pointer.position[1] - pointer.offset[1],
+        ];
+        const topLeftOffset = [15, 45].map((x) => (x * devicePixelRatio) / 2.5);
+        const bottomLeftOffset = [80, 135].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        const topRightOffset = [50, 15].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        const bottomRightOffset = [135, 100].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        drawingContext.fillStyle = "rgb(31, 39, 54)";
+        drawingContext.strokeStyle = "rgb(31, 39, 54)";
+        drawingContext.lineWidth = 2;
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topLeftOffset[0],
+          old[1] + topLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomLeftOffset[0],
+          old[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomLeftOffset[0],
+          rubberPosition[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topLeftOffset[0],
+          rubberPosition[1] + topLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topRightOffset[0],
+          old[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomRightOffset[0],
+          old[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomRightOffset[0],
+          rubberPosition[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topRightOffset[0],
+          rubberPosition[1] + topRightOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topLeftOffset[0],
+          old[1] + topLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + topRightOffset[0],
+          old[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topRightOffset[0],
+          rubberPosition[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topLeftOffset[0],
+          rubberPosition[1] + topLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + bottomLeftOffset[0],
+          old[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomRightOffset[0],
+          old[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomRightOffset[0],
+          rubberPosition[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomLeftOffset[0],
+          rubberPosition[1] + bottomLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+      }
+    } else {
+      pointer.carrying = null;
+    }
+
+    if (pointer.carrying) {
+      document.body.style.cursor = "grabbing";
+    } else if (pointerTarget) {
+      document.body.style.cursor = "grab";
+    } else {
+      document.body.style.cursor = "default";
+    }
+
+    toolContext.clearRect(0, 0, toolCanvas.width, toolCanvas.height);
+    toolContext.drawImage(
+      rubberImage,
+      rubberPosition[0],
+      rubberPosition[1],
+      rubberImage.width * devicePixelRatio,
+      rubberImage.height * devicePixelRatio
+    );
+    toolContext.drawImage(
+      pencilImage,
+      pencilPosition[0],
+      pencilPosition[1],
+      pencilImage.width * devicePixelRatio,
+      pencilImage.height * devicePixelRatio
+    );
   }
+
+  function tick() {
+    toolTick();
+    requestAnimationFrame(tick);
+  }
+
+  const pointer = {
+    position: [0, 0],
+    isDown: false,
+    carrying: null,
+    offset: [0, 0],
+  };
+
+  function updatePointerPosition(event) {
+    pointer.position = [
+      event.clientX * devicePixelRatio,
+      event.clientY * devicePixelRatio,
+    ];
+  }
+
+  addEventListener("pointermove", updatePointerPosition);
+  addEventListener("pointerdown", (event) => {
+    pointer.isDown = true;
+    updatePointerPosition(event);
+  });
+
+  addEventListener("pointerup", () => {
+    pointer.isDown = false;
+  });
+
+  // pointer up on alt tab
+  addEventListener("blur", () => {
+    pointer.isDown = false;
+  });
+
+  function getPointerTarget() {
+    if (
+      isPositionInBox(pointer.position, pencilPosition, [
+        pencilImage.width * devicePixelRatio,
+        pencilImage.height * devicePixelRatio,
+      ])
+    ) {
+      return "pencil";
+    }
+
+    if (
+      isPositionInBox(pointer.position, rubberPosition, [
+        rubberImage.width * devicePixelRatio,
+        rubberImage.height * devicePixelRatio,
+      ])
+    ) {
+      return "rubber";
+    }
+
+    return null;
+  }
+
+  function isPositionInBox([x, y], [boxX, boxY], [width, height]) {
+    const top = boxY;
+    const bottom = boxY + height;
+    const left = boxX;
+    const right = boxX + width;
+
+    return x >= left && x <= right && y >= top && y <= bottom;
+  }
+
+  tick();
 </script>
