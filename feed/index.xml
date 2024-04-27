@@ -5,11 +5,11 @@
     <link>http://www.todepond.com/</link>
     <description>place for todes - ribbits aplenty</description>
 		<item>
-  			<title>Today we submitted</title>
-  			<pubDate>Thu, 25 Apr 2024 19:57:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/</guid>
-  			<description>Today we submitted to onward essays</description>
+  			<title>Tool</title>
+  			<pubDate>Sat, 27 Apr 2024 10:38:00 GMT</pubDate>
+  			<link>https://www.todepond.com/lab/tool/</link>
+  			<guid>https://www.todepond.com/lab/tool/</guid>
+  			<description>Pencil and rubber.</description>
   		</item>
 		<item>
   			<title>My wikiblogarden</title>
@@ -927,34 +927,6 @@
   			<link>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</link>
   			<guid>https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/</guid>
   			<description>Ok this is really zoom out style.</description>
-  		</item>
-		<item>
-  			<title>Stop worshipping tech idols</title>
-  			<pubDate>Sun, 21 Apr 2024 22:29:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/social-media/hackernews/idols/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/social-media/hackernews/idols/</guid>
-  			<description>Stop it.</description>
-  		</item>
-		<item>
-  			<title>Blending is the only thing that matters</title>
-  			<pubDate>Mon, 22 Apr 2024 23:32:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/blending/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/blending/</guid>
-  			<description>No more ideas.</description>
-  		</item>
-		<item>
-  			<title>How to milk your demo</title>
-  			<pubDate>Tue, 23 Apr 2024 18:58:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/academia/style/milk/</link>
-  			<guid>https://www.todepond.com/wikiblogarden/academia/style/milk/</guid>
-  			<description>When you give a demo, you have to milk it. Here's a simple guide on how to do that.</description>
-  		</item>
-		<item>
-  			<title>parallel projects</title>
-  			<pubDate>Wed, 24 Apr 2024 08:07:00 GMT</pubDate>
-  			<link>https://www.todepond.com/wikiblogarden/blending/parallel</link>
-  			<guid>https://www.todepond.com/wikiblogarden/blending/parallel</guid>
-  			<description>the more time i spend working in this industry the more i realise how important is for me to work to work on so many projects in parallel</description>
   		</item>
   </channel>
 </rss>
