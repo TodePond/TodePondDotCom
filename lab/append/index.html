@@ -62,9 +62,26 @@
     // no change
     if (previous === current) return;
 
-    // only b changed
-    if (current.startsWith(a.value)) {
-      b.value = current.slice(a.value.length);
+    if (b.value === "") {
+      for (const spacer of [" ", ",", "-", "_", ".", ":", ";", "!", "?"]) {
+        const spaced = current.split(spacer);
+        // console.log({ spaced, spacer, a: a.value + spacer });
+        for (let i = 0; i < spaced.length; i++) {
+          if (a.value === spaced.slice(0, i).join(" ") + spacer) {
+            b.value = spaced.slice(i).join(" ");
+            return;
+          }
+        }
+      }
+    }
+
+    if (previous === "") {
+      a.value = current;
+      return;
+    }
+
+    if (b.value === "") {
+      a.value = current;
       return;
     }
 
@@ -74,16 +91,23 @@
       return;
     }
 
+    // only b changed
+    if (current.startsWith(a.value)) {
+      b.value = current.slice(a.value.length);
+      return;
+    }
+
     // both changed
     let winningScore = Infinity;
-    let winningIndex = 0;
-    for (let i = 0; i < current.length; i++) {
+    let winningIndex = current.length - 1;
+    for (let i = 0; i <= current.length; i++) {
       const potentialA = current.slice(0, i);
       const potentialB = current.slice(i);
       const scoreA = levenshtein(a.value, potentialA);
       const scoreB = levenshtein(b.value, potentialB);
       const score = scoreA + scoreB;
-      if (score < winningScore) {
+      // console.log({ i, potentialA, potentialB, scoreA, scoreB, score });
+      if (score <= winningScore) {
         winningScore = score;
         winningIndex = i;
       }
