@@ -86,7 +86,7 @@
         working.style.display = "block";
       }
       if (spamClicks > 11) {
-        feedback.style.display = "block";
+        feedback.style.display = "inline";
       }
     });
   });
@@ -104,6 +104,6 @@
       return;
     }
 
-    history.pushState({}, "", "/lab/gender/transmit");
+    location.href = "/lab/gender/transmit";
   });
 </script>
