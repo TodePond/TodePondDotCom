@@ -17,6 +17,14 @@
 
 <p class="secondary">Transmitting gender</p>
 
+<style>
+  @media screen and (max-width: 600px) {
+    p {
+      word-wrap: break-word;
+    }
+  }
+</style>
+
 <script type="module">
   const query = new URLSearchParams(window.location.search);
   const gender = query.get("gender");
@@ -26,7 +34,7 @@
     loading.textContent += ".";
   }
 
-  const RATE = 1;
+  const RATE = 0.01;
   const interval = setInterval(tickLoading, 1000 * RATE);
 
   let stopped = false;
@@ -63,8 +71,8 @@
   registerMessage(" You are now in", 45075);
   registerMessage(" position number 4", 47075);
   registerMessage(" in the queue ", 52075);
-  registerMessage(" Please wait", 102075);
-  registerMessage(" You are now in", 182075);
+  registerMessage(" Please wait ", 102075);
+  registerMessage(" You are now in ", 182075);
   // registerMessage(" ", 150075);
   registerMessage(" in the queue ", 310075);
   registerMessage(" Timeout. Please try again.", 602075);
