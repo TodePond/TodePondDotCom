@@ -55,6 +55,8 @@
 
   let cumulativePosition = [...START_POSITION];
 
+  const DISTANCE_SCALING = 0.95;
+
   function tick() {
     if (stage === 0) {
       cumulativeOffset = {
@@ -85,7 +87,9 @@
         distance: Math.hypot(...difference),
       };
 
+      cumulativeOffset.angle = offset.angle;
       cumulativeOffset.distance = offset.distance;
+      cumulativePosition = [...pointerPosition];
 
       stage++;
     }
@@ -102,7 +106,7 @@
       };
 
       cumulativeOffset.angle += offset.angle;
-      cumulativeOffset.distance *= 0.95;
+      cumulativeOffset.distance *= DISTANCE_SCALING;
 
       const position = [
         cumulativePosition[0] +
