@@ -98,7 +98,23 @@ And now... and now...
 > It's provided here, DRM-free :)<br>
 > Please only read or listen if you've paid!
 
-<input id="paid-checkbox" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
+<input id="paid-checkbox-2" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
+
+<script>
+  const key = 'pondcast/paid'
+  const paid = localStorage.getItem(key)
+  const checkbox = document.getElementById('paid-checkbox-2')
+  if (paid) {
+    checkbox.checked = true
+  }
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+      localStorage.setItem(key, 'true')
+    } else {
+      localStorage.removeItem(key)
+    }
+  })
+</script>
 
 <hr>
 
