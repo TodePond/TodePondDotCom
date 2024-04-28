@@ -1,0 +1,384 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    touch-action: none;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+  }
+
+  body {
+    background-color: rgb(31, 39, 54);
+  }
+
+  #tool-layer {
+    pointer-events: none;
+  }
+
+  #buffer-layer {
+    display: none;
+  }
+</style>
+
+<canvas id="drawing-layer"></canvas>
+<canvas id="tool-layer"></canvas>
+<canvas id="buffer-layer"></canvas>
+
+<script>
+  /** @type {HTMLCanvasElement} */
+  const toolCanvas = document.querySelector("#tool-layer");
+  /** @type {HTMLCanvasElement} */
+  const drawingCanvas = document.querySelector("#drawing-layer");
+  /** @type {HTMLCanvasElement} */
+  const bufferCanvas = document.querySelector("#buffer-layer");
+  const toolContext = toolCanvas.getContext("2d");
+  const drawingContext = drawingCanvas.getContext("2d");
+  const bufferContext = bufferCanvas.getContext("2d");
+  toolContext.imageSmoothingEnabled = false;
+  drawingContext.imageSmoothingEnabled = false;
+  bufferContext.imageSmoothingEnabled = false;
+
+  let pencilPosition = [0, 0];
+  let rubberPosition = [100, 100];
+
+  const pencilImage = new Image();
+  pencilImage.src = "pencil.png";
+
+  const rubberImage = new Image();
+  rubberImage.src = "rubber.png";
+
+  function handleResize() {
+    bufferContext.drawImage(drawingCanvas, 0, 0);
+
+    toolCanvas.width = window.innerWidth * devicePixelRatio;
+    toolCanvas.height = window.innerHeight * devicePixelRatio;
+    drawingCanvas.width = window.innerWidth * devicePixelRatio;
+    drawingCanvas.height = window.innerHeight * devicePixelRatio;
+
+    drawingContext.fillStyle = "rgb(31, 39, 54)";
+    drawingContext.fillRect(0, 0, drawingCanvas.width, drawingCanvas.height);
+    drawingContext.drawImage(
+      bufferCanvas,
+      0,
+      0,
+      drawingCanvas.width,
+      drawingCanvas.height
+    );
+
+    bufferCanvas.width = window.innerWidth * devicePixelRatio;
+    bufferCanvas.height = window.innerHeight * devicePixelRatio;
+  }
+
+  addEventListener("resize", handleResize);
+  handleResize();
+
+  const IMAGE_WIDTH = 196;
+  const IMAGE_HEIGHT = 200;
+
+  const RUBBER_IMAGE_WIDTH = 185;
+  const RUBBER_IMAGE_HEIGHT = 200;
+
+  const center = [toolCanvas.width / 2, toolCanvas.height / 2];
+  const STARTING_GAP = 40 * devicePixelRatio;
+  pencilPosition = [
+    center[0] - STARTING_GAP - (IMAGE_WIDTH * devicePixelRatio) / 2,
+    center[1] - (IMAGE_HEIGHT * devicePixelRatio) / 2,
+  ];
+  rubberPosition = [
+    center[0] + STARTING_GAP - (RUBBER_IMAGE_HEIGHT * devicePixelRatio) / 2,
+    center[1] - (RUBBER_IMAGE_HEIGHT * devicePixelRatio) / 2,
+  ];
+
+  function toolTick() {
+    const pointerTarget = getPointerTarget();
+    if (pointer.isDown && pointer.carrying === null) {
+      if (pointerTarget === "pencil") {
+        pointer.carrying = "pencil";
+        pointer.offset = [
+          pointer.position[0] - pencilPosition[0],
+          pointer.position[1] - pencilPosition[1],
+        ];
+      } else if (pointerTarget === "rubber") {
+        pointer.carrying = "rubber";
+        pointer.offset = [
+          pointer.position[0] - rubberPosition[0],
+          pointer.position[1] - rubberPosition[1],
+        ];
+      }
+    } else if (pointer.isDown && pointer.carrying !== null) {
+      if (pointer.carrying === "pencil") {
+        const old = pencilPosition;
+        pencilPosition = [
+          pointer.position[0] - pointer.offset[0],
+          pointer.position[1] - pointer.offset[1],
+        ];
+        drawingContext.strokeStyle = "white";
+        drawingContext.lineWidth = 15;
+        drawingContext.lineCap = "round";
+        drawingContext.beginPath();
+        const offset = [(21 * devicePixelRatio) / 2, 195 * devicePixelRatio];
+        drawingContext.moveTo(old[0] + offset[0], old[1] + offset[1]);
+        drawingContext.lineTo(
+          pencilPosition[0] + offset[0],
+          pencilPosition[1] + offset[1]
+        );
+        drawingContext.stroke();
+        drawingContext.closePath();
+      } else if (pointer.carrying === "rubber") {
+        const old = rubberPosition;
+        rubberPosition = [
+          pointer.position[0] - pointer.offset[0],
+          pointer.position[1] - pointer.offset[1],
+        ];
+        const topLeftOffset = [15, 45].map((x) => (x * devicePixelRatio) / 2.5);
+        const bottomLeftOffset = [410, 490].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        const topRightOffset = [50, 15].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        const bottomRightOffset = [450, 450].map(
+          (x) => (x * devicePixelRatio) / 2.5
+        );
+        // drawingContext.fillStyle = "red";
+        // drawingContext.strokeStyle = "red";
+        drawingContext.fillStyle = "rgb(31, 39, 54)";
+        drawingContext.strokeStyle = "rgb(31, 39, 54)";
+        drawingContext.lineWidth = 2;
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topLeftOffset[0],
+          old[1] + topLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomLeftOffset[0],
+          old[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomLeftOffset[0],
+          rubberPosition[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topLeftOffset[0],
+          rubberPosition[1] + topLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topRightOffset[0],
+          old[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomRightOffset[0],
+          old[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomRightOffset[0],
+          rubberPosition[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topRightOffset[0],
+          rubberPosition[1] + topRightOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + topLeftOffset[0],
+          old[1] + topLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + topRightOffset[0],
+          old[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topRightOffset[0],
+          rubberPosition[1] + topRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + topLeftOffset[0],
+          rubberPosition[1] + topLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+        drawingContext.beginPath();
+        drawingContext.moveTo(
+          old[0] + bottomLeftOffset[0],
+          old[1] + bottomLeftOffset[1]
+        );
+        drawingContext.lineTo(
+          old[0] + bottomRightOffset[0],
+          old[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomRightOffset[0],
+          rubberPosition[1] + bottomRightOffset[1]
+        );
+        drawingContext.lineTo(
+          rubberPosition[0] + bottomLeftOffset[0],
+          rubberPosition[1] + bottomLeftOffset[1]
+        );
+        drawingContext.fill();
+        drawingContext.stroke();
+        drawingContext.closePath();
+      }
+    } else {
+      pointer.carrying = null;
+    }
+
+    if (pointer.carrying) {
+      document.body.style.cursor = "grabbing";
+    } else if (pointerTarget) {
+      document.body.style.cursor = "grab";
+    } else {
+      document.body.style.cursor = "default";
+    }
+
+    toolContext.clearRect(0, 0, toolCanvas.width, toolCanvas.height);
+    toolContext.drawImage(
+      rubberImage,
+      rubberPosition[0],
+      rubberPosition[1],
+      RUBBER_IMAGE_WIDTH * devicePixelRatio,
+      RUBBER_IMAGE_HEIGHT * devicePixelRatio
+    );
+    toolContext.drawImage(
+      pencilImage,
+      pencilPosition[0],
+      pencilPosition[1],
+      IMAGE_WIDTH * devicePixelRatio,
+      IMAGE_HEIGHT * devicePixelRatio
+    );
+  }
+
+  function tick() {
+    toolTick();
+    requestAnimationFrame(tick);
+  }
+
+  const pointer = {
+    position: [0, 0],
+    isDown: false,
+    carrying: null,
+    offset: [0, 0],
+  };
+
+  function updatePointerPosition(event) {
+    pointer.position = [
+      event.clientX * devicePixelRatio,
+      event.clientY * devicePixelRatio,
+    ];
+  }
+
+  addEventListener("pointermove", updatePointerPosition);
+  addEventListener("pointerdown", (event) => {
+    pointer.isDown = true;
+    updatePointerPosition(event);
+  });
+
+  addEventListener("pointerup", () => {
+    pointer.isDown = false;
+  });
+
+  // pointer up on alt tab
+  addEventListener("blur", () => {
+    pointer.isDown = false;
+  });
+
+  function getPointerTarget() {
+    const pencilPoints = [
+      [0, 180],
+      [176, 0],
+      [196, 30],
+      [20, 200],
+    ].map(([x, y]) => [
+      pencilPosition[0] + x * devicePixelRatio,
+      pencilPosition[1] + y * devicePixelRatio,
+    ]);
+
+    if (isPositionInsideQuadrilateral(pointer.position, pencilPoints)) {
+      return "pencil";
+    }
+
+    // const topLeftOffset = [15, 45].map((x) => (x * devicePixelRatio) / 2.5);
+    //     const bottomLeftOffset = [410, 490].map(
+    //       (x) => (x * devicePixelRatio) / 2.5
+    //     );
+    //     const topRightOffset = [50, 15].map(
+    //       (x) => (x * devicePixelRatio) / 2.5
+    //     );
+    //     const bottomRightOffset = [450, 450].map(
+    //       (x) => (x * devicePixelRatio) / 2.5
+    //     );
+
+    const rubberPoints = [
+      [5, 55].map((v) => v / 2.5),
+      [60, 5].map((v) => v / 2.5),
+      [470, 470].map((v) => v / 2.5),
+      [400, 500].map((v) => v / 2.5),
+    ].map(([x, y]) => [
+      rubberPosition[0] + x * devicePixelRatio,
+      rubberPosition[1] + y * devicePixelRatio,
+    ]);
+
+    if (isPositionInsideQuadrilateral(pointer.position, rubberPoints)) {
+      return "rubber";
+    }
+
+    return null;
+  }
+
+  function isPositionInBox([x, y], [boxX, boxY], [width, height]) {
+    const top = boxY;
+    const bottom = boxY + height;
+    const left = boxX;
+    const right = boxX + width;
+
+    return x >= left && x <= right && y >= top && y <= bottom;
+  }
+
+  function isPositionInsideQuadrilateral([x, y], points) {
+    const [a, b, c, d] = points;
+    return [
+      [a, b],
+      [b, c],
+      [c, d],
+      [d, a],
+    ].every(([p1, p2]) => isPositionLeftOfLine([x, y], p1, p2));
+  }
+
+  function isPositionLeftOfLine([x, y], [x1, y1], [x2, y2]) {
+    return (x2 - x1) * (y - y1) - (y2 - y1) * (x - x1) > 0;
+  }
+
+  tick();
+</script>
