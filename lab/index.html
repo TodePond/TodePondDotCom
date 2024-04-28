@@ -68,7 +68,9 @@
   }
 
   li {
-    line-height: 3;
+    /* line-height: 3; */
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 </style>
 
@@ -124,6 +126,8 @@
         "bidirectional",
         "collaboration",
         "creativity",
+        "build process",
+        "parsing",
       ],
     },
     {
@@ -181,6 +185,12 @@
       a.style.border = "3px solid #46ff80";
       a.style.padding = "5px";
       a.style.textDecoration = "none";
+
+      const p = document.createElement("span");
+      p.textContent = "(" + experiment.topics.sort().join(", ") + ")";
+      clone.appendChild(p);
+      // clone.querySelector("li").appendChild(p);
+      // p.style.display = "inline-block";
       experiments.appendChild(clone);
     }
   }
@@ -189,7 +199,7 @@
 
   const topicsSpan = document.querySelector("#topics span");
 
-  for (const topic of TOPICS) {
+  for (const topic of TOPICS.sort()) {
     const label = document.createElement("label");
     const input = document.createElement("input");
     label.append(input);
