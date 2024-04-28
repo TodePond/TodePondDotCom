@@ -56,6 +56,8 @@
   let cumulativePosition = [...START_POSITION];
 
   const DISTANCE_SCALING = 0.95;
+  const ANGLE_SCALING = 1;
+  const MAX_STAGE = Infinity;
 
   function tick() {
     if (stage === 0) {
@@ -95,6 +97,9 @@
     }
 
     for (let i = 0; i < 1000; i++) {
+      if (stage >= MAX_STAGE) {
+        break;
+      }
       const difference = [
         pointerPosition[0] - START_POSITION[0],
         pointerPosition[1] - START_POSITION[1],
@@ -105,7 +110,7 @@
         distance: Math.hypot(...difference),
       };
 
-      cumulativeOffset.angle += offset.angle;
+      cumulativeOffset.angle += offset.angle * ANGLE_SCALING;
       cumulativeOffset.distance *= DISTANCE_SCALING;
 
       const position = [
@@ -124,6 +129,7 @@
       context.closePath();
 
       cumulativePosition = position;
+      stage++;
     }
 
     requestAnimationFrame(tick);
