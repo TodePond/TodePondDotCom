@@ -8,11 +8,11 @@
   const key = 'pondcast/paid'
   const paid = localStorage.getItem(key)
   const checkbox = document.getElementById('paid-checkbox')
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]')
   if (paid) {
     checkbox.checked = true
   }
   checkbox.addEventListener('change', () => {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]')
     if (checkbox.checked) {
       localStorage.setItem(key, 'true')
       checkboxes.forEach(cb => cb.checked = true)
@@ -107,11 +107,11 @@ And now... and now...
   const key = 'pondcast/paid'
   const paid = localStorage.getItem(key)
   const checkbox = document.getElementById('paid-checkbox-2')
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]')
   if (paid) {
     checkbox.checked = true
   }
   checkbox.addEventListener('change', () => {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]')
     if (checkbox.checked) {
       localStorage.setItem(key, 'true')
       checkboxes.forEach(cb => cb.checked = true)
