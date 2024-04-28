@@ -126,8 +126,8 @@ The hard part, is that it's _such_ a different approach, that I feel like I'm ha
 
 And ... let's get back to the video now.
 
-**Now that the submission is done, I'm returning to work on the video. [Ivan]() and [Flora] have both sent me more stuff for it, and I'm looking forward to getting it _in there_. So I thank you for your patience, and all your support. Thank you! And welcome to all the new people this past fortnight! I hope you enjoy your stay. For now, wherever you are, whatever you're doing, I hope you have a great week.**
+**Now that the submission is done, I'm returning to work on the video. [Ivan](https://ivanish.ca/) and [Flora](https://floracaulton.com/) have both sent me more stuff for it, and I'm looking forward to getting it _in there_. So I thank you for your patience, and all your support. Thank you! And welcome to all the new people this past fortnight! I hope you enjoy your stay. For now, wherever you are, whatever you're doing, I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 479_<br>
+_Days since bot went missing: 444_<br>
+_Days since berd flew away: 107_
