@@ -40,6 +40,8 @@ What's new this, I mean... What's new last week?
 
 ## Onward
 
+![self image](1.png)
+
 This week (and weekend)... Last week (and weeekend), I spent all of my time (really, all of it) (I have no life) on my submission for [onward essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays), that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/). The deadline is on Thursday, so it's all go go go!
 
 I did SO MUCH writing and editing over the weekend. I worked through the essay from start to finish, squashing out as many bad bits as I could. And I tried to tie it all together into a continual thread. This is a bit hard because the essay is in the format of some 'dialogues' that me and Dave had (for real). As in...
@@ -62,6 +64,8 @@ There's still lots more work to do, and I'll have to see what edits Dave does, o
 
 ## Unlocking arroost
 
+![arroost](2.png)
+
 Oh no! More submissions incoming.
 
 Last year, I went to a conference called [LIVE](https://liveprog.org/) to [demo cellpond](https://www.youtube.com/watch?v=eQgxFuw8f1U), and it was a great experience for me personally. This year, I'd like to try to do it again, but with [arroost](https://arroost.com).
@@ -75,6 +79,8 @@ I find this idea interesting, because I don't see it explored a lot as an angle 
 Nonetheless, this idea _does_ build on top of a large body of work. It's just not the types of reference that usually appear at the [SPLASH](https://2024.splashcon.org/) conference. I'm gonna have to blend some fields together for this one.
 
 ## Elephant in the room
+
+![fish](3.png)
 
 I was on (another) podcast. This time, it's another [FUTURE OF CODING](https://futureofcoding.org/episodes/) one. The episode is called [ELEPHANT IN THE ROOM](https://futureofcoding.org/episodes/071) because it's about a man called [Bret Victor](https://worrydream.com/), who is perhaps the most cited man within that community, but hasn't been explicitly covered by the podcast, at least in its current iteration.
 
@@ -94,6 +100,8 @@ What's new this week?
 
 ## Step by step
 
+![step by step](4.png)
+
 We submitted our essay to [onward essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays)! We made it! It's done! And I'm so relieved about that.
 
 The final bits of work included rephrasing the ending, and making sure the thing was wrapped up nicely. For sure, the very start and the very end were the bits we rewrote the most times. Especially the start, to be honest! We kept finding more and more concepts that we needed to introduce and define - before getting into the heart of the essay. And we found more and more criticism that people might come up with. I wanted to get all the expected ones in there somewhere.
@@ -106,6 +114,8 @@ By the way, I wrote up my experiences of writing this essay in more detail [here
 
 ## Seet
 
+![the line](5.png)
+
 Ok, back to my other projects! I took a look at the state that I left things, and I realised that I kind of abandoned my [Seet](https://www.todepond.com/wikiblogarden/see-it/prior-art/) project. I worked on it in early 2024, and made a bunch of demos and discussions and stuff. And then I just left it.
 
 That was intentional! The project was a success in some ways, as it brought me closer towards some fully realised ideas. I think it showed me that there are 3 to 4 different directions I could take that work. And I hope to investigate them all in time.
@@ -113,6 +123,8 @@ That was intentional! The project was a success in some ways, as it brought me c
 But... I don't really have anything to show for my Seet work at this point. So I thought it would be good to do a detailed write-up: Of everything that I explored, discovered, tried, and decided. I've been working on that write-up this week! I don't want to spend toooooo much time on it, as it's already in the past, so I won't worry about getting it tooooooo high quality. I just want my thoughts _down there_, somewhere at least.
 
 ## Tadi labs
+
+![spiral](6.png)
 
 Tadi web! Tadi web.
 
