@@ -18,7 +18,7 @@ Some people [reject demo](https://speakerdeck.com/tchoi8/more-poetry-less-demo) 
 
 ## A retrospective on demo
 
-We can look back through demo's rich tapestry of —   
+We can look back through demo's rich tapestry of —
 
 We can look back through demo's history and see how varied its forms and uses can be — and we might find it hard to define exactly what it is. It doesn't seem to have a consistent character or quality.
 
@@ -28,7 +28,7 @@ But things start to make more sense when we accept a simple fact —
 
 The truth is — demo is a medium — demo can be an art form. Demo can be good. Demo can be bad. Demo can be used to say various things. Demo can be done in different ways. 
 
-Just like you can have different good and bad films, you can have good and bad demos. Just like you can have different styles and genres of music, you can have different styles and genres of demo. 
+Just like you can have good and bad films, you can have good and bad demos. Just like you can have different styles and genres of music, you can have different styles and genres of demo. 
 
 So the question remains...
 
