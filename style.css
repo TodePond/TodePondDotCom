@@ -58,8 +58,8 @@ a.secondary {
 
 a.secondary:hover {
   color: black;
-  background-color: #4680ff;
-  outline: 2px solid #4680ff;
+  background-color: #4699ff;
+  outline: 2px solid #4699ff;
 }
 
 a.danger {
@@ -80,6 +80,43 @@ a.tertiary:hover {
   color: black;
   background-color: #9faeee;
   outline: 2px solid #9faeee;
+}
+
+a.warning {
+  color: #ffff46;
+}
+
+a.warning:hover {
+  color: black;
+  background-color: #ffff46;
+  outline: 2px solid #ffff46;
+}
+
+a.button {
+  border: 3px solid #46ff80;
+  padding: 4px 5px;
+  text-decoration: none;
+  line-height: 2.3;
+}
+
+a.button:hover {
+  outline: none;
+}
+
+a.button.secondary {
+  border-color: #4699ff;
+}
+
+a.button.danger {
+  border-color: #ff4346;
+}
+
+a.button.tertiary {
+  border-color: #9faeee;
+}
+
+a.button.warning {
+  border-color: #ffff46;
 }
 
 label.secondary,
