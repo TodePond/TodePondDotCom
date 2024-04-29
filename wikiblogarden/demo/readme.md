@@ -2,9 +2,7 @@
 
 We get to decide.
 
-<br>
-
-## A short summary of the history of demo
+## A short history of demo
 
 Like it or not, the computing industry was built on the back of [demo](https://en.wikipedia.org/wiki/The_Mother_of_All_Demos).
 
