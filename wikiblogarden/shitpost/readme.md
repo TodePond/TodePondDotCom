@@ -29,5 +29,4 @@ What you really are
 
 <br>
 
-Back to the [wikiblogarden](/wikiblog
-arden)
+Back to the [wikiblogarden(/wikiblo garden)
