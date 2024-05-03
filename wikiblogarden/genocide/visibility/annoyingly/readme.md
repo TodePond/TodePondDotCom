@@ -41,9 +41,9 @@ Not all queer people are like me, and [that's ok](https://www.todepond.com/wikib
 
 As queer culture drifts more into the mainstream, queer people are becoming more and more visible. 
 
-I'm pleased to see people be so loudly queer on television, and online and stuff, in whatever way feels right for them. Whether that's by being very camp, or butch, or loud, or quiet (loudly quiet - you know it makes sense)...... they pave the way for all the rest of us to show the world what 'being queer' means for us.
+I'm pleased to see people be so loudly queer on television, and online and stuff, in whatever way feels right for them. Whether that's by being very camp, or butch, or loud, or quiet (loudly quiet - you know it makes sense). They pave the way for all the rest of us, so that we may also show the world what 'being queer' means for us.
 
-So if you see me tweet or toot or write or skeet about being trans or bi or whatever, and you start to think "Wow, Lu sure does make a big deal out of this" or "They sure do post a lot about being queer" or "Maybe they should tone this down a bit" or "They do seem to love attention about this", then I'm doing something right.
+So if you see me tweet or toot or write or skeet about being `[censored]` or `[censored]` or whatever, and you start to think "Wow, Lu sure does make a big deal out of this" or "He sure do post a lot about being queer" or "Maybe she should tone this down a bit" or "They do seem to love the attention they get from this", then I'm doing something right.
 
 <br>
 
