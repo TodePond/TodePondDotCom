@@ -25,7 +25,7 @@ So, of course, many queer people try to please and appease the straight/cis peop
 
 Obviously, straight/cis people don't have to hide themselves. Heterosexuality is deeply embedded in our culture, from the films we watch, to the music we hear, not to mention the constant bombardment of adverts telling us how to "be a man" or "be a woman". From [cinderella](https://youtu.be/cxGo_Wb7K9Q?feature=shared) to [99 problems](https://youtu.be/il7DAixsKrQ?si=EgRcBb3RwJ4XNj3M) to the [royal wedding](https://youtu.be/qPlVAj5uajA?si=hUpt6Eh-8uVqShcx), straightness is publicly plastered across our eyeballs.
 
-> I'm a big fan of all three of those examples, despite any problematic elements, which is maybe a moral failing on my part.
+> I'm a fan of all three, which is maybe a moral failing on my part.
 
 Regardless, it doesn't take a genius to see the discrepancy, and it doesn't take a genius to realise that there's no need to hide your sexuality or gender or whatever - whether you're straight or cis or gay or bi or trans or anything. It's a pretty menial fact about you that you have very little control over, maybe none. So it shouldn't be a controversial aspect of you as a person, and it's ok to *share* it. I think that we should [normalise sharing](https://youtu.be/cF2OF75ivZM) it.
 
