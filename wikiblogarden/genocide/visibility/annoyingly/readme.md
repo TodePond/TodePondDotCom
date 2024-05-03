@@ -10,7 +10,7 @@ A common homophobic trope is for someone to say "I don't mind gay people, but th
 
 And it's obviously a load of hateful rubbish. It's a way of forcing queer people to stay hidden and feel ashamed. It's a damaging bit of [natural code](https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/) that serves to divide us all.
 
-The idea becomes regularly institutionally adopted, with schemes like [don't ask don't tell](https://en.wikipedia.org/wiki/Don%27t_ask,_don%27t_tell) in *mighty america*. And when I was in school, we had [section 28](https://en.wikipedia.org/wiki/Section_28) over here, which prevented anyone in my school from acknowledging the existence of queer people, full stop.
+The idea becomes regularly institutionally adopted, with schemes like [don't ask don't tell](https://en.wikipedia.org/wiki/Don%27t_ask,_don%27t_tell) in *mighty america*. And when I was in school, we had [section 28](https://en.wikipedia.org/wiki/Section_28) over here, which prevented anyone from acknowledging the existence of queer people, full stop.
 
 Altogether, many queer people (myself included) have sometimes thought that they need to keep their true selves hidden. 
 
