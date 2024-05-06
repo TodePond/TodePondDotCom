@@ -84,7 +84,7 @@ Here are some pieces of work you could critique:
 
 anything I've ever made is on the table
 
-if you have something to say about my work then *say it*
+if you have something to say about my work then say it
 
 <br>
 
