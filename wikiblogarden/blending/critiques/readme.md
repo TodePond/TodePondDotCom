@@ -34,29 +34,29 @@ It might be cathartic to rip my work to shreds.
 
 You could be 'wrong', which is a cardinal and unforgivable sin.
 
-I might *see* your critique!!!!!!!!!!! (oh no!)
+I might *see* your critique!!!!!!!!!!!
 
 People will think you're unprofessional. 
 
-Everyone will hate you forever—
+Everyone will hate you forever.
 
-no i'm obviously kidding. None of these risks are real. The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
+So far, none of these risks are real. The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
 
 ## I wish more people critiqued my work
 
-I wish more people went beyond the surface level with my work. I don't like it when people tip toe around criticising it. I want to be criticised because then I get to defend my work, and learn about how people interpret it.
+I wish more people went beyond the surface level with my work. I don't like it when people tip toe around criticising it. I want to be criticised because then I get to defend my work, and learn how people interpret it.
 
 For me, this was one of the biggest benefits I got from submitting to [LIVE](https://2024.splashcon.org/home/live-2024) last year, and I was able to make my [cellpond](https://www.youtube.com/watch?v=eQgxFuw8f1U) project ten times better because of the feedback I got.
 
-So I strongly encourage you to submit if you're working on that same sort of thing, regardless of what stage your project is at. 
+So I strongly encourage you to submit to [LIVE](https://2024.splashcon.org/home/live-2024) if you're working on that sort of thing, regardless of what stage your project is at.
 
 ## Harsh
 
-The feedback from LIVE was very polite and thoughtful and considerate and helpful.
+The feedback from LIVE was very polite and thoughtful and considerate and helpful, which was nice.
 
-However, I also wish I could get much harsher feedback. I'm very comfortable with being [heckled](https://youtu.be/WMJ1H3Ai-qs?si=EteR12SrofKoR1oM) and [dismissed](https://www.todepond.com/wikiblogarden/better-computing/just/read/) and [ignored](https://www.todepond.com/wikiblogarden/men/no/not/like/that/). I just wish the hecklers were higher quality. So far they've all been terrible and useless. Most only give a [boo/hurrah](https://en.m.wikipedia.org/wiki/Emotivism) response.
+However, I also wish I could get a taste of much harsher feedback. I'm very comfortable with being [heckled](https://youtu.be/WMJ1H3Ai-qs?si=EteR12SrofKoR1oM) and [dismissed](https://www.todepond.com/wikiblogarden/better-computing/just/read/) and [ignored](https://www.todepond.com/wikiblogarden/men/no/not/like/that/). I just wish the hecklers were higher quality. So far they've all been terrible and useless. Most only give a [boo/hurrah](https://en.m.wikipedia.org/wiki/Emotivism) response.
 
-I **challenge** you (yes, you) to critique my work *well*. Find its flaws, and spell them out, for us all to see.
+I **challenge** you (yes, you) to critique my work *well*. Find its flaws and spell them out for us all to see.
 
 ## Examples
 
@@ -74,9 +74,9 @@ Here are some pieces of work you could critique:
 - [What is a joke](https://www.todepond.com/wikiblogarden/art/comedy/)
 - [Academia from the outside](https://www.todepond.com/wikiblogarden/academia/from/the-outside/)
 
-but anything I've ever made is on the table.
+and so on. Everything I've ever made is on the table.
 
-If you have something to say about my work then say it!
+If you have something to say about my work then say it! Many many many people say they disagree with my work, or they don't like it, but very few people actually *critique* it publically. And I understand that work is only worth critiquing if it's of a high enough quality itself, so that part's on me. I have to make my body of work *good enough* to attract critique, and this blog post is part of that work.
 
 <br>
 
