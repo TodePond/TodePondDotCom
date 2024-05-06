@@ -8,7 +8,9 @@ Think deeply about what I have presented, as well as the way in which I have pre
 
 Take note of the context in which my work is placed, and consider any relevant subtext.
 
-You may assume that what I have presented is exactly what I intended to present. 
+What character or narrative voice am I speaking in? What does that tell you? Was it a good choice?
+
+You may assume that what I have presented is exactly what I intended to present.
 
 Imagine that I have already thought of all other possible routes, and this is the one that I decided upon.
 
