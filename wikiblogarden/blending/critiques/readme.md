@@ -46,9 +46,9 @@ I might *see* your critique!!!!!!!!!!! (oh no!)
 
 People will think you're unprofessional. 
 
-Everyone will hate you forever.
+Everyone will hate you forever—
 
-No I'm obviously kidding. None of these risks are real. The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
+no i'm obviously kidding. None of these risks are real. The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
 
 ## I wish more people critiqued my work
 
