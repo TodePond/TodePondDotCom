@@ -6,13 +6,17 @@ export function usePointerVelocity() {
   if (done) return getPointerVelocity;
 
   addEventListener("pointermove", recordPointerPosition);
-  addEventListener("pointerup", recordPointerPosition);
-  addEventListener("pointerdown", recordPointerPosition);
+  //   addEventListener("pointerup", recordPointerPosition);
+  //   addEventListener("pointerdown", recordPointerPosition);
 
   return getPointerVelocity;
 }
 
 function getPointerVelocity() {
+  while (history.length > 0 && performance.now() - history[0].time > 30) {
+    history.shift();
+  }
+
   if (history.length < 2) {
     return [0, 0];
   }
@@ -44,7 +48,12 @@ function recordPointerPosition(event) {
     time: performance.now(),
   });
 
-  if (history.length > 10) {
+  //   if (history.length > 10) {
+  //     history.shift();
+  //   }
+
+  // remove entries that are too old
+  while (history.length > 0 && performance.now() - history[0].time > 30) {
     history.shift();
   }
 }
