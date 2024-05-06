@@ -74,9 +74,9 @@ Here are some pieces of work you could critique:
 - [What is a joke](https://www.todepond.com/wikiblogarden/art/comedy/)
 - [Academia from the outside](https://www.todepond.com/wikiblogarden/academia/from/the-outside/)
 
-anything I've ever made is on the table
+but anything I've ever made is on the table.
 
-if you have something to say about my work then say it
+If you have something to say about my work then say it!
 
 <br>
 
