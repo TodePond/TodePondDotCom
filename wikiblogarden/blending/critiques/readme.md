@@ -46,7 +46,7 @@ The biggest downside is that making a good critique *takes time*. And it opens y
 
 ## I wish more people critiqued my work
 
-I wish more people went beyond the surface level with my work. I don't like it when people tip toe around criticising it. I want to be criticised because then I get to defend my work, and learn how people interpret it.
+I wish more people went beyond the surface level with my work. I don't like it when people tip toe around criticising it. I *want* to be criticised because then I get to learn how people interpret it, and I get to defend my work. 
 
 For me, this was one of the biggest benefits I got from submitting to [LIVE](https://2024.splashcon.org/home/live-2024) last year, and I was able to make my [cellpond](https://www.youtube.com/watch?v=eQgxFuw8f1U) project ten times better because of the feedback I got.
 
