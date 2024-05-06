@@ -74,6 +74,6 @@ I ordered (and received) a couple of costume pieces that I'll need for the Top 9
 
 **Thank you for your patience, and thank you for your continued support. Welcome to everyone who joined this week. There's quite a few of you! And welcome back to all the old-timers. I look forward to sharing more in the coming weeks, including what the Top 99 video is _actually_ about. Until then, whatever you're doing, wherever you are... I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 487_<br>
+_Days since bot went missing: 452_<br>
+_Days since berd flew away: 115_
