@@ -36,6 +36,8 @@ What's new this week?
 
 ## Out of time
 
+![8 or 9](1.png)
+
 This week, I recorded some voice-over for the next video, Top 99 Ways To Make Sand. And I've been exploring how to _time_ it.
 
 As you might imagine, there's a lot of repetition in the video. I repeatedly announce the names of various different types of sands. 99 Sands. So there's a lot of repetition in the video. I have to say "sandpond sand" and "cellpond sand" and "dreamberd sand" and so on, for all the different types of sand. All 99 Sands.
@@ -48,6 +50,8 @@ If they happen at the _exact_ same time, it doesn't feel right. It feels like th
 
 ## Changing time
 
+![50](2.png)
+
 The fun part is that I can change this ordering and timing throughout the video to create different sensations. If the image comes before the sound, it feels more energetic. If the sound comes before the image, it feels more lazy. And if this ordering changes gradually over time, it can almost feel like movement. I typically like to increase the delay over time, to make it feel like you're 'drifting off' into a deep sleep or something. And I like to end with the different elements close together, which feels like some sort of resolution, or a tight-nit machine.
 
 I use different approaches in different videos too. [Define](https://youtu.be/ZMklf0vUl18) was largely in sync with the music, and stayed mostly in-time with a fairly consistent pattern. I wanted it to feel like a monotonous mechanical machine, with a certain looming inevitability, like it was moving towards you non-stop. [Arrows](https://youtu.be/DNBKdU6XrLY), on the other hand, was very loose and sloppily out-of-time. I wanted it to feel 'all over the place' to match the messiness of exploration and creativity.
@@ -55,6 +59,8 @@ I use different approaches in different videos too. [Define](https://youtu.be/ZM
 In the Top 99 Sands, I've been exploring different ways of timing things. I want it to have a combination of both approaches, as it's the finale of the [trilogy](https://www.youtube.com/playlist?list=PL9uRa69RF-7wCDlX55WjK7-gEb9nb3UPm). Some parts are very on-beat, and some parts are very off-beat, and I've been trying to use that to craft the up-and-down pacing of the overall video. Because if I didn't, it would be very boring, just 99 Sands one after the other.
 
 ## Bits in progress
+
+![fish](3.png)
 
 I've been writing up my work on Seet, an experimental tool that lets you **see** the program that you're programming. As part of the write-up, I've been making the case that [spatial computing](https://youtu.be/Zz8g4GEMpYw) already lets you **see** your program, and that we should try to bring the benefit to more traditional programming (sometimes known as _sentential programming_).
 
