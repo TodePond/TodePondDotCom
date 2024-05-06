@@ -42,7 +42,7 @@ They will think you're unprofessional.
 
 Everyone will hate you forever.
 
-The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
+The biggest downside is that making a good critique takes time. And it opens yourself up to critiques as well.
 
 ## I wish more people critiqued my work
 
