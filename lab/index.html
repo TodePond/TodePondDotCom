@@ -166,6 +166,17 @@
       path: "toooooool",
       topics: ["canvas", "creativity"],
     },
+    {
+      path: "https://drawdeadfish.com",
+      name: "Fish",
+      topics: [
+        "canvas",
+        "creativity",
+        "emergence",
+        "user interface",
+        "collaboration",
+      ],
+    },
   ];
 
   const experiments = document.querySelector("#experiments");
@@ -183,7 +194,9 @@
       const template = document.querySelector("#experiment");
       const clone = template.content.cloneNode(true);
       const a = clone.querySelector("a");
-      const name = experiment.path[0].toUpperCase() + experiment.path.slice(1);
+      const name =
+        experiment.name ??
+        experiment.path[0].toUpperCase() + experiment.path.slice(1);
       a.href = `${experiment.path}`;
       a.textContent = name;
       a.style.border = "3px solid #46ff80";
