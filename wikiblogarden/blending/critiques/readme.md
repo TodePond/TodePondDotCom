@@ -78,7 +78,7 @@ Here are some pieces of work you could critique:
 
 and so on. Everything I've ever made is on the table.
 
-If you have something to say about my work then say it! Many many many people say they disagree with my work, or they don't like it, but very few people actually *critique* it publicly. And I understand that work is only worth critiquing if it's of a high enough quality itself, so that part's on me. I have to make my body of work *good enough* to attract critique, and this blog post is part of that work.
+If you have something to say about my work then say it! Many many many people say they disagree with my work, or they don't like it, but very few people actually *critique* it publicly. And I understand that work is only worth critiquing if it's of a high enough quality itself, so that part's on me. I have to make my body of work *good enough* to attract critique, and this blog post is part of my practice towards getting there.
 
 <br>
 
