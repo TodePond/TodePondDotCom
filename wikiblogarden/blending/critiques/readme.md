@@ -6,7 +6,7 @@ I invite you to critique my work in close detail. You are welcome to be as harsh
 
 Think deeply about what I have presented, as well as the way in which I have presented it. Go beyond the surface level, but critique the surface level as well. 
 
-Take note of the context in which my work is placed, and consider any relevant subtext. Take into account the character or narrative voice that I speak in, and what that tells you about my message.
+Take note of the context in which my work is placed, and consider any relevant subtext. Take into account the character or narrative voice that I speak in, and what that tells you about my message, and whether those choices were right or wrong.
 
 For the sake of time, you may assume that what I have presented is exactly what I intended to present. Imagine that I have already thought of all other possible routes, and this is the one that I decided upon. No level of detail is too high. Pick apart my words, exactly as they are written/spoken.
 
