@@ -65,15 +65,15 @@ I **challenge** you (yes, you) to critique my work *well*. Find its flaws and sp
 Here are some pieces of work you could critique: 
 
 - [Cellpond: Spatial programming without escape](https://www.youtube.com/watch?v=eQgxFuw8f1U)
-- [How to introduce the tadi web](https://www.todepond.com/wikiblogarden/tadi-web/entry-points/)
+- [The tadi web](https://tadiweb.com)
 - [Draw dead fish](https://drawdeadfish.com)
 - [Define define](https://youtu.be/ZMklf0vUl18)
 - [Call for critiques](/wikiblogarden/blending/critiques)
 - [e/acc towards what?](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/e-acc/)
 - [Just](https://www.todepond.com/wikiblogarden/better-computing/just/)
 - [Torn leaf](https://tornleaf.gallery/)
-- [Why be bad on purpose](https://www.todepond.com/wikiblogarden/shitpost/)
 - [What is a joke](https://www.todepond.com/wikiblogarden/art/comedy/)
+- [Artificial intelligence is good/bad actually](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/)
 - [Academia from the outside](https://www.todepond.com/wikiblogarden/academia/from/the-outside/)
 
 and so on. Everything I've ever made is on the table.
