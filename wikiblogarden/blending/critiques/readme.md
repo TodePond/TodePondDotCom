@@ -16,7 +16,7 @@ Imagine that I have already thought of all other possible routes, and this is th
 
 No level of detail is too high. Pick apart my words, exactly as they are written/spoken.
 
-Your critique can be dry and academic, or it can be a more artistic response. It can be facetious or in good faith. Make your point with impact. Be bold!
+Your critique can be dry and thoughtful, or it can be a more artistic response. It can be facetious or in good faith. It can be a parody or satire. Whatever the case, make your point with impact. Be bold!
 
 If there is something important that I missed, that is a weakness of my work, and you should call it out as such.
 
