@@ -32,15 +32,17 @@ It might be cathartic to rip my work to shreds.
 
 ## Risks
 
-You could be 'wrong', which is a cardinal and unforgivable sin.
+You could be 'wrong'.
 
 I might *see* your critique!!!!!!!!!!!
 
-People will think you're unprofessional. 
+People might completely misinterpret what you say.
+
+They will think you're unprofessional. 
 
 Everyone will hate you forever.
 
-So far, none of these risks are real. The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
+The biggest downside is that making a good critique *takes time*. And it opens yourself up to critiques as well.
 
 ## I wish more people critiqued my work
 
