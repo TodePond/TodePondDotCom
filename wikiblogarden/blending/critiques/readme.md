@@ -56,7 +56,7 @@ So I strongly encourage you to submit to [LIVE](https://2024.splashcon.org/home/
 
 The feedback from LIVE was very polite and thoughtful and considerate and helpful, which was nice.
 
-However, I also wish I could get a taste of much harsher feedback. I'm very comfortable with being [heckled](https://youtu.be/WMJ1H3Ai-qs?si=EteR12SrofKoR1oM) and [dismissed](https://www.todepond.com/wikiblogarden/better-computing/just/read/) and [ignored](https://www.todepond.com/wikiblogarden/men/no/not/like/that/). I just wish the hecklers were higher quality. So far they've all been terrible and useless. Most only give a [boo/hurrah](https://en.m.wikipedia.org/wiki/Emotivism) response.
+However, I also wish I could get a taste of much harsher feedback. I'm very comfortable with being [heckled](https://youtu.be/WMJ1H3Ai-qs?si=EteR12SrofKoR1oM) and [dismissed](https://www.todepond.com/wikiblogarden/better-computing/just/read/) and [ignored](https://www.todepond.com/wikiblogarden/men/no/not/like/that/). I just wish the hecklers were higher quality. So far, they've all been terrible and useless. Most only give a [boo/hurrah](https://en.m.wikipedia.org/wiki/Emotivism) response.
 
 I **challenge** you (yes, you) to critique my work *well*. Find its flaws and spell them out for us all to see.
 
