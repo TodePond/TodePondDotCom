@@ -4,27 +4,17 @@ I invite you to critique my work in close detail. You are welcome to be as harsh
 
 ## Guidelines
 
-Think deeply about what I have presented, as well as the way in which I have presented it.
+Think deeply about what I have presented, as well as the way in which I have presented it. Go beyond the surface level, but critique the surface level as well. 
 
-Take note of the context in which my work is placed, and consider any relevant subtext.
+Take note of the context in which my work is placed, and consider any relevant subtext. Take into account the character or narrative voice that I speak in, and what that tells you about my message.
 
-Take into account the character or narrative voice that I speak in, and what that tells you about my message.
+For the sake of time, you may assume that what I have presented is exactly what I intended to present. Imagine that I have already thought of all other possible routes, and this is the one that I decided upon. No level of detail is too high. Pick apart my words, exactly as they are written/spoken.
 
-For the sake of time, you may assume that what I have presented is exactly what I intended to present.
-
-Imagine that I have already thought of all other possible routes, and this is the one that I decided upon.
-
-No level of detail is too high. Pick apart my words, exactly as they are written/spoken.
+Challenge the premises that I state or imply or rely upon. If there is something important that I missed, that is a weakness of my work, and you should call it out as such.
 
 Your critique can be dry and thoughtful, or it can be a more artistic response. It can be facetious or in good faith. It can be a parody or satire. Whatever the case, make your point with impact. Be bold!
 
-If there is something important that I missed, that is a weakness of my work, and you should call it out as such.
-
-Challenge the premises that I state or imply or rely upon.
-
-Go beyond the surface level, but critique the surface level as well. 
-
-Keep in mind that your critique may be critiqued in return.
+And keep in mind that your critique may be critiqued in return.
 
 ## Benefits
 
