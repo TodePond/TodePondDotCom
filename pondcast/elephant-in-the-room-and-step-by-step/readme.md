@@ -19,7 +19,7 @@ What's new this, I mean... What's new last week?
 
 ![self image](1.png)
 
-This week (and weekend)... Last week (and weeekend), I spent all of my time (really, all of it) (I have no life) on my submission for [onward essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays), that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/). The deadline is on Thursday, so it's all go go go!
+This week (and weekend)... Last week (and weekend), I spent all of my time (really, all of it) on my submission for [onward essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays), that I'm writing with [Dave Ackley](https://www.cs.unm.edu/~ackley/). The deadline is on Thursday, so it's all go go go!
 
 I did SO MUCH writing and editing over the weekend. I worked through the essay from start to finish, squashing out as many bad bits as I could. And I tried to tie it all together into a continual thread. This is a bit hard because the essay is in the format of some 'dialogues' that me and Dave had (for real). As in...
 
