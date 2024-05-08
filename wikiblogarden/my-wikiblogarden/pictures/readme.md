@@ -30,7 +30,7 @@ WHICH ONE, wise guy? One that I can use from my phone? That isn't a pain in the 
 
 ## Feeling the pain
 
-Sometimes it's good to feel the pain of a problem, I think. It builds my hunger to fix it. And one day I will fix it, without any [more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) or [more tools](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools) at all. 
+Sometimes it's good to feel the pain of a problem, I think. It builds my hunger to fix it. And one day I will fix it, without needing any [more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) or [more tools](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools) at all. 
 
 <br>
 
