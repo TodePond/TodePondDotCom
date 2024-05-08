@@ -1,29 +1,3 @@
-> This update is for [paying supporters](https://patreon.com/TodePond) of my work.<br>
-> It's provided here, DRM-free :)<br>
-> Please only read or listen if you've paid!
-
-<input id="paid-checkbox" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
-
-<script>
-  const key = 'pondcast/paid'
-  const paid = localStorage.getItem(key)
-  const checkbox = document.getElementById('paid-checkbox')
-  if (paid) {
-    checkbox.checked = true
-  }
-  checkbox.addEventListener('change', () => {
-    const checkboxes = document.querySelectorAll('input[type="checkbox"]')
-    if (checkbox.checked) {
-      localStorage.setItem(key, 'true')
-      checkboxes.forEach(cb => cb.checked = true)
-    } else {
-      localStorage.removeItem(key)
-      checkboxes.forEach(cb => cb.checked = false)
-    }
-  })
-</script>
-
-<hr>
 
 # TODEPOND PONDCAST: Elephant in the room
 
@@ -31,7 +5,7 @@
   <source src="1.m4a" type="audio/x-m4a">
 </audio>
 
-Welcome back nerds. It's time for another weekly edition of the...
+Welcome back. It's time for another weekly edition of the...
 
 ... oh no ... something isn't right. This pondcast is a week late. I missed one!
 
