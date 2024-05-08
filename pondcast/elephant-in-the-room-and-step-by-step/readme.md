@@ -71,31 +71,6 @@ And now... and now...
 
 <br>
 
-> This update is for [paying supporters](https://patreon.com/TodePond) of my work.<br>
-> It's provided here, DRM-free :)<br>
-> Please only read or listen if you've paid!
-
-<input id="paid-checkbox-2" type="checkbox"><label for="paid-checkbox">Tick this box if you've paid!</label>
-
-<script>
-  const key = 'pondcast/paid'
-  const paid = localStorage.getItem(key)
-  const checkbox = document.getElementById('paid-checkbox-2')
-  if (paid) {
-    checkbox.checked = true
-  }
-  checkbox.addEventListener('change', () => {
-    const checkboxes = document.querySelectorAll('input[type="checkbox"]')
-    if (checkbox.checked) {
-      localStorage.setItem(key, 'true')
-      checkboxes.forEach(cb => cb.checked = true)
-    } else {
-      localStorage.removeItem(key)
-      checkboxes.forEach(cb => cb.checked = false)
-    }
-  })
-</script>
-
 <hr>
 
 # TODEPOND PONDCAST: Step by step
@@ -145,8 +120,6 @@ This slippy mindset helped me to get arroost and the [arrows video](https://www.
 The hard part, is that it's _such_ a different approach, that I feel like I'm having to learn everything all over again - from scratch. To help me with this, I've been building out loads of experimental mini-projects, tadi-style. I'm collecting them all together in a [lab](https://todepond.com/lab) website, and I hope that it becomes a growing collection of how to tadi web. At this point, I think I'm close to having enough mini-demos to 'present on stage'. When the next future of coding event happens, I might apply to present. Let's see! Let's see.
 
 And ... let's get back to the video now.
-
-**Now that the submission is done, I'm returning to work on the video. [Ivan](https://ivanish.ca/) and [Flora](https://floracaulton.com/) have both sent me more stuff for it, and I'm looking forward to getting it _in there_. So I thank you for your patience, and all your support. Thank you! And welcome to all the new people this past fortnight! I hope you enjoy your stay. For now, wherever you are, whatever you're doing, I hope you have a great week.**
 
 _Days since tode fell asleep: 479_<br>
 _Days since bot went missing: 444_<br>
