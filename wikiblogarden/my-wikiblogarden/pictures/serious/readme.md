@@ -64,7 +64,7 @@ In my case, my problem is that I *don't know how* to write a throwaway solution 
 
 ## Ecosystem 
 
-In my experience of [tadi-webbing](https://www.todepond.com/wikiblogarden/tadi-web/) over the past 8 months, I've discovered that solutions are often less about writing better code, and more about building a better ecosystem. Environmental factors are far more important. This has been very surprising for me. 
+In my experience of [tadi-webbing](https://www.todepond.com/wikiblogarden/tadi-web/) over the past 8 months, I've discovered that solutions are often less about writing better code, and more about building a better ecosystem. Environmental factors are far more important. This has been a surprise to me. 
 
 So... instead of trying to solve my github problem, I should look at what I can change at a higher level.
 
