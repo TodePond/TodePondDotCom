@@ -46,7 +46,7 @@ In some ways, I *did* make a tool when I made my [feed maker](https://www.todepo
 
 It helps a lot. But...
 
-I made that tool quite early on in my explorations of the [tadi web](https://www.tadiweb.com/), and I wasn't very good at the "no more tools" approach, and I have suffered greatly for that. That feed maker has become buggy many many many times, and I haven't "let it die" as I was supposed to. It has become a "product" that I'm now attached to.
+I made that tool quite early on in my explorations of the [tadi web](https://www.tadiweb.com/), and I wasn't very good at the "no more tools" approach, and I have suffered greatly for that. That feed maker has become buggy many many many times, and I haven't "let it die" as I was supposed to, and it has grown into a bigger and bigger pain and time-sink. It has become a "product" that I'm now attached to.
 
 What I should have done is - kill the feed maker every time it went buggy. And I should have made a better, simpler, more throwaway one each time. 
 
