@@ -50,7 +50,7 @@ I made that tool quite early on in my explorations of the [tadi web](https://www
 
 What I should have done is - kill the feed maker every time it went buggy. And I should have made a better, simpler, more throwaway one each time. 
 
-I am not developing tools, I am developing skills, and a practice of ultra-simplicity, with no compromise, [without escape](https://www.youtube.com/watch?v=eQgxFuw8f1U)! Software isn't a thing, it's a craft. A chair maker doesn't develop a single chair for years on end. They make more and more chairs, better chairs. And they don't pass on *chairs* to future generations. They pass on skills and knowledge and experience and expertise. What if we could make software work the same way.
+I am not developing tools, I am developing skills, and a practice of ultra-simplicity, with no compromise, [without escape](https://www.youtube.com/watch?v=eQgxFuw8f1U)! Software isn't a thing, it's a craft. A chair maker doesn't develop a single chair for years on end. They make more and more chairs, better chairs. And they don't pass on *chairs* to future generations. They pass on skills and knowledge and experience and expertise. We should see software the same way.
 
 ## Throwaway solutions
 
