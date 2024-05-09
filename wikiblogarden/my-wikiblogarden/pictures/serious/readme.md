@@ -25,10 +25,8 @@ I guess it wouldn't be too hard. Lemme give it a go.
 There's no way to rename an image on my phone!?!?!? And there's no way to rename it when you upload it to github either!!!!!?????!!!! So when I upload an image, I'll have to link it in like...
 
 ```
-![hey](Screenshot_20240509-072530.png)
+![hey](Screenshot_20245009-072530.png)
 ```
-
-> EDIT: funnily enough, the github markdown parser rewrites the above path from `Screenshot_20240509-072530.png` into `/wikiblogarden/my-wikiblogarden/pictures/serious/Screenshot_20240509-072530.png`, despite being inside a code block. the github markdown parser is so buggy that i can't even show how bad github is.
 
 ![hey](Screenshot_20240509-072530.png)
 
