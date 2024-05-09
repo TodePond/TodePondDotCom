@@ -28,6 +28,8 @@ There's no way to rename an image on my phone!?!?!? And there's no way to rename
 ![hey](Screenshot_20240509-072530.png)
 ```
 
+> EDIT: funnily enough, the github markdown parser rewrites the above path from `Screenshot_20240509-072530.png` into `/wikiblogarden/my-wikiblogarden/pictures/serious/Screenshot_20240509-072530.png`, despite being inside a code block. the github markdown parser is so buggy that i can't even show how bad github is.
+
 ![hey](Screenshot_20240509-072530.png)
 
 That's a pain to copy paste and cut down. I can't believe I can't edit the image's name on the github website.
