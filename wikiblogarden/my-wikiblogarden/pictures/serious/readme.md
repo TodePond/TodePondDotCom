@@ -22,7 +22,7 @@ I guess it wouldn't be too hard. Lemme give it a go.
 
 ## Oh my god
 
-There's no way to rename an image on my phone!?!?!? And there's no way to upload it when you upload it to github either!!!!!?????!!!! So when I upload an image, I'll have to link it in like...
+There's no way to rename an image on my phone!?!?!? And there's no way to rename it when you upload it to github either!!!!!?????!!!! So when I upload an image, I'll have to link it in like...
 
 ```
 ![hey](Screenshot_20240509-072530.png)
