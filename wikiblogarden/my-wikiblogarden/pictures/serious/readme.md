@@ -30,9 +30,9 @@ There's no way to rename an image on my phone!?!?!? And there's no way to rename
 
 ![hey](Screenshot_20240509-072530.png)
 
-That's a pain to copy paste and cut down. I can't edit the file of the image via the github website either.
+That's a pain to copy paste and cut down. I can't believe I can't edit the image's name on the github website.
 
-In fact, using the github website in general is a real pain on my phone. Every time I upload an image from my phone, it doesn't navigate me back to the folder I was just in. It takes me all the way back to root!?!?!!! So to upload multiple images, I have to navigate *all* the way back, or do some clumsy buggy back swipes, through a couple of broken forms.
+In fact, using the github website *in general* is a real pain on my phone. Every time I upload an image, it doesn't navigate me back to the folder I was just in. It takes me all the way back to root!?!?!!! So to upload multiple images, I have to navigate *all* the way back, or do some clumsy buggy back swipes, through a couple of broken forms.
 
 ## No more tools
 
