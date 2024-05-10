@@ -1,6 +1,6 @@
 # Todepond goals
 
-I have a bunch of goals with my todepond work. We can split them up by their varying time spans. Some are very far away. Some are happening right now. Let's start with the far away ones!
+I have a bunch of goals for my todepond work. We can split them up by their varying time spans. Some are very far away. Some are happening right now. Let's start with the far away ones!
 
 ## Extremely long term goals
 
