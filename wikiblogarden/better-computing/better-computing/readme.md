@@ -24,7 +24,7 @@ And also the [cozy web](https://maggieappleton.com/cozy-web)!
 
 EDIT: And now, the brand new [cold-blooded software](https://dubroy.com/blog/cold-blooded-software/)!
 
-EDIT: And now, the [humane web](https://humanewebmanifesto.com/), which also introduced me to the [sustainable web](https://www.sustainablewebmanifesto.com/).
+EDIT: And now, the brand new [humane web](https://humanewebmanifesto.com/), which also introduced me to the [sustainable web](https://www.sustainablewebmanifesto.com/).
 
 ## Small-perma-local-robust-small-gemini-spartan-cold-blooded-smol-sustainable-gopher-dat-humane-cozy computing-web-software
 
