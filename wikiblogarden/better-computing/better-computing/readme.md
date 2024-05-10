@@ -24,7 +24,9 @@ And also the [cozy web](https://maggieappleton.com/cozy-web)!
 
 EDIT: And now, the brand new [cold-blooded software](https://dubroy.com/blog/cold-blooded-software/)!
 
-## Small-perma-local-robust-small-gemini-spartan-cold-blooded-smol-gopher-dat-cozy computing-web-software
+EDIT: And now, the [humane web](https://humanewebmanifesto.com/), which also introduced me to the [sustainable web](https://www.sustainablewebmanifesto.com/).
+
+## Small-perma-local-robust-small-gemini-spartan-cold-blooded-smol-sustainable-gopher-dat-humane-cozy computing-web-software
 
 It's easy, we just add them all together for the **BESTEREST computering web**. And we call that... the `tadi web`.
 
