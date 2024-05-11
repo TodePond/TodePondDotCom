@@ -24,6 +24,10 @@ a {
   color: #46ff80;
 }
 
+:target {
+  outline: 2px solid #46ff80;
+}
+
 a.footnote::before {
   content: "[";
 }
