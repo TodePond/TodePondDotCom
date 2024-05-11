@@ -28,7 +28,7 @@ Let's talk about [clickbait](https://www.todepond.com/wikiblogarden/genocide/sad
 
 ## Clickbait
 
-Clickbait is when you trick the user into clicking your thing by promising [one thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/), but then giving [a different thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/). If they click, they take the bait, and you've gained a "view". Congratulations.
+Clickbait is when you trick the user into clicking your thing by promising [one thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/), but then give [a different thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/). If they click, they take the bait, and you've gained a "view". Congratulations.
 
 ## More views
 
@@ -48,7 +48,7 @@ There's a huge misconception that clickbait is only about views. It certainly [c
 
 Everything we create is within a [context](https://www.todepond.com/wikiblogarden/blending/critiques/). Everything we make has the subtext of what's _already out there_ in that field's collective body of [work](https://drawdeadfish.com). And clickbait is [just](https://www.todepond.com/wikiblogarden/better-computing/just/) another tool in your palette that you can use (or not) to varying effect.
 
-With [code](https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/), it's all about execution. Everyone is transmitting their work and words with the hope of _making something happen_. Otherwise, there would be no point.
+With [code](https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/), it's all about execution. Everyone is transmitting their work and words with the hope of _making something happen_. Otherwise, there would be no point[^bother].
 
 And there's no hiding from that. It's not a bad thing. It's not a cold thing. It's a good thing! It's an acknowledgement that we're trying to make the world better.
 
@@ -147,3 +147,4 @@ Back to the [wikiblogarden](/wikiblogarden).
 [^annoyingly]: [Being annoyingly queer](https://www.todepond.com/wikiblogarden/genocide/visibility/annoyingly/)
 [^academia]: [Academia](https://www.todepond.com/wikiblogarden/academia/)
 [^academia-from-the-outside]: [Academia from the outside](https://www.todepond.com/wikiblogarden/academia/from/the-outside/)
+[^bother]: [Why bother](https://www.todepond.com/wikiblogarden/art/why-bother/)
