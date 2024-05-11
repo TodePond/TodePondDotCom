@@ -28,7 +28,7 @@ Let's talk about [clickbait](https://www.todepond.com/wikiblogarden/genocide/sad
 
 ## Clickbait
 
-Clickbait is when you trick the user into clicking your thing by promising [one thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/), but then give [a different thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/). If they click, they take the bait, and you've gained a "view". Congratulations.
+Clickbait is when you trick the user into clicking your thing by promising [one thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/), but then giving [a different thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/). If they click, they take the bait, and you've gained a "view". Congratulations.
 
 ## More views
 
