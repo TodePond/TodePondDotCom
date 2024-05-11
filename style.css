@@ -51,8 +51,7 @@ a:hover {
   outline: 2px solid #46ff80;
 }
 
-ul,
-ol {
+ul {
   padding-inline-start: 20px;
 
   /* line-height: 1.2; */
