@@ -25,7 +25,7 @@ a {
 }
 
 :target {
-  outline: 2px solid #46ff80;
+  outline: 2px solid #4680ff;
 }
 
 a.footnote::before {
