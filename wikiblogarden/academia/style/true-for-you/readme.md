@@ -10,7 +10,7 @@ I'm no stranger to shifting styles[^styles], so what's the harm in adding anothe
 
 I, respectfully[^academish], introduce **true for you** style. You're reading it right now! That's certainly true[^true-for-you].
 
-## Truth 
+## Truth
 
 Truth means being right[^being-right], and being right is important[^definitions]. In the marketplace of ideas[^no-more-ideas], it's clear that the—
 
@@ -30,25 +30,25 @@ Let's talk about [clickbait](https://www.todepond.com/wikiblogarden/genocide/sad
 
 Clickbait is when you trick the user into clicking your thing by promising [one thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/), but then giving [a different thing](https://www.todepond.com/wikiblogarden/academia/style/zoom-out/for/real/). If they click, they take the bait, and you've gained a "view". Congratulations.
 
-## More views 
+## More views
 
 There are many reasons why you might want someone to view your work. For example, you might want your work to [reach people](https://www.todepond.com/wikiblogarden/social-media/analytics/). On the other hand, you might want your work to [reach people](https://www.todepond.com/wikiblogarden/social-media/analytics/good-and-bad/).
 
-*In the industry we call this impact, and we try to avoid it as much as we can.*
+_In the industry we call this impact, and we try to avoid it as much as we can._
 
 ## Less views
 
-But wait! Clickbait can sometimes make your work reach *less* people. It can reach the *wrong* people, or it can put people off. 
+But wait! Clickbait can sometimes make your work reach _less_ people. It can reach the _wrong_ people, or it can put people off.
 
-Alternatively, it can put off the *right* people[^hackernews][^e-acc], and [reach an audience](https://www.todepond.com/wikiblogarden/genocide/visibility/annoyingly/) that normally wouldn't engage with that field. 
+Alternatively, it can put off the _right_ people[^hackernews][^e-acc], and [reach an audience](https://www.todepond.com/wikiblogarden/genocide/visibility/annoyingly/) that normally wouldn't engage with that field.
 
 ## Execution
 
-There's a huge misconception that clickbait is only about views. It certainly [can be](https://youtube.com/@mrbeast?si=BVsyyA7eqis0tIKq). But it can also be used as a [medium](https://www.todepond.com/wikiblogarden/demo/) in and of itself. 
+There's a huge misconception that clickbait is only about views. It certainly [can be](https://youtube.com/@mrbeast?si=BVsyyA7eqis0tIKq). But it can also be used as a [medium](https://www.todepond.com/wikiblogarden/demo/) in and of itself.
 
-Everything we create is within a [context](https://www.todepond.com/wikiblogarden/blending/critiques/). Everything we make has the subtext of what's *already out there* in that field's collective body of [work](https://drawdeadfish.com). And clickbait is [just](https://www.todepond.com/wikiblogarden/better-computing/just/) another tool in your palette that you can use (or not) to varying effect.
+Everything we create is within a [context](https://www.todepond.com/wikiblogarden/blending/critiques/). Everything we make has the subtext of what's _already out there_ in that field's collective body of [work](https://drawdeadfish.com). And clickbait is [just](https://www.todepond.com/wikiblogarden/better-computing/just/) another tool in your palette that you can use (or not) to varying effect.
 
-With [code](https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/), it's all about execution. Everyone is transmitting their work and words with the hope of *making something happen*. Otherwise, there would be no point.
+With [code](https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/), it's all about execution. Everyone is transmitting their work and words with the hope of _making something happen_. Otherwise, there would be no point.
 
 And there's no hiding from that. It's not a bad thing. It's not a cold thing. It's a good thing! It's an acknowledgement that we're trying to make the world better.
 
@@ -58,9 +58,9 @@ Therefore, the question of whether to use "clickbait" or not is a matter of "imp
 
 As we have discussed [at length](https://futureofcoding.org/episodes/071), certain mediums are better at expressing certain things.
 
-Computers are good at expressing a feeling of direct manipulation and responsiveness, and *no other artform can do this*. And I quote, without comment, from the great [Bret Victor](https://worrydream.com/): "this responsiveness is not something we've ever had in a visual art medium before"[^dead-fish].
+Computers are good at expressing a feeling of direct manipulation and responsiveness, and _no other artform can do this_. And I quote, without comment, from the great [Bret Victor](https://worrydream.com/): "this responsiveness is not something we've ever had in a visual art medium before."[^dead-fish]
 
-So we must ask, what is the native artform of clickbait? Like Bret, I'm *not* talking about what is *commonly* done with clickbait. I'm talking about what *can* be done with clickbait.
+So we must ask, what is the native artform of clickbait? Like Bret, I'm _not_ talking about what is _commonly_ done with clickbait. I'm talking about what _can_ be done with clickbait.
 
 I would say that clickbait can express[^put-it-in-a-video] a certain level of rebellion and surrealism[^zoom-out-style] that no other—
 
@@ -74,7 +74,7 @@ I would say that clickbait can express[^put-it-in-a-video] a certain level of re
 
 # Respectability politics
 
-Is clickbait the right word for my work? 
+Is clickbait the right word for my work?
 
 Multiple people have told me that my videos have a "clickbait" feeling to them. And I can see what they mean behind some of them[^new-cellular-automata][^define-define][^arrows-in-arrows]. But that's not how I usually think of it.
 
@@ -90,16 +90,16 @@ What does it mean to be provocative?
 
 It's when you "poke the bear", trying to get a reaction.
 
-If you kindly ask a bear to speak, it won't do it. But if you *poke* it, it certainly will. 
+If you kindly ask a bear to speak, it won't do it. But if you _poke_ it, it certainly will.
 
-Some people (with larger, more prestigious platforms than me) don't need to poke. Their words carry more weight. And I used to think that I should try to build up a voice like that. 
+Some people (with larger, more prestigious platforms than me) don't need to poke. Their words carry more weight. And I used to think that I should try to build up a voice like that.
 
-But as time went on, I realised and discovered certain things that made me change course. Here they are. 
+But as time went on, I realised and discovered certain things that made me change course. Here they are.
 
-1. I can do both. I *can* chop and change between provocative and unprovocative. Like with most things, it's not [one or the other](https://www.todepond.com/wikiblogarden/my-name/).
+1. I can do both. I _can_ chop and change between provocative and unprovocative. Like with most things, it's not [one or the other](https://www.todepond.com/wikiblogarden/my-name/).
 2. Ever since I've been more openly queer, (and presenting more feminine), I've noticed the huge change in how people treat me, with ten times less respect and agreeability. I write about this openly[^men]!
 
-If I had [continued life](https://www.todepond.com/wikiblogarden/health/conversion-therapy/) as a straight-passing man, maybe I'd be more happy staying safe, and unprovocative. Or more likely, I wouldn't have the same fearlessness I now have about "mixing the personal" with my own work. 
+If I had [continued life](https://www.todepond.com/wikiblogarden/health/conversion-therapy/) as a straight-passing man, maybe I'd be more happy staying safe, and unprovocative. Or more likely, I wouldn't have the same fearlessness I now have about "mixing the personal" with my own work.
 
 **All my work** is deeply personal and political, and much of that doesn't call for respectability — it actively rejects it[^annoyingly].
 
@@ -107,13 +107,13 @@ Here in the [London coding scene](https://www.todepond.com/wikiblogarden/london)
 
 ## Separation of concerns
 
-I think that some people would say to me that all of these things are separate, and unconnected. One could argue that "those hateful people are one thing" but "that doesn't mean you should be provocative at other times[^academia][^academia-from-the-outside]". And I guess that's where we disagree. 
+I think that some people would say to me that all of these things are separate, and unconnected. One could argue that "those hateful people are one thing" but "that doesn't mean you should be provocative at other times[^academia][^academia-from-the-outside]". And I guess that's where we disagree.
 
 I do think that these things are all connected — these fields are [blended](https://www.todepond.com/wikiblogarden/blending/fields). To me, there is no "art" and "science" and "politics" and "research" and "philosophy" and "trying to go to the [loo](https://www.todepond.com/wikiblogarden/health/loo-lu/)" — there is only "work" — and "work" is what I do.
 
 So I will continue to get across my same provocative and rebellious message in all the fields I take part in, whether people like it or not.
 
-Any questions? Do we have time for questions? 
+Any questions? Do we have time for questions?
 
 <br>
 
@@ -132,7 +132,7 @@ Back to the [wikiblogarden](/wikiblogarden).
 [^styles]: [Todepond style guides](https://www.todepond.com/wikiblogarden/academia/style/)
 [^academish]: [Academish Voice](https://inkandswitch.notion.site/Academish-Voice-0d8126b3be5545d2a21705ceedb5dd45)
 [^true-for-you]: [True for you style](/wikiblogarden/academia/style/true-for-you)
-[^being-right]: I'm currently writing this one and I haven't finished it yet. 
+[^being-right]: I'm currently writing this one and I haven't finished it yet.
 [^definitions]: [Ribbit report: Definitions that don't matter](https://www.todepond.com/report/definitions-that-dont-matter/)
 [^no-more-ideas]: [No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/)
 [^hackernews]: [Hackernews is a vile website](https://www.todepond.com/wikiblogarden/social-media/hackernews)
