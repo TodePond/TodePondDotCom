@@ -1,6 +1,6 @@
 # True for you style
 
-As I flit back and forth between all these different voices [^voices], it's important that I make people take me seriously[^goals]. And so far, that hasn't happened[^no-not-like-that].
+As I flit back and forth between all these different voices[^voices], it's important that I make people take me seriously[^goals]. And so far, that hasn't happened[^no-not-like-that].
 
 ## Mystery
 
