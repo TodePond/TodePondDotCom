@@ -29,6 +29,10 @@ a {
   outline-offset: 2px;
 }
 
+a.footnote:target {
+  outline-offset: 0px;
+}
+
 a.footnote::before {
   content: "[";
 }
