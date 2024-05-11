@@ -24,6 +24,14 @@ a {
   color: #46ff80;
 }
 
+a.footnote::before {
+  content: "[";
+}
+
+a.footnote::after {
+  content: "]";
+}
+
 label {
   user-select: none;
 }
