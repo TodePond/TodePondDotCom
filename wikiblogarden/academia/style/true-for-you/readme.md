@@ -34,7 +34,7 @@ Clickbait is when you trick the user into clicking your thing by promising [one 
 
 There are many reasons why you might want someone to view your work. For example, you might want your work to [reach people](https://www.todepond.com/wikiblogarden/social-media/analytics/). On the other hand, you might want your work to [reach people](https://www.todepond.com/wikiblogarden/social-media/analytics/good-and-bad/).
 
-*In the industry we call this impact, and we try to avoid it as much as possibly can.*
+*In the industry we call this impact, and we try to avoid it as much as we can.*
 
 ## Less views
 
