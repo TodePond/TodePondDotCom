@@ -97,7 +97,7 @@ Some people (with larger, more prestigious platforms than me) don't need to poke
 But as time went on, I realised and discovered certain things that made me change course. Here they are.
 
 1. I can do both. I _can_ chop and change between provocative and unprovocative. Like with most things, it's not [one or the other](https://www.todepond.com/wikiblogarden/my-name/).
-2. Ever since I've been more openly queer, (and presenting more feminine), I've noticed the huge change in how people treat me, with ten times less respect and agreeability. I write about this openly[^men]!
+2. Ever since I've been more openly queer, (and presenting more feminine), I've noticed the huge change in how people treat me, with ten times less respect and agreeability. I write about this openly![^men]
 
 If I had [continued life](https://www.todepond.com/wikiblogarden/health/conversion-therapy/) as a straight-passing man, maybe I'd be more happy staying safe, and unprovocative. Or more likely, I wouldn't have the same fearlessness I now have about "mixing the personal" with my own work.
 
