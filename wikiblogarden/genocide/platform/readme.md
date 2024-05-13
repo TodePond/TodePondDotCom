@@ -28,7 +28,7 @@ I'm not working on a particular style of writing. It's more that I'm— I explor
 
 As I do this, I learn to articulate myself better, a skill I have always struggled with— Writing helps me— I find [words](https://www.todepond.com/wikiblogarden/academia/words) so—
 
-Whether I'm writing a script, or giving a talk, or leading a meeting— answering a question, there's writing involved, whether it's written down or not— on paper or with speech— with letters or voice— So I practise it— practise every day—
+Whether I'm writing a script, or giving a talk, or leading a meeting— answering a question, there's writing— always writing involved, whether it's written down or not— on paper or with speech— with letters or voice— So I practise it— practise every day—
 
 ## It's like a diary
 
