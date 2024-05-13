@@ -62,7 +62,7 @@ I could write about something important. About the struggle I experience to get 
 
 I am here, and so are you. And I guess we could wonder— wonder what to do.
 
-What code should I transmit today? And who is it for? And who is to say?
+What code should I transmit today? And who is it for? And who gets to say?
 
 Is it really just practice? And nothing else or— I find myself with a platform— Can practice be just— Can practice be more?—
 
