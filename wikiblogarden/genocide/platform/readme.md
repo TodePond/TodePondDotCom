@@ -66,7 +66,7 @@ What code should I transmit today? And who is it for? And who is to say?
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more? 
 
-I find myself with a platform— Can practice be just— Can practice be more?—
+I find myself with a platform— Can practice be [just](https://www.todepond.com/wikiblogarden/better-computing/just/)— Can practice be more?—
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more?
 
