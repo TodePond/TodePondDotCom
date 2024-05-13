@@ -64,11 +64,11 @@ I am here, and so are you. And I guess we could wonder— wonder what to do.
 
 What code should I transmit today? And who is it for? And who is to say?
 
-Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more? 
+Is it really just practice? And nothing more? 
 
-I find myself with a platform— Can practice be [just](https://www.todepond.com/wikiblogarden/better-computing/just/)— Can practice be more?—
+I find myself with a platform— Can practice be just— Can practice be more?—
 
-Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more?
+Is it really just practice? And nothing more?
 
 <br>
 
@@ -94,7 +94,9 @@ For one reason or other, I find myself with a platform.
 
 If I didn't make the most of that, I'd be a fool.
 
-And for that I need practice! [Just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice.
+And for that I need practice. Just practice.
+
+<br>
 
 <br>
 
