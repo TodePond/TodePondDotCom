@@ -34,7 +34,7 @@ Whether I'm writing a script, or giving a talk, or leading a meeting— answerin
 
 What should I write about, when I practise writing? 
 
-I suppose— I write whatever's on my mind, so it turns into a sort of diary. Sometimes it's [personal](https://www.todepond.com/wikiblogarden/genocide/visibility/) and sometimes it's— Actually— It's always personal. 
+I suppose— I write whatever's on my mind, so it turns into a sort of diary. Sometimes it's [personal](https://www.todepond.com/wikiblogarden/genocide/visibility/) and sometimes it's— Actually— It's always personal[^true-for-you].
 
 Some of my posts get a lot of [attention](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) and some [don't](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/). But that's not the point. Or is it? Is that the point? 
 
@@ -87,3 +87,7 @@ And for that I need practice! Just practice.
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden).
+
+<hr>
+
+[^true-for-you]: [True for you style](https://www.todepond.com/wikiblogarden/academia/style/true-for-you/)
