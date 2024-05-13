@@ -100,8 +100,10 @@ And for that I need practice. Just practice.
 
 <br>
 
+<br>
+
 Back to the [wikiblogarden](/wikiblogarden).
 
-<hr>
+<br>
 
 [^true-for-you]: [True for you style](https://www.todepond.com/wikiblogarden/academia/style/true-for-you/)
