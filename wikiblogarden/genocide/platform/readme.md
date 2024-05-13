@@ -68,7 +68,7 @@ Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just
 
 I find myself with a platform— Can practice be just— Can practice be more?—
 
-Can practice be ... either or?— on the floor?— out the door?— a bore— snore?— outlawed?— a monkey's paw?—
+Can practice be— either or?— on the floor?— out the door?— a bore— snore?— outlawed?— a monkey's paw?—
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more?
 
