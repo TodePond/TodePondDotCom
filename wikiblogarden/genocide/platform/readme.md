@@ -64,11 +64,7 @@ I am here, and so are you. And I guess we could wonder— wonder what to do.
 
 What code should I transmit today? And who is it for? And who is to say?
 
-Is it really just practice? And nothing more? 
-
-I find myself with a platform— Can practice be just— Can practice be more?—
-
-Is it really just practice? And nothing more?
+Is it really just practice? And nothing else or— I find myself with a platform— Can practice be just— Can practice be more?—
 
 <br>
 
