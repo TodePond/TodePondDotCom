@@ -58,10 +58,10 @@ I was mentioned in a few places this week. Firstly, [Dave Ackley](https://www.cs
 
 Secondly, my work was briefly summarised and mentioned in [Ink & Switch](https://www.inkandswitch.com/)'s semi-regular [dispatch update](https://www.inkandswitch.com/newsletter/dispatch-004/).
 
-And yesterday, my stupid [DreamBerd project](https://github.com/TodePond/DreamBerd) was [covered by a big streamer]() that I've never heard of before, called [Theo]. He said he's planning to do a full video about it, so I did a bit of spring-cleaning in DreamBerd this week. I hope to do a bit more too. And I also donated £99 to [UNICEF] for one of the accomplished DreamBerd [bounties].
+And yesterday, my stupid [DreamBerd project](https://github.com/TodePond/DreamBerd) was [covered by a big streamer](https://www.youtube.com/live/NBF39o6XZZ8?si=ZNVas2gvMkcIYHvB&t=13674) that I've never heard of before, called [Theo](https://www.youtube.com/live/NBF39o6XZZ8?si=ZNVas2gvMkcIYHvB&t=13674). He said he's planning to do a full video about it, so I did a bit of spring-cleaning in DreamBerd this week. I hope to do a bit more too. And I also donated £99 to [UNICEF](https://www.unicef.org/) for one of the accomplished DreamBerd [bounties](https://github.com/TodePond/DreamBerd/discussions/616).
 
 **Thank you very very much for all your support. And welcome to all the newbies this week! Did Theo send you? Or did you come from somewhere else? Either way, I can't thank you enough. And wherever you are in the world, whatever you're doing, I hope you have a great week.**
 
-_Days since tode fell asleep: _<br>
-_Days since bot went missing: _<br>
-_Days since berd flew away: _
+_Days since tode fell asleep: 494_<br>
+_Days since bot went missing: 459_<br>
+_Days since berd flew away: 122_
