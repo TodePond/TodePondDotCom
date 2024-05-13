@@ -38,15 +38,15 @@ I suppose— I write whatever's on my mind, so it turns into a sort of diary. So
 
 Some of my posts get a lot of [attention](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) and some [don't](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/). But that's not the point. Or is it? Is that the point? 
 
-Why do I write? Is it to help me? Or you? To figure something out? Or get across a point? Can practice be more than just practice? Or—
+Why do I write? Is it to help me? Or you? To figure something out? Or get across a point? Can practice be more than [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? Or—
 
 ## You're reading this
 
-So— I find myself wondering what to say. The fact that someone out there is reading— is listening— 
+So— I find myself wondering what to say. The fact that someone out there is listening— is reading— is listening— 
 
 I could tell you about the genocide in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
 
-I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about the— I can't possibly find— It's hard to— Too many times I've— It's beyond— It feels—
+I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about— I can't possibly find— It's hard to find— Too many times— It's beyond— It feels so—
 
 <br>
 
@@ -62,15 +62,19 @@ I could write about something important. About the struggle I experience to get 
 
 I am here, and so are you. And I guess we could wonder— wonder what to do.
 
-What code should I transmit today? And who is it for? Is it really just practice? And nothing more? 
+What code should I transmit today? And who is it for? Who is to say. 
 
-I find myself with a platform— Can practice be just— Can practice be more?
+Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more? 
+
+I find myself with a platform— Can practice be just— Can practice be more?— Can practice be ... either or?— on the floor?— out the door?— a bore— snore?— outlawed?— a monkey's paw?—
+
+Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more?
 
 ## Around a topic
 
-I typically write loads of things down around a single topic. Then I [cut and cut and cut](https://www.todepond.com/wikiblogarden/repetition/quality/control/) until there's almost nothing left. Then I publish it. I probably need to write about ten times more than the length of the final thing— This post is what it looks like if I don't cut at all— only add. And it becomes a game of itself.
+I typically write loads of things down around a single topic. Then I [cut and cut and cut](https://www.todepond.com/wikiblogarden/repetition/quality/control/) until there's almost nothing left. Then I publish it. I probably need to write about ten times more than the length of the actual thing— This post is what it looks like if I don't cut at all— only add. And it becomes a game of itself.
 
-And it doesn't feel right, to play a "game" over topics so real and important.
+And it doesn't feel right, to play such a "game" over topics so real and important.
 
 But here I am. I find myself with a platform. I must make the most of it. And for that I need practice. 
 
@@ -80,9 +84,11 @@ But here I am. I find myself with a platform. I must make the most of it. And fo
 
 Most days, I write a blog post. Most days, people read it.
 
-For one reason or other, I find myself with a platform. If I didn't make the most of it, I'd be a fool.
+For one reason or other, I find myself with a platform.
 
-And for that I need practice! Just practice.
+If I didn't make the most of that, I'd be a fool.
+
+And for that I need practice! [Just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice.
 
 <br>
 
