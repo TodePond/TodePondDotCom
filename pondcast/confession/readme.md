@@ -36,6 +36,8 @@ What's new this week?
 
 ## Confession
 
+![Dear tode](1.png)
+
 I recorded some more voice over for the next video, Top 99 Ways To Make Sand. Who knows if it'll be used as "concept art" or end up in the real thing. I recorded a few takes and then placed them on top of each other, so that I can listen to _all three_ at the same time (same time).
 
 I always do that approach, and then I end up liking it, and keeping in some of the overlap. Not all of the overlap, but some of it.
@@ -43,6 +45,8 @@ I always do that approach, and then I end up liking it, and keeping in some of t
 That section I recorded was important to get down, because it completely breaks up the tempo of the video (about halfway through).
 
 ## What it's about
+
+![film by lu or luke](2.png)
 
 What's the Top 99 video about? Surely it can't really just be about 99 Sands?
 
@@ -53,6 +57,8 @@ So this finale of the trilogy is about how to get unstuck. And the simple answer
 The other thing is — tode, the character, is asleep. So the first video, [Define Define](https://www.youtube.com/watch?v=ZMklf0vUl18), was done by bot, the character, instead. The second video, [Arrows in Arrows](https://www.youtube.com/watch?v=DNBKdU6XrLY), was done by berd, the character, instead. This third video, Top 99 Ways To Make Sand, will be done by the narrator, the character, instead.
 
 ## Mentions
+
+![dialogues on natural code](3.png)
 
 I was mentioned in a few places this week. Firstly, [Dave Ackley](https://www.cs.unm.edu/~ackley/) spoke a little bit about our collaboration work, in his monthly [update video](https://www.youtube.com/watch?v=mSM7Js644DI). Nice to see him smiling about it still!
 
