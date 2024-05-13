@@ -44,7 +44,7 @@ Why do I write? Is it to help me? Or you? To figure something out? Or get across
 
 So— I find myself wondering what to say. The fact that someone out there is reading— is listening— 
 
-I could tell you about the genocide happening in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
+I could tell you about the genocide in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
 
 I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about the— I can't possibly find— It's hard to— Too many times I've— It's beyond— It feels—
 
