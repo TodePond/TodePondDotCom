@@ -16,7 +16,7 @@ Writing helps me to get better at articulating myself. In a way, "speaking" feel
 
 With writing, I get to look back and edit, to restructure and improve my words. I can look at the kind of—
 
-With writing, I get to look back and edit my words. I get to restructure and improve my sentences. I can scrub through different styles, both the formal and the—
+With writing, I get to look back and edit my words. I get to restructure and improve my sentences. I can scrub through different styles, both the formal and—
 
 ## I write to practise writing
 
@@ -44,9 +44,9 @@ Why do I write? Is it to help me? Or you? To figure something out? Or get across
 
 So— I find myself wondering what to say. The fact that someone out there is listening— is reading— is listening— 
 
-I could tell you about the genocide in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
+I could tell you about anything— the genocide in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
 
-I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about— I can't possibly find— It's hard to find— Too many times— It's beyond— It feels so—
+I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about— I can't possibly find— I find it so—
 
 <br>
 
