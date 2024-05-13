@@ -38,7 +38,7 @@ I suppose— I write whatever's on my mind, so it turns into a sort of diary. So
 
 Some of my posts get a lot of [attention](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) and some [don't](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/). But that's not the point. Or is it? Is that the point? 
 
-Why do I write? Is it to help me? Or you? To figure something out? Or get across a message? Can practice be more than just practice? Or is it—
+Why do I write? Is it to help me? Or you? To figure something out? Or get across a message? Can practice be more than just practice? Or—
 
 ## You're reading this
 
