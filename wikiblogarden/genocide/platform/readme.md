@@ -4,7 +4,7 @@ I find myself with a platform.
 
 ## You're reading this
 
-Most days, I sit down and write a blog post. Or rather, I'm sitting down already with nothing to do, so I decide to write a blog post. 
+Most days, I sit down and write a blog post— Or rather— I'm sitting down with nothing to do, so I decide to write a blog post. 
 
 For me, it's practice.
 
