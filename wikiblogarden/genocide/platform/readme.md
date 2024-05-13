@@ -66,7 +66,9 @@ What code should I transmit today? And who is it for? Who is to say?
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more? 
 
-I find myself with a platform— Can practice be just— Can practice be more?— Can practice be ... either or?— on the floor?— out the door?— a bore— snore?— outlawed?— a monkey's paw?—
+I find myself with a platform— Can practice be just— Can practice be more?—
+
+Can practice be ... either or?— on the floor?— out the door?— a bore— snore?— outlawed?— a monkey's paw?—
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more?
 
