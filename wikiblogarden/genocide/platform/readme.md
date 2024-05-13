@@ -14,7 +14,7 @@ I write to practise writing. I always struggle with writing so my solution is to
 
 Writing helps me to get better at articulating myself. In a way, "speaking" feels like a form of writing. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) happens in real time. 
 
-With writing, I get to look back and edit, to restructure and improve, my words. I can look at the kind of—
+With writing, I get to look back and edit, to restructure and improve my words. I can look at the kind of—
 
 With writing, I get to look back and edit my words. I get to restructure and improve my sentences. I can scrub through different styles, both the formal and the—
 
