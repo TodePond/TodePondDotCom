@@ -8,7 +8,7 @@ Most days, I sit down and write a blog post— Or rather— I'm sitting down wit
 
 For me, it's practice.
 
-## It's practice
+## Practice
 
 I write to practise writing. I always struggle with writing so my solution is to write loads.
 
