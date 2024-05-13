@@ -12,7 +12,7 @@ For me, it's practice.
 
 I write to practise writing. I always struggle with writing so my solution is to write loads.
 
-Writing helps me to get better at articulating myself. In a way, "speaking" feels like a form of writing - it [just](https://www.todepond.com/wikiblogarden/better-computing/just/) happens in real time. 
+Writing helps me to get better at articulating myself. In a way, "speaking" feels like a form of writing. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) happens in real time. 
 
 With writing, I get to look back and edit, to restructure and improve, my words. I can look at the kind of—
 
