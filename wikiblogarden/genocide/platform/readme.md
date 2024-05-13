@@ -16,7 +16,7 @@ Writing helps me to get better at articulating myself. In a way, "speaking" feel
 
 With writing, I get to look back and edit, to restructure and improve, my words. I can look at the kind of—
 
-With writing, I get to look back and edit my words. I get to restructure and improve my sentences. I can scrub through different styles, both the formal and the unusual—
+With writing, I get to look back and edit my words. I get to restructure and improve my sentences. I can scrub through different styles, both the formal and the—
 
 ## I write to practise writing
 
