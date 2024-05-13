@@ -42,7 +42,7 @@ Why do I write? Is it to help me? Or you? To figure something out? Or get across
 
 ## You're reading this
 
-So— I find myself wondering what to say. The fact that someone out there is reading— listening— 
+So— I find myself wondering what to say. The fact that someone out there is reading— is listening— 
 
 I could tell you about the genocide happening in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
 
