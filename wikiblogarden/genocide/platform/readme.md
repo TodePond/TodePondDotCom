@@ -62,7 +62,7 @@ I could write about something important. About the struggle I experience to get 
 
 I am here, and so are you. And I guess we could wonder— wonder what to do.
 
-What code should I transmit today? And who is it for? Who is to say. 
+What code should I transmit today? And who is it for? Who is to say?
 
 Is it really [just](https://www.todepond.com/wikiblogarden/better-computing/just/) practice? And nothing more? 
 
