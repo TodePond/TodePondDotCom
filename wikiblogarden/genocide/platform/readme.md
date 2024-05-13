@@ -46,7 +46,17 @@ So— I find myself wondering what to say. The fact that someone out there is re
 
 I could tell you about the genocide happening in Gaza. I could tell you about the different kind of genocide happening here. I could give you some advice, or cheer you up— wake you up, or calm you down—
 
-I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about the horrors going on in— I can't possibly find— It's hard to fully grasp— Too many times I've written then— It's beyond belief that those— It feels wrong to—
+I could write about something important. About the struggle I experience to get my medicine and exist. Or I could write about the— I can't possibly find— It's hard to— Too many times I've— It's beyond— It feels—
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ## The struggle for topic
 
@@ -54,11 +64,11 @@ I am here, and so are you. And I guess we could wonder— wonder what to do.
 
 What code should I transmit today? And who is it for? Is it really just practice? And nothing more? 
 
-I find myself with a platform— Can practice be— Can practice be more?
+I find myself with a platform— Can practice be just— Can practice be more?
 
 ## Around a topic
 
-I typically write loads of things down around a single topic. Then I [cut and cut and cut](https://www.todepond.com/wikiblogarden/repetition/quality/control/) until there's almost nothing left. Then I publish it. I probably need to write about five times more than the length of the final thing— This post is what it looks like if I don't cut at all— only add. And it becomes a game of itself.
+I typically write loads of things down around a single topic. Then I [cut and cut and cut](https://www.todepond.com/wikiblogarden/repetition/quality/control/) until there's almost nothing left. Then I publish it. I probably need to write about ten times more than the length of the final thing— This post is what it looks like if I don't cut at all— only add. And it becomes a game of itself.
 
 And it doesn't feel right, to play a "game" over topics so real and important.
 
