@@ -36,7 +36,8 @@
     flex-direction: column;
     align-items: stretch;
     /* justify-content: s;   */
-    padding: 44px 41px 0px 0px;
+    /* padding: 44px 41px 0px 0px; */
+    padding: 0;
     background-color: var(--shade-2);
     max-width: unset;
   }
@@ -53,13 +54,13 @@
 
 <canvas></canvas>
 <script type="module">
+  import { Vector2D } from "./habitat.js";
   const canvas = document.querySelector("canvas");
   const context = canvas.getContext("2d");
 
   function handleResize() {
-    canvas.width = window.innerWidth * devicePixelRatio - 41 * devicePixelRatio;
-    canvas.height =
-      window.innerHeight * devicePixelRatio - 44 * devicePixelRatio;
+    canvas.width = window.innerWidth * devicePixelRatio;
+    canvas.height = window.innerHeight * devicePixelRatio;
   }
 
   handleResize();
@@ -71,13 +72,19 @@
   /** @type {null | [number, number]} */
   let penPosition = null;
   let penDown = false;
+  let isPenTouch = false;
   addEventListener("pointerdown", (event) => {
     penPosition = [
       event.clientX * devicePixelRatio,
       event.clientY * devicePixelRatio,
     ];
+    if (event.pointerType === "touch") {
+      isPenTouch = true;
+    } else {
+      isPenTouch = false;
+    }
     penDown = true;
-    const line = [[penPosition[0], penPosition[1] - 44 * devicePixelRatio]];
+    const line = [[penPosition[0], penPosition[1]]];
     lines.push(line);
     draw();
   });
@@ -89,9 +96,14 @@
       event.clientX * devicePixelRatio,
       event.clientY * devicePixelRatio,
     ];
+    if (event.pointerType === "touch") {
+      isPenTouch = true;
+    } else {
+      isPenTouch = false;
+    }
     if (penDown) {
       const line = lines[lines.length - 1];
-      line.push([penPosition[0], penPosition[1] - 44 * devicePixelRatio]);
+      line.push([penPosition[0], penPosition[1]]);
       draw();
     }
   });
@@ -99,6 +111,11 @@
   addEventListener("pointerup", () => {
     // penPosition = null;
     penDown = false;
+    if (event.pointerType === "touch") {
+      isPenTouch = true;
+    } else {
+      isPenTouch = false;
+    }
   });
 
   const penImage = new Image();
@@ -108,7 +125,7 @@
     context.fillStyle = "rgb(33, 39, 53)";
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.strokeStyle = "white";
-    context.lineWidth = 2 * devicePixelRatio;
+    context.lineWidth = 8 * devicePixelRatio;
     context.lineCap = "round";
     for (const line of lines) {
       for (let i = 1; i < line.length; i++) {
@@ -120,7 +137,7 @@
         context.stroke();
       }
     }
-    if ((true || penDown) && penPosition) {
+    if ((true || penDown) && penPosition && isPenTouch) {
       const [x, y] = penPosition;
       context.drawImage(
         penImage,
@@ -132,11 +149,39 @@
     }
   }
 
+  const SHRINK_SPEED = 0.001;
+  function update(time, delta) {
+    for (const line of lines) {
+      const isLast = line === lines[lines.length - 1];
+      if (!isLast || !penDown) continue;
+      let sumX = 0;
+      let sumY = 0;
+      for (const [x, y] of line) {
+        sumX += x;
+        sumY += y;
+      }
+      const averageX = sumX / line.length;
+      const averageY = sumY / line.length;
+      const average = [averageX, averageY];
+      const end = [...line[line.length - 1]];
+      for (let i = 0; i < line.length; i++) {
+        const [x, y] = line[i];
+        // line[i][0] = x + (averageX - x) * delta * SHRINK_SPEED;
+        // line[i][1] = y + (averageY - y) * delta * SHRINK_SPEED;
+        // rotate
+        line[i] = Vector2D.rotate(line[i], delta * 0.001, average);
+      }
+      if (isLast && penDown) {
+        line.push(end);
+      }
+    }
+  }
+
   let previousTime = 0;
   function tick(time) {
     const delta = time - previousTime;
     previousTime = time;
-
+    update(time, delta);
     draw(time, delta);
     requestAnimationFrame(tick);
   }

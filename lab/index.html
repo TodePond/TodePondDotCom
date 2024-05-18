@@ -121,21 +121,17 @@
     {
       path: "tool",
       topics: ["canvas", "creativity"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "toooooool",
       topics: ["canvas", "creativity"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "too-",
       topics: ["canvas", "creativity"],
-      colour: "secondary",
-    },
-    {
-      path: "cursor",
-      topics: ["canvas", "user interface"],
+      colour: "primary",
     },
     {
       path: "append",
@@ -150,18 +146,28 @@
       ],
     },
     {
+      path: "cursor",
+      topics: ["canvas", "user interface"],
+      colour: "primary",
+    },
+    {
+      path: "spin",
+      topics: ["canvas", "creativity", "user interface"],
+      colour: "primary",
+    },
+    {
       path: "text",
       topics: ["text", "persistence", "collaboration", "creativity"],
     },
     {
       path: "emphasis",
       topics: ["text", "parsing", "creativity"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "asterisk",
       topics: ["text", "parsing", "creativity"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "drag",
@@ -170,12 +176,12 @@
     {
       path: "deeper",
       topics: ["user interface", "build process", "emergence"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "split",
       topics: ["user interface", "build process", "emergence"],
-      colour: "secondary",
+      colour: "primary",
     },
     {
       path: "gender",
@@ -219,7 +225,7 @@
         experiment.path[0].toUpperCase() + experiment.path.slice(1);
       a.href = `${experiment.path}`;
       a.textContent = name;
-      const { colour = "primary" } = experiment;
+      const { colour = "secondary" } = experiment;
       let borderColour = "#46ff80";
       if (colour === "secondary") {
         borderColour = "#4699ff";
