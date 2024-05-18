@@ -1,0 +1,142 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: url(/lab/cursor/pencil.png) 0 44, auto;
+  }
+
+  html {
+    touch-action: none;
+    overflow: hidden;
+  }
+
+  body {
+    height: 100%;
+    /* margin: 0; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* justify-content: s;   */
+    padding: 44px 41px 0px 0px;
+    background-color: var(--shade-2);
+    max-width: unset;
+  }
+  canvas {
+    /* pencil.png cursor */
+
+    /* height: 100%; */
+    width: 100%;
+    background-color: var(--shade-3);
+    height: 100%;
+    image-rendering: pixelated;
+  }
+</style>
+
+<canvas></canvas>
+<script type="module">
+  const canvas = document.querySelector("canvas");
+  const context = canvas.getContext("2d");
+
+  function handleResize() {
+    canvas.width = window.innerWidth * devicePixelRatio - 41 * devicePixelRatio;
+    canvas.height =
+      window.innerHeight * devicePixelRatio - 44 * devicePixelRatio;
+  }
+
+  handleResize();
+  addEventListener("resize", handleResize);
+  addEventListener("contextmenu", (event) => event.preventDefault(), {
+    passive: false,
+  });
+
+  /** @type {null | [number, number]} */
+  let penPosition = null;
+  let penDown = false;
+  addEventListener("pointerdown", (event) => {
+    penPosition = [
+      event.clientX * devicePixelRatio,
+      event.clientY * devicePixelRatio,
+    ];
+    penDown = true;
+    const line = [[penPosition[0], penPosition[1] - 44 * devicePixelRatio]];
+    lines.push(line);
+    draw();
+  });
+
+  const lines = [];
+
+  addEventListener("pointermove", (event) => {
+    penPosition = [
+      event.clientX * devicePixelRatio,
+      event.clientY * devicePixelRatio,
+    ];
+    if (penDown) {
+      const line = lines[lines.length - 1];
+      line.push([penPosition[0], penPosition[1] - 44 * devicePixelRatio]);
+      draw();
+    }
+  });
+
+  addEventListener("pointerup", () => {
+    // penPosition = null;
+    penDown = false;
+  });
+
+  const penImage = new Image();
+  penImage.src = "/lab/cursor/pencil.png";
+
+  function draw(time, delta) {
+    context.fillStyle = "rgb(33, 39, 53)";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.strokeStyle = "white";
+    context.lineWidth = 2 * devicePixelRatio;
+    for (const line of lines) {
+      context.beginPath();
+      context.moveTo(line[0][0], line[0][1]);
+      for (let i = 1; i < line.length; i++) {
+        context.lineTo(line[i][0], line[i][1]);
+      }
+      context.stroke();
+    }
+    if ((true || penDown) && penPosition) {
+      const [x, y] = penPosition;
+      context.drawImage(
+        penImage,
+        x,
+        y - 44 * devicePixelRatio * 2,
+        41 * devicePixelRatio,
+        44 * devicePixelRatio
+      );
+    }
+  }
+
+  let previousTime = 0;
+  function tick(time) {
+    const delta = time - previousTime;
+    previousTime = time;
+
+    draw(time, delta);
+    requestAnimationFrame(tick);
+  }
+
+  requestAnimationFrame(tick);
+</script>
