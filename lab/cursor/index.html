@@ -109,13 +109,16 @@
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.strokeStyle = "white";
     context.lineWidth = 2 * devicePixelRatio;
+    context.lineCap = "round";
     for (const line of lines) {
-      context.beginPath();
-      context.moveTo(line[0][0], line[0][1]);
       for (let i = 1; i < line.length; i++) {
-        context.lineTo(line[i][0], line[i][1]);
+        const [x1, y1] = line[i - 1];
+        const [x2, y2] = line[i];
+        context.beginPath();
+        context.moveTo(x1, y1);
+        context.lineTo(x2, y2);
+        context.stroke();
       }
-      context.stroke();
     }
     if ((true || penDown) && penPosition) {
       const [x, y] = penPosition;
