@@ -1,21 +1,60 @@
 /* GRAVEYARD CSS */
 /* The tadi css is dead. Long live the tadi css! */
 
+* {
+  accent-color: #4680ff;
+}
+
 :root {
   --green: rgb(70, 255, 70);
   --cyan: rgb(70, 204, 255);
-  --blue: rgb(70, 128, 255);
-  --purple: rgb(128, 67, 255);
+  --blue: rgb(60, 80, 255);
+  --purple: rgb(140, 80, 255);
   --pink: rgb(255, 128, 222);
   --coral: rgb(255, 128, 128);
   --red: rgb(255, 67, 70);
   --orange: rgb(255, 128, 70);
   --yellow: rgb(255, 255, 70);
 
+  --rainbow-1: var(--green);
+  --rainbow-2: var(--cyan);
+  --rainbow-3: var(--blue);
+  --rainbow-4: var(--purple);
+  --rainbow-5: var(--pink);
+  --rainbow-6: var(--coral);
+  --rainbow-7: var(--red);
+  --rainbow-8: var(--orange);
+  --rainbow-9: var(--yellow);
+
+  --rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow)
+  );
+
+  --light-blue: rgb(80, 140, 255);
+
   --shade-0: rgb(6, 7, 10);
   --shade-1: rgb(14, 16, 22);
   --shade-2: rgb(24, 29, 39);
-  --shade-3: rgb(33, 39, 53);
+  --shade-3: rgb(31, 39, 54);
   --shade-4: rgb(47, 56, 75);
   --shade-5: rgb(55, 67, 98);
   --shade-6: rgb(87, 101, 147);
@@ -33,18 +72,33 @@
   --white: var(--shade-10);
 }
 
-* {
-  accent-color: #4680ff;
+html {
+  /*  rainbow gradient background */
+  background: var(--rainbow-gradient);
+  background-size: 800% 800%;
+}
+
+/* cycling rainbow animation */
+@keyframes rainbow-cycle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 body {
-  color: white;
-  background-color: rgb(31, 39, 54);
+  /* color: black; */
+  color: var(--shade-3);
   font-family: sans-serif;
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 30px 10px;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 audio,
@@ -52,13 +106,55 @@ video {
   width: 100%;
 }
 
-a {
-  color: #46ff80;
+a.anchor {
+  color: white;
+  background-color: var(--shade-3);
+  text-decoration: none;
+  outline: 2px solid var(--shade-3);
+  position: relative;
+  padding: 0px 3px;
 }
 
+a.anchor:hover {
+  color: var(--shade-3);
+  background-color: white;
+  outline: 2px solid white;
+  z-index: 10000;
+}
+
+a {
+  color: var(--shade-3);
+  background-color: white;
+  text-decoration: none;
+  outline: 2px solid white;
+  position: relative;
+  padding: 0px 2px;
+}
+
+a:hover {
+  color: white;
+  background-color: var(--shade-3);
+  outline: 2px solid var(--shade-3);
+  z-index: 10000;
+}
+
+.c {
+  outline-width: 1px;
+  /* outline: none; */
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 0px 1px;
+}
+
+/* .c:hover {
+  background-color: var(--blue);
+  outline-color: var(--blue);
+  color: white;
+} */
+
 :target {
-  outline: 2px solid #4680ff;
-  outline-offset: 2px;
+  outline: 4px solid white;
+  outline-offset: 4px;
 }
 
 a.footnote:target {
@@ -77,12 +173,6 @@ label {
   user-select: none;
 }
 
-a:hover {
-  color: black;
-  background-color: #46ff80;
-  outline: 2px solid #46ff80;
-}
-
 ul {
   padding-inline-start: 20px;
 
@@ -90,8 +180,8 @@ ul {
 }
 
 *::selection {
-  background-color: rgb(87, 101, 147);
-  /* outline: 2px solid white; */
+  background-color: white;
+  /* outline: 2px solid red; */
   /* color: black; */
   /* color: white; */
 }
@@ -175,16 +265,16 @@ p.secondary {
 }
 
 blockquote {
-  color: #9faeee;
+  color: var(--shade-6);
   margin: 0px;
   padding-left: 23px;
-  border-left: 1px #9faeee solid;
+  border-left: 1px var(--shade-6) solid;
 }
 
 hr {
   border: none;
   height: 1px;
-  background-color: white;
+  background-color: var(--shade-3);
 }
 
 h1,
@@ -196,8 +286,12 @@ h6 {
   width: 100%;
 }
 
+h1 {
+  margin-top: 30px;
+}
+
 h2 {
-  border-bottom: white 1px solid;
+  border-bottom: var(--shade-3) 3px solid;
   padding-bottom: 19px;
   padding-top: 19px;
 }
@@ -244,10 +338,10 @@ textarea::placeholder {
 }
 
 /* input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-} */
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+  } */
 
 :focus {
   outline-color: 2px solid #4680ff;
@@ -295,9 +389,9 @@ pre mark {
   background: none;
 }
 
-input[type="checkbox"] {
-  /* width: 29px; */
-}
+/* input[type="checkbox"] { */
+/* width: 29px; */
+/* } */
 
 select {
   background-color: #374362;

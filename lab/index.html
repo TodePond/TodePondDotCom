@@ -97,9 +97,13 @@
     "creativity",
   ]);
 
-  /** @typedef {{
+  const COLOURS = /** @type {const} */ (["primary", "secondary", "danger"]);
+
+  /**
+   * @typedef {{
    * 	path: string;
    * 	topics: TOPICS[number][];
+   *  colour?: COLOURS[number];
    * }} Experiment
    **/
 
@@ -117,6 +121,17 @@
     {
       path: "tool",
       topics: ["canvas", "creativity"],
+      colour: "secondary",
+    },
+    {
+      path: "toooooool",
+      topics: ["canvas", "creativity"],
+      colour: "secondary",
+    },
+    {
+      path: "too-",
+      topics: ["canvas", "creativity"],
+      colour: "secondary",
     },
     {
       path: "append",
@@ -137,22 +152,26 @@
     {
       path: "emphasis",
       topics: ["text", "parsing", "creativity"],
+      colour: "secondary",
     },
     {
-      path: "deeper",
-      topics: ["user interface", "build process", "emergence"],
-    },
-    {
-      path: "split",
-      topics: ["user interface", "build process", "emergence"],
+      path: "asterisk",
+      topics: ["text", "parsing", "creativity"],
+      colour: "secondary",
     },
     {
       path: "drag",
       topics: ["canvas", "user interface"],
     },
     {
-      path: "asterisk",
-      topics: ["text", "parsing", "creativity"],
+      path: "deeper",
+      topics: ["user interface", "build process", "emergence"],
+      colour: "secondary",
+    },
+    {
+      path: "split",
+      topics: ["user interface", "build process", "emergence"],
+      colour: "secondary",
     },
     {
       path: "gender",
@@ -161,10 +180,6 @@
     {
       path: "polar",
       topics: ["canvas", "user interface", "emergence"],
-    },
-    {
-      path: "toooooool",
-      topics: ["canvas", "creativity"],
     },
     {
       path: "https://drawdeadfish.com",
@@ -176,10 +191,7 @@
         "user interface",
         "collaboration",
       ],
-    },
-    {
-      path: "too-",
-      topics: ["canvas", "creativity"],
+      colour: "danger",
     },
   ];
 
@@ -203,9 +215,17 @@
         experiment.path[0].toUpperCase() + experiment.path.slice(1);
       a.href = `${experiment.path}`;
       a.textContent = name;
-      a.style.border = "3px solid #46ff80";
+      const { colour = "primary" } = experiment;
+      let borderColour = "#46ff80";
+      if (colour === "secondary") {
+        borderColour = "#4699ff";
+      } else if (colour === "danger") {
+        borderColour = "#ff4346";
+      }
+      a.style.border = "3px solid " + borderColour;
       a.style.padding = "5px";
       a.style.textDecoration = "none";
+      a.classList.add(colour);
 
       const p = document.createElement("span");
       p.textContent = "(" + experiment.topics.sort().join(", ") + ")";
