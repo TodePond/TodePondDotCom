@@ -169,10 +169,10 @@
         // line[i][0] = x + (averageX - x) * delta * SHRINK_SPEED;
         // line[i][1] = y + (averageY - y) * delta * SHRINK_SPEED;
         // rotate
-        line[i] = Vector2D.rotate(line[i], delta * 0.001, average);
+        line[i] = Vector2D.rotate(line[i], delta * 0.001, end);
       }
       if (isLast && penDown) {
-        line.push(end);
+        // line.push(end);
       }
     }
   }
