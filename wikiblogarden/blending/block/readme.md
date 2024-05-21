@@ -8,6 +8,8 @@ It's at times like these that I think it's all going badly— that this blog wri
 
 But then I remember that this is why I'm doing it— what I'm doing it for. It's challenging me— pushing me outside my comfort zone— trying to get me to try new things— write in new ways. It's all just practice. And practice is what I do[^practice].
 
+<br>
+
 ## Today at tldraw
 
 Today at tldraw, I gave a mini internal pitch, and I'm pleased with how it went. Whatever happens— Whether we do it or not, I'm happy with it— I did better than what I could do before. I could feel myself writing it in my head beforehand and in realtime during the thing.
@@ -35,6 +37,8 @@ I catch myself getting caught on this question. I've been asking some people I t
 The answer is usually "to influence people". And I don't know if I take comfort or discomfort from being the same as everyone else. After all, why would [my ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) be any better— any more correct than anyone else's?
 
 Essentially, how do I know my words are the right ones? How do I know that my code is worth transmitting at this time and place?
+
+<br>
 
 ## Chaos
 
