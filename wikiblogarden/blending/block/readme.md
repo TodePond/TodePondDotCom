@@ -34,15 +34,17 @@ I catch myself getting caught on this question. I've been asking some people I t
 
 The answer is usually "to influence people". And I don't know if I take comfort or discomfort from being the same as everyone else. After all, why would [my ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) be any better— any more correct than anyone else's?
 
+Essentially, how do I know my words are the right ones? How do I know that my code is worth transmitting at this time and place?
+
 ## Chaos
 
-I think my answer is chaos. I don't want to create a tangible narrative. I don't want to have a [guiding principle](https://worrydream.com/LearnableProgramming/) because I'm not arrogant enough to think that I'm already right.
+I think my answer is chaos. I don't want to create a tangible narrative. I don't want to have a [guiding principle](https://worrydream.com/LearnableProgramming/) because I'm not arrogant enough to think that I already know it.
 
 I am here to practise, at this point. I am trying to learn. I will get better at influencing people, for god knows what. I will get better at being empathetic. I will get better at [making sand](https://todepond.com/wikiblogarden/art/why-bother). I will get better at [normalising scrappy fiddles](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
 
 However it may look to you, these are all things I struggle with a lot. But I will get better! 
 
-Is this cheesy? Is this too much? 
+Is this cheesy? Is this too much?
 
 <br>
 
