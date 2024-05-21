@@ -42,11 +42,9 @@ Is this too cheesy? Is this too much?
 
 <br>
 
+<br>
+
 Back to the [wikiblogarden](/wikiblogarden).
-
-<br>
-
-<br>
 
 <br>
 
