@@ -32,7 +32,7 @@ Essentially, how do I know my words are the right ones? How do I know that my co
 
 ## Chaos
 
-I don't want to create a tangible narrative. I don't want to have a [guiding principle](https://worrydream.com/LearnableProgramming/) because I'm not arrogant enough to think that I already know it.
+I don't want to create a tangible narrative. I don't want to have a [guiding principle](https://worrydream.com/LearnableProgramming/) because I'm not arrogant enough to think that I already know what it should be.
 
 I am here to practise, at this point. I am trying to learn. I will get better at influencing people, for god knows what. I will get better at being empathetic. I will get better at [making sand](https://todepond.com/wikiblogarden/art/why-bother). I will get better at [normalising scrappy fiddles](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
 
