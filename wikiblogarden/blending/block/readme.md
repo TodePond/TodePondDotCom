@@ -20,7 +20,9 @@ Today at tldraw, I gave a mini internal pitch, and I'm pleased with how it went.
 
 I'm trying to get better at telling stories— transmitting code. Sometimes it sounds manipulative. I want to communicate effectively— influence people. But how do I know my stories are the right ones to tell? How does anyone?
 
-They're the messages I want to give, but how much does my own preference count? I catch myself getting caught on this question. I've been asking some people I trust recently: 
+They're the messages I want to give, but how much does my own preference count? I catch myself getting caught on this question.
+
+I've been asking some people I trust recently: 
 
 > "With your work— your research, are you trying to solve problems? Or are you trying to influence people?"
 
