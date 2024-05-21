@@ -2,6 +2,10 @@
 
 Sometimes I feel like I'm blocked and I can't write anything. I guess they call it writer's block. 
 
+<br>
+
+## Writer's block
+
 Or rather, I *can* write things— I can start things, but I can't finish them. I have about twenty half finished blog posts/essays/articles/papers right now. And I can't seem to get them over the line. 
 
 It's at times like these that I think it's all going badly— that this blog writing experiment is going wrong. Maybe it's all a waste of time. It keeps my up at night.
