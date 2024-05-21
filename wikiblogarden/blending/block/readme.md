@@ -28,7 +28,7 @@ I've been asking some people I trust recently:
 
 The answer is usually "to influence people". And I don't know if I take comfort or discomfort from knowing I'm the same as everyone else. After all, why would [my ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) be any better— any more correct than anyone else's?
 
-Essentially, how do I know my words are the right ones? How do I know that my code is worth transmitting at this place and time?
+Essentially, how do I know my words are the right ones? How do I know that my code is worth transmitting at this place and time— time and place— place and time— right here, right now.
 
 ## Chaos
 
