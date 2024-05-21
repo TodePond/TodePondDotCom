@@ -4,7 +4,7 @@ Sometimes I feel like I'm blocked and I can't write anything. I guess they call 
 
 Or rather, I *can* write things— I can start things, but I can't finish them. I have about twenty half finished blog posts/essays/articles/papers right now. And I can't seem to get them over the line. 
 
-It's at times like these that I think it's going badly— that this blog writing experiment is going wrong. Maybe it's all a waste of time. 
+It's at times like these that I think it's all going badly— that this blog writing experiment is going wrong. Maybe it's all a waste of time. It keeps my up at night.
 
 But then I remember that this is why I'm doing it— what I'm doing it for. It's challenging me— pushing me outside my comfort zone— trying to get me to try new things— write in new ways. It's all just practice. And practice is what I do[^practice].
 
