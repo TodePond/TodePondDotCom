@@ -12,7 +12,7 @@ But then I remember that this is why I'm doing it— what I'm doing it for. It's
 
 ## Today at tldraw
 
-Today at tldraw, I gave a mini internal pitch, and I'm pleased with how it went. Whatever happens— Whether we do it or not, I'm happy with it— I did better than what I could do before. I could feel myself writing it in my head beforehand and in realtime during the thing.
+Today at tldraw, I gave a mini internal pitch, and I'm pleased with how it went. Whatever happens— Whether we do it or not, I'm happy with it— I did better than what I could do before. I could feel myself writing it in my head beforehand, and in realtime during the thing.
 
 <br>
 
