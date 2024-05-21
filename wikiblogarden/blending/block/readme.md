@@ -38,7 +38,7 @@ I am here to practise, at this point. I am trying to learn. I will get better at
 
 However it may look to you, these are all things I struggle with a lot. But I will get better! 
 
-Is this too cheesy? Is this too much?
+Is this all too cheesy? Is this too much?
 
 <br>
 
