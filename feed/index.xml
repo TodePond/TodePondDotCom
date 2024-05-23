@@ -5,6 +5,13 @@
       <link>http://www.todepond.com/</link>
       <description>place for todes - ribbits aplenty</description>
   		<item>
+    			<title>Writer's block</title>
+    			<pubDate>Tue, 21 May 2024 03:36:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/blending/block/</link>
+    			<guid>https://www.todepond.com/wikiblogarden/blending/block/</guid>
+    			<description>Sometimes I feel like I’m blocked and I can’t write anything. I guess they call it writer’s block.</description>
+    		</item>
+		<item>
     			<title>Reputation</title>
     			<pubDate>Sat, 18 May 2024 22:31:00 GMT</pubDate>
     			<link>https://www.todepond.com/wikiblogarden/social-media/reputation</link>
@@ -1109,6 +1116,13 @@
     			<link>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/complicated-stuff</link>
     			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/complicated-stuff</guid>
     			<description>When building software, or making something, or doing anything... simply don't do complicated stuff.</description>
+    		</item>
+		<item>
+    			<title>When a blog post isn't enough</title>
+    			<pubDate>Wed, 22 May 2024 20:00:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/art/in-a-video/when-a-blog-post/isnt-enough</link>
+    			<guid>https://www.todepond.com/wikiblogarden/art/in-a-video/when-a-blog-post/isnt-enough</guid>
+    			<description>There are certain feelings I can't capture in a blog post.</description>
     		</item>
     </channel>
   </rss>
