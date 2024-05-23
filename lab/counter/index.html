@@ -22,7 +22,79 @@
 <button>Count: <span id="count">0</span></button>
 <span id="loading" class="secondary" style="display: inline">...</span>
 
+<style>
+  canvas {
+    width: 100%;
+    height: 400px;
+    margin-top: 23px;
+  }
+</style>
+<canvas></canvas>
+
 <script type="module">
+  const canvas = document.querySelector("canvas");
+  const context = canvas.getContext("2d");
+
+  let historyToDraw = [];
+  async function update() {
+    historyToDraw = (await getHistory())
+      .map((v) => new Date(v[0]))
+      .sort((a, b) => a - b);
+    // console.log(historyToDraw);
+    // .sort((a, b) => a - b);
+    // console.log(historyToDraw);
+    // draw();
+    // requestAnimationFrame(update);
+  }
+
+  function draw() {
+    // context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillStyle = "black";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    if (historyToDraw.length === 0) {
+      return;
+    }
+
+    const earliest = historyToDraw[0];
+    const latest = historyToDraw[historyToDraw.length - 1];
+    const range = latest - earliest;
+    context.beginPath();
+    // context.moveTo(0, canvas.height);
+    for (let i = 0; i < historyToDraw.length; i++) {
+      const date = historyToDraw[i];
+      const x = ((date - earliest) / range) * canvas.width;
+      const y =
+        canvas.height -
+        (i / historyToDraw.length) * (canvas.height - 10 * devicePixelRatio) -
+        5 * devicePixelRatio;
+      if (i === 0) {
+        context.moveTo(x, y);
+      } else {
+        context.lineTo(x, y);
+      }
+      // context.lineTo(x, y);
+    }
+    // context.lineTo(canvas.width, 0);
+    // context.closePath();
+    context.strokeStyle = "white";
+    context.lineWidth = devicePixelRatio;
+    context.stroke();
+  }
+
+  update().then(() => {
+    draw();
+  });
+
+  function handleResize() {
+    canvas.width = (document.body.clientWidth - 20) * devicePixelRatio;
+    canvas.height = 400 * devicePixelRatio;
+    draw();
+  }
+
+  addEventListener("resize", handleResize);
+  handleResize();
+
   const button = document.querySelector("button");
   const span = button.querySelector("#count");
   const loading = document.querySelector("#loading");
@@ -85,6 +157,13 @@
     return await response.json();
   }
 
+  async function getHistory() {
+    const response = await fetch(
+      "https://todepond-getCounterHistoryTwo.web.val.run"
+    );
+    return await response.json();
+  }
+
   async function incrementRemoteCount() {
     return fetch("https://todepond-incremementCloudLabCount.web.val.run").then(
       async (response) => {
@@ -113,6 +192,9 @@
       imaginedCount = remoteCount;
       setDocumentCount(remoteCount);
       setLocalCount(remoteCount);
+      update().then(() => {
+        draw();
+      });
     }
   }
 </script>
