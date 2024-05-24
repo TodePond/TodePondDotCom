@@ -1,0 +1,404 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- <blockquote> -->
+<p
+  class="secondary"
+  style="margin-bottom: 0px; margin-top: -20px; text-shadow: none"
+>
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--rainbow-gradient);
+    color: black;
+    background-size: 700% 800%;
+    outline: 1px solid white;
+    outline-offset: -1px;
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    border-color: black;
+    border-image-outset: -1px;
+    box-shadow: none;
+  }
+
+  body {
+    background-color: rgb(31, 39, 54);
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 1% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 10%,
+      rgb(31, 39, 54) 25%,
+      black 35%
+    );
+    background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: var(--shade-1);
+    /* box-shadow: 2px 2px 3px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 105px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div>
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* background-color: var(--best-colour); */
+    "
+  />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    "
+  >
+    TODEPOND PONDCAST: Todepond
+  </h1>
+
+  <p>Hi hi hi. Welcome back... to yet another weekly episode... of the...</p>
+
+  <p><strong>🐸 TODEPOND PONDCAST 🐸</strong></p>
+
+  <p>What's new this week?</p>
+
+  <h2>Todepond</h2>
+  <img src="bloop.png" />
+
+  <p>
+    I've been working on my write-up for Seet, a short-lived project that I
+    worked on as part of my
+    <a href="https://www.inkandswitch.com/" class="">Ink & Switch</a>
+    residency. The funny thing with the write-up is that I'm trying to make it
+    <strong>good</strong> — I mean, I want it to be well thought-out. I want it
+    to have a certain level of 'legitimacy' as a piece of research.
+  </p>
+
+  <p>
+    So much of what I do is jokey or silly or whatever. But sometimes, I want
+    people to take me seriously.
+  </p>
+
+  <hr />
+
+  <p>
+    I see this as an important step in continuing my work on
+    <strong>weird computing</strong>. One day, I want
+    <strong>TodePond</strong> work to be highly regarded, with similar but
+    different standing to other self-publishing labs like
+    <a href="https://www.inkandswitch.com/">Ink & Switch</a> and
+    <a href="https://andymatuschak.org/">Andy Matuschak's</a> and
+    <a href="https://alexanderobenauer.com/">Alexander Obenauer's</a> and the
+    <a href="https://www.livingcomputation.org/"
+      >Living Computation Foundation</a
+    >
+    and <a href="https://githubnext.com/">GitHub Next</a> and
+    <a href="https://dynamicland.org/">Dynamicland</a> and
+    <a href="https://folk.computer/">Folk Computing</a> and blah blah blah. This
+    might seem outlandish or unrealistic, but I don't care! and I may as well
+    say my goals out loud, just in case someone wants to swoop in and help me
+    with any of them.
+  </p>
+
+  <p>
+    The first step of this was doing that
+    <a href="https://www.youtube.com/watch?v=eQgxFuw8f1U">talk at SPLASH</a>
+    last year. I found it really hard to add some more seriousness to my work -
+    whilst also keeping all the stupid. And sure, it's only a
+    <em>little bit</em>
+    serious, but it's way more than I've ever done before.
+  </p>
+
+  <p>
+    More recently, I
+    <a
+      href="https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/"
+      >submitted an essay</a
+    >
+    with <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a>, and again I
+    found myself trying to combine sensible with ridiculous. We'll find out if I
+    failed or not.
+  </p>
+
+  <p>So with Seet...</p>
+
+  <h2>Seet</h2>
+
+  <img src="seeeeeet.png" />
+
+  <p>
+    With Seet, I'm trying to do this again. How can I elevate my work to a
+    higher status? My <a href="/wikiblogarden/">blog</a> is full of
+    <a href="https://www.todepond.com/wikiblogarden/academia/words/">rubbish</a
+    >, of
+    <a href="https://www.todepond.com/wikiblogarden/academia/style/zoom-out/"
+      >shitposts</a
+    >
+    and
+    <a
+      href="https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that/"
+      >junk</a
+    >
+    (intentionally). So I need to distance my Seet write-up from it somehow. And
+    I've been exploring how to do that.
+  </p>
+
+  <p>
+    My current solution is to use a drastically different visual language and
+    style.
+  </p>
+
+  <p>
+    But wait! I only ever use one visual style in all my projects. In
+    <em>all</em> my projects, I only ever use one visual style — the
+    <a href="/colour">Todepond style</a> (that you're seeing right now)! I use
+    simple flat colours to make my job easier. I don't have to spend time
+    deciding a whole theme each time I make a thing. I can just pick it up and
+    go, plug and play. There's no choice paralysis.
+  </p>
+
+  <p>
+    For a while, I've been developing a light mode variant of the theme. But
+    that doesn't feel different enough. And besides, that has now started to
+    <a href="https://www.youtube.com/watch?v=DNBKdU6XrLY"
+      >mean something in my videos</a
+    >.
+  </p>
+
+  <p>So I need a brand new theme! It needs to say:</p>
+
+  <ul>
+    <li>This is high effort.</li>
+    <li>This is serious.</li>
+    <li>This is silly.</li>
+  </ul>
+
+  <p>
+    The first one is easy. The hard part is combining the final two. I don't
+    want it to be dry!!!!!!!!!!!!
+  </p>
+
+  <h2>Parallel streams</h2>
+
+  <img src="whit.jpg"/>
+
+  <p>
+  <a href="https://github.com/todepond/dreamberd">Got a full read-through by <a href="https://www.youtube.com/@t3dotgg/">Theo</a> who's technically not an influencer, content-creator, or streamer. I'll share the resultant video that gets posted up! It includes Theo donating 500 dollars on behalf of DreamBerd, which is really nice! Theo also did a live reaction to my <a href="https://www.youtube.com/watch?v=xvlsJ3FqNYU">Spellular Automata</a> video, which was fun. I feel bad that it demonetised his stream though...
+  </p>
+  <p>
+
+  I was a guest on <a href="https://stevekrouse.com/">Steve Krouse</a>'s <a href="https://www.youtube.com/watch?v=5Em6D7n-ggs">Val Town stream</a>. It was really fun, and you can now see how bad I actually am at coding.
+
+</p>
+<p>
+  I'm continuing to get some fantastic <a href="https://tornleaf.gallery">Torn Leaf</a> submissions. Thank you everyone! I think I now have enough for the first exhibition. But please do keep sending them in! (for this exhibition, and future ones).
+</p>
+<p>
+  I recorded another <a href="https://futureofcoding.org/episodes/">Future of Coding</a> episode. It was a bonus episode this time, all about the video game <a href="https://hempuli.com/baba/">Baba Is You</a>. So I also tried (and failed) to complete the game this week. It's very inspiring for visual coding stuff!
+
+</p>
+<p>
+  I added another level to my <a href="https://drawdeadfish.com/">Draw Dead Fish</a> game, parodying <a href="https://www.youtube.com/watch?v=ntjkwIXWtrc">Apple's recent advert</a>.
+
+</p>
+<p>
+  And I've been working on the very start and very end of the next video, <strong>Top 99 Ways To Make Sand</strong>. I like where this is heading.
+
+</p>
+<hr>
+<p>
+  <strong>So thank you very much for your ongoing support! I can't thank you enough — really I can't. With your help, I'm working towards my goals. And I think we'll be able to create some special things together. Welcome to all the new people this week! And hey, wherever you are, whatever you're doing... I hope you have a great week.</strong>
+
+</p>
+  <em>Days since tode fell asleep: 505</em><br />
+  <em>Days since bot went missing: 470</em><br />
+  <em>Days since berd flew away: 133</em>
+
+  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+</details>

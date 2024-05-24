@@ -31,3 +31,5 @@
 _Days since tode fell asleep: _<br>
 _Days since bot went missing: _<br>
 _Days since berd flew away: _
+
+Back to the [pondcast](/pondcast/)

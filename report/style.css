@@ -70,6 +70,8 @@
   --light-grey: var(--shade-6);
   --silver: var(--shade-8);
   --white: var(--shade-10);
+
+  --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
 }
 
 html {

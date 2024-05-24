@@ -2,7 +2,7 @@
 /* The tadi css is dead. Long live the tadi css! */
 
 :root {
-  --green: rgb(70, 255, 70);
+  --green: rgb(70, 255, 129);
   --cyan: rgb(70, 204, 255);
   --blue: rgb(70, 128, 255);
   --purple: rgb(128, 67, 255);
@@ -11,6 +11,8 @@
   --red: rgb(255, 67, 70);
   --orange: rgb(255, 128, 70);
   --yellow: rgb(255, 255, 70);
+
+  --light-blue: rgb(80, 140, 255);
 
   --shade-0: rgb(6, 7, 10);
   --shade-1: rgb(14, 16, 22);
@@ -24,6 +26,8 @@
   --shade-9: rgb(224, 224, 224);
   --shade-10: rgb(255, 255, 255);
 
+  --best-colour: #9faeee;
+
   --void: var(--shade-0);
   --black: var(--shade-2);
   --dark-grey: var(--shade-3);
@@ -31,6 +35,40 @@
   --light-grey: var(--shade-6);
   --silver: var(--shade-8);
   --white: var(--shade-10);
+
+  --rainbow-1: var(--green);
+  --rainbow-2: var(--cyan);
+  --rainbow-3: var(--blue);
+  --rainbow-4: var(--purple);
+  --rainbow-5: var(--pink);
+  --rainbow-6: var(--coral);
+  --rainbow-7: var(--red);
+  --rainbow-8: var(--orange);
+  --rainbow-9: var(--yellow);
+
+  --rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow)
+  );
+
+  --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
 }
 
 * {
@@ -111,6 +149,16 @@ a.secondary:hover {
   outline: 2px solid #4699ff;
 }
 
+a.black {
+  color: black;
+}
+
+a.black:hover {
+  color: white;
+  background-color: black;
+  outline: 2px solid black;
+}
+
 a.danger {
   color: #ff4346;
 }
@@ -139,6 +187,16 @@ a.warning:hover {
   color: black;
   background-color: #ffff46;
   outline: 2px solid #ffff46;
+}
+
+summary.button {
+  background-color: var(--shade-5);
+  /* line-height: 2.3; */
+}
+
+summary.button:hover {
+  /* transform-origin: left; */
+  /* transform: scale(1.1); */
 }
 
 a.button {
@@ -187,6 +245,10 @@ hr {
   background-color: white;
 }
 
+hr.secondary {
+  background-color: #9faeee;
+}
+
 h1,
 h2,
 h3,
@@ -218,7 +280,7 @@ summary {
 }
 
 details[open] summary {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 input[type="text"],
