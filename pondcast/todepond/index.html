@@ -65,7 +65,7 @@
   summary.highlighted {
     /* box-shadow: 0 0px 5px white; */
     /* box-shadow: var(--glow); */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
   }
 
   details[open] summary {
@@ -80,16 +80,16 @@
     background: var(--rainbow-gradient);
     color: black;
     background-size: 700% 800%;
-    outline: 1px solid white;
-    outline-offset: -1px;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
     /* background-clip: border-box; */
     /* border: none; */
     /* padding: 10px 5px; */
     /* box-shadow: none; */
     /* margin: -4px 1px; */
-    border-color: black;
-    border-image-outset: -1px;
-    box-shadow: none;
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
   }
 
   body {
@@ -105,6 +105,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    outline: 2px solid rgba(159, 174, 238, 0.05);
   }
 
   body:has(> details[open]) {
@@ -131,8 +132,15 @@
     /* text-decoration: underline; */
     text-align: center;
     background-color: var(--shade-1);
-    /* box-shadow: 2px 2px 3px rgba(159, 174, 238, 0.05); */
+    /* outline: 1px solid white; */
+    outline: 2px solid rgba(159, 174, 238, 0.05);
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
     /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    outline: 2px solid rgba(159, 174, 238, 0.1);
   }
 
   audio {
@@ -214,6 +222,7 @@
       position: absolute;
       left: 0px;
       right: 0px;
+      outline: 2px solid rgba(159, 174, 238, 0.1);
       /* background-color: var(--best-colour); */
     "
   />
@@ -423,6 +432,8 @@
   <em>Days since tode fell asleep: 505</em><br />
   <em>Days since bot went missing: 470</em><br />
   <em>Days since berd flew away: 133</em>
+
+  <p><br /></p>
 
   <p>Back to the <a href="/pondcast">pondcast</a>.</p>
 </details>
