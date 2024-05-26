@@ -1,0 +1,85 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+
+<style>
+  body {
+    max-width: 650px;
+  }
+</style>
+<!-- <h1>Video</h1> -->
+
+<!-- dont allow fullscreen -->
+<video
+  id="video"
+  controls
+  disablePictureInPicture
+  controlsList="nofullscreen noplaybackrate"></video>
+<video id="video2"></video>
+<script>
+  var video = document.getElementById("video");
+  const video2 = document.getElementById("video2");
+  // const startTime = (Date.now() / 1000) % (10 * 60 + 15);
+  var videoSrc =
+    "https://customer-8ipv6zgcdbvqngke.cloudflarestream.com/1eff8f4ae01544bce72702f425b46d7f/manifest/video.m3u8";
+  const videoSrc2 =
+    "https://customer-8ipv6zgcdbvqngke.cloudflarestream.com/f61d54be90df587373cf4c303cc40b0a/manifest/video.m3u8";
+  if (Hls.isSupported()) {
+    var hls = new Hls({
+      // startPosition: startTime,
+    });
+    const hls2 = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls2.loadSource(videoSrc2);
+    hls2.attachMedia(video2);
+    // hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+    //   video.muted = true;
+    //   video.play();
+    // });
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = videoSrc;
+  }
+
+  video.addEventListener("play", function () {
+    video2.play();
+  });
+  // video2.addEventListener("play", function () {
+  //   video.play();
+  // });
+  video.addEventListener("pause", function () {
+    video2.pause();
+  });
+  // video2.addEventListener("pause", function () {
+  //   video.pause();
+  // });
+  const offset = 4.045;
+  video.addEventListener("seeking", function () {
+    video2.currentTime = video.currentTime + offset;
+  });
+  // video2.addEventListener("seeking", function () {
+  //   video.currentTime = video2.currentTime;
+  // });
+  video2.currentTime = offset;
+
+  // volume change
+  video.addEventListener("volumechange", function () {
+    video2.volume = video.volume;
+    video2.muted = video.muted;
+  });
+  video.volume = 0.5;
+</script>
