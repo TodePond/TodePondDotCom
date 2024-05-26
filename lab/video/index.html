@@ -19,21 +19,19 @@
 <style>
   body {
     max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 </style>
 <!-- <h1>Video</h1> -->
 
 <!-- dont allow fullscreen -->
-<video
-  id="video"
-  controls
-  disablePictureInPicture
-  controlsList="nofullscreen noplaybackrate"></video>
-<video
-  id="video2"
-  controls
-  disablePictureInPicture
-  controlsList="nofullscreen noplaybackrate"></video>
+<!-- <span style="width: 100%; text-align: center"> -->
+<button style="margin-bottom: 10px">Play</button>
+<!-- </span> -->
+<video id="video"></video>
+<video id="video2"></video>
 <script>
   var video = document.getElementById("video");
   const video2 = document.getElementById("video2");
@@ -60,13 +58,13 @@
   }
 
   video.addEventListener("play", function () {
-    video2.play();
+    // video2.play();
   });
   // video2.addEventListener("play", function () {
   //   video.play();
   // });
   video.addEventListener("pause", function () {
-    video2.pause();
+    // video2.pause();
   });
   // video2.addEventListener("pause", function () {
   //   video.pause();
@@ -86,4 +84,16 @@
     // video2.muted = video.muted;
   });
   video.volume = 0.5;
+  const button = document.querySelector("button");
+  button.addEventListener("click", function () {
+    if (video.paused) {
+      video.play();
+      video2.play();
+      button.textContent = "Pause";
+    } else {
+      video.pause();
+      video2.pause();
+      button.textContent = "Play";
+    }
+  });
 </script>
