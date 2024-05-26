@@ -1,0 +1,136 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- <h1>Lu Wilson's pronouns</h1> -->
+
+<style>
+  body {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  main {
+    padding-bottom: 3em;
+  }
+
+  #button {
+  }
+</style>
+
+<main>
+  <!-- <button id="button">Click to reveal pronouns</button> -->
+  <div id="loading" style="">
+    <p>Rolling gender...</p>
+    <p class="secondary" id="loader">they / them</p>
+  </div>
+  <div style="display: none" id="result">
+    <p>
+      Lu Wilson uses
+      <strong id="pronouns"></strong>
+      pronouns.
+    </p>
+
+    <span class="secondary">
+      Lu Wilson is a coder.
+      <strong id="first"></strong>
+      write<span id="plural"></span> good code.
+      <strong id="second"></strong>
+      favourite language is DreamBerd. This website is made by
+      <strong id="third"></strong>.
+    </span>
+  </div>
+</main>
+
+<script type="module">
+  Reflect.defineProperty(
+    Object.prototype,
+    "pipe",
+    {
+      value: function (fn) {
+        return fn(this);
+      },
+    },
+    { writable: true, configurable: true, enumerable: false }
+  );
+  const button = document.getElementById("button");
+  const loading = document.getElementById("loading");
+  const result = document.getElementById("result");
+  const loader = document.getElementById("loader");
+  const pronouns = document.getElementById("pronouns");
+  const first = document.getElementById("first");
+  const second = document.getElementById("second");
+  const third = document.getElementById("third");
+  const plural = document.getElementById("plural");
+
+  // button.addEventListener("click", () => {
+  //   button.style.display = "none";
+  //   setTimeout(() => {
+  //     loading.style.display = "block";
+  //     setTimeout(tickLoader, timer);
+  //   }, 500);
+  // });
+
+  const pronounSets = [
+    ["they / them", "they", "their", "them"],
+    ["she / her", "she", "her", "her"],
+    ["he / him", "he", "his", "him"],
+    ["any", "they", "her", "him"],
+  ];
+
+  const date = new Date();
+  const pronounsIndex = date % pronounSets.length;
+  // console.log(pronounsIndex);
+  const pronounSet = pronounSets[pronounsIndex];
+
+  pronouns.textContent = pronounSet[0];
+  first.textContent = pronounSet[1].pipe(capitalise);
+  second.textContent = pronounSet[2].pipe(capitalise);
+  third.textContent = pronounSet[3];
+  if (pronounsIndex === 0 || pronounsIndex === 3) {
+    plural.textContent = "";
+  } else {
+    plural.textContent = "s";
+  }
+
+  let timer = 10;
+  let loaderIndex = 0;
+  setTimeout(tickLoader, timer);
+  function tickLoader() {
+    timer *= 1.1;
+    loaderIndex = (loaderIndex + 1) % pronounSets.length;
+    loader.textContent = pronounSets[loaderIndex][0];
+    if (timer > 600) {
+      if (loaderIndex === pronounsIndex) {
+        setTimeout(() => {
+          loading.style.display = "none";
+          result.style.display = "block";
+        }, 1200);
+        return;
+      }
+    }
+    setTimeout(tickLoader, timer);
+  }
+
+  function capitalise(str) {
+    return str[0].toUpperCase() + str.slice(1);
+  }
+</script>
