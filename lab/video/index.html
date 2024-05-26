@@ -34,8 +34,8 @@
 <!-- <span style="width: 100%; text-align: center"> -->
 <button style="margin-bottom: 10px">Play</button>
 <!-- </span> -->
-<video id="video"></video>
-<video id="video2"></video>
+<video id="video" playsinline></video>
+<video id="video2" playsinline></video>
 <script>
   var video = document.getElementById("video");
   const video2 = document.getElementById("video2");
@@ -101,4 +101,13 @@
       button.textContent = "Play";
     }
   });
+
+  // on tab focus lost, pause
+  // document.addEventListener("visibilitychange", function () {
+  //   if (document.hidden) {
+  //     video.pause();
+  //     video2.pause();
+  //     button.textContent = "Play";
+  //   }
+  // });
 </script>
