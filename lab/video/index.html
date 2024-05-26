@@ -23,6 +23,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  video {
+    pointer-events: none;
+  }
 </style>
 <!-- <h1>Video</h1> -->
 
@@ -84,6 +88,7 @@
     // video2.muted = video.muted;
   });
   video.volume = 0.5;
+  video2.volume = 0.5;
   const button = document.querySelector("button");
   button.addEventListener("click", function () {
     if (video.paused) {
