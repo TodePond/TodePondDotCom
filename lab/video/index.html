@@ -76,8 +76,10 @@
     //   video.muted = true;
     //   video.play();
     // });
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = videoSrc;
+  } else {
+    alert(
+      "uh oh, pls tell @todepond you saw this error, and tell them what browser and operating system you are using."
+    );
   }
 
   video.addEventListener("play", function () {
