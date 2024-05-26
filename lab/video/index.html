@@ -29,7 +29,11 @@
   controls
   disablePictureInPicture
   controlsList="nofullscreen noplaybackrate"></video>
-<video id="video2"></video>
+<video
+  id="video2"
+  controls
+  disablePictureInPicture
+  controlsList="nofullscreen noplaybackrate"></video>
 <script>
   var video = document.getElementById("video");
   const video2 = document.getElementById("video2");
@@ -69,7 +73,7 @@
   // });
   const offset = 4.045;
   video.addEventListener("seeking", function () {
-    video2.currentTime = video.currentTime + offset;
+    // video2.currentTime = video.currentTime + offset;
   });
   // video2.addEventListener("seeking", function () {
   //   video.currentTime = video2.currentTime;
@@ -78,8 +82,8 @@
 
   // volume change
   video.addEventListener("volumechange", function () {
-    video2.volume = video.volume;
-    video2.muted = video.muted;
+    // video2.volume = video.volume;
+    // video2.muted = video.muted;
   });
   video.volume = 0.5;
 </script>
