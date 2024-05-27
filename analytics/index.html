@@ -40,8 +40,8 @@
 </style>
 
 <script type="module">
-  const localData = localStorage.getItem("analytics/goatcounts");
-  const localFeedItems = localStorage.getItem("analytics/feedItems");
+  const localData = localStorage.getItem("analytics/goatcounts/v2");
+  const localFeedItems = localStorage.getItem("analytics/feedItems/v2");
   if (localData && localFeedItems) {
     renderItems(JSON.parse(localData), JSON.parse(localFeedItems));
   }
@@ -53,10 +53,10 @@
 
   // const response = await fetch("https://todepond-getgoatcounts.web.val.run");
   const data = await countResponse.json();
-  localStorage.setItem("analytics/goatcounts", JSON.stringify(data));
+  localStorage.setItem("analytics/goatcounts/v2", JSON.stringify(data));
 
   const feedItems = parseItems(feedResponse);
-  localStorage.setItem("analytics/feedItems", JSON.stringify(feedItems));
+  localStorage.setItem("analytics/feedItems/v2", JSON.stringify(feedItems));
 
   renderItems(data, feedItems);
 
@@ -69,8 +69,8 @@
         continue;
       }
       const title =
-        feedItems.find((feedItem) =>
-          normaliseUrl(feedItem.link).includes(normaliseUrl(path))
+        feedItems.find(
+          (feedItem) => normaliseUrl(feedItem.link) === normaliseUrl(path)
         )?.title ?? path;
       const tr = document.createElement("tr");
       tr.innerHTML = `
