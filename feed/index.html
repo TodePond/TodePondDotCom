@@ -129,6 +129,7 @@ Here's my feed! You can see it here. Or subscribe to the
 
   function getLocalFeed() {
     const feed = localStorage.getItem("feed");
+    // console.log(feed);
     if (feed) return JSON.parse(feed);
   }
 
@@ -140,6 +141,7 @@ Here's my feed! You can see it here. Or subscribe to the
     const localFeed = getLocalFeed();
     if (localFeed) {
       renderItems(localFeed);
+      currentItems = localFeed;
       updateSearch(document.querySelector("#search").value);
     }
     const currentFeed = await getCurrentFeed();
@@ -189,6 +191,11 @@ Here's my feed! You can see it here. Or subscribe to the
   const search = document.querySelector("#search");
 
   function updateSearch(searchTerm) {
+    // console.log(searchTerm);
+    if (!searchTerm) {
+      renderItems(currentItems);
+      return;
+    }
     const exactTerms = searchTerm
       .split('"')
       .filter((term, i) => i % 2 === 1)
