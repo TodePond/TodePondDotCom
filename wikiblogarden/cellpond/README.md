@@ -20,8 +20,8 @@ I've also made a bunch of things about it! They're listed below.
 
 ## Writing
 
-- Search the [wikiblogarden](/feed) for `cellpond` to find all the posts about it.
+- [Search the wikiblogarden for `cellpond`](/feed?search=cellpond) to find all the posts about it.
 
-<hr>
+<br>
 
 Back to the [gardilog](/wikiblogarden).
