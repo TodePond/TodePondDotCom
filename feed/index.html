@@ -2,8 +2,7 @@
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"
-></script>
+  src="//gc.zgo.at/count.js"></script>
 <title>Todepond feed</title>
 <link rel="stylesheet" href="/style.css" />
 <link rel="shortcut icon" href="/favicon.png" />
@@ -11,8 +10,7 @@
   rel="alternate"
   type="application/rss+xml"
   title="Todepond dot com"
-  href="https://todepond.com/feed/index.xml"
-/>
+  href="https://todepond.com/feed/index.xml" />
 
 <meta property="og:image" content="/og.png" />
 <style>
@@ -134,6 +132,7 @@ Here's my feed! You can see it here. Or subscribe to the
     const localFeed = getLocalFeed();
     if (localFeed) {
       renderItems(localFeed);
+      updateSearch(document.querySelector("#search").value);
     }
     const currentFeed = await getCurrentFeed();
     currentItems = parseItems(currentFeed);
@@ -144,6 +143,8 @@ Here's my feed! You can see it here. Or subscribe to the
     });
     renderItems(sorted);
     setLocalFeed(sorted);
+
+    updateSearch(document.querySelector("#search").value);
   };
 
   const renderItems = (items) => {
@@ -179,8 +180,7 @@ Here's my feed! You can see it here. Or subscribe to the
 
   const search = document.querySelector("#search");
 
-  search.addEventListener("input", (e) => {
-    const searchTerm = e.target.value.toLowerCase();
+  function updateSearch(searchTerm) {
     const exactTerms = searchTerm
       .split('"')
       .filter((term, i) => i % 2 === 1)
@@ -250,7 +250,36 @@ Here's my feed! You can see it here. Or subscribe to the
       .map((item) => item.item);
 
     renderItems(sortedItems);
+  }
+
+  search.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    updateSearch(searchTerm);
   });
 
   main();
+
+  const _search = document.querySelector("#search");
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchParam = urlParams.has("search");
+  if (searchParam) {
+    const value = urlParams.get("search");
+    if (value) {
+      _search.value = value;
+    } else {
+      _search.focus();
+    }
+  }
+
+  addEventListener("keydown", (e) => {
+    if (
+      (e.ctrlKey || e.metaKey) &&
+      (e.key === "k" || e.key === "K" || e.key === "f" || e.key === "F")
+    ) {
+      e.preventDefault();
+      _search.focus();
+      _search.select();
+    }
+  });
 </script>
