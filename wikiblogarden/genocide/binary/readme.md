@@ -4,9 +4,7 @@ When I tell people that I'm happy with [any pronoun](https://youtu.be/ZMklf0vUl1
 
 They use it as a chance to bash on other trans people, saying things like "That's good. Some people get *so* offended. Glad you're not one of them."
 
-So for the avoidance of doubt... and any confusion at all... let me be abso-tucking-lutely clear.
-
-\*cracks knuckles\*
+So for the avoidance of doubt... and any confusion at all... let me be clear.
 
 ## Some people are binary
 
