@@ -24,12 +24,9 @@ Bottom up: build in public.
 Top down: study.\
 Bottom up: practice.
 
-Practice. Just practice. And practice is what I do![^practice]
+Top down: not publishing this crappy poem to my feed.\
+Bottom up: eh screw it
 
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden).
-
-<br>
-
-[^practice]: [Just practice](https://www.todepond.com/wikiblogarden/genocide/platform/)
