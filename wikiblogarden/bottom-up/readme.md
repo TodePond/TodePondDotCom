@@ -1,4 +1,4 @@
-# Bottom up
+# Eh screw it
 
 Top down: bad.\
 Bottom up: good.
