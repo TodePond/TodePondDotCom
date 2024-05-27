@@ -260,9 +260,36 @@ Here's my feed! You can see it here. Or subscribe to the
     renderItems(sortedItems);
   }
 
+  function updateShareSearchParams() {
+    const searchTerm = search.value;
+    if (searchTerm === "") {
+      const activeElement = document.activeElement;
+      if (activeElement === search) {
+        window.history.replaceState({}, "Todepond feed", "/feed/?search");
+      } else {
+        window.history.replaceState({}, "Todepond feed", "/feed/");
+      }
+    } else {
+      window.history.replaceState(
+        {},
+        "Todepond feed",
+        `/feed/?search=${searchTerm}`
+      );
+    }
+  }
+
   search.addEventListener("input", (e) => {
     const searchTerm = e.target.value.toLowerCase();
     updateSearch(searchTerm);
+    updateShareSearchParams();
+  });
+
+  search.addEventListener("focus", (e) => {
+    updateShareSearchParams();
+  });
+
+  search.addEventListener("blur", (e) => {
+    updateShareSearchParams();
   });
 
   main();
