@@ -1,6 +1,6 @@
 # My twitter rules 
 
-For the past 17 months, I've been following some strict rules with how I use twitter.
+For the past 17 months, I've been following some strict rules for how I use twitter.
 
 But first...
 
