@@ -45,7 +45,7 @@ Here are some learnings I've picked up from this:
 - Mastodon is really nice because it feels so hidden. Please don't bother us. 
 - Twitter's community has become more and more monoculture. More and more boring loud [men](https://www.todepond.com/wikiblogarden/men). And all my favourite people have left. Many have moved to mastodon or bluesky. Many have quit microblogging altogether. 
 - At meetups, everyone used to share twitter handles. Now, more and more people are sharing linkedin handles. But linkedin is depressing.
-- Hardly anyone cares. Nobody seems to give a shit.
+- Hardly anyone cares. Nobody seems to care.
 
 <br>
 
