@@ -51,5 +51,7 @@ Here are some learnings I've picked up from this:
 
 Back to the [wikiblogarden](/wikiblogarden).
 
+<br>
+
 [^hate]: [Elon Musk Is Restoring Banned Twitter Accounts—Here’s Why The Most Controversial Users Were Removed And Who’s Already Back](https://www.forbes.com/sites/roberthart/2022/11/25/elon-musk-is-restoring-banned-twitter-accounts-heres-why-the-most-controversial-users-were-suspended-and-whos-already-back/)
 [^queer]: [Twitter appears to censor LGBTQ+ terms including ‘trans’ in DM previews](https://www.thepinknews.com/2023/04/01/twitter-appears-to-censor-lgbtq-terms-including-trans-in-dm-previews/)
