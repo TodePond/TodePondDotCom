@@ -44,7 +44,7 @@ Here are some learnings I've picked up from this:
 - I have an outlet for this addiction via my work. I can post work stuff still, via my own account and the work account, and this feels like a betrayal of the whole system. But twitter is pivotal in marketing for web development. Maybe I should change careers again!?!?
 - Mastodon is really nice because it feels so hidden. Please don't bother us. 
 - Twitter's community has become more and more monoculture. More and more boring loud [men](https://www.todepond.com/wikiblogarden/men). And all my favourite people have left. Many have moved to mastodon or bluesky. Many have quit microblogging altogether. 
-- At meetups, everyone used to share twitter handles. Now, more and more people are sharing linkedin handles. But linkedin is depressing.
+- At meetups, everyone used to share twitter handles. Now, more and more people are sharing linkedin handles. Linkedin is depressing, but at least it's not twitter.
 - Hardly anyone cares. Nobody seems to care.
 
 <br>
