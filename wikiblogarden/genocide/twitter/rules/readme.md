@@ -23,14 +23,14 @@ One day, I won't use twitter at all. Hopefully sooner rather than later. But for
 - No push notifications. If I want to see my notifications, I have to open it up. 
 - No native apps. I refuse to have twitter on my phone, or any device. I only access it through my web browser. 
 - No ads. I always use an ad-blocker when I'm on twitter. This means I have to use firefox on my phone.
-- Ephemeral posts! I delete most of my tweets a day or two after I post them.
+- Ephemeral posts. I delete most of my tweets a day or two after I post them.
 - I *must* take a break from these rules on the 24th January 2034, and not before then. This is part of my mental-gymnastics habit-forming method (that I really should write about some time).
 
 ## Breaking the rules
 
 I've been pretty good at following the rules. 
 
-Occasionally, I do some mental gymnastics to let myself post todepond media up there. I tell myself "but this gif is fine because it's technically blah blah blah" or something. Whenever this happens, I end up removing the gif and owning up to my sin, and referring people to my mastodon instead (where I do post all my stuff).
+Occasionally, I do some mental gymnastics to let myself post todepond media up there. I tell myself "but this gif is fine because it's technically blah blah blah" or something. Whenever this happens, I end up removing the gif and owning up to my sin, and referring people to [my mastodon](https://elk.zone/mas.to/@TodePond) instead (where I do post all my stuff).
 
 A lot of the time, I can get other people to post my stuff for me. Like... I'll post a link to my work, and then someone else will post a screenshot or gif of it. This keeps my conscience relatively satisfied, but it probably wouldn't happen if I didn't post the link in the first place. Maybe I could try to discourage people from doing this. Or maybe it helps to draw people away from twitter to my stuff elsewhere. I'm not sure.
 
@@ -45,7 +45,7 @@ Here are some learnings I've picked up from this:
 - Mastodon is really nice because it feels so hidden. Please don't bother us. 
 - Twitter's community has become more and more monoculture. More and more boring loud [men](https://www.todepond.com/wikiblogarden/men). And all my favourite people have left. Many have moved to mastodon or bluesky. Many have quit microblogging altogether. 
 - At meetups, everyone used to share twitter handles. Now, more and more people are sharing linkedin handles. But linkedin is depressing.
-- I dunno now I'm just rambling. Enough. 
+- Hardly anyone cares. Nobody seems to give a shit.
 
 <br>
 
