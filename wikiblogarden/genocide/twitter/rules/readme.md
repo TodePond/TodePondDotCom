@@ -14,7 +14,7 @@ One day, I won't use twitter at all. Hopefully sooner rather than later. But for
 
 ## My twitter rules
 
-- No posting up any media of [todepond work](https://www.todepond.com/wikiblogarden/art/todepond/stuff/). This means no gifs, screenshots, videos or anything. This was a very big change for me. And this also means that I now don't use the todepond logo for my avatar.
+- No posting up any media of [todepond work](https://www.todepond.com/wikiblogarden/art/todepond/stuff/). This means no gifs, screenshots, videos or anything. This was a very big change for me. And this means that I now don't use the todepond logo for my avatar.
 - Links are allowed because they take people away from twitter.
 - Posting media of my tldraw work is allowed because I see it as part of my job and I want to do right by my team.
 - Satire and punching up is allowed because it's a resistance against the hateful arseholes running twitter.
