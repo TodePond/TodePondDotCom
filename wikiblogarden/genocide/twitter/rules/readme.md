@@ -6,7 +6,7 @@ But first...
 
 ## Twitter is a vile website
 
-Twitter is a [vile website](https://www.todepond.com/wikiblogarden/social-media/hackernews/), as we [all know already](https://www.todepond.com/wikiblogarden/genocide/twitter/died/).
+Twitter is a [vile website](https://www.todepond.com/wikiblogarden/social-media/hackernews/), as we [already know](https://www.todepond.com/wikiblogarden/genocide/twitter/died/).
 
 On twitter, hateful voices are platformed[^hate], while queer voices are suppressed[^queer]. So ideally, I wouldn't use twitter at all. And I feel very guilty about how much I do use it.
 
