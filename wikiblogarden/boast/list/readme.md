@@ -87,9 +87,9 @@ Here's a list of my things that got to the front page of hackernews.
 
 - [DreamBerd is a perfect programming language](https://news.ycombinator.com/item?id=36183683) (got to the top)
 - [DreamBerd has been renamed to C](https://news.ycombinator.com/item?id=37028043) (got to the top)
-- [Are analytics good?](https://news.ycombinator.com/item?id=38378595) (got to the top)
 - [I think I need to go lie down](https://news.ycombinator.com/item?id=38288130) (got to the top)
 - [Minification is evil](https://news.ycombinator.com/item?id=38379731) (a short poem)
+- [Are analytics good?](https://news.ycombinator.com/item?id=38378595)
 - [AI is good/bad actually](https://news.ycombinator.com/item?id=39580724)
 
 <br>
