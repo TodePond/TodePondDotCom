@@ -232,6 +232,12 @@ p.secondary {
   color: #9faeee;
 }
 
+label.danger,
+span.danger,
+p.danger {
+  color: #ff7275;
+}
+
 blockquote {
   color: #9faeee;
   margin: 0px;

@@ -17,37 +17,64 @@
 <h1>Leave</h1>
 
 <p>Message from the previous user:</p>
-<p id="message-display" class="secondary">&nbsp;</p>
+<p id="message-display" class="secondary" style="height: 40px">Loading...</p>
 
 <p>Leave a message for the next user.</p>
 
 <style>
-  hgroup {
+  form {
     display: flex;
     gap: 10px;
   }
 </style>
 
-<hgroup>
-  <input id="message" type="text" placeholder="Message" />
+<form>
+  <!-- dont suggest -->
+  <input
+    id="message"
+    type="text"
+    placeholder="Message"
+    maxlength="120"
+    autocomplete="off" />
   <button id="leave">Leave</button>
-</hgroup>
+</form>
+
+<p class="secondary" id="feedback"></p>
 
 <script type="module">
   const leaveButton = document.getElementById("leave");
   const messageInput = document.getElementById("message");
   const messageDisplay = document.getElementById("message-display");
 
-  leaveButton.addEventListener("click", async () => {
+  const response = await fetch(
+    "https://todepond-labGetLeaveMessage.web.val.run"
+  );
+  let { message } = await response.json();
+  console.log(message);
+  if (message.length > 120) {
+    message = message.slice(0, 120);
+  } else if (message.length === 0) {
+    message = "(empty message)";
+  }
+  message = "“" + message + "”";
+  messageDisplay.textContent = message;
+  messageDisplay.classList.remove("secondary");
+  messageDisplay.style.fontWeight = "bold";
+
+  const form = document.querySelector("form");
+  const feedback = document.getElementById("feedback");
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
     const message = messageInput.value;
+    feedback.textContent = "Leaving...";
     if (message) {
       await fetch("https://todepond-lableavemessage.web.val.run", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message }),
+        body: message,
       });
+      messageInput.value = "";
+      feedback.textContent = "";
+      messageDisplay.textContent = "“" + message + "”";
     }
   });
 </script>
