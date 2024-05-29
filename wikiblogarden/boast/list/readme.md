@@ -32,7 +32,7 @@ Here's a list of things I made.
 
 <br>
 
-Here's a list of things I didn't make but I have worked on a lot.
+Here's a list of things I didn't make but I have worked a lot on.
 
 - [Future of Coding](https://futureofcoding.org/episodes/)
 - [Sandspiel](https://sandspiel.club)
