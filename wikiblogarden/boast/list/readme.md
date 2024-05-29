@@ -79,7 +79,7 @@ Here's a list of videos made about me.
 - [DreamBerd has features that programmers were dying for](https://vm.tiktok.com/ZGe4nKjQR/)
 - [Unreleased Theo video about DreamBerd](https://x.com/TodePond/status/1793517445736788388)
 - [Unreleased Theo video about CellPond](https://x.com/TodePond/status/1793387928824987779)
-- many more (but those are my favourites)
+- more (but those are my favourites)
 
 <br>
 
