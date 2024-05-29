@@ -79,7 +79,7 @@ Here's a list of videos made about me.
 - [DreamBerd has features that programmers were dying for](https://vm.tiktok.com/ZGe4nKjQR/)
 - [Unreleased Theo video about DreamBerd](https://x.com/TodePond/status/1793517445736788388)
 - [Unreleased Theo video about CellPond](https://x.com/TodePond/status/1793387928824987779)
-- many more (but those are my favourites so far)
+- many more (but those are my favourites)
 
 <br>
 
@@ -91,6 +91,22 @@ Here's a list of my things that got to the front page of hackernews.
 - [I think I need to go lie down](https://news.ycombinator.com/item?id=38288130) (got to the top)
 - [Minification is evil](https://news.ycombinator.com/item?id=38379731) (a short poem)
 - [AI is good/bad actually](https://news.ycombinator.com/item?id=39580724)
+
+<br>
+
+Here's a list of some of my more successful tweets/toots.
+
+- [What happens if you fold reality over] (https://x.com/TodePond/status/1547200031161257986)
+- [I don't like the word "just"](https://x.com/TodePond/status/1751622678253797418)
+- [Here's a little sandbox](https://x.com/TodePond/status/1593969648042663936)
+- [Can't believe this works](https://x.com/tldraw/status/1724410017963503894)
+- [Draw fast](https://x.com/tldraw/status/1727728068968460778)
+- [Wait hang on a second](https://x.com/tldraw/status/1782443204710674571)
+- [What if you could drag around any image](https://x.com/tldraw/status/1747625230036529643)
+- [Something like this](https://x.com/tldraw/status/1728081635222987061)
+- [We need to talk about cursors](https://x.com/tldraw/status/1661038696630476801)
+- [You can't unsee this bug](https://x.com/tldraw/status/1643652330850484238)
+- more (but those are my favourites)
 
 <br>
 
