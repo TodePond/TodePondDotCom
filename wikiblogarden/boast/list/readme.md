@@ -41,8 +41,8 @@ Here's a list of things I've been.
 - Coder at [Sandspiel](https://sandspiel.club) (previous)
 - Special education teacher at a school (previous)
 - Governor at a school (previous)
-- Idiot on radio
-- Idiot on stage
+- Idiot on radio (previous)
+- Idiot on stage (previous)
 
 <br>
 
