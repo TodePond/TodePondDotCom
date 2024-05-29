@@ -94,7 +94,7 @@ Here's a list of my things that got to the front page of hackernews.
 
 <br>
 
-Here's a list of some of my more successful tweets/toots.
+Here's a list of my tweets/toots that went viral to some degree.
 
 - [What happens if you fold reality over](https://x.com/TodePond/status/1547200031161257986)
 - [What colour are your comments](https://universeodon.com/@TodePond/110700164929966414)
