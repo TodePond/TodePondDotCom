@@ -96,7 +96,7 @@ Here's a list of my things that got to the front page of hackernews.
 
 Here's a list of some of my more successful tweets/toots.
 
-- [What happens if you fold reality over] (https://x.com/TodePond/status/1547200031161257986)
+- [What happens if you fold reality over](https://x.com/TodePond/status/1547200031161257986)
 - [I don't like the word "just"](https://x.com/TodePond/status/1751622678253797418)
 - [Here's a little sandbox](https://x.com/TodePond/status/1593969648042663936)
 - [Can't believe this works](https://x.com/tldraw/status/1724410017963503894)
