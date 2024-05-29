@@ -52,8 +52,8 @@ Here's a list of talks I made.
 - [Autocomplete for canvas](https://x.com/ghostwriternr/status/1790508376780050650) (given x2 times) (x1 more scheduled)
 - [Weirdcoding institute](https://x.com/rachelnabors/status/1705622976266186828) (given x1 times)
 - Untitled ScreenPond talk (x1 scheduled)
-- Unblocking creation (coming soon) 
-- Untitled tadi lab talk (coming soon)
+- Untitled Tadi Lab talk (coming soon)
+- Untitled Arroost talk (coming soon) 
 
 <br>
 
