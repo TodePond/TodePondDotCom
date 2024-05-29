@@ -1,5 +1,7 @@
 ## Things I made
 
+<br>
+
 Here's a list of things I made.
 
 - [DreamBerd](https://github.com/TodePond/DreamBerd)
@@ -120,8 +122,6 @@ Here's a list of ways you can support me.
 
 <br>
 
-<br>
-
 Here's a list of things I've been. 
 
 - Coder at [tldraw](https://tldraw.com) (current)
@@ -133,5 +133,7 @@ Here's a list of things I've been.
 - Special education teacher at a school (previous)
 - Idiot on radio (distant past)
 - Idiot on stage (distant past)
+
+<br>
 
 Back to the [wikiblogarden](/wikiblogarden).
