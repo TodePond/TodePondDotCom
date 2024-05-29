@@ -32,20 +32,6 @@ Here's a list of things I made.
 
 <br>
 
-Here's a list of things I've been. 
-
-- Coder at [tldraw](https://tldraw.com) (current)
-- Researcher-in-residence at [Ink & Switch](https://inkandswitch.com) (current)
-- Co-host at [Future of Coding](https://futureofcoding.org/episodes/) (current)
-- Co-organiser at [London Creative Coding](https://www.meetup.com/london-creative-coding/) (current)
-- Coder at [Sandspiel](https://sandspiel.club) (previous)
-- Special education teacher at a school (previous)
-- Governor at a school (previous)
-- Idiot on radio (previous)
-- Idiot on stage (previous)
-
-<br>
-
 Here's a list of things I didn't make but I have worked a lot on.
 
 - [Future of Coding](https://futureofcoding.org/episodes/)
@@ -126,12 +112,26 @@ Here's a list of my tweets/toots that went viral to some degree.
 
 <br>
 
-Here's a list of ways you can support my work. 
+Here's a list of ways you can support me. 
 
 - [Patreon](https://patreon.com/Todepond)
 - [Liberapay](https://liberapay.com/TodePond)
 - [Stonewall](https://stonewall.org.uk/)
 
 <br>
+
+<br>
+
+Here's a list of things I've been. 
+
+- Coder at [tldraw](https://tldraw.com) (current)
+- Researcher-in-residence at [Ink & Switch](https://inkandswitch.com) (current)
+- Co-host at [Future of Coding](https://futureofcoding.org/episodes/) (current)
+- Co-organiser at [London Creative Coding](https://www.meetup.com/london-creative-coding/) (current)
+- Coder at [Sandspiel](https://sandspiel.club) (previous)
+- Governor at a school (previous)
+- Special education teacher at a school (previous)
+- Idiot on radio (distant past)
+- Idiot on stage (distant past)
 
 Back to the [wikiblogarden](/wikiblogarden).
