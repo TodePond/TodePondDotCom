@@ -32,6 +32,20 @@ Here's a list of things I made.
 
 <br>
 
+Here's a list of things I've been. 
+
+- Coder at [tldraw](https://tldraw.com) (current)
+- Researcher-in-residence at [Ink & Switch](https://inkandswitch.com) (current)
+- Co-host at [Future of Coding](https://futureofcoding.org/episodes/) (current)
+- Co-organiser at [London Creative Coding](https://www.meetup.com/london-creative-coding/) (current)
+- Coder at [Sandspiel](https://sandspiel.club) (previous)
+- Special education teacher at a school (previous)
+- Governor at a school (previous)
+- Idiot on radio
+- Idiot on stage
+
+<br>
+
 Here's a list of things I didn't make but I have worked a lot on.
 
 - [Future of Coding](https://futureofcoding.org/episodes/)
