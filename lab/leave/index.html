@@ -37,9 +37,8 @@
     type="text"
     placeholder="Message"
     maxlength="120"
-    disabled
     autocomplete="off" />
-  <button disabled id="leave">Leave</button>
+  <button id="leave">Leave</button>
 </form>
 
 <p class="secondary" id="feedback"></p>
@@ -70,14 +69,21 @@
     event.preventDefault();
     const message = messageInput.value;
     feedback.textContent = "Leaving...";
-    if (message) {
-      await fetch("https://todepond-lableavemessage.web.val.run", {
+    const response = await fetch(
+      "https://todepond-lableavemessage.web.val.run",
+      {
         method: "POST",
         body: message,
-      });
-      messageInput.value = "";
-      feedback.textContent = "";
-      messageDisplay.textContent = "“" + message + "”";
+      }
+    );
+    const json = await response.json();
+    console.log(json);
+    if (json.error) {
+      feedback.textContent = json.error;
+      return;
     }
+    messageInput.value = "";
+    feedback.textContent = "";
+    messageDisplay.textContent = "“" + message + "”";
   });
 </script>
