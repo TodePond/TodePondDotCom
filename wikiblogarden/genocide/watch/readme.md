@@ -5,7 +5,7 @@
 - [x] children not allowed to socially transition in schools. UPDATE: ticked off on 19th December 2023[^school]
 - [x] medical transition officially not provided to children by public health service. UPDATE: ticked off on 15th March 2024[^medicine]
 - [x] calls from health bodies for children to lose access to private medical transition. UPDATE: ticked off on 12th April 2024[^cass]
-- [x] children lose access to private medical transition as well. UPDATE: ticked off on 29th May 2024[^june]
+- [x] children lose access to private medical transition. UPDATE: ticked off on 29th May 2024[^june]
 - [x] children accessing care through private medical services forced to de-transition. UPDATE: ticked off on 29th May 2024[^june]
 - [ ] what's next?
 
