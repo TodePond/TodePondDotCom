@@ -16,6 +16,8 @@
 [^cass]: [Clickbait title](https://www.todepond.com/wikiblogarden/genocide/sad-day/cass/)
 [^june]: [New restrictions on puberty blockers ](https://www.gov.uk/government/news/new-restrictions-on-puberty-blockers)
 
+<br>
+
 > Do you have a correction/addition/improvement? Send it to todepond@gmail.com
 
 <br>
