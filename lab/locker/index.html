@@ -395,6 +395,9 @@
       .filter(({ locked }) => locked === 1)
       .forEach(({ number }) => {
         const lockerElement = document.getElementById(`locker-${number}`);
+        if (!lockerElement) {
+          return;
+        }
         lockerElement.classList.add("locked");
         lockerElement.querySelector(".status").textContent = "Locked";
       });
