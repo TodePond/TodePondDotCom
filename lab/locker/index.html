@@ -181,7 +181,7 @@
   loginBailButton.addEventListener("click", (event) => {
     event.preventDefault();
     dialog.close();
-    // document.activeElement.blur();
+    document.activeElement.blur();
   });
 
   const lockedCheckbox = document.getElementById("locked");
@@ -205,13 +205,13 @@
   //   // document.activeElement.blur();
   // });
   dialog.addEventListener("close", () => {
-    // document.activeElement.blur();
+    document.activeElement.blur();
   });
 
   const bailButton = document.getElementById("bail");
   bailButton.addEventListener("click", () => {
     dialog.close();
-    // document.activeElement.blur();
+    document.activeElement.blur();
   });
 
   const heading = dialog.querySelector("h2");
