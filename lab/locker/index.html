@@ -130,6 +130,7 @@
       <input type="text" id="new-password" />
     </p>
     <button>Save and close</button>
+    <button id="locker-bail">Cancel</button>
   </form>
   <form id="login" style="display: none">
     <p>
@@ -205,6 +206,13 @@
   //   // document.activeElement.blur();
   // });
   dialog.addEventListener("close", () => {
+    document.activeElement.blur();
+  });
+
+  const lockerBailButton = document.getElementById("locker-bail");
+  lockerBailButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    dialog.close();
     document.activeElement.blur();
   });
 
