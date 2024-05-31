@@ -27,13 +27,14 @@ though not for me\
 but if they did\
 i wouldn't know what to do
 
-(and so i sip)
+(and so i sip)\
+my warming beer
 
-my warming beer\
 and grab the grass\
 as if i could\
-hold onto the earth\
-enough that i won't fall off
+hold on the earth
+
+(enough that i won't fall off)
 
 <br>
 
