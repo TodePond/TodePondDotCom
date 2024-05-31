@@ -10,7 +10,7 @@ people nodding as they look
 
 (and)
 
-im checking twitter\
+i'm checking twitter\
 i didn't want to\
 but it's a habit that i do
 
