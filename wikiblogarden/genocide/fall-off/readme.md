@@ -32,9 +32,8 @@ i wouldn't know what to do
 my warming beer\
 and grab the grass\
 as if i could\
-hold on the earth
-
-(enough that i won't fall off)
+hold onto the earth\
+enough that i won't fall off
 
 <br>
 
