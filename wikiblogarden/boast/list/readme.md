@@ -11,7 +11,7 @@ Here's a list of things I made.
 - [Make Real](https://x.com/tldraw/status/1724410017963503894)
 - [Draw Fast](https://x.com/tldraw/status/1727728068968460778)
 - [Sandspiel Studio](https://youtu.be/qOA-lR3Xc34?si=vbmzKXHCJn76ReGg)
-- [Lens](https://x.com/tldraw/status/1733146726259630338) 
+- [Lens](https://x.com/tldraw/status/1733146726259630338)
 - [CellPond](https://www.youtube.com/watch?v=eQgxFuw8f1U)
 - [ScreenPond](https://youtu.be/Q4OIcwt8vcE)
 - [Wikiblogarden](/wikiblogarden)
@@ -51,15 +51,15 @@ Here's a list of talks I made.
 - [Perfect programming language](https://youtu.be/52vmjZnxJb8?si=0TXlU2X2tewR1FFc) (given x1 times)
 - [How to make Make Real](https://x.com/__Neha/status/1729600473269731659) (given x3 times)
 - [Draw what you want](https://x.com/seidtweets/status/1778747186915745988) (given x2 times) (x2 more scheduled)
-- [Autocomplete for canvas](https://x.com/ghostwriternr/status/1790508376780050650) (given x2 times) (x1 more scheduled)
+- [Autocomplete for canvas](https://x.com/ghostwriternr/status/1790508376780050650) (given x3 times)
 - [Weirdcoding institute](https://x.com/rachelnabors/status/1705622976266186828) (given x1 times)
 - Untitled ScreenPond talk (x1 scheduled)
 - Untitled Tadi Lab talk (coming soon)
-- Untitled Arroost talk (coming soon) 
+- Untitled Arroost talk (coming soon)
 
 <br>
 
-Here's a list of appearances I made on other things. 
+Here's a list of appearances I made on other things.
 
 - [Future of Coding: INTERCAL](https://futureofcoding.org/episodes/064.html)
 - [Chantastic: Inoffensive fiddles](https://www.youtube.com/watch?v=kZRk2yeR3x0)
@@ -68,14 +68,14 @@ Here's a list of appearances I made on other things.
 
 <br>
 
-Here's a list of articles written about me. 
+Here's a list of articles written about me.
 
 - [Trying Arroost](https://edibotopic.com/blog/doing/leisure-sick/)
 - [The future of UI/UX with tldraw](https://jamesin.substack.com/p/the-future-of-uiux-with-tldraw)
 
 <br>
 
-Here's a list of videos made about me. 
+Here's a list of videos made about me.
 
 - [The Perfect Programming Language](https://youtu.be/tDexugp8EmM?si=3XwfxWtA2Q-BX_uf)
 - [DreamBerd has features that programmers were dying for](https://vm.tiktok.com/ZGe4nKjQR/)
@@ -114,7 +114,7 @@ Here's a list of my tweets/toots that went viral to some degree.
 
 <br>
 
-Here's a list of ways you can support me. 
+Here's a list of ways you can support me.
 
 - [Patreon](https://patreon.com/Todepond)
 - [Liberapay](https://liberapay.com/TodePond)
@@ -122,7 +122,7 @@ Here's a list of ways you can support me.
 
 <br>
 
-Here's a list of things I've been. 
+Here's a list of things I've been.
 
 - Coder at [tldraw](https://tldraw.com) (current)
 - Researcher-in-residence at [Ink & Switch](https://inkandswitch.com) (current)
