@@ -199,6 +199,47 @@ summary.button:hover {
   /* transform: scale(1.1); */
 }
 
+dialog h2 {
+  margin: 0px;
+}
+
+dialog input[type="password"],
+dialog input[type="text"],
+dialog textarea {
+  max-width: 100%;
+  background-color: #9faeee;
+  border: 1px solid black;
+  color: black;
+  /* padding: 5px; */
+  width: 100%;
+  font-family: sans-serif;
+  /* font-size: 1em; */
+}
+
+dialog::selection,
+dialog p::selection,
+dialog h2::selection {
+  background-color: #46ff80;
+}
+
+dialog input[type="password"]::selection,
+dialog input[type="text"]::selection,
+dialog textarea::selection {
+  background-color: #46ff80;
+}
+
+dialog input[type="password"]:disabled,
+dialog input[type="text"]:disabled,
+dialog textarea:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+label.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 a.button {
   border: 3px solid #46ff80;
   padding: 4px 5px;
