@@ -11,7 +11,7 @@ This is very frustrating because it leaves me with lots of unanswered questions 
 - [Zero sum self-esteem](https://www.todepond.com/wikiblogarden/my-name/self-esteem/both-ways/)
 - [Demo gatekeeping era](https://www.todepond.com/wikiblogarden/demo/)
 
-In all of these cases, there was originally more content in this post, but I cut it off— I split it up into smaller pieces, to be published separately. But for whatever reason, I never got round to finishing and posting the next part(s).
+In all of these cases, there was originally more content in the post, but I cut it off— I split it up into smaller pieces, to be published separately. But for whatever reason, I never got round to finishing and posting the next part(s).
 
 I only feel compelled to write a blog post when I feel like I *have* to write it— when I *must* write it.
 
