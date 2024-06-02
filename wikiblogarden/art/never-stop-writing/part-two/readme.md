@@ -13,7 +13,7 @@ This is very frustrating because it leaves me with lots of unanswered questions 
 
 In all of these cases, there was originally more content in this post, but I cut it off— I split it up into smaller pieces, to be published separately. But for whatever reason, I never got round to finishing and posting the next part(s).
 
-I only feel compelled to write a blog post when I feel like I *have* to write it— I *must* write it.
+I only feel compelled to write a blog post when I feel like I *have* to write it— when I *must* write it.
 
 ## Part zero
 
