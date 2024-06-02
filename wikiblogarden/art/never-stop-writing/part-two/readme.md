@@ -4,7 +4,7 @@ If I write "part one" to a blog post, I lose all motivation to write "part two".
 
 ## Part one
 
-This is very frustrating because it leaves me with lots of unanswered questions and unfinished efforts. Let's look at some abandoned blog post series: 
+This is very frustrating because it leaves me with lots of unanswered questions and unfinished thoughts. Let's look at some abandoned blog post series: 
 
 - [The bite](https://www.todepond.com/wikiblogarden/research/bite/)
 - [Repetition](https://www.todepond.com/wikiblogarden/repetition/)
