@@ -19,7 +19,7 @@ I only feel compelled to write a blog post when I feel like I *have* to write it
 
 I'm not too concerned, because I'm happy to play the long long game. I've always thought that "It doesn't matter how slow I am as long as I [never stop](https://www.todepond.com/wikiblogarden/art/never-stop-writing/)." [^why]
 
-There are lots of things in life that I'm bad at. Like words[^words] and writing[^writing] and getting to part two[^two]. But I do know that I'm good at being patient— I'm more patient than you! And I'm stubborn. I'm very very very very very stubborn. If I said I'll write part two, I *will* write part two. I'll do it when I'm ready. 
+There are lots of things in life that I'm bad at. Like words[^words] and writing[^writing] and getting to part two[^two]. But I do know that I'm good at being patient— I'm more patient than you! And I'm stubborn. I'm very very very very very stubborn. If I said I'll write part two, then *I will write part two*. I'll do it when I'm ready.
 
 <br>
 
