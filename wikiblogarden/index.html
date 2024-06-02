@@ -69,6 +69,11 @@
 
   #new-section {
     animation: fade-in 2s;
+    /* height: 0%; */
+    /* transition: transform 5s; */
+    /* transform: scaleY(0); */
+    /* overflow: hidden; */
+    /* transform-origin: top left; */
   }
 
   main {
@@ -76,6 +81,110 @@
     animation: fade-in 5s;
   }
 </style>
+<script type="module">
+  // const newLoading = document.querySelector("#new-loading");
+  const newSection = document.querySelector("#new-section ul");
+
+  const getCurrentFeed = async () => {
+    const response = await fetch("/feed/index.xml");
+    const feed = await response.text();
+    const parser = new DOMParser();
+    localStorage.setItem("wikiblogarden-feed", feed);
+    const document = parser.parseFromString(feed, "application/xml");
+    return document;
+  };
+
+  const getLocalFeed = () => {
+    const feed = localStorage.getItem("wikiblogarden-feed");
+    if (feed) {
+      const parser = new DOMParser();
+      const document = parser.parseFromString(feed, "application/xml");
+      return document;
+    }
+  };
+
+  const parseItems = (document) => {
+    const items = document.querySelectorAll("item");
+    const parsedItems = Array.from(items).map((item) => {
+      const title = item.querySelector("title").textContent;
+      const link = item.querySelector("link").textContent;
+      const description = item.querySelector("description").textContent;
+      const pubDate = item.querySelector("pubDate").textContent;
+      return { title, link, description, pubDate };
+    });
+    return parsedItems;
+  };
+
+  function normaliseUrl(url) {
+    url = url.toLowerCase();
+    url = url.replace("localhost:4507", "");
+    url = url.replace("todepond.com", "");
+    url = url.replace("https://", "");
+    url = url.replace("http://", "");
+    url = url.replace("www.", "");
+    if (url.length > 1 && url[url.length - 1] === "/") {
+      url = url.slice(0, -1);
+    }
+    return url;
+  }
+
+  function getCurrentUrlsOnPage() {
+    const urls = [];
+    for (const a of document.querySelectorAll("a")) {
+      const href = normaliseUrl(a.href);
+      urls.push(href);
+    }
+    return urls;
+  }
+
+  function renderItems(items) {
+    const currentUrls = getCurrentUrlsOnPage();
+    // newLoading.remove();
+    const footer = document.createElement("li");
+    footer.append("oh no I have so many unorganised posts");
+    newSection.append(footer);
+    for (const item of items) {
+      const normalisedLink = normaliseUrl(item.link);
+      if (currentUrls.includes(normalisedLink)) {
+        continue;
+      }
+      const template = document.querySelector("#new-item-template");
+      const clone = template.content.cloneNode(true);
+      const a = clone.querySelector("a");
+      a.href = item.link;
+      a.textContent = item.title;
+      newSection.appendChild(clone);
+    }
+  }
+
+  const localFeed = getLocalFeed();
+  if (localFeed) {
+    const parsedItems = parseItems(localFeed);
+    renderItems(
+      parsedItems.sort((a, b) => {
+        const aDate = new Date(a.pubDate);
+        const bDate = new Date(b.pubDate);
+        return bDate - aDate;
+      })
+    );
+    // document.querySelector("#new-section").style.transform = "scaleY(1)";
+    // newSection.style.height = "100%";
+    // console.log("Loaded from cache");
+  }
+
+  const parsedItems = parseItems(await getCurrentFeed());
+  renderItems(
+    parsedItems.sort((a, b) => {
+      const aDate = new Date(a.pubDate);
+      const bDate = new Date(b.pubDate);
+      return bDate - aDate;
+    })
+  );
+
+  if (!localFeed) {
+    // document.querySelector("#new-section").style.height = "100%";
+  }
+</script>
 
 <h1 id="wikiblogarden-home">Wikiblogarden</h1>
 
@@ -84,7 +193,8 @@
 <ul>
   <li>Check the <a href="/feed">feed</a> every day for new stuff.</li>
   <li>Or you can <a href="/feed?search">search</a> through posts.</li>
-  <li>I organise the contents below every now and then.</li>
+  <li>Or see my <a href="/analytics/">top posts</a>.</li>
+  <li>I organise the contents below every pretty much NEVER sorry.</li>
 </ul>
 
 <section id="new-section">
@@ -105,82 +215,6 @@
 <!-- <p id="new-loading" class="secondary">Loading...</p> -->
 
 <main>
-  <script type="module">
-    // const newLoading = document.querySelector("#new-loading");
-    const newSection = document.querySelector("#new-section ul");
-
-    const getCurrentFeed = async () => {
-      const response = await fetch("/feed/index.xml");
-      const feed = await response.text();
-      const parser = new DOMParser();
-      const document = parser.parseFromString(feed, "application/xml");
-      return document;
-    };
-
-    const parseItems = (document) => {
-      const items = document.querySelectorAll("item");
-      const parsedItems = Array.from(items).map((item) => {
-        const title = item.querySelector("title").textContent;
-        const link = item.querySelector("link").textContent;
-        const description = item.querySelector("description").textContent;
-        const pubDate = item.querySelector("pubDate").textContent;
-        return { title, link, description, pubDate };
-      });
-      return parsedItems;
-    };
-
-    function normaliseUrl(url) {
-      url = url.toLowerCase();
-      url = url.replace("localhost:4507", "");
-      url = url.replace("todepond.com", "");
-      url = url.replace("https://", "");
-      url = url.replace("http://", "");
-      url = url.replace("www.", "");
-      if (url.length > 1 && url[url.length - 1] === "/") {
-        url = url.slice(0, -1);
-      }
-      return url;
-    }
-
-    function getCurrentUrlsOnPage() {
-      const urls = [];
-      for (const a of document.querySelectorAll("a")) {
-        const href = normaliseUrl(a.href);
-        urls.push(href);
-      }
-      return urls;
-    }
-
-    function renderItems(items) {
-      const currentUrls = getCurrentUrlsOnPage();
-      // newLoading.remove();
-      const footer = document.createElement("li");
-      footer.append("oh no I have so many unorganised posts");
-      newSection.append(footer);
-      for (const item of items) {
-        const normalisedLink = normaliseUrl(item.link);
-        if (currentUrls.includes(normalisedLink)) {
-          continue;
-        }
-        const template = document.querySelector("#new-item-template");
-        const clone = template.content.cloneNode(true);
-        const a = clone.querySelector("a");
-        a.href = item.link;
-        a.textContent = item.title;
-        newSection.appendChild(clone);
-      }
-    }
-
-    const parsedItems = parseItems(await getCurrentFeed());
-    renderItems(
-      parsedItems.sort((a, b) => {
-        const aDate = new Date(a.pubDate);
-        const bDate = new Date(b.pubDate);
-        return bDate - aDate;
-      })
-    );
-  </script>
-
   <h2 id="topics">Topics</h2>
 
   <h3 id="primary-call-to-action">Primary call to action</h3>
