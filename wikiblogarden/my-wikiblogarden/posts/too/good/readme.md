@@ -6,7 +6,7 @@ I mean I still suck, I suck really bad at writing, still really hard, but I dunn
 
 When I'm writing shit, I get the urge to make it good so that it'll have an impact on the reader. But to be honest, it sometimes ends up losing all of its impact when I do that. It sounds contradictory, right? Or it doesn't, I don't know
 
-It's like people are so starved for—
+It's like people are so—
 
 I think people want to get a genuine—
 
