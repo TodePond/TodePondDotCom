@@ -1,0 +1,106 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  body {
+    /* font-family: "Inter", sans-serif; */
+    margin: 0;
+    padding: 0;
+    /* background-color: #f5f5f5; */
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #input {
+    width: 100%;
+    border: none;
+    resize: none;
+    width: 50%;
+    outline: none;
+  }
+
+  #preview {
+    padding: 0px 1rem;
+    width: 50%;
+  }
+
+  @media (max-width: 700px) {
+    main {
+      flex-direction: column;
+    }
+
+    #input {
+      width: 100%;
+      height: 50%;
+    }
+
+    #preview {
+      width: 100%;
+      height: 50%;
+      overflow-y: auto;
+    }
+  }
+</style>
+
+<main>
+  <textarea id="input"></textarea>
+  <div id="preview"></div>
+</main>
+
+<script>
+  const input = document.getElementById("input");
+  const preview = document.getElementById("preview");
+
+  function handleInput() {
+    preview.innerHTML = input.value;
+    Array.from(preview.querySelectorAll("script")).forEach((oldScriptEl) => {
+      const newScriptEl = document.createElement("script");
+
+      Array.from(oldScriptEl.attributes).forEach((attr) => {
+        newScriptEl.setAttribute(attr.name, attr.value);
+      });
+
+      const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+      newScriptEl.appendChild(scriptText);
+
+      oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+    });
+  }
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Tab") {
+      e.preventDefault();
+      const start = input.selectionStart;
+      const end = input.selectionEnd;
+      input.value =
+        input.value.substring(0, start) + " " + input.value.substring(end);
+      input.selectionStart = input.selectionEnd = start + 1;
+    }
+  });
+
+  input.addEventListener("input", handleInput);
+  input.value = `<h1>My app</h1>
+<p>Hello, world!</p>`;
+  handleInput();
+</script>
