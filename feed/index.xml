@@ -5,6 +5,13 @@
       <link>http://www.todepond.com/</link>
       <description>place for todes - ribbits aplenty</description>
   		<item>
+    			<title>Modernism</title>
+    			<pubDate>Sun, 02 Jun 2024 23:26:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/meta/narrative/modernism</link>
+    			<guid>https://www.todepond.com/wikiblogarden/meta/narrative/modernism</guid>
+    			<description>Modernism sucks.</description>
+    		</item>
+		<item>
     			<title>I am going to die</title>
     			<pubDate>Sat, 01 Jun 2024 08:08:00 GMT</pubDate>
     			<link>https://www.todepond.com/wikiblogarden/sayings/i-am-going-to-die/</link>
@@ -1214,6 +1221,13 @@
     			<link>https://www.todepond.com/wikiblogarden/art/never-stop-writing/part-two</link>
     			<guid>https://www.todepond.com/wikiblogarden/art/never-stop-writing/part-two</guid>
     			<description>If I write "part one" to a blog post, I lose all motivation to write "part two".</description>
+    		</item>
+		<item>
+    			<title>I am getting too good at writing</title>
+    			<pubDate>Wed, 05 Jun 2024 17:45:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/too/good</link>
+    			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/too/good</guid>
+    			<description>I mean I still suck.</description>
     		</item>
     </channel>
   </rss>
