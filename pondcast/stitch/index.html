@@ -90,6 +90,14 @@
     /* box-shadow: none; */
   }
 
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
   body {
     /* min-height: 300%; */
   }
@@ -103,7 +111,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    outline: 2px solid rgba(159, 174, 238, 0.05);
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
   }
 
   body:has(> details[open]) {
@@ -129,16 +137,18 @@
     /* font-weight: normal; */
     /* text-decoration: underline; */
     text-align: center;
-    background-color: var(--shade-1);
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
     /* outline: 1px solid white; */
-    outline: 2px solid rgba(159, 174, 238, 0.05);
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
     /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
     /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
     /* backdrop-filter: brightness(60%); */
   }
 
   img {
-    outline: 2px solid rgba(159, 174, 238, 0.1);
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
   }
 
   audio {
@@ -220,7 +230,7 @@
       position: absolute;
       left: 0px;
       right: 0px;
-      outline: 2px solid rgba(159, 174, 238, 0.1);
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
       /* background-color: var(--best-colour); */
     " />
 
@@ -254,6 +264,176 @@
   <p>What's new this week?</p>
 
   <h2>Stitch</h2>
+
+  <p>
+    This week, I’ve been working on the first exhibition for
+    <a href="https://tornleaf.gallery">Torn Leaf</a>, my silly online gallery.
+    The submissions have been truly wonderful. There’s a nice mix now, but
+    there’s still room for some last minute entries. Submit now, or later, if
+    you want to get involved.
+  </p>
+
+  <p>
+    My job has been deciding how to order the different pieces of the
+    exhibition. I’m picking what goes first, and what goes last, and which ones
+    to group together. It’s been really nice to think through what goes with
+    what, and what clashes in an enjoyable way. I’m trying to make every piece
+    shine and sing for what it is.
+  </p>
+
+  <p>
+    In preparation for the exhibition, I’ve been setting up and testing some
+    infrastructure for being able to stream long videos — some of the pieces are
+    quite long, and can be played on a loop. Some videos are locked to the
+    global time, so that every visitor is watching the same part at the same
+    time. Some videos can be played manually, and should be watched from start
+    to finish. And of course, many submissions are not videos themselves — some
+    are image-based, some are coded, and one piece is a single very very short
+    sound.
+  </p>
+
+  <p>
+    I’m also setting it up so that… if you click a submitter’s photo (ie: their
+    face), then they <em>talk</em> to you. It’ll play their pre-recorded
+    message.
+  </p>
+
+  <p>
+    I am slightly feeling the pressure to make this into something good, but I’m
+    liking the feeling of where it’s going. And I want to get the ball rolling
+    on Torn Leaf… to lead the way into further exhibitions, where I hope I can
+    get more people involved in the organising of it.
+  </p>
+
+  <h2>Seet or Arroost</h2>
+
+  <p>
+    I’ve been writing more of my Seet write-up (it’s a bit of research I did on
+    being able to see the program that you’re coding). However… I’ve paused work
+    on it. It’s more important that I work on my
+    <a href="https://arroost.com">Arroost</a> submission for
+    <a href="https://2024.splashcon.org/home/live-2024">LIVE / SPLASH</a>, and I
+    don’t want to rush out the Seet stuff. It’s worth doing properly, I think.
+  </p>
+
+  <p>
+    Besides, it’s been long enough since I started work on Arroost now. I’ve
+    been riffing on the submission title a little bit… It’s gone through various
+    iterations like “Creativity The Hard Way”, “The Long Way”, “Creating
+    Creativity”, “Unblocking Creativity” and I like none of them. They’re all
+    really cheesy, and don’t really capture any intrigue. I did have “Normalise
+    Sharing Scrappy Fiddles” but that’s more suitable for an artistic
+    presentation of Arroost, and I
+    <a href="https://www.youtube.com/watch?v=cF2OF75ivZM">already did that</a>.
+  </p>
+
+  <p>
+    I’ve been trying to figure out what order to present things in (in the
+    submission). I want to give the historical context of musical tools, and the
+    creative tools out there that inspired me. And I do need to show how it’s
+    all linked to live programming, because that’s what the conference is
+    actually about. To me, it clearly is, but sometimes are people funny with
+    creative tools. Because they’re boring.
+  </p>
+
+  <h2>Miniature Lab</h2>
+
+  <p>
+    I’m also devising my presentation about the
+    <a href="https://tadiweb.com">tadi web</a>, which will demonstrate some of
+    my <a href="https://todepond.com/lab">lab experiments</a>.
+  </p>
+
+  <p>
+    Again, I’m figuring out how to introduce the project— how to explain the
+    tadi web, which has so far just been an odd thing that I sometimes talk
+    about on <a href="https://mas.to/@TodePond">mastodon</a>. But in this case,
+    I think it’s ok to keep it simple and mysterious. I think that I can just
+    show the demos, and let people wonder what it’s all about, similar to the
+    <a href="https://www.youtube.com/watch?v=cF2OF75ivZM"
+      >Normalise Sharing Scrappy Fiddles</a
+    >
+    presentation.
+  </p>
+
+  <p>
+    I think the most entertaining parts of the demo could be the
+    <a href="https://todepond.com/lab/tool">Tool</a> one and the
+    <a href="https://todepond.com/lab/polar">Polar</a> one and also the
+    <a href="https://drawdeadfish.com">Fish</a> one. And I think they could
+    contrast quite well with some of the more texty ones, including the recent
+    <a href="https://todepond.com/lab/locker">Locker</a> and
+    <a href="https://todepond.com/lab/leave">Leave</a> experiments, which saw
+    quite a lot of users!
+  </p>
+
+  <h2>Magritte</h2>
+
+  <p>
+    I gave a mini art history lesson in the middle of most recent
+    <a href="https://futureofcoding.org/episodes/071">Elephant episode</a> of
+    the
+    <a href="https://futureofcoding.org/episodes/">future of code podcast</a>.
+    This week, I’ve been converting it into video format, adding images, and
+    symbols, and stuff… to match the audio. I think it’ll turn into a fun
+    mini-bonus-episode, and I hope it can get put on the future of coding
+    youtube channel or something.
+  </p>
+
+  <h2>Conditional</h2>
+
+  <p>
+    Our
+    <a
+      href="https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/"
+      >submission</a
+    >
+    for
+    <a href="https://2024.splashcon.org/track/splash-2024-Onward-Essays"
+      >Onward Essays</a
+    >
+    got CONDITIONALLY ACCEPTED, which is really nice. As always with my work,
+    feedback was mixed, and none of the reviewers really understood it. They did
+    all say that they enjoyed reading it, and it even kept one of them up at
+    night. But the third reviewer was overally quite negative about the thing,
+    and so we now have to make some edits based on what they said.
+  </p>
+
+  <p>
+    A ‘shepherd’ has volunteered to help us with next steps! And we got a
+    friendly email from them. It’s the person who was up at night thinking about
+    the essay! So it can’t be that bad.
+  </p>
+
+  <p>
+    I’ve been speaking with
+    <a href="https://www.cs.unm.edu/~ackley/">Dave</a> about our next steps (by
+    steps).
+  </p>
+
+  <h2>Sand sand sand sand sand</h2>
+
+  <p>
+    Meanwhile, I’m also working on the next video… Top 99 Ways To Make Sand. And
+    I’m doing more writing and figuring out on how it leads into the following
+    video — which will be the first video <em>after</em> the
+    <a
+      href="https://www.youtube.com/playlist?app=desktop&amp;list=PL9uRa69RF-7wCDlX55WjK7-gEb9nb3UPm"
+      >Sleeping Tode Trilogy</a
+    >
+    — the start of the next series. I hope you appreciate how many spoilers I’m
+    keeping to myself. It’s one of the things that motivates me on — I want to
+    get them out.
+  </p>
+
+  <p>
+    <strong
+      >Hey hey, thank you very much for continuing to support me and my
+      projects! (all of them)! And welcome to all the new people this week.
+      Welcome to the pond! I hope you’re all doing well… wherever you are in the
+      world… whatever you’re doing… I hope you have a great week.</strong
+    >
+  </p>
 
   <em>Days since tode fell asleep: 520</em><br />
   <em>Days since bot went missing: 485</em><br />
