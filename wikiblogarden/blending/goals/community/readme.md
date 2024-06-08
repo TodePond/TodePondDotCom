@@ -48,9 +48,9 @@ So you sometimes have to build a thing that serves a "use case", but the goal is
 
 Sometimes people told me, "oh— well— if it ends up becoming useful, that's great too, and maybe that might happen one day". But I am deeply skeptical of genuinely useful products getting built by researchers. For me, it doesn't align at all with what a researcher does. 
 
-A researcher explores the unexplored, usually part of a tiny team, and they simply don't have the time or money or resources to SMASH BUGS, improve compatibility with different devices, or smooth out usability issues. That part isn't rocket science. There isn't a magical wand you can wave to solve accessibility, or any of these concerns. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) takes TIME and HARD WORK. Don't let anyone tell you otherwise. 
+A researcher explores the unexplored, usually part of a tiny team, and they simply don't have the time or money or resources to SMASH BUGS, improve compatibility with different devices, or smooth out usability issues. That part isn't rocket science. There isn't a magical wand you can wave to solve accessibility, or any of these concerns. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) takes TIME and HARD WORK.
 
-Why do you think [tldraw](https://tldraw.com) works so well? It has a lot of research-y work backing it up, and it ALSO has the thousands and thousands of hours we've all spent on SMASHING BUGS. I can pick up any canvas app and point you to a bug within the first 60 seconds— I promise you. Seriously, if you ever see me in person, you can ask me to do it. Any canvas app, I promise.
+Why do you think [tldraw](https://tldraw.com) works so well? It has a lot of research work backing it up its design and decisions, and it ALSO has the thousands and thousands of hours we've all spent on SMASHING BUGS and making it work for different devices and users. I can pick up any canvas app and point you to a bug within the first 60 seconds— I promise you. Seriously, if you ever see me in person, you can ask me to do it. Any canvas app, I promise.
 
 I would argue that a researcher *shouldn't* be spending time on SMASHING BUGS or improving usability. There's simply not enough money in resources. To solve those issues, I think you have two potential options: 
 
