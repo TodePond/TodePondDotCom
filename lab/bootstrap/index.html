@@ -1,0 +1,44 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<script type="module">
+  window.lt = "&lt;";
+  window.gt = "&gt;";
+</script>
+<link rel="stylesheet" href="/style.css" />
+<style>
+  textarea {
+    height: 500px;
+  }
+</style>
+
+<h1>Bootstrap</h1>
+<p>Edit the code inside the code. Warning: flickering.</p>
+<textarea></textarea>
+<script type="module">
+  const textarea = document.querySelector("textarea");
+  textarea.value = window.source ?? document.body.innerHTML;
+  textarea.focus();
+  textarea.selectionStart = window.selectionStart ?? textarea.value.length;
+  textarea.selectionEnd = textarea.selectionStart;
+  textarea.addEventListener("input", () => {
+    window.source = textarea.value;
+    window.selectionStart = textarea.selectionStart;
+    document.body.innerHTML = source;
+    document.body.querySelectorAll("script").forEach((script) => {
+      const newScript = document.createElement("script");
+      Array.from(script.attributes).forEach((attr) => {
+        newScript.setAttribute(attr.name, attr.value);
+      });
+      newScript.text = script.text;
+      script.parentNode.replaceChild(newScript, script);
+    });
+  });
+</script>
