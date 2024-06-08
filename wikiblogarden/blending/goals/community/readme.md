@@ -50,9 +50,9 @@ Sometimes people told me, "oh— well— if it ends up becoming useful, that's g
 
 A researcher explores the unexplored, usually part of a tiny team, and they simply don't have the time or money or resources to SMASH BUGS, improve compatibility with different devices, or smooth out usability issues. That part isn't rocket science. There isn't a magical wand you can wave to solve accessibility, or any of these concerns. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) takes TIME and HARD WORK.
 
-Why do you think [tldraw](https://tldraw.com) works so well? It has a lot of research work backing it up its design and decisions, and it ALSO has the thousands and thousands of hours we've all spent on SMASHING BUGS and making it work for different devices and users. I can pick up any canvas app and point you to a bug within the first 60 seconds— I promise you. Seriously, if you ever see me in person, you can ask me to do it. Any canvas app, I promise.
+Why do you think [tldraw](https://tldraw.com) works so well? Sure, it has a lot of experimental research work backing up its design and decisions. But it ALSO has the thousands and thousands of hours we've all spent on SMASHING BUGS in it, and making it work well for different devices and users.
 
-I would argue that a researcher *shouldn't* be spending time on SMASHING BUGS or improving usability. There's simply not enough money in resources. To solve those issues, I think you have two potential options: 
+I would argue that a researcher *shouldn't* be spending time on SMASHING BUGS or improving usability. There's simply not enough money or resources. To solve those issues, I think you have two potential options: 
 
 - Raise millions of dollars.
 - Build a community.
@@ -61,9 +61,9 @@ I don't see *many* researchers do those things. But I have seen some of them do 
 
 ## Potentially useful
 
-No. Of course, most people I spoke to are not trying to make something that's *actually* useful, but they are trying to make something that could be potentially useful to a real world "use case".
+No. Of course, most people I spoke to are not trying to make something that's *actually* useful, but they are trying to make something that could be *potentially* useful to a real world "use case".
 
-It seems like a large part of their work is drawing the lines between their work and a "use case". This link needs to be clear, and it needs to be talked about a lot. Sometimes, the research will be started by identifying a "use case", and then basing investigations around that. 
+It seems like a large part of their work is drawing lines between their work and a "use case". This link needs to be clear, and it needs to be talked about a lot. Sometimes, a research project gets initiated by identifying a "use case", and then basing all investigations around that. 
 
 I think this is really stupid.
 
@@ -73,11 +73,11 @@ In my opinion, starting with a use case leads to less useful inventions than sta
 
 ## Maybe useful
 
-It's like there's an element of shame, of defence. Researchers feel like they *need* to point to real world use cases— to justify their work's existence, perhaps to their boss— to their employer— to their financier. This chain happens all the way up to the top. This "top down" mindset gets passed down in a "top down" way. 
+It's like there's an element of shame, of defence. Researchers feel like they *need* to point to real world use cases— to justify their work's existence, perhaps to their boss— to their employer— to their financier or whatever. You can follow this chain all the way up to the top. This "top down" mindset gets passed down in a "top down" way (no surprises there).
 
 I do wonder what it would take to convince some money-men to adopt a "bottom up" approach. 
 
-Or I wonder if a "bottom up" community-funded approach is remotely possible, or perhaps not. 
+Or I wonder if a "bottom up" community-funded approach is remotely possible, or perhaps not. I mean, there are a few [nice](https://andymatuschak.org/) [examples](https://obenauer.com/) of this being attempted and it seems to be working(?) but I don't know how it works in practice.
 
 ## Not useful
 
@@ -89,7 +89,7 @@ Some people did say that they care less about "use case". When a person is doing
 
 Are some of the reasons I heard.
 
-And in my opinion, these people are often doing the most closed-off and secretive research. They've locked themselves in a room for months on end, lying to themselves that they'll be able to figure it all out by themselves, or they'll release their new website next month (for real this time).
+And in my opinion, these people are often doing the most closed-off and secretive research. They've locked themselves in a room for months on end, lying to themselves that they'll be able to figure it all out by themselves, or they'll release their [new website next month](https://x.com/worrydream/status/1753116042254340526) (for real this time).
 
 Keeping your research secret or closed-source is very stupid, in my opinion. If you're working with brand new primitives for computing or interaction or whatever, you NEED PEOPLE TO USE IT while you're still building it. You need HUNDREDS if not THOUSANDS of people to use your thing. Let them play with it, let them poke it, let them break it and fork it, let them SEE IT. 
 
