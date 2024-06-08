@@ -103,15 +103,13 @@ Some people *did* say that they're "solving hard problems", but it was only a se
 
 So solving hard problems is a "must" for some people. You need to fill your quota— to pay your dues, so that people take you seriously. In this case, the real goal is still to "influence people" of course. And you're doing it by "solving hard problems".
 
-Some people did identify their "problem solving" work as being needed though, beyond just "influencing people". Perhaps there's some blocker that's stopping people from engaging in your work, or joining your movement... maybe you can figure out how to solve that blocker.
-
-> Bleugh I know this sounds abstract, but I'm trying to keep everything anonymous/general. [Contact me](/) if you want to know more specifics about any of this.
+Some people did identify their "problem solving" work as being needed though, beyond just "influencing people". Perhaps there's some blocker that's stopping people from engaging with your work, or joining your movement... maybe you can figure out how to solve that blocker.
 
 And of course, the biggest reason why researchers "solve hard problems":
 
 ## Fun
 
-A lot of people "solve hard problems" because it's fun. This includes people within research jobs, as well as former researchers, temporarily "funemployed" as some people self-describe themselves. I guess their still researchers— they're between-jobs-researchers.
+A lot of people "solve hard problems" because it's fun. This includes people within research jobs, as well as former researchers, temporarily "funemployed" (as some people self-describe). I guess they're still researchers though— they're between-jobs-researchers.
 
 I mean, it's fun. I do think that research can be more impactful if it comes from a place of fun. Whatever you might think of them, *researchers are people too* and your work is more likely to impact them if they find it fun.
 
@@ -119,17 +117,19 @@ And maybe that's when you'll do your best work too— if you're having fun, you'
 
 ## Who to influence
 
-Any point that came up was: Who are you trying to influence?
+Another point that came up was: Who are you trying to influence?
 
 Some researchers said they want to influence other researchers. Some said they want to influence industry. No one said they want to influence the general public.
+
+I have a fun answer to this. (keep reading)
 
 ## Building community
 
 One answer I got this week, which prompted me to wrap up my findings and write this blog post: 
 
-"Building community" is what they try to do with their research. 
+"Building community" is what they're trying to do with their research. 
 
-I mean, at first, I wondered if that falls under the "influencing people" category. But no, I don't think it is, because it might not involve any influencing at all. Or, in fact, you might end up getting informed by other people instead (in a good way of course).
+I mean, at first, I wondered if that falls under the "influencing people" category. But no, I don't think it does, because it might not involve any influencing at all. Or, in fact, you might end up getting influenced by other people instead (in a good way).
 
 This answer really resonates with me, and I think I've finally figured out what my answer is. 
 
@@ -139,7 +139,9 @@ My answer is...
 
 ## My answer 
 
-Tune in next time to hear my answer! and also some blind-spots I identified. Subscribe to my [feed](/feed) or see all my posts by going...
+Tune in next time to hear my answer! Subscribe to my [feed](/feed) or see all my posts by going...
+
+by going...
 
 <br>
 
