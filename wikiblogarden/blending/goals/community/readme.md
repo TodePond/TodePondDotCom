@@ -91,7 +91,7 @@ Are some of the reasons I heard.
 
 And in my opinion, these people are often doing the most closed-off and secretive research. They've locked themselves in a room for months on end, lying to themselves that they'll be able to figure it all out by themselves, or with a small secretive group, or they'll release their [new website next month](https://x.com/worrydream/status/1753116042254340526) (for real this time).
 
-Keeping your research secret or closed-source is very stupid, in my opinion. If you're working with brand new primitives for computing or interaction or whatever, you NEED THE PUBLIC TO USE IT while you're still building it. You need HUNDREDS if not THOUSANDS of people to use your thing. Let them play with it, let them poke it, let them break it and fork it, let them see it. 
+Keeping your research secret or closed-source is very stupid, in my opinion. If you're working with brand new primitives for computing or interaction or whatever, you need the public to use it while you're still building it. You need  hundreds, if not thousands, of people to use your thing. Let them play with it, let them poke it, let them break it and fork it, let them see it. 
 
 Share your scrappy fiddles! This is especially useful if you're in uncharted territory, without a clear use case in mind. Who knows what your thing will be used for?
 
@@ -99,7 +99,7 @@ And if the goal is to "influence people", there is far too much time spent on th
 
 ## Solving problems
 
-Some people *did* say that they're "solving hard problems", but it was only a secondary goal. Quite a common response was that people felt ashamed to *just* be "influencing people", often liking it to being an internet influencer or something. 
+Some people *did* say that they're "solving hard problems", but it was only a secondary goal. Quite a common response was that people felt ashamed to *just* be "influencing people", often likening it to being an internet influencer or something. 
 
 So solving hard problems is a "must" for some people. You need to fill your quota— to pay your dues, so that people take you seriously. In this case, the real goal is still to "influence people" of course. And you're doing it by "solving hard problems".
 
