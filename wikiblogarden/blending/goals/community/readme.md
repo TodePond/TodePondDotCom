@@ -4,7 +4,7 @@ Over the past six months I've been asking lots of researchers the same questionâ
 
 ## The question 
 
-> Is your work about "influencing people" or is about "solving hard problems"?
+> Is your work about "influencing people" or is it about "solving hard problems"?
 
 Like an either-or question. And then I give them permission to reject the question, or to answer in their own way. 
 
