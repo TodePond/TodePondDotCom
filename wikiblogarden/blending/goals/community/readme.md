@@ -42,7 +42,7 @@ In computing research, there's often a question of real world "use case". ie: Do
 
 And I thought that "use case" would be closely tied to the "solving hard problems" goal. But no, lots of people told me that "real world use case" was tied to "influencing people". In order to influence people, "you need to demonstrate how this supports a real world use case". 
 
-So you sometimes have to build a thing that is actually useful, but the goal is not for people to use it. The goal is to "influence people".
+So you sometimes have to build a thing that serves a "use case", but the goal is not for people to actually use it. The goal is still to "influence people".
 
 ## Actually useful
 
@@ -79,7 +79,7 @@ I do wonder what it would take to convince some money-men to adopt a "bottom up"
 
 Or I wonder if a "bottom up" community-funded approach is remotely possible, or perhaps not. 
 
-## The non-use-casers
+## Not useful
 
 Some people did say that they care less about "use case". When a person is doing more transformative work, such as making a new paradigm of computer interaction— or working on the forefront of current technologies— When a person is working on more primitive— abstract work, then they care less about direct connection to a "use case".
 
@@ -95,9 +95,11 @@ Keeping your research secret or closed-source is very stupid, in my opinion. If 
 
 Share your scrappy fiddles! This is especially useful if you're in uncharted territory, without a clear use case in mind. Who knows what your thing will be used for?
 
+And if the goal is to "influence people", there is far too much time spent on the prototyping the thing, and far too little spent on prototyping the communications.
+
 ## Solving problems
 
-Some people *did* say that they're "solving hard problems", but it was often as a secondary point. Quite a common response was that people felt ashamed to *just* be "influencing people", often liking it to being an internet influencer or something. 
+Some people *did* say that they're "solving hard problems", but it was only a secondary goal. Quite a common response was that people felt ashamed to *just* be "influencing people", often liking it to being an internet influencer or something. 
 
 So solving hard problems is a "must" for some people. You need to fill your quota— to pay your dues, so that people take you seriously. In this case, the real goal is still to "influence people" of course. And you're doing it by "solving hard problems".
 
