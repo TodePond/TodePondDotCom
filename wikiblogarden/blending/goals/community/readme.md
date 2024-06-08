@@ -14,7 +14,7 @@ Like an either-or question. And then I give them permission to reject the questi
 
 The first thing I notice is that most people say it's a good question, and stop and pause for a second to think (not everyone though). It seems like everyone firmly knows their answer, but they may not have ever talked about it explicitly.
 
-I think people like being asked this kind of meta question, and they like that someone's trying to listen to their perspective— that someone cares enough to ask them what they have to say.
+I think people like being asked this kind of meta question, and they like that someone's trying to listen to their perspective— that someone cares enough to ask them what they have to say. I guess it's a form of flattery.
 
 ## Your answer
 
