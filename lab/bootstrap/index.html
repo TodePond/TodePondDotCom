@@ -15,13 +15,13 @@
 <link rel="stylesheet" href="/style.css" />
 <style>
   textarea {
-    height: 500px;
+    height: 550px;
   }
 </style>
 
 <h1>Bootstrap</h1>
-<p>Edit the code inside the code. Warning: flickering.</p>
-<textarea></textarea>
+<p>Edit the code inside the code.</p>
+<textarea style=""></textarea>
 <script type="module">
   const textarea = document.querySelector("textarea");
   textarea.value = window.source ?? document.body.innerHTML;
@@ -32,6 +32,11 @@
     window.source = textarea.value;
     window.selectionStart = textarea.selectionStart;
     document.body.innerHTML = source;
+    const newTextarea = document.querySelector("textarea");
+    newTextarea.value = window.source;
+    newTextarea.focus();
+    newTextarea.selectionStart = window.selectionStart;
+    newTextarea.selectionEnd = newTextarea.selectionStart;
     document.body.querySelectorAll("script").forEach((script) => {
       const newScript = document.createElement("script");
       Array.from(script.attributes).forEach((attr) => {
