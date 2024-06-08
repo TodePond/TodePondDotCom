@@ -89,9 +89,9 @@ Some people did say that they care less about "use case". When a person is doing
 
 Are some of the reasons I heard.
 
-And in my opinion, these people are often doing the most closed-off and secretive research. They've locked themselves in a room for months on end, lying to themselves that they'll be able to figure it all out by themselves, or they'll release their [new website next month](https://x.com/worrydream/status/1753116042254340526) (for real this time).
+And in my opinion, these people are often doing the most closed-off and secretive research. They've locked themselves in a room for months on end, lying to themselves that they'll be able to figure it all out by themselves, or with a small secretive group, or they'll release their [new website next month](https://x.com/worrydream/status/1753116042254340526) (for real this time).
 
-Keeping your research secret or closed-source is very stupid, in my opinion. If you're working with brand new primitives for computing or interaction or whatever, you NEED PEOPLE TO USE IT while you're still building it. You need HUNDREDS if not THOUSANDS of people to use your thing. Let them play with it, let them poke it, let them break it and fork it, let them SEE IT. 
+Keeping your research secret or closed-source is very stupid, in my opinion. If you're working with brand new primitives for computing or interaction or whatever, you NEED THE PUBLIC TO USE IT while you're still building it. You need HUNDREDS if not THOUSANDS of people to use your thing. Let them play with it, let them poke it, let them break it and fork it, let them see it. 
 
 Share your scrappy fiddles! This is especially useful if you're in uncharted territory, without a clear use case in mind. Who knows what your thing will be used for?
 
@@ -105,15 +105,15 @@ So solving hard problems is a "must" for some people. You need to fill your quot
 
 Some people did identify their "problem solving" work as being needed though, beyond just "influencing people". Perhaps there's some blocker that's stopping people from engaging in your work, or joining your movement... maybe you can figure out how to solve that blocker.
 
-> Bleugh I know this sounds abstract, but I'm trying to keep everything anonymous. [Contact me](/) if you want to know more specifics about any of this.
+> Bleugh I know this sounds abstract, but I'm trying to keep everything anonymous/general. [Contact me](/) if you want to know more specifics about any of this.
 
 And of course, the biggest reason why researchers "solve hard problems":
 
 ## Fun
 
-A lot of people "solve hard problems" because it's fun. This includes people within research jobs, as well as former researchers, temporarily "funemployed". I guess their still researchers— they're between-jobs-researchers.
+A lot of people "solve hard problems" because it's fun. This includes people within research jobs, as well as former researchers, temporarily "funemployed" as some people self-describe themselves. I guess their still researchers— they're between-jobs-researchers.
 
-I mean, it's funny. I do think that research can be more impactful if it comes from a place of fun. Whatever you might think of them, *researchers are people too* and your work is more likely to impact them if it's fun.
+I mean, it's fun. I do think that research can be more impactful if it comes from a place of fun. Whatever you might think of them, *researchers are people too* and your work is more likely to impact them if they find it fun.
 
 And maybe that's when you'll do your best work too— if you're having fun, you'll be more motivated to read that extra paper— build that extra prototype— speak to that extra person— go the extra mile.
 
