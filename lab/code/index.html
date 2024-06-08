@@ -38,6 +38,7 @@
     resize: none;
     width: 50%;
     outline: none;
+    tab-size: 4;
   }
 
   #preview {
@@ -91,16 +92,45 @@
   input.addEventListener("keydown", (e) => {
     if (e.key === "Tab") {
       e.preventDefault();
-      const start = input.selectionStart;
-      const end = input.selectionEnd;
-      input.value =
-        input.value.substring(0, start) + " " + input.value.substring(end);
-      input.selectionStart = input.selectionEnd = start + 1;
+      document.execCommand?.("insertText", false, "\t");
     }
   });
 
   input.addEventListener("input", handleInput);
   input.value = `<h1>My app</h1>
-<p>Hello, world!</p>`;
+<p>Hello, world!</p>
+
+<button>Count: <span id="count">0</span></button>
+
+<script type="module">
+	let count = parseInt(localStorage.getItem("lab/code?count"))
+	if (isNaN(count)) {
+		count = 0
+		localStorage.setItem("lab/code?count", 0)
+	}
+	
+	const countElement = document.querySelector("#count")
+	countElement.textContent = count
+
+	const button = document.querySelector("button")
+	button.addEventListener("click", () => {
+		count++
+		localStorage.setItem("lab/code?count", count)
+		countElement.textContent = count
+	})
+<\/script>
+
+<p class="slippy">Normalise sharing scrappy fiddles</p>
+
+<style>
+	.slippy {
+		transform: rotate(-5deg);
+	}
+</style>
+
+<br/>
+<br/>
+
+<p>Back to the <a href="/lab">lab</a></p>`;
   handleInput();
 </script>
