@@ -40,7 +40,7 @@ One interesting point for me was "use case".
 
 In computing research, there's often a question of real world "use case". ie: Does the thing you're building have a real world use case? or is it a real-world-useful-thing itself?
 
-And I thought that "use case" would be closely tied to the "solving hard problems" goal. But no, lots of people told me that "real world use case" was tied to "influencing people". In order to influence people, "you need to demonstrate how this provides a real world use case". 
+And I thought that "use case" would be closely tied to the "solving hard problems" goal. But no, lots of people told me that "real world use case" was tied to "influencing people". In order to influence people, "you need to demonstrate how this supports a real world use case". 
 
 So you sometimes have to build a thing that is actually useful, but the goal is not for people to use it. The goal is to "influence people".
 
