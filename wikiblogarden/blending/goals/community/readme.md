@@ -38,7 +38,7 @@ Nearly everyone I spoke to is "influencing people". Their work and research is s
 
 One interesting point for me was "use case".
 
-In computing research, there's often a question of real world "use case". ie: Does the thing you're building have a real world use case? or a real-world-useful-thing itself? or not?
+In computing research, there's often a question of real world "use case". ie: Does the thing you're building have a real world use case? or is it a real-world-useful-thing itself? or not?
 
 And I thought that "use case" would be closely tied to the "solving hard problems" goal. But no, lots of people told me that "real world use case" was tied to "influencing people". In order to influence people, "you need to demonstrate how this supports a real world use case". 
 
