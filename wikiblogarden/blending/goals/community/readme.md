@@ -50,7 +50,7 @@ Sometimes people told me, "oh— well— if it ends up becoming useful, that's g
 
 A researcher explores the unexplored, usually part of a tiny team, and they simply don't have the time or money or resources to SMASH BUGS, improve compatibility with different devices, or smooth out usability issues. That part isn't rocket science. There isn't a magical wand you can wave to solve accessibility, or any of these concerns. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) takes TIME and HARD WORK.
 
-Why do you think [tldraw](https://tldraw.com) works so well? Sure, it has a lot of experimental research work backing up its design and decisions. But it ALSO has the thousands and thousands of hours we've all spent on SMASHING BUGS in it, and making it work well for different devices and users.
+Why do you think [tldraw](https://tldraw.com) works so well? Sure, it has a lot of experimental research work backing up its design and decisions. But it also has the thousands and thousands of hours we've all spent on SMASHING BUGS in it, and making it work well for different devices and users.
 
 I would argue that a researcher *shouldn't* be spending time on SMASHING BUGS or improving usability. There's simply not enough money or resources. To solve those issues, I think you have two potential options: 
 
