@@ -31,9 +31,8 @@ Oops I said it already.
 Nearly everyone I spoke to is "influencing people". Their work and research is supposed to impact the field, with various goals. Here are some examples: 
 
 - Show a better way of doing things. 
-- Drawing more people into that field. 
-- Demonstrating that something is good. 
-- Demonstrating that something is bad. 
+- Draw more people into that field. 
+- Demonstrate that something is good.
 
 ## Use case
 
