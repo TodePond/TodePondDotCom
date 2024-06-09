@@ -50,7 +50,8 @@ And I could break down the "discovery" style of research in a similar way. What 
 
 Both approaches have multiple steps, and they are comparably tedious in that way. There is nothing more or less noble in the "advocacy" route, in my opinion— it just represents a different kind of work that needs to be done.
 
-> Sometimes work is [drawing dots](https://www.todepond.com/wikiblogarden/blending/work/). Sometimes work is [drawing lines](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas).
+> Sometimes work is drawing [dots](https://www.todepond.com/wikiblogarden/blending/work/).\
+> Sometimes work is drawing [lines](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas).
 
 ## Question completeness
 
