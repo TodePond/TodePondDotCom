@@ -58,7 +58,7 @@ So...
 
 Now that I have analysed and pulled apart the question, it's finally time to tell you want I think— what my answer is— how I answer.
 
-Is my work made of dots or lines?
+<br>
 
 And I will reveal that in the **next part** of this blog post series.
 
