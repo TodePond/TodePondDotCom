@@ -26,7 +26,7 @@ But is it the whole picture? Is it the right tree to bark up? Taking a step back
 
 Question 1 has been a very informative question to ask. I've learned a lot about people's practices by asking it. 
 
-I think question 2 is rubbish. It's too general and vague to get anything meaningful out— people answer vaguely to a vague question, and it's hard to compare responses. So far, I've only got pretty general answers like "other researchers" and "industry" (which I reported on in the [previous post](https://www.todepond.com/wikiblogarden/blending/goals/community/)). I hope to find a better way of probing into that topic. My impression is that "impact" is a really sore topic on the whole, and most researchers are rubbish at tackling it.
+I think question 2 is rubbish. It's too general and vague to get anything meaningful out— people answer vaguely to a vague question, and it's hard to compare responses. So far, I've only got pretty general answers like "other researchers" and "industry" (which I reported on in the [previous post](https://www.todepond.com/wikiblogarden/blending/goals/community/)). I hope to find a better way of probing into that topic. My impression is that "impact" is a really sore topic on the whole, and most researchers try to [avoid it as much as they can](https://www.todepond.com/wikiblogarden/academia/style/true-for-you/).
 
 I haven't tried asking question 3 directly because it's something I've been able to enquire about through the other questions. I might try asking it directly to see how good/bad it is.
 
