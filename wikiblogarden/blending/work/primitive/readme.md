@@ -52,6 +52,16 @@ Both approaches have multiple steps, and they are comparably tedious in that way
 
 > Sometimes work is [drawing dots](https://www.todepond.com/wikiblogarden/blending/work/). Sometimes work is [drawing lines](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas).
 
+## Question completeness
+
+No one question can cover everything. So of course, the question doesn't encapsulate everything that a researcher does. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) one area of enquiry that you can prod— one lens to look at it under— one way to probe. That doesn't mean it's not worthwhile. You can combine it with other bits of information to make a bigger picture. So let's cover what those other pictures bits might be.
+
+One thing that popped up was "building community". I think that's really important, so a good answer will link to that in some way. 
+
+Another thing I think is important is...
+
+Wait, I think I'm getting onto my answer now— let's finally take a look at my answer.
+
 ## My answer
 
 So...
