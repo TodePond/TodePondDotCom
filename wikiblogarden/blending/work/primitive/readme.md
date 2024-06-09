@@ -70,7 +70,7 @@ Now that I have analysed and pulled apart the question, it's finally time to tel
 
 <br>
 
-And I will reveal that in the **next part** of this blog post series.
+And I will reveal it in the **next part** of this blog post series.
 
 In the meantime, time to get...
 
