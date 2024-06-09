@@ -36,7 +36,7 @@ Looping back around, I think the original question is a bit weird because "solvi
 
 There's not a clear balance and I think it biases away from the "influencing" option a bit. "Influencing" sounds less noble, because it sounds like there's less work involved— that you don't care about if your message is right or wrong— that you think you've already got it all figured out.
 
-But the question is about the nature of your research. Are you hoping to discover? Or are you hoping to advocate? I think that both can be worthwhile pursuits for a person to pursue. (editor: rewrite sentence to avoid repetition of "pursuing")
+But the question is about the nature of your research. Are you hoping to discover? Or are you hoping to advocate? I think that both can be worthwhile pursuits for a person to pursue. (editor: rewrite sentence to avoid repetition of "pursue")
 
 A good example of "advocacy" research is [Ink & Switch](https://www.inkandswitch.com/)'s [local-first essay](https://www.inkandswitch.com/local-first/).
 
