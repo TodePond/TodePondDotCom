@@ -88,4 +88,4 @@ Back to the [wikiblogarden](/wikiblogarden).
 
 <br>
 
-> Meta note: Sometimes I do wonder if there's anyone who "hate reads" my blog. Like that can't stand what I say, but they read anyway.
+> Meta note: Sometimes I do wonder if there's anyone who "hate reads" my blog. Like they can't stand what I say, but they read anyway.
