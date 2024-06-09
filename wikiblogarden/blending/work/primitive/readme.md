@@ -66,7 +66,7 @@ Wait, I think I'm getting onto my answer now— let's do it:
 
 So...
 
-Now that I have analysed and pulled apart the question, it's finally time to tell you want I think— what my answer is— how I answer.
+Now that I have analysed and pulled apart the question, it's finally time to tell you what I think— what my answer is— how I answer.
 
 <br>
 
