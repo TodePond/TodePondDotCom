@@ -70,11 +70,13 @@ I guess the reason I make stuff is that it's a way for me to [express myself](ht
 
 > Is your work about “influencing people” or is it about “solving hard problems”?
 
+The first one. I want to promote empathy and make computers better. I already said all this in my [artist statement](https://www.todepond.com/wikiblogarden/art/why-bother/).
+
 - I am here to "express myself".
 - I am here to "learn and practise".
-- I am here to "collaborate".
+- I am here to "collaborate and be part of a community".
 
-I am only interested in reaching imaginative and kind people. I don't care about anyone else. 
+And I am only interested in reaching imaginative and kind people. I don't care about anyone else.
 
 <br>
 
