@@ -32,7 +32,7 @@ At the time, I was chatting loads with other people working in that space, like 
 
 Among those projects, there were still some limits with expressivity, and some failed experiments with "conservation". And so I was thinking and talking through some weird "splitting and merging" ideas with people. But there were some issues with it — some missing pieces that stopped it working in practice. 
 
-And then one day I suddenly came up with this "stamping" idea, and I remember explaining it to Murilo and Max and they both thought it sounded weird. Like, they couldn't imagine it. And it was at that moment that I got a sinking feeling in my stomach. At that point, I knew that there was only way of demonstrating the concept.
+And then one day I suddenly came up with this "stamping" idea, and I remember explaining it to Murilo and Max and they both thought it sounded weird. Like, they couldn't imagine it. And it was at that moment that I got a sinking feeling in my stomach. At that point, I knew that there was only one way of demonstrating the concept.
 
 "I guess I have to build this thing."
 
@@ -46,7 +46,7 @@ So then I spent years and years building it. I built three prototypes. The first
 
 Then I built another version, swearing to myself that I wouldn't make the same mistakes again. Then I made the same mistakes again. 
 
-Then I built another version, swearing to myself that I wouldn't make the same mistakes again. Then I didn't make the same mistakes again, and I ended up taking some unconventional decisions to make it work[^nothing].
+Then I built another version, swearing to myself that I wouldn't make the same mistakes again. And this time I didn't make the same mistakes again, and I ended up going with some unconventional decisions to make it work[^nothing].
 
 And it stuck around and I roughed out its edges[^spell] and people asked me to talk about it[^foc][^cc][^live].
 
