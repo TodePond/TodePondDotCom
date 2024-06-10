@@ -46,11 +46,11 @@ So then I spent years and years building it. I built three prototypes. The first
 
 Then I built another version, swearing to myself that I wouldn't make the same mistakes. Then I made the same mistakes. 
 
-Then I built another version, swearing to myself that I wouldn't make the same mistakes. Then I didn't make the same mistakes, and ended up making some unconventional decisions to make it work.
+Then I built another version, swearing to myself that I wouldn't make the same mistakes. Then I didn't make the same mistakes, and ended up making some unconventional decisions to make it work[^nothing].
+
+And it stuck around and I roughed out its edges[^spell]. And people asked me to talk about it[^foc][^cc][^live].
 
 Wait. 
-
-<hr>
 
 <br>
 
@@ -86,3 +86,8 @@ Back to the [wikiblogarden](/wikiblogarden).
 [^prac]: [Just practice](https://www.todepond.com/wikiblogarden/genocide/platform/)
 [^bite]: [The bite](https://www.todepond.com/wikiblogarden/research/bite)
 [^cells]: [Cells in cells in cells](https://youtu.be/gv40Z9tVjAI)
+[^nothing]: [Nothing](https://youtu.be/sQYUQNozljo)
+[^spell]: [Shortlis automata](https://youtu.be/xvlsJ3FqNYU)
+[^foc]: [Spatial programming pipe dream, Future of Coding](https://youtu.be/bqtVv9ts29c?si=LEIec6dJz1l-5pzk)
+[^cc]: [Spatial programming pipe dream, London Creative Coding](https://www.youtube.com/live/L2U_Sd1qMJ4?si=5EfPnVuGNAZ6O1qZ&t=2580)
+[^live]: [Spatial programming without escape](https://www.youtube.com/watch?v=eQgxFuw8f1U)
