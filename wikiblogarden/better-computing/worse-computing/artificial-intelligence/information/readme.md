@@ -24,7 +24,7 @@ If we think art has no value— no impact, then there's no harm in letting a mod
 
 But what biases does it propogate? What environment has this model learned in? What were its influences? What informs its output? And was it pinterest[^data] and child abuse[^abuse]? And if it was, is that what we want?
 
-And if these biases are allowed to slip into our daily existence, what will happen? 
+And if these biases are allowed to slip into our daily existence, then what will happen? 
 
 [What will artificial intelligence do to us?](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/)
 
