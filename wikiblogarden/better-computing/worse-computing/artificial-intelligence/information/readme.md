@@ -28,6 +28,10 @@ And if these biases are allowed to slip into our daily existence, what will happ
 
 [What will artificial intelligence do to us?](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/)
 
+<br>
+
+Back to the [wikiblogarden](/wikiblogarden).
+
 [^tosh]: [tosh](https://en.wiktionary.org/wiki/tosh)
 [^data]: [Models all the way down](https://knowingmachines.org/models-all-the-way)
 [^abuse]: [Investigation Finds AI Image Generation Models Trained on Child Abuse](https://cyber.fsi.stanford.edu/news/investigation-finds-ai-image-generation-models-trained-child-abuse)
