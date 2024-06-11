@@ -22,7 +22,7 @@ If we think art has no value— no impact, then there's no harm in letting a mod
 
 "It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) generating images."
 
-But what biases does it propogate? What environment has this model learned in? What were its influences? What informs its output? And was it pinterest[^data] and child abuse[^abuse]? And if it was, is that what we want?
+But what biases does it propogate? What environment has it learned in? What were its influences? What informs its output? And was it pinterest[^data] and child abuse[^abuse]? And if it was, is that what we want?
 
 And if these biases are allowed to slip into our daily existence, then what will happen? 
 
