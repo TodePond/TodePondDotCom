@@ -67,6 +67,7 @@ Here's a list of appearances I made on other things.
 - [Chantastic: Inoffensive fiddles](https://www.youtube.com/watch?v=kZRk2yeR3x0)
 - [Scaling Devtools: Show the whole process](https://www.youtube.com/watch?v=yVAGf1zVde8)
 - [Live Coding on Val Town](https://www.youtube.com/live/5Em6D7n-ggs?si=Op6QNO0w_1FwSvAy)
+- [Dev Marketing Baguette: Interview with tldraw](https://youtu.be/B8IADwn2g30?si=P-39nX6NPZQEohXT)
 
 <br>
 
