@@ -60,7 +60,8 @@ But that would be missing out the most important part of post modernism: "It is 
 
 And of course: "Your fish can be alive if you want it to be."
 
-don't keep the maths in your ipad... [BE THE MATHS YOURSELF](https://x.com/tldraw/status/1801264226314408029)
+don't keep the maths in your ipad...\
+[BE THE MATHS URSELF](https://x.com/tldraw/status/1801264226314408029)
 
 <br>
  
