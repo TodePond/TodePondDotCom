@@ -42,7 +42,7 @@ For me, this talk is everything gatekeepy about computer art. It's modernism thr
 
 There's something depressing about Apple's recent announcements. They claim to introduce the future— their modernist future, where we'll have a [face strapped to our face](https://youtu.be/QRKnrFEjDF0) and we'll chuck out all our [old instruments](https://youtu.be/ntjkwIXWtrc?si=BIdIkJGekCT9-mRV) and we'll—
 
-This is modernism. "Our old tools are unreliable and imperfect and imprecise and faulty and big and clunky! We can't rely on them! We must be saved by technology to navigate our newly discovered subjective reality where nothing is guaranteed!"
+This is modernism. "Our old tools are unreliable and imperfect and imprecise and faulty and big and clunky! We can't rely on them! We must be saved by better technology!"
 
 I don't remember getting this same depressing feeling from Steve Jobs introducing the [iPhone](https://youtu.be/MnrJzXM7a6o?si=3L0fJnfq9xqu_eg3) but maybe I was just swept up by the charisma of it all. I guess iPhone did take over the world as predicted. But is that a good thing?
 
@@ -56,7 +56,7 @@ I think modernist messages are appealing because they appeal to optimism. "We ca
 
 And post modernism can come across as the bringer of bad news: "Technology won't solve our problems."
 
-But that would be missing out the most important part of post modernism: "It is ok to not know. It is ok to be contradictory. It is ok to use metaphor. It is ok to use imperfect tools."
+But that would be missing out the most important part of post modernism: "It is ok to not know. It is ok to be contradictory. It is ok to use imperfect tools."
 
 And of course: "Your fish can [be](https://x.com/tldraw/status/1801264226314408029) alive if you want it to be."
 
