@@ -58,10 +58,7 @@ And post modernism can come across as the bringer of bad news: "Technology won't
 
 But that would be missing out the most important part of post modernism: "It is ok to not know. It is ok to be contradictory. It is ok to use metaphor. It is ok to use imperfect tools."
 
-And of course: "Your fish can be alive if you want it to be."
-
-don't keep the maths in your ipad...\
-[BE THE MATHS URSELF](https://x.com/tldraw/status/1801264226314408029)
+And of course: "Your fish can [be](https://x.com/tldraw/status/1801264226314408029) alive if you want it to be."
 
 <br>
  
@@ -78,18 +75,19 @@ here is my unused list of references from my previous unpublished blog post:
 5.  [Inventing on Principle](https://vimeo.com/906418692)
 6.   [The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/) (warning: vile)
 7. [Crush!](https://youtu.be/ntjkwIXWtrc?si=Z9w-XA_3eSI_yPaL)
-[^fascist]: calling fascist things fascist annoys the right people
-[^access]: [Accessibility has failed: Try generative UI = Individualised UX](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui?utm_source=post-banner&utm_medium=web&utm_campaign=posts-open-in-app&publication_id=1748390&post_id=142119583&triedRedirect=true)
-[^post]: [Post modernism by tode pond](https://www.todepond.com/wikiblogarden/meta/narrative/modernism)
-[^opinion]: [it's just my opinion](https://www.todepond.com/wikiblogarden/academia/opinion/)
-[^surveillance]: [Signal’s Meredith Whittaker: AI is fundamentally ‘a surveillance technology’](https://techcrunch.com/2023/09/25/signals-meredith-whittaker-ai-is-fundamentally-a-surveillance-technology/)
-[^one]: [Heretical thoughts](https://www.ribaj.com/culture/heretical-thoughts)
-[^mod-post]: [Modernism: Towards postmodernism](https://www.rep.routledge.com/articles/thematic/modernism/v-1/sections/towards-postmodernism)
-[^egypt]: [A brief guide to Egyptian surrealist](https://youtu.be/yabE7Lj8Bbs?si=xfqaij4ZAH7wDsml)
-[^mod-real]: [Modernism: Reality and observation](https://www.rep.routledge.com/articles/thematic/modernism/v-1/sections/reality-and-observation)
-[^view]: [What is modernism?](https://www.utoledo.edu/library/canaday/guidepages/Modernism2.html#:~:text=Modernism%20is%20a%20period%20in,verse%20from%20the%2019th%20century.)
-[^pers]: [Modernism](https://www.britannica.com/art/Modernism-art/Modernism-in-the-visual-arts-and-architecture)
-[^style]: [A Brief History of The International Style](https://www.archdaily.com/997425/a-brief-history-of-the-international-style)
-[^tech]: [Modernism, Science, and Technology, Book Review](https://eprints.gla.ac.uk/158074/1/158074.pdf)
-[^today]: [Today and tomorrow](https://www.the-tls.co.uk/articles/science-and-technology-modernism/)
-[^when]: [When science went modern](https://hedgehogreview.com/issues/the-cultural-contradictions-of-modern-science/articles/when-science-went-modern)
+8. calling fascist things fascist annoys the right people
+9.  [Accessibility has failed: Try generative UI = Individualised UX](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui?utm_source=post-banner&utm_medium=web&utm_campaign=posts-open-in-app&publication_id=1748390&post_id=142119583&triedRedirect=true)
+10.   Post modernism by tode pond (unpublished)
+11. [It's just my opinion](https://www.todepond.com/wikiblogarden/academia/opinion/)
+12. [Signal’s Meredith Whittaker: AI is fundamentally ‘a surveillance technology’](https://techcrunch.com/2023/09/25/signals-meredith-whittaker-ai-is-fundamentally-a-surveillance-technology/)
+13. [Heretical thoughts](https://www.ribaj.com/culture/heretical-thoughts)
+14. [Modernism: Towards postmodernism](https://www.rep.routledge.com/articles/thematic/modernism/v-1/sections/towards-postmodernism)
+15. [A brief guide to Egyptian surrealist](https://youtu.be/yabE7Lj8Bbs?si=xfqaij4ZAH7wDsml)
+16. [Modernism: Reality and observation](https://www.rep.routledge.com/articles/thematic/modernism/v-1/sections/reality-and-observation)
+17. [What is modernism?](https://www.utoledo.edu/library/canaday/guidepages/Modernism2.html#:~:text=Modernism%20is%20a%20period%20in,verse%20from%20the%2019th%20century.)
+18. [Modernism](https://www.britannica.com/art/Modernism-art/Modernism-in-the-visual-arts-and-architecture)
+19. [A Brief History of The International Style](https://www.archdaily.com/997425/a-brief-history-of-the-international-style)
+20. [Modernism, Science, and Technology, Book Review](https://eprints.gla.ac.uk/158074/1/158074.pdf)
+21. [Today and tomorrow](https://www.the-tls.co.uk/articles/science-and-technology-modernism/)
+22. [When science went modern](https://hedgehogreview.com/issues/the-cultural-contradictions-of-modern-science/articles/when-science-went-modern)
+23. [Surrealism Beyond Borders Virtual Opening](https://youtu.be/G-gyzGqsWio?si=hVW4-y-b5vSkDcS7)
