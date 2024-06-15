@@ -70,13 +70,13 @@ Back to the [wikiblogarden](/wikiblogarden).
 
 here is my unused list of references from my previous unpublished blog post: 
 
-[^new]: [Shock Of The New](https://youtu.be/J3ne7Udaetg?si=46UkF2SAwZDmxE1E) (warning: outdated)
-[^openai]: [Planning for AGI and beyond](https://openai.com/index/planning-for-agi-and-beyond/)
-[^climate]: [Techno-Optimism: Why Money and Technology Won’t Save Us](https://earth.org/techno-optimism/)
-[^fish]: [Stop Drawing Dead Fish](https://vimeo.com/64895205)
-[^principle]: [Inventing on Principle](https://vimeo.com/906418692)
-[^acc]: [The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/) (warning: vile)
-[^flat]: [Crush!](https://youtu.be/ntjkwIXWtrc?si=Z9w-XA_3eSI_yPaL)
+1. [Shock Of The New](https://youtu.be/J3ne7Udaetg?si=46UkF2SAwZDmxE1E) (warning: outdated)
+2. [Planning for AGI and beyond](https://openai.com/index/planning-for-agi-and-beyond/)
+3. [Techno-Optimism: Why Money and Technology Won’t Save Us](https://earth.org/techno-optimism/)
+4. [Stop Drawing Dead Fish](https://vimeo.com/64895205)
+5.  [Inventing on Principle](https://vimeo.com/906418692)
+6.   [The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/) (warning: vile)
+7. [Crush!](https://youtu.be/ntjkwIXWtrc?si=Z9w-XA_3eSI_yPaL)
 [^fascist]: calling fascist things fascist annoys the right people
 [^access]: [Accessibility has failed: Try generative UI = Individualised UX](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui?utm_source=post-banner&utm_medium=web&utm_campaign=posts-open-in-app&publication_id=1748390&post_id=142119583&triedRedirect=true)
 [^post]: [Post modernism by tode pond](https://www.todepond.com/wikiblogarden/meta/narrative/modernism)
