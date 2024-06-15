@@ -18,7 +18,7 @@ And I went deeper and deeper, reading more and more texts and finding more persp
 
 These movements are sometimes called meta narratives. And they end up explaining everything about our society. Everything we have is built up on modernism— Modernism won. And here as I write this I find myself drawn more and more into—
 
-This sort of took over my life for three weeks, so I stopped writing it, for my own health.
+This sort of took over my life for three weeks, so I stopped writing the blog post, for my own health.
 
 ## Top 99 Ways To Make Sand
 
