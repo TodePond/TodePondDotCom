@@ -16,7 +16,7 @@ So I started writing this all up into a very very very very long blog post essay
 
 And I went deeper and deeper, reading more and more texts and finding more perspectives and alternative takes on the post modernist modernist split and it was very enlightening to me to—
 
-These movements are sometimes called meta narratives. And they end up explaining everything about our society. Everything we have is built up on modernism— Modernism won. And here as I write this I find myself drawn more and more into— I end up getting pulled into—
+These movements are sometimes called meta narratives. And they end up explaining everything about our society. Everything we have is built up on modernism— Modernism won. And here as I write this I find myself drawn more and more into—
 
 This sort of took over my life for three weeks, so I stopped writing it, for my own health.
 
