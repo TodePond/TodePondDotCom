@@ -22,7 +22,7 @@ This sort of took over my life for three weeks, so I stopped writing it, for my 
 
 ## Top 99 Ways To Make Sand
 
-I am currently making a video for my [youtube channel](https://YouTube. can't m/@todepond) where I make sand in 99 different ways. That's the premise at least. There will be some twists along the way but I can assure you that I am making **many many sands**.
+I am currently making a video for my [youtube channel](https://YouTube.com/@todepond) where I make sand in 99 different ways. That's the premise at least. There will be some twists along the way but I can assure you that I am making **many many sands**.
 
 And I'm following a rule that every sand needs to be [completely unique](https://www.todepond.com/pondcast/finding-ninety-nine-sands/) (no cop outs) and it's going to be a [twenty minute video](https://www.todepond.com/pondcast/twenty-minute-video/) and I've been writing "SAND" on my hand for months to try to remind myself of the video so that I can come up with more ideas for sand. 
 
