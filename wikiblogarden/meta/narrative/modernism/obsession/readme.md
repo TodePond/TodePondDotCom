@@ -36,7 +36,7 @@ I've lost count of the number of times I've watched the [Dead Fish](https://vime
 
 For me, this talk is everything gatekeepy about computer art. It's modernism through and through, saying that our problems with creativity can be solved with better technologies.
 
-Sorry reader, better tools won't save your shitty drawings. Your lifeless art is lifeless because of *you*, not your choice of [iPad](https://drawdeadfish.com/6/) program. Your sense of dissatisfaction comes from lack of imagination, not lack of technology. Your fish is dead because you are dead inside— you've lost your childlike sense of wonder for the world.
+> Sorry reader, better tools won't save your shitty drawings. Your lifeless art is lifeless because of *you*, not your choice of [iPad](https://drawdeadfish.com/6/) program. Your sense of dissatisfaction comes from lack of imagination, not lack of technology. Your fish is dead because you are dead inside— you've lost your childlike sense of wonder for the world.
 
 ## Apple
 
