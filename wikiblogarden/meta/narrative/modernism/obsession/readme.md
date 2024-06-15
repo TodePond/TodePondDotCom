@@ -4,11 +4,11 @@ Is it good or bad?
 
 ## Post modernism
 
-Someone emailed me and told me that I'm a [post modernist](https://en.wikipedia.org/wiki/Postmodernism) and [Bret Victor](https://worrydream.com/) is a [modernist](https://en.wikipedia.org/wiki/Modernism) and that's the reason I disagree with him on most things. 
+Someone emailed me and told me that I'm a [post modernist](https://en.wikipedia.org/wiki/Postmodernism) and [Bret Victor](https://worrydream.com/) is a [modernist](https://en.wikipedia.org/wiki/Modernism) and that's the reason I disagree with him on most things in that [future of coding episode](https://futureofcoding.org/episodes/071).
 
 I had no idea what this person meant so I asked for more information and I started looking up things and reading articles and papers and books and watching videos and documentaries and films and I—
 
-I decided that this person was right. I am a post-modernist and Bret Victor is a modernist and that's why I disagree with him on most things. I don't know if Bret Victor would agree with that categorisation or not and I've never met him and I'm sure he's a lovely guy and either way he's a modernist. 
+I decided that this person was right. I am a post-modernist and Bret Victor is a modernist and that's why I disagree with him on most things in that [future of coding episode](https://futureofcoding.org/episodes/071). I don't know if Bret Victor would agree with that categorisation or not and I've never met him and I'm sure he's a lovely guy and either way he's a modernist. 
 
 ## Post modernism post
 
