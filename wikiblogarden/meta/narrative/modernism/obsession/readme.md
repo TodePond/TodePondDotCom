@@ -24,7 +24,7 @@ This sort of took over my life for three weeks, so I stopped writing the blog po
 
 I am currently making a video for my [youtube channel](https://YouTube.com/@todepond) where I make sand in 99 different ways. That's the premise at least. There will be some twists along the way but I can assure you that I am making **many many sands**.
 
-And I'm following a rule that every sand needs to be [completely unique](https://www.todepond.com/pondcast/finding-ninety-nine-sands/) (no cop outs) and it's going to be a [twenty minute video](https://www.todepond.com/pondcast/twenty-minute-video/) and I've been writing "SAND" on my hand for months to try to remind myself of the video so that I can come up with more ideas for sand. 
+And I am following a rule that every sand needs to be [completely unique](https://www.todepond.com/pondcast/finding-ninety-nine-sands/) (no cop outs) and it's going to be a [twenty minute video](https://www.todepond.com/pondcast/twenty-minute-video/) and I've been writing "SAND" on my hand for months to try to remind myself of the video so that I can come up with more ideas for sand. 
 
 In my head, I can basically split up the last five years of my life by "which video was I making at the time" because the video becomes my life— I become obsessed. It's probably not a healthy way to live. 
 
