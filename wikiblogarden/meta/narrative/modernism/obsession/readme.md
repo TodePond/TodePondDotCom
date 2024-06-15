@@ -58,7 +58,7 @@ And post modernism can come across as the bringer of bad news: "Technology won't
 
 But that would be missing out the most important part of post modernism: "It is ok to not know. It is ok to be contradictory. It is ok to use imperfect tools."
 
-And of course: "Your fish can [be](https://x.com/tldraw/status/1801264226314408029) alive if you want it to be."
+And of course: "Your fish can be alive if you want it to [be](https://x.com/tldraw/status/1801264226314408029)."
 
 <br>
  
