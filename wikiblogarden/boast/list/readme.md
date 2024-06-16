@@ -11,6 +11,7 @@ Here's a list of things I made.
 - [Make Real](https://x.com/tldraw/status/1724410017963503894)
 - [Draw Fast](https://x.com/tldraw/status/1727728068968460778)
 - [Sandspiel Studio](https://youtu.be/qOA-lR3Xc34?si=vbmzKXHCJn76ReGg)
+- [Draw Maths](https://x.com/TodePond/status/1800475902155149629)
 - [Lens](https://x.com/tldraw/status/1733146726259630338)
 - [CellPond](https://www.youtube.com/watch?v=eQgxFuw8f1U)
 - [ScreenPond](https://youtu.be/Q4OIcwt8vcE)
@@ -54,6 +55,7 @@ Here's a list of talks I made.
 - [Autocomplete for canvas](https://x.com/ghostwriternr/status/1790508376780050650) (given x3 times)
 - [Weirdcoding institute](https://x.com/rachelnabors/status/1705622976266186828) (given x1 times)
 - Untitled ScreenPond talk (x1 scheduled)
+- Untitled Natural Code talk (x1 conditionally scheduled)
 - Untitled Tadi Lab talk (coming soon)
 - Untitled Arroost talk (coming soon)
 
@@ -65,6 +67,7 @@ Here's a list of appearances I made on other things.
 - [Chantastic: Inoffensive fiddles](https://www.youtube.com/watch?v=kZRk2yeR3x0)
 - [Scaling Devtools: Show the whole process](https://www.youtube.com/watch?v=yVAGf1zVde8)
 - [Live Coding on Val Town](https://www.youtube.com/live/5Em6D7n-ggs?si=Op6QNO0w_1FwSvAy)
+- [Dev Marketing Baguette: Interview with tldraw](https://youtu.be/B8IADwn2g30?si=P-39nX6NPZQEohXT)
 
 <br>
 
@@ -103,6 +106,8 @@ Here's a list of my tweets/toots that went viral to some degree.
 - [I gave a talk](https://mas.to/@TodePond/111291771161226390)
 - [I don't like the word "just"](https://x.com/TodePond/status/1751622678253797418)
 - [Here's a little sandbox](https://x.com/TodePond/status/1593969648042663936)
+- [Sigh](https://x.com/TodePond/status/1800475902155149629)
+- [I have an idea](https://x.com/tldraw/status/1800515870709706879)
 - [Can't believe this works](https://x.com/tldraw/status/1724410017963503894)
 - [Draw fast](https://x.com/tldraw/status/1727728068968460778)
 - [Wait hang on a second](https://x.com/tldraw/status/1782443204710674571)

@@ -5,6 +5,20 @@
       <link>http://www.todepond.com/</link>
       <description>place for todes - ribbits aplenty</description>
   		<item>
+    			<title>Love</title>
+    			<pubDate>Tue, 11 Jun 2024 06:44:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/information</link>
+    			<guid>https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/information</guid>
+    			<description>What will artificial intelligence make for us?</description>
+    		</item>
+		<item>
+    			<title>My answer</title>
+    			<pubDate>Mon, 10 Jun 2024 08:09:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/blending/here/</link>
+    			<guid>https://www.todepond.com/wikiblogarden/blending/here/</guid>
+    			<description>What my work is about.</description>
+    		</item>
+		<item>
     			<title>Code</title>
     			<pubDate>Sat, 08 Jun 2024 15:07:00 GMT</pubDate>
     			<link>https://www.todepond.com/lab/code/</link>
@@ -1256,6 +1270,20 @@
     			<link>https://www.todepond.com/wikiblogarden/blending/work/primitive/</link>
     			<guid>https://www.todepond.com/wikiblogarden/blending/work/primitive/</guid>
     			<description>Here's my answer.</description>
+    		</item>
+		<item>
+    			<title>How to write a blog post every day</title>
+    			<pubDate>Mon, 10 Jun 2024 17:59:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/every/day/</link>
+    			<guid>https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/every/day/</guid>
+    			<description>Uhh</description>
+    		</item>
+		<item>
+    			<title>Obsession</title>
+    			<pubDate>Sat, 15 Jun 2024 09:25:00 GMT</pubDate>
+    			<link>https://www.todepond.com/wikiblogarden/meta/narrative/modernism/obsession/</link>
+    			<guid>https://www.todepond.com/wikiblogarden/meta/narrative/modernism/obsession/</guid>
+    			<description>Someone emailed me and told me that I'm a post modernist.</description>
     		</item>
     </channel>
   </rss>
