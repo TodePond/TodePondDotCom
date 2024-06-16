@@ -54,15 +54,34 @@
   const localData = localStorage.getItem("analytics/goatcounts/v2");
   const localFeedItems = localStorage.getItem("analytics/feedItems/v2");
   if (localData && localFeedItems) {
-    renderItems(JSON.parse(localData), JSON.parse(localFeedItems));
+    try {
+      renderItems(
+        JSON.parse(localData)[periodQuery],
+        JSON.parse(localFeedItems)
+      );
+    } catch (e) {
+      //  BEST EFFORT!
+    }
   }
 
   let period = "week";
 
   const periodSelect = document.querySelector("#period");
+  periodSelect.value = periodQuery;
   periodSelect.addEventListener("change", (event) => {
     const datas = event.target.value === "week" ? "week" : "lifetime";
-    renderItems(countResponsesJson[datas], feedItems);
+    try {
+      renderItems(countResponsesJson[datas], feedItems);
+    } catch (e) {
+      try {
+        renderItems(
+          JSON.parse(localData)[event.target.value],
+          JSON.parse(localFeedItems)
+        );
+      } catch (e) {
+        //  BEST EFFORT!
+      }
+    }
     if (event.target.value !== "lifetime") {
       urlQuery.set("period", event.target.value);
       window.history.replaceState(null, "", `?${urlQuery.toString()}`);
@@ -83,10 +102,13 @@
 
   const countResponsesJson = await countResponses.json();
   console.log(countResponsesJson);
-  const countResponse = countResponsesJson[periodQuery];
+  const countResponse = countResponsesJson[periodSelect.value];
   // const response = await fetch("https://todepond-getgoatcounts.web.val.run");
   const data = countResponse;
-  localStorage.setItem("analytics/goatcounts/v2", JSON.stringify(data));
+  localStorage.setItem(
+    "analytics/goatcounts/v2",
+    JSON.stringify(countResponsesJson)
+  );
 
   const feedItems = parseItems(feedResponse);
   localStorage.setItem("analytics/feedItems/v2", JSON.stringify(feedItems));
