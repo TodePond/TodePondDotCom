@@ -30,7 +30,7 @@ But wait! It's wrong for even more reasons.
 
 Transition isn't made up of fixed discrete points. It's a [blending](https://www.todepond.com/wikiblogarden/blending/) from one song to [another](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/)— it can go through many other sounds along the way— of different genres, tones and volumes— it can be a relentless thud thud thud or a break or a drop— or a crash or a melody— harmony or contrast
 
-and u wanna take all this colourful range of life and boil it down into "baby trans" get outta here 
+and u wanna take all this colourful range of life and boil it down into "baby trans" get outta here [dijkstra](https://futureofcoding.org/episodes/067)
 
 <br>
 
