@@ -100,13 +100,13 @@
 
 "To get this done and—"
 
-"Well, that's because I—"
+"Well, that's because—"
 
 ## Saying no
 
 "What I want you to do is—"
 
-"I'm just in it for the—"
+"I'm just in it for—"
 
 "Put this cushion on your lap then—"
 
