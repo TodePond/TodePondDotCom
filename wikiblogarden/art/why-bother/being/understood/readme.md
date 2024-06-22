@@ -14,7 +14,7 @@ It's not important for you to understand. It's important for you to *feel* somet
 
 It's partly a value statement. I don't value being "right" or "correct" or sensible. I value something else. Something about expression— about expressing yourself regardless of whether it's tangible to others or not— I'm still figuring out what it is— what it is exactly— exactly what it is I'm trying to share—
 
-I hate it— hate it so much— I get so pissed off at—
+I hate it. I hate it so much— I get so pissed off at—
 
 ## You don't understand
 
