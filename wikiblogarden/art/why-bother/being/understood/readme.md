@@ -14,15 +14,15 @@ It's not important for you to understand. It's important for you to *feel* somet
 
 It's partly a value statement. I don't value being "right" or "correct" or sensible. I value something else. Something about expression— about expressing yourself regardless of whether it's tangible to others or not— I'm still figuring out what it is— what it is exactly— exactly what it is I'm trying to share—
 
-I hate it— hate it so much— I get so pissed off at—
+I hate it— I hate it so much— I get so pissed off at all the—
 
 ## You don't understand
 
-People who think they know everything already— who think they're really smart— close minded disagreeable people are the people I hate the most. To me, they lack— they lack imagination— creativity, and they lack empathy. They can't fathom that things are not what they think they are. Their views are fixed and they don't believe anyone who says otherwise. 
+People who think they know everything already— who think they're really smart— close minded disagreeable people are the people I hate the most. To me, they lack— lack imagination— creativity, and they lack empathy. They can't fathom that things are not what they think they are. Their views are fixed and they don't believe anyone who says otherwise. 
 
-Everything falls into their orderly view of the world. And if you fall outside that. Well, if you fall outside that. There must be something wrong with you. 
+Everything falls into their orderly view of the world. And if you fall outside that. If you fall outside that. There must be something wrong with you. 
 
-What I want to do is to get people to doubt themselves and the assumptions that they have made. I want to confuse you so that you stop and think, and re-evaluate your fixed views. I'm trying to learn how to do that with my art.
+What I want to do is to get people to doubt themselves and the assumptions that they have made. I want to confuse you so you stop and think, and re-evaluate your fixed views. I'm trying to learn how to do that.
 
 <br>
 
