@@ -112,8 +112,6 @@ What we need is a—
 
 > And I don't see the point in this
 
-`No I know you don't`
-
 <br>
 
 Back to the [wikiblogarden](/wikiblogarden).
