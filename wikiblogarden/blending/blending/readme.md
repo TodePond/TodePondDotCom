@@ -22,11 +22,11 @@ And I directly quote (from that post):
 
 > No more ideas.
 
-> I want to merge things together. I see these three concepts, and I see the same things in each of them. Sure there are differences. There always are. But I want to pull them closer together, and introduce people onto the same page.
+> I want to merge things together. I see these concepts, and I see the same things in each of them. Sure there are differences. There always are. But I want to pull them closer together, and introduce people onto the same page.
 
 > what my website is about:
 > 
-> > NO MORE IDEAS
+> > NO MORE IDEAS\
 > > WE HAVE ENOUGH
 > 
 > (merge them instead)
