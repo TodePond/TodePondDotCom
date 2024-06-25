@@ -31,7 +31,7 @@ And I directly quote (from that post):
 > 
 > (merge them instead)
 
-And that is what I've been doing for two hundred and thirty three days, whether it seems like it or not. I am exploring the theme as deeply as I can. 
+And that is what I've been doing for two hundred and thirty three days. Whether it seems like it or not. I am exploring the theme as deeply as I can. 
 
 ## Merging / blending
 
@@ -104,7 +104,7 @@ Don't believe me? You DON'T BELIEVE ME?
 - Blerging [opinions](https://www.todepond.com/wikiblogarden/men/opinions).
 - Blerging [blerging](https://www.todepond.com/wikiblogarden/blending/blending).
 
-Wow this was a massive waste of time. 
+wow this was a massive waste of time 
 
 <br>
 
