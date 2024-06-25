@@ -66,7 +66,7 @@ What we need is a *product*
 
 > And I don't see the point in this
 
-Cellpond would be much better as a game, you see— You could be charging for this— Are you going to make a startup? 
+Cellpond would be much better as a game, you see— You could be charging for— Are you going to make a startup? 
 
 Are you looking for investors?
 
@@ -102,7 +102,9 @@ You could create some beautiful installations— viral content projects— groun
 
 Finally you'll be able to focus on your— and *stop doing all that other stuff*— that evil social media— research— pitiful "art" stuff— that you don't want to be doing, really
 
-what you make is too esoteric— too abstract— hypothetical— uncourageous lowest common denominator— just a bit of fun— research based. 
+what you make is too esoteric— too abstract— hypothetical— uncourageous lowest common denominator— just a bit of fun— research based.
+
+You could be charging— You could be—
 
 > I don't see the point in this
 
