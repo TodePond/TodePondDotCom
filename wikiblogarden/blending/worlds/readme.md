@@ -48,7 +48,7 @@ You could create some beautiful installations— projects— explorations with t
 
 > Why don't you get an art grant? Get some funding and become an artist
 
-Come and do a residency with me— Finally you'll be able to focus on your art and *stop doing all that other stuff*— that evil social media stuff— that you don't want to be doing, really
+Come and do a residency with me— Finally you'll be able to focus on your art and *stop doing all that other stuff*— that evil programming— social media stuff— that you don't want to be doing, really
 
 and it's clear that they don't understand what I do or why I do what I do.
 
