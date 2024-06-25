@@ -98,7 +98,7 @@ You could create some—
 
 You could create some beautiful installations— viral content projects— groundbreaking research with this.
 
-> Why don't you get an art grant? Get some funding and become a DevReal— founder— an engineer— in residence
+> Why don't you get an art grant? Get some funding and become a DevRel— founder— an engineer— artist in residence full— part time— no don't do that
 
 Finally you'll be able to focus on your— and *stop doing all that other stuff*— that evil social media— research— pitiful "art" stuff— that you don't want to be doing, really
 
