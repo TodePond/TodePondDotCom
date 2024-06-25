@@ -54,7 +54,7 @@ and it's clear that they don't understand what I do or why I do what I do.
 
 ## Product
 
-When I'm working on product stuff— figuring thing— figuring out how a thing can work and be helpful and I don't know— I'm making a thing. 
+When I'm working on product stuff— figuring things— figuring out how a thing can work and be helpful and I don't know— I'm making a thing. 
 
 People often tell me that the stuff I make— what I make is too esoteric— too abstract— hypothetical— research based. 
 
