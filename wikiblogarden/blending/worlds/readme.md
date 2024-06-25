@@ -58,13 +58,13 @@ When I'm working on product stuff— figuring things— figuring out how a thing
 
 People often tell me that the stuff I make— what I make is too esoteric— too abstract— hypothetical— research based. 
 
-> I don't see the point of this
+> I don't see the point in this
 
 What we need is a *product*
 
-> What we need is a *product*
+What we need is a *product*
 
-I don't see the point of this
+> And I don't see the point in this
 
 Cellpond would be much better as a game, you see— You could be charging for this— Are you going to make a startup? 
 
@@ -104,13 +104,13 @@ Finally you'll be able to focus on your— and *stop doing all that other stuff*
 
 what you make is too esoteric— too abstract— hypothetical— uncourageous lowest common denominator— just a bit of fun— research based. 
 
-> I don't see the point of this
+> I don't see the point in this
 
 What we need is a—
 
-> What we need is a—
+What we need is a—
 
-I don't see the point of this
+> And I don't see the point in this
 
 `No I know you don't`
 
