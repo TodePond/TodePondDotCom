@@ -138,10 +138,12 @@
   }
 
   function renderItems(items) {
+    newSection.innerHTML = "";
     const currentUrls = getCurrentUrlsOnPage();
     // newLoading.remove();
     const footer = document.createElement("li");
     footer.append("oh no I have so many unorganised posts");
+
     newSection.append(footer);
     for (const item of items) {
       const normalisedLink = normaliseUrl(item.link);
@@ -202,13 +204,12 @@
 
 <section id="new-section">
   <h2 id="new-things">New things</h2>
-  <ul>
-    <template id="new-item-template">
-      <li>
-        <a href="link">Title</a>
-      </li>
-    </template>
-  </ul>
+  <template id="new-item-template">
+    <li>
+      <a href="link">Title</a>
+    </li>
+  </template>
+  <ul></ul>
   <noscript
     >You can find newer posts by subscribing to my
     <a href="/feed/index.xml">RSS feed</a>.</noscript
