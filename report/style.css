@@ -128,9 +128,11 @@ a {
   color: var(--shade-3);
   background-color: white;
   text-decoration: none;
-  outline: 2px solid white;
+  /* outline: 2px solid white; */
   position: relative;
   padding: 0px 2px;
+  margin-right: 1px;
+  cursor: pointer;
 }
 
 a:hover {
