@@ -242,7 +242,7 @@ I saw [Alex McLean](https://slab.org) perform there (remember him?) and [Joana C
 
 After seeing [Joana Chicau](https://joanachicau.com/) talk about choreography in her [Future of Coding](https://lu.ma/foclondon) talk, it was great— I was pleased to see her perform it for real. It was hilarious and brilliant. She searched something like "live feed camera" on YouTube(!) and then —she started messing with the website's search results to turn it into live visuals— to make it _dance_. She was the choreographer in this case. She was conducting the algorithmic feed— intended to manipulate— choreograph her, and she flipped it around— flipped around the power dynamic— imbalance.
 
-Suggested videos of cats and cute kittens, and inline adverts, and UI components, buttons and links— they all bounced up and down, grew in and out— they spun around— they glowed with different colours. This is not what Alphabet Incorporated(!) intended to happen! It felt like graffiti. And it was super scrappy. You could see the browser's console, and you could see what Joana was typing and pasting into it. There was a sense of humour and cheekiness to it.
+Suggested videos of cats and cute kittens, and inline adverts, and UI components, buttons and links— they all bounced up and down, grew in and out— they spun around— they glowed with different colours. This is not what Alphabet Incorporated(!) intended to happen! It felt like graffiti. And it was super scrappy. You could see the browser's console, and you could see what Joana was typing and pasting into it. There was a sense of humour and cheekiness, again.
 
 [Alex McLean](https://slab.org) stopped the music partway through his set.
 
