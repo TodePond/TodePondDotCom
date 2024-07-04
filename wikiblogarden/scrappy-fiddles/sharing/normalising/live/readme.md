@@ -154,7 +154,7 @@ Meanwhile, I was asking every researcher I could find— I was asking the same q
 
 > "Is your work about influencing people? or is it about solving hard problems?"
 
-I wrote it up in my [write up](https://www.todepond.com/wikiblogarden/blending/goals/community/), but I found most answers unsatisfying. The one that impacted me most was [Alex McLean]'s [reply](https://post.lurk.org/@yaxu/112586629282774766) on mastodon afterwards (remember him from earlier?).
+I wrote it up in my [write up](https://www.todepond.com/wikiblogarden/blending/goals/community/), but I found most answers unsatisfying. The one that impacted me most was [Alex McLean](https://slab.org)'s [reply](https://post.lurk.org/@yaxu/112586629282774766) on mastodon afterwards (remember him from earlier?).
 
 He says that the important thing is:
 
