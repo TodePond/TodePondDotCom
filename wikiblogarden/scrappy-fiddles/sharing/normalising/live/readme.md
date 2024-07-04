@@ -374,7 +374,7 @@ I hint towards live coding at the start and the end.
 
 And I talk about the themes of identity, [voice](https://www.youtube.com/watch?v=54cK-XLu-s0), shame, repetition and struggle. These are the things that sometimes make it difficult to **normalise sharing scrappy fiddles**.
 
-And I try to touch on all the blended fields that I want to be part of. The stream is some stupid viral marketing content. It is a massive joke. It is also satire— a parody of the kind of attention grabbing content that we are used to and I am part of. But as well as being a joke, it is also serious. During the stream, people ask me serious questions about my research, and I answer seriously. And it is also an artistic project— a piece of performance art. And it is also advocacy. I explain the message of advocacy that the original video has. And I use the stream as an event to raise money for that cause. And people gave a lot.
+And I try to touch on all the blended fields that I want to be part of. The stream is some stupid viral marketing content. It is a massive joke. It is also satire— a parody of the kind of attention grabbing content that we are now used to, that I am now part of. But as well as being a joke, it is also serious. During the stream, people ask me serious questions about my research, and I answer seriously. And it is also an artistic project— a piece of performance art. And it is also advocacy. I explain the message of advocacy that the original video has. And I use the stream as an event to raise money for that cause. And people gave [a lot](https://elk.zone/mas.to/@TodePond/112712668910795070).
 
 And it is also about community. I mean—
 
