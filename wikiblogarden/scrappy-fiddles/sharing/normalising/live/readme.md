@@ -380,7 +380,7 @@ And it is also about community. I mean—
 
 ## Cult
 
-More and more, I trying to build a [cult](https://slab.org/2023/03/06/how-to-start-a-movement/)— I mean— ha(!) ha— a community.
+More and more, I am trying to build a [cult](https://slab.org/2023/03/06/how-to-start-a-movement/)— I mean— ha(!) ha— a community.
 
 The stream would have been nothing without people turning up, and contributing. It was a back and forth between me and the "crowd". Like algorave, it was a collaborative process. There were tons of repeating refrains put forward and picked up by viewers, which have continued on for days now. I feel part of something bigger, despite its ridiculousness— its stupidity. I feel like we all went through something together.
 
