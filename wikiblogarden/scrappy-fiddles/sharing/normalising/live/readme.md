@@ -70,7 +70,7 @@ A lovely guy called [Shane Crowley](https://edibotopic.com/) wrote about it in h
 
 > "Arroost got me back to a place where I could make something"
 
-Shane gives various reasons for this in the blog post. One of these is:
+Shane gives various reasons for this in the— in his blog post. One of these is:
 
 > "With Arroost I couldn't do noise reduction, so I stopped caring and just focused on recording."
 
