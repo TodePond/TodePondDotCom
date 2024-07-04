@@ -390,7 +390,7 @@ For me, that felt like worlds colliding— blending together, which is exactly w
 
 ## Change
 
-For me, it was an exploration of what it feels like to change. Even one hour later, looking back on my recent self, I could already see that I had changed. And it made me think of how I have changed these last few years especially.
+For me, it was an exploration of what it feels like to change. Even one hour later, looking back on my recent self, I could already see that I had changed. And it made me think of how I have changed in these last few years especially.
 
 That's what happens when we do repetition— when we copy ourselves forwards from one second to the next. The act of copying— repeating— is always imperfect. You might copy something wrong. Or you might just be in a different circumstance, one second into the future. To copy— to repeat— is to grow into something different, and that's all we do.
 
