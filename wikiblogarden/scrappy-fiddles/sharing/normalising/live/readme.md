@@ -344,6 +344,8 @@ What does it really feel like— mean to be recursive? Can you comprehend the sc
 
 Do you know what it feels like to stare at yourself an infinite number of times? Like in [Yayoi Kusama's Infinity Rooms](https://youtu.be/bT7i507OnOw), there is no escape. You are there— you are what you are— with your mistakes and your choices— your history and change.
 
+To look at yourself recursively is to look at all past and future versions of yourself as copies— repeated but slightly changed. You embody an ever-changing yet repeating pattern, never quite arriving or settling on a resolution, except for death, and even in death, your body crumbles onwards onwards, changing changing.
+
 There is no hiding— you cannot hide— that you are a scrappy fiddle, and always were— and always will be.
 
 So it is up to you—
