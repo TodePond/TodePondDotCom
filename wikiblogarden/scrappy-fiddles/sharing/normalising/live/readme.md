@@ -334,7 +334,7 @@ These differences reflect the slightly different goals that Arroost has and—
 
 "Recursion is cheap" is what some guy said once apparently.
 
-"Recursion is cheap" is the same— as an idea has the same elitist undertones as thinking that "repetition is infantile".
+"Recursion is cheap" is the same— an idea— as an idea, it has the same elitist undertones as thinking that "repetition is infantile".
 
 If "recursion is cheap" then being recursive becomes a rebellious act in the same way that repetition is.
 
