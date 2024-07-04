@@ -22,7 +22,7 @@ I have always hoped that I— I always thought that if I—
 
 I'll be at peace! I'll reach the end. So I have been very motivated to make things— new things, and express myself with new [ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/). And get to the end. "Just make [99 sands](https://www.todepond.com/pondcast/finding-ninety-nine-sands/)! (in different ways)" (in different ways) (in different ways) (in different—
 
-## Process
+## Normalise sharing scrappy fiddles
 
 At some point, I started to realise that I was very wrong.
 
