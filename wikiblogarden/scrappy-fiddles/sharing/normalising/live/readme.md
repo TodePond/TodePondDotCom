@@ -386,7 +386,7 @@ The stream would have been nothing without people turning up, and contributing. 
 
 And in that crowd, many familiar faces turned up. I saw my boss [Steve Ruiz](https://www.steveruiz.me/) who told me to look out for my posture, and my partner [Flora Caulton](https://floracaulton.com/) who told me to react to Fortnite, and [Ivan Reese](https://ivanish.ca/), and [Dave Ackley](https://www.cs.unm.edu/~ackley/) and many more, and all the people I know and recognise from [mastodon](https://elk.zone/mas.to/@TodePond), as well as many new avatars and names that I now recognise. Some who stayed the entire time from start to end.
 
-For me, that felt like worlds colliding— blending together, which is exactly what I wanted. I want to draw the lines between these different worlds. I want to share the connections I have seen.
+For me, that felt like worlds colliding— blending together, which is exactly what I want. I want to draw the lines between these different worlds. I want to share the connections I have seen.
 
 ## Change
 
