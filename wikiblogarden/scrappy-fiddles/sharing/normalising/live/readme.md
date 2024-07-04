@@ -40,7 +40,7 @@ I realised that it's important to share the imperfect _process_ behind creation,
 
 I call it **"sharing scrappy fiddles"**. Don't just share the _end_. Don't just share the artifact. Share the whole process, from start to finish, and beyond (in each direction).
 
-And I have been trying to get people to **normalise** sharing scrappy fiddles for a while now, on my [mastodon](https://elk.zone/mas.to/@TodePond) and in my— my [talks](https://www.youtube.com/watch?v=cF2OF75ivZM) and on— and on my [blog](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/manifesto/) and in my [appearances](https://www.youtube.com/watch?v=kZRk2yeR3x0)— [appearances](https://www.youtube.com/watch?v=yVAGf1zVde8).
+And I have been trying to get people to **_normalise_ sharing scrappy fiddles** for a while now, on my [mastodon](https://elk.zone/mas.to/@TodePond) and in my— my [talks](https://www.youtube.com/watch?v=cF2OF75ivZM) and on— and on my [blog](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/manifesto/) and in my [appearances](https://www.youtube.com/watch?v=kZRk2yeR3x0)— [appearances](https://www.youtube.com/watch?v=yVAGf1zVde8).
 
 And what's more—
 
