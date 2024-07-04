@@ -134,7 +134,7 @@ I went on a [march](https://www.restorenaturenow.com/) recently.
 
 In one of the speeches, the speaker, [Nadeem Perera](https://www.flocktogether.world/about) said that "everyone does activism in their own way"— everyone is an activist in their own way. We all have our strengths and weaknesses, and that's ok. By working together, and embracing our diversity of approaches, we are all the better for it.
 
-The march itself was special because it was a combined efforts of different groups that normally don't work together. Direct action groups like [Extinction Rebellion](https://extinctionrebellion.uk/) and [Just Stop Oil](https://juststopoil.org/) teamed up with more traditional organisations like [WWF](https://www.wwf.org.uk/) and [The Wildlife Trusts](https://www.wildlifetrusts.org/), also known as "the old guard".
+The march itself was special because it was a combined effort of different groups that normally don't work together. Direct action groups like [Extinction Rebellion](https://extinctionrebellion.uk/) and [Just Stop Oil](https://juststopoil.org/) teamed up with more traditional organisations like [WWF](https://www.wwf.org.uk/) and [The Wildlife Trusts](https://www.wildlifetrusts.org/), also known as "the old guard".
 
 Leading up to the event, there were [small signs](https://www.theguardian.com/environment/article/2024/jun/21/restore-nature-now-march-london-urgent-action) of discomfort around this. Do these large corporate charities really want their name next to radical and disruptive groups? Do these radical and disruptive groups really want their name next to large corporate charities?
 
