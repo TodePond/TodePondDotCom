@@ -350,7 +350,7 @@ There is no hiding— you cannot hide— that you are a scrappy fiddle, and alwa
 
 So it is up to you—
 
-It is up to you whether you share yourself or not. But whatever _you_ choose to do, whether you share scrappy fiddles or not, you must _normalise_ sharing scrappy fiddles, at the very least for those who want to or have no choice, like [me](https://www.todepond.com/wikiblogarden/men/choose/the-way-i-am/).
+It is up to you whether you share yourself or not. But whatever you choose to do, whether you share scrappy fiddles or not, you **must** _normalise_ sharing scrappy fiddles, at the very least for those who want to or have no choice, like [me](https://www.todepond.com/wikiblogarden/men/choose/the-way-i-am/).
 
 You are a scrappy fiddle. You may or may not share scrappy fiddles. But you must normalise sharing scrappy fiddles.
 
