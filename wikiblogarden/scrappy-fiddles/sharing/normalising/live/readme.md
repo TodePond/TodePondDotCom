@@ -116,9 +116,9 @@ You are welcome to judge how well I am doing at my task, but I think it's going 
 
 Sometimes I wonder— what would it feel like— just for one moment— for someone— just one person— to tell me—
 
-"Just go for it Lu"
+"Just go for it Lu."
 
-"Go all the way"
+"Go all the way."
 
 <br>
 
