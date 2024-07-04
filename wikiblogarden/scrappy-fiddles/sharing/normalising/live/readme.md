@@ -394,7 +394,7 @@ For me, it was an exploration of what it feels like to change. Even one hour lat
 
 That's what happens when we do repetition— when we copy ourselves forwards from one second to the next. The act of copying— repeating— is always imperfect. You might copy something wrong. Or you might just be in a different circumstance, one second into the future. To copy— to repeat— is to grow into something different, and that's all we do.
 
-In the [original video](https://www.youtube.com/watch?v=xvlsJ3FqNYU), this is what the rainbow spell represents to me. We change, we grow, we copy, we continue, we learn, forever.
+In the [original video](https://www.youtube.com/watch?v=xvlsJ3FqNYU), this is what the rainbow spell represents to me (I don't care if it's cheesy). We change, we grow, we copy, we continue, we learn, forever.
 
 > "Cells randomly **copy** themselves into empty spaces, **changing** the colour of the copy a tiny bit each time. It produces some very colourful **patterns**. So let's do it **again and again and again**."
 
