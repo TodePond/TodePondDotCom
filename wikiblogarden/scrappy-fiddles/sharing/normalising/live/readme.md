@@ -264,7 +264,7 @@ Live coding is live. It's "[extreme sharing](https://www.youtube.com/watch?v=S2E
 
 That night felt special to me, but I guess it didn't come out of nowhere. It came from—
 
-"We love repetition" is a repeated tagline of Algorave. So I asked Alex McLean where it came from, because I guess it didn't come out of nowhere. It came from—
+"We love repetition" is a repeated tagline of Algorave. So I [asked](https://elk.zone/mas.to/@TodePond/112721287890127394) Alex McLean where it came from, because I guess it didn't come out of nowhere. It came from—
 
 > When I was a (failing) student the first time around in the 90s, I came up with "[MDMA generation, we love repetition]" as a joke while messing around with a synth, if I recall correctly, and later reappropriated it...
 >
