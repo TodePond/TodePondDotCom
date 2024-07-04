@@ -32,7 +32,7 @@ Through making things— expressing myself, I change. My change is reflected in 
 
 If you ever do— ever get to the end of an artistic project, you end up with an **artifact**. But that artifact is not the project and the project is not the artifact. The artifact is only the final step— a shadowy echo of what you _really did_. It can be important— meaningful, but only within the bigger picture within your struggle towards the _end_. If you were to discard all of that initial work, you would lose something valuable— something precious.
 
-The process is the point! That's the human part! That's why we're here! To share our journeys and struggles with each other! Otherwise we're no better— we're no better than some stupid— if you want an artifact— without the process we are nothing better than a stupid image or language model pumping out— regurgitating any— if you want an artifact— that's not why we're—
+The process is the point! That's the human part! That's why we're here! To share our journeys and struggles with each other! Otherwise we're no better— we're no better than some stupid— if you want an artifact— without the process we are nothing better than a stupid image or language model pumping out— regurgitating any— if you want an artifact— that's not why we're here. We're here to—
 
 ## Normalise sharing scrappy fiddles
 
