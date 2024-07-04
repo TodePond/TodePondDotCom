@@ -36,7 +36,7 @@ The process is the point! That's the human part! That's why we're here! To share
 
 ## Normalise sharing scrappy fiddles
 
-I realised that it's important to share the imperfect _process_ behind creation, even if it sucks, because it's the most important bit. And you see me doing that here with these dashes that I— that indicate where I have changed my mind. I don't backspace, I dash instead. And so you can see my— see how my— you can see my process and my struggle towards the _end_. You can know when I'm sure, and you can know when I'm uncertain— when I can't write— decide what to say— write. And hopefully, you can see inside my head a little bit. And we can feel closer. And we can feel—
+I realised that it's important to share the imperfect _process_ behind creation, even if it sucks— especially if it sucks, because it's the most important bit. And you see me doing that here with these dashes that I— that indicate where I have changed my mind. I don't backspace, I dash instead. And so you can see my— see how my— you can see my process and my struggle towards the _end_. You can know when I'm sure, and you can know when I'm uncertain— when I can't write— decide what to say— write. And hopefully, you can see inside my head a little bit. And we can feel closer. And we can feel—
 
 I call it **"normalise sharing scrappy fiddles"**. Don't just share the _end_. Don't just share the artifact. Share the whole process, from start to finish, and beyond (in each direction).
 
