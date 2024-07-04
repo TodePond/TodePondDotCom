@@ -46,7 +46,7 @@ And what's more—
 
 <br>
 
-I think that it's morally important— important, in a moral sense to— that we normalise sharing scrappy fiddles. I think that it's morally wrong to _not_ normalise sharing scrappy fiddles— that _not normalising sharing scrappy fiddles_ is morally wrong— inaction is morally wrong. I want you to know that this is how important it is to me.
+I think that it's morally important— important, in a moral sense— that we normalise sharing scrappy fiddles. I think that it's morally wrong to _not_ normalise sharing scrappy fiddles— that _not normalising sharing scrappy fiddles_ is morally wrong— inaction is morally wrong. I want you to know that this is how important it is to me.
 
 ## Arroost
 
