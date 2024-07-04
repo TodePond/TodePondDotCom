@@ -252,7 +252,7 @@ I mean— it wasn't just about understanding. It was also about explicitly getti
 
 At one point, Alex made a mistake. He accidentally made one of the sequences cycle through way too quickly— too fast. It sounded a little bit jarring, and I saw him smile to himself when it happened. He stopped it shortly afterwards and looked up at the crowd and sheepishly said "sorry", which cut the— it made everyone laugh.
 
-At that moment, I thought back to our chat in the pub, when Alex had told me about the culture of "embracing your mistakes" within live coding. I wondered to myself— I wondered if he had considered— even for a moment— did he feel tempted to keep the mistake in? I'm not sure. Maybe not. Maybe that one was too much. But I bet he could if he really wanted to. And in this moment, I now observe how I— how it's— how it shares similarities to my current approach to writing, with all— these— annoying— dashes.
+At that moment, I thought back to our chat in the pub, when Alex had told me about the culture of "embracing your mistakes" within live coding. I wondered to myself— I wondered if he had considered— even for a moment— did he feel tempted to keep the mistake in? I'm not sure. Maybe not. Maybe that one was too much. But I bet he could if he really wanted to. And in this moment, I now observe how I— how it's— how it shares similarities to my current approach to writing with— all— these— really— annoying— dashes.
 
 The mistake was embraced. It was a positive moment— a moment of laughter— of shared struggle. Alex had to react and respond to the mistake, and so did the crowd. Everyone dancing had to make a decision on "what to do"— decide how to respond. It was a— live coding is a shared struggle— a combined— community— collaborative effort.
 
