@@ -158,7 +158,7 @@ I wrote it up in my [write up](https://www.todepond.com/wikiblogarden/blending/g
 
 He says that the important thing is:
 
-> "making space for community, and getting the conditions right so the community then grows itself. I think to really align with this approach it's good to stop talking about making tools for people. I think tools are much more limited than languages or environments."
+> "Making space for community, and getting the conditions right so the community then grows itself. I think to really align with this approach it's good to stop talking about making tools for people. I think tools are much more limited than languages or environments."
 
 [NO MORE TOOLS](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools/)
 
