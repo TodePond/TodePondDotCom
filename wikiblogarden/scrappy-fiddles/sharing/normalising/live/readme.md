@@ -38,7 +38,7 @@ The process is the point! That's the human part! That's why we're here! To share
 
 I realised that it's important to share the imperfect _process_ behind creation, even if it sucks— especially if it sucks, because it's the most important bit. And you see me doing that here with these dashes that I— that indicate where I have changed my mind. I don't backspace, I dash instead. And so you can see my— see how my— you can see my process and my struggle towards the **end**. You can know when I'm sure, and you can know when I'm uncertain— when I can't write— decide what to say— write. And hopefully, you can see inside my head a little bit. And we can feel closer. And we can feel—
 
-I call it **"sharing scrappy fiddles"**. Don't just share the end. Don't just share the artifact. Share the whole process, from start to finish, and beyond (in each direction).
+I call it **"sharing scrappy fiddles"**. Don't just share the _end_. Don't just share the artifact. Share the whole process, from start to finish, and beyond (in each direction).
 
 And I have been trying to get people to **_normalise_ sharing scrappy fiddles** for a while now, on my [mastodon](https://elk.zone/mas.to/@TodePond) and in my— my [talks](https://www.youtube.com/watch?v=cF2OF75ivZM) and on— and on my [blog](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/manifesto/) and in my [appearances](https://www.youtube.com/watch?v=kZRk2yeR3x0)— [appearances](https://www.youtube.com/watch?v=yVAGf1zVde8).
 
