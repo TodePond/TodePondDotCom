@@ -74,7 +74,7 @@ Shane gives various reasons for this in the— in his blog post. One of these is
 
 > "With Arroost I couldn't do noise reduction, so I stopped caring and just focused on recording."
 
-And I was really pleased to see all the **scrappy fiddles** that people made in arroost, and more importantly, _shared_. Click [here](https://www.todepond.com/wikiblogarden/arroost/examples/) for just a small selection of examples.
+And I was really pleased to see all the **scrappy fiddles** that people made in arroost, and more importantly, _shared_, thus _normalising_ it. Click [here](https://www.todepond.com/wikiblogarden/arroost/examples/) for just a small selection of examples.
 
 This is not unique to arroost. You can see similar things happening in my influences. [tldraw](https://tldraw.com) creatively frees you to draw because of its— the imperfections of its marks. [Sandspiel](https://sandspiel.club) is not a drawing tool, which makes it a great drawing tool. [Nonsense machines](https://youtu.be/vX-dEq4UDYI?si=zYiCqctwVNo5cJRV) are hard to play, which makes them easy to play.
 
