@@ -184,7 +184,7 @@ I was expecting maybe a handful of submissions— five or ten max, but it went r
 
 The goal of the tadi web— torn leaf— is the same as the tadi web— torn leaf. Its goal is to blend together— communities and bring them together. And one day, the two umbrellas may come together— join and blend as one— reducing down to one torni weaf— tan leb. Two copies of the same thing— _the same thing repeated, but slightly changed_.
 
-And so I wonder if I should make less [arroosts](https://arroost.com) and less [sandponds](https://sandpond.cool) and more tarni leebs.
+And so I wonder if I should make less [arroosts](https://arroost.com) and less [sandponds](https://sandpond.cool) and more [tarni](https://tornleaf.gallery) [leebs](https://tadiweb.com).
 
 ## London coding scene
 
