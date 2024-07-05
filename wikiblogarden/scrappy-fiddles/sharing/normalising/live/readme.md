@@ -40,7 +40,7 @@ I realised that it's important to share the imperfect _process_ behind creation,
 
 I call it **"sharing scrappy fiddles"**. Don't just share the _end_. Don't just share the artifact. Share the whole process, from start to finish, and beyond (in each direction).
 
-And I have been trying to get people to **_normalise_ sharing scrappy fiddles** for a while now, on my [mastodon](https://elk.zone/mas.to/@TodePond/111246250052172614) and in my— my [talks](https://www.youtube.com/watch?v=cF2OF75ivZM) and on— and on my [blog](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/manifesto/) and in my [appearances](https://www.youtube.com/watch?v=kZRk2yeR3x0)— [appearances](https://www.youtube.com/watch?v=yVAGf1zVde8).
+I have been trying to get people to **_normalise_** it— to **_normalise_ sharing scrappy fiddles** for a while now, on my [mastodon](https://elk.zone/mas.to/@TodePond/111246250052172614) and in my— my [talks](https://www.youtube.com/watch?v=cF2OF75ivZM) and on— and on my [blog](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/manifesto/) and in my [appearances](https://www.youtube.com/watch?v=kZRk2yeR3x0)— [appearances](https://www.youtube.com/watch?v=yVAGf1zVde8).
 
 And what's more—
 
@@ -74,7 +74,7 @@ Shane gives various reasons for this in the— in his blog post. One of these is
 
 > "With Arroost I couldn't do noise reduction, so I stopped caring and just focused on recording."
 
-And I was really pleased to see all the **scrappy fiddles** that people made in arroost, and more importantly, _shared_, thus _normalising_ it. Click [here](https://www.todepond.com/wikiblogarden/arroost/examples/) for just a small selection of examples.
+And I was really pleased to see all the **scrappy fiddles** that people made in arroost, and more importantly, **shared**, thus **normalising** it. Click [here](https://www.todepond.com/wikiblogarden/arroost/examples/) for just a small selection of examples.
 
 This is not unique to arroost. You can see similar things happening in my influences. [tldraw](https://tldraw.com) creatively frees you to draw because of its— the imperfections of its marks. [Sandspiel](https://sandspiel.club) is not a drawing tool, which makes it a great drawing tool. [Nonsense machines](https://youtu.be/vX-dEq4UDYI?si=zYiCqctwVNo5cJRV) are hard to play, which makes them easy to play.
 
@@ -206,7 +206,7 @@ My work at tldraw continues to be about making things and sharing the process, l
 
 Normalise sharing scrappy fiddles.
 
-I am proud that tldraw has been able to support the London coding scene in small ways, sponsoring and paying for events like Future of Coding, and London Creative Coding. And more recently, we hosted [QueerJS](https://queerjs.com/london-2024/) in our office, organised by my friend [Alex Dytrych](https://alex.dytry.ch/), who I first met via [Sandspiel Studio](https://www.youtube.com/watch?v=ecCVor7mJ6o), which I got involved with through [Max Bittker](https://maxbittker.com/), because our shared love of [sand](https://maxbittker.com/making-sandspiel), which I got into by discovering [spatial simulations of artificial life](https://www.youtube.com/watch?v=YJRRu4dJnTI) by [Dave Ackley](https://www.cs.unm.edu/~ackley/).
+I am proud that tldraw has been able to support the London coding scene in small ways, sponsoring and paying for events like Future of Coding, and London Creative Coding. And more recently, we hosted [QueerJS](https://queerjs.com/london-2024/) in our office, organised by my friend [Alex Dytrych](https://alex.dytry.ch/), who I first met via [Sandspiel Studio](https://www.youtube.com/watch?v=ecCVor7mJ6o), which I got involved with through [Max Bittker](https://maxbittker.com/), because of our shared love of [sand](https://maxbittker.com/making-sandspiel), which I got into by discovering [spatial simulations of artificial life](https://www.youtube.com/watch?v=YJRRu4dJnTI) by [Dave Ackley](https://www.cs.unm.edu/~ackley/).
 
 I spoke at QueerJS, and so did my colleague, [Taha Hassan](https://www.linkedin.com/in/taha--hassan/), who shared some extremely early stage work on improving the accessibility of the canvas. His talk contained scrappy demos, as well as his early design and planning work. He shared his whole process— he shared it all, and it was fantastic.
 
