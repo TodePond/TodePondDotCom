@@ -14,7 +14,7 @@ I feel like— I've struggled and learned— I've struggled through various— I
 
 It hasn't always been easy for me to express myself with code. I have found myself struggling through the same hurdles and blockers again and again. And in doing that, I learn things —about myself, and also about the practice of being creative more generally— in a more general sense.
 
-Through this struggle, I have seen myself change throughout— as my situation changes around me. I now sound different, and I look different, and I act different, and I still don't know what I want or who I am, but I am learning to—
+Through this struggle, I have seen myself change throughout— as my situation changes around me. I now sound different, and I look different, and I act different, and I still don't know what I want or [who I am](https://www.todepond.com/wikiblogarden/my-name/gender/), but I am learning to—
 
 I have always hoped that I— I always thought that if I—
 
@@ -110,7 +110,7 @@ And I have been struggling towards bringing my work in these fields closer toget
 
 I sometimes struggle to "find my people" in a way. I enjoy— relate to different parts— aspects of different communities. And I find myself taking part in lots of different ones, but feeling home in none. This is not unique to me— this is not rare. Quite the opposite, in fact. In fact, I'm pretty sure that this is the most common experience that people experience— and you might relate to— experience it yourself.
 
-So I find myself trying to build my own path out of the component pieces that I have access to. I don't want to hop between doing art and content and research and— I want it to be the same thing. I want it to be [blended](https://www.todepond.com/wikiblogarden/blending/fields/), just like [me](https://www.todepond.com/wikiblogarden/my-name/gender/), so I try to carve myself a blended field where I can keep one foot in all worlds.
+So I find myself trying to build my own path out of the component pieces that I have access to. I don't want to hop between doing art and content and research and— I want it to be the same thing. I want it to be [blended](https://www.todepond.com/wikiblogarden/blending/fields/), just like [me](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/), so I try to carve myself a blended field where I can keep one foot in all worlds.
 
 You are welcome to judge how well I am doing at my task, but I think it's going ok so far. People seem to _mostly_ like what I make, but then they also continually tell me to do things [differently](https://www.todepond.com/wikiblogarden/blending/worlds/)— that I'm doing things [wrong](https://www.todepond.com/wikiblogarden/men/no/not/like/that/)— that I should do things more like _them_ and _their field_, and not like _all those other fields_. And so I do wonder sometimes what it is I am doing wrong— what I should do instead— what I should **change**. I have my doubts in myself, just like everybody— everyone does.
 
