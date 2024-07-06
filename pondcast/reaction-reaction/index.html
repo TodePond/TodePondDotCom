@@ -1,0 +1,386 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--rainbow-gradient);
+    color: black;
+    background-size: 700% 800%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    );
+    background-size: 400% 300%;
+    /* background-opacity: 0.5; */
+    background-color: black;
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.mp3" type="audio/mpeg" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Reaction reaction
+  </h1>
+
+  <p>Oh my god. It&#39;s time for—</p>
+  <p>It&#39;s been a weird week. Thank god it&#39;s the—</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>What&#39;s new this week?</p>
+  <img src="1.png" />
+  <h2 id="reaction-reaction">Reaction reaction</h2>
+  <p>
+    I did a livestream a week ago. Its premise was simple. I would react to—
+  </p>
+  <p>
+    Ok, a long time ago, I released a video called
+    <a href="https://www.youtube.com/watch?v=xvlsJ3FqNYU">Spellular Automata</a
+    >. And recently, a tech influencer called
+    <a href="https://www.youtube.com/@t3dotgg">Theo</a> made a
+    <a href="https://www.youtube.com/watch?v=2jX84iTXKg8">reaction video</a>
+    about it. So I decided to make a reaction video of his reaction video, and I
+    decided to record it live, on
+    <a href="https://www.youtube.com/live/hlsDbXSZ2ko">a livestream</a>.
+  </p>
+  <p>
+    But there was a twist. After doing my reaction video, which took about an
+    hour, I then did another reaction video of reaction video of Theo&#39;s
+    reaction video of my video. And that took about an hour as well. And then, I
+    did it again. I did a reaction video of my reaction video of my reaction
+    video of Theo&#39;s reaction video of my video. And that took about another
+    hour. And this might seem crazy. Maybe it is.
+  </p>
+  <p>
+    During this whole time, many many people were watching. It was always over
+    one hundred people, which was absolutely crazy for me. I couldn&#39;t
+    believe it when this was all going on. I still can&#39;t, to be honest. It
+    was this incredible a d special community moment, where we all got to
+    interact in realtime. And if you missed it, you can still
+    <a href="https://www.youtube.com/live/hlsDbXSZ2ko">catch up</a>, and see all
+    the chat messages along the way.
+  </p>
+  <p>
+    After a while, some viewers recommended that I speed up the video. This was
+    partly to make it quicker, but also partly so that I could
+    <em>catch up</em> to the present, and swallow myself. By the end, I was
+    reacting to what I had done just one second ago.
+  </p>
+  <p>
+    The whole stream was perhaps the most surreal experience I&#39;ve ever
+    experienced in my entire life. It feels like it left a lasting impression on
+    me. I can&#39;t quite put into words yet.
+  </p>
+  <p>
+    Watch the whole stream
+    <a href="https://www.youtube.com/live/hlsDbXSZ2ko">here</a> and/or watch
+    this
+    <a href="https://www.youtube.com/watch?v=54cK-XLu-s0">compilation</a> of one
+    of the hundreds of threaded storylines.
+  </p>
+  <img src="2.png" />
+  <h2 id="swallowing-myself">Swallowing myself</h2>
+  <p>I gave a talk about <a href="https://screenpond.cool">ScreenPond</a>!</p>
+  <p>
+    I&#39;ve demoed ScreenPond over-the-shoulder many many many times before.
+    It&#39;s maybe my most frequently done demo because it gets into the goods
+    very quickly. And of course I made that
+    <a href="https://www.youtube.com/watch?v=Q4OIcwt8vcE">video</a>. But
+    it&#39;s one of the few &#39;main&#39; projects that I&#39;ve never
+    presented in front of an audience.
+  </p>
+  <p>
+    So I tried to figure out how to present it— how to tell its story. For
+    ScreenPond, I needed the talk itself to match the madness of the infinite
+    space warping recursion that the engine does. So I included a few
+    &#39;fakeouts&#39; where you thought the talk was going to be one thing, but
+    then it ended up being something else. The talk ended up jumping between
+    four different &#39;environments&#39;. It was like it was switching between
+    four different talks.
+  </p>
+  <p>
+    As time went on, the talk became more and more chaotic, and it all sort of
+    mushed into one. Essentially, the talk was about feeling overwhelmed, and
+    trying to represent that feeling with code.
+  </p>
+  <p>
+    It went down really well, and I regret not asking anyone to film it. I did
+    see people film some sections of it, but I&#39;ve only been sent a couple of
+    short clips so far.
+  </p>
+  <img src="3.png" />
+  <h2 id="dialogues">Dialogues</h2>
+  <p>
+    Perhaps one of the reasons I&#39;ve been losing my mind recently is that
+    I&#39;ve been trying and struggling, but soldiering on, to work on the essay
+    that [Dave Ackley] and I are doing together. It probably explains why the
+    livestream was so bonkers.
+  </p>
+  <p>
+    And hey, Dave covered it in
+    <a href="https://www.youtube.com/watch?v=jreRFxN6wuM"
+      ><em>his</em> update</a
+    >
+    this week too.
+  </p>
+  <p>
+    It feels really hard to &#39;edit&#39; a dialogue. In one sense, it feels
+    disingenuous. The essay is presented as a dialogue of speech, but then
+    we&#39;re editing it. On the other hand, it&#39;s enjoyably meta. The essay
+    is presented as a dialogue, because that&#39;s what the essay is about. So
+    we now get the chance to &#39;work on our natural code&#39;.
+  </p>
+  <p>
+    I&#39;m determined to get it done, and get it done well. At least I&#39;ll
+    try. I&#39;ll give it my <em>best effort</em>.
+  </p>
+  <p>
+    <strong
+      >I want to thank you for supporting my work for another week. Welcome to
+      everyone who joined this week. There are loads of you! The livestream
+      really did make a big difference, it seems. So, welcome. And welcome back
+      to all the old-timers, who have stuck with me for so long. I thank you
+      from the bottom of my heart. Wherever you are in the world, whatever
+      you&#39;re doing... I hope you have a great week.</strong
+    >
+  </p>
+
+  <em>Days since tode fell asleep: 548</em><br />
+  <em>Days since bot went missing: 513</em><br />
+  <em>Days since berd flew away: 176</em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+</details>

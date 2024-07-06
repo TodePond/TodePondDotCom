@@ -9,9 +9,7 @@
 <link rel="stylesheet" href="/style.css" />
 
 <!-- <blockquote> -->
-<p
-  class="secondary"
-  style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
   The weekly TODEPOND PONDCAST is for paying supporters only.<br />
   Please only listen / read if you've
   <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
@@ -90,6 +88,14 @@
     /* box-shadow: none; */
   }
 
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
   body {
     /* min-height: 300%; */
   }
@@ -103,12 +109,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    outline: 2px solid rgba(159, 174, 238, 0.05);
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
   }
 
   body:has(> details[open]) {
     background: radial-gradient(
-      circle at 1% -15%,
+      circle at 15% -15%,
       var(--best-colour) 0%,
       rgb(59, 73, 138) 8%,
       rgb(31, 39, 54) 25%,
@@ -129,16 +135,18 @@
     /* font-weight: normal; */
     /* text-decoration: underline; */
     text-align: center;
-    background-color: var(--shade-1);
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
     /* outline: 1px solid white; */
-    outline: 2px solid rgba(159, 174, 238, 0.05);
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
     /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
     /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
     /* backdrop-filter: brightness(60%); */
   }
 
   img {
-    outline: 2px solid rgba(159, 174, 238, 0.1);
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
   }
 
   audio {
@@ -220,12 +228,12 @@
       position: absolute;
       left: 0px;
       right: 0px;
-      outline: 2px solid rgba(159, 174, 238, 0.1);
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
       /* background-color: var(--best-colour); */
     " />
 
   <audio controls style="position: sticky; top: 10px; margin-top: 38px">
-    <source src="1.m4a" type="audio/x-m4a" />
+    <source src="1.mp3" type="audio/mpeg" />
   </audio>
   <h1
     style="
@@ -247,9 +255,9 @@
     TODEPOND PONDCAST:
   </h1>
 
-  <em>Days since tode fell asleep:</em><br />
-  <em>Days since bot went missing:</em><br />
-  <em>Days since berd flew away:</em>
+  <em>Days since tode fell asleep: </em><br />
+  <em>Days since bot went missing: </em><br />
+  <em>Days since berd flew away: </em>
 
   <p><br /></p>
 
