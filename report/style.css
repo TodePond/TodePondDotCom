@@ -132,6 +132,17 @@ a.contents::selection {
   color: white;
 }
 
+figure {
+  margin: 40px;
+}
+
+figcaption {
+  text-align: center;
+  /* italic */
+  font-style: italic;
+  margin-top: 10px;
+}
+
 a.contents {
   color: var(--shade-3);
   background-color: white;
