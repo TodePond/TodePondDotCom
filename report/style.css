@@ -360,6 +360,11 @@ img {
   max-width: 100%;
 }
 
+figure {
+  width: 100%;
+  text-align: center;
+}
+
 summary {
   user-select: none;
   cursor: pointer;
