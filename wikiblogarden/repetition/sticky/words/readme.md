@@ -150,7 +150,7 @@ In the past, I have made some terrible names and I have made some not terrible n
 - [Tadi Web](https://tadiweb.com)
 - [Arroost](https://arroost.com)
 - [Dreamberd](https://dreamberd.computer)
-- [Normalise sharing scrappy fiddles] 
+- [Normalise sharing scrappy fiddles](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/)
 - [Slippy mindset](https://tadiweb.com)
 - [Mothertode](https://todepond.gitbook.io/mothertode)
 - [Fractal Bucket](https://www.patreon.com/posts/todepond-fractal-89529064?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
