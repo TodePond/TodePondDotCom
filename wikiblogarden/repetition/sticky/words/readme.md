@@ -8,7 +8,7 @@ Whether it's [welcome back to the sandpond saga](https://youtu.be/Z24NKn6rQRY), 
 
 The other benefit is that it creates a meme, a secret message, that community members can pick up and use to indicate that they belong to the story or— to others that they are part of the crowd, like a gang sign or an in joke. When someone repeats one of those phrases— collections of words, they add to the repetition and contribute to the **lore**, as well as taking part in a bigger group— the cult (ha) or the community.
 
-I mean— it— I hope it doesn't sound like I'm trying— I'm not trying to make it sound bigger than it is. By repeating a phrase again and again, it's an invitation for others to join in and say "I know that" and add their own spin to it. It's [copying something but changing it a tiny bit each time].
+I mean— it— I hope it doesn't sound like I'm trying— I'm not trying to make it sound bigger than it is. By repeating a phrase again and again, it's an invitation for others to join in and say "I know that" and add their own spin to it. It's [copying something but changing it a tiny bit each time](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/).
 
 ## Breaking
 
