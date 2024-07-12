@@ -167,17 +167,13 @@ And I explore repetition in some [recent experiments](https://youtube.com/live/h
 
 ## Define repetition
 
-Repetition is when you do the same thing again and again. 
+Repetition is when the same thing again and again. 
 
-It can be comfort or control.
-
-It can be order or chaos.
-
-It can be madness or peace. 
-
-It can be identity or community.
-
-It can be meaning or surprise.
+- It can be comfort or control.
+- It can be order or chaos.
+- It can be madness or peace. 
+- It can be identity or community.
+- It can be meaning or surprise.
 
 ## Sticky words
 
