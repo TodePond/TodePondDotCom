@@ -40,7 +40,7 @@ Change is scary. Repetition represents the lack of change. Repetition is comfort
 
 Every day, in the morning, at school, when I was a teacher, I said the same things every single morning, in the morning.
 
-"Let's get started" is one thing I repeatedly said, which has also become a recurring pattern in the [SandPond Saga].
+"Let's get started" is one thing I repeatedly said, which has also become a recurring pattern in the [SandPond Saga](https://youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4&si=5gT1ZJKOnJBN7YxQ).
 
 Many of the children I worked with benefitted from routine, repetition. We did the same things every morning, we followed the same timetable, did the same things at the same times in the same ways. Of course there were alterations, but they were all grounded by the base routine. Everything was relative to the repetitive norm. Without it, it would be chaos. 
 
@@ -169,11 +169,11 @@ And I explore repetition in some [recent experiments](https://youtube.com/live/h
 
 Repetition is when the same thing again and again. 
 
-- It can be comfort or control.
-- It can be order or chaos.
-- It can be madness or peace. 
-- It can be identity or community.
-- It can be meaning or surprise.
+- It can be comfort and control.
+- It can be order and chaos.
+- It can be madness and peace. 
+- It can be identity and community.
+- It can be meaning and surprise.
 
 ## Sticky words
 
