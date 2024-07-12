@@ -167,7 +167,7 @@ And I explore repetition in some [recent experiments](https://youtube.com/live/h
 
 ## Define repetition
 
-Repetition is when the same thing again and again. 
+Repetition is when the same thing happens again and again. 
 
 - It can be comfort and control.
 - It can be order and chaos.
