@@ -177,7 +177,7 @@ It can be madness or peace.
 
 It can be identity or community.
 
-It can be meaning! 
+It can be meaning or surprise.
 
 ## Sticky words
 
