@@ -123,7 +123,7 @@ Don't get "stuck in the land of **is**" (a phrase that [Dave Ackley](https://www
 
 ## Meaning
 
-When you get yourself and your work out into the world, at first it— you has— have no meaning. Nobody knows what to call it— you. They don't know how to place you— it. 
+When you get yourself and your work out into the world, at first it— you have— has no meaning. Nobody knows what to call it— you. They don't know how to place you— it. 
 
 "What is this? I don't know this."
 
