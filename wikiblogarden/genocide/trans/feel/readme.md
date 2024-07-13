@@ -67,7 +67,7 @@ In this blog I will tell you how it feels for me to trans. Of course, my feeling
 
 <br>
 
-Okay I think I'm ready to write the blog post now. Come back in one to a hundred days to read it, depending on how long I take.
+Okay now that I've got that out my system, I think I'm ready to write the blog post for real now. Come back in one to a hundred days to read it, depending on how long I take.
 
 <br>
 
