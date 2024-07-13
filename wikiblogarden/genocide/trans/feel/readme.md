@@ -55,7 +55,7 @@ There are some people out there who don't feel right, and they can't quite put t
 
 <br>
 
-# How I feel about being trans
+# How I feel to be trans
 
 In this blog I will tell you how it feels for me to trans. Of course, my feelings will be completely different to everyone else's— every other trans person's. But I'll share mine. Here's what "being trans" feels like to me.
 
