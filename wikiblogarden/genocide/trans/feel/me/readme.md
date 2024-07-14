@@ -1,5 +1,3 @@
-# What it feels like to be trans
-
 I can't tell you what it feels like to be trans because everyone's experience is completely different. 
 
 I *can*, however, tell you what it feels like for *me* to be trans.
