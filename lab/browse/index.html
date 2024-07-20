@@ -34,11 +34,13 @@
   }
 </style>
 
-<article id="frame"></article>
+<article>
+  <iframe srcdoc=""></iframe>
+</article>
 
 <script type="module">
   const input = document.querySelector("input");
-  const frame = document.querySelector("#frame");
+  const iframe = document.querySelector("iframe");
   input.addEventListener("input", () => {
     loadUrl(input.value);
   });
@@ -54,7 +56,7 @@
   }
 
   function renderSource(source) {
-    frame.innerHTML = source;
+    iframe.srcdoc = source;
   }
 
   async function loadUrl(url) {
