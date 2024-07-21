@@ -4,7 +4,7 @@ Saying yes to everything is an enjoyable act of malicious compliance.
 
 ## Saying yes to everything
 
-I can say yes to any [pronoun](https://www.todepond.com/pronouns/) and [name](https://www.todepond.com/wikiblogarden/my-name/) and [loo](https://www.todepond.com/wikiblogarden/health/loo-lu/). And to me this represents a resistance of the heteronormative society that we live in. To me it represents gender fluidity and freedom.
+I can say yes to any [pronoun](https://www.todepond.com/pronouns/) and [name](https://www.todepond.com/wikiblogarden/my-name/) and [loo](https://www.todepond.com/wikiblogarden/health/loo-lu/). And to me this represents a resistance of the heteronormative society we live in. To me it represents gender fluidity and freedom.
 
 ## Saying yes to everything
 
