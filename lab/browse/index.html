@@ -16,7 +16,21 @@
 
 <!-- <h1>Frame</h1> -->
 
-<input type="url" value="https://news.ycombinator.com/" />
+<style>
+  nav {
+    display: flex;
+  }
+
+  nav button {
+    flex-shrink: 0;
+  }
+</style>
+
+<nav>
+  <!-- <button id="back">⬅️ Back</button> -->
+  <input type="url" value="https://news.ycombinator.com/" />
+  <button id="go">🚀 Go</button>
+</nav>
 
 <style>
   * {
@@ -39,11 +53,33 @@
 </article>
 
 <script type="module">
+  const urlParams = new URLSearchParams(window.location.search);
+  const url = urlParams.get("url");
+
   const input = document.querySelector("input");
   const iframe = document.querySelector("iframe");
-  input.addEventListener("input", () => {
-    loadUrl(input.value);
+  const goButton = document.querySelector("#go");
+
+  if (url !== null) {
+    document.querySelector("input").value = url;
+  }
+
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      goGoGo();
+    }
   });
+
+  goButton.addEventListener("click", () => {
+    goGoGo();
+  });
+
+  function goGoGo() {
+    if (input.value === "") {
+      input.value = "https://news.ycombinator.com/";
+    }
+    loadUrl(input.value);
+  }
 
   async function fetchSource(url) {
     const response = await fetch("https://todepond-fetchSource.web.val.run", {
@@ -55,14 +91,90 @@
     return json.source;
   }
 
+  function getRoutedSource(source) {
+    const host = new URL(input.value).origin;
+    // console.log(host);
+    source = source.replace(/href="(?!http)/g, `href="${host}/`);
+    source = source.replace(/src="(?!http)/g, `src="${host}/`);
+    const endOfBodyIndex = source.indexOf("</body>");
+
+    const hijackLinksSource = hijackLinks.toString();
+    const hijackLinksInjection = hijackLinksSource + "hijackLinks();";
+    let dreamberdInjection = "";
+
+    if (input.value === "https://news.ycombinator.com/") {
+      const dreamberdSource = addDreamBerdToTopOfHackerNews.toString();
+      dreamberdInjection = dreamberdSource + "addDreamBerdToTopOfHackerNews();";
+    }
+
+    const injection = dreamberdInjection + hijackLinksInjection;
+
+    source =
+      source.slice(0, endOfBodyIndex) +
+      "<script>" +
+      injection +
+      "</" +
+      "script>" +
+      source.slice(endOfBodyIndex);
+
+    console.log(source);
+
+    return source;
+  }
+
   function renderSource(source) {
-    iframe.srcdoc = source;
+    const routedSource = getRoutedSource(source);
+    iframe.srcdoc = routedSource;
+  }
+
+  function addDreamBerdToTopOfHackerNews() {
+    const tables = document.querySelectorAll("table");
+    const table = tables[2];
+    const html = `
+    <tr class='athing' id='36183683'>
+      <td align="right" valign="top" class="title"><span class="rank">0.</span></td>      <td valign="top" class="votelinks"><center><a id='up_36183683' href='vote?id=36183683&amp;how=up&amp;goto=news'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/TodePond/DreamBerd">DreamBerd is a perfect programming language</a><span class="sitebit comhead"> (<a href="https://github.com/TodePond/DreamBerd"><span class="sitestr">github.com/TodePond/DreamBerd</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
+          <span class="score" id="score_36183683">999 points</span> by <a href="https://news.ycombinator.com/user?id=humbugtheman" class="hnuser">humbugtheman</a> <span class="age" title="2024-07-21T00:17:31"><a href="https://news.ycombinator.com/item?id=36183683">9 hours ago</a></span> <span id="unv_36183683"></span> | <a href="https://news.ycombinator.com/hide?id=36183683&amp;goto=news">hide</a> | <a href="https://news.ycombinator.com/item?id=36183683">208&nbsp;comments</a>        </span>
+              </td></tr>
+      <tr class="spacer" style="height:5px"></tr>
+      `;
+
+    table.innerHTML = html + table.innerHTML;
   }
 
   async function loadUrl(url) {
     const source = await fetchSource(url);
     renderSource(source);
+    const newUrl = new URL(location);
+    newUrl.searchParams.set("url", url);
+    history.pushState({}, "", newUrl);
   }
 
   loadUrl(input.value);
+
+  function hijackLinks() {
+    const links = document.querySelectorAll("a");
+    for (const link of links) {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.parent.postMessage({ url: link.href }, "*");
+      });
+    }
+  }
+
+  addEventListener("message", (event) => {
+    input.value = event.data.url;
+    loadUrl(event.data.url);
+  });
+
+  addEventListener("popstate", () => {
+    const url = new URL(location);
+    const newUrl = url.searchParams.get("url");
+    if (newUrl === null) {
+      input.value = "https://news.ycombinator.com/";
+      loadUrl("https://news.ycombinator.com/");
+      return;
+    }
+    input.value = newUrl;
+    loadUrl(newUrl);
+  });
 </script>
