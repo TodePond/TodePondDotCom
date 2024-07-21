@@ -78,6 +78,9 @@
     if (input.value === "") {
       input.value = "https://news.ycombinator.com/";
     }
+    if (!input.value.startsWith("http")) {
+      input.value = "https://" + input.value;
+    }
     loadUrl(input.value);
   }
 
