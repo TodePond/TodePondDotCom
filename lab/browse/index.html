@@ -187,7 +187,7 @@
     window.URL = class extends _Url {
       constructor(url, base) {
         if (url.toString() === "about:srcdoc") {
-          return new _Url();
+          // return new _Url();
         }
 
         if (!base || base.toString() === "null") {
