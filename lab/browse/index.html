@@ -147,9 +147,9 @@
       "script>" +
       source.slice(endOfBodyIndex);
 
-    let startOfHeadIndex = source.indexOf("<head>") + "<head>".length;
+    let startOfHeadIndex = source.indexOf("<head>");
     if (startOfHeadIndex === -1) {
-      startOfHeadIndex = source.indexOf("<html>") + "<html>".length;
+      startOfHeadIndex = source.indexOf("<html>");
       if (startOfHeadIndex === -1) {
         startOfHeadIndex = 0;
       }
@@ -253,8 +253,12 @@
   }
 
   addEventListener("message", (event) => {
-    input.value = event.data.url;
-    loadUrl(event.data.url);
+    const url = event.data.url;
+    if (!url || url.toString() === "undefined" || url.toString() === "null") {
+      return;
+    }
+    input.value = url;
+    loadUrl(url);
   });
 
   addEventListener("popstate", () => {
