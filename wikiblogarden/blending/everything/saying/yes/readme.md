@@ -12,7 +12,7 @@ The confusion it creates is a flipping of the power dynamic that usually goes on
 
 ## Saying yes to everything
 
-Increasingly so, we live in a world where "everything is known". As our data is amassed and collected and analysed precisely. And with the internet and artificial intelligence in hand, we assume that we can "know anything". And it feels good to be an unknown— unfixed point in all of that.
+Increasingly so, we live in a world where "everything is known". All our data is amassed and collected and analysed precisely. And with the internet and artificial intelligence in hand, we assume that we can "know anything". And it feels good to be an unknown— unfixed point in all of that.
 
 ## Saying yes to everything
 
