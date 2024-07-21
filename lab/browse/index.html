@@ -81,22 +81,26 @@
     loadUrl(input.value);
   }
 
+  window._FETCH = window.fetch;
+
   async function fetchSource(url) {
-    const response = await fetch("https://todepond-fetchSource.web.val.run", {
-      method: "POST",
-      body: JSON.stringify({ url }),
-    });
+    const response = await window._FETCH(
+      "https://todepond-fetchSource.web.val.run",
+      {
+        method: "POST",
+        body: JSON.stringify({ url }),
+      }
+    );
     const json = await response.json();
     // console.log(json);
     return json.source;
   }
 
   function getRoutedSource(source) {
-    const host = new URL(input.value).origin;
+    const origin = new URL(input.value).origin;
     // console.log(host);
-    source = source.replace(/href="(?!http)/g, `href="${host}/`);
-    source = source.replace(/src="(?!http)/g, `src="${host}/`);
-    const endOfBodyIndex = source.indexOf("</body>");
+    source = source.replaceAll(/href="(?!http)/g, `href="${origin}/`);
+    source = source.replaceAll(/src="(?!http)/g, `src="${origin}/`);
 
     const hijackLinksSource = hijackLinks.toString();
     const hijackLinksInjection = hijackLinksSource + "hijackLinks();";
@@ -107,15 +111,57 @@
       dreamberdInjection = dreamberdSource + "addDreamBerdToTopOfHackerNews();";
     }
 
-    const injection = dreamberdInjection + hijackLinksInjection;
+    const fetchSourceInjection = fetchSource.toString();
+    const cacheRealFetchInjection = `window._FETCH = window.fetch;`;
+    const newFetchSource = replaceFetchWithFetchSource.toString();
+    const newFetchInjection = newFetchSource + "replaceFetchWithFetchSource();";
+    const originInjection = `window.ORIGIN = "${origin}";`;
+    const replaceUrlSource = replaceUrlWithReroutedUrl.toString();
+    const replaceUrlInjection =
+      replaceUrlSource + "replaceUrlWithReroutedUrl();";
+
+    const bodyInjection =
+      dreamberdInjection + hijackLinksInjection + newFetchInjection;
+
+    const headInjection =
+      cacheRealFetchInjection +
+      originInjection +
+      fetchSourceInjection +
+      newFetchInjection +
+      replaceUrlInjection;
+
+    let endOfBodyIndex = source.indexOf("</body>");
+
+    if (endOfBodyIndex === -1) {
+      endOfBodyIndex = source.indexOf("</html>");
+      if (endOfBodyIndex === -1) {
+        endOfBodyIndex = source.length;
+      }
+    }
 
     source =
       source.slice(0, endOfBodyIndex) +
       "<script>" +
-      injection +
+      bodyInjection +
       "</" +
       "script>" +
       source.slice(endOfBodyIndex);
+
+    let startOfHeadIndex = source.indexOf("<head>") + "<head>".length;
+    if (startOfHeadIndex === -1) {
+      startOfHeadIndex = source.indexOf("<html>") + "<html>".length;
+      if (startOfHeadIndex === -1) {
+        startOfHeadIndex = 0;
+      }
+    }
+
+    source =
+      source.slice(0, startOfHeadIndex) +
+      "<script>" +
+      headInjection +
+      "</" +
+      "script>" +
+      source.slice(startOfHeadIndex);
 
     console.log(source);
 
@@ -125,6 +171,51 @@
   function renderSource(source) {
     const routedSource = getRoutedSource(source);
     iframe.srcdoc = routedSource;
+  }
+
+  function replaceFetchWithFetchSource(source) {
+    window.fetch = async (url, ...args) => {
+      return await fetchSource(url);
+    };
+  }
+
+  function replaceUrlWithReroutedUrl(origin) {
+    const _Url = window.URL;
+    window.URL = class extends _Url {
+      constructor(url, base) {
+        if (url.toString() === "about:srcdoc") {
+          return new _Url();
+        }
+
+        if (!base || base.toString() === "null") {
+          if (url.toString().startsWith("http")) {
+            console.log("VALID URL");
+            console.log("url", url);
+            console.log("window.ORIGIN", window.ORIGIN);
+            return new _Url(url);
+          } else {
+            console.log("INVALID URL");
+            console.log("url", url);
+            console.log("window.ORIGIN", window.ORIGIN);
+            return new _Url(window.ORIGIN + url);
+          }
+        }
+
+        if (base.toString().startsWith("http")) {
+          console.log("VALID BASE");
+          console.log("url", url);
+          console.log("base", base);
+          console.log("window.ORIGIN", window.ORIGIN);
+          return new _Url(url, base);
+        } else {
+          console.log("INVALID BASE");
+          console.log("url", url);
+          console.log("base", base);
+          console.log("window.ORIGIN", window.ORIGIN);
+          return new _Url(window.ORIGIN + url, base);
+        }
+      }
+    };
   }
 
   function addDreamBerdToTopOfHackerNews() {
