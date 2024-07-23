@@ -47,6 +47,7 @@
   const START_POSITION = [canvas.width / 3, canvas.height / 2];
   const END_POSITION = [canvas.width / 2, canvas.height / 2];
   let pointerPosition = [...START_POSITION];
+  let targetPointerPosition = [...pointerPosition];
 
   let stage = 0;
   let cumulativeOffset = {
@@ -69,8 +70,27 @@
   const DISTANCE_SCALING = 1;
   const ANGLE_SCALING = 1;
   const MAX_STAGE = Infinity;
+  const POINTER_CHASE = 0.1;
 
   function tick() {
+    const targetPointerDisplacement = [
+      targetPointerPosition[0] - pointerPosition[0],
+      targetPointerPosition[1] - pointerPosition[1],
+    ];
+
+    const scaledTargetPointerDisplacement = [
+      targetPointerDisplacement[0] * POINTER_CHASE,
+      targetPointerDisplacement[1] * POINTER_CHASE,
+    ];
+
+    pointerPosition = [
+      pointerPosition[0] + scaledTargetPointerDisplacement[0],
+      pointerPosition[1] + scaledTargetPointerDisplacement[1],
+    ];
+
+    // ha
+    stage = 0;
+
     if (stage === 0) {
       cumulativeOffset.angle = 0;
       cumulativeOffset.distance = 0;
@@ -116,7 +136,7 @@
       modificationOffset.angle = pointerAngle - baseAngle;
       modificationOffset.distance = pointerDistance / baseDistance;
 
-      console.log(pointerAngle, baseAngle);
+      // console.log(pointerAngle, baseAngle);
 
       cumulativeOffset.angle = pointerAngle;
       cumulativeOffset.distance = pointerDistance;
@@ -164,8 +184,7 @@
   }
 
   function updatePointerPosition(event) {
-    stage = 0;
-    pointerPosition = [
+    targetPointerPosition = [
       event.clientX * devicePixelRatio,
       event.clientY * devicePixelRatio,
     ];
