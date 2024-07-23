@@ -69,7 +69,10 @@
 </style>
 
 <main>
-  <textarea id="input">You can _format_ this **text**.</textarea>
+  <textarea id="input">
+You can *format* this **text**.
+You can add [links](/lab) too!</textarea
+  >
   <article id="middle"></article>
   <article id="output"></article>
 </main>
@@ -98,10 +101,20 @@
     let emphasisingAsterisk = false;
     let emphasisingUnderscore = false;
     let bolding = false;
+    let linking = false;
 
     while (i < markdown.length) {
       const character = markdown[i];
+      const nextCharacter = markdown[i + 1];
       const nextTwoCharacters = markdown.slice(i, i + 2);
+
+      if (character === "\\") {
+        if (nextCharacter !== undefined) {
+          html += nextCharacter;
+        }
+        i += 2;
+        continue;
+      }
 
       if (nextTwoCharacters === "**") {
         if (bolding) {
@@ -138,6 +151,13 @@
 
       if (character === "<") {
         html += "&lt;";
+        i++;
+        continue;
+      }
+
+      if (character === "[" && !linking) {
+        linking = true;
+        html += '<a href="">';
         i++;
         continue;
       }
