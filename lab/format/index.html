@@ -102,6 +102,10 @@ You can add [links](/lab) too!</textarea
     let emphasisingUnderscore = false;
     let bolding = false;
     let linking = false;
+    let linkTitling = false;
+    let linkTitle = "";
+    let linkPathing = false;
+    let linkPath = "";
 
     while (i < markdown.length) {
       const character = markdown[i];
@@ -157,7 +161,36 @@ You can add [links](/lab) too!</textarea
 
       if (character === "[" && !linking) {
         linking = true;
-        html += '<a href="">';
+        linkTitling = true;
+        linkTitle = "";
+        html += '<a href="';
+        i++;
+        continue;
+      }
+
+      if (linkTitling) {
+        if (nextTwoCharacters === "](") {
+          linkTitling = false;
+          linkPathing = true;
+          linkPath = "";
+          i += 2;
+          continue;
+        }
+
+        linkTitle += character;
+        i++;
+        continue;
+      }
+
+      if (linkPathing) {
+        if (character === ")") {
+          linking = false;
+          linkPathing = false;
+          html += `${linkPath}">${linkTitle}</a>`;
+          i++;
+          continue;
+        }
+        linkPath += character;
         i++;
         continue;
       }
