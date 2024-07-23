@@ -44,6 +44,8 @@
     padding: 10px;
     /* width: auto; */
     /* flex-shrink: 0; */
+
+    white-space: pre-wrap;
   }
 
   #middle {
@@ -84,7 +86,9 @@
   output.innerHTML = getHtmlFromMarkdown(input.value);
   middle.textContent = getHtmlFromMarkdown(input.value);
   input.addEventListener("input", () => {
-    output.innerHTML = getHtmlFromMarkdown(input.value);
+    const html = getHtmlFromMarkdown(input.value);
+    output.innerHTML = html;
+    middle.textContent = html;
   });
 
   function getHtmlFromMarkdown(markdown) {
@@ -96,7 +100,9 @@
     let bolding = false;
 
     while (i < markdown.length) {
+      const character = markdown[i];
       const nextTwoCharacters = markdown.slice(i, i + 2);
+
       if (nextTwoCharacters === "**") {
         if (bolding) {
           html += "</strong>";
@@ -108,7 +114,6 @@
         continue;
       }
 
-      const character = markdown[i];
       if (character === "*") {
         if (emphasisingAsterisk) {
           html += "</em>";
@@ -127,6 +132,12 @@
           html += "<em>";
         }
         emphasisingUnderscore = !emphasisingUnderscore;
+        i++;
+        continue;
+      }
+
+      if (character === "<") {
+        html += "&lt;";
         i++;
         continue;
       }
