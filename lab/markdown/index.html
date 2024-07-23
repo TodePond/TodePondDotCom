@@ -1,0 +1,140 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Emphasis</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Format</h1>
+
+<style>
+  main {
+    display: flex;
+    gap: 10px;
+    /* height: 100%; */
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  /* * {
+    box-sizing: border-box;
+  } */
+
+  body {
+    max-width: 100%;
+  }
+
+  #output,
+  #middle,
+  #input {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+    /* width: auto; */
+    /* flex-shrink: 0; */
+  }
+
+  #middle {
+    font-family: monospace;
+  }
+
+  #input {
+    resize: vertical;
+    height: 200px;
+  }
+
+  @media (max-width: 620px) {
+    main {
+      flex-direction: column;
+    }
+  }
+
+  article {
+    background-color: #374362;
+  }
+</style>
+
+<main>
+  <textarea id="input">You can _format_ this **text**.</textarea>
+  <article id="middle"></article>
+  <article id="output"></article>
+</main>
+
+<br />
+
+<p>Back to the <a href="/lab/">lab</a>.</p>
+
+<script type="module">
+  const input = document.getElementById("input");
+  const middle = document.getElementById("middle");
+  const output = document.getElementById("output");
+
+  output.innerHTML = getHtmlFromMarkdown(input.value);
+  middle.textContent = getHtmlFromMarkdown(input.value);
+  input.addEventListener("input", () => {
+    output.innerHTML = getHtmlFromMarkdown(input.value);
+  });
+
+  function getHtmlFromMarkdown(markdown) {
+    let html = "";
+    let i = 0;
+
+    let emphasisingAsterisk = false;
+    let emphasisingUnderscore = false;
+    let bolding = false;
+
+    while (i < markdown.length) {
+      const nextTwoCharacters = markdown.slice(i, i + 2);
+      if (nextTwoCharacters === "**") {
+        if (bolding) {
+          html += "</strong>";
+        } else {
+          html += "<strong>";
+        }
+        bolding = !bolding;
+        i += 2;
+        continue;
+      }
+
+      const character = markdown[i];
+      if (character === "*") {
+        if (emphasisingAsterisk) {
+          html += "</em>";
+        } else {
+          html += "<em>";
+        }
+        emphasisingAsterisk = !emphasisingAsterisk;
+        i++;
+        continue;
+      }
+
+      if (character === "_") {
+        if (emphasisingUnderscore) {
+          html += "</em>";
+        } else {
+          html += "<em>";
+        }
+        emphasisingUnderscore = !emphasisingUnderscore;
+        i++;
+        continue;
+      }
+
+      html += character;
+      i++;
+    }
+
+    return html;
+  }
+</script>
