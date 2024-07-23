@@ -26,6 +26,18 @@
   }
 </style>
 <canvas></canvas>
+<header
+  style="
+    position: fixed;
+    pointer-events: none;
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+  ">
+  <h1>30,000</h1>
+</header>
 <script type="module">
   export const canvas = document.querySelector("canvas");
   export const context = canvas.getContext("2d");
@@ -97,7 +109,18 @@
     height = 100,
     fillStyle = "rgb(55, 67, 98)",
   }) {
-    return { type: "rectangle", x, y, width, height, fillStyle };
+    return {
+      type: "rectangle",
+      x,
+      y,
+      width,
+      height,
+      fillStyle,
+      left: x,
+      right: x + width,
+      top: y,
+      bottom: y + height,
+    };
   }
 
   for (let i = 0; i < 30_000; i++) {
@@ -173,10 +196,10 @@
     switch (atom.type) {
       case "rectangle": {
         return (
-          position.x >= atom.x &&
-          position.x <= atom.x + atom.width &&
-          position.y >= atom.y &&
-          position.y <= atom.y + atom.height
+          position.x >= atom.left &&
+          position.x <= atom.right &&
+          position.y >= atom.top &&
+          position.y <= atom.bottom
         );
       }
     }
