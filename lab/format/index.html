@@ -21,8 +21,9 @@
     display: flex;
     gap: 10px;
     /* height: 100%; */
-    justify-content: stretch;
-    align-items: stretch;
+    /* justify-content: stretch; */
+    align-items: top;
+
     width: 100%;
   }
 
@@ -34,18 +35,21 @@
     max-width: 100%;
   }
 
-  #output,
+  #editor,
   #middle,
-  #input {
+  #output {
     width: 100%;
     max-width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 10px;
+    /* padding: 10px; */
     /* width: auto; */
     /* flex-shrink: 0; */
+  }
 
-    white-space: pre-wrap;
+  #middle,
+  #output {
+    /* white-space: pre-wrap; */
   }
 
   #middle {
@@ -57,6 +61,10 @@
     height: 200px;
   }
 
+  article {
+    padding: 10px;
+  }
+
   @media (max-width: 620px) {
     main {
       flex-direction: column;
@@ -66,13 +74,34 @@
   article {
     background-color: #374362;
   }
+
+  textarea {
+    font-family: sans-serif;
+  }
+
+  #editor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header {
+    padding-bottom: 10px;
+  }
 </style>
 
+<!-- <header>
+  <button id="bold-button">Bold</button>
+  <button id="italic-button">Italic</button>
+</header> -->
 <main>
-  <textarea id="input">
+  <div id="editor">
+    <textarea id="input">
 You can *format* this **text**.
-You can add [links](/lab) too!</textarea
-  >
+You can add [links](/lab) too!
+</textarea
+    >
+  </div>
   <article id="middle"></article>
   <article id="output"></article>
 </main>
@@ -94,6 +123,27 @@ You can add [links](/lab) too!</textarea
     middle.textContent = html;
   });
 
+  const boldButton = document.getElementById("bold-button");
+  const italicButton = document.getElementById("italic-button");
+
+  boldButton.addEventListener("click", () => {
+    hitStyleButton("**");
+  });
+
+  italicButton.addEventListener("click", () => {
+    hitStyleButton("_");
+  });
+
+  let selectionStart = input.textContent.length;
+  let selectionEnd = input.textContent.length;
+  function hitStyleButton() {}
+
+  // input.addEventListener("blur", () => {
+  //   const selection = getSelection();
+  //   const range = selection.getRangeAt(0);
+  //   console.log(range);
+  // });
+
   function getHtmlFromMarkdown(markdown) {
     let html = "";
     let i = 0;
@@ -111,6 +161,54 @@ You can add [links](/lab) too!</textarea
       const character = markdown[i];
       const nextCharacter = markdown[i + 1];
       const nextTwoCharacters = markdown.slice(i, i + 2);
+
+      if (linkTitling) {
+        if (character === "\\") {
+          linkTitle += nextCharacter;
+          i += 2;
+          continue;
+        }
+
+        if (nextTwoCharacters === "](") {
+          linkTitling = false;
+          linkPathing = true;
+          linkPath = "";
+          i += 2;
+          continue;
+        }
+
+        linkTitle += character;
+        i++;
+        continue;
+      }
+
+      if (linkPathing) {
+        if (character === "\\") {
+          linkPath += nextCharacter;
+          i += 2;
+          continue;
+        }
+
+        if (character === ")") {
+          linking = false;
+          linkPathing = false;
+          const javascriptSnippet = linkPath
+            .trim()
+            .toLowerCase()
+            .slice(0, "javascript:".length);
+          if (javascriptSnippet === "javascript:") {
+            html += `#" class="danger">${linkTitle}</a>`;
+            i++;
+            continue;
+          }
+          html += `${linkPath}">${linkTitle}</a>`;
+          i++;
+          continue;
+        }
+        linkPath += character;
+        i++;
+        continue;
+      }
 
       if (character === "\\") {
         if (nextCharacter !== undefined) {
@@ -159,38 +257,17 @@ You can add [links](/lab) too!</textarea
         continue;
       }
 
+      if (character === "\n") {
+        html += "<br />";
+        i++;
+        continue;
+      }
+
       if (character === "[" && !linking) {
         linking = true;
         linkTitling = true;
         linkTitle = "";
         html += '<a href="';
-        i++;
-        continue;
-      }
-
-      if (linkTitling) {
-        if (nextTwoCharacters === "](") {
-          linkTitling = false;
-          linkPathing = true;
-          linkPath = "";
-          i += 2;
-          continue;
-        }
-
-        linkTitle += character;
-        i++;
-        continue;
-      }
-
-      if (linkPathing) {
-        if (character === ")") {
-          linking = false;
-          linkPathing = false;
-          html += `${linkPath}">${linkTitle}</a>`;
-          i++;
-          continue;
-        }
-        linkPath += character;
         i++;
         continue;
       }
