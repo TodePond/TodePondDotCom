@@ -26,7 +26,7 @@ However, I also feel resistant towards doing it, and I kinda ignored Geoffrey's 
 
 ## Growth
 
-My desired approach is more in the spirit of [digital gardening](https://maggieappleton.com/garden-history), which is what my [wikiblo**garden**](/wikiblogarden) is partly named after.
+My desired approach is more in the spirit of [digital gardening](https://maggieappleton.com/garden-history), which is what [my wikiblo**garden**](/wikiblogarden/my-wikiblogarden) is partly named after.
 
 In digital gardening, your work *grows* and is always visible: There isn't a big moment where you finally reveal it in completed form: Everyone can see it happen over the passing of time.
 
