@@ -1,6 +1,6 @@
 # Open garden academia
 
-I think you should share work before you get any feedback on it.
+I think you should share work publicly before you get any feedback on it.
 
 ## Moment
 
