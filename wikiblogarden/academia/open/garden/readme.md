@@ -10,15 +10,15 @@ I think you should publish your first draft, for everyone to see.
 
 I think it's dishonest to gather feedback before you share something. It's cheating. You are *deceiving* your reader or listener or viewer or participant. You are not being truthful with them.
 
-Your piece should truly allow another person to peak [inside your head] so that they can [start to understand] the world from your point of view.
+Your piece should truly allow another person to peak [inside your head](https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/) so that they can [start to understand](https://www.todepond.com/wikiblogarden/art/why-bother/being/understood/) the world from your point of view.
 
-Your piece of work is not [just] a thing that has a desired effect/impact/feeling/vibe/message/goal/whatever. It is also a marking of a moment of time: One more data [point] in the story of you and your practice, whatever that is— you are, even if you're wrong, especially if you're wrong, because it shares and shows the important details of how you got there— how you ended up getting through to where you eventually ended up, wherever that is.
+Your piece of work is not [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a thing that has a desired effect/impact/feeling/vibe/message/goal/whatever. It is also a marking of a moment of time: One more data [point](https://www.todepond.com/wikiblogarden/blending/work/) in the story of you and your practice, whatever that is— you are, even if you're wrong, especially if you're wrong, because it shares and shows the important details of how you got there— how you ended up getting through to where you eventually ended up, wherever that is.
 
 ## Higher quality feedback/advice
 
-In the past, I have yearned for [higher quality feedback/advice] because most of the feedback/advice I receive is useless [boo hurrah stuff].
+In the past, I have yearned for [higher quality feedback/advice](https://www.todepond.com/wikiblogarden/blending/critiques/) because most of the feedback/advice I receive is useless [boo hurrah stuff]().
 
-And when I wrote [that blog post], [Geoffrey Litt] kindly offered me some higher quality feedback/advice. He said he finds he can get higher quality feedback/advice by privately/internally sharing a piece of work with someone, and asking them for some higher quality feedback/advice on that piece of work, before sharing it more widely. 
+And when I wrote [that blog post](https://www.todepond.com/wikiblogarden/blending/critiques/), [Geoffrey Litt](https://www.geoffreylitt.com/) kindly offered me some higher quality feedback/advice. He said he finds he can get higher quality feedback/advice by privately/internally sharing a piece of work with someone, and asking them for some higher quality feedback/advice on that piece of work, before sharing it more widely. 
 
 And this does seem like a good idea. And I know that it does work.
 
@@ -26,7 +26,7 @@ However, I also feel resistant towards doing it, and I kinda ignored Geoffrey's 
 
 ## Growth
 
-My desired approach is more in the spirit of [digital gardening], which is what my [wikiblo**garden**] is partly named after.
+My desired approach is more in the spirit of [digital gardening](https://maggieappleton.com/garden-history), which is what my [wikiblo**garden**](/wikiblogarden) is partly named after.
 
 In digital gardening, your work *grows* and is always visible: There isn't a big moment where you finally reveal it in completed form: Everyone can see it happen over the passing of time.
 
@@ -44,7 +44,7 @@ I think this is important for getting more people involved in academic work. We 
 
 ## Academia
 
-By the way, when I say "academia", I'm also including the [academish] world in that, and [para-academia], and all other academia-adjacent things too. 
+By the way, when I say "academia", I'm also including the [academish](https://inkandswitch.notion.site/Academish-Voice-0d8126b3be5545d2a21705ceedb5dd45) world in that, and para-academia, and all other academia-adjacent things too. 
 
 ## Open garden academia
 
