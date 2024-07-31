@@ -4,7 +4,9 @@ I think that you should share work before you get any feedback on it.
 
 ## Moment
 
-Let me be absolutely clear: *I don't think you should get any feedback on a piece of work until after you've shared it openly*. I think you should publish your first draft, for everyone to see. 
+Let me be absolutely clear: **I don't think you should get any feedback on a piece of work until after you've shared it publicly.**
+
+I think you should publish your first draft, for everyone to see. 
 
 I think it's dishonest to gather feedback before you share something. It's cheating. You are *deceiving* your reader or listener or viewer or participant. You are not being truthful with them.
 
