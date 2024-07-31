@@ -16,7 +16,7 @@ Your piece of work is not [just](https://www.todepond.com/wikiblogarden/better-c
 
 ## Higher quality feedback/advice
 
-In the past, I have yearned for [higher quality feedback/advice](https://www.todepond.com/wikiblogarden/blending/critiques/) because most of the feedback/advice I receive is useless [boo hurrah stuff]().
+In the past, I have yearned for [higher quality feedback/advice](https://www.todepond.com/wikiblogarden/blending/critiques/) because most of the feedback/advice I receive is useless [boo hurrah stuff](https://www.todepond.com/wikiblogarden/academia/citation/soon/).
 
 And when I wrote [that blog post](https://www.todepond.com/wikiblogarden/blending/critiques/), [Geoffrey Litt](https://www.geoffreylitt.com/) kindly offered me some higher quality feedback/advice. He said he finds he can get higher quality feedback/advice by privately/internally sharing a piece of work with someone, and asking them for some higher quality feedback/advice on that piece of work, before sharing it more widely. 
 
