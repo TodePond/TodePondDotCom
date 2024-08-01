@@ -46,6 +46,8 @@
   --rainbow-8: var(--orange);
   --rainbow-9: var(--yellow);
 
+  --background: rgb(31, 39, 54);
+
   --rainbow-gradient: linear-gradient(
     /* slanted */ 135deg,
     var(--green),
