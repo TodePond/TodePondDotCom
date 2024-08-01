@@ -315,10 +315,7 @@ Here's my feed! You can see it here. Or subscribe to the
   }
 
   addEventListener("keydown", (e) => {
-    if (
-      (e.ctrlKey || e.metaKey) &&
-      (e.key === "k" || e.key === "K" || e.key === "f" || e.key === "F")
-    ) {
+    if ((e.ctrlKey || e.metaKey) && (e.key === "k" || e.key === "K")) {
       e.preventDefault();
       _search.focus();
       _search.select();
