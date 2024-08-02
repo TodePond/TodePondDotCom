@@ -37,9 +37,9 @@ One of the things I hate about text as a medium is how calming it can be.
 
 <hr>
 
-So the question is: What now? 
+I hate my wikiblogarden. So the question is: What now? 
 
-I hate the wikiblogarden. Do I destroy it? Do I shut it down? Do I take a break? 
+Do I destroy it? Do I shut it down? Do I take a break? 
 
 No!
 
