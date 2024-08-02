@@ -43,7 +43,7 @@ Do I destroy it? Do I shut it down? Do I take a break?
 
 No!
 
-So far, everything is still going to plan. Follow along on the feed to follow along to follow along to find out more more more more more more more
+So far, everything is still going to plan. Follow along on the [feed](/feed) to follow along to follow along to find out more more more more more more more
 
 <pre>
  ___       __   ___  ___  __    ___  ________  ___       ________  ________  ________  ________  ________  _______   ________           ________  ___  ___  ________  ________  _______           _________  ___       __   ________     
@@ -55,11 +55,6 @@ So far, everything is still going to plan. Follow along on the feed to follow al
     \|____________|\|__|\|__| \|__|\|__|\|_______|\|_______|\|_______|\|_______|\|__|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|        \|__|     \|__|\|__|\|__|\|__|\_________\|_______|            \|__|  \|____________|\|_______|
                                                                                                                                                                         \|_________|                                          
 </pre>
-
-<br>
-
-Back to the [wikiblogarden](/wikiblogarden).
-
 
 
 [^foot]: This is a footnote.
