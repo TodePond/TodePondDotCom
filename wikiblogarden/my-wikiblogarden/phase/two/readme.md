@@ -63,6 +63,6 @@ Back to the [wikiblogarden](/wikiblogarden).
 
 
 [^foot]: This is a footnote.
-[^comment]: A humourously large number of people have asked me why I sometimes use footnotes for references, and sometimes just links, and sometimes both in the same post[^true], and "what does it mean???????"
+[^comment]: A lot of people have asked me why I sometimes use footnotes for references, and sometimes just links, and sometimes both in the same post[^true], and "what does it mean??????? what does it mean toddpond what does it mean?!!?!"
 [^ref]: [Just practice](https://www.todepond.com/wikiblogarden/genocide/platform/)
 [^true]: [True for you style](https://www.todepond.com/wikiblogarden/academia/style/true-for-you/)
