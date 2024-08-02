@@ -1,0 +1,410 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--rainbow-gradient);
+    color: black;
+    background-size: 700% 800%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    );
+    background-size: 400% 300%;
+    /* background-opacity: 0.5; */
+    background-color: black;
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: With friends
+  </h1>
+
+  <p>It&#39;s here again. It&#39;s time for another weekly episode of the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>I&#39;ve been way too busy.</p>
+  <blockquote>
+    <p>
+      Ok so I wrote this pondcast ages ago, and then I got very ill, so this is
+      very very late. Sorry about that.
+    </p>
+  </blockquote>
+  <p>What&#39;s new this week?</p>
+
+  <img src="1.png" />
+
+  <h2 id="with-friends">With friends</h2>
+  <p>
+    I finally wrote my (first) write up of
+    <a href="https://arroost.com">Arroost</a>. I&#39;ve done
+    <a href="https://www.youtube.com/watch?v=DNBKdU6XrLY">various</a>
+    <a href="https://www.youtube.com/watch?v=cF2OF75ivZM">artistic</a>
+    <a
+      href="https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/"
+      >presentations</a
+    >
+    of Arroost before, but this is the first time I&#39;ve presented it in a
+    more serious,
+    <a
+      href="https://inkandswitch.notion.site/Academish-Voice-0d8126b3be5545d2a21705ceedb5dd45"
+      >academish</a
+    >
+    way.
+  </p>
+  <p>Let&#39;s do a little inventory of what we&#39;ve got so far.</p>
+  <ul>
+    <li>
+      <a href="https://www.youtube.com/watch?v=cF2OF75ivZM">Arty talk</a> (done)
+    </li>
+    <li>
+      <a href="https://www.youtube.com/watch?v=DNBKdU6XrLY">Arty video</a>
+      (done)
+    </li>
+    <li>
+      <a
+        href="https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/"
+        >Personal essay</a
+      >
+      (done)
+    </li>
+    <li>Researchy essay (done) (new!)</li>
+    <li>Researchy talk (maybe one day)</li>
+  </ul>
+  <p>
+    I submitted my researchy essay to
+    <a href="https://liveprog.org/">LIVE</a> at
+    <a href="https://2024.splashcon.org/">SPLASH</a>, where I
+    <a href="https://www.youtube.com/watch?v=eQgxFuw8f1U">spoke</a> last year.
+    It&#39;s also the same conference that me and
+    <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a> submitted our
+    essay to (more on that later).
+  </p>
+  <p>
+    I&#39;m sure there are loads of amazing submissions to LIVE this year, so I
+    won&#39;t be too disheartened if I get rejected, but I do hope to do a more
+    researchy talk about it at some point. It&#39;s really important to me to
+    present my work in a variety of ways like this. I think it&#39;s important
+    for any piece of work to be positioned and placed like this.
+  </p>
+  <h2 id="dialogues-revised">Dialogues revised</h2>
+  <p>Dave and I finished our essay!!!!! (for the second time)</p>
+  <p>
+    We already wrote an essay for
+    <a href="https://2024.splashcon.org/track/splash-2024-Onward-Essays"
+      >Onward Essays</a
+    >
+    a while back, and it got conditionally accepted a while back, which meant we
+    had to improve it.
+  </p>
+  <p>
+    We finished that this week! We had a load more chats and then wrote it all
+    up.
+  </p>
+  <p>
+    I think one of the most important changes was moving a section that was
+    previously near the end. It&#39;s right at the start now. The section
+    addresses a specific point that various readers took issue with, so I think
+    it needed to appear quite early on. I think it does fit better into that
+    part of the essay too.
+  </p>
+  <p>
+    Writing this essay was a <em>lot</em> of work, and it really exhausted me,
+    but I&#39;m really pleased that we wrote it. I learned <em>so much</em> from
+    the process and my understanding of <em>code</em> and <em>stuff</em> grew
+    and changed dramatically throughout the process. It has already started to
+    impact the rest of my work in a positive way.
+  </p>
+  <h2 id="heart-of-clojure-and-other-things-">
+    Heart of clojure (and other things)
+  </h2>
+  <p>
+    I got asked to come and do the opening keynote talk at the
+    <a href="https://2024.heartofclojure.eu/">Heart of Clojure</a> conference,
+    and so of course I said yes! I did double check with them that it&#39;s ok
+    that I don&#39;t really do clojure (which is a programming language if you
+    didn&#39;t know). And they said they knew that, and that&#39;s ok. And in
+    actual fact, I looked at the talks from the previous conference, and while
+    many of the talks were clojure-related, many were not, including the
+    previous opening keynote.
+  </p>
+  <p>
+    I mean, this is a really special moment for me. It&#39;s just one instance,
+    but to me it represents hitting a certain point of recognition and/or
+    success, that I only ever dreamed of, and I never really thought I could get
+    to.
+  </p>
+  <p>
+    As time goes on, I&#39;m getting invited onto more and more podcasts and out
+    to more and more events all over the place. I mean, I&#39;m writing this
+    Pondcast on the plane right now!! I&#39;m heading to New York because I was
+    asked to come and do an opening
+    <a href="https://www.youtube.com/watch?v=jbiW124Imjo">keynote demo</a> for
+    my work at <a href="https://tldraw.com">tldraw</a>. And last week I did a
+    talk
+    <a href="https://www.middlesbroughfe.co.uk/speakers">somewhere else</a>. And
+    I spoke about lots of TodePond stuff on a podcast
+    <a href="https://www.youtube.com/watch?v=4ShQquWa7Iw">recently</a>. And
+    I&#39;m maybe maybe maybe going around Australia in winter (summer) to do a
+    round of talks. What is going on??!!? It&#39;s sometimes getting a little
+    bit overwhelming, but I am trying to enjoy it.
+  </p>
+  <p>
+    For Heart of Clojure, I spoke with
+    <a href="https://toot.cat/@plexus">Arne</a> (who organises the thing) about
+    what kinds of topics I could talk about. Normally I center my talks around a
+    specific project, but this one might be different. We&#39;ll see. I&#39;m
+    going to continue working on it.
+  </p>
+  <p>
+    <strong
+      >And of course, I thank you immensely for making all of this possible.
+      This wouldn&#39;t be possible without all of your support, so thank you
+      for being here. Of course, wherever you are in the world, whatever
+      you&#39;re doing, I hope you have a great week.</strong
+    >
+    🐸
+  </p>
+
+  <em>Days since tode fell asleep: </em><br />
+  <em>Days since bot went missing: </em><br />
+  <em>Days since berd flew away: </em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+</details>

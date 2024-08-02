@@ -77,7 +77,7 @@
     context.stroke();
   }
 
-  const BALL_OVERLAP_GROWTH = 1.5;
+  const BALL_OVERLAP_GROWTH = 1;
 
   function updatePointerPosition(event) {
     pointer.position = [
@@ -96,7 +96,8 @@
     const radius = pointer.overlappingBall
       ? BALL_RADIUS * devicePixelRatio * BALL_OVERLAP_GROWTH
       : BALL_RADIUS * devicePixelRatio;
-    pointer.overlappingBall = distanceToBall < radius * devicePixelRatio;
+    pointer.overlappingBall =
+      distanceToBall < radius + BALL_LINE_WIDTH * devicePixelRatio;
     if (previous !== pointer.overlappingBall) {
       draw();
       canvas.style.cursor = pointer.overlappingBall ? "pointer" : "default";
