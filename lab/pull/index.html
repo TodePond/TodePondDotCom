@@ -51,17 +51,55 @@
   const pointer = {
     position: [canvas.width / 2, canvas.height / 2],
     overlappingBall: false,
-  };
-
-  const ball = {
-    position: [canvas.width / 2, canvas.height / 2],
+    holdingBall: false,
+    down: false,
+    speed: 0,
+    direction: 0,
+    history: [],
   };
 
   const BALL_RADIUS = 10;
   const BALL_LINE_WIDTH = 2;
+  const ball = {
+    position: [
+      canvas.width / 2,
+      canvas.height - BALL_RADIUS * devicePixelRatio,
+    ],
+    previousPosition: [
+      canvas.width / 2,
+      canvas.height - BALL_RADIUS * devicePixelRatio,
+    ],
+  };
+
+  const target = {
+    position: [canvas.width / 2, canvas.height / 2],
+  };
 
   function draw() {
+    let desiredCursor = "default";
+    if (pointer.overlappingBall) {
+      desiredCursor = "pointer";
+    }
+    if (pointer.holdingBall) {
+      desiredCursor = "grabbing";
+    }
+    if (canvas.style.cursor !== desiredCursor) {
+      canvas.style.cursor = desiredCursor;
+    }
     context.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (!equals(ball.position, ball.previousPosition)) {
+      context.beginPath();
+      context.moveTo(ball.previousPosition[0], ball.previousPosition[1]);
+      context.lineTo(ball.position[0], ball.position[1]);
+      context.strokeStyle = "white";
+      context.lineCap = "round";
+      context.lineWidth = BALL_RADIUS * 2 * devicePixelRatio;
+      context.stroke();
+
+      ball.previousPosition = [...ball.position];
+    }
+
     context.beginPath();
     context.arc(
       ball.position[0],
@@ -70,11 +108,19 @@
       0,
       Math.PI * 2
     );
-    context.fillStyle = pointer.overlappingBall ? "white" : "rgb(31, 39, 54)";
+    let ballColour = "rgb(31, 39, 54)";
+    if (pointer.overlappingBall || pointer.holdingBall) {
+      ballColour = "white";
+    }
+    context.fillStyle = ballColour;
     context.lineWidth = BALL_LINE_WIDTH * devicePixelRatio;
     context.fill();
     context.strokeStyle = "white";
     context.stroke();
+  }
+
+  function equals(a, b) {
+    return a[0] === b[0] && a[1] === b[1];
   }
 
   const BALL_OVERLAP_GROWTH = 1;
@@ -100,23 +146,67 @@
       distanceToBall < radius + BALL_LINE_WIDTH * devicePixelRatio;
     if (previous !== pointer.overlappingBall) {
       draw();
-      canvas.style.cursor = pointer.overlappingBall ? "pointer" : "default";
     }
   }
 
   addEventListener("pointermove", (event) => {
     updatePointerPosition(event);
+    if (pointer.down && !pointer.holdingBall && pointer.overlappingBall) {
+      pointer.holdingBall = true;
+    }
   });
 
   addEventListener("pointerdown", (event) => {
     updatePointerPosition(event);
+    pointer.down = true;
+    if (!pointer.holdingBall && pointer.overlappingBall) {
+      pointer.holdingBall = true;
+      pointer.history = [];
+    }
   });
 
   addEventListener("pointerup", (event) => {
     updatePointerPosition(event);
+    pointer.down = false;
+    if (pointer.holdingBall) {
+      pointer.holdingBall = false;
+      target.position = [...pointer.position];
+    }
   });
 
+  const BALL_POINTER_CHASE = 0.4;
+  const BALL_TARGET_CHASE = 0.1;
+  let replayIndex = 0;
+  function update() {
+    if (pointer.holdingBall) {
+      pointer.history.push([...pointer.position]);
+      ball.position = [
+        ball.position[0] +
+          (pointer.position[0] - ball.position[0]) * BALL_POINTER_CHASE,
+        ball.position[1] +
+          (pointer.position[1] - ball.position[1]) * BALL_POINTER_CHASE,
+      ];
+      return;
+    }
+
+    if (pointer.history.length > 0) {
+      if (replayIndex >= pointer.history.length) {
+        replayIndex = 0;
+      }
+      target.position = pointer.history[replayIndex];
+      replayIndex++;
+    }
+
+    ball.position = [
+      ball.position[0] +
+        (target.position[0] - ball.position[0]) * BALL_TARGET_CHASE,
+      ball.position[1] +
+        (target.position[1] - ball.position[1]) * BALL_TARGET_CHASE,
+    ];
+  }
+
   function tick() {
+    update();
     draw();
     requestAnimationFrame(tick);
   }
