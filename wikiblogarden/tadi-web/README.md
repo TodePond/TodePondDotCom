@@ -6,14 +6,6 @@ The [tadi web](https://tadiweb.com) is a small and simple part of the normal web
 
 The tadi web isn't a new idea. It's simply the result of combining together all of the different [better computings](/wikiblogarden/better-computing) out there.
 
-## Death of the tadi web
-
-The tadi web often dies. 
-
-- [DEATH OF THE TADI WEB: How to make a meme](death-meme)
-- [DEATH OF THE TADI WEB: Worldwide](death/worldwide)
-- [DEATH OF THE TADI WEB: A clean start for the web](death/clean-start)
-
 ## Getting started
 
 - [Slippy mindset](https://tadiweb.com)
@@ -30,6 +22,14 @@ The tadi web often dies.
 - [Image data](/wikiblogarden/tadi-web/image-data)
 - [Graveyard](graveyard)
 
+
+## Death of the tadi web
+
+The tadi web often dies. 
+
+- [DEATH OF THE TADI WEB: How to make a meme](death-meme)
+- [DEATH OF THE TADI WEB: Worldwide](death/worldwide)
+- [DEATH OF THE TADI WEB: A clean start for the web](death/clean-start)
 <br>
 
 Back to the [wibliden](/wikiblogarden).
