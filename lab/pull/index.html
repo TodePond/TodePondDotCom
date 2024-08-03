@@ -153,6 +153,7 @@
     updatePointerPosition(event);
     if (pointer.down && !pointer.holdingBall && pointer.overlappingBall) {
       pointer.holdingBall = true;
+      pointer.history = [];
     }
   });
 
