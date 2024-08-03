@@ -12,6 +12,10 @@ The tadi web isn't a new idea. It's simply the result of combining together all 
 - [Entry points](entry-points)
 - [Hello world](hello-world)
 
+## Examples
+
+- [The lab](/lab)
+
 ## Advanced tadi web
 
 - [How I write my blog](https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo)
