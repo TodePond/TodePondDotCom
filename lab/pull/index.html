@@ -204,6 +204,8 @@
       ball.position[1] +
         (target.position[1] - ball.position[1]) * BALL_TARGET_CHASE,
     ];
+
+    updateOverlaps();
   }
 
   function tick() {
