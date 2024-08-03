@@ -24,8 +24,6 @@ The tadi web isn't a new idea. It's simply the result of combining together all 
 - [How to synchronise data](https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync)
 - [World's first full-stack tadi website](/wikiblogarden/tadi-web/fame/facts)
 - [Image data](/wikiblogarden/tadi-web/image-data)
-- [Graveyard](graveyard)
-
 
 ## Death of the tadi web
 
