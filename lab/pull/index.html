@@ -49,7 +49,7 @@
   handleResize();
 
   const pointer = {
-    position: [canvas.width / 2, canvas.height / 2],
+    position: [0, 0],
     overlappingBall: false,
     holdingBall: false,
     down: false,
@@ -206,6 +206,10 @@
     ];
 
     updateOverlaps();
+    if (pointer.down && !pointer.holdingBall && pointer.overlappingBall) {
+      pointer.holdingBall = true;
+      pointer.history = [];
+    }
   }
 
   function tick() {
