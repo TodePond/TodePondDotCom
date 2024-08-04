@@ -44,7 +44,7 @@ i needed to
 
 "that whatever happens"
 
-show i was
+show i was—
 
 "we just hope"
 
