@@ -57,7 +57,7 @@ and this frustration made me write this blog post today.
 
 final tips.
 
-the audience WANTS you to succeed because they benefit if you succeed. you don't have to win them over in the case of "near misses". they will always give you the benefit of the doubt. 
+the audience WANTS you to succeed because they benefit if you succeed. you don't have to win them over in the case of "near misses". they will always give you the benefit of the doubt. they feel anxious *for* you because they care for you and they're worried for you. so you need to prove yourself to them within the first five minutes. if your first five minutes is solid-as-fuck then they'll let go and let you take over. rehearse those first five minutes to death. and another way to win trust at the start is to throw in something *weird* that proves to them that you're being very deliberate, and you've put in the time and consideration needed. show them how confident you are, and that you can handle the hits and blows that come from doing a talk. you need to say to your audience "don't worry. lean back. relax. I'll take it from here. I don't need you."
 
 never apologise during a talk. NEVER. it makes the audience feel worried.
 
