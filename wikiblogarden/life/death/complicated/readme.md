@@ -12,7 +12,7 @@ i guess i still find my life complicated, at times, a lot, nearly all the time. 
 
 <h2></h2>
 
-my nanny tapped her glass and called our attention and everyone stopped their talking to look over
+nanny tapped her glass and called our attention and everyone stopped their talking to look over
 
 "now i just want to say"
 
