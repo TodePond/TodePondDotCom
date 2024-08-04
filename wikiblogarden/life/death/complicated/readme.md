@@ -24,7 +24,7 @@ nodding
 
 "really ever so proud of you all"
 
-i sat there smiling
+i sat there
 
 "for everything"
 
@@ -32,7 +32,7 @@ i felt like i needed
 
 "all the wonderful things"
 
-needed to pay attention
+to pay attention
 
 "you're all doing"
 
