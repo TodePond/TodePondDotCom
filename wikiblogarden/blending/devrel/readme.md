@@ -112,7 +112,7 @@ let's talk about SEXISM
 
 when I started my current job, people warned me that the proposed role sounded like devrel and that's often what "people who aren't men" can get stuck in. 
 
-> woah woah woah hold up a second
+woah woah woah hold up a second
 
 <h2></h2>
 
