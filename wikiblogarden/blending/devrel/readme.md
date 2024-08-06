@@ -16,11 +16,13 @@ and I'm guessing that one of these statements surprises you, depending on **who 
 
 they can "talk the talk" and give a "performance", and that might be a good or bad thing depending on the kind of vibe or thing you're trying to create
 
+> or that's people's incorrect and biased assumptions
+
 <h2></h2>
 
 the funny part, for me, is that I've somehow managed to get asked onto to BOTH kinds of events. and so that leaves me asking the question "am i a devrel or not?"
 
-> if you're reading this for the second time, the allegory here is to do with diversity quotas. I'm somehow getting into the progressive ones that want women as well as the backwards ones that want men. if this is your first time reading this blog post, please ignore this quote block.
+> both the progressive ones and the backwards ones
 
 you see, when i hear people saying one of those two statements i just smile and nod sheepishly.
 
