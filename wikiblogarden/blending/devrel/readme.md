@@ -66,7 +66,7 @@ however, when people call someone a "devrel", I think that ... uhh.. what they u
 
 there's a level of disrespect towards the role.
 
-hmm. when someone has a public-facing role, people wrongly assume that they can see everything that they do. (that's my theory.) but if course you can only see a tiny fraction of what I do, and you [don't know me](https://www.todepond.com/wikiblogarden/social-media/para/activity) at all. you only see the small slice that I choose to make public.
+hmm. when someone has a public-facing role, people wrongly assume that they can see everything that they do. (that's my theory.) but of course you can only see a tiny fraction of what I do, and you [don't know me](https://www.todepond.com/wikiblogarden/social-media/para/activity) at all. you only see the small slice that I choose to make public.
 
 I "seem like a devrel" but does that mean that I "am a devrel"? not necessarily
 
