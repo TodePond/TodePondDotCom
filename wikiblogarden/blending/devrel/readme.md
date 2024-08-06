@@ -16,7 +16,7 @@ and I'm guessing that one of these statements surprises you, depending on **who 
 
 they can "talk the talk" and give a "performance", and that might be a good or bad thing depending on the kind of vibe or thing you're trying to create
 
-> or that's people's incorrect and biased assumptions
+> or at least, that's people's incorrect and biased assumptions
 
 <h2></h2>
 
