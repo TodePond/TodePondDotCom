@@ -38,9 +38,9 @@ well on my contract I'm not. I'm a "software engineer". and in my [side gig](htt
 
 but hey, titles don't mean much. there are all sorts of titles given out that sound fancy or something, and don't actually mean anything. it could be the same here, my title could be inaccurate (like calling a fish a [dead fish](https://youtu.be/6l1HlOwOq3g?si=QU6cth4mUwojOdfQ))
 
-or even so, even if my title *is* accurate, i think that "devrel" can be viewed as some sub-category or "software engineer", so uhhh
+or even so, even if my title *is* accurate, i think that "devrel" can be viewed as some sub-category or "software engineer", so uhhh, yeah it's a much broader category than people realise. both are.
 
-my "title" doesn't really give us any information in either direction
+so my "title" doesn't really give us any information in either direction
 
 we'll have to look beyond ... 
 
@@ -148,7 +148,7 @@ i was "serious" before and now I'm "silly"
 
 <h2></h2>
 
-of course, this is all a gigantic allegory for being non-binary and/or trans. so now you can re-read the entire blog post again, swapping out every mention of "devrel" for "woman" and it's still all true
+of course, this is all a gigantic allegory for being non-binary and/or trans. so now you can re-read the entire blog post again, swapping out every mention of "devrel" for "woman", and x software engineer" for "non-binary person" and "researcher" for "man" and it's still all true
 
 <br>
 
