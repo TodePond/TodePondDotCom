@@ -20,6 +20,8 @@ they can "talk the talk" and give a "performance", and that might be a good or b
 
 the funny part, for me, is that I've somehow managed to get asked onto to BOTH kinds of events. and so that leaves me asking the question "am i a devrel or not?"
 
+> if you're reading this for the second time, the allegory here is to do with diversity quotas. I'm somehow getting into the progressive ones that want women as well as the backwards ones that want men. if this is your first time reading this blog post, please ignore this quote block.
+
 you see, when i hear people saying one of those two statements i just smile and nod sheepishly.
 
 whatever you need to hear man. maybe I'm a devrel, maybe I'm not. whatever works for you, it doesn't matter to me
