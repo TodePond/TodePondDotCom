@@ -70,6 +70,8 @@ I "do devrel work" but does that mean that I "am a devrel"? not necessarily
 
 If we try duck type devrel work, we get loads of false positives. I think most startup founders and CEOs would trigger the "devrel detector" if we did it: they travel around, speaking to people about how great their thing is. they set the voice and tone of communications with developers. they're devrels! Ha! Hmm
 
+> i think the allegory didn't really make sense there
+
 <h2></h2>
 
 but wait! even if the *only thing* you do is devrel work, is that so bad? 
@@ -90,6 +92,8 @@ there is no need to get all high and mighty about devrels when you serve the exa
 
 > you think devrels are "fake"? you think devrels are "not genuine"? ok, go and insult your own employer on social media. go and tell everyone how bad it is. unless you don't want to, either because you wouldn't believe it, or you'd get in trouble. and that's no different to devrels. you're no different to a devrel.
 
+> we're all flesh and blood
+
 <h2></h2>
 
 some of my most satisfying "devrel work" was for no money at all.
@@ -98,13 +102,15 @@ when twitter started [crumbling](https://www.todepond.com/wikiblogarden/genocide
 
 I guess it's possible to do devrel as an open-source contribution, just like it's possible to do engineering or design or any work as an open-source contribution. They don't have to be in service of some investor or shareholder or job. The acts themselves are neutral, they can be used for both bad and good. 
 
+> being the way i am doesn't make me any better or worse of a person, it's just the way i am
+
 <h2></h2>
 
 let's talk about SEXISM
 
 when I started my current job, people warned me that the proposed role sounded like devrel and that's often what "people who aren't men" can get stuck in. 
 
-woah woah woah hold up a second
+> woah woah woah hold up a second
 
 <h2></h2>
 
@@ -132,11 +138,11 @@ I've been doing the same thing for years and years now, long before I even start
 
 i was "serious" before and now I'm "silly"
 
-> can't wait for the splainers to get offended by this tho
+> or the reverse
 
 <h2></h2>
 
-"But what do YOU want to be, Lu?" is what people ask me. and my answer is always the same in that i don't care what you call it, but you do, and i only care what i do. i am trying to do great things, on my own terms and measures, i am trying to be the best in the world, and you can call it what you want, because it won't change anything
+"But what do YOU want to be, Lu?" is what people ask me. and my answer is always the same in that i don't care what you call it, but you do, and i only care what i do. i am trying to do great things, on my own terms and measures, i am trying to be the best in the world(!) and you can call it what you want, because it won't change anything about me or what i do
 
 <h2></h2>
 
