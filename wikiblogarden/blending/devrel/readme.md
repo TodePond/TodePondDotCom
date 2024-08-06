@@ -70,7 +70,7 @@ hmm. when someone has a public-facing role, people wrongly assume that they can 
 
 I "seem like a devrel" but does that mean that I "am a devrel"? not necessarily
 
-If we try duck type devrel work, we get loads of false positives. I think most startup founders and CEOs would trigger the "devrel detector" if we did it: they travel around, speaking to people about how great their thing is. they set the voice and tone of communications with developers. they're devrels! Ha! Hmm
+If we try to duck type devrel work, we get loads of false positives. I think most startup founders and CEOs would trigger the "devrel detector" if we did it: they travel around, speaking to people about how great their thing is. they set the voice and tone of communications with developers. they're devrels! Ha! Hmm
 
 > i think the allegory didn't really make sense there..
 
