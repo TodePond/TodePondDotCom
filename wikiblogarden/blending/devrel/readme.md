@@ -68,15 +68,15 @@ there's a level of disrespect towards the role.
 
 hmm. when someone has a public-facing role, people wrongly assume that they can see everything that they do. (that's my theory.) but if course you can only see a tiny fraction of what I do, and you [don't know me](https://www.todepond.com/wikiblogarden/social-media/para/activity) at all. you only see the small slice that I choose to make public.
 
-I "do devrel work" but does that mean that I "am a devrel"? not necessarily
+I "seem like a devrel" but does that mean that I "am a devrel"? not necessarily
 
 If we try duck type devrel work, we get loads of false positives. I think most startup founders and CEOs would trigger the "devrel detector" if we did it: they travel around, speaking to people about how great their thing is. they set the voice and tone of communications with developers. they're devrels! Ha! Hmm
 
-> i think the allegory didn't really make sense there
+> i think the allegory didn't really make sense there..
 
 <h2></h2>
 
-but wait! even if the *only thing* you do is devrel work, is that so bad? 
+but wait! even if the *only thing* you do is devrel work, is that really so bad? 
 
 I've lost count of the number of times someone at a meetup or event or whatever has made a disparaging comment about devrels. it's seen as "lesser work", for a range of reasons I think. 
 
@@ -84,7 +84,7 @@ one reason is that they're seen as sales people, who want to *sell* something. a
 
 > *they only care about getting sales, about money! they're not in it for the craft! those filthy devrels*
 
-other engineers get to hide away in their hidey hole and "just build stuff", *for the love of the craft*, right? 
+other engineers get to hide away in their hidey hole and "just build stuff", *for the love of the craft*, right? they're *so different* to devrels, right?
 
 no no i don't think so
 
