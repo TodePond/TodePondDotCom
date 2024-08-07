@@ -148,7 +148,7 @@ i was "serious" before and now I'm "silly"
 
 <h2></h2>
 
-of course, this is all a gigantic allegory for being non-binary and/or trans. so now you can re-read the entire blog post again, swapping out every mention of "devrel" for "woman", and x software engineer" for "non-binary person" and "researcher" for "man" and it's still all true
+of course, this is all a gigantic allegory for being non-binary and/or trans. so now you can re-read the entire blog post again, swapping out every mention of "devrel" for "woman", and "software engineer" for "non-binary person" and "researcher" for "man" and it's still all true
 
 <br>
 
