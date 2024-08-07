@@ -8,7 +8,7 @@
 - [x] children lose access to private medical transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
 - [x] children accessing care through private medical services forced to de-transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
 - [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 12th July 2024[^july]
-- [x] forced de-transition of trans children classed as legal by courts[^legal]
+- [x] forced de-transition of trans children classed as legal by courts. UPDATE: ticked off on 29th July 2024[^legal]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
