@@ -5,8 +5,10 @@
 - [x] children not allowed to socially transition in schools. UPDATE: ticked off on 19th December 2023[^school]
 - [x] medical transition officially not provided to children by public health service. UPDATE: ticked off on 15th March 2024[^medicine]
 - [x] calls from health bodies for children to lose access to private medical transition. UPDATE: ticked off on 12th April 2024[^cass]
-- [x] children lose access to private medical transition. UPDATE: ticked off on 29th May 2024[^june]
-- [x] children accessing care through private medical services forced to de-transition. UPDATE: ticked off on 29th May 2024[^june]
+- [x] children lose access to private medical transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
+- [x] children accessing care through private medical services forced to de-transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
+- [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 12th July 2024[^july]
+- [x] forced de-transition of trans children classed as legal by courts[^legal]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
@@ -14,7 +16,9 @@
 [^school]: [Today is a sad day](https://www.todepond.com/wikiblogarden/genocide/sad-day/)
 [^medicine]: [Puberty blockers](https://www.todepond.com/wikiblogarden/genocide/blockers/)
 [^cass]: [Clickbait title](https://www.todepond.com/wikiblogarden/genocide/sad-day/cass/)
-[^june]: [New restrictions on puberty blockers ](https://www.gov.uk/government/news/new-restrictions-on-puberty-blockers)
+[^june]: [New restrictions on puberty blockers](https://www.gov.uk/government/news/new-restrictions-on-puberty-blockers)
+[^july]: [Labour’s Wes Streeting ‘to make trans puberty blocker ban permanent’](https://www.thepinknews.com/2024/07/12/wes-streeting-puberty-blockers/)
+[^legal]: [Court upholds puberty blockers ban. We won’t stop fighting for trans rights](https://goodlawproject.org/update/court-upholds-puberty-blockers-ban-we-wont-stop-fighting-for-trans-rights/)
 
 <br>
 
