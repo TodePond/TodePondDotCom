@@ -7,6 +7,7 @@
 - [x] calls from health bodies for children to lose access to private medical transition. UPDATE: ticked off on 12th April 2024[^cass]
 - [x] children lose access to private medical transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
 - [x] children accessing care through private medical services forced to de-transition temporarily. UPDATE: ticked off on 29th May 2024[^june]
+- [x] incoming prime minister states that trans women must not use the women's loos. UPDATE: ticked off on 2nd July 2024[^loo]
 - [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 12th July 2024[^july]
 - [x] forced de-transition of trans children classed as legal by courts. UPDATE: ticked off on 29th July 2024[^legal]
 - [ ] what's next?
@@ -19,6 +20,7 @@
 [^june]: [New restrictions on puberty blockers](https://www.gov.uk/government/news/new-restrictions-on-puberty-blockers)
 [^july]: [Labour’s Wes Streeting ‘to make trans puberty blocker ban permanent’](https://www.thepinknews.com/2024/07/12/wes-streeting-puberty-blockers/)
 [^legal]: [Court upholds puberty blockers ban. We won’t stop fighting for trans rights](https://goodlawproject.org/update/court-upholds-puberty-blockers-ban-we-wont-stop-fighting-for-trans-rights/)
+[^loo]: [Keir Starmer: Trans women don’t have right to use women’s spaces – even if they have a GRC](https://www.thepinknews.com/2024/07/02/keir-starmer-labour-trans-single-sex-spaces/)
 
 <br>
 
