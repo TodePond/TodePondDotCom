@@ -46,8 +46,6 @@ this is my real training, learning. i am trying to push myself to write better w
 
 but you you will watch me get better! and figure it out, day by day I'll write a little bit better than before.
 
-there are so many ways to write
-
 <br>
 
 <hr>
