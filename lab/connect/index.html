@@ -1,0 +1,213 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<canvas></canvas>
+
+<script type="module">
+  const canvas = document.querySelector("canvas");
+  const context = canvas.getContext("2d");
+
+  function handleResize() {
+    canvas.width = window.innerWidth * devicePixelRatio;
+    canvas.height = window.innerHeight * devicePixelRatio;
+  }
+
+  window.addEventListener("resize", handleResize);
+  handleResize();
+
+  const pointer = {
+    position: [0, 0],
+    // overlappingBall: false,
+    // holdingBall: false,
+    down: false,
+    // speed: 0,
+    direction: 0,
+    history: [],
+  };
+
+  const BALL_RADIUS = 10;
+  const BALL_LINE_WIDTH = 2;
+  const balls = [];
+
+  // {
+  //   position: [
+  //     canvas.width / 2,
+  //     canvas.height - BALL_RADIUS * devicePixelRatio,
+  //   ],
+  //   previousPosition: [
+  //     canvas.width / 2,
+  //     canvas.height - BALL_RADIUS * devicePixelRatio,
+  //   ],
+  // };
+
+  function draw() {
+    // let desiredCursor = "default";
+    // if (pointer.overlappingBall) {
+    //   desiredCursor = "pointer";
+    // }
+    // if (pointer.holdingBall) {
+    //   desiredCursor = "grabbing";
+    // }
+    // if (canvas.style.cursor !== desiredCursor) {
+    //   canvas.style.cursor = desiredCursor;
+    // }
+    context.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (const ball of balls) {
+      if (!equals(ball.position, ball.previousPosition)) {
+        context.beginPath();
+        context.moveTo(ball.previousPosition[0], ball.previousPosition[1]);
+        context.lineTo(ball.position[0], ball.position[1]);
+        context.strokeStyle = "white";
+        context.lineCap = "round";
+        context.lineWidth = BALL_RADIUS * 2 * devicePixelRatio;
+        context.stroke();
+
+        ball.previousPosition = [...ball.position];
+      }
+
+      context.beginPath();
+      context.arc(
+        ball.position[0],
+        ball.position[1],
+        BALL_RADIUS * devicePixelRatio,
+        0,
+        Math.PI * 2
+      );
+      let ballColour = "rgb(31, 39, 54)";
+      if (pointer.overlappingBall || pointer.holdingBall) {
+        ballColour = "white";
+      }
+      context.fillStyle = ballColour;
+      context.lineWidth = BALL_LINE_WIDTH * devicePixelRatio;
+      context.fill();
+      context.strokeStyle = "white";
+      context.stroke();
+    }
+
+    if (balls.length > 1) {
+      context.beginPath();
+      context.lineWidth = 1 * devicePixelRatio;
+      context.strokeStyle = "white";
+      context.moveTo(...balls[0].position);
+      for (let i = 1; i < balls.length; i++) {
+        context.lineTo(...balls[i].position);
+      }
+      context.closePath();
+      context.stroke();
+    }
+  }
+
+  function equals(a, b) {
+    return a[0] === b[0] && a[1] === b[1];
+  }
+
+  const BALL_OVERLAP_GROWTH = 1;
+
+  function updatePointerPosition(event) {
+    pointer.position = [
+      event.clientX * devicePixelRatio,
+      event.clientY * devicePixelRatio,
+    ];
+  }
+
+  addEventListener("pointermove", (event) => {
+    updatePointerPosition(event);
+    if (pointer.down && !pointer.holdingBall && pointer.overlappingBall) {
+      pointer.holdingBall = true;
+      pointer.history = [];
+    }
+  });
+
+  addEventListener("pointerdown", (event) => {
+    updatePointerPosition(event);
+    pointer.down = true;
+    balls.push({
+      position: [...pointer.position],
+      history: [pointer.position],
+      target: [...pointer.position],
+      replayIndex: 0,
+      previousPosition: [...pointer.position],
+    });
+  });
+
+  addEventListener("pointerup", (event) => {
+    updatePointerPosition(event);
+    pointer.down = false;
+  });
+
+  const BALL_POINTER_CHASE = 0.1;
+  const BALL_TARGET_CHASE = 0.1;
+  function update() {
+    if (pointer.down) {
+      const ball = balls[balls.length - 1];
+      ball.position = [
+        ball.position[0] +
+          (pointer.position[0] - ball.position[0]) * BALL_POINTER_CHASE,
+        ball.position[1] +
+          (pointer.position[1] - ball.position[1]) * BALL_POINTER_CHASE,
+      ];
+      ball.history.push([...pointer.position]);
+    }
+
+    for (const ball of balls) {
+      if (ball.history.length > 0) {
+        if (pointer.down && ball === balls[balls.length - 1]) {
+          return;
+        }
+        if (ball.replayIndex >= ball.history.length) {
+          ball.replayIndex = 0;
+        }
+        ball.target = ball.history[ball.replayIndex];
+        ball.replayIndex++;
+      }
+      ball.position = [
+        ball.position[0] +
+          (ball.target[0] - ball.position[0]) * BALL_TARGET_CHASE,
+        ball.position[1] +
+          (ball.target[1] - ball.position[1]) * BALL_TARGET_CHASE,
+      ];
+    }
+  }
+
+  function tick() {
+    update();
+    draw();
+    requestAnimationFrame(tick);
+  }
+
+  requestAnimationFrame(tick);
+</script>
