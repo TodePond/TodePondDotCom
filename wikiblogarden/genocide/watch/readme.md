@@ -11,7 +11,7 @@
 - [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 12th July 2024[^july]
 - [x] forced de-transition of trans children classed as legal by courts. UPDATE: ticked off on 29th July 2024[^legal]
 - [x] national health service's review into trans children's care widely discredited as politically biased. UPDATE: ongoing. first ticket off on 14th March 2024. last ticked off on 7th August 2024[^amer][^bm][^ruth]
-- [x] plans made to review trans adult services as part of the implementation of the widely discredited and politically biased report on trans children services. UPDATE: ticked off on 7th August 2024[^adult]
+- [x] national health service plans to review trans adults care. UPDATE: ticked off on 7th August 2024[^adult]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
