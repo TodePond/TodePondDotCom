@@ -1,0 +1,395 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--rainbow-gradient);
+    color: black;
+    background-size: 700% 800%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    );
+    background-size: 400% 300%;
+    /* background-opacity: 0.5; */
+    background-color: black;
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.mp3" type="audio/mpeg" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Three and a half weeks
+  </h1>
+
+  <p>Welcome back... to another weekly episode... of the</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>What&#39;s new this week?</p>
+
+  <img src="1.png" />
+  <h2 id="we-got-accepted-">We got accepted!</h2>
+  <p>
+    We got accepted.
+    <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a> and I got accepted
+    for
+    <a href="https://2024.splashcon.org/track/splash-2024-Onward-Essays"
+      >Onward! Essays!</a
+    >, which will take place at
+    <a href="https://2024.splashcon.org/">SPLASH</a> later this year. We&#39;re
+    both really pleased!
+  </p>
+  <p>
+    The next step is to come up with, and plan, our accompanying talk for the
+    event itself. And that&#39;s what we&#39;ve started doing this week.
+  </p>
+  <p>
+    I think we can have some fun with the talk, to make it engaging and
+    compelling and uhh— whatever it is. The essay itself is a
+    &quot;dialogue&quot;. As in... it&#39;s me and Dave having a chat. So the
+    talk itself can also be a dialogue of some sort— at least— It can have one
+    or two fun dialogue sections, probably near the start and the end.
+  </p>
+  <p>
+    The essay is called &quot;Dialogues on Natural Code&quot;, so the talk can
+    be called &quot;Dialogues on Dialogues on Natural Code&quot;. I guess
+    it&#39;s the same as my usual recursive rubbish.
+  </p>
+  <p>
+    By the way, Dave spoke a bit about it in his
+    <a href="https://www.youtube.com/watch?v=pGuAvsQ4gQY">update this week</a>.
+    But note that this video was recorded <em>before</em> we heard the good
+    news.
+  </p>
+  <img src="2.png" />
+  <h2 id="three-and-a-half-weeks">Three and a half weeks</h2>
+  <p>
+    I mentioned last week that I&#39;ve been really busy and overwhelmed. So I
+    turned it into a mini video, a tiny bonus episode. Watch it
+    <a href="https://www.youtube.com/watch?v=tTWfneyUtY0">here</a>.
+  </p>
+  <p>
+    I mean it&#39;s mainly a slideshow set to some music that I made in
+    <a
+      href="https://strudel.cc/#Ly8gQHRpdGxlIGRhc2ggaW5zdGVhZCBAYnkgdG9kZXBvbmQKCiQ6IG5vdGUoIkMgRywgPEQgRmIgQj4iKQogIC8vIC5yZXYoKQogIC5zb3VuZCgic2F3dG9vdGgiKQogIC5jcG0oMzApCiAgLmdhaW4oLjQpCi5scGYoIjwxMDAgMjAwIDMwMCA0MDAgNTAwIDYwMCA3MDAgODAwIDkwMCAxMDAwIDExMDAgMTIwMCAxMzAwIDE0MDAgMTMwMCAxMjAwIDExMDAgMTAwMCA5MDAgODAwIDcwMCA2MDAgNTAwIDQwMCAzMDAgMjAwPi80IikKICAucm9vbSgxKQogIC5wYW4oIjwwIDE%2BIikgIAouZGVsYXkoMSkKLnJvb21zaXplKHNsaWRlcigxNi4yLCAwLCAyMCkpCgogIAouc2xvdygiMSwgLjUsIC4yNSIpIC8vIHN3YXAgdG8gdGhpcwovLyAuc2xvdygiLjEyNzUsIDgiKS5nYWluKC4zKQo%3D"
+      >strudel</a
+    >, with some B-roll thrown in for good measure like usual.
+  </p>
+  <p>
+    I&#39;m happy to get out a small handful of
+    <a
+      href="https://youtube.com/playlist?list=PL9uRa69RF-7xRCMUJGmnRYr6xmWRU4TTZ&amp;si=Z27oyJCXM-6Q4FXi"
+      >bonus episodes</a
+    >
+    during the droughts between videos. But... I don&#39;t know, maybe I
+    shouldn&#39;t do them. Maybe I should just focus on the main episodes. I am
+    still working tons on the next video, Top 99 Ways To Make Sand, but I&#39;m
+    not sharing much because there isn&#39;t much to share.
+  </p>
+  <p>
+    All the bonus episodes are unlisted on my channel, although you
+    <em>can</em> find them via my channel&#39;s playlists. This is mainly
+    because I don&#39;t want them to be recommended to people over my other
+    videos, the main episodes. I guess this is why some people have multiple
+    channels set up. And I originally thought against that because I get various
+    benefits behind having a large(-ish) youtube channel, like control over ads
+    and extra features and so on. But those things really don&#39;t count for
+    much. I also know of some &quot;secondary channels&quot; that become bigger
+    and more enjoyed than the &quot;main channel&quot; and I want to avoid
+    investing more time into a smaller channel. I <em>want</em> to make my main
+    episodes. I just need more time. But I will keep pressing on...
+  </p>
+  <img src="3.png" />
+  <h2 id="tadi-web">Tadi web</h2>
+  <p>
+    I presented the <a href="https://www.tadiweb.com/">tadi web</a> for the
+    first time, internally at
+    <a href="https://www.inkandswitch.com/">Ink &amp; Switch</a>. The tadi web
+    is my slightly jokey approach to trying to bring together lots of different
+    movements around making computing better. Or rather, it&#39;s my attempt to
+    adhere to lots of different &quot;best practices&quot; at the same time,
+    such as
+    <a href="https://www.inkandswitch.com/local-first/">local first</a> and
+    <a
+      href="https://andrewwalpole.com/blog/an-introduction-to-robust-first-computation/"
+      >robust-first</a
+    >
+    and
+    <a href="https://permacomputing.net/permacomputing/">perma-computing</a> and
+    <a
+      href="https://www.todepond.com/wikiblogarden/better-computing/better-computing/"
+      >everything else</a
+    >.
+  </p>
+  <p>
+    It&#39;s been unclear at times whether the tadi web is real, or just a joke.
+    So this was perhaps a clarifying moment. Maybe it can be both.
+  </p>
+  <p>
+    Anyway, I&#39;ve continued to explore the practice of the tadi web, which
+    <em>currently</em> means building things in a radically simple way. It&#39;s
+    what allowed me to finish off
+    <a href="https://www.youtube.com/watch?v=DNBKdU6XrLY">arroost</a>, and
+    it&#39;s how my <a href="https://todepond.com">website</a> is made. And
+    I&#39;ve continued adding experiments to the
+    <a href="https://www.todepond.com/lab/">lab</a>, such as this
+    <a href="https://www.todepond.com/lab/connect/">recent one</a>. Click and
+    drag to try it out.
+  </p>
+  <p>
+    I&#39;d like to continue working on this tadi web project. I think it raises
+    some interesting questions and possibilities. But we&#39;ll see how that
+    goes.
+  </p>
+  <p>
+    <strong
+      >As you might imagine, I can&#39;t do all of this work without you. Thank
+      you so much for supporting me along this long and winding journey. I
+      appreciate every little piece of help you give me, whether that&#39;s by
+      paying or by advocating for me around the place. I really do appreciate it
+      more than you can imagine. So thanks for being here. And wherever you are
+      in the world... whatever you&#39;re doing... I hope you have a great week.
+      🐸</strong
+    >
+  </p>
+
+  <em>Days since tode fell asleep: 582</em><br />
+  <em>Days since bot went missing: 547</em><br />
+  <em>Days since berd flew away: 210</em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+</details>
