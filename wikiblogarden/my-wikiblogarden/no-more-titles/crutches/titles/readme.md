@@ -6,6 +6,6 @@
 
 ## School only teaches you one way
 
-## There are so many ways to write 
+## But there are so many ways to write 
 
 Back to the [wikiblogarden](/wikiblogarden).
