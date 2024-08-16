@@ -118,7 +118,11 @@
   }
 
   function titleToPath(title) {
-    return title.replaceAll(" ", "-").replaceAll(":", "").toLowerCase();
+    return title
+      .replaceAll(" ", "-")
+      .replaceAll("VIDEO VOTE: ", "")
+      .replaceAll(":", "")
+      .toLowerCase();
   }
 
   const convertDateToDateInputFormat = (date) => {
