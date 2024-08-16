@@ -2,8 +2,7 @@
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"
-></script>
+  src="//gc.zgo.at/count.js"></script>
 <title>Todepond dot com</title>
 <link rel="shortcut icon" href="/favicon.png" />
 <meta property="og:image" content="https://todepond.com/og.png" />
@@ -25,66 +24,89 @@
 
 <br />
 
+<noscript>
+  <p>
+    This website uses jumpyscript to load the feed. You can find the feed
+    <a href="/index.xml">here</a>.
+  </p>
+</noscript>
+
 <!-- dropdown -->
 <select id="order">
   <option value="newest-first">Newest first</option>
   <option value="oldest-first">Oldest first</option>
 </select>
 
-  <ul id="list">
-    <li><a href="tease-open/">Tease open</a></li>
-    <li><a href="three-and-a-half-weeks/">Three and a half weeks</a></li>
-    <li><a href="with-friends/">With friends</a></li>
-    <li><a href="reaction-reaction">Reaction reaction</a></li>
-    <li><a href="this-is-not-a-fish">This is not a fish</a></li>
-    <li><a href="this-is-a-shepherd">This is a shepherd</a></li>
-    <li><a href="stitch">Stitch</a></li>
-    <li><a href="todepond">Todepond</a></li>
-    <li><a href="confession">Confession</a></li>
-    <li><a href="out-of-time">Out of time</a></li>
-    <li><a href="elephant-in-the-room-and-step-by-step">Elephant in the room + Step by step</a></li>
-    <li><a href="torn-leaf-zero">Torn leaf zero</a></li>
-    <li><a href="natural-code">Natural code</a></li>
-    <li><a href="why-we-are-coders/">Why we are coders</a></li>
-    <li><a href="dont-do-maths">Don’t do maths</a></li>
-    <li><a href="twenty-minute-video">Twenty minute video</a></li>
-    <li><a href="finding-ninety-nine-sands">Finding ninety nine sands</a></li>
-    <li><a href="final-shot">Final shot</a></li>
-    <li><a href="vision-pro">Vision pro</a></li>
-    <li><a href="pointing-to-the-pieces">Pointing to the pieces</a></li>
-    <li><a href="sixteen-scrappy-fiddles">Sixteen scrappy fiddles</a></li>
-    <li><a href="tode-will-wake-up">VIDEO VOTE: Tode will wake up</a></li>
-    <li><a href="berd-has-flown-away">Berd has flown away</a></li>
-    <li><a href="puss-in-boots">Puss in boots</a></li>
-    <li><a href="choose-your-hero">CHOOSE: Your hero</a></li>
-    <li><a href="replacement">Replacement</a></li>
-    <li><a href="infinity-rooms">Infinity rooms</a></li>
-    <li><a href="wires-to-wires-to-wires">Wires to wires to wires</a></li>
-    <li><a href="multiple-angles">Multiple angles</a></li>
-    <li><a href="set">Set</a></li>
-    <li><a href="perfect-rhyme">Perfect rhyme</a></li>
-    <li><a href="demo">Normalise sharing scrappy fiddles</a></li>
-    <li>
-      All older pondcasts are available on my
-      <a href="https://www.patreon.com/todepond" class="secondary">patreon</a>.
-    </li>
-  </ul>
+<ul id="list"></ul>
 
-  <script type="module">
+<script type="module">
+  import { titleToPath, fetchItems } from "/pondcast/script.js";
+
+  order.addEventListener("change", () => {
+    const items = getLocalItems();
+    renderItems(items, { order: order.value });
+  });
+
+  function getLocalItems() {
+    const rawLocalItems = localStorage.getItem("items") ?? "[]";
+    let localItems;
+    try {
+      localItems = JSON.parse(rawLocalItems);
+      for (const item of localItems) {
+        item.pubDate = new Date(item.pubDate);
+      }
+    } catch (error) {
+      localItems = [];
+    }
+    return localItems;
+  }
+
+  async function main() {
+    const rawLocalItems = localStorage.getItem("items") ?? "[]";
+    const localItems = getLocalItems();
+    renderItems(localItems);
+
+    const items = await fetchItems();
+    localStorage.setItem("items", JSON.stringify(items));
+    renderItems(items);
+  }
+
+  function renderItems(items, { order = "newest-first" } = {}) {
+    let sortedItems;
+    if (order === "newest-first") {
+      sortedItems = items.sort((a, b) => a.pubDate - b.pubDate);
+    } else {
+      sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
+    }
     const list = document.getElementById("list");
-    const items = list.querySelectorAll("li");
-    const order = document.getElementById("order");
+    list.innerHTML =
+      order === "oldest-first"
+        ? ""
+        : `
+      <li>
+        All older pondcasts are available on my
+        <a href="https://www.patreon.com/todepond" class="secondary">patreon</a>.
+      </li>`;
 
-    const itemElements = [...items]
+    for (const item of sortedItems) {
+      if (item.title === "Older episodes") continue;
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = titleToPath(item.title);
+      a.textContent = item.title;
+      li.append(a);
+      list.prepend(li);
+    }
 
-    order.addEventListener("change", () => {
-     const sortedItemElements = order.value === "newest-first"
-        ? itemElements
-        : [...itemElements].reverse();
+    if (order === "oldest-first") {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        All older pondcasts are available on my
+        <a href="https://www.patreon.com/todepond" class="secondary">patreon</a>.
+      `;
+      list.prepend(li);
+    }
+  }
 
-      list.innerHTML = "";
-      sortedItemElements.forEach((item) => list.append(item));
-
-    });
-  </script>
-</select>
+  main();
+</script>
