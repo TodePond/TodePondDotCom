@@ -46,7 +46,10 @@
 <footer>
   <button id="add-item">Add item</button>
   <button id="copy-feed">Copy feed</button>
-  <a href="">Go to feed</a>
+  <a
+    href="https://github.com/TodePond/TodePondDotCom/edit/main/pondcast/feed/index.xml"
+    >Go to feed</a
+  >
 </footer>
 
 <script type="module">
@@ -133,6 +136,54 @@
     const item = { title: "", pubDate: new Date() };
     items.push(item);
     renderItems([item]);
+  });
+
+  function makeFeed(items) {
+    const sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
+    let feedItems = [];
+    for (const item of sortedItems) {
+      const feedItem = `
+        <item>
+          <title>${item.title}</title>
+          <link>http://www.todepond.com/pondcast/${titleToPath(
+            item.title
+          )}/</link>
+          <pubDate>${convertDateToPubDateFormat(item.pubDate)}</pubDate>
+        </item>
+      `;
+      feedItems.push(feedItem);
+    }
+
+    const feed = `<?xml version="1.0" encoding="utf-8"?>
+      <rss version="2.0">
+        <channel>
+          <title>Todepond Pondcast</title>
+          <link>http://www.todepond.com/pondcast/</link>
+          <description>weekly update from the pond</description>
+            ${feedItems.join("\n")}
+        </channel>
+      </rss>`;
+
+    return feed;
+  }
+
+  const copyFeedButton = document.getElementById("copy-feed");
+  let copiedCount = 0;
+  copyFeedButton.addEventListener("click", () => {
+    const items = deriveItems();
+    const rss = makeFeed(items);
+    const feed = document.createElement("textarea");
+    feed.value = rss;
+    document.body.appendChild(feed);
+    feed.select();
+    feed.setSelectionRange(0, 99999999);
+    document.execCommand("copy");
+    feed.remove();
+    copyFeedButton.textContent = "Copied!";
+    copiedCount++;
+    if (copiedCount > 1) {
+      copyFeedButton.textContent += ` x${copiedCount}`;
+    }
   });
 
   main();
