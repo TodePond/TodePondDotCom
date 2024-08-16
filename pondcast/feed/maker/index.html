@@ -120,8 +120,9 @@
   function titleToPath(title) {
     return title
       .replaceAll("VIDEO VOTE: ", "")
-      .replaceAll(" ", "-")
+      .replaceAll("'", "")
       .replaceAll(":", "")
+      .replaceAll(" ", "-")
       .toLowerCase();
   }
 
