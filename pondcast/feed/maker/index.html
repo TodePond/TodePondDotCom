@@ -149,7 +149,7 @@
   });
 
   function makeFeed(items) {
-    const sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
+    const sortedItems = items.sort((a, b) => a.pubDate - b.pubDate);
     let feedItems = [];
     for (const item of sortedItems) {
       const feedItem = `
