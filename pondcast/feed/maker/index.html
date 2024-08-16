@@ -47,7 +47,7 @@
   <button id="add-item">Add item</button>
   <button id="copy-feed">Copy feed</button>
   <a
-    href="https://github.com/TodePond/TodePondDotCom/edit/main/pondcast/feed/index.xml"
+    href="https://github.com/TodePond/TodePondDotCom/edit/main/pondcast/index.xml"
     >Go to feed</a
   >
 </footer>
@@ -56,7 +56,7 @@
   async function fetchItems() {
     let response;
     try {
-      response = await fetch("/pondcast/feed/index.xml");
+      response = await fetch("/pondcast/index.xml");
     } catch (error) {
       // console.error("Failed to fetch feed:", error);
       return [];
