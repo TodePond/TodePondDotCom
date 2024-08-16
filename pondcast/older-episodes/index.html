@@ -9,12 +9,7 @@
 <link rel="stylesheet" href="/style.css" />
 
 <!-- <blockquote> -->
-<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
-  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
-  Please only listen / read if you've
-  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
-  :)
-</p>
+
 <!-- </blockquote> -->
 
 <!-- <input id="paid-checkbox" type="checkbox" /> -->
@@ -178,37 +173,8 @@
     /* margin: 0px; */
   "
 ></div> -->
-<details id="paid-toggle">
-  <summary class="button highlighted">→ Click here if you've paid!</summary>
 
-  <script>
-    const thanks = "✰ Thanks for supporting me!";
-    const key = window.location.pathname + "paid";
-    console.log(key);
-    const paid = localStorage.getItem(key);
-    const details = document.getElementById("paid-toggle");
-    const summary = details.querySelector("summary");
-    if (paid) {
-      details.open = true;
-      summary.textContent = thanks;
-      // summary.boxShadow = "none";
-      // summary.classList.remove("highlighted");
-    }
-    details.addEventListener("toggle", (event) => {
-      if (details.open) {
-        localStorage.setItem(key, "true");
-        summary.textContent = thanks;
-        // summary.boxShadow = "none";
-        // summary.classList.remove("highlighted");
-      } else {
-        localStorage.removeItem(key);
-        summary.textContent = "→ Click here if you've paid!";
-        // summary.classList.add("highlighted");
-      }
-    });
-  </script>
-
-  <!-- <hr
+<!-- <hr
     style="
       /* margin-top: -3px; */
       padding: 0px 200%;
@@ -221,44 +187,45 @@
       /* background-color: transparent; */
     "
   /> -->
-  <hr
-    style="
-      /* margin-bottom: 10px; */
-      margin-top: 18px;
-      position: absolute;
-      left: 0px;
-      right: 0px;
-      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
-      /* background-color: var(--best-colour); */
-    " />
+<!-- <hr
+  style="
+    /* margin-bottom: 10px; */
+    margin-top: 18px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+    /* background-color: var(--best-colour); */
+  " /> -->
 
-  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+<!-- <audio controls style="position: sticky; top: 10px; margin-top: 38px">
     <source src="1.mp3" type="audio/mpeg" />
-  </audio>
-  <h1
-    style="
-      margin-bottom: 10px;
-      margin-top: 30px;
-      /* margin-top: 35px; */
-      /* background-color: white; */
-      /* color: black; */
-      /* text-shadow: 2px 2px 2px var(--shade-5); */
-      /* background-color: rgb(31, 39, 54); */
-      /* margin-top: 60px; */
-      /* padding-top: 40px; */
-      /* padding-right: 100%; */
-      /* padding-left: 100%; */
-      /* margin-left: -100%; */
-      overflow: hidden;
-      /* color: black; */
-    ">
-    TODEPOND PONDCAST: Older episodes
-  </h1>
+  </audio> -->
+<h1
+  style="
+    margin-bottom: 10px;
+    margin-top: 30px;
+    /* margin-top: 35px; */
+    /* background-color: white; */
+    /* color: black; */
+    /* text-shadow: 2px 2px 2px var(--shade-5); */
+    /* background-color: rgb(31, 39, 54); */
+    /* margin-top: 60px; */
+    /* padding-top: 40px; */
+    /* padding-right: 100%; */
+    /* padding-left: 100%; */
+    /* margin-left: -100%; */
+    overflow: hidden;
+    /* color: black; */
+  ">
+  TODEPOND PONDCAST: Older episodes
+</h1>
 
-  <p>
-    You can find older episodes of the pondcast on my
-    <a href="https://patreon.com/TodePond">patreon</a>.
-  </p>
+<p>
+  You can find older episodes of the pondcast on my
+  <a class="danger" href="https://patreon.com/TodePond">patreon</a>.
+</p>
 
-  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
-</details>
+<br />
+
+<p>Back to the <a href="/pondcast">pondcast</a>.</p>
