@@ -73,7 +73,8 @@
       );
       items.push({ title, pubDate });
     }
-    return items;
+
+    return items.sort((a, b) => b.pubDate - a.pubDate);
   }
 
   async function renderItems(items) {
