@@ -42,15 +42,15 @@
 
 <h1>Pondcast feed maker</h1>
 
-<main></main>
-<footer>
+<header>
   <button id="add-item">Add item</button>
   <button id="copy-feed">Copy feed</button>
   <a
     href="https://github.com/TodePond/TodePondDotCom/edit/main/pondcast/index.xml"
     >Go to feed</a
   >
-</footer>
+</header>
+<main></main>
 
 <script type="module">
   async function fetchItems() {
@@ -78,8 +78,10 @@
   }
 
   async function renderItems(items) {
+    const sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
     const mainElement = document.querySelector("main");
-    for (const item of items) {
+    mainElement.innerHTML = "";
+    for (const item of sortedItems) {
       const section = document.createElement("section");
       section.classList.add("item");
       const titleInput = document.createElement("input");
@@ -115,7 +117,7 @@
   }
 
   function titleToPath(title) {
-    return title.replaceAll(" ", "-").toLowerCase();
+    return title.replaceAll(" ", "-").replaceAll(":", "").toLowerCase();
   }
 
   const convertDateToDateInputFormat = (date) => {
@@ -136,7 +138,7 @@
     const items = deriveItems();
     const item = { title: "", pubDate: new Date() };
     items.push(item);
-    renderItems([item]);
+    renderItems(items);
   });
 
   function makeFeed(items) {
