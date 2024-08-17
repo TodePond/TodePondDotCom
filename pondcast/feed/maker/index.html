@@ -2,7 +2,8 @@
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"></script>
+  src="//gc.zgo.at/count.js"
+></script>
 <title>Todepond dot com</title>
 <link rel="shortcut icon" href="/favicon.png" />
 <meta property="og:image" content="https://todepond.com/og.png" />
@@ -54,21 +55,21 @@
 <main></main>
 
 <script type="module">
-  import { titleToPath, fetchItems } from "/pondcast/script.js";
+  import { titleToPath, fetchItems } from '/pondcast/script.js';
 
   async function renderItems(items) {
     const sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
-    const mainElement = document.querySelector("main");
-    mainElement.innerHTML = "";
+    const mainElement = document.querySelector('main');
+    mainElement.innerHTML = '';
     for (const item of sortedItems) {
-      const section = document.createElement("section");
-      section.classList.add("item");
-      const titleInput = document.createElement("input");
-      titleInput.setAttribute("type", "text");
+      const section = document.createElement('section');
+      section.classList.add('item');
+      const titleInput = document.createElement('input');
+      titleInput.setAttribute('type', 'text');
       titleInput.value = item.title;
-      titleInput.placeholder = "Title";
-      const dateInput = document.createElement("input");
-      dateInput.setAttribute("type", "datetime-local");
+      titleInput.placeholder = 'Title';
+      const dateInput = document.createElement('input');
+      dateInput.setAttribute('type', 'datetime-local');
       console.log(item.pubDate);
       dateInput.value = convertDateToDateInputFormat(item.pubDate);
       section.appendChild(titleInput);
@@ -83,12 +84,12 @@
   }
 
   function deriveItems() {
-    const itemElements = document.querySelectorAll(".item");
+    const itemElements = document.querySelectorAll('.item');
     const items = [];
     for (const itemElement of itemElements) {
-      const title = itemElement.querySelector("input[type=text]").value;
+      const title = itemElement.querySelector('input[type=text]').value;
       const pubDate = new Date(
-        itemElement.querySelector("input[type=datetime-local]").value
+        itemElement.querySelector('input[type=datetime-local]').value
       );
       items.push({ title, pubDate });
     }
@@ -97,10 +98,10 @@
 
   const convertDateToDateInputFormat = (date) => {
     const year = date.getFullYear();
-    const month = (date.getMonth() + 1).toString().padStart(2, "0");
-    const day = date.getDate().toString().padStart(2, "0");
-    const hours = date.getHours().toString().padStart(2, "0");
-    const minutes = date.getMinutes().toString().padStart(2, "0");
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    const hours = date.getHours().toString().padStart(2, '0');
+    const minutes = date.getMinutes().toString().padStart(2, '0');
     return `${year}-${month}-${day}T${hours}:${minutes}`;
   };
 
@@ -108,25 +109,82 @@
     return date.toUTCString();
   };
 
-  const addItemButton = document.getElementById("add-item");
-  addItemButton.addEventListener("click", () => {
+  const addItemButton = document.getElementById('add-item');
+  addItemButton.addEventListener('click', () => {
     const items = deriveItems();
-    const item = { title: "", pubDate: new Date() };
+    const item = { title: '', pubDate: new Date() };
     items.push(item);
     renderItems(items);
   });
 
-  function makeFeed(items) {
+  function getPathOnOrigin(path = '') {
+    return new URL(path, window.location.origin).toString();
+  }
+
+  async function getMediaItemsOfFeedItem(item) {
+    const mediaItemBasePath = getPathOnOrigin(
+      `pondcast/${titleToPath(item.title)}`
+    );
+    const potentialMediaItemFilenames = ['1.mp3', '1.m4a'];
+
+    const potentialMediaSources = potentialMediaItemFilenames.map(
+      (filename) => `${mediaItemBasePath}/${filename}`
+    );
+
+    const mediaItems = [];
+    await Promise.all(
+      potentialMediaSources.map(async (mediaPath) => {
+        try {
+          const response = await fetch(mediaPath, { method: 'HEAD' });
+          if (response.ok) {
+            const fileSize = response.headers.get('Content-Length');
+
+            if (!fileSize) {
+              console.error('Couldnt get filesize of item', mediaPath);
+              return;
+            }
+
+            mediaItems.push({
+              path: mediaPath,
+              fileSize,
+            });
+          }
+        } catch (error) {
+          // noop, we just want to ignore errors because we can't know which files should be available or not
+        }
+      })
+    );
+    return mediaItems;
+  }
+
+  function mapMediaItemsToEnclosures(mediaItems = []) {
+    return mediaItems
+      .map((mediaItem, index) => {
+        let enclosureTag = `<enclosure url="${mediaItem.path}" length="${mediaItem.fileSize}" type="audio/mpeg" />`;
+        // Unless last element, add a newline and two spaces (for identation)
+        if (index < mediaItem.length - 1) {
+          enclosureTag += '\n  ';
+        }
+        return enclosureTag;
+      })
+      .concat();
+  }
+
+  async function makeFeed(items = []) {
     const sortedItems = items.sort((a, b) => a.pubDate - b.pubDate);
     let feedItems = [];
+
     for (const item of sortedItems) {
+      const itemLink = getPathOnOrigin(`pondcast/${titleToPath(item.title)}`);
+
+      const mediaItems = await getMediaItemsOfFeedItem(item);
+
       const feedItem = `
         <item>
           <title>${item.title}</title>
-          <link>http://www.todepond.com/pondcast/${titleToPath(
-            item.title
-          )}/</link>
+          <link>${itemLink}</link>
           <pubDate>${convertDateToPubDateFormat(item.pubDate)}</pubDate>
+          ${mapMediaItemsToEnclosures(mediaItems)}
         </item>
       `;
       feedItems.push(feedItem);
@@ -136,28 +194,29 @@
       <rss version="2.0">
         <channel>
           <title>Todepond Pondcast</title>
-          <link>http://www.todepond.com/pondcast/</link>
+          <link>${getPathOnOrigin('pondcast')}</link>
           <description>weekly update from the pond</description>
-            ${feedItems.join("\n")}
+            ${feedItems.join('\n')}
         </channel>
       </rss>`;
 
     return feed;
   }
 
-  const copyFeedButton = document.getElementById("copy-feed");
+  const copyFeedButton = document.getElementById('copy-feed');
   let copiedCount = 0;
-  copyFeedButton.addEventListener("click", () => {
+  copyFeedButton.addEventListener('click', async () => {
     const items = deriveItems();
-    const rss = makeFeed(items);
-    const feed = document.createElement("textarea");
+    copyFeedButton.textContent = 'Calculating feed...';
+    const rss = await makeFeed(items);
+    const feed = document.createElement('textarea');
     feed.value = rss;
     document.body.appendChild(feed);
     feed.select();
     feed.setSelectionRange(0, 99999999);
-    document.execCommand("copy");
+    document.execCommand('copy');
     feed.remove();
-    copyFeedButton.textContent = "Copied!";
+    copyFeedButton.textContent = 'Copied!';
     copiedCount++;
     if (copiedCount > 1) {
       copyFeedButton.textContent += ` x${copiedCount}`;
