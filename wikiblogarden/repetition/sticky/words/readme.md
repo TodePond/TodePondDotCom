@@ -139,32 +139,6 @@ But naming takes time. Names need to be earned before they land. You need to say
 
 There is no point in waiting until the **end**, until the artifact is ready and done and finished. If you wait until the end to put a name on your thing, then it's already too late. No one will feel it. It won't feel natural, and it won't be part of the language. You won't have earned or grown the when-based definition.
 
-And the name has to be unique, but it MUST NOT SOUND SMART OR INTELLECTUAL. That's really stupid. You're not impressing anyone with a name that does that. 
-
-And the name MUST NOT BE SOMETHING THAT ALREADY EXISTS. That means it's not a name. Create something new. 
-
-In the past, I have made some terrible names and I have made some not terrible names. Here are some of the names that I am most pleased with:
-
-- [Make Real](https://makereal.tldraw.com)
-- [Torn Leaf](https://tornleaf.gallery)
-- [Tadi Web](https://tadiweb.com)
-- [Arroost](https://arroost.com)
-- [Dreamberd](https://dreamberd.computer)
-- [Normalise sharing scrappy fiddles](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/)
-- [Slippy mindset](https://tadiweb.com)
-- [Mothertode](https://todepond.gitbook.io/mothertode)
-- [Fractal Bucket](https://www.patreon.com/posts/todepond-fractal-89529064?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
-## Community
-
-I continue to repeat myself. 
-
-I do it here on this blog with "Back to the wikiblogarden" at the end of every post.
-
-And I use it to try to encourage engagement in [Torn Leaf](https://tornleaf.gallery/), with the repeating phrase "You must submit something to Torn Leaf". The [Torn Leaf logo](https://youtu.be/-FgAHiI3ZNY) itself is an act of collaborative repetition, repeating the same logo again and again in over 99 different ways.
-
-And I explore repetition in some [recent experiments](https://youtube.com/live/hlsDbXSZ2ko?feature=share). "Be brave" and "There is NO ROOM FOR fear here" and "JOIN THE RITUAL".
-
 ## Define repetition
 
 Repetition is when the same thing happens again and again. 
