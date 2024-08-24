@@ -1,0 +1,406 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--rainbow-gradient);
+    color: black;
+    background-size: 700% 800%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    ); */
+    /* background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+    /* background-color: black; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.mp3" type="audio/mpeg" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Boosh
+  </h1>
+
+  <p>Well well welcome back to the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>What&#39;s new this week?</p>
+
+  <img src="1.png" alt="Boosh" />
+  <h2 id="boosh">Boosh</h2>
+  <p>
+    I did a
+    <a href="https://www.youtube.com/live/LrTiAm0wHOU">second livestream</a>!
+    Another one! Except this time, it was over double the length, hitting eight
+    and a half hours.
+  </p>
+  <p>
+    What I did was, was that I, I watched one episode of the
+    <a
+      href="https://www.youtube.com/playlist?list=PL9uRa69RF-7wastqKWXT4d9F84BAzfVd4"
+      >Sandpond Saga</a
+    >, just one, and I did this repeatedly, to different episodes, until I had
+    done it 38 times, until I had watched 38 different episodes, in order, so
+    that I had watched through every single episode, the entire Sandpond Saga.
+  </p>
+  <p>
+    I did it! I watched from the very first episode to the very last episode (so
+    far). I watched the whole Sandpond Saga from start to finish, I watched the
+    whole thing and—
+  </p>
+  <p>
+    If you watch the whole saga from start to finish, with no gaps and no
+    pauses, it already takes four and a half hours, which would already be
+    longer than the
+    <a href="https://www.youtube.com/live/hlsDbXSZ2ko">first livestream</a>. But
+    when you factor in all the distractions and coffee breaks and what-not, it
+    took eight and a half hours.
+  </p>
+  <p>
+    It was fun giving some behind-the-scenes stories and hidden meanings behind
+    the videos. Thank you for everyone who watched along and took part in all
+    the silly jokes!
+  </p>
+  <p>
+    The <a href="https://www.youtube.com/live/LrTiAm0wHOU">whole thing</a> is
+    available to watch, including the live chat,
+    <a href="https://www.youtube.com/live/LrTiAm0wHOU">right here</a>. Or I
+    uploaded a
+    <a href="https://www.youtube.com/watch?v=Xf0JmX61G20">short video</a> of a
+    short section that I enjoyed, if you&#39;re just looking for a taste. Watch
+    it <a href="https://www.youtube.com/watch?v=Xf0JmX61G20">here</a>.
+  </p>
+
+  <img src="2.png" alt="Block" />
+  <h2 id="block">Block</h2>
+  <p>
+    Great news! My
+    <a href="https://www.todepond.com/report/arroost/">essay</a> about
+    <a href="https://www.youtube.com/watch?v=cF2OF75ivZM">Arroost</a> got
+    accepted for the
+    <a href="https://2024.splashcon.org/home/live-2024">LIVE</a> conference at
+    <a href="https://2024.splashcon.org/">SPLASH</a>.
+  </p>
+  <p>
+    This also means that the essay is finished, and I&#39;m ready to release it.
+    <a href="https://www.todepond.com/report/arroost/">Here it is!</a> Please
+    enjoy reading. I put a lot of effort into it.
+  </p>
+  <p>
+    I&#39;m overjoyed that the essay got accepted. I really wasn&#39;t sure if
+    it would be. But the reviewers really seemed to &quot;get it&quot; and all
+    three of them rated it five out of five.
+  </p>
+  <p>
+    I&#39;m particularly pleased with Reviewer C&#39;s response. Look what they
+    said:
+  </p>
+  <blockquote>
+    <p>
+      I really enjoyed playing with Arroost. I like music and have been singing
+      in choirs for a while but composition has always triggered emotional
+      blockers for me. Meanwhile I found making music with Arroost quite
+      freeing. I loved the lightweight nature of creating and sequencing tiny
+      recordings. I thought it was cool how I was encouraged to keep things
+      messy at the low level (eg the messy overlaps between neighboring
+      recordings) yet inevitably the globally fixed beat would lead to cool
+      structured polyrhythmic patterns at the high level. Thank you for your
+      surprises, strange simulation.
+    </p>
+  </blockquote>
+  <p>
+    I&#39;m so so so pleased that Arroost had the desired effect on them. I
+    particularly like the last line:
+  </p>
+  <blockquote>
+    <p>Thank you for your surprises, strange simulation.</p>
+  </blockquote>
+  <p>I couldn&#39;t have asked for a nicer response.</p>
+  <p>
+    Of course, the reviewers also made challenges, and critically questioned
+    some aspects of Arroost. Again,
+    <a href="https://www.patreon.com/posts/87551493"
+      >for the second year running</a
+    >, I can&#39;t emphasise how high the quality of the feedback is from the
+    LIVE reviewers. They engaged deeply with what I submitted, and it&#39;s
+    clear that the goal of the feedback is to help with further exploration of
+    the themes of the submission.
+  </p>
+  <p>
+    Over the coming weeks, I&#39;ll expand and respond to some of those
+    challenges. Some of them have been very thought-provoking.
+  </p>
+
+  <img src="3.png" alt="Back" />
+  <h2 id="back">Back</h2>
+  <p>
+    I have continued to work on the teaser trailer for the next video, Top 99
+    Ways To Make Sand. And viewers of the
+    <a href="https://www.youtube.com/live/LrTiAm0wHOU">livestream</a> may have
+    even seen a teaser trailer of the teaser trailer.
+  </p>
+  <p>
+    Interestingly, I made some changes to the beginning section of the video
+    specifically for the teaser. The changes were intended to hide spoilers from
+    the eventual full video, but I actually like how it&#39;s turned out, so I
+    might keep it like that, even after the teaser is released.
+  </p>
+  <p>
+    So yes, my attention is currently on the trailer. When that&#39;s done,
+    I&#39;ll wrap up and publish
+    <a href="https://www.youtube.com/watch?v=-FgAHiI3ZNY">Torn Leaf Zero</a>.
+    And when that&#39;s done, I&#39;ll get back to the video and finish it for
+    real. The Top 99 Ways To Make Sand.
+  </p>
+  <p>
+    <strong
+      >Thank you very much, reader, for your support. I can&#39;t do any of this
+      without you, so I&#39;m pleased that you&#39;re here, whether you&#39;re
+      new, or you&#39;ve been around for a long time... whatever you&#39;re
+      doing... wherever you are in the world... I hope you have a great
+      week.</strong
+    >
+    🐸
+  </p>
+
+  <em>Days since tode fell asleep: </em><br />
+  <em>Days since bot went missing: </em><br />
+  <em>Days since berd flew away: </em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+</details>
