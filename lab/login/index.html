@@ -260,7 +260,9 @@
       const span = document.createElement("span");
       span.textContent = entry.status;
       span.style.maxHeight = "90px";
-      span.style.overflow = "auto";
+      span.style.overflowY = "auto";
+      // should wrap long words
+      span.style.wordWrap = "break-word";
       span.style.display = "block";
       p.appendChild(span);
       if (
