@@ -123,7 +123,6 @@
         if (json.error) {
           alert(json.error);
         } else {
-          alert("Account deleted");
           location.reload();
         }
       });
@@ -229,6 +228,44 @@
       span.style.overflow = "auto";
       span.style.display = "block";
       p.appendChild(span);
+      if (
+        document.querySelector("#username")?.value === "TodePond" ||
+        document.querySelector("h1").textContent === "Welcome back, TodePond!"
+      ) {
+        const banButton = document.createElement("button");
+        banButton.className = "danger";
+        banButton.textContent = "Ban";
+        banButton.addEventListener("click", async () => {
+          const confirmBan = confirm(
+            `Are you sure you want to ban ${entry.username}?`
+          );
+          if (!confirmBan) {
+            return;
+          }
+          loadingFeed.style.display = "block";
+          const username = usernameInput.value;
+          const password = passwordInput.value;
+          const response = await fetch(
+            "https://todepond-labloginbanuser.web.val.run",
+            {
+              method: "POST",
+              body: JSON.stringify({
+                username: entry.username,
+                password,
+                admin: username,
+              }),
+            }
+          );
+          const json = await response.json();
+          if (json.error) {
+            alert(json.error);
+          } else {
+            await pullUserStatuses();
+            loadingFeed.style.display = "none";
+          }
+        });
+        p.appendChild(banButton);
+      }
       main.appendChild(p);
     }
   }
