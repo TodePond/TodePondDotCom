@@ -1,0 +1,240 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Login</h1>
+
+<header>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" />
+  <br /><br />
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" />
+  <br /><br />
+  <button type="submit" class="primary">Login</button>
+</header>
+
+<style>
+  /* spinning animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #loading-feed {
+    animation: spin 1s linear infinite;
+  }
+</style>
+
+<h2>Feed</h2>
+<span
+  id="loading-feed"
+  style="position: fixed; top: 10px; left: 10px"
+  class="secondary"
+  >⏳</span
+>
+<main></main>
+
+<script type="module">
+  const loadingFeed = document.querySelector("#loading-feed");
+  const usernameInput = document.querySelector("#username");
+  const passwordInput = document.querySelector("#password");
+  const submitButton = document.querySelector("button");
+
+  usernameInput.value = localStorage.getItem("labLoginUsername") ?? "";
+  passwordInput.value = localStorage.getItem("labLoginPassword") ?? "";
+
+  async function handleSubmit() {
+    if (submitButton.disabled) {
+      return;
+    }
+    const username = usernameInput.value;
+    const password = passwordInput.value;
+
+    localStorage.setItem("labLoginUsername", username);
+    localStorage.setItem("labLoginPassword", password);
+
+    if (!username || !password) {
+      alert("Please fill in both fields");
+      return;
+    }
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Logging in...";
+
+    loadingFeed.style.display = "block";
+    const response = await fetch("https://todepond-lablogin.web.val.run", {
+      method: "POST",
+      body: JSON.stringify({ username, password }),
+    });
+
+    const json = await response.json();
+
+    if (json.error) {
+      submitButton.disabled = false;
+      submitButton.textContent = "Login";
+      alert(json.error);
+    } else {
+      const header = document.querySelector("header");
+      const h1 = document.querySelector("h1");
+      h1.textContent = `Welcome back, ${username}!`;
+      header.innerHTML = `
+        <label>Status</label>
+        <input type="text" id="status" name="status" />
+        <button id="update-status" class="primary">Update status</button>
+        <br /><br />
+        <button onclick="location.reload()" class="">Logout</button>
+        <button id="delete-account" class="danger">Delete account</button>
+      `;
+      const deleteAccountButton = document.querySelector("#delete-account");
+      deleteAccountButton.addEventListener("click", async () => {
+        const confirmDelete = confirm(
+          "Are you sure you want to delete your account?"
+        );
+        if (!confirmDelete) {
+          return;
+        }
+        loadingFeed.style.display = "block";
+        const response = await fetch(
+          "https://todepond-lablogindeleteaccount.web.val.run",
+          {
+            method: "POST",
+            body: JSON.stringify({ username, password }),
+          }
+        );
+        const json = await response.json();
+        loadingFeed.style.display = "none";
+        if (json.error) {
+          alert(json.error);
+        } else {
+          alert("Account deleted");
+          location.reload();
+        }
+      });
+      const statusInput = document.querySelector("#status");
+      statusInput.value = json[3];
+      const updateStatusButton = document.querySelector("#update-status");
+      updateStatusButton.addEventListener("click", () =>
+        handleUpdateStatus({ username, password })
+      );
+      statusInput.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          handleUpdateStatus({ username, password });
+        }
+      });
+    }
+
+    await pullUserStatuses();
+    loadingFeed.style.display = "none";
+  }
+
+  async function handleUpdateStatus({ username, password }) {
+    const button = document.querySelector("#update-status");
+    if (button.disabled) {
+      return;
+    }
+    button.disabled = true;
+    loadingFeed.style.display = "block";
+    // button.textContent = "Updating status...";
+    const statusInput = document.querySelector("#status");
+    const status = statusInput.value;
+    if (!status) {
+      alert("Please fill in the status field");
+      return;
+    }
+
+    const response = await fetch(
+      "https://todepond-labloginupdatestatus.web.val.run",
+      {
+        method: "POST",
+        body: JSON.stringify({ status, username, password }),
+      }
+    );
+
+    if (response.error) {
+      button.disabled = false;
+      button.textContent = "Update status";
+      alert(response.error);
+      return;
+    }
+
+    button.disabled = false;
+    button.textContent = "Update status";
+    loadingFeed.style.display = "block";
+    await pullUserStatuses();
+    loadingFeed.style.display = "none";
+  }
+
+  function handleInputKeyDown(event) {
+    if (event.key === "Enter") {
+      handleSubmit();
+    }
+  }
+
+  submitButton.addEventListener("click", handleSubmit);
+  usernameInput.addEventListener("keydown", handleInputKeyDown);
+  passwordInput.addEventListener("keydown", handleInputKeyDown);
+
+  async function pullUserStatuses() {
+    // https://todepond-lablogingetusers.web.val.run
+    const response = await fetch(
+      "https://todepond-lablogingetusers.web.val.run"
+    );
+
+    const entries = [];
+
+    const json = await response.json();
+    for (const user of json) {
+      const [status, username, timestamp] = user;
+      entries.push({ status, username, timestamp: new Date(timestamp) });
+    }
+
+    const sortedEntries = entries.sort((a, b) => b.timestamp - a.timestamp);
+
+    renderUserStatuses(sortedEntries);
+
+    localStorage.setItem("labLoginUserStatuses", JSON.stringify(sortedEntries));
+  }
+
+  function renderUserStatuses(entries) {
+    const main = document.querySelector("main");
+    main.innerHTML = "";
+    for (const entry of entries) {
+      const p = document.createElement("p");
+      p.id = "status-" + entry.username;
+      const strong = document.createElement("strong");
+      strong.textContent = entry.username;
+      p.appendChild(strong);
+      const br = document.createElement("br");
+      p.appendChild(br);
+      const span = document.createElement("span");
+      span.textContent = entry.status;
+      span.style.maxHeight = "90px";
+      span.style.overflow = "auto";
+      span.style.display = "block";
+      p.appendChild(span);
+      main.appendChild(p);
+    }
+  }
+
+  const localStatuses = localStorage.getItem("labLoginUserStatuses") ?? "[]";
+  renderUserStatuses(JSON.parse(localStatuses));
+  await pullUserStatuses();
+  loadingFeed.style.display = "none";
+</script>
