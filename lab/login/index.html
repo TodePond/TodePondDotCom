@@ -64,6 +64,9 @@
     if (submitButton.disabled) {
       return;
     }
+
+    usernameInput.value = usernameInput.value.trim();
+
     const username = usernameInput.value;
     const password = passwordInput.value;
 
