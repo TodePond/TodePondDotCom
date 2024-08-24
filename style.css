@@ -171,6 +171,16 @@ a.danger:hover {
   outline: 2px solid #ff4346;
 }
 
+a.warning {
+  color: #ffff46;
+}
+
+a.warning:hover {
+  color: black;
+  background-color: #ffff46;
+  outline: 2px solid #ffff46;
+}
+
 a.tertiary {
   color: #9faeee;
 }
@@ -281,6 +291,12 @@ p.danger {
   color: #ff7275;
 }
 
+label.warning,
+span.warning,
+p.warning {
+  color: #ffff46;
+}
+
 blockquote {
   color: #9faeee;
   margin: 0px;
@@ -385,6 +401,11 @@ button.danger {
 button.primary {
   background-color: #4680ff;
   color: white;
+}
+
+button.warning {
+  background-color: #ffff46;
+  color: black;
 }
 
 pre {

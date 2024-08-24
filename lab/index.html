@@ -95,15 +95,25 @@
     "code",
     "performance",
     "browsing",
+    "hosting",
+    "video",
+    "money",
   ]);
 
-  const COLOURS = /** @type {const} */ (["primary", "secondary", "danger"]);
+  const COLOURS = /** @type {const} */ ([
+    "primary",
+    "secondary",
+    "danger",
+    "warning",
+    "tertiary",
+  ]);
 
   /**
    * @typedef {{
    * 	path: string;
    * 	topics: TOPICS[number][];
    *  colour?: COLOURS[number];
+   *  name?: string;
    * }} Experiment
    **/
 
@@ -268,6 +278,17 @@
       name: "Pronouns",
     },
     {
+      path: "video",
+      colour: "primary",
+      topics: ["video", "interface", "syncronisation", "hosting"],
+    },
+    {
+      path: "/pay",
+      name: "Pay",
+      colour: "warning",
+      topics: ["money"],
+    },
+    {
       path: "https://drawdeadfish.com",
       name: "Fish",
       topics: [
@@ -307,6 +328,10 @@
         borderColour = "#4699ff";
       } else if (colour === "danger") {
         borderColour = "#ff4346";
+      } else if (colour === "warning") {
+        borderColour = "#ffff46";
+      } else if (colour === "tertiary") {
+        borderColour = "#9faeee";
       }
       a.style.border = "3px solid " + borderColour;
       a.style.padding = "5px";
