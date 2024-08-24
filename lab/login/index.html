@@ -251,6 +251,9 @@
       p.id = "status-" + entry.username;
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
+      if (entry.username === "TodePond") {
+        strong.style.color = "var(--green)";
+      }
       p.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
