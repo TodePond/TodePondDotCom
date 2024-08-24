@@ -198,6 +198,11 @@
   let refreshTimeout;
   let secondsLeft = 9;
   async function pullUserStatuses() {
+    refreshSign.textContent = "Refreshing...";
+    secondsLeft = 9;
+    if (refreshTimeout !== undefined) {
+      clearTimeout(refreshTimeout);
+    }
     // https://todepond-lablogingetusers.web.val.run
     const response = await fetch(
       "https://todepond-lablogingetusers.web.val.run"
@@ -218,9 +223,7 @@
     localStorage.setItem("labLoginUserStatuses", JSON.stringify(sortedEntries));
 
     refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
-    if (refreshTimeout !== undefined) {
-      clearTimeout(refreshTimeout);
-    }
+
     refreshTimeout = setTimeout(handleTimer, 1000);
   }
 
@@ -228,7 +231,6 @@
     secondsLeft--;
     if (secondsLeft === 0) {
       secondsLeft = 9;
-      refreshSign.textContent = "Refreshing...";
       await pullUserStatuses();
       return;
     }
