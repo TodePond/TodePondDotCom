@@ -49,9 +49,11 @@
   class="secondary"
   >⏳</span
 >
+<span id="refresh-sign" class="secondary">Refreshing...</span>
 <main></main>
 
 <script type="module">
+  const refreshSign = document.querySelector("#refresh-sign");
   const loadingFeed = document.querySelector("#loading-feed");
   const usernameInput = document.querySelector("#username");
   const passwordInput = document.querySelector("#password");
@@ -193,6 +195,8 @@
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
 
+  let refreshTimeout;
+  let secondsLeft = 9;
   async function pullUserStatuses() {
     // https://todepond-lablogingetusers.web.val.run
     const response = await fetch(
@@ -212,6 +216,29 @@
     renderUserStatuses(sortedEntries);
 
     localStorage.setItem("labLoginUserStatuses", JSON.stringify(sortedEntries));
+
+    refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+    if (refreshTimeout !== undefined) {
+      clearTimeout(refreshTimeout);
+    }
+    refreshTimeout = setTimeout(handleTimer, 1000);
+  }
+
+  async function handleTimer() {
+    secondsLeft--;
+    if (secondsLeft === 0) {
+      secondsLeft = 9;
+      refreshSign.textContent = "Refreshing...";
+      await pullUserStatuses();
+      return;
+    }
+
+    refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+    if (refreshTimeout !== undefined) {
+      clearTimeout(refreshTimeout);
+    }
+
+    refreshTimeout = setTimeout(handleTimer, 1000);
   }
 
   function renderUserStatuses(entries) {
