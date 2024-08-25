@@ -87,19 +87,18 @@
 }
 
 .name-lord.cat::after {
-  content: "Blåhaj Collector";
-  border: linear-gradient(to right, #a4a5ed, #a4d8ed 100%);
-  color: linear-gradient(to right, #a4a5ed, #a4d8ed 100%);
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  position: relative;
-  top: -0.25em;
-  font-weight: normal;
-  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
-  background-clip: text, border;
+  content: "Blåhaj Collector";
+  border: solid;
+  border-image: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  position: relative;
+  top: -0.25em;
+  font-weight: normal;
+  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+  background-clip: text;
 }
-
 .name-Svenlaa {
   background: linear-gradient(to right, var(--yellow), var(--green) 200%);
   -webkit-text-fill-color: transparent;
