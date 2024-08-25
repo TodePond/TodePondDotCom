@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
 @import url('https://fonts.cdnfonts.com/css/restless-soul-bb');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 
 #status-UsrBinAnnika {
   transform: rotate(-0.5deg);
@@ -7,10 +9,15 @@
 
 #user-Rosy {
   color: var(--red);
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
-#status-Rosy {
-  font-family: 'JetBrains Mono', sans-serif;
+
+#user-lord\ cat {
+  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'UnifrakturMaguntia';
+  font-size: 20px;
 }
 
 #user-hivemind {
@@ -36,4 +43,18 @@
   position: relative;
   top: -3px;
   font-weight: normal;
+}
+
+#user-PodeTond\ \💚 {
+  background: linear-gradient(
+    to right,
+    #eaacb8 20%,
+    #7acbf5 80%,
+    var(--green) 80%,
+    var(--green) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block; /* so it doesnt cut the heart */
+  font-family: "JetBrains Mono", sans-serif;
 }
