@@ -114,10 +114,6 @@
   top: -2px; /* todepond's admin badge is -3px ... but presumably some of our flexbox messing around bumped us a pixel up */
   font-weight: normal;
 
-  -webkit-animation: minion-badgeSwish 2s ease-in-out infinite;
-  -moz-animation: minion-badgeSwish 2s ease-in-out infinite;
-  animation: minion-badgeSwish 2s ease-in-out infinite;
-
   background-image: linear-gradient(120deg,transparent 30%, rgba(255,200,150,0.5) 34%, transparent 60%);
   background-size: 50px;
   background-repeat: no-repeat;
@@ -127,6 +123,14 @@
   order: 2; /* the "true ordering" of the elements is [badge] [name] [post content], but we want to display as [name] [badge] [post content] */
 
   color: var(--minion-red); /* as this isn't a true ::after of the name, we won't inherit its color... */
+}
+
+@media ( prefers-reduced-motion: no-preference ) {
+  .post-minion::before {
+    -webkit-animation: minion-badgeSwish 2s ease-in-out infinite;
+    -moz-animation: minion-badgeSwish 2s ease-in-out infinite;
+    animation: minion-badgeSwish 2s ease-in-out infinite;
+  }
 }
 
 .post-minion, .name-minion {
