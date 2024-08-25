@@ -478,7 +478,7 @@
 
       if (character === "@") {
         let found = false;
-        const snippet = markdown.slice(i + 1).split(/\s|\*|_/)[0];
+        const snippet = markdown.slice(i + 1).split(/\s|\*|_|'|"/)[0];
         // first test out all the non-space names
         let result = "";
         let foundName = "";
@@ -499,7 +499,9 @@
             greedySnippet.startsWith(name + " ") ||
             greedySnippet === name ||
             greedySnippet.startsWith(name + "*") ||
-            greedySnippet.startsWith(name + "_")
+            greedySnippet.startsWith(name + "_") ||
+            greedySnippet.startsWith(name + "'") ||
+            greedySnippet.startsWith(name + '"')
           ) {
             result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
             // i += name.length + 1;
