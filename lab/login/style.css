@@ -62,3 +62,8 @@
   display: inline-block; /* so it doesnt cut the heart */
   font-family: "JetBrains Mono", sans-serif;
 }
+
+.name-R74n {
+  color: #00ffff;
+  cursor: wait;
+}
