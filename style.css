@@ -446,3 +446,7 @@ select {
   padding: 5px;
   font-size: 1em;
 }
+
+#status-UsrBinAnnika > span {
+  transform: rotate(-0.5deg);
+}
