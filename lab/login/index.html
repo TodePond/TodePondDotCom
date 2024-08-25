@@ -104,7 +104,13 @@
     } else {
       const header = document.querySelector("header");
       const h1 = document.querySelector("h1");
-      h1.textContent = `Welcome back, ${username}!`;
+      h1.textContent = `Welcome back, `;
+      const namey = document.createElement("span");
+      // <span class="name-${username}">${username}</span>!`;
+      namey.textContent = username;
+      namey.className = `name-${username}`;
+      h1.appendChild(namey);
+      h1.append("!");
       header.innerHTML = `
         <label>Status</label>
         <input type="text" id="status" name="status" autocomplete="off" />
@@ -283,9 +289,10 @@
       if (!status) {
         break;
       }
-      status.id = "loot-" + entry.username;
+      status.className = "post-" + entry.username;
+      status.classList.add("status");
       const strong = status.querySelector("strong");
-      strong.id = "user-" + entry.username;
+      strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
 
       const span = status.querySelector("span");
@@ -315,16 +322,16 @@
     while (e < entries.length) {
       const entry = entries[e];
       const p = document.createElement("p");
-      p.id = "loot-" + entry.username;
+      p.className = "post-" + entry.username;
       p.classList.add("status");
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
-      strong.id = "user-" + entry.username;
+      strong.className = "name-" + entry.username;
       p.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");
-      span.id = "status-" + entry.username;
+      span.className = "status-" + entry.username;
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.style.maxHeight = "90px";
       span.style.overflowY = "auto";
