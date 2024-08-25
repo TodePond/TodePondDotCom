@@ -479,7 +479,7 @@
         let found = false;
         for (const name of nameSet) {
           if (markdown.slice(i + 1).startsWith(name)) {
-            html += `<a href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
+            html += `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
             i += name.length + 1;
             found = true;
             break;
@@ -592,4 +592,16 @@
       );
     });
   }
+
+  addEventListener("pointerdown", (event) => {
+    // clear anchor from url, eg: #post-TodePond
+    // but don't navigate or anything.
+    window.history.replaceState({}, "", "/lab/login/");
+
+    document.body.classList.add("untarget");
+  });
+
+  window.targetyo = () => {
+    document.body.classList.remove("untarget");
+  };
 </script>

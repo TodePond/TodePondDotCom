@@ -17,6 +17,10 @@
   -webkit-text-fill-color: unset;
 }
 
+.untarget :target {
+  outline-color: transparent;
+}
+
 .name-UsrBinAnnika {
   transform: rotate(-0.5deg);
 }
