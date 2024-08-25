@@ -9,6 +9,10 @@ html {
   background-color: black;
 }
 
+body {
+  /* overscroll-behavior-y: none; */
+}
+
 :root {
   --green: rgb(60, 255, 138);
   --cyan: rgb(80, 204, 255);
@@ -84,6 +88,7 @@ html {
     rgb(31, 39, 54) 25%,
     black 50%
   );
+  background-color: black;
   background-size: 300% 200%;
 }
 
