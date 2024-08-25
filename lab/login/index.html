@@ -463,6 +463,17 @@
       i++;
     }
 
+    // cleanup
+    if (bolding) {
+      html += "</strong>";
+    }
+    if (emphasisingAsterisk) {
+      html += "</em>";
+    }
+    if (emphasisingUnderscore) {
+      html += "</em>";
+    }
+
     return html;
   }
 
