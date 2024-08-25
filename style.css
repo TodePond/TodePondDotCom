@@ -76,8 +76,8 @@
 code {
   background-color: var(--grey);
   font-size: 16px;
-  padding: 0px 3px;
-  margin: -3px;
+  padding: 0px 2px;
+  margin: 0px;
 }
 
 * {
