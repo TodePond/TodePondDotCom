@@ -101,6 +101,23 @@
 }
 
 
+@media (prefers-reduced-motion: no-preference) {
+  .name-El {
+    animation: 30s linear 0s infinite alternate el-color-shift;
+  }
+}
+@keyframes el-color-shift {
+	0% {
+		color: lch(90% 90.0 209.20);
+	}
+  50% {
+    color: lch(90% 90.0 431.40);
+  }
+	100% {
+		color: lch(90% 90.0 368.70);
+	}
+}
+
 .name-sofia {
     letter-spacing: .5em;
     color: transparent;
