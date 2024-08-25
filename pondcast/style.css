@@ -5,6 +5,10 @@
   accent-color: #4680ff;
 }
 
+html {
+  background-color: black;
+}
+
 :root {
   --green: rgb(60, 255, 138);
   --cyan: rgb(80, 204, 255);
@@ -36,6 +40,15 @@
     rgb(31, 39, 54),
     black /* var(--green), */ /* var(--cyan), */ /* var(--light-blue), */
       /* var(--green) */
+  );
+
+  --real-rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--green)
   );
 
   --shade-0: rgb(6, 7, 10);
@@ -121,15 +134,16 @@ a.anchor:hover {
 a {
   /* color: var(--shade-3);
   background-color: white; */
-  color: white;
-  background-color: var(--shade-3);
-  text-decoration: none;
+  /* color: white;
+  background-color: var(--shade-3); */
+  /* text-decoration: none; */
   /* outline: 1px solid var(--shade-3); */
   position: relative;
-  padding: 2px 2px;
+  /* padding: 2px 2px; */
   margin-right: 0px;
   cursor: pointer;
   font-style: normal;
+  color: var(--green);
 }
 
 a::selection {
@@ -186,8 +200,8 @@ a:hover {
   /* color: white; */
   /* background-color: var(--shade-3); */
   color: var(--shade-3);
-  background-color: white;
-  outline: 2px solid white;
+  background-color: var(--green);
+  outline: 2px solid var(--green);
   z-index: 10000;
 }
 
@@ -346,13 +360,14 @@ blockquote {
   /* color: var(--shade-6); */
   margin: 0px;
   padding-left: 23px;
-  border-left: 1px var(--shade-6) solid;
+  border-left: 1px var(--shade-9) solid;
 }
 
 hr {
   border: none;
   height: 1px;
-  background-color: var(--shade-3);
+  background-color: var(--shade-9);
+  /* bac */
 }
 
 h1,
