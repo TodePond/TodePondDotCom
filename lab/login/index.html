@@ -16,14 +16,17 @@
 
 <h1>Login</h1>
 
-<p>Some people were trying to break/exploit this too much so I've shut it down. They ruined it for everyone.</p>
+<p>
+  Some people were trying to break/exploit this too much so I've shut it down.
+  They ruined it for everyone.
+</p>
 
 <header>
   <label for="username">Public username</label>
-  <input type="text" id="username" name="username" />
+  <input type="text" id="username" name="username" autocomplete="off" />
   <br /><br />
   <label for="password">Password</label>
-  <input type="password" id="password" name="password" />
+  <input type="password" id="password" name="password" autocomplete="off" />
   <br /><br />
   <button type="submit" class="primary">Login</button>
 </header>
@@ -103,7 +106,7 @@
       h1.textContent = `Welcome back, ${username}!`;
       header.innerHTML = `
         <label>Status</label>
-        <input type="text" id="status" name="status" />
+        <input type="text" id="status" name="status" autocomplete="off" />
         <button id="update-status" class="primary">Update status</button>
         <br /><br />
         <button onclick="location.reload()" class="">Logout</button>
@@ -271,42 +274,59 @@
         document.querySelector("#username")?.value === "TodePond" ||
         document.querySelector("h1").textContent === "Welcome back, TodePond!"
       ) {
-        const banButton = document.createElement("button");
-        banButton.className = "danger";
-        banButton.textContent = "Ban";
-        banButton.addEventListener("click", async () => {
-          const confirmBan = confirm(
-            `Are you sure you want to ban ${entry.username}?`
-          );
-          if (!confirmBan) {
-            return;
-          }
-          loadingFeed.style.display = "block";
-          const username = usernameInput.value;
-          const password = passwordInput.value;
-          const response = await fetch(
-            "https://todepond-labloginbanuser.web.val.run",
-            {
-              method: "POST",
-              body: JSON.stringify({
-                username: entry.username,
-                password,
-                admin: username,
-              }),
-            }
-          );
-          const json = await response.json();
-          if (json.error) {
-            alert(json.error);
-          } else {
-            await pullUserStatuses();
-            loadingFeed.style.display = "none";
-          }
-        });
-        p.appendChild(banButton);
+        const kickNameButton = document.createElement("button");
+        // banButton.className = "danger";
+        kickNameButton.textContent = "Kick name";
+        kickNameButton.addEventListener("click", () =>
+          handleModeration({
+            username: entry.username,
+            password: passwordInput.value,
+            admin: usernameInput.value,
+            type: "kick",
+            target: "name",
+          })
+        );
+        const kickStatusButton = document.createElement("button");
+        // banButton.className = "danger";
+        kickStatusButton.textContent = "Kick status";
+        kickStatusButton.addEventListener("click", () =>
+          handleModeration({
+            username: entry.username,
+            password: passwordInput.value,
+            admin: usernameInput.value,
+            type: "kick",
+            target: "status",
+          })
+        );
+        p.appendChild(kickNameButton);
+        p.appendChild(kickStatusButton);
       }
       main.appendChild(p);
     }
+  }
+
+  function handleModeration({ username, password, admin, type, target }) {
+    const confirmBan = confirm(
+      `Are you sure you want to ${type} ${username}'s ${target}? This action is irreversible.`
+    );
+    if (!confirmBan) {
+      return;
+    }
+
+    loadingFeed.style.display = "block";
+    fetch("https://todepond-labloginbanuser.web.val.run", {
+      method: "POST",
+      body: JSON.stringify({ username, password, admin, type, target }),
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        loadingFeed.style.display = "none";
+        if (json.error) {
+          alert(json.error);
+        } else {
+          pullUserStatuses();
+        }
+      });
   }
 
   const localStatuses = localStorage.getItem("labLoginUserStatuses") ?? "[]";
