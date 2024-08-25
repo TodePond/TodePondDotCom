@@ -134,6 +134,83 @@
   -webkit-text-fill-color: unset;
 }
 
+/* begin styling for user "minion" */
+.post-minion {
+    display: flex; /* needed so we can have a badge as well as an :after on the name */
+    flex-wrap: wrap; /* in flexbox, brs do not work, so instead we wrap the flex */
+}
+
+.post-minion::before {
+  content: "NOT ADMIN";
+  border: 1px solid var(--minion-red);
+  padding: 1px 2px;
+  margin: 4px;
+  font-size: 10px;
+  position: relative;
+  top: -2px; /* todepond's admin badge is -3px ... but presumably some of our flexbox messing around bumped us a pixel up */
+  font-weight: normal;
+
+  background-image: linear-gradient(120deg,transparent 30%, rgba(255,200,150,0.5) 34%, transparent 60%);
+  background-size: 50px;
+  background-repeat: no-repeat;
+
+  background-position: 200%;
+
+  order: 2; /* the "true ordering" of the elements is [badge] [name] [post content], but we want to display as [name] [badge] [post content] */
+
+  color: var(--minion-red); /* as this isn't a true ::after of the name, we won't inherit its color... */
+}
+
+@media ( prefers-reduced-motion: no-preference ) {
+  .post-minion::before {
+    -webkit-animation: minion-badgeSwish 2s ease-in-out infinite;
+    -moz-animation: minion-badgeSwish 2s ease-in-out infinite;
+    animation: minion-badgeSwish 2s ease-in-out infinite;
+  }
+}
+
+.post-minion, .name-minion {
+  --minion-red: #f27878;
+}
+
+.name-minion {
+  color: var(--minion-red);
+}
+
+.name-minion::before {
+  content: "✨";
+  font-size: 0.5em;
+}
+
+
+.name-minion::after {
+  content: "✨";
+  font-size: 0.5em;
+  vertical-align: top;
+  padding-top: 0.1em;
+  display: inline-block;
+}
+
+.post-minion #status-minion {
+  order: 3;
+  flex-basis: 100%; /* this ensures the post content will end up on a different line in the flex */
+}
+
+
+@-webkit-keyframes minion-badgeSwish {
+  0%{background-position:100px}
+  100%{background-position:-50px}
+}
+@-moz-keyframes minion-badgeSwish {
+  0%{background-position:100px}
+  100%{background-position:-50px}
+}
+@keyframes minion-badgeSwish {
+  0%{background-position:100px}
+  100%{background-position:-50px}
+}
+/* end styling for user "minion". I am so sorry for the cursed-ness. */
+
 .name-R74n {
   color: #00ffff;
 }
