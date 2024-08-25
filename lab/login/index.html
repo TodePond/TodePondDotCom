@@ -273,7 +273,7 @@
       }
 
       const span = status.querySelector("span");
-      span.textContent = entry.status;
+      span.innerHTML = getHtmlFromMarkdown(entry.status);
 
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
@@ -306,7 +306,7 @@
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");
-      span.textContent = entry.status;
+      span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.style.maxHeight = "90px";
       span.style.overflowY = "auto";
       // should wrap long words
@@ -393,6 +393,77 @@
           pullUserStatuses();
         }
       });
+  }
+
+  function getHtmlFromMarkdown(markdown) {
+    let html = "";
+    let i = 0;
+
+    markdown = markdown
+      .replaceAll("<", "")
+      .replaceAll(">", "")
+      .replaceAll("&", "");
+
+    let emphasisingAsterisk = false;
+    let emphasisingUnderscore = false;
+    let bolding = false;
+    let linking = false;
+    let linkTitling = false;
+    let linkTitle = "";
+    let linkPathing = false;
+    let linkPath = "";
+
+    while (i < markdown.length) {
+      const character = markdown[i];
+      const nextCharacter = markdown[i + 1];
+      const nextTwoCharacters = markdown.slice(i, i + 2);
+
+      if (character === "\\") {
+        if (nextCharacter !== undefined) {
+          html += nextCharacter;
+        }
+        i += 2;
+        continue;
+      }
+
+      if (nextTwoCharacters === "**") {
+        if (bolding) {
+          html += "</strong>";
+        } else {
+          html += "<strong>";
+        }
+        bolding = !bolding;
+        i += 2;
+        continue;
+      }
+
+      if (character === "*") {
+        if (emphasisingAsterisk) {
+          html += "</em>";
+        } else {
+          html += "<em>";
+        }
+        emphasisingAsterisk = !emphasisingAsterisk;
+        i++;
+        continue;
+      }
+
+      if (character === "_") {
+        if (emphasisingUnderscore) {
+          html += "</em>";
+        } else {
+          html += "<em>";
+        }
+        emphasisingUnderscore = !emphasisingUnderscore;
+        i++;
+        continue;
+      }
+
+      html += character;
+      i++;
+    }
+
+    return html;
   }
 
   const localStatuses = localStorage.getItem("labLoginUserStatuses") ?? "[]";
