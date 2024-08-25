@@ -412,11 +412,31 @@
     let linkTitle = "";
     let linkPathing = false;
     let linkPath = "";
+    let coding = false;
 
     while (i < markdown.length) {
       const character = markdown[i];
       const nextCharacter = markdown[i + 1];
       const nextTwoCharacters = markdown.slice(i, i + 2);
+
+      if (coding) {
+        if (character === "`") {
+          coding = false;
+          html += "</code>";
+          i++;
+          continue;
+        }
+        html += character;
+        i++;
+        continue;
+      }
+
+      if (character === "`") {
+        coding = true;
+        html += "<code>";
+        i++;
+        continue;
+      }
 
       if (character === "\\") {
         if (nextCharacter !== undefined) {
@@ -472,6 +492,9 @@
     }
     if (emphasisingUnderscore) {
       html += "</em>";
+    }
+    if (coding) {
+      html += "</code>";
     }
 
     return html;

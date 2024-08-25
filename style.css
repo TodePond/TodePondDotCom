@@ -73,6 +73,13 @@
   --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
 }
 
+code {
+  background-color: var(--grey);
+  font-size: 16px;
+  padding: 0px 3px;
+  margin: -3px;
+}
+
 * {
   accent-color: #4680ff;
 }
