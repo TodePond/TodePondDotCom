@@ -245,10 +245,43 @@
 
   function renderUserStatuses(entries) {
     const main = document.querySelector("main");
-    main.innerHTML = "";
-    for (const entry of entries) {
+    const statuses = document.querySelectorAll(".status");
+    let s = 0;
+    let e = 0;
+
+    while (e < entries.length) {
+      const entry = entries[e];
+      const status = statuses[s];
+      if (!status) {
+        break;
+      }
+      status.id = "status-" + entry.username;
+      const strong = status.querySelector("strong");
+      strong.textContent = entry.username;
+      if (entry.username === "TodePond") {
+        strong.style.color = "var(--green)";
+      } else {
+        strong.style.color = "white";
+      }
+
+      const span = status.querySelector("span");
+      span.textContent = entry.status;
+      s++;
+      e++;
+    }
+
+    while (s < statuses.length) {
+      statuses[s].remove();
+      s++;
+    }
+
+    // main.innerHTML = "";
+
+    while (e < entries.length) {
+      const entry = entries[e];
       const p = document.createElement("p");
       p.id = "status-" + entry.username;
+      p.classList.add("status");
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
       if (entry.username === "TodePond") {
@@ -310,6 +343,7 @@
         p.appendChild(banNameButton);
       }
       main.appendChild(p);
+      e++;
     }
   }
 
