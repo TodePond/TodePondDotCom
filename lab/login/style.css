@@ -266,3 +266,6 @@
 .name-R74n {
   color: #00ffff;
 }
+.name-R74n::after {
+  content: " 🔒";
+}
