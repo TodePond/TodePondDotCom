@@ -492,7 +492,7 @@
         // but we should also test out the space names
         for (const name of nameSet) {
           const greedySnippet = markdown.slice(i + 1);
-          if (greedySnippet.startsWith(name + " ")) {
+          if (greedySnippet.startsWith(name + " ") || greedySnippet === name) {
             result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
             i += name.length + 1;
             found = true;
