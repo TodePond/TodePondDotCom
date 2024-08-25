@@ -62,3 +62,18 @@
   display: inline-block; /* so it doesnt cut the heart */
   font-family: "JetBrains Mono", sans-serif;
 }
+
+.name-El {
+  animation: 2s linear 0s infinite alternate el-color-shift;
+}
+@keyframes el-color-shift {
+	0% {
+		color: lch(90% 90.0 209.20);
+	}
+  50% {
+    color: lch(90% 90.0 431.40);
+  }
+	100% {
+		color: lch(90% 90.0 368.70);
+	}
+}
