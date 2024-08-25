@@ -249,6 +249,9 @@
     let s = 0;
     let e = 0;
 
+    const actionses = document.querySelectorAll(".actions");
+    actionses.forEach((v) => (v.innerHTML = ""));
+
     while (e < entries.length) {
       const entry = entries[e];
       const status = statuses[s];
@@ -266,6 +269,13 @@
 
       const span = status.querySelector("span");
       span.textContent = entry.status;
+
+      maybeAddActions({
+        actionsElement: status.querySelector(".actions"),
+        password: passwordInput.value,
+        admin: usernameInput.value,
+        entry,
+      });
       s++;
       e++;
     }
@@ -298,52 +308,61 @@
       span.style.wordWrap = "break-word";
       span.style.display = "block";
       p.appendChild(span);
-      if (
-        document.querySelector("#username")?.value === "TodePond" ||
-        document.querySelector("h1").textContent === "Welcome back, TodePond!"
-      ) {
-        const kickNameButton = document.createElement("button");
-        // banButton.className = "danger";
-        kickNameButton.textContent = "Kick name";
-        kickNameButton.addEventListener("click", () =>
-          handleModeration({
-            username: entry.username,
-            password: passwordInput.value,
-            admin: usernameInput.value,
-            type: "kick",
-            target: "name",
-          })
-        );
-        const kickStatusButton = document.createElement("button");
-        // banButton.className = "danger";
-        kickStatusButton.textContent = "Kick status";
-        kickStatusButton.addEventListener("click", () =>
-          handleModeration({
-            username: entry.username,
-            password: passwordInput.value,
-            admin: usernameInput.value,
-            type: "kick",
-            target: "status",
-          })
-        );
-        const banNameButton = document.createElement("button");
-        banNameButton.className = "danger";
-        banNameButton.textContent = "Ban name";
-        banNameButton.addEventListener("click", () =>
-          handleModeration({
-            username: entry.username,
-            password: passwordInput.value,
-            admin: usernameInput.value,
-            type: "ban",
-            target: "name",
-          })
-        );
-        p.appendChild(kickNameButton);
-        p.appendChild(kickStatusButton);
-        p.appendChild(banNameButton);
-      }
+      const div = document.createElement("div");
+      div.classList.add("actions");
+      maybeAddActions({
+        actionsElement: div,
+        password: passwordInput.value,
+        admin: usernameInput.value,
+        entry,
+      });
+      p.appendChild(div);
       main.appendChild(p);
       e++;
+    }
+  }
+
+  function maybeAddActions({ actionsElement, password, admin, entry }) {
+    if (admin === "TodePond") {
+      const kickNameButton = document.createElement("button");
+      // banButton.className = "danger";
+      kickNameButton.textContent = "Kick name";
+      kickNameButton.addEventListener("click", () =>
+        handleModeration({
+          username: entry.username,
+          password,
+          admin,
+          type: "kick",
+          target: "name",
+        })
+      );
+      const kickStatusButton = document.createElement("button");
+      // banButton.className = "danger";
+      kickStatusButton.textContent = "Kick status";
+      kickStatusButton.addEventListener("click", () =>
+        handleModeration({
+          username: entry.username,
+          password,
+          admin,
+          type: "kick",
+          target: "status",
+        })
+      );
+      const banNameButton = document.createElement("button");
+      banNameButton.className = "danger";
+      banNameButton.textContent = "Ban name";
+      banNameButton.addEventListener("click", () =>
+        handleModeration({
+          username: entry.username,
+          password,
+          admin,
+          type: "ban",
+          target: "name",
+        })
+      );
+      actionsElement.appendChild(kickNameButton);
+      actionsElement.appendChild(kickStatusButton);
+      actionsElement.appendChild(banNameButton);
     }
   }
 
