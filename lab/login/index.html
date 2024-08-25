@@ -112,6 +112,25 @@
         <button onclick="location.reload()" class="">Logout</button>
         <button id="delete-account" class="danger">Delete account</button>
       `;
+      if (username === "TodePond") {
+        header.innerHTML += `
+          <span style="float: right">
+            <label for="admin-toggle">Admin controls</label>
+            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+          </span>
+        `;
+        const adminToggleEnabled =
+          localStorage.getItem("labLoginAdmin") === "true";
+        const adminToggle = document.querySelector("#admin-toggle");
+        adminToggle.checked = adminToggleEnabled;
+        adminToggle.addEventListener("change", () => {
+          localStorage.setItem("labLoginAdmin", adminToggle.checked);
+          const actionses = document.querySelectorAll(".actions");
+          actionses.forEach(
+            (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+          );
+        });
+      }
       const deleteAccountButton = document.querySelector("#delete-account");
       deleteAccountButton.addEventListener("click", async () => {
         const confirmDelete = confirm(
@@ -281,6 +300,9 @@
         admin: usernameInput.value,
         entry,
       });
+      const actions = status.querySelector(".actions");
+      actions.style.display =
+        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
       s++;
       e++;
     }
@@ -321,6 +343,9 @@
         admin: usernameInput.value,
         entry,
       });
+
+      div.style.display =
+        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
       p.appendChild(div);
       main.appendChild(p);
       e++;
@@ -328,6 +353,7 @@
   }
 
   function maybeAddActions({ actionsElement, password, admin, entry }) {
+    const enabled = localStorage.getItem("labLoginAdmin") === "true";
     if (admin === "TodePond") {
       const kickNameButton = document.createElement("button");
       // banButton.className = "danger";
