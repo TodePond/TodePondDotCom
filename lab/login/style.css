@@ -18,3 +18,73 @@
   top: -3px;
   font-weight: normal;
 }
+
+@import url('https://fonts.cdnfonts.com/css/coolvetica-2');
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.cdnfonts.com/css/restless-soul-bb');
+
+/* meee */
+#user-PodeTond\ \💚 {
+    background: linear-gradient(to right, #eaacb8 20%, #7acbf5 80%, var(--green) 80%, var(--green) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block; /* so it doesnt cut the heart */
+    font-family: 'JetBrains Mono', sans-serif;
+}
+/* cool green thing */
+#user-Svenlaa {
+    background: linear-gradient(to right, var(--yellow), var(--green) 200%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'JetBrains Mono', sans-serif;}
+/* coolvetica is very cool indeed */
+#user-cathy_posts {font-family: 'Coolvetica', sans-serif;}
+/* couldn't decide on a color yet but the font is very fun */
+#user-Rosy {font-family: 'JetBrains Mono', sans-serif;}
+#user-Rosy span {font-family: 'JetBrains Mono', sans-serif;} 
+/* bouncy */
+#user-TodePond {
+    animation: bounce 0.5s infinite;
+}
+
+/* very fancy font and purple aswell */
+#user-lord\ cat {
+    background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'UnifrakturMaguntia';
+}
+/* very pretty lavender */
+#user-chloe {
+    background: linear-gradient(to right, #ca5cdd, #e8bcf0 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* miku miku oooeeeooo */
+#user-HatsuneMiku {
+    background: linear-gradient(to right, #87e5cf, #47c8c0 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* more vocaloids */
+#user-KagamineRin {
+    background: linear-gradient(to right, #ffd700, #fdfd96 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* i uhh borrowed this */
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02) translateX(6px);
+    }
+}
+
+#user-hivemind {
+    font-family:  'Restless Soul BB', sans-serif;
+}
