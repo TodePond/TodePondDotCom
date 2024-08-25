@@ -62,3 +62,11 @@
   display: inline-block; /* so it doesnt cut the heart */
   font-family: "JetBrains Mono", sans-serif;
 }
+
+.name-sofia {
+    letter-spacing: .5em;
+    color: transparent;
+    background: linear-gradient(to bottom, #fff 50%, #80ff00 100%);
+    background-clip: text;
+    text-shadow: 0 0 .125em #80ff0080;
+}
