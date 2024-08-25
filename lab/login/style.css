@@ -90,15 +90,15 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
-.name-R74n {
-  color: #00ffff;
-  cursor: wait;
-}
-
 .at-PodeTond.💚:hover {
   background-image: none;
   background-clip: unset;
   background-color: white;
   color: var(--shade-3);
   -webkit-text-fill-color: unset;
+}
+
+.name-R74n, .at-R74n {
+  color: #00ffff;
+  cursor: wait;
 }
