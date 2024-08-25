@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
+@import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
 
 #status-UsrBinAnnika {
   transform: rotate(-0.5deg);
@@ -6,10 +6,7 @@
 
 #user-Rosy {
   color: var(--red);
-  font-family: 'JetBrains Mono', sans-serif;
-}
-#status-Rosy {
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 #user-TodePond {
@@ -30,10 +27,15 @@
 }
 
 #user-PodeTond\ \💚 {
-    background: linear-gradient(to right, #eaacb8 20%, #7acbf5 80%, var(--green) 80%, var(--green) 100%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    display: inline-block; /* so it doesnt cut the heart */
-    font-family: 'JetBrains Mono', sans-serif;
+  background: linear-gradient(
+    to right,
+    #eaacb8 20%,
+    #7acbf5 80%,
+    var(--green) 80%,
+    var(--green) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block; /* so it doesnt cut the heart */
+  font-family: "JetBrains Mono", sans-serif;
 }
-
