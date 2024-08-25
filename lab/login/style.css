@@ -20,6 +20,13 @@
   font-size: 20px;
 }
 
+#user-Svenlaa {
+  background: linear-gradient(to right, var(--yellow), var(--green) 200%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "JetBrains Mono", sans-serif;
+}
+
 #user-hivemind {
   background: linear-gradient(180deg, rgb(248 22 22) 20%, rgb(200 66 36) 100%);
   -webkit-text-fill-color: transparent;
