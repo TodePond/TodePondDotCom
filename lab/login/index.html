@@ -530,4 +530,26 @@
   renderUserStatuses(JSON.parse(localStatuses));
   await pullUserStatuses();
   loadingFeed.style.display = "none";
+
+  const header = document.querySelector("header");
+  if (usernameInput.value === "TodePond") {
+    const spannn = document.createElement("span");
+    spannn.innerHTML = `
+          <span style="float: right">
+            <label for="admin-toggle">Admin controls</label>
+            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+          </span>
+        `;
+    header.appendChild(spannn);
+    const adminToggleEnabled = localStorage.getItem("labLoginAdmin") === "true";
+    const adminToggle = document.querySelector("#admin-toggle");
+    adminToggle.checked = adminToggleEnabled;
+    adminToggle.addEventListener("change", () => {
+      localStorage.setItem("labLoginAdmin", adminToggle.checked);
+      const actionses = document.querySelectorAll(".actions");
+      actionses.forEach(
+        (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+      );
+    });
+  }
 </script>
