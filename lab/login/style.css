@@ -67,6 +67,12 @@
   font-size: 1.2em;
 }
 
+.name-HatsuneMiku {
+  background: linear-gradient(to right, #87e5cf, #47c8c0 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .name-TodePond {
   color: var(--green);
 }
