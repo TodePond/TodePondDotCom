@@ -77,8 +77,8 @@
   padding: 0.1em 0.2em;
   margin: 0.35em;
   font-size: 0.6em;
-  position: relative;
   top: -0.25em;
+  position: relative;
   font-weight: normal;
 }
 
@@ -142,12 +142,11 @@
 .post-minion::before {
   content: "NOT ADMIN";
   border: 1px solid var(--minion-red);
-  padding: 1px 2px;
-  margin: 4px;
-  font-size: 10px;
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  top: -0.8em;
   position: relative;
-  top: -1px; /* todepond's admin badge is -3px ... but presumably some of our flexbox messing around bumped us a pixel up */
-  font-weight: normal;
 
   background-image: linear-gradient(
     120deg,
