@@ -1,13 +1,13 @@
 [
   {
-    "author": "Elliot Evans",
-    "title": "Noisy office",
-    "path": "noisy-office.mp4"
-  },
-  {
     "author": "Ivan Reese",
     "title": "Normalise sharing scrappy needles",
     "path": "what-do-you-want.mp4"
+  },
+  {
+    "author": "Elliot Evans",
+    "title": "Noisy office",
+    "path": "noisy-office.mp4"
   },
   {
     "author": "Lu Wilson",
@@ -98,5 +98,10 @@
     "title": "Place I'd like to go",
     "author": "Lu Wilson",
     "path": "place-id-like-to-go.mp4"
+  },
+  {
+    "title": "Emotional blockers",
+    "author": "Kyle Beechly",
+    "path": "kyle.wav"
   }
 ]

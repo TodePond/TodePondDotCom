@@ -23,12 +23,23 @@
       const { title, author, path } = example;
       const url = `media/${path}`;
 
-      const element = `<section class="example"> 
-	<h2>${title}</h2>
-	<p>by ${author}</p>
-	<video controls src="${url}"></video>
-</section>`;
-      elements.push(element);
+      if (path.endsWith(".mp4")) {
+        const element = `
+          <section class="example"> 
+            <h2>${title}</h2>
+            <p>by ${author}</p>
+            <video controls src="${url}"></video>
+          </section>`;
+        elements.push(element);
+      } else if (path.endsWith(".wav")) {
+        const element = `
+          <section class="example"> 
+            <h2>${title}</h2>
+            <p>by ${author}</p>
+            <audio controls src="${url}"></audio>
+          </section>`;
+        elements.push(element);
+      }
     }
 
     const html = `<div class="examples">${elements.join("")}</div>`;
@@ -70,16 +81,19 @@
 
   shuffle();
 </script>
+
+<!-- PASTE BELOW HERE -->
+
 <div class="examples">
-  <section class="example">
-    <h2>Noisy office</h2>
-    <p>by Elliot Evans</p>
-    <video controls src="media/noisy-office.mp4"></video>
-  </section>
   <section class="example">
     <h2>Normalise sharing scrappy needles</h2>
     <p>by Ivan Reese</p>
     <video controls src="media/what-do-you-want.mp4"></video>
+  </section>
+  <section class="example">
+    <h2>Noisy office</h2>
+    <p>by Elliot Evans</p>
+    <video controls src="media/noisy-office.mp4"></video>
   </section>
   <section class="example">
     <h2>Talking to my beans</h2>
@@ -170,5 +184,10 @@
     <h2>Place I'd like to go</h2>
     <p>by Lu Wilson</p>
     <video controls src="media/place-id-like-to-go.mp4"></video>
+  </section>
+  <section class="example">
+    <h2>Emotional blockers</h2>
+    <p>by Kyle Beechly</p>
+    <audio controls src="media/kyle.wav"></audio>
   </section>
 </div>
