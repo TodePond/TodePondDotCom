@@ -4,4 +4,17 @@
 
 #user-TodePond {
   color: var(--green);
+  /* display: flex;
+  flex-direction: row; */
+}
+
+#user-TodePond::after {
+  content: "ADMIN";
+  border: 1px solid var(--green);
+  padding: 1px 2px;
+  margin: 4px;
+  font-size: 10px;
+  position: relative;
+  top: -3px;
+  font-weight: normal;
 }
