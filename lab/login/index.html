@@ -311,7 +311,7 @@
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
-      span.id = "status-" + entry.username;
+      span.className = "status-" + entry.username;
 
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
@@ -478,29 +478,39 @@
 
       if (character === "@") {
         let found = false;
-        const snippet = markdown.slice(i + 1).split(" ")[0];
+        const snippet = markdown.slice(i + 1).split(/\s|\*|_/)[0];
         // first test out all the non-space names
         let result = "";
+        let foundName = "";
         for (const name of nameSet) {
           if (snippet === name) {
             result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
-            i += name.length + 1;
+            // i += name.length + 1;
+            foundName = name;
             found = true;
             break;
           }
         }
+
         // but we should also test out the space names
         for (const name of nameSet) {
           const greedySnippet = markdown.slice(i + 1);
-          if (greedySnippet.startsWith(name + " ") || greedySnippet === name) {
+          if (
+            greedySnippet.startsWith(name + " ") ||
+            greedySnippet === name ||
+            greedySnippet.startsWith(name + "*") ||
+            greedySnippet.startsWith(name + "_")
+          ) {
             result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
-            i += name.length + 1;
+            // i += name.length + 1;
             found = true;
+            foundName = name;
             break;
           }
         }
         if (found) {
           html += result;
+          i += foundName.length + 1;
           continue;
         }
       }
