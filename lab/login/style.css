@@ -100,32 +100,31 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .name-El {
     animation: 30s linear 0s infinite alternate el-color-shift;
   }
 }
 @keyframes el-color-shift {
-	0% {
-		color: lch(90% 90.0 209.20);
-	}
-  50% {
-    color: lch(90% 90.0 431.40);
+  0% {
+    color: lch(90% 90 209.2);
   }
-	100% {
-		color: lch(90% 90.0 368.70);
-	}
+  50% {
+    color: lch(90% 90 431.4);
+  }
+  100% {
+    color: lch(90% 90 368.7);
+  }
 }
 
 .name-sofia {
-    letter-spacing: .5em;
-    color: transparent;
-    background: linear-gradient(to bottom, #fff 50%, #80ff00 100%);
-    background-clip: text;
-    text-shadow: 0 0 .125em #80ff0080;
+  letter-spacing: 0.5em;
+  color: transparent;
+  background: linear-gradient(to bottom, #fff 50%, #80ff00 100%);
+  background-clip: text;
+  text-shadow: 0 0 0.125em #80ff0080;
 }
-  
+
 .at-PodeTond.💚:hover {
   background-image: none;
   background-clip: unset;
@@ -136,8 +135,8 @@
 
 /* begin styling for user "minion" */
 .post-minion {
-    display: flex; /* needed so we can have a badge as well as an :after on the name */
-    flex-wrap: wrap; /* in flexbox, brs do not work, so instead we wrap the flex */
+  display: flex; /* needed so we can have a badge as well as an :after on the name */
+  flex-wrap: wrap; /* in flexbox, brs do not work, so instead we wrap the flex */
 }
 
 .post-minion::before {
@@ -150,7 +149,12 @@
   top: -2px; /* todepond's admin badge is -3px ... but presumably some of our flexbox messing around bumped us a pixel up */
   font-weight: normal;
 
-  background-image: linear-gradient(120deg,transparent 30%, rgba(255,200,150,0.5) 34%, transparent 60%);
+  background-image: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255, 200, 150, 0.5) 34%,
+    transparent 60%
+  );
   background-size: 50px;
   background-repeat: no-repeat;
 
@@ -158,18 +162,21 @@
 
   order: 2; /* the "true ordering" of the elements is [badge] [name] [post content], but we want to display as [name] [badge] [post content] */
 
-  color: var(--minion-red); /* as this isn't a true ::after of the name, we won't inherit its color... */
+  color: var(
+    --minion-red
+  ); /* as this isn't a true ::after of the name, we won't inherit its color... */
 }
 
-@media ( prefers-reduced-motion: no-preference ) {
+@media (prefers-reduced-motion: no-preference) {
   .post-minion::before {
-    -webkit-animation: minion-badgeSwish 2s ease-in-out infinite;
-    -moz-animation: minion-badgeSwish 2s ease-in-out infinite;
-    animation: minion-badgeSwish 2s ease-in-out infinite;
+    -webkit-animation: minion-badgeSwish 10s ease-in-out infinite;
+    -moz-animation: minion-badgeSwish 10s ease-in-out infinite;
+    animation: minion-badgeSwish 10s ease-in-out infinite;
   }
 }
 
-.post-minion, .name-minion {
+.post-minion,
+.name-minion {
   --minion-red: #f27878;
 }
 
@@ -181,7 +188,6 @@
   content: "✨";
   font-size: 0.5em;
 }
-
 
 .name-minion::after {
   content: "✨";
@@ -196,18 +202,29 @@
   flex-basis: 100%; /* this ensures the post content will end up on a different line in the flex */
 }
 
-
 @-webkit-keyframes minion-badgeSwish {
-  0%{background-position:100px}
-  100%{background-position:-50px}
+  0% {
+    background-position: 500px;
+  }
+  100% {
+    background-position: -50px;
+  }
 }
 @-moz-keyframes minion-badgeSwish {
-  0%{background-position:100px}
-  100%{background-position:-50px}
+  0% {
+    background-position: 500px;
+  }
+  100% {
+    background-position: -50px;
+  }
 }
 @keyframes minion-badgeSwish {
-  0%{background-position:100px}
-  100%{background-position:-50px}
+  0% {
+    background-position: 500px;
+  }
+  100% {
+    background-position: -50px;
+  }
 }
 /* end styling for user "minion". I am so sorry for the cursed-ness. */
 
