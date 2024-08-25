@@ -197,7 +197,7 @@
   display: inline-block;
 }
 
-.post-minion #status-minion {
+.post-minion .status-minion {
   order: 3;
   flex-basis: 100%; /* this ensures the post content will end up on a different line in the flex */
 }
