@@ -37,6 +37,11 @@
   font-weight: normal;
 }
 
+.name-UsrBinAnnika:hover::after {
+  border-color: var(--shade-3);
+  color: var(--shade-3);
+}
+
 .name-Rosy {
   color: var(--red);
   font-family: "JetBrains Mono", sans-serif;
