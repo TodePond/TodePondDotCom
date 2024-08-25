@@ -27,6 +27,12 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
+#user-HatsuSixty {
+  background: linear-gradient(to right, var(--pink), var(--purple) 200%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 #user-hivemind {
   background: linear-gradient(180deg, rgb(248 22 22) 20%, rgb(200 66 36) 100%);
   -webkit-text-fill-color: transparent;
