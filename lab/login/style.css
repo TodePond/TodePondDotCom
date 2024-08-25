@@ -96,6 +96,8 @@
   position: relative;
   top: -0.25em;
   font-weight: normal;
+  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+  background-clip: text, border;
 }
 
 .name-Svenlaa {
