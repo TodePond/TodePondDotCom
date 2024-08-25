@@ -17,6 +17,10 @@
   -webkit-text-fill-color: unset;
 }
 
+.untarget :target {
+  outline-color: transparent;
+}
+
 .name-UsrBinAnnika {
   transform: rotate(-0.5deg);
 }
@@ -47,6 +51,12 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-family: "JetBrains Mono", sans-serif;
+}
+
+.name-HatsuSixty {
+  background: linear-gradient(to right, var(--pink), var(--purple) 200%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .name-hivemind {
@@ -90,6 +100,7 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .name-El {
     animation: 30s linear 0s infinite alternate el-color-shift;
@@ -105,6 +116,14 @@
 	100% {
 		color: lch(90% 90.0 368.70);
 	}
+}
+
+.name-sofia {
+    letter-spacing: .5em;
+    color: transparent;
+    background: linear-gradient(to bottom, #fff 50%, #80ff00 100%);
+    background-clip: text;
+    text-shadow: 0 0 .125em #80ff0080;
 }
   
 .at-PodeTond.💚:hover {
