@@ -288,6 +288,7 @@
   }
 
   function renderUserStatuses(entries) {
+    const currentHash = window.location.hash;
     const main = document.querySelector("main");
     const statuses = document.querySelectorAll(".status");
     let s = 0;
@@ -368,6 +369,11 @@
       p.appendChild(div);
       main.appendChild(p);
       e++;
+    }
+
+    // return to hash
+    if (currentHash) {
+      window.location.hash = currentHash;
     }
   }
 
