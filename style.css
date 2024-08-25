@@ -446,13 +446,3 @@ select {
   padding: 5px;
   font-size: 1em;
 }
-
-/* login shenangens */
-
-#status-UsrBinAnnika {
-  transform: rotate(-0.5deg);
-}
-
-#user-TodePond {
-  color: var(--green);
-}
