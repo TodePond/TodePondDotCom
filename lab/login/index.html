@@ -226,6 +226,8 @@
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
 
+  let nameSet = new Set();
+
   let refreshTimeout;
   let secondsLeft = 9;
   async function pullUserStatuses() {
@@ -252,6 +254,16 @@
     renderUserStatuses(sortedEntries);
 
     localStorage.setItem("labLoginUserStatuses", JSON.stringify(sortedEntries));
+
+    const rawUsers = localStorage.getItem("labLoginUserStatuses") ?? "[]";
+    let users = [];
+    try {
+      users = JSON.parse(rawUsers);
+    } catch (e) {
+      users = [];
+    }
+    const usernames = users.map((v) => v.username);
+    nameSet = new Set(usernames);
 
     refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
 
@@ -292,6 +304,7 @@
       status.className = "post-" + entry.username;
       status.classList.add("status");
       const strong = status.querySelector("strong");
+      status.id = "post-" + entry.username;
       strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
 
@@ -327,6 +340,7 @@
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
       strong.className = "name-" + entry.username;
+      p.id = "post-" + entry.username;
       p.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
@@ -461,6 +475,35 @@
         continue;
       }
 
+      if (character === "@") {
+        let found = false;
+        const snippet = markdown.slice(i + 1).split(" ")[0];
+        // first test out all the non-space names
+        let result = "";
+        for (const name of nameSet) {
+          if (snippet === name) {
+            result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
+            i += name.length + 1;
+            found = true;
+            break;
+          }
+        }
+        // but we should also test out the space names
+        for (const name of nameSet) {
+          const greedySnippet = markdown.slice(i + 1);
+          if (greedySnippet.startsWith(name + " ")) {
+            result = `<a onclick="window.targetyo()" href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
+            i += name.length + 1;
+            found = true;
+            break;
+          }
+        }
+        if (found) {
+          html += result;
+          continue;
+        }
+      }
+
       if (character === "`") {
         coding = true;
         html += "<code>";
@@ -531,7 +574,14 @@
   }
 
   const localStatuses = localStorage.getItem("labLoginUserStatuses") ?? "[]";
-  renderUserStatuses(JSON.parse(localStatuses));
+  let parsedLocalStatuses = [];
+  try {
+    parsedLocalStatuses = JSON.parse(localStatuses);
+  } catch (e) {
+    parsedLocalStatuses = [];
+  }
+  nameSet = new Set(parsedLocalStatuses.map((v) => v.username));
+  renderUserStatuses(parsedLocalStatuses);
   await pullUserStatuses();
   loadingFeed.style.display = "none";
 
@@ -556,4 +606,16 @@
       );
     });
   }
+
+  addEventListener("pointerdown", (event) => {
+    // clear anchor from url, eg: #post-TodePond
+    // but don't navigate or anything.
+    window.history.replaceState({}, "", "/lab/login/");
+
+    document.body.classList.add("untarget");
+  });
+
+  window.targetyo = () => {
+    document.body.classList.remove("untarget");
+  };
 </script>

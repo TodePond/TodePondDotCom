@@ -2,6 +2,25 @@
 @import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
+.at {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.at:hover {
+  background-image: none;
+  background-color: white;
+  color: var(--shade-3);
+  outline-color: white;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+.untarget :target {
+  outline-color: transparent;
+}
+
 .name-UsrBinAnnika {
   transform: rotate(-0.5deg);
 }
@@ -17,6 +36,14 @@
   background-clip: text;
   font-family: "UnifrakturMaguntia";
   font-size: 1.2em;
+}
+
+.at-lord.cat:hover {
+  background-image: none;
+  background-clip: unset;
+  background-color: white;
+  color: var(--shade-3);
+  -webkit-text-fill-color: unset;
 }
 
 .name-Svenlaa {
@@ -37,7 +64,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-family: "Restless Soul BB", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 .name-TodePond {
@@ -55,6 +82,10 @@
   font-weight: normal;
 }
 
+.at-TodePond.name-TodePond:hover::after {
+  border-color: var(--shade-3);
+}
+
 .name-PodeTond.💚 {
   background: linear-gradient(
     to right,
@@ -67,4 +98,12 @@
   background-clip: text;
   display: inline-block; /* so it doesnt cut the heart */
   font-family: "JetBrains Mono", sans-serif;
+}
+
+.at-PodeTond.💚:hover {
+  background-image: none;
+  background-clip: unset;
+  background-color: white;
+  color: var(--shade-3);
+  -webkit-text-fill-color: unset;
 }
