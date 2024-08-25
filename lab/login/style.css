@@ -25,6 +25,18 @@
   transform: rotate(-0.5deg);
 }
 
+.name-UsrBinAnnika::after {
+  content: "⚠️ DORK";
+  border: 1px solid hsl(42.2, 100%, 63.7%);
+  color: hsl(42.2, 100%, 63.7%);
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  position: relative;
+  top: -0.25em;
+  font-weight: normal;
+}
+
 .name-Rosy {
   color: var(--red);
   font-family: "JetBrains Mono", sans-serif;
