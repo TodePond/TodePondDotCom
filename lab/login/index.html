@@ -226,6 +226,8 @@
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
 
+  let nameSet = new Set();
+
   let refreshTimeout;
   let secondsLeft = 9;
   async function pullUserStatuses() {
@@ -252,6 +254,16 @@
     renderUserStatuses(sortedEntries);
 
     localStorage.setItem("labLoginUserStatuses", JSON.stringify(sortedEntries));
+
+    const rawUsers = localStorage.getItem("labLoginUserStatuses") ?? "[]";
+    let users = [];
+    try {
+      users = JSON.parse(rawUsers);
+    } catch (e) {
+      users = [];
+    }
+    const usernames = users.map((v) => v.username);
+    nameSet = new Set(usernames);
 
     refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
 
@@ -292,6 +304,7 @@
       status.className = "post-" + entry.username;
       status.classList.add("status");
       const strong = status.querySelector("strong");
+      status.id = "post-" + entry.username;
       strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
 
@@ -327,6 +340,7 @@
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
       strong.className = "name-" + entry.username;
+      p.id = "post-" + entry.username;
       p.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
@@ -461,6 +475,21 @@
         continue;
       }
 
+      if (character === "@") {
+        let found = false;
+        for (const name of nameSet) {
+          if (markdown.slice(i + 1).startsWith(name)) {
+            html += `<a href="#post-${name}" class="at-${name} name-${name} at">@${name}</a>`;
+            i += name.length + 1;
+            found = true;
+            break;
+          }
+        }
+        if (found) {
+          continue;
+        }
+      }
+
       if (character === "`") {
         coding = true;
         html += "<code>";
@@ -531,7 +560,14 @@
   }
 
   const localStatuses = localStorage.getItem("labLoginUserStatuses") ?? "[]";
-  renderUserStatuses(JSON.parse(localStatuses));
+  let parsedLocalStatuses = [];
+  try {
+    parsedLocalStatuses = JSON.parse(localStatuses);
+  } catch (e) {
+    parsedLocalStatuses = [];
+  }
+  nameSet = new Set(parsedLocalStatuses.map((v) => v.username));
+  renderUserStatuses(parsedLocalStatuses);
   await pullUserStatuses();
   loadingFeed.style.display = "none";
 
