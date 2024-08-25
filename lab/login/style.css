@@ -1,64 +1,61 @@
-@import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
-@import url('https://fonts.cdnfonts.com/css/restless-soul-bb');
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
+@import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
-
-#status-UsrBinAnnika {
+.name-UsrBinAnnika {
   transform: rotate(-0.5deg);
 }
 
-#user-Rosy {
+.name-Rosy {
   color: var(--red);
   font-family: "JetBrains Mono", sans-serif;
 }
 
-#user-lord\ cat {
+.name-lord.cat {
   background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: 'UnifrakturMaguntia';
-  font-size: 20px;
+  font-family: "UnifrakturMaguntia";
+  font-size: 1.2em;
 }
 
-#user-Svenlaa {
+.name-Svenlaa {
   background: linear-gradient(to right, var(--yellow), var(--green) 200%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-family: "JetBrains Mono", sans-serif;
 }
 
-#user-HatsuSixty {
+.name-HatsuSixty {
   background: linear-gradient(to right, var(--pink), var(--purple) 200%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-#user-hivemind {
+.name-hivemind {
   background: linear-gradient(180deg, rgb(248 22 22) 20%, rgb(200 66 36) 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: 'Restless Soul BB', sans-serif;
-  font-size: 22px;
+  font-family: "Restless Soul BB", sans-serif;
+  font-size: 1.25em;
 }
 
-#user-TodePond {
+.name-TodePond {
   color: var(--green);
-  /* display: flex;
-  flex-direction: row; */
 }
 
-#user-TodePond::after {
+.name-TodePond::after {
   content: "ADMIN";
   border: 1px solid var(--green);
-  padding: 1px 2px;
-  margin: 4px;
-  font-size: 10px;
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
   position: relative;
-  top: -3px;
+  top: -0.25em;
   font-weight: normal;
 }
 
-#user-PodeTond\ \💚 {
+.name-PodeTond.💚 {
   background: linear-gradient(
     to right,
     #eaacb8 20%,
