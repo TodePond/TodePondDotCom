@@ -282,17 +282,14 @@
       if (!status) {
         break;
       }
-      status.id = "status-" + entry.username;
+      status.id = "loot-" + entry.username;
       const strong = status.querySelector("strong");
+      strong.id = "user-" + entry.username;
       strong.textContent = entry.username;
-      if (entry.username === "TodePond") {
-        strong.style.color = "var(--green)";
-      } else {
-        strong.style.color = "white";
-      }
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
+      span.id = "status-" + entry.username;
 
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
@@ -317,17 +314,16 @@
     while (e < entries.length) {
       const entry = entries[e];
       const p = document.createElement("p");
-      p.id = "status-" + entry.username;
+      p.id = "loot-" + entry.username;
       p.classList.add("status");
       const strong = document.createElement("strong");
       strong.textContent = entry.username;
-      if (entry.username === "TodePond") {
-        strong.style.color = "var(--green)";
-      }
+      strong.id = "user-" + entry.username;
       p.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");
+      span.id = "status-" + entry.username;
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.style.maxHeight = "90px";
       span.style.overflowY = "auto";
