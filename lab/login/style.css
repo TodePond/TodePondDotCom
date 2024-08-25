@@ -143,7 +143,7 @@
   content: "NOT ADMIN";
   border: 1px solid var(--minion-red);
   padding: 1px 2px;
-  margin: 4px;
+  margin: 4px 0px;
   font-size: 10px;
   position: relative;
   top: -2px; /* todepond's admin badge is -3px ... but presumably some of our flexbox messing around bumped us a pixel up */
