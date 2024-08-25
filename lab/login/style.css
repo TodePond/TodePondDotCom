@@ -1,5 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
+
 #status-UsrBinAnnika {
   transform: rotate(-0.5deg);
+}
+
+#user-Rosy {
+  color: var(--red);
+  font-family: 'JetBrains Mono', sans-serif;
+}
+#status-Rosy {
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 #user-TodePond {
