@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-.name-UsrBinAnnika:hover::after {
+.at-UsrBinAnnika:hover::after {
   border-color: var(--shade-3);
   color: var(--shade-3);
 }
