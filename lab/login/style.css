@@ -41,6 +41,18 @@
   color: var(--red);
   font-family: "JetBrains Mono", sans-serif;
 }
+/* perhaps some sort of user tags system would be good to prevent long gradients being placed everywhere? */
+.name-Rosy::after {
+  content: "trans";
+  background: linear-gradient(180deg, rgba(91,206,250,1) 0%, rgba(91,206,250,1) 19.9%, rgba(245,169,184,1) 20%, rgba(245,169,184,1) 39.9%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 59.9%, rgba(245,169,184,1) 60%, rgba(245,169,184,1) 79.9%, rgba(91,206,250,1) 80%);
+  -webkit-text-fill-color: transparent;
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  top: -0.25em;
+  position: relative;
+  font-weight: normal;
+}
 
 .name-lord.cat {
   background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
@@ -163,8 +175,7 @@
   padding: 0.1em 0.2em;
   margin: 0.35em;
   font-size: 0.6em;
-  /*dunno why this keeps going weird*/
-  top: -0.2em;
+  top: -0.8em;
   position: relative;
 
   background-image: linear-gradient(
