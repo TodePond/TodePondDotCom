@@ -13,7 +13,7 @@
   font-family: 'JetBrains Mono', sans-serif;
 }
 
-#user-lord\ cat
+#user-lord\ cat {
   background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
