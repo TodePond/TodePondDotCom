@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-.at-UsrBinAnnika:hover::after {
+.name-UsrBinAnnika:hover::after {
   border-color: var(--shade-3);
   color: var(--shade-3);
 }
@@ -113,14 +113,40 @@
   background: linear-gradient(
     to right,
     #eaacb8 20%,
-    #7acbf5 80%,
-    var(--green) 80%,
-    var(--green) 100%
+    #7acbf5 40%,
+    var(--green) 40%,
+    var(--green) 55%,
+    #eaacb8 55%,
+    #7acbf5 100%
   );
   -webkit-text-fill-color: transparent;
   background-clip: text;
   display: inline-block; /* so it doesnt cut the heart */
   font-family: "JetBrains Mono", sans-serif;
+}
+
+.name-PodeTond.💚::after {
+    content: " he/him   ";
+    animation: pronounce 9s linear infinite;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    @keyframes pronounce {
+            0%{content: " he/him   "; opacity:1} /* nbspaces for gradient */
+         8.33%{opacity:1}
+        16.66%{opacity:0}
+           25%{opacity:1}
+        33.33%{content: " they/them"; opacity:1}
+        41.66%{opacity:1}
+           50%{opacity:0}
+        58.33%{opacity:1}
+        66.66%{content: " she/her  "; opacity:1}
+           75%{opacity:1}
+        83.32%{opacity:0}
+        91.66%{opacity:1}
+          100%{content: " he/him   "; opacity:1}
+    }
 }
 
 @media (prefers-reduced-motion: no-preference) {
