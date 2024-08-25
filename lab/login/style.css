@@ -280,3 +280,24 @@
 .name-R74n::after {
   content: " 🔒";
 }
+
+.name-Tuna{
+  background: linear-gradient(90deg, rgba(237, 145, 228, 1) 0%, rgba(129, 111, 218, 1) 50%);
+  color:transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.name-Tuna::after{
+  content: "not a fish";
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  position: relative;
+  top: -0.25em;
+  font-weight: normal;
+  background: #ed91e4;
+  background-clip: text;
+  border: 1px solid #816fda;
+  border-radius: 3px;
+}
