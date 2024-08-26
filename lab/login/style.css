@@ -90,6 +90,18 @@
   font-weight: normal;
 }
 
+.name-maybeanerd::after {
+  content: "NERD";
+  border: 1px dashed red;
+  color: red;
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  position: relative;
+  top: -0.25em;
+  font-weight: normal;
+}
+
 .at-UsrBinAnnika:hover::after {
   border-color: var(--shade-3);
   color: var(--shade-3);
