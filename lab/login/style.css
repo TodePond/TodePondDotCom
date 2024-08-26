@@ -375,6 +375,26 @@
   content: " 🔒";
 }
 
+/* ====== */
+/* soxfox */
+/* ====== */
+.name-soxfox {
+  color: transparent;
+  background: linear-gradient(150deg, #f4218f, #ff9e00);
+  background-clip: text;
+}
+
+.name-soxfox::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 0.6em;
+  background: linear-gradient(150deg, #f4218f, #ff9e00);
+  margin-left: 0.2em;
+  mask: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE4NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIiPjxwYXRoIGQ9Im0xNDcgMTQ3LTYgMTFjLTYgOS0xNCAxNi0yNiAyMWExNDcgMTQ3IDAgMCAxLTgzIDJjLTEzLTUtMjQtMTAtMzItMTZsMTQtMzFhMTAzIDEwMyAwIDAgMCA1OSAxOWMxMiAwIDIxLTIgMjctNiA1LTMgOC04IDgtMTQgMC00LTEtNy01LTEwLTMtMy03LTUtMTMtN2wtMjEtNi0zNC05Yy04LTQtMTYtOS0yMi0xNlM0IDY4IDQgNTZjMC0xMCAyLTIwIDgtMjggNi05IDE0LTE2IDI2LTIxYTEzOCAxMzggMCAwIDEgNzUtM2MxMSAzIDIxIDcgMjkgMTJsLTEzIDMyYy0xNy0xMC0zMy0xNS01MC0xNS0xMSAwLTIwIDItMjYgNi01IDQtOCA5LTggMTVzMyAxMSAxMCAxNGM2IDMgMTYgNiAyOSA5YTI5MyAyOTMgMCAwIDEgNDQgMTRsMzUtODhoMTM2bC0xMyAzNGgtOTRsLTIwIDQ3aDg0bC0xNCAzM2gtODNsLTEyIDMwWiIvPjwvc3ZnPg==")
+    no-repeat center;
+}
+
 /* ======= */
 /* Tristie */
 /* ======= */
@@ -382,4 +402,5 @@
   background: linear-gradient(#31d0a6, #105e58);
   background-clip: text;
   color: transparent;
+
 }
