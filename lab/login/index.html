@@ -711,7 +711,7 @@
   }
   nameSet = new Set(parsedLocalStatuses.map((v) => v.username));
   renderUserStatuses(parsedLocalStatuses);
-  pullUserStatuses();
+
   const urlQuery = new URLSearchParams(window.location.search);
   if (urlQuery.has("logout")) {
     // remove the query from the url
@@ -726,9 +726,13 @@
     passwordInput.value &&
     localStorage.getItem("labLoginAutoLogin") !== "false"
   ) {
+    // loadingFeed.style.display = "block";
+    refreshSign.textContent = "Logging in...";
     handleSubmit();
+  } else {
+    pullUserStatuses();
   }
-  loadingFeed.style.display = "none";
+  // loadingFeed.style.display = "none";
 
   const header = document.querySelector("header");
   // if (usernameInput.value === "TodePond") {
