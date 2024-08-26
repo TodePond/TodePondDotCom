@@ -452,7 +452,7 @@ input[type="checkbox"] {
 /* donquixote */
 /* ========== */
 .post-donquixote .action-button:before {
-  font-size:1rem;
+  font-size:0.8rem;
   content:"Dislike";
   transition: 0.3s;
 }
@@ -460,7 +460,6 @@ input[type="checkbox"] {
 .post-donquixote .action-button {
   font-size:0px;
   background-color:red;
-  font-weight:bold;
   transition: 0.3s;
 }
 
