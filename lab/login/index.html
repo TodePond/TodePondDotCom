@@ -13,8 +13,8 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
-<link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=24" />
+<link rel="stylesheet" href="/style.css#v1" />
+<link rel="stylesheet" href="./style.css#v1" />
 
 <h1>Login</h1>
 <a
@@ -113,40 +113,43 @@
       namey.className = `name-${username}`;
       h1.appendChild(namey);
       h1.append("!");
-      header.innerHTML = `
+      let html = `
         <label>Status</label>
         <input type="text" id="status" name="status" autocomplete="off" />
         <button id="update-status" class="primary">Update status</button>
         <br /><br />
-        <button onclick="location.href = '/lab/login/?logout';" class="">Switch account</button>
-        <button id="delete-account" class="danger">Delete account</button>
+        <span class="account-dashboard">
+          <span class="account-actions">
+            <button onclick="location.href = '/lab/login/?logout';" class="">Switch account</button>
+            <button id="delete-account" class="danger">Delete account</button>
+          </span>
       `;
 
       const loginAutomatically =
         localStorage.getItem("labLoginAutoLogin") !== "false";
       // if (username === "TodePond") {
-      header.innerHTML += `
+      html += `
         <span class="account-settings">
-          <span style="float:right">
             <label for="logged-in-toggle">
               Login automatically
               <input type="checkbox" id="logged-in-toggle" name="logged-in-toggle" ${
                 loginAutomatically ? "checked" : ""
               } />
             </label>
-          </span>
           ${
             username === "TodePond"
-              ? `<span style="float: right">
+              ? `
                 <label for="admin-toggle">
                   Admin controls
                   <input type="checkbox" id="admin-toggle" name="admin-toggle" />
                 </label>
-              </span>`
+              `
               : ""
           }
         </span>
+      </span>
       `;
+      header.innerHTML = html;
       const loggedInToggle = document.querySelector("#logged-in-toggle");
       loggedInToggle.addEventListener("change", () => {
         localStorage.setItem("labLoginAutoLogin", loggedInToggle.checked);

@@ -9,11 +9,44 @@
   box-sizing: border-box;
 }
 
+.account-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
 .account-settings {
   display: flex;
   flex-direction: column;
-  float: right;
+  /* float: right; */
   align-items: flex-end;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+
+.account-settings > label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  /* border: 1px solid var(--best-colour); */
+  cursor: pointer;
+  /* padding: 0px 0px 0px 5px; */
+  /* color: var(--best-colour); */
+  /* accent-color: var(--best-colour); */
+}
+
+.account-settings > label > input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 #feed-heading {
