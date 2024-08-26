@@ -288,7 +288,7 @@
 }
 
 .name-soxfox::after {
-  content: '';
+  content: ' ';
   /* this filter is magic */
   filter: opacity(0);
   display: inline-block;
