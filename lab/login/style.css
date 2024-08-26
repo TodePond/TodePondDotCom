@@ -447,3 +447,33 @@ input[type="checkbox"] {
   background-clip: text;
   color: transparent;
 }
+
+/* ========== */
+/* donquixote */
+/* ========== */
+.post-donquixote .action-button:before {
+  font-size:1rem;
+  content:"Dislike";
+  transition: 0.3s;
+}
+
+.post-donquixote .action-button {
+  font-size:0px;
+  background-color:red;
+  font-weight:bold;
+  transition: 0.3s;
+}
+
+.post-donquixote:hover .action-button {
+  animation: threedeespin 2s infinite;
+  animation-timing-function:linear;
+}
+
+@keyframes threedeespin {
+  0% {
+    transform: rotate3d(1,1,1,0deg);
+  }
+  100% {
+    transform: rotate3d(1,1,1,360deg);
+  }
+}
