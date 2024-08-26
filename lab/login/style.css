@@ -202,6 +202,21 @@
   text-shadow: 0 0 0.125em #80ff0080;
 }
 
+.post-sofia .name-sofia::before {
+  color: transparent;
+  background: linear-gradient(to bottom, #fff 50%, #a0e000 100%);
+  background-clip: text;
+  content: "🙦";
+  margin-left: -1.5em;
+}
+
+.post-sofia .name-sofia::after {
+  background: linear-gradient(to bottom, #fff 50%, #60ff20 100%);
+  background-clip: text;
+  text-shadow: 0 0 0.125em #60ff2080;
+  content: "🙤"
+}
+
 .at-PodeTond.💚:hover {
   background-image: none;
   background-clip: unset;
