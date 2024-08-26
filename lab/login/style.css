@@ -280,3 +280,9 @@
 .name-R74n::after {
   content: " 🔒";
 }
+
+.name-Tristie {
+  background: linear-gradient(#31d0a6, #105E58);
+  background-clip: text;
+  color: transparent;
+}
