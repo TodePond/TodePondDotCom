@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=16" />
+<link rel="stylesheet" href="./style.css?v=22" />
 
 <h1>Login</h1>
 <a
@@ -49,14 +49,15 @@
   }
 </style>
 
-<h2>Feed</h2>
+<h2 id="feed-heading">
+  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
+</h2>
 <span
   id="loading-feed"
   style="position: fixed; top: 10px; left: 10px"
   class="secondary"
   >⏳</span
 >
-<span id="refresh-sign" class="secondary">Refreshing...</span>
 <main></main>
 
 <script type="module">
@@ -135,7 +136,8 @@
           localStorage.setItem("labLoginAdmin", adminToggle.checked);
           const actionses = document.querySelectorAll(".actions");
           actionses.forEach(
-            (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+            (v) =>
+              (v.style.display = adminToggle.checked ? "inline-block" : "none")
           );
         });
       }
@@ -226,6 +228,7 @@
   submitButton.addEventListener("click", handleSubmit);
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
+  refreshSign.addEventListener("click", toggleRefresh);
 
   let nameSet = new Set();
 
@@ -287,6 +290,17 @@
     refreshTimeout = setTimeout(handleTimer, 1000);
   }
 
+  function toggleRefresh() {
+    if (refreshTimeout) {
+      clearTimeout(refreshTimeout);
+      refreshTimeout = undefined;
+      refreshSign.textContent = "Auto-refresh paused";
+    } else {
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+      refreshTimeout = setTimeout(handleTimer, 1000);
+    }
+  }
+
   function renderUserStatuses(entries) {
     const currentHash = window.location.hash;
     const main = document.querySelector("main");
@@ -296,6 +310,8 @@
 
     const actionses = document.querySelectorAll(".actions");
     actionses.forEach((v) => (v.innerHTML = ""));
+    const userActionses = document.querySelectorAll(".user-actions");
+    userActionses.forEach((v) => (v.innerHTML = ""));
 
     while (e < entries.length) {
       const entry = entries[e];
@@ -309,11 +325,20 @@
       status.id = "post-" + entry.username;
       strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
+      const h3 = status.querySelector("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.className = "status-" + entry.username;
 
+      addUserActions({
+        userActionsElement: status.querySelector(".user-actions"),
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
         password: passwordInput.value,
@@ -322,7 +347,9 @@
       });
       const actions = status.querySelector(".actions");
       actions.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       s++;
       e++;
     }
@@ -343,7 +370,11 @@
       strong.textContent = entry.username;
       strong.className = "name-" + entry.username;
       p.id = "post-" + entry.username;
-      p.appendChild(strong);
+      const h3 = document.createElement("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
+      p.appendChild(h3);
+      h3.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");
@@ -363,9 +394,21 @@
         admin: usernameInput.value,
         entry,
       });
+      const userActions = document.createElement("div");
+      userActions.classList.add("user-actions");
+      p.appendChild(userActions);
+
+      addUserActions({
+        userActionsElement: userActions,
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
 
       div.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       p.appendChild(div);
       main.appendChild(p);
       e++;
@@ -381,6 +424,7 @@
     const enabled = localStorage.getItem("labLoginAdmin") === "true";
     if (admin === "TodePond") {
       const kickNameButton = document.createElement("button");
+      kickNameButton.classList.add("action-button");
       // banButton.className = "danger";
       kickNameButton.textContent = "Kick name";
       kickNameButton.addEventListener("click", () =>
@@ -395,6 +439,7 @@
       const kickStatusButton = document.createElement("button");
       // banButton.className = "danger";
       kickStatusButton.textContent = "Kick status";
+      kickStatusButton.classList.add("action-button");
       kickStatusButton.addEventListener("click", () =>
         handleModeration({
           username: entry.username,
@@ -406,6 +451,7 @@
       );
       const banNameButton = document.createElement("button");
       banNameButton.className = "danger";
+      banNameButton.classList.add("action-button");
       banNameButton.textContent = "Ban name";
       banNameButton.addEventListener("click", () =>
         handleModeration({
@@ -625,9 +671,29 @@
       localStorage.setItem("labLoginAdmin", adminToggle.checked);
       const actionses = document.querySelectorAll(".actions");
       actionses.forEach(
-        (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+        (v) => (v.style.display = adminToggle.checked ? "inline-block" : "none")
       );
     });
+  }
+
+  function addUserActions({
+    userActionsElement,
+    username,
+    loggedInUsername,
+    loggedInPassword,
+  }) {
+    const likeButton = document.createElement("button");
+    likeButton.textContent = "Like";
+    likeButton.classList.add("primary");
+    likeButton.classList.add("action-button");
+    likeButton.addEventListener("click", () =>
+      handleLike({ username, loggedInUsername, loggedInPassword })
+    );
+    userActionsElement.appendChild(likeButton);
+  }
+
+  async function handleLike({ username, loggedInUsername, loggedInPassword }) {
+    alert("glad you like it babe");
   }
 
   addEventListener("pointerdown", (event) => {
