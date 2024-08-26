@@ -227,6 +227,7 @@
   submitButton.addEventListener("click", handleSubmit);
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
+  refreshSign.addEventListener("click", toggleRefresh);
 
   let nameSet = new Set();
 
@@ -286,6 +287,16 @@
     }
 
     refreshTimeout = setTimeout(handleTimer, 1000);
+  }
+
+  function toggleRefresh() {
+    if (refreshTimeout) {
+      clearTimeout(refreshTimeout);
+      refreshTimeout = undefined;
+      refreshSign.textContent = "Auto-refresh paused";
+    } else {
+      refreshTimeout = setTimeout(handleTimer, 1000);
+    }
   }
 
   function renderUserStatuses(entries) {
