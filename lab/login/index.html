@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=20" />
+<link rel="stylesheet" href="./style.css?v=21" />
 
 <h1>Login</h1>
 <a
@@ -49,14 +49,15 @@
   }
 </style>
 
-<h2>Feed</h2>
+<h2>
+  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
+</h2>
 <span
   id="loading-feed"
   style="position: fixed; top: 10px; left: 10px"
   class="secondary"
   >⏳</span
 >
-<button id="refresh-sign" class="secondary span">Refreshing...</button>
 <main></main>
 
 <script type="module">
