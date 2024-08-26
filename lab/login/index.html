@@ -730,7 +730,9 @@
     refreshSign.textContent = "Logging in...";
     handleSubmit();
   } else {
-    pullUserStatuses();
+    pullUserStatuses().then(() => {
+      loadingFeed.style.display = "none";
+    });
   }
   // loadingFeed.style.display = "none";
 
