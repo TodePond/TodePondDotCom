@@ -145,6 +145,10 @@
   font-weight: normal;
 }
 
+.at-Rosy::after {
+  all: unset;
+}
+
 /* ======== */
 /* lord cat */
 /* ======== */
