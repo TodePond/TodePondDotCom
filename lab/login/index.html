@@ -269,9 +269,13 @@
     const usernames = users.map((v) => v.username);
     nameSet = new Set(usernames);
 
-    refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
-
-    refreshTimeout = setTimeout(handleTimer, 1000);
+    const localRefreshStatus = getLocalRefreshStatus();
+    if (localRefreshStatus) {
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+      refreshTimeout = setTimeout(handleTimer, 1000);
+    } else {
+      refreshSign.textContent = "Auto-refresh paused";
+    }
   }
 
   async function handleTimer() {
@@ -290,15 +294,46 @@
     refreshTimeout = setTimeout(handleTimer, 1000);
   }
 
-  function toggleRefresh() {
-    if (refreshTimeout) {
-      clearTimeout(refreshTimeout);
-      refreshTimeout = undefined;
-      refreshSign.textContent = "Auto-refresh paused";
-    } else {
+  function setRefreshStatus(on) {
+    if (on) {
+      setLocalRefreshStatus(true);
       refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
-      refreshTimeout = setTimeout(handleTimer, 1000);
+      if (!getRefreshStatus()) {
+        refreshTimeout = setTimeout(handleTimer, 1000);
+      }
+    } else {
+      setLocalRefreshStatus(false);
+      refreshSign.textContent = "Auto-refresh paused";
+      if (getRefreshStatus()) {
+        clearTimeout(refreshTimeout);
+        refreshTimeout = undefined;
+      }
     }
+  }
+
+  function getRefreshStatus() {
+    return refreshTimeout !== undefined;
+  }
+
+  function getLocalRefreshStatus() {
+    return localStorage.getItem("labLoginAutoRefresh") !== "false";
+  }
+
+  function setLocalRefreshStatus(on) {
+    if (on) {
+      localStorage.setItem("labLoginAutoRefresh", "true");
+    } else {
+      localStorage.setItem("labLoginAutoRefresh", "false");
+    }
+  }
+
+  function toggleRefresh() {
+    const status = getRefreshStatus();
+    setRefreshStatus(!status);
+  }
+
+  if (!getLocalRefreshStatus()) {
+    setRefreshStatus(false);
   }
 
   function renderUserStatuses(entries) {
