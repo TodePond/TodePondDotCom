@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=18" />
+<link rel="stylesheet" href="./style.css?v=19" />
 
 <h1>Login</h1>
 <a
@@ -312,6 +312,9 @@
       status.id = "post-" + entry.username;
       strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
+      const h3 = status.querySelector("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
@@ -354,7 +357,11 @@
       strong.textContent = entry.username;
       strong.className = "name-" + entry.username;
       p.id = "post-" + entry.username;
-      p.appendChild(strong);
+      const h3 = document.createElement("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
+      p.appendChild(h3);
+      h3.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");

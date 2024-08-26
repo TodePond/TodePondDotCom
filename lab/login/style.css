@@ -2,6 +2,13 @@
 @import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
+/* =========== */
+/* Login stuff */
+/* =========== */
+.post-title {
+  all: unset;
+}
+
 .user-actions {
   margin-top: 5px;
   display: inline-block;
@@ -34,6 +41,9 @@
   outline-color: transparent;
 }
 
+/* ============ */
+/* UsrBinAnnika */
+/* ============ */
 .status-UsrBinAnnika {
   transform: rotate(-0.5deg);
 }
@@ -55,6 +65,9 @@
   color: var(--shade-3);
 }
 
+/* ==== */
+/* Rosy */
+/* ==== */
 .name-Rosy {
   color: var(--red);
   font-family: "JetBrains Mono", sans-serif;
@@ -83,6 +96,9 @@
   font-weight: normal;
 }
 
+/* ======== */
+/* lord cat */
+/* ======== */
 .name-lord.cat {
   background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
   -webkit-text-fill-color: transparent;
@@ -117,6 +133,10 @@
 .at-lord.cat::after {
   all: unset;
 }
+
+/* ======= */
+/* Svenlaa */
+/* ======= */
 .name-Svenlaa {
   background: linear-gradient(to right, var(--yellow), var(--green) 200%);
   -webkit-text-fill-color: transparent;
@@ -124,12 +144,18 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
+/* ========== */
+/* HatsuSixty */
+/* ========== */
 .name-HatsuSixty {
   background: linear-gradient(to right, var(--pink), var(--purple) 200%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+/* ======== */
+/* hivemind */
+/* ======== */
 .name-hivemind {
   background: linear-gradient(180deg, rgb(248 22 22) 20%, rgb(200 66 36) 100%);
   -webkit-text-fill-color: transparent;
@@ -138,12 +164,18 @@
   font-size: 1.2em;
 }
 
+/* =========== */
+/* HatsuneMiku */
+/* =========== */
 .name-HatsuneMiku {
   background: linear-gradient(to right, #87e5cf, #47c8c0 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+/* ======== */
+/* TodePond */
+/* ======== */
 .name-TodePond {
   color: var(--green);
 }
@@ -163,6 +195,9 @@
   border-color: var(--shade-3);
 }
 
+/* =========== */
+/* PodeTond 💚 */
+/* =========== */
 .name-PodeTond.💚 {
   background: linear-gradient(
     to right,
@@ -177,6 +212,17 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
+.at-PodeTond.💚:hover {
+  background-image: none;
+  background-clip: unset;
+  background-color: white;
+  color: var(--shade-3);
+  -webkit-text-fill-color: unset;
+}
+
+/* ==== */
+/*  El  */
+/* ==== */
 @media (prefers-reduced-motion: no-preference) {
   .name-El {
     animation: 30s linear 0s infinite alternate el-color-shift;
@@ -194,6 +240,9 @@
   }
 }
 
+/* ===== */
+/* sofia */
+/* ===== */
 .name-sofia {
   letter-spacing: 0.5em;
   color: transparent;
@@ -202,30 +251,22 @@
   text-shadow: 0 0 0.125em #80ff0080;
 }
 
-.at-PodeTond.💚:hover {
-  background-image: none;
-  background-clip: unset;
-  background-color: white;
-  color: var(--shade-3);
-  -webkit-text-fill-color: unset;
+/* ====== */
+/* minion */
+/* ====== */
+:root {
+  --minion-red: #f27878;
 }
 
-/* begin styling for user "minion" */
-.post-minion {
-  display: flex; /* needed so we can have a badge as well as an :after on the name */
-  flex-wrap: wrap; /* in flexbox, brs do not work, so instead we wrap the flex */
-}
-
-.post-minion::before {
+.title-minion::after {
   content: "NOT ADMIN";
+  color: var(--minion-red);
   border: 1px solid var(--minion-red);
   padding: 0.1em 0.2em;
   margin: 0.35em;
   font-size: 0.6em;
-  /*dunno why this keeps going weird*/
   top: -0.2em;
   position: relative;
-
   background-image: linear-gradient(
     120deg,
     transparent 30%,
@@ -234,49 +275,27 @@
   );
   background-size: 50px;
   background-repeat: no-repeat;
-
   background-position: 200%;
-
-  order: 2; /* the "true ordering" of the elements is [badge] [name] [post content], but we want to display as [name] [badge] [post content] */
-
-  color: var(
-    --minion-red
-  ); /* as this isn't a true ::after of the name, we won't inherit its color... */
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .post-minion::before {
-    -webkit-animation: minion-badgeSwish 10s ease-in-out infinite;
-    -moz-animation: minion-badgeSwish 10s ease-in-out infinite;
-    animation: minion-badgeSwish 10s ease-in-out infinite;
-  }
-}
-
-.post-minion,
-.name-minion {
-  --minion-red: #f27878;
 }
 
 .name-minion {
   color: var(--minion-red);
 }
 
-.name-minion::before {
-  content: "✨";
-  font-size: 0.5em;
-}
-
+.name-minion::before,
 .name-minion::after {
   content: "✨";
   font-size: 0.5em;
-  vertical-align: top;
-  padding-top: 0.1em;
-  display: inline-block;
+  position: relative;
+  top: -0.3em;
 }
 
-.post-minion .status-minion {
-  order: 3;
-  flex-basis: 100%; /* this ensures the post content will end up on a different line in the flex */
+@media (prefers-reduced-motion: no-preference) {
+  .title-minion::after {
+    -webkit-animation: minion-badgeSwish 10s ease-in-out infinite;
+    -moz-animation: minion-badgeSwish 10s ease-in-out infinite;
+    animation: minion-badgeSwish 10s ease-in-out infinite;
+  }
 }
 
 @-webkit-keyframes minion-badgeSwish {
@@ -303,8 +322,10 @@
     background-position: -50px;
   }
 }
-/* end styling for user "minion". I am so sorry for the cursed-ness. */
 
+/* ==== */
+/* R74n */
+/* ==== */
 .name-R74n {
   color: #00ffff;
 }
@@ -312,6 +333,9 @@
   content: " 🔒";
 }
 
+/* ======= */
+/* Tristie */
+/* ======= */
 .name-Tristie {
   background: linear-gradient(#31d0a6, #105e58);
   background-clip: text;
