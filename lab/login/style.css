@@ -2,6 +2,19 @@
 @import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
+.user-actions {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.actions {
+  display: inline-block;
+}
+
+.action-button {
+  font-size: 0.8em;
+}
+
 .at {
   font-weight: bold;
   text-decoration: none;
@@ -85,7 +98,6 @@
   color: var(--shade-3);
   -webkit-text-fill-color: unset;
 }
-
 
 .name-lord.cat::after {
   content: "Blåhaj Collector";
@@ -301,7 +313,7 @@
 }
 
 .name-Tristie {
-  background: linear-gradient(#31d0a6, #105E58);
+  background: linear-gradient(#31d0a6, #105e58);
   background-clip: text;
   color: transparent;
 }
