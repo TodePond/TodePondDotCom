@@ -5,6 +5,23 @@
 /* =========== */
 /* Login stuff */
 /* =========== */
+#refresh-sign {
+  all: unset;
+  color: var(--best-colour);
+  cursor: pointer;
+  user-select: none;
+}
+
+#refresh-sign:focus {
+  outline: auto;
+}
+
+#refresh-sign:hover {
+  background-color: var(--best-colour);
+  color: var(--shade-3);
+  outline: 2px solid var(--best-colour);
+}
+
 .post-title {
   all: unset;
 }

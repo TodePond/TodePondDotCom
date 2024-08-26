@@ -56,7 +56,7 @@
   class="secondary"
   >⏳</span
 >
-<span id="refresh-sign" class="secondary">Refreshing...</span>
+<button id="refresh-sign" class="secondary span">Refreshing...</button>
 <main></main>
 
 <script type="module">
@@ -295,6 +295,7 @@
       refreshTimeout = undefined;
       refreshSign.textContent = "Auto-refresh paused";
     } else {
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
       refreshTimeout = setTimeout(handleTimer, 1000);
     }
   }
