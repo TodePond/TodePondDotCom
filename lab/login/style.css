@@ -6,14 +6,12 @@
 /* Login stuff */
 /* =========== */
 #refresh-sign {
-  all: unset;
   color: var(--best-colour);
   cursor: pointer;
   user-select: none;
-}
-
-#refresh-sign:focus {
-  outline: auto;
+  background: none;
+  border: none;
+  padding: 0;
 }
 
 #refresh-sign:hover {
