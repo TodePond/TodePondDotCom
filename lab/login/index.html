@@ -56,7 +56,7 @@
   class="secondary"
   >⏳</span
 >
-<span id="refresh-sign" class="secondary">Refreshing...</span>
+<button id="refresh-sign" class="secondary span">Refreshing...</button>
 <main></main>
 
 <script type="module">
@@ -227,6 +227,7 @@
   submitButton.addEventListener("click", handleSubmit);
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
+  refreshSign.addEventListener("click", toggleRefresh);
 
   let nameSet = new Set();
 
@@ -286,6 +287,17 @@
     }
 
     refreshTimeout = setTimeout(handleTimer, 1000);
+  }
+
+  function toggleRefresh() {
+    if (refreshTimeout) {
+      clearTimeout(refreshTimeout);
+      refreshTimeout = undefined;
+      refreshSign.textContent = "Auto-refresh paused";
+    } else {
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+      refreshTimeout = setTimeout(handleTimer, 1000);
+    }
   }
 
   function renderUserStatuses(entries) {
