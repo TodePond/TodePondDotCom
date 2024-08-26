@@ -2,6 +2,19 @@
 @import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
+.user-actions {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.actions {
+  display: inline-block;
+}
+
+.action-button {
+  font-size: 0.8em;
+}
+
 .at {
   font-weight: bold;
   text-decoration: none;
@@ -86,6 +99,24 @@
   -webkit-text-fill-color: unset;
 }
 
+.name-lord.cat::after {
+  content: "Blåhaj Collector";
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #c5a4ed, #a4a5ed 100%) 1;
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  position: relative;
+  top: -0.25em;
+  font-weight: normal;
+  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
+  background-clip: text;
+}
+
+.at-lord.cat::after {
+  all: unset;
+}
 .name-Svenlaa {
   background: linear-gradient(to right, var(--yellow), var(--green) 200%);
   -webkit-text-fill-color: transparent;
@@ -279,6 +310,12 @@
 }
 .name-R74n::after {
   content: " 🔒";
+}
+
+.name-Tristie {
+  background: linear-gradient(#31d0a6, #105e58);
+  background-clip: text;
+  color: transparent;
 }
 
 .name-hunter2 {

@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=16" />
+<link rel="stylesheet" href="./style.css?v=18" />
 
 <h1>Login</h1>
 <a
@@ -135,7 +135,8 @@
           localStorage.setItem("labLoginAdmin", adminToggle.checked);
           const actionses = document.querySelectorAll(".actions");
           actionses.forEach(
-            (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+            (v) =>
+              (v.style.display = adminToggle.checked ? "inline-block" : "none")
           );
         });
       }
@@ -296,6 +297,8 @@
 
     const actionses = document.querySelectorAll(".actions");
     actionses.forEach((v) => (v.innerHTML = ""));
+    const userActionses = document.querySelectorAll(".user-actions");
+    userActionses.forEach((v) => (v.innerHTML = ""));
 
     while (e < entries.length) {
       const entry = entries[e];
@@ -314,6 +317,12 @@
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.className = "status-" + entry.username;
 
+      addUserActions({
+        userActionsElement: status.querySelector(".user-actions"),
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
         password: passwordInput.value,
@@ -322,7 +331,9 @@
       });
       const actions = status.querySelector(".actions");
       actions.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       s++;
       e++;
     }
@@ -363,9 +374,21 @@
         admin: usernameInput.value,
         entry,
       });
+      const userActions = document.createElement("div");
+      userActions.classList.add("user-actions");
+      p.appendChild(userActions);
+
+      addUserActions({
+        userActionsElement: userActions,
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
 
       div.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       p.appendChild(div);
       main.appendChild(p);
       e++;
@@ -381,6 +404,7 @@
     const enabled = localStorage.getItem("labLoginAdmin") === "true";
     if (admin === "TodePond") {
       const kickNameButton = document.createElement("button");
+      kickNameButton.classList.add("action-button");
       // banButton.className = "danger";
       kickNameButton.textContent = "Kick name";
       kickNameButton.addEventListener("click", () =>
@@ -395,6 +419,7 @@
       const kickStatusButton = document.createElement("button");
       // banButton.className = "danger";
       kickStatusButton.textContent = "Kick status";
+      kickStatusButton.classList.add("action-button");
       kickStatusButton.addEventListener("click", () =>
         handleModeration({
           username: entry.username,
@@ -406,6 +431,7 @@
       );
       const banNameButton = document.createElement("button");
       banNameButton.className = "danger";
+      banNameButton.classList.add("action-button");
       banNameButton.textContent = "Ban name";
       banNameButton.addEventListener("click", () =>
         handleModeration({
@@ -625,9 +651,29 @@
       localStorage.setItem("labLoginAdmin", adminToggle.checked);
       const actionses = document.querySelectorAll(".actions");
       actionses.forEach(
-        (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+        (v) => (v.style.display = adminToggle.checked ? "inline-block" : "none")
       );
     });
+  }
+
+  function addUserActions({
+    userActionsElement,
+    username,
+    loggedInUsername,
+    loggedInPassword,
+  }) {
+    const likeButton = document.createElement("button");
+    likeButton.textContent = "Like";
+    likeButton.classList.add("primary");
+    likeButton.classList.add("action-button");
+    likeButton.addEventListener("click", () =>
+      handleLike({ username, loggedInUsername, loggedInPassword })
+    );
+    userActionsElement.appendChild(likeButton);
+  }
+
+  async function handleLike({ username, loggedInUsername, loggedInPassword }) {
+    alert("glad you like it babe");
   }
 
   addEventListener("pointerdown", (event) => {
