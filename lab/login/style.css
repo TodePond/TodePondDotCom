@@ -8,6 +8,15 @@
 * {
   box-sizing: border-box;
 }
+
+#feed-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 #refresh-sign {
   color: var(--best-colour);
   cursor: pointer;
@@ -17,6 +26,7 @@
   padding: 0;
   font-size: 16px;
   float: right;
+  flex-shrink: 0;
 }
 
 #refresh-sign:hover {
