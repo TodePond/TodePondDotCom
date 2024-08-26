@@ -9,6 +9,13 @@
   box-sizing: border-box;
 }
 
+.account-settings {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  align-items: flex-end;
+}
+
 #feed-heading {
   display: flex;
   justify-content: space-between;
@@ -402,5 +409,4 @@
   background: linear-gradient(#31d0a6, #105e58);
   background-clip: text;
   color: transparent;
-
 }

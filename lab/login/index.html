@@ -118,19 +118,43 @@
         <input type="text" id="status" name="status" autocomplete="off" />
         <button id="update-status" class="primary">Update status</button>
         <br /><br />
-        <button onclick="location.reload()" class="">Logout</button>
+        <button onclick="location.href = '/lab/login/?logout';" class="">Switch account</button>
         <button id="delete-account" class="danger">Delete account</button>
       `;
-      if (username === "TodePond") {
-        header.innerHTML += `
-          <span style="float: right">
-            <label for="admin-toggle">Admin controls</label>
-            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+
+      const loginAutomatically =
+        localStorage.getItem("labLoginAutoLogin") !== "false";
+      // if (username === "TodePond") {
+      header.innerHTML += `
+        <span class="account-settings">
+          <span style="float:right">
+            <label for="logged-in-toggle">
+              Login automatically
+              <input type="checkbox" id="logged-in-toggle" name="logged-in-toggle" ${
+                loginAutomatically ? "checked" : ""
+              } />
+            </label>
           </span>
-        `;
-        const adminToggleEnabled =
-          localStorage.getItem("labLoginAdmin") === "true";
-        const adminToggle = document.querySelector("#admin-toggle");
+          ${
+            username === "TodePond"
+              ? `<span style="float: right">
+                <label for="admin-toggle">
+                  Admin controls
+                  <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+                </label>
+              </span>`
+              : ""
+          }
+        </span>
+      `;
+      const loggedInToggle = document.querySelector("#logged-in-toggle");
+      loggedInToggle.addEventListener("change", () => {
+        localStorage.setItem("labLoginAutoLogin", loggedInToggle.checked);
+      });
+      const adminToggleEnabled =
+        localStorage.getItem("labLoginAdmin") === "true";
+      const adminToggle = document.querySelector("#admin-toggle");
+      if (adminToggle) {
         adminToggle.checked = adminToggleEnabled;
         adminToggle.addEventListener("change", () => {
           localStorage.setItem("labLoginAdmin", adminToggle.checked);
@@ -141,6 +165,7 @@
           );
         });
       }
+      // }
       const deleteAccountButton = document.querySelector("#delete-account");
       deleteAccountButton.addEventListener("click", async () => {
         const confirmDelete = confirm(
@@ -162,7 +187,7 @@
         if (json.error) {
           alert(json.error);
         } else {
-          location.reload();
+          location.href = "/lab/login/?delete";
         }
       });
       const statusInput = document.querySelector("#status");
@@ -686,30 +711,46 @@
   }
   nameSet = new Set(parsedLocalStatuses.map((v) => v.username));
   renderUserStatuses(parsedLocalStatuses);
-  await pullUserStatuses();
+  pullUserStatuses();
+  const urlQuery = new URLSearchParams(window.location.search);
+  if (urlQuery.has("logout")) {
+    // remove the query from the url
+    window.history.replaceState({}, "", "/lab/login/");
+  } else if (urlQuery.has("delete")) {
+    // remove the query from the url
+    window.history.replaceState({}, "", "/lab/login/");
+    passwordInput.value = "";
+    usernameInput.value = "";
+  } else if (
+    usernameInput.value &&
+    passwordInput.value &&
+    localStorage.getItem("labLoginAutoLogin") !== "false"
+  ) {
+    handleSubmit();
+  }
   loadingFeed.style.display = "none";
 
   const header = document.querySelector("header");
-  if (usernameInput.value === "TodePond") {
-    const spannn = document.createElement("span");
-    spannn.innerHTML = `
-          <span style="float: right">
-            <label for="admin-toggle">Admin controls</label>
-            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
-          </span>
-        `;
-    header.appendChild(spannn);
-    const adminToggleEnabled = localStorage.getItem("labLoginAdmin") === "true";
-    const adminToggle = document.querySelector("#admin-toggle");
-    adminToggle.checked = adminToggleEnabled;
-    adminToggle.addEventListener("change", () => {
-      localStorage.setItem("labLoginAdmin", adminToggle.checked);
-      const actionses = document.querySelectorAll(".actions");
-      actionses.forEach(
-        (v) => (v.style.display = adminToggle.checked ? "inline-block" : "none")
-      );
-    });
-  }
+  // if (usernameInput.value === "TodePond") {
+  // const spannn = document.createElement("span");
+  // spannn.innerHTML = `
+  //         <span style="float: right">
+  //           <label for="admin-toggle">Admin controls</label>
+  //           <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+  //         </span>
+  //       `;
+  // header.appendChild(spannn);
+  // const adminToggleEnabled = localStorage.getItem("labLoginAdmin") === "true";
+  // const adminToggle = document.querySelector("#admin-toggle");
+  // adminToggle.checked = adminToggleEnabled;
+  // adminToggle.addEventListener("change", () => {
+  //   localStorage.setItem("labLoginAdmin", adminToggle.checked);
+  //   const actionses = document.querySelectorAll(".actions");
+  //   actionses.forEach(
+  //     (v) => (v.style.display = adminToggle.checked ? "inline-block" : "none")
+  //   );
+  // });
+  // }
 
   function addUserActions({
     userActionsElement,
