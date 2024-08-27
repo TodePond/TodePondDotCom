@@ -13,8 +13,8 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
-<link rel="stylesheet" href="/style.css?v=4" />
-<link rel="stylesheet" href="./style.css?v=16" />
+<link rel="stylesheet" href="/style.css#v1" />
+<link rel="stylesheet" href="./style.css#v1" />
 
 <h1>Login</h1>
 <a
@@ -49,14 +49,15 @@
   }
 </style>
 
-<h2>Feed</h2>
+<h2 id="feed-heading">
+  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
+</h2>
 <span
   id="loading-feed"
   style="position: fixed; top: 10px; left: 10px"
   class="secondary"
   >⏳</span
 >
-<span id="refresh-sign" class="secondary">Refreshing...</span>
 <main></main>
 
 <script type="module">
@@ -112,33 +113,62 @@
       namey.className = `name-${username}`;
       h1.appendChild(namey);
       h1.append("!");
-      header.innerHTML = `
+      let html = `
         <label>Status</label>
         <input type="text" id="status" name="status" autocomplete="off" />
         <button id="update-status" class="primary">Update status</button>
         <br /><br />
-        <button onclick="location.reload()" class="">Logout</button>
-        <button id="delete-account" class="danger">Delete account</button>
-      `;
-      if (username === "TodePond") {
-        header.innerHTML += `
-          <span style="float: right">
-            <label for="admin-toggle">Admin controls</label>
-            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+        <span class="account-dashboard">
+          <span class="account-actions">
+            <button onclick="location.href = '/lab/login/?logout';" class="">Switch account</button>
+            <button id="delete-account" class="danger">Delete account</button>
           </span>
-        `;
-        const adminToggleEnabled =
-          localStorage.getItem("labLoginAdmin") === "true";
-        const adminToggle = document.querySelector("#admin-toggle");
+      `;
+
+      const loginAutomatically =
+        localStorage.getItem("labLoginAutoLogin") !== "false";
+      // if (username === "TodePond") {
+      html += `
+        <span class="account-settings">
+            <label for="logged-in-toggle">
+              Login automatically
+              <input type="checkbox" id="logged-in-toggle" name="logged-in-toggle" ${
+                loginAutomatically ? "checked" : ""
+              } />
+            </label>
+          ${
+            username === "TodePond"
+              ? `
+                <label for="admin-toggle">
+                  Admin controls
+                  <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+                </label>
+              `
+              : ""
+          }
+        </span>
+      </span>
+      `;
+      header.innerHTML = html;
+      const loggedInToggle = document.querySelector("#logged-in-toggle");
+      loggedInToggle.addEventListener("change", () => {
+        localStorage.setItem("labLoginAutoLogin", loggedInToggle.checked);
+      });
+      const adminToggleEnabled =
+        localStorage.getItem("labLoginAdmin") === "true";
+      const adminToggle = document.querySelector("#admin-toggle");
+      if (adminToggle) {
         adminToggle.checked = adminToggleEnabled;
         adminToggle.addEventListener("change", () => {
           localStorage.setItem("labLoginAdmin", adminToggle.checked);
           const actionses = document.querySelectorAll(".actions");
           actionses.forEach(
-            (v) => (v.style.display = adminToggle.checked ? "block" : "none")
+            (v) =>
+              (v.style.display = adminToggle.checked ? "inline-block" : "none")
           );
         });
       }
+      // }
       const deleteAccountButton = document.querySelector("#delete-account");
       deleteAccountButton.addEventListener("click", async () => {
         const confirmDelete = confirm(
@@ -160,7 +190,7 @@
         if (json.error) {
           alert(json.error);
         } else {
-          location.reload();
+          location.href = "/lab/login/?delete";
         }
       });
       const statusInput = document.querySelector("#status");
@@ -226,6 +256,7 @@
   submitButton.addEventListener("click", handleSubmit);
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
+  refreshSign.addEventListener("click", toggleRefresh);
 
   let nameSet = new Set();
 
@@ -266,9 +297,13 @@
     const usernames = users.map((v) => v.username);
     nameSet = new Set(usernames);
 
-    refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
-
-    refreshTimeout = setTimeout(handleTimer, 1000);
+    const localRefreshStatus = getLocalRefreshStatus();
+    if (localRefreshStatus) {
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+      refreshTimeout = setTimeout(handleTimer, 1000);
+    } else {
+      refreshSign.textContent = "Auto-refresh paused";
+    }
   }
 
   async function handleTimer() {
@@ -287,6 +322,48 @@
     refreshTimeout = setTimeout(handleTimer, 1000);
   }
 
+  function setRefreshStatus(on) {
+    if (on) {
+      setLocalRefreshStatus(true);
+      refreshSign.textContent = "Auto-refreshing in " + secondsLeft;
+      if (!getRefreshStatus()) {
+        refreshTimeout = setTimeout(handleTimer, 1000);
+      }
+    } else {
+      setLocalRefreshStatus(false);
+      refreshSign.textContent = "Auto-refresh paused";
+      if (getRefreshStatus()) {
+        clearTimeout(refreshTimeout);
+        refreshTimeout = undefined;
+      }
+    }
+  }
+
+  function getRefreshStatus() {
+    return refreshTimeout !== undefined;
+  }
+
+  function getLocalRefreshStatus() {
+    return localStorage.getItem("labLoginAutoRefresh") !== "false";
+  }
+
+  function setLocalRefreshStatus(on) {
+    if (on) {
+      localStorage.setItem("labLoginAutoRefresh", "true");
+    } else {
+      localStorage.setItem("labLoginAutoRefresh", "false");
+    }
+  }
+
+  function toggleRefresh() {
+    const status = getRefreshStatus();
+    setRefreshStatus(!status);
+  }
+
+  if (!getLocalRefreshStatus()) {
+    setRefreshStatus(false);
+  }
+
   function renderUserStatuses(entries) {
     const currentHash = window.location.hash;
     const main = document.querySelector("main");
@@ -296,6 +373,8 @@
 
     const actionses = document.querySelectorAll(".actions");
     actionses.forEach((v) => (v.innerHTML = ""));
+    const userActionses = document.querySelectorAll(".user-actions");
+    userActionses.forEach((v) => (v.innerHTML = ""));
 
     while (e < entries.length) {
       const entry = entries[e];
@@ -309,11 +388,20 @@
       status.id = "post-" + entry.username;
       strong.className = "name-" + entry.username;
       strong.textContent = entry.username;
+      const h3 = status.querySelector("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.className = "status-" + entry.username;
 
+      addUserActions({
+        userActionsElement: status.querySelector(".user-actions"),
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
       maybeAddActions({
         actionsElement: status.querySelector(".actions"),
         password: passwordInput.value,
@@ -322,7 +410,9 @@
       });
       const actions = status.querySelector(".actions");
       actions.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       s++;
       e++;
     }
@@ -343,7 +433,11 @@
       strong.textContent = entry.username;
       strong.className = "name-" + entry.username;
       p.id = "post-" + entry.username;
-      p.appendChild(strong);
+      const h3 = document.createElement("h3");
+      h3.className = "title-" + entry.username;
+      h3.classList.add("post-title");
+      p.appendChild(h3);
+      h3.appendChild(strong);
       const br = document.createElement("br");
       p.appendChild(br);
       const span = document.createElement("span");
@@ -363,9 +457,21 @@
         admin: usernameInput.value,
         entry,
       });
+      const userActions = document.createElement("div");
+      userActions.classList.add("user-actions");
+      p.appendChild(userActions);
+
+      addUserActions({
+        userActionsElement: userActions,
+        username: entry.username,
+        loggedInUsername: usernameInput.value,
+        loggedInPassword: passwordInput.value,
+      });
 
       div.style.display =
-        localStorage.getItem("labLoginAdmin") === "true" ? "block" : "none";
+        localStorage.getItem("labLoginAdmin") === "true"
+          ? "inline-block"
+          : "none";
       p.appendChild(div);
       main.appendChild(p);
       e++;
@@ -381,6 +487,7 @@
     const enabled = localStorage.getItem("labLoginAdmin") === "true";
     if (admin === "TodePond") {
       const kickNameButton = document.createElement("button");
+      kickNameButton.classList.add("action-button");
       // banButton.className = "danger";
       kickNameButton.textContent = "Kick name";
       kickNameButton.addEventListener("click", () =>
@@ -395,6 +502,7 @@
       const kickStatusButton = document.createElement("button");
       // banButton.className = "danger";
       kickStatusButton.textContent = "Kick status";
+      kickStatusButton.classList.add("action-button");
       kickStatusButton.addEventListener("click", () =>
         handleModeration({
           username: entry.username,
@@ -406,6 +514,7 @@
       );
       const banNameButton = document.createElement("button");
       banNameButton.className = "danger";
+      banNameButton.classList.add("action-button");
       banNameButton.textContent = "Ban name";
       banNameButton.addEventListener("click", () =>
         handleModeration({
@@ -605,29 +714,71 @@
   }
   nameSet = new Set(parsedLocalStatuses.map((v) => v.username));
   renderUserStatuses(parsedLocalStatuses);
-  await pullUserStatuses();
-  loadingFeed.style.display = "none";
+
+  const urlQuery = new URLSearchParams(window.location.search);
+  if (urlQuery.has("logout")) {
+    // remove the query from the url
+    window.history.replaceState({}, "", "/lab/login/");
+  } else if (urlQuery.has("delete")) {
+    // remove the query from the url
+    window.history.replaceState({}, "", "/lab/login/");
+    passwordInput.value = "";
+    usernameInput.value = "";
+  } else if (
+    usernameInput.value &&
+    passwordInput.value &&
+    localStorage.getItem("labLoginAutoLogin") !== "false"
+  ) {
+    // loadingFeed.style.display = "block";
+    refreshSign.textContent = "Logging in...";
+    handleSubmit();
+  } else {
+    pullUserStatuses().then(() => {
+      loadingFeed.style.display = "none";
+    });
+  }
+  // loadingFeed.style.display = "none";
 
   const header = document.querySelector("header");
-  if (usernameInput.value === "TodePond") {
-    const spannn = document.createElement("span");
-    spannn.innerHTML = `
-          <span style="float: right">
-            <label for="admin-toggle">Admin controls</label>
-            <input type="checkbox" id="admin-toggle" name="admin-toggle" />
-          </span>
-        `;
-    header.appendChild(spannn);
-    const adminToggleEnabled = localStorage.getItem("labLoginAdmin") === "true";
-    const adminToggle = document.querySelector("#admin-toggle");
-    adminToggle.checked = adminToggleEnabled;
-    adminToggle.addEventListener("change", () => {
-      localStorage.setItem("labLoginAdmin", adminToggle.checked);
-      const actionses = document.querySelectorAll(".actions");
-      actionses.forEach(
-        (v) => (v.style.display = adminToggle.checked ? "block" : "none")
-      );
-    });
+  // if (usernameInput.value === "TodePond") {
+  // const spannn = document.createElement("span");
+  // spannn.innerHTML = `
+  //         <span style="float: right">
+  //           <label for="admin-toggle">Admin controls</label>
+  //           <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+  //         </span>
+  //       `;
+  // header.appendChild(spannn);
+  // const adminToggleEnabled = localStorage.getItem("labLoginAdmin") === "true";
+  // const adminToggle = document.querySelector("#admin-toggle");
+  // adminToggle.checked = adminToggleEnabled;
+  // adminToggle.addEventListener("change", () => {
+  //   localStorage.setItem("labLoginAdmin", adminToggle.checked);
+  //   const actionses = document.querySelectorAll(".actions");
+  //   actionses.forEach(
+  //     (v) => (v.style.display = adminToggle.checked ? "inline-block" : "none")
+  //   );
+  // });
+  // }
+
+  function addUserActions({
+    userActionsElement,
+    username,
+    loggedInUsername,
+    loggedInPassword,
+  }) {
+    const likeButton = document.createElement("button");
+    likeButton.textContent = "Like";
+    likeButton.classList.add("primary");
+    likeButton.classList.add("action-button");
+    likeButton.addEventListener("click", () =>
+      handleLike({ username, loggedInUsername, loggedInPassword })
+    );
+    userActionsElement.appendChild(likeButton);
+  }
+
+  async function handleLike({ username, loggedInUsername, loggedInPassword }) {
+    alert("glad you like it babe");
   }
 
   addEventListener("pointerdown", (event) => {
