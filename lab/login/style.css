@@ -280,7 +280,9 @@
 .name-R74n::after {
   content: " 🔒";
 }
-
+.at-Tuna::after {
+  all: unset;
+}
 .name-Tuna{
   background: linear-gradient(90deg, rgba(237, 145, 228, 1) 0%, rgba(129, 111, 218, 1) 50%);
   color:transparent;
