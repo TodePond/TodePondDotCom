@@ -52,7 +52,9 @@ And I guess they didn't.
 
 Dr Gravy... not her real name... obviously...
 
-Dr Gravy tilted her head forwards, and she gave me a look that has now become familiar to me over these past four and a half years, with her eyes peering over her sunset glasses, knowing and sympathetic, with sharp pity, like she was about to laugh and sigh at the same time. 
+<br>
+
+Dr Gravy tilted her head towards me, and she gave me a look that has now become familiar to me over these past four and a half years, with her eyes peering over her sunset glasses, knowing and sympathetic, with sharp pity, like she was about to laugh and sigh at the same time.
 
 "You don't like needles?" she asked, smiling sadly.
 
@@ -96,7 +98,7 @@ He paused and then pointed at my hairline.
 
 The plan was to get the tests done, and then I'd get invited back to the hospital in a couple of months. However, when the scans came through, they came out so bad that they called me back one week later.
 
-Apparently, my joints were looking 'not that good'. And my vitamin D was at zero. It wasn't low. It wasn't just like, "You need to spend more time in the sun." No, it was at artificially low levels, so much so that they couldn't detect a single trace of it in my blood. The results sheet came back with lots of warnings. WARNING WARNING. And the doctor explained to me that my vitamin D was so low that they don't even bother making a category for it on their system, because they don't expect anyone to go that low.
+Apparently, my joints were looking 'not that good'. And my vitamin D was at zero. It wasn't low. It wasn't just like, "You need to spend more time in the sun." No, it was at artificially low levels, so much so that they couldn't detect a single trace of it in my blood. The results sheet came back with lots of warnings. WARNING WARNING. And the doctor explained to me that my vitamin D was so low that they don't even bother making a category for it on their system.
 
 "But why?"
 
