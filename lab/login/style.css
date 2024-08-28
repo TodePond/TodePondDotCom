@@ -111,6 +111,16 @@ input[type="checkbox"] {
   outline-color: transparent;
 }
 
+.status > span{
+  scrollbar-color: #357083 transparent;
+  transition: scrollbar-color 0.2s;
+}
+
+.status > span:hover{
+  scrollbar-color: #3891a1 transparent;
+  transition: scrollbar-color 0.2s;
+}
+
 /* ============ */
 /* UsrBinAnnika */
 /* ============ */
