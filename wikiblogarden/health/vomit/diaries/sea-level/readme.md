@@ -1,5 +1,7 @@
 > First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/).
 
+<br>
+
 # VOMIT DIARIES 
 
 They finally referred me to the hospital.
@@ -8,7 +10,7 @@ They finally referred me to the hospital.
 
 # Part one: Sea level
 
-It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got re-referred to the hospital near my work instead.
+It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got re-referred to the hospital near work instead.
 
 <br>
 
