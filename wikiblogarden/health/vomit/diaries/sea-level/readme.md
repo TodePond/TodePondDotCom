@@ -50,11 +50,11 @@ And I guess they didn't.
 
 "Uhh... Blood *tests*? As in... *more than one* blood test?"
 
-Dr Gravy... not her real name... obviously...
+Dr Gravy... not her real name.
 
 <br>
 
-Dr Gravy tilted her head towards me, and she gave me a look that has now become familiar to me over these past four and a half years, with her eyes peering over her sunset glasses, knowing and sympathetic, with sharp pity, like she was about to laugh and sigh at the same time.
+Dr Gravy... tilted her head towards me, and she gave me a look that has now become familiar to me over these past four and a half years, with her eyes peering over her sunset glasses, knowing and sympathetic, with sharp pity, like she was about to laugh and sigh at the same time.
 
 "You don't like needles?" she asked, smiling sadly.
 
