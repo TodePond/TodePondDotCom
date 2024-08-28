@@ -36,7 +36,7 @@ And I guess they didn't.
 > 
 > The real name of the medicine is `methotrexate` but I'm going to refer to it as "medifate".
 
-"Yes. We'll probably start you on some medifate. I just need you to do some tests today—"
+"Yes. We'll probably start you on some medifate. Today I just need you to do some tests."
 
 (Oh no, another blood test!?)
 
