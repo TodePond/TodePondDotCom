@@ -106,7 +106,7 @@ Well, psoriatic arthritis is an autoimmune condition. For some stupid reason, my
 
 My own body attacks itself all over, and this is what causes the scabs and all the joint damage. 
 
-"Fighting my own body" uses up energy, and it uses up *vitamin D*. So if I do actually get ill, for real, then I won't have any vitamin D left to protect myself against the *real* illness. And that would be bad.
+"Fighting my own body" uses up energy, and it uses up *vitamin D*. So if I do actually get ill, for real, then I won't have any vitamin D left over. And that would be bad.
 
 Back then, I needed to take Vitamin D pills, but not the ones you can buy at the pharmacy, no. They're not strong enough, no. I had to get some stronger ones prescribed, just until the arthritis gets under control, that's all. And I started taking them every day.
 
