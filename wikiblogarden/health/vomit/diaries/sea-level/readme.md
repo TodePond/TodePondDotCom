@@ -1,6 +1,6 @@
 # VOMIT DIARIES 
 
-Read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/) first.
+First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/).
 
 <br>
 
