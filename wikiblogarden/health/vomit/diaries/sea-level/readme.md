@@ -24,7 +24,7 @@ I sat down with the doctor in the rheumatology department, and after about thirt
 
 "You've got psoriatic arthritis. And that's causing your joint pain too."
 
-And this was a slightly surprising moment for me. I never thought that my skin issues and joint issues could have been connected. I mean, I feel like an idiot now. Maybe I should've looked up my symptoms and tried to learn more about what I— but I always thought it was best to avoid letting the internet diagnose you.
+And this was a slightly surprising moment for me because I never thought that my skin issues and joint issues could have been connected. I mean, I feel like an idiot now. Maybe I should've looked up my symptoms and tried to learn more about what I— but I always thought it was best to avoid letting the internet diagnose you.
 
 But anyway, the doctor told me, "Your GP should have asked you about joint pain."
 
