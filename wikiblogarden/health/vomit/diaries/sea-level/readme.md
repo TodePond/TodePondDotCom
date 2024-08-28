@@ -1,4 +1,6 @@
-# The VOMIT DIARIES 
+> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction).
+
+# VOMIT DIARIES 
 
 They finally referred me to the hospital.
 
