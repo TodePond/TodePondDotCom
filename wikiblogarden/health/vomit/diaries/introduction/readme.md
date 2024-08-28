@@ -86,7 +86,7 @@ Like I said, psoriatic arthritis can get triggered by stress. And it became a LO
 
 > You can look after your mental health all you want, as best as you can, and I think I did, but you can't stop the stress from going through your body.
 
-My redness got a lot worse, and the scabbing did too. It became impossible to manage— out of control. No amount of T-Gel could stop it, and I became extremely self-conscious about it. The children at school became even more aware of it too.
+My redness got a lot worse, and the scabbing did too. It became impossible to manage and out of control. No amount of T-Gel could stop it, and I became extremely self-conscious about it. The children at school became even more aware of it too.
 
 "Oh no, Mr Wilson! Go look in the mirror! There's something on your head!"
 
