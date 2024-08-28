@@ -422,15 +422,13 @@ input[type="checkbox"] {
 /* ==== */
 /* Tuna */
 /* ==== */
-.at-Tuna::after {
-  all: unset;
-}
 
 .name-Tuna{
-  background: linear-gradient(90deg, rgba(237, 145, 228, 1) 0%, rgba(129, 111, 218, 1) 50%);
+  background: linear-gradient(0deg, rgba(129, 111, 218, 1) 0%, rgba(237, 145, 228, 1) 80%);
   color:transparent;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-shadow: 0 0 .3em rgba(237, 145, 228, 0.3);
 }
 
 .name-Tuna::after{
@@ -445,6 +443,10 @@ input[type="checkbox"] {
   background-clip: text;
   border: 1px solid #816fda;
   border-radius: 3px;
+}
+
+.at-Tuna::after {
+  all: unset;
 }
 
 /* ====== */
