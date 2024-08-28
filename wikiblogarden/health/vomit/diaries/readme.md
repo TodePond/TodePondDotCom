@@ -6,13 +6,6 @@ I have psoriatic arthritis. I've had it for a long time. This is what it's like.
 
 # Introduction
 
-<br>
-
-<hr>
-
-<br>
-
-
 Psoriatic arthritis is something you have a genetic predisposition towards. You're not born with it: You're born with a chance for it to get triggered.
 
 Many things can be the trigger, but for me it was stress. 
