@@ -1,6 +1,4 @@
-> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/). And then carry on reading...
-
-<br>
+> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/). Then carry on reading...
 
 # The VOMIT DIARIES 
 
