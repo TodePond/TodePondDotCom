@@ -8,8 +8,6 @@ They finally referred me to the hospital.
 
 # Part one: Sea level
 
-They finally referred me to the hospital.
-
 It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got re-referred to the hospital near work instead.
 
 <br>
@@ -17,8 +15,6 @@ It was covid hell at the time, so my usual hospital wasn't doing their usual thi
 <hr>
 
 <br>
-
-They finally referred me to the hospital.
 
 I sat down with the doctor in the rheumatology department, and in about thirty seconds she told me:
 
