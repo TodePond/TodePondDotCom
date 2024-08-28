@@ -120,9 +120,9 @@ Back then, I needed to take Vitamin D pills, but not the ones you can buy at the
 
 "Oh that's nice."
 
-<rb>
+<br>
 
-"Wait. Why is it dangerous?"
+"Wait. Why is that dangerous?"
 
 <br>
 
