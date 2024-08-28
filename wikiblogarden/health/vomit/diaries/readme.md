@@ -1,6 +1,10 @@
-# VOMIT DIARIES: Introduction
+# VOMIT DIARIES
 
 I have psoriatic arthritis. I've had it for a long time. This is what it's like. 
+
+<br>
+
+# Introduction
 
 <br>
 
