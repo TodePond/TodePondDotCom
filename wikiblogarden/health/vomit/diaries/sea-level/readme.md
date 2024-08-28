@@ -1,4 +1,4 @@
-> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/). Then carry on reading...
+> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/). Then continue:
 
 # The VOMIT DIARIES 
 
@@ -20,7 +20,7 @@ It was covid hell at the time, so my usual hospital wasn't doing their usual thi
 
 They finally referred me to the hospital.
 
-I sat down with the doctor in the rheumatology department, and after about thirty seconds she told me:
+I sat down with the doctor in the rheumatology department, and in about thirty seconds she told me:
 
 "You've got psoriatic arthritis. And that's causing your joint pain too."
 
