@@ -44,7 +44,7 @@ And I guess they didn't.
 
 (Oh no, another blood test!?)
 
-"And, um—", I muttered. "What kinds of tests?"
+"And, um—", I muttered. "What kinds of tests do I need to do?"
 
 "Let me see." She turned to her computer and started filling in forms. "First go to the blah blah department for a scan, then the blah blah blah department for some more scans, and then go to the blah department for some blood tests."
 
