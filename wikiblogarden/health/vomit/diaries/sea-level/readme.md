@@ -1,12 +1,12 @@
+> First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/).
+
 # VOMIT DIARIES 
 
-First read the [introduction](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/).
+They finally referred me to the hospital.
 
 <br>
 
 # Part one: Sea level
-
-They finally referred me to the hospital.
 
 It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got re-referred to the hospital near my work instead.
 
