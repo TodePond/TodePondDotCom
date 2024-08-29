@@ -160,4 +160,4 @@ So I went back to the doctor and I told them that no, no, it's not fine, it hurt
 
 <br>
 
-Back to the [feed](/feed). Next chapter coming out tomorrow.
+Continue to [part one](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sea-level/).
