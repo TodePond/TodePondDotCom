@@ -178,7 +178,9 @@ After a month, my skin started to heal!!
 
 And shortly after that, my joints stopped hurting!!!!
 
-It was amazing. Everything felt so easy all of a sudden. It was ridiculous. I didn't realise until that point how hard it had felt to just walk and function and do things like a 'normal' person, with all the pain that I was going through. Even doing mundane stuff like... doing the dishes, taking the bins out, and going to the shops... it all became easy. I thought I was just lazy! But it turns out... all of that time, I'd been doing altitude training... and now I was finally back at sea level. 
+It was amazing. Everything felt so easy all of a sudden. It was ridiculous. I didn't realise until that point how hard it had felt to just walk and function and do things like a 'normal' person, with all the pain that I was going through. Even doing mundane stuff like... doing the dishes, taking the bins out, and going to the shops... it all became easy.
+
+I thought I was just lazy! But it turns out... all of that time... I'd been doing altitude training... and now I was finally back at sea level. 
 
 <br>
 
