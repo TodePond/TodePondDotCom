@@ -4,13 +4,13 @@
 
 # VOMIT DIARIES 
 
-I was finally referred to the hospital.
+They finally referred me to the hospital.
 
 <br>
 
 # Part one: Sea level
 
-They finally referred me to the hospital!
+I was finally referred to the hospital!
 
 It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got referred to the hospital near work instead.
 
@@ -122,7 +122,7 @@ Back then, I needed to take Vitamin D pills, but not the ones you can buy at the
 
 "Oh that's nice."
 
-<br>
+"Yeah."
 
 "Wait. Why is that dangerous?"
 
