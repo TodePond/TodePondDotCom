@@ -184,9 +184,9 @@ I thought I was just lazy! But it turns out... all of that time... I'd been doin
 
 <br>
 
-I have a theory: When you're struggling with ongoing pain, it's a kind of defence mechanism to deny that the pain is happening. I couldn't acknowledge the pain I was experiencing, because then it would become unbearably real.
-
-I realised how much I had convinced myself that nothing was wrong. But now that the pain was gone, I could feel the difference, and I felt so much better. 
+> I have a theory: When you're struggling with ongoing pain, it's a kind of defence mechanism to deny that the pain is happening. I couldn't acknowledge the pain I was experiencing, because then it would become unbearably real.
+> 
+> I realised how much I had convinced myself that nothing was wrong. But now that the pain was gone, I could feel the difference, and I felt so much better. 
 
 The end. Everything was solved. Right?
 
