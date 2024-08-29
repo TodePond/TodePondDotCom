@@ -198,4 +198,4 @@ What could possibly go wrong?
 
 <br>
 
-Back to the [feed](/feed). The vomit diaries will continue tomorrow. 
+The vomit diaries will continue tomorrow. Back to the [feed](/feed).
