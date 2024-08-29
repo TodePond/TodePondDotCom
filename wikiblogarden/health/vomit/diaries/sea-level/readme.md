@@ -4,7 +4,7 @@
 
 # VOMIT DIARIES 
 
-They finally referred me to the hospital.
+I was finally referred to the hospital.
 
 <br>
 
