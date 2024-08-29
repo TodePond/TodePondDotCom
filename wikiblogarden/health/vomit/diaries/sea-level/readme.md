@@ -134,7 +134,7 @@ Back then, I needed to take Vitamin D pills, but not the ones you can buy at the
 
 I had to do a long call all about medifate, and how it would help me. 
 
-You see, medifate is a strong poison, a cytotoxin. This is helpful because it can *poison* me, which stops my immune system from working. And that's good because my immune system is causing me so many problems. But it's bad because there's a global pandemic going on and it leaves me immunosuppressed, so I'm more likely to catch illnesses, with less chance to fight them off, and I don't work from home. I work in-person, in-school, because I work with vulnerable kids. 
+You see, medifate is a strong poison, a cytotoxin. This is helpful because it can *poison* me, which stops my immune system from working. And that's good because my immune system is causing me so many problems. But it's bad because there's a global pandemic going on and it leaves me immunosuppressed, so I'm more likely to catch illnesses, with less chance to fight them off, and I don't work from home, no. I work in-person, in-school, because I work with vulnerable kids. 
 
 But that's ok(?) because I get early access to all the new vaccines, and I got two covid vaccines before most people got one, and I also got a flu vaccine and a pneumonia vaccine, and I can get a shingles vaccine at some point in the future. But yes, I still get free access to covid vaccines to this day, even though they've removed it for everybody else, which is very silly because everyone should get it for free of course!!!!
 
