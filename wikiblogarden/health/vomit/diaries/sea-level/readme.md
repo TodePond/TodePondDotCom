@@ -68,7 +68,7 @@ Dr Gravy... tilted her head towards me, and she gave me a look that has become f
 
 I spent most of that day sitting in hospital waiting rooms, and occasionally getting scanned and prodded. 
 
-The blood test was much bigger and longer than my first one. They took eight vials of blood, my personal record, so I was pleased that I had done that first one at the GP already, as a kind of warmup. And as always, the blood test nurses were patient and amazing.
+The blood test was much bigger and longer than my first one. They took eight vials of blood, my personal record, so I was pleased that I had done that first one at the GP already, as a kind of warmup. And as always, the blood test nurses were patiently amazing.
 
 And that was my first time getting a Subway at the hospital Subway.
 
