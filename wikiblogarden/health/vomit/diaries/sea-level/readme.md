@@ -152,7 +152,7 @@ I took my first dose of medifate and everything seemed fine. I heard the familia
 
 It had to be Friday because I was getting regular blood tests during the week, and they needed enough time to: (a) spot any effects from taking the medicine, and (b) tell me to not take it if anything went wrong!!
 
-But all seemed fine.
+But all seemed fine. I was fine.
 
 <br>
 
