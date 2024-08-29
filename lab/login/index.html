@@ -559,6 +559,10 @@
     let html = "";
     let i = 0;
 
+    if (markdown === 'please add gifs') {
+      return '<img src="gif.gif">';
+    }
+
     markdown = markdown
       .replaceAll("<", "")
       .replaceAll(">", "")
