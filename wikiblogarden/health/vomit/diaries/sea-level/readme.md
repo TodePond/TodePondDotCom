@@ -188,6 +188,8 @@ I thought I was just lazy! But it turns out... all of that time... I'd been doin
 > 
 > I realised how much I had convinced myself that nothing was wrong. But now that the pain was gone, I could feel the difference, and I felt so much better. 
 
+<br>
+
 The end. Everything was solved. Right?
 
 <br>
