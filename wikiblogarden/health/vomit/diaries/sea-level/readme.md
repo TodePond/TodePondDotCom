@@ -10,6 +10,8 @@ They finally referred me to the hospital.
 
 # Part one: Sea level
 
+They finally referred me to the hospital!
+
 It was covid hell at the time, so my usual hospital wasn't doing their usual thing. So I got referred to the hospital near work instead.
 
 <br>
