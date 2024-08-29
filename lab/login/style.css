@@ -447,3 +447,13 @@ input[type="checkbox"] {
   background-clip: text;
   color: transparent;
 }
+
+.name-hunter2 {
+  color: transparent;
+}
+.name-hunter2::before {
+  content: '*******';
+  position: absolute;
+  color: white;
+  pointer-events: none;
+}
