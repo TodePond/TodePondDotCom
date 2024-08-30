@@ -8,7 +8,7 @@ As the medifate started to build up in my system—
 
 <br>
 
-I got used to the regular blood tests and checkups at the hospital. I had to take more and more time off work.
+I got used to the regular blood tests and checkups at the hospital. I had to take more and more days off work.
 
 <br>
 
