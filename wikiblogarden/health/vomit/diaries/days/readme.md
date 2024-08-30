@@ -56,7 +56,7 @@ So the doctor bumped me up again, from three to five folic acids, which was the 
 
 Again, it didn't work, and Saturdays became defined by the uncomfortable taste in my mouth. A muddy taste, like I needed to spit, but I couldn't, because it was too sticky.
 
-So I tried eating things with a strong sweet taste to try to get rid of the dullness. But it didn't help.
+So I tried eating things that had a strong sweet taste to try to get rid of the dullness. But it didn't help.
 
 And my stomach felt like it was upside down, or it didn't know which way was up. The room turned around me, slowly tilting to the side.
 
@@ -195,4 +195,4 @@ School was back to normal, of course, despite the pandemic still thriving, of co
 <br>
 
 The vomit diaries continue tomorrow.<br>
-Back to the [feed](/feed).
+Back to the [contents](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
