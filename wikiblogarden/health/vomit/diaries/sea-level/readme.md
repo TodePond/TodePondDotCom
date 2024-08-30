@@ -202,4 +202,4 @@ What could possibly go wrong?
 
 <br>
 
-The vomit diaries will continue tomorrow. Back to the [feed](/feed).
+Continue to [part two](https://www.todepond.com/wikiblogarden/health/vomit/diaries/days).
