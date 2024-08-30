@@ -111,6 +111,21 @@ input[type="checkbox"] {
   outline-color: transparent;
 }
 
+#gif-dialog {
+  background-color: var(--shade-4);
+  color: white;
+}
+
+#gif-dialog header {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+#gif-dialog .close-button {
+  margin-left: auto;
+}
+
 /* ============ */
 /* UsrBinAnnika */
 /* ============ */
