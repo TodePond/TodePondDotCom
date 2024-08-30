@@ -34,7 +34,7 @@ I noticed that I started to feel a bit funny on the day after taking medifate. A
 
 <br>
 
-Time went on, and it got worse. I started to feel queasy when I took the pills. When I took the pills, I became nauseous, and I started spending most Saturdays on the sofa. 
+Time went on, and it only got worse. I started to feel queasy when I took the pills. When I took the pills, I became nauseous, and I started spending most Saturdays on the sofa. 
 
 So I told the doctor, and she bumped up my folic acid from one a week to three a week.
 
