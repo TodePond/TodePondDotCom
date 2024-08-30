@@ -70,47 +70,29 @@ I shut my eyes and let it pass.
 
 <br>
 
-In the meantime, it was decided that, although the medifate was helping a lot, it wasn't doing enough to completely get rid of my psoriatic arthritis. 
+In the meantime, it was decided that, although the medifate was helping a lot, it wasn't doing enough to completely get rid of my psoriatic arthritis. So I'd have to—
 
 "Do I have to take more medifate?"
 
-Dr Gravy heard the anxiety in my voice, and she stopped typing, and she turned in her chair.
-
-<br>
+Dr Gravy heard the anxiety in my voice and stopped typing. Then she turned to me in her chair and she gave me THAT LOOK AGAIN.
 
 "No."
 
-<br>
-
-<br>
-
 "Don't worry Luke."
-
-<br>
-
-<br>
-
-<br>
 
 "We'll start you on sulfasalazine—"
 
-<br>
-
-<br>
-
-<br>
-
-<br>
+Can eyes be accurate?
 
 "—in addition to the medifate."
 
-<br>
+"And then you'll be ready to switch over to that completely—"
 
-<br>
+I think they can.
 
-<br>
+"—if the medifate keeps causing you trouble."
 
-"And then you'll be ready to switch over to that completely if the medifate keeps causing you trouble."
+I think they can.
 
 <br>
 
