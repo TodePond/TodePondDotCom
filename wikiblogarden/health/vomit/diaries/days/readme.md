@@ -46,7 +46,7 @@ So I told the doctor, and she bumped up my folic acid from one a week to three a
 
 Unfortunately, it didn't help, and it only got worse. I became more and more unwell on my "day after".
 
-So the doctor bumped me up again, from three to five folic acids now, which was the maximum she could prescribe.
+So the doctor bumped me up again, from three to five folic acids, which was the maximum she could prescribe.
 
 <br>
 
