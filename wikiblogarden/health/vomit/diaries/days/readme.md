@@ -26,7 +26,7 @@ I noticed that I started to feel a bit funny on the day after taking medifate. A
 
 "Mr Wilson. The blood on your head is gone."
 
-"Well, yes, but no, no it wasn't blood, but yes."
+"Well, yes, but no it wasn't blood, but yes."
 
 <br>
 
