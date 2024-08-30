@@ -54,11 +54,11 @@ So the doctor bumped me up again, from three to five folic acids, which was the 
 
 <br>
 
-Again, it didn't work, and Saturdays became defined by the taste I developed in my mouth. A muddy taste, like I needed to spit, but I couldn't, because it tasted too sticky.
+Again, it didn't work, and Saturdays became defined by the taste I developed in my mouth. A muddy taste, like I needed to spit, but I couldn't, because it was too sticky.
 
-So I tried eating things with a strong sweet taste, like ... sweets. But it didn't help.
+So I ate different things with a strong sweet taste to try to get rid of the dullness in my mouth. But it didn't help.
 
-And my stomach felt like it was upside down, or it didn't know which way was up. The room turned around me, constantly tilting to the side.
+And my stomach felt like it was upside down, or it didn't know which way was up. The room turned around me, slowly tilting to the side.
 
 So I just sat down or lay down, depending on what felt easier. 
 
