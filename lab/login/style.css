@@ -430,7 +430,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-shadow: 0 0 2px rgba(255, 255, 255, .3);
-  cursor: pointer;
 }
 
 .name-netux::before, .name-netux::after {
@@ -505,13 +504,17 @@
   }
 }
 
-.name-netux:hover::before {
+.name-netux:not(.at) {
+  cursor: help;
+}
+
+.name-netux:not(.at):hover::before {
   content: "";
   top: 0.2rem;
   transform-origin: 6px 6px;
   animation: netux--deal-with-it__hand 3s linear forwards;
 }
-.name-netux:hover::after {
+.name-netux:not(.at):hover::after {
   content: "⌐■_■";
   visibility: hidden;
   animation:
