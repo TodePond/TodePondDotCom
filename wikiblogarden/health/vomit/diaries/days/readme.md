@@ -108,7 +108,7 @@ I think they can.
 
 Sulfasalazine contains sulfur (the clue's in the name). And sulfur messes up my white blood cells somehow. That's good, because my white blood cells are part of my immune response, and my immune response is messing up my skin and joints.
 
-Again, the instructions were clear: I take four sulfasalazine pills every day. Two in the morning, two in the evening. But you can't just start on that straight away, no. Your body can't deal with all that all in one go, no. You'll end up feeling sick, so don't do that, no. You have to build up to it instead! 
+Again, the instructions were clear: Take four sulfasalazine pills every day. Two in the morning, two in the evening. But you can't just start on that straight away, no. Your body can't deal with all that all in one go, no. You'll end up feeling sick, so don't do that, no. You have to build up to it instead! 
 
 For one week, take one pill a day. Then in the second week, take two pills a day. Then take three pills a day in the third week. And then in the fourth week, you've made it to full dose, four pills every day, congratulations!
 
