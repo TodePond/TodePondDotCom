@@ -150,7 +150,7 @@ I never noticed that medifate had a smell before. But as time went on, I became 
 
 <br>
 
-I think the worst part of the side effects was how it made me feel like a zombie: Everything moved in slow motion on my day after medifate, or rather, I moved in slow motion. It was like my whole body and mind worked at half speed. It felt hard to think and do things, so I spent all Saturdays in bed, and sometimes Sundays too, as the effects started to spill over. 
+I think the worst part of the side effects was how it made me feel like a zombie: Everything moved in slow motion on my day after, or rather, it was me that moved in slow motion. It was like my whole body and mind worked at half speed. It felt hard to think and do things, so I spent all Saturdays in bed, and sometimes Sundays too, as the effects started to spill over. 
 
 Medifate is a medicine that *builds up*. It doesn't start when you take it and end a week later, no. It builds up and *cumulates*, so its effects get stronger over time, as it becomes more and more present in your body. 
 
