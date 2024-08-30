@@ -74,6 +74,12 @@ In the meantime, it was decided that, although the medifate was helping a lot, i
 
 "Do I have to take more medifate?"
 
+<br>
+
+<hr>
+
+<br>
+
 Dr Gravy heard the anxiety in my voice and stopped typing. Then she turned to me in her chair and she gave me THAT LOOK AGAIN.
 
 "No."
@@ -93,10 +99,6 @@ I think they can.
 "—if the medifate keeps causing you trouble."
 
 I think they can.
-
-<br>
-
-Dr Gravy said all this while looking at me accurately, if that's a possible thing to do.
 
 <br>
 
