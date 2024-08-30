@@ -72,19 +72,49 @@ I shut my eyes and let it pass.
 
 In the meantime, it was decided that, although the medifate was helping a lot, it wasn't doing enough to completely get rid of my psoriatic arthritis. 
 
-"Will I need to take more?"
+"Do I have to take more medifate?"
+
+Dr Gravy heard the anxiety in my voice, and she stopped typing, and she turned in her chair.
+
+<br>
+
+"No."
 
 <br>
 
 <br>
 
-Dr Gravy heard my anxiety, and stopped typing, and turned on her chair.
+"Don't worry Luke."
 
-"No, don't worry Luke" she said, looking at me accurately.
+<br>
 
-"We'll start you on sulfasalazine, in addition to the medifate. And then you'll be ready to switch over to that completely if the medifate keeps causing you trouble."
+<br>
 
-> Can eyes be accurate?
+<br>
+
+"We'll start you on sulfasalazine—"
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+"—in addition to the medifate."
+
+<br>
+
+<br>
+
+<br>
+
+"And then you'll be ready to switch over to that completely if the medifate keeps causing you trouble."
+
+<br>
+
+Dr Gravy said all this while looking at me accurately, if that's a possible thing to do.
 
 <br>
 
