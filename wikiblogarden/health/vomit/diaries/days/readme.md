@@ -186,7 +186,7 @@ School was back to normal, of course, despite the pandemic still thriving, of co
 
 <br>
 
-Maybe the it was all in my head?
+*Maybe it was all in my head?*
 
 <br>
 
