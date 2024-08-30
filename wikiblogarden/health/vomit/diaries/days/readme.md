@@ -1,12 +1,12 @@
-# Part two: Days
+Read from the [start](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+
+# VOMIT DIARIES
 
 As the medifate started to build up in my system—
 
 <br>
 
-<hr>
-
-<br>
+# Part two: Days
 
 I got used to the regular blood tests and checkups at the hospital. I had to take more and more days off work.
 
