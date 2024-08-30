@@ -110,11 +110,11 @@ Sulfasalazine contains sulfur (the clue's in the name). And sulfur messes up my 
 
 Again, the instructions were clear: Take four sulfasalazine pills every day. Two in the morning, two in the evening. But you can't just start on that straight away, no. Your body can't deal with all that all in one go, no. You'll end up feeling sick, so don't do that, no. You have to build up to it instead! 
 
-For one week, take one pill a day. Then in the second week, take two pills a day. Then take three pills a day in the third week. And then in the fourth week, you've made it to full dose, four pills every day, congratulations!
+For one week, take one pill a day. Then in the second week, take two pills a day. Then take three pills in the third week. And then in the fourth week, you've made it to full dose, four pills every day, congratulations!
 
-And of course, you need to take regular blood tests at first, to make sure it isn't messing up your white blood cells *too much*.
+Of course, you need to take regular blood tests at first, to make sure it doesn't mess up your white blood cells *too much*.
 
-The sulfur does some other things to your body too. It turns your sweat and wee yellow, slightly glowing yellow.
+And heads up: The sulfur does some other things to your body too. It turns your sweat and wee yellow, slightly glowing yellow.
 
 > Don't worry! You're not dehydrated. It's just the sulfur.
 
