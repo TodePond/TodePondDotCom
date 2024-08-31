@@ -1,8 +1,8 @@
-Read from the [start](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+> Read from the [start](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
 
 # VOMIT DIARIES
 
-I remember the first time I threw up from taking m—
+I remember the first time I threw up from m—
 
 <br>
 
