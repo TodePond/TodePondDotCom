@@ -194,5 +194,4 @@ School was back to normal, of course, despite the pandemic still thriving, of co
 
 <br>
 
-The vomit diaries continue tomorrow.<br>
-Back to the [contents](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+Continue to [part three](https://www.todepond.com/wikiblogarden/health/vomit/diaries/in-your-head).
