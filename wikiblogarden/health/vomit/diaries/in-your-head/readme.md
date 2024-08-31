@@ -2,7 +2,7 @@ Read from the [start](https://www.todepond.com/wikiblogarden/health/vomit/diarie
 
 # VOMIT DIARIES
 
-I remember the first time I threw up from m—
+I remember the first time I threw up from taking m—
 
 <br>
 
