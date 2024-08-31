@@ -252,7 +252,7 @@ Her hands floated up off her keyboard. And she finally turned towards me fully, 
 
 <br>
 
-It turns out, there's another way to take cushion. It doesn't have to be pills. You can also inject it, you can self-inject it into your own leg. And while I do despise needles, I'd do anything if it stopped the—
+It turns out, there's another way to take cushion. It doesn't have to be pills. You can also inject it, you can self-inject it into your own leg. And of course, I despise needles, because of that time when I was tiny, when I got that pin stuck in my foot and, in a way, it got stuck in my head too, because ever since then I've—
 
 <br>
 
