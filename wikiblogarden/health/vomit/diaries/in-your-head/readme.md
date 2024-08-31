@@ -158,7 +158,7 @@ My body got it wrong, but that didn't make it any easier, and every day at nurse
 
 "I don't like it," I said. "It makes me sick."
 
-And of course, they told me, "Just give it a try. You'll like it really. It's all in your head."
+And of course, they told me, "Just give it a try. You'll like it really. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
 
 <br>
 
@@ -198,7 +198,7 @@ But sometimes it's best not to. You don't *have* to change your emotion. Sometim
 
 ## Letting go
 
-It's not always bad to feel sad! Let yourself feel it in its totality, in its fullness. Cry it all out, completely. Let yourself feel sad. Honour whatever or whoever it is that's making you feel that way. 
+It's not always bad to feel sad! Let yourself feel it in its totality, in its fullness. Cry it all out, completely. Let yourself feel sad. Honour whatever or whoever it is that's making you feel this way. 
 
 Or if you're angry, then let it sit! Get hyped up! Go settle whatever it is that's got you grappled like this! Don't settle for any less! This is your moment! You can channel this feeling into action, into something good!
 
@@ -216,7 +216,7 @@ Or if you're angry, then let it sit! Get hyped up! Go settle whatever it is that
 
 Dr Gravy *wasn't* looking at me over her sunset glasses.
 
-No, she was looking at her— something has caught her— her computer screen instead— something had caught her eye.
+No, she was looking at her— something had caught her— her computer screen instead— something had caught her eye.
 
 "It says here that you're transitioning."
 
