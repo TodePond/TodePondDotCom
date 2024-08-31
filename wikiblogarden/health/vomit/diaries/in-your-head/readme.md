@@ -64,7 +64,7 @@ In some ways, everything is in your head. All of your lived experience and perce
 
 That screen you're looking at right now, yes, this one. It's in your head. The screen (or screenreader) you're reading (or listening to) this blog post on, is— it's real to you, it exists, because you can imagine it in your head.
 
-It also exists in the "real world", maybe in your hand or your desk, or the room somewhere. But you can only sense that because it's in your head. By holding it in your head, firmly in your mind's eye, you can start to piece together where it is, what it is, what it's like.
+It also exists in the "real world", maybe in your hand or your desk, or the room somewhere. But you can only sense that because it's in your head. By holding it in your head, firmly in your mind's eye, you can start to piece together where something is, what it is, what it's like.
 
 ## What is a memory?
 
