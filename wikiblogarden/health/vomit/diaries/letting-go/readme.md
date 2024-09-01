@@ -20,7 +20,7 @@ The main change I experienced was...
 
 The [cardboard cutout](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) backdrop of my life was gone. All those moments of kids and colleagues surprising me, and making me laugh, and pushing me to my limits. 
 
-And forcing me to answer questions about myself and what I value, and who I really am in those challenging moments. The patience required really strengthened me, but I also held deep regrets, of all the times I fucked up, or I could have done more, or I should have done less. 
+And forcing me to answer questions about myself and what I value, and who I really am in those challenging moments. The patience required really strengthened me, but it also gave me deep regrets, of all the times I fucked up, or I could have done more, or I should have done less. 
 
 And I felt like I was abandoning them all, but— yes a story for another day. 
 
