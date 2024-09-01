@@ -109,13 +109,13 @@ I couldn't take cushion anymore, I couldn't look at it, couldn't even hold a pot
 
 My body was trying to protect me. It *learned* that cushion was POISON.
 
-Of course, in this case, my body was right: Cushion is poison.
+Of course, in this case, my body was right: Cushion *is* poison.
 
-My body got it right, but that didn't make it any easier, and every appointment at the doctors, and at the hospital, people told me to take it.
+My body got it right, but that didn't make it any easier, and at every appointment, people told me to take it.
 
 "I don't like it," I said. "It makes me sick."
 
-And of course, people told me, "Just give it a try. It'll be okay really. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
+And of course, they told me, "Just give it a try. It'll be okay really. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
 
 <br>
 
@@ -129,7 +129,9 @@ And of course, people told me, "Just give it a try. It'll be okay really. It's [
 
 # In your head
 
-What does it mean for something to be— I don't care what it means. I'm not taking it.
+What does it mean for something to be in your head?
+
+I don't care what it means. It's yet another definition that [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/).
 
 <br>
 
