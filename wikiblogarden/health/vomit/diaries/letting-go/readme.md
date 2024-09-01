@@ -58,7 +58,7 @@ But of course, nurses can't make that kind of decision, so it was a bit unfair o
 
 So she tried her best to encourage me to "stick with it" and "see how it goes" for another six months. 
 
-"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can stick with you. So it's possible that it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
+"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can stuck in your head."
 
 <br>
 
