@@ -95,7 +95,7 @@ Anyone who says otherwise is a... <details><summary>Spoiler alert. Click to reve
 
 I stuck with the cushion for about three months, and then I stopped taking it out of protest, and some people worried about me, and gently encouraged me to start taking it again. 
 
-But no, I couldn't face it. I was at a [new job](https://tldraw.com), that I loved. And while I'm sure that my work would have been fine with me taking time off, I didn't want to do that. I was sick of being sick!
+But no, I couldn't face it. I was at a [new job](https://tldraw.com) that I loved. And I'm sure that my work would have been fine with me taking time off, but I didn't want to do that. I was just sick of being sick!
 
 And so, I welcomed back all my psoriasis symptoms with open arms. Hello again, red forehead! Welcome back, crippling limp! Oh and hi there, scabby leg, you're new! They were nothing compared to weekly vomit. 
 
