@@ -2,6 +2,8 @@
 
 # VOMIT DIARIES
 
+I quit my job.
+
 <br>
 
 # Part four: Letting go
