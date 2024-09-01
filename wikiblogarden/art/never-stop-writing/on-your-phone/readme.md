@@ -38,4 +38,14 @@ by [ngons](https://mathstodon.xyz/@ngons/112105422898363468)
 
 <br>
 
+## Music adaptation
+
+by me
+
+<video controls>
+  <source src="2.mp4" type="video/mp4">
+</video>
+
+<br>
+
 Back to the [wikiblogarden](/wikiblogarden).
