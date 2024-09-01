@@ -76,7 +76,7 @@ What does it mean for something to be in your head?
 
 ## Gender dysphoria
 
-How do you know if someone is `transgender` or not? How do you know if *you're* `transgender` or not? 
+How do you know if someone is trans or not? How do you know if *you're* trans or not? 
 
 <details>
 <summary>
@@ -84,16 +84,12 @@ Spoiler alert. Click to reveal.
 </summary>
 Being trans is something that you feel in your head. And that doesn't make it any less real.
 
-Anyone who says otherwise is a <details><summary>Spoiler alert. Click to reveal.</summary>gatekeeping piece of shit.</details>
+Anyone who says otherwise is a... <details><summary>Spoiler alert. Click to reveal.</summary>Gatekeeping piece of shit.</details>
 </details>
 
 <br>
 
-<br>
-
-<br>
-
-<br>
+<hr>
 
 <br>
 
