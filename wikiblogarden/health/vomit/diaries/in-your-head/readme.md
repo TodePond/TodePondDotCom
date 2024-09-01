@@ -278,5 +278,4 @@ And I was losing a lot of weight too, as you might imagine. Lots of people were 
 
 <br>
 
-The vomit diaries continue tomorrow.<br>
-Back to the [contents](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+Continue to [part four](https://www.todepond.com/wikiblogarden/health/vomit/diaries/letting-go).
