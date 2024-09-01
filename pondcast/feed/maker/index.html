@@ -45,6 +45,7 @@
 
 <header>
   <button id="add-item">Add item</button>
+  <button id="build-feed">Build Feed</button>
   <button id="copy-feed">Copy feed</button>
   <a
     href="https://github.com/TodePond/TodePondDotCom/edit/main/pondcast/index.xml"
@@ -203,19 +204,24 @@
     return feed;
   }
 
+  const buildFeedButton = document.getElementById('build-feed');
   const copyFeedButton = document.getElementById('copy-feed');
+
   let copiedCount = 0;
-  copyFeedButton.addEventListener('click', async () => {
+  let feed = null;
+  buildFeedButton.addEventListener('click', async () => {
     const items = deriveItems();
-    copyFeedButton.textContent = 'Calculating feed...';
+    buildFeedButton.textContent = 'Building feed...';
     const rss = await makeFeed(items);
-    const feed = document.createElement('textarea');
-    feed.value = rss;
-    document.body.appendChild(feed);
-    feed.select();
-    feed.setSelectionRange(0, 99999999);
-    document.execCommand('copy');
-    feed.remove();
+    feed = rss;
+    buildFeedButton.textContent = 'Built!';
+  });
+  copyFeedButton.addEventListener('click', async () => {
+    if (!feed) {
+      alert('You need to build the feed first');
+      return;
+    }
+    navigator.clipboard.writeText(feed);
     copyFeedButton.textContent = 'Copied!';
     copiedCount++;
     if (copiedCount > 1) {
