@@ -80,7 +80,10 @@ Spoiler alert. Click to reveal.
 </summary>
 Being trans is something that you feel in your head. And that doesn't make it any less real.
 
-Anyone who says otherwise is a... <details><summary>Spoiler alert. Click to reveal.</summary>Gatekeeping piece of shit.</details>
+Anyone who says otherwise is a...
+<br>
+
+<details><summary>Spoiler alert. Click to reveal.</summary>Gatekeeping piece of shit.</details>
 </details>
 
 <br>
