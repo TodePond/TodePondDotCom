@@ -126,7 +126,7 @@ And of course, they told me, "Just give it a try. It'll be okay really. It's [ju
 
 What does it mean for something to be in your head?
 
-It seems like yet another definition that [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/).
+It [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/).
 
 <br>
 
