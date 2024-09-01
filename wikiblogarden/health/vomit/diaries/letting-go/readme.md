@@ -32,7 +32,7 @@ And I felt like I was abandoning them all, but— yes, a story for another day.
 
 The nurse came around and—
 
-I was very nervous while I was waiting for the nurse to show up. But as it happened, the injection was very easy, and I didn't feel a thing, and you can't see the needle anyway. The main thing to know is that you need to put it in the right sharps bin afterwards, the purple one, because it's a cytotoxin. And what that means is that you can't spill it on your skin, because it's a cytotoxin and it will damage your skin. But injecting it inside your body is totally fine(!).
+I was very nervous while I waited for the nurse to show up. But as it happened, the injection was very easy, and I didn't feel a thing, and you can't see the needle anyway. The main thing to know is that you need to put it in the right sharps bin afterwards, the purple one, because it's a cytotoxin. And what that means is that you can't spill it on your skin, because it's a cytotoxin and it will damage your skin. But injecting it inside your body is totally fine(!).
 
 But yeah, there's a spill kit in case you accidentally get it somewhere *outside* your body.
 
