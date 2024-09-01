@@ -22,7 +22,7 @@ The [cardboard cutout](https://www.todepond.com/wikiblogarden/london/cardboard/c
 
 And forcing me to answer questions about myself and what I value, and who I really am in those challenging moments. The patience required really strengthened me, but it also gave me deep regrets, of all the times I fucked up, or I could have done more, or I should have done less. 
 
-And I felt like I was abandoning them all, but— yes a story for another day. 
+And I felt like I was abandoning them all, but— yes, a story for another day. 
 
 <br>
 
