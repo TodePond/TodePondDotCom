@@ -66,10 +66,6 @@ So she tried her best to encourage me to "stick with it" and "see how it goes" f
 
 <br>
 
-<br>
-
-<br>
-
 # In your head
 
 What does it mean for something to be in your head? 
@@ -123,15 +119,11 @@ And of course, they told me, "Just give it a try. It'll be okay really. It's [ju
 
 <br>
 
-<br>
-
-<br>
-
 # In your head
 
 What does it mean for something to be in your head?
 
-I don't care what it means. It's yet another definition that [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/).
+It seems like yet another definition that [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/).
 
 <br>
 
