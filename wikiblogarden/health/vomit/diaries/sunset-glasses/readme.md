@@ -48,7 +48,7 @@ Six! That's quite a lot. And remembered back to that first visit when I got eigh
 
 "What!? Twenty? That must take forever!?!!"
 
-"No, it's no problem, I do them very quickly. Watch this."
+"No, it's no problem, I do them very fast. Watch this."
 
 And then he proceeded to demonstrate to me how fast he could get through six vials. And I watched a man speedrun a blood test for the first time in my life, adjusting the strap even tighter than usual for a couple frames increase.
 
