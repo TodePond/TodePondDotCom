@@ -56,35 +56,57 @@ const strokes = [];
 let PENCIL_BASE_SIZE = 1;
 let ERASER_BASE_SIZE = 70;
 
+let slowmoIteration = 0;
+let slowmoStrokeIteration = 0;
 function draw() {
   context.clearRect(0, 0, canvas.width, canvas.height);
-
   context.lineCap = "round";
   context.lineJoin = "round";
-  for (const stroke of strokes) {
-    switch (stroke.type) {
-      case "pencil": {
-        setContextStrokeStyle("white");
-        setContextLineWidth(PENCIL_BASE_SIZE);
-        setContextCompositeOperation("source-over");
-        break;
-      }
-      case "eraser": {
-        setContextStrokeStyle("white");
-        setContextLineWidth(ERASER_BASE_SIZE);
-        setContextCompositeOperation("destination-out");
-        break;
-      }
-    }
-    context.beginPath();
-    const [x, y] = stroke.points[0];
-    context.moveTo(x, y);
-    for (let i = 1; i < stroke.points.length; i++) {
-      const [x2, y2] = stroke.points[i];
-      context.lineTo(x2, y2);
-    }
-    context.stroke();
+
+  if (strokes.length === 0) return;
+
+  let i = 0;
+  while (i < strokes.length && i <= slowmoIteration) {
+    const pointsToDraw =
+      i === slowmoIteration ? slowmoStrokeIteration : Infinity;
+    drawStroke(strokes[i], pointsToDraw);
+    i++;
   }
+
+  const currentStroke = strokes[slowmoIteration];
+  if (!currentStroke) return;
+
+  if (slowmoStrokeIteration < currentStroke.points.length) {
+    slowmoStrokeIteration++;
+  } else {
+    slowmoIteration++;
+    slowmoStrokeIteration = 0;
+  }
+}
+
+function drawStroke(stroke, maxPointIndex = Infinity) {
+  switch (stroke.type) {
+    case "pencil": {
+      setContextStrokeStyle("white");
+      setContextLineWidth(PENCIL_BASE_SIZE);
+      setContextCompositeOperation("source-over");
+      break;
+    }
+    case "eraser": {
+      setContextStrokeStyle("white");
+      setContextLineWidth(ERASER_BASE_SIZE);
+      setContextCompositeOperation("destination-out");
+      break;
+    }
+  }
+  context.beginPath();
+  const [x, y] = stroke.points[0];
+  context.moveTo(x, y);
+  for (let i = 1; i < stroke.points.length && i < maxPointIndex; i++) {
+    const [x2, y2] = stroke.points[i];
+    context.lineTo(x2, y2);
+  }
+  context.stroke();
 }
 
 let currentStrokeStyle = "black";
@@ -167,6 +189,8 @@ addEventListener("pointermove", (event) => {
 addEventListener("pointerup", (event) => {
   updatePointerPositionFromEvent(event);
   pointer.down = false;
+  slowmoIteration = 0;
+  slowmoStrokeIteration = 0;
 });
 
 /** @type {StrokeType} */
