@@ -38,7 +38,7 @@ And when she told me the amount it costs I was shocked, but then she said, "Oh b
 
 Just like my very first visit, I spent most of that day sitting in hospital waiting rooms, and occasionally getting scanned and prodded.
 
-In the blah blah department, I asked the blood test nurse how many vials of blood he would take. I always ask this because it lets me emotionally prepare myself for how long I need to look away.
+In the blah blah department, I asked the blood test nurse how many vials of blood he would take. I always ask this because it lets me emotionally prepare for how long I need to look away.
 
 "Six."
 
