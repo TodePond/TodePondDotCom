@@ -4,7 +4,7 @@
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
   </style>
 
-# RIBBIT REPORT: Definitions that don't matter
+# Definitions that don't matter
 
 Here are some definitions that don't matter.
 
