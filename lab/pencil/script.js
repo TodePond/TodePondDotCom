@@ -1,9 +1,18 @@
-const maybeCanvas = document.querySelector("canvas");
+/** @type {HTMLCanvasElement | null} */
+const maybeCanvas = document.querySelector("canvas#canvas");
 if (!maybeCanvas) throw new Error("Canvas not found");
 const canvas = maybeCanvas;
 const maybeContext = canvas.getContext("2d");
 if (!maybeContext) throw new Error("2d context not found");
 const context = maybeContext;
+
+/** @type {HTMLCanvasElement | null} */
+const maybeOverlayCanvas = document.querySelector("canvas#overlay");
+if (!maybeOverlayCanvas) throw new Error("Overlay canvas not found");
+const overlayCanvas = maybeOverlayCanvas;
+const maybeOverlayContext = overlayCanvas.getContext("2d");
+if (!maybeOverlayContext) throw new Error("2d context not found");
+const overlayContext = maybeOverlayContext;
 
 let dpr = devicePixelRatio;
 
@@ -11,6 +20,13 @@ function handleResize() {
   dpr = devicePixelRatio;
   canvas.width = window.innerWidth * dpr;
   canvas.height = window.innerHeight * dpr;
+  overlayCanvas.width = window.innerWidth * dpr;
+  overlayCanvas.height = window.innerHeight * dpr;
+  try {
+    currentCompositeOperation = "source-over";
+    currentLineWidth = 1;
+    currentStrokeStyle = "black";
+  } catch (e) {}
 }
 
 handleResize();
@@ -20,7 +36,7 @@ let currentCursor = "auto";
 function setCursor(cursor) {
   if (currentCursor === cursor) return;
   currentCursor = cursor;
-  canvas.style.cursor = cursor;
+  overlayCanvas.style.cursor = cursor;
 }
 
 setCursor("crosshair");
@@ -69,25 +85,6 @@ function draw() {
     }
     context.stroke();
   }
-
-  setContextCompositeOperation("source-over");
-  setContextStrokeStyle("gray");
-  setContextLineWidth(1);
-  let radius;
-  switch (currentTool) {
-    case "pencil": {
-      radius = PENCIL_BASE_SIZE;
-      break;
-    }
-    case "eraser": {
-      radius = ERASER_BASE_SIZE;
-      break;
-    }
-  }
-  radius /= 2;
-  context.beginPath();
-  context.arc(...pointer.position, radius, 0, 2 * Math.PI);
-  context.stroke();
 }
 
 let currentStrokeStyle = "black";
@@ -111,8 +108,30 @@ function setContextCompositeOperation(compositeOperation) {
   context.globalCompositeOperation = compositeOperation;
 }
 
+function drawOverlay() {
+  overlayContext.clearRect(0, 0, canvas.width, canvas.height);
+  overlayContext.strokeStyle = "gray";
+  overlayContext.lineWidth = 1;
+  let radius;
+  switch (currentTool) {
+    case "pencil": {
+      radius = PENCIL_BASE_SIZE;
+      break;
+    }
+    case "eraser": {
+      radius = ERASER_BASE_SIZE;
+      break;
+    }
+  }
+  radius /= 2;
+  overlayContext.beginPath();
+  overlayContext.arc(...pointer.position, radius, 0, 2 * Math.PI);
+  overlayContext.stroke();
+}
+
 function tick() {
   draw();
+  drawOverlay();
   requestAnimationFrame(tick);
 }
 
@@ -126,6 +145,7 @@ const pointer = {
 
 function updatePointerPositionFromEvent(event) {
   pointer.position = [event.clientX * dpr, event.clientY * dpr];
+  drawOverlay();
 }
 
 addEventListener("pointerdown", (event) => {
@@ -164,7 +184,7 @@ addEventListener("keydown", (event) => {
     }
     case "e": {
       currentTool = "eraser";
-      setCursor("none");
+      //   setCursor("none");
       break;
     }
   }
@@ -174,7 +194,7 @@ addEventListener("keyup", (event) => {
   switch (event.key) {
     case "e": {
       currentTool = "pencil";
-      setCursor("crosshair");
+      //   setCursor("crosshair");
       break;
     }
   }
