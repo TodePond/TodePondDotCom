@@ -16,7 +16,7 @@ I sat in my usual chair.
 
 I can't imagine how hard it is to be a doctor, or a nurse. You're probably way overworked, way underpaid, but you're in that field because you want to help people.
 
-And you're trying you're best with what you have and sometimes you—
+And you're trying your best with what you have and sometimes you—
 
 "You poor thing", Dr Gravy said, yes, and yes, she said it while looking over her sunset glasses, which she then took off, and held in her hand. 
 
