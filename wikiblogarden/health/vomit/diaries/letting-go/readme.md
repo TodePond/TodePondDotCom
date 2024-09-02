@@ -134,5 +134,4 @@ It [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter
 
 <br>
 
-The vomit diaries will continue tomorrow.\
-Back to the [contents](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+Continue to [part five](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sunset-glasses).
