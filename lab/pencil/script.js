@@ -16,6 +16,15 @@ function handleResize() {
 handleResize();
 addEventListener("resize", handleResize);
 
+let currentCursor = "auto";
+function setCursor(cursor) {
+  if (currentCursor === cursor) return;
+  currentCursor = cursor;
+  canvas.style.cursor = cursor;
+}
+
+setCursor("crosshair");
+
 /**
  * @typedef {"pencil" | "eraser"} StrokeType
 
@@ -60,6 +69,25 @@ function draw() {
     }
     context.stroke();
   }
+
+  setContextCompositeOperation("source-over");
+  setContextStrokeStyle("gray");
+  setContextLineWidth(1);
+  let radius;
+  switch (currentTool) {
+    case "pencil": {
+      radius = PENCIL_BASE_SIZE;
+      break;
+    }
+    case "eraser": {
+      radius = ERASER_BASE_SIZE;
+      break;
+    }
+  }
+  radius /= 2;
+  context.beginPath();
+  context.arc(...pointer.position, radius, 0, 2 * Math.PI);
+  context.stroke();
 }
 
 let currentStrokeStyle = "black";
@@ -136,6 +164,7 @@ addEventListener("keydown", (event) => {
     }
     case "e": {
       currentTool = "eraser";
+      setCursor("none");
       break;
     }
   }
@@ -145,6 +174,7 @@ addEventListener("keyup", (event) => {
   switch (event.key) {
     case "e": {
       currentTool = "pencil";
+      setCursor("crosshair");
       break;
     }
   }
