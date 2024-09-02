@@ -108,6 +108,8 @@ But it works and it works really well and its effects are immediate, although it
 
 For the past eighteen months, I have had no nausea and (nearly) no psoriatic arthritis! It just flares back occasionally when I get ill, or I [run out of medicine](https://www.todepond.com/wikiblogarden/health/sulfasalazine/two).
 
+Hooray!
+
 <br>
 
 <hr>
