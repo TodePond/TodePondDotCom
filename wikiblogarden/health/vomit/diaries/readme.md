@@ -5,7 +5,7 @@
 - [Part two: Days](https://www.todepond.com/wikiblogarden/health/vomit/diaries/days)
 - [Part three: In your head](https://www.todepond.com/wikiblogarden/health/vomit/diaries/in-your-head)
 - [Part four: Letting go](https://www.todepond.com/wikiblogarden/health/vomit/diaries/letting-go)
-- Part five: Sunset glasses (coming soon)
+- [Part five: Sunset glasses](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sunset-glasses)
 - Ending (coming soon)
 
 Back to the [feed](/feed).
