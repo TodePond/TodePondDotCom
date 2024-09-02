@@ -17,10 +17,11 @@ handleResize();
 addEventListener("resize", handleResize);
 
 const strokes = [];
+let PENCIL_BASE_SIZE = 1;
 function draw() {
   context.clearRect(0, 0, canvas.width, canvas.height);
   context.strokeStyle = "white";
-  context.lineWidth = 1;
+  context.lineWidth = PENCIL_BASE_SIZE;
   context.lineCap = "round";
   context.lineJoin = "round";
   for (const stroke of strokes) {
@@ -69,4 +70,18 @@ addEventListener("pointermove", (event) => {
 addEventListener("pointerup", (event) => {
   updatePointerPositionFromEvent(event);
   pointer.down = false;
+});
+
+const PENCIL_SIZE_STEP = 1;
+addEventListener("keydown", (event) => {
+  switch (event.key) {
+    case "[": {
+      PENCIL_BASE_SIZE -= PENCIL_SIZE_STEP;
+      break;
+    }
+    case "]": {
+      PENCIL_BASE_SIZE += PENCIL_SIZE_STEP;
+      break;
+    }
+  }
 });
