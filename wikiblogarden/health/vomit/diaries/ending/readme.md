@@ -84,7 +84,7 @@ Nowadays, our conversations are quick. There's no pain to report, but we still d
 
 <br>
 
-I used to feel bitter about my— I felt so jealous of people who didn't have to experience all that pain or scabbing or vomit. And a pathetic repetitive mantra got stuck in my head:
+I used to feel bitter about my— I felt so jealous of people who didn't have to experience all that pain and scabbing and vomit. And a pathetic repetitive mantra got stuck in my head:
 
 > "God gave me nausea."
 
