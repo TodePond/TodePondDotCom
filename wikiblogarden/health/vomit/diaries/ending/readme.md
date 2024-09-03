@@ -130,7 +130,7 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 > Could I break into,\
 > Heaven to,\
 > Hunt him down and,\
-> Take my revenge?\
+> Take my revenge?
 > 
 > God gave me nausea,\
 > And there's only one of me,\
