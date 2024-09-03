@@ -6,6 +6,6 @@
 - [Part three: In your head](https://www.todepond.com/wikiblogarden/health/vomit/diaries/in-your-head)
 - [Part four: Letting go](https://www.todepond.com/wikiblogarden/health/vomit/diaries/letting-go)
 - [Part five: Sunset glasses](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sunset-glasses)
-- Ending (coming soon)
+- [Ending](https://www.todepond.com/wikiblogarden/health/vomit/diaries/ending)
 
 Back to the [feed](/feed).
