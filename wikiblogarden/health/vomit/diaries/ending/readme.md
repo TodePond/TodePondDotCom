@@ -108,8 +108,6 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 
 <br>
 
-<hr>
-
 <br>
 
 > God gave me nausea,\
