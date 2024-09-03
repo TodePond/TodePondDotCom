@@ -88,7 +88,7 @@ I used to feel bitter about my— I felt so jealous of people who didn't have to
 
 > "God gave me nausea."
 
-And I don't believe in any kind of god, so I don't know why I said that, again and again, every time I struggled, but it got stuck in my head and I couldn't get it out, much like my nausea. 
+And I don't believe in any kind of god, so I don't know why I said that, again and again, every time I struggled, and it got stuck in my head and I couldn't get it out, much like my nausea. 
 
 <br>
 
