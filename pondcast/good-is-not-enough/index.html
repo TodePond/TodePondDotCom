@@ -1,0 +1,423 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--real-rainbow-gradient);
+    color: black;
+    /* border-color: black; */
+    background-size: 700% 900%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    ); */
+    /* background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+    /* background-color: black; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Good is not enough
+  </h1>
+
+  <p>Welcome, again, to the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>What&#39;s new this week?</p>
+  <img src="1.png" />
+  <h2 id="login">Login</h2>
+  <p>
+    In my continued explorations of radical simplicity, as part of the
+    <a href="https://tadiweb.com">tadi web</a>, I continue to make tiny little
+    experiments, and I share them in my
+    <a href="https://www.todepond.com/lab/">tadi lab</a>.
+  </p>
+  <p>
+    This week, I made a little experiment that got a little more attention than
+    usual. It&#39;s called
+    <a href="https://www.todepond.com/lab/login/">Login</a>, and you can log in
+    to it by typing in a username and a password, as long as the username
+    isn&#39;t already taken.
+  </p>
+  <p>
+    When logged in, you can update your status, which might sound like a
+    familiar feature if you&#39;ve ever used twitter or facebook. But Login is
+    different! Because you can only ever have one status. When you write a
+    status, it replaces the old one.
+  </p>
+  <p>Another way it&#39;s different is that it looks like crap!</p>
+  <p>
+    It was fun to make. It&#39;s a de-make of a microblogging site, using some
+    scrappy tricks I&#39;ve learned from my tadi web practice. People seemed to
+    really enjoy using it too! And the funnest part for me is that... the code
+    is so basic and minimal that lots of people have been submitting pull
+    requests for it, adding custom styles and stuff to their name. I have a lot
+    of pull requests to look through straight after recording this pondcast.
+  </p>
+  <img src="2.png" />
+  <h2 id="feeling-good-is-not-enough">Feeling good is not enough</h2>
+  <p>
+    <a href="https://www.todepond.com/pondcast/boosh/">Last week</a> I told you
+    that my
+    <a href="https://www.todepond.com/report/arroost/">essay on Arroost</a> got
+    accepted for <a href="https://liveprog.org/#program">LIVE</a>, which is
+    taking place later this year.
+  </p>
+  <p>
+    Today, let&#39;s start looking through some of the feedback I got! We&#39;ll
+    start with the simplest and gradually get to the more complex and nuanced
+    responses over the coming weeks
+  </p>
+  <p>Here we go...</p>
+  <p>
+    In the essay, I make the case for more limited tools, where there is less
+    choice, like tldraw&#39;s limited colour palette picker. It means you spend
+    less time wasting time, obsessing over trying to pick the perfect colour,
+    and instead you just pick one and get back to creating things.
+  </p>
+  <p>
+    Reviewer A had some concerns with this mentality. Here&#39;s what they
+    wrote:
+  </p>
+  <blockquote>
+    <p>
+      Sometimes the seemingly minor &quot;obsession&quot; work of finding the
+      right color or arranging things on a canvas (when it doesn&#39;t really
+      matter how they&#39;re arranged) can itself be <em>relaxing</em> (not
+      always but can be). Japanese rock gardening is a great example of this. So
+      there is an argument that &quot;designing for emotion&quot; or
+      &quot;feeling&quot; more broadly is not what is being argued for here.
+    </p>
+  </blockquote>
+  <p>
+    And, yes, the reviewer is correct. My essay is <em>not</em> about
+    &quot;improving your emotions&quot;. My essay is only about &quot;removing
+    your emotional blockers&quot;, which is a very different task. I even wrote
+    a paragraph about this difference, entitled &quot;Feeling good is not
+    enough&quot;. I&#39;ll read it to you now:
+  </p>
+  <blockquote>
+    <p>
+      I do see many researchers trying to make tools that &quot;feel good&quot;.
+      But that&#39;s not enough. Sometimes, feeling good is not the same as
+      feeling free from emotional blockers. Tackling your emotional needs is
+      sometimes uncomfortable— it can be hard— it can make you feel bad, or
+      frustrated, but I think it&#39;s worth it.
+    </p>
+  </blockquote>
+  <p>
+    Removing emotional blockers can feel bad. It can feel very unrelaxing or
+    anxiety-inducing, because it often involves going outside your comfort zone.
+  </p>
+  <p>
+    It all depends on your goals. Do you want to help the user feel good? Or do
+    you want to help them create something? These are not the same.
+  </p>
+  <p>
+    Anyway, Reviewer A&#39;s feedback was very helpful because it shows me that
+    I wasn&#39;t clear enough about this distinction. In the presentation,
+    I&#39;ll try to be upfront about this :)
+  </p>
+  <img src="3.png" />
+  <h2 id="opening">Opening</h2>
+  <p>Torn leaf!</p>
+  <p>
+    Do you remember <a href="https://tornleaf.gallery">Torn Leaf</a>? I
+    announced it ages ago and I&#39;ve got loads of amazing submissions. (Thank
+    you everyone). So you might be wondering what&#39;s happening with it. Where
+    is the exhibition? Where is Torn Leaf Zero?
+  </p>
+  <p>
+    Well, the truth is that the collective submissions ended up being so good
+    that I felt like I really needed to do them justice in some way. My original
+    very low-fi plans no longer matched up with the quality and breadth of the
+    submitted works. So I&#39;ve been doing a lot of figuring out of what to do.
+  </p>
+  <p>And I now have plans in place!</p>
+  <p>
+    I am making a &quot;virtual gallery opening&quot; video to introduce the
+    online exhibition, in the spirit of the kinds of things the
+    <a href="https://youtu.be/G-gyzGqsWio?si=HzL7BrgZop8iqg5O">Met</a> and
+    <a href="https://youtu.be/bT7i507OnOw?si=ZX1u1ca1gUZniB26">Tate Modern</a>
+    put out. There&#39;s a real nice vibe to that genre of video and I&#39;ve
+    been watching and studying them all. Torn Leaf&#39;s opening will be a kind
+    of parody or variation on that usual format.
+  </p>
+  <p>
+    For a while, I was wondering if Torn Leaf&#39;s whole exhibition needed to
+    be a single video. It would be a guided tour of the entire thing, walking
+    you through each piece from start to finish. But that always felt like a
+    shame to me. I want the submissions to stand on their own, and not just be
+    part of a bigger piece of media. I didn&#39;t want them to get squished up
+    into a megamix of sorts.
+  </p>
+  <p>
+    No, instead, the video will be a welcoming teaser, signposting the viewer to
+    the online gallery page, hinting towards some of the significance of various
+    pieces, or parts of the project.
+  </p>
+  <p>
+    It will feature small snippets of works, and the context that brought them
+    together.
+  </p>
+  <p>
+    But words are cheap! I need to make the thing now. I have a clear vision
+    now, and I&#39;ll do my best to execute it.
+  </p>
+  <p>
+    <strong>Step one:</strong> Make and publish the teaser for the next video,
+    Top 99 Ways To Make Sand.\ <strong>Step two:</strong> Wrap up and publish
+    Torn Leaf Zero.
+  </p>
+  <p>
+    <strong
+      >Thank you for your patience as always! And thank you for all your support
+      throughout this journey. I really can&#39;t thank you enough. Wherever you
+      are, whatever you&#39;re doing, I hope you have a great week.</strong
+    >
+    🐸
+  </p>
+
+  <em>Days since tode fell asleep: </em><br />
+  <em>Days since bot went missing: </em><br />
+  <em>Days since berd flew away: </em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
+</details>

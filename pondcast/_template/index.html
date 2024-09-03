@@ -6,7 +6,7 @@
 <title>Todepond pondcast</title>
 <link rel="shortcut icon" href="/favicon.png" />
 
-<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/pondcast/style.css" />
 
 <!-- <blockquote> -->
 <p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
@@ -73,9 +73,10 @@
   }
 
   summary:hover {
-    background: var(--rainbow-gradient);
+    background: var(--real-rainbow-gradient);
     color: black;
-    background-size: 700% 800%;
+    /* border-color: black; */
+    background-size: 700% 900%;
     /* outline: 1px solid white; */
     /* outline-offset: -1px; */
     /* background-clip: border-box; */
@@ -113,16 +114,16 @@
   }
 
   body:has(> details[open]) {
-    background: radial-gradient(
+    /* background: radial-gradient(
       circle at 15% -15%,
       var(--best-colour) 0%,
       rgb(59, 73, 138) 8%,
       rgb(31, 39, 54) 25%,
       black 50%
-    );
-    background-size: 400% 300%;
+    ); */
+    /* background-size: 400% 300%; */
     /* background-opacity: 0.5; */
-    background-color: black;
+    /* background-color: black; */
   }
 
   h2 {
@@ -233,7 +234,7 @@
     " />
 
   <audio controls style="position: sticky; top: 10px; margin-top: 38px">
-    <source src="1.mp3" type="audio/mpeg" />
+    <source src="1.m4a" type="audio/x-m4a" />
   </audio>
   <h1
     style="
@@ -261,5 +262,5 @@
 
   <p><br /></p>
 
-  <p>Back to the <a href="/pondcast">pondcast</a>.</p>
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
 </details>
