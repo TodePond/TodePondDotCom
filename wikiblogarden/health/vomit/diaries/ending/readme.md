@@ -114,23 +114,23 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 
 > God gave me nausea,\
 > Maybe he's just sick of me,\
-> Now every day it,\
-> Feels like I'm on,\
-> Wobbly sea.
+> Now every day,\
+> It feels like I'm,\
+> On wobbly sea.
 > 
 > God gave me nausea,\
 > Maybe it's just all a test,\
-> Could the scabs and red the,\
-> Days in bed be,\
-> Only to,\
+> Could the scabs and red,\
+> The days in bed,\
+> Be only to,\
 > Enhance my strength?
 > 
 > God gave me nausea,\
 > Maybe he's my enemy,\
-> Could I break into,\
-> Heaven to,\
-> Hunt him down and,\
-> Take my revenge?
+> Could I break,\
+> Into heaven,\
+> To hunt him down,\
+> And take my revenge?
 > 
 > God gave me nausea,\
 > And there's only one of me,\
@@ -138,8 +138,8 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 > I have,\
 > And now,\
 > I don't know who,\
-> Or how I,\
-> Want to be!
+> Or how,\
+> I want to be!
 > 
 > God gave me nausea,\
 > He keeps my poem out of time,\
