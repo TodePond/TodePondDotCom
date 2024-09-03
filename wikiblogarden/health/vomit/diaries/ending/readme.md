@@ -125,9 +125,9 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 > 
 > God gave me nausea,\
 > Maybe he's my enemy,\
-> Could I break,\
-> Into heaven,\
-> To hunt him down,\
+> Could I break up into,\
+> Heaven to,\
+> Hunt him down,\
 > And take my revenge?
 > 
 > God gave me nausea,\
