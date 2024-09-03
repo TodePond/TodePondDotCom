@@ -116,4 +116,4 @@ Hooray!
 
 <br>
 
-Continue to the [ending](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+Continue to the [ending](https://www.todepond.com/wikiblogarden/health/vomit/diaries/ending).
