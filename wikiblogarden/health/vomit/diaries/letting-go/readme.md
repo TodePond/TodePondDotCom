@@ -58,7 +58,7 @@ But of course, nurses can't make that kind of decision, so it was a bit unfair o
 
 So she tried her best to encourage me to "stick with it" and "see how it goes" for another six months. 
 
-"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can stuck in your head."
+"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can get stuck in your head."
 
 <br>
 
@@ -126,7 +126,9 @@ And of course, they told me, "Just give it a try. It'll be okay really. It's [ju
 
 What does it mean for something to be in your head?
 
-It [doesn't matter](https://www.todepond.com/report/definitions-that-dont-matter/)!!!!!!!!!!
+[It doesn't matter!!!!!!!!!!](https://www.todepond.com/report/definitions-that-dont-matter/)
+
+Whatever it means, I'm not taking that cushion.
 
 <br>
 
