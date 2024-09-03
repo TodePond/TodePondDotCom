@@ -16,7 +16,7 @@ I don't know what it means, but I do know that it was enough to make me complete
 
 I now know that the barriers in your head can be very real, in some uncertain sense, and they aren't always easy to get rid of.
 
-Just because something's only in your head, it doesn't mean it's not stuck there for good.
+Just because something's in your head, it doesn't mean it's not stuck there for good.
 
 <br>
 
