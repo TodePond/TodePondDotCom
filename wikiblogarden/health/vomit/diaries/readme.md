@@ -8,4 +8,6 @@
 - [Part five: Sunset glasses](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sunset-glasses)
 - [Ending](https://www.todepond.com/wikiblogarden/health/vomit/diaries/ending)
 
+<br>
+
 Back to the [feed](/feed).
