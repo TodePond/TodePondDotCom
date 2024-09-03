@@ -98,7 +98,7 @@ And I don't believe in any kind of god, so I don't know why I said that, again a
 
 Over time, the bitterness subsided and I saw things differently. Rather than making me jealous, my experiences were a less-then-gentle reminder of how fortunate I am in so many ways. Rediscovering the ability to walk without pain made me so much more thankful for my ability to do that. I am so much luckier than so many others.
 
-I don't pity people who have things worse than me, because I know how awful and patronising that can feel, to some extent. But I know that we all have our challenges and difficulties, with our bodies and our lives and whatever it is. 
+I don't pity people who have things worse than me, because I know how awful and patronising that can feel, to some extent. But I know that we all have our own challenges and difficulties, with our bodies and our lives and whatever it is. 
 
 I really don't want to come across all high-and-mighty about it! Especially as I know how privileged I am. So I am trying to learn how to express myself and my experiences and feelings about all this in a way that feels right. 
 
