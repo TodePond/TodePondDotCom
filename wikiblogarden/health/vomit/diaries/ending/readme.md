@@ -152,7 +152,5 @@ I didn't ask to be born, and I didn't ask for this condition, but I have no choi
 > Now every day,\
 > It feels like I'm,\
 > On wobbly sea.
-
-<br>
-
-Back to the [feed](/feed).
+>
+> Back to the [feed](/feed).
