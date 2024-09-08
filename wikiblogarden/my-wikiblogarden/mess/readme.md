@@ -2,7 +2,7 @@
 
 It's a mess
 
-completely overgrown, full of weeds, tools left lying around all over.
+completely overgrown, full of weeds, tools left lying on the ground.
 
 the list of posts on the [main page](/wikiblogarden) is far too long, with some gaps, and the [contents section](https://www.todepond.com/wikiblogarden/#topics) is all out of date. 
 
