@@ -30,7 +30,7 @@ sometimes i see people stop! they stop working on what they're working, or they 
 
 "i can't possibly show my mess"
 
-and i think that's tragic because those people end up sharing and publishing nothing at all. they share absolutely nothing.
+and i think that's tragic because those people end up sharing and publishing absolutely nothing. they share nothing at all.
 
 muthafrogger i am still here, sharing my mess, and it's fine! it's fine! it's fine!
 
