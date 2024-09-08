@@ -6,9 +6,9 @@ completely overgrown, full of weeds, tools left lying on the ground.
 
 the list of posts on the [main page](/wikiblogarden) is far too long, with some gaps, and the [contents section](https://www.todepond.com/wikiblogarden/#topics) is all out of date. 
 
-my [feed maker](/feed/maker) is buggy now, it puts things out of order. 
+my [feed maker](/feed/maker) is buggy now, and it puts things in the wrong order.
 
-the [lab](/lab) is getting too long too, the categories are getting used the wrong way.
+the [lab](/lab) is getting too long too, with all the categories getting used the wrong way.
 
 <br>
 
