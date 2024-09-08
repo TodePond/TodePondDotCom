@@ -4,7 +4,7 @@ It's a mess
 
 completely overgrown, full of weeds, tools left lying around all over.
 
-the list of posts on the [main page](/wikiblogarden) is far too long, with some gaps, and the contents section is all out of date. 
+the list of posts on the [main page](/wikiblogarden) is far too long, with some gaps, and the [contents section](https://www.todepond.com/wikiblogarden/#topics) is all out of date. 
 
 my [feed maker](/feed/maker) is buggy now, and it puts things in the wrong order. 
 
