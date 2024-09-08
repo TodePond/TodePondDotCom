@@ -26,7 +26,7 @@ and so what? i don't care how messy it is. it all still works.
 
 i see some people thinking they have to be clean. "it has to be perfect!" and they end up cleaning and cleaning and rebuilding and rebuilding and organising and formatting and so on and
 
-sometimes i see people stop! they stop working on what they're working on, or they stop sharing "just until i can clean things up"
+sometimes i see people stop! they stop working on what they're working, or they stop sharing "just until i can clean things up"
 
 "i can't possibly show my mess"
 
