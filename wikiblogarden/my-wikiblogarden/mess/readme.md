@@ -41,7 +41,7 @@ muthafrogger i am still here, sharing my mess, and it's fine! it's fine! it's fi
 <br>
 
 - Watch the [full video](https://youtu.be/YRBtAn240j8).
-- Why [mess](/report/arroost) is important for creativity.
+- Why mess is important for [creativity](/report/arroost).
 - Why you should [never stop writing](https://www.todepond.com/wikiblogarden/art/never-stop-writing/).
 - Why it's morally important to [normalise sharing scrappy fiddles](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/).
 
