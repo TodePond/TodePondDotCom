@@ -15,6 +15,11 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
+  * {
+    overscroll-behavior: none;
+    /* box-sizing: border-box; */
+  }
+
   body {
     /* font-family: "Inter", sans-serif; */
     margin: 0;
@@ -36,22 +41,46 @@
     width: 100%;
     border: none;
     resize: none;
-    width: 50%;
+    min-width: 50%;
     outline: none;
     tab-size: 4;
     font-size: 1.1rem;
-    /* padding: 1rem; */
     padding: 2.5px 5px;
   }
 
   #preview {
-    padding: 2.5px 5px;
-    /* padding: 0.2rem 0.4rem; */
-    width: 50%;
+    padding: 5px 5px;
+    flex-shrink: 0;
+    min-width: 350px;
+    max-width: 50%;
     overflow-y: auto;
     white-space: pre;
     font-family: monospace;
     font-size: 1.1rem;
+  }
+
+  table {
+    font-size: 1.1rem;
+    border: 1px solid var(--best-colour);
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--shade-5);
+  }
+
+  td:first-child {
+    color: var(--shade-6);
+    /* flex-shrink: 0; */
+  }
+
+  tr:first-child td {
+    /* font-weight: bold; */
+    /* color: white; */
   }
 
   @media (max-width: 760px) {
@@ -83,17 +112,23 @@
   function handleInput() {
     const tokens = tokenise(input.value);
     // console.log(tokens);
-    preview.innerHTML = tokens
-      .map((v) => {
-        const value = v.value?.replaceAll("\n", "\\n") ?? v.type;
-        return {
-          raw: v,
-          colour: getTokenColour(v),
-          formatted: value,
-        };
-      })
-      .map((v) => `<span style="color: ${v.colour}">${v.formatted}</span>`)
-      .join("\n");
+    preview.innerHTML =
+      "<table>" +
+      tokens
+        .map((v) => {
+          const value = v.value?.replaceAll("\n", "\\n") ?? v.type;
+          return {
+            raw: v,
+            colour: getTokenColour(v),
+            formatted: value,
+          };
+        })
+        .map(
+          (v) =>
+            `<tr><td>${v.raw.type}</td><td><span style="color: ${v.colour}">${v.formatted}</span></td></tr>`
+        )
+        .join("\n") +
+      "</table>";
   }
 
   function getTokenColour(token) {
@@ -166,7 +201,7 @@ rewrite handle "todepond"
           tokens.pop();
         }
         const lastToken = tokens[tokens.length - 1];
-        if (lastToken.type === "line-end") {
+        if (lastToken?.type === "line-end") {
           tokens.pop();
         }
         tokens.push({ type: "line-end", value: "\n" });
@@ -219,6 +254,10 @@ rewrite handle "todepond"
 
       token.value += character;
       i++;
+    }
+
+    if (tokens[0]?.type === "line-end") {
+      tokens.shift();
     }
 
     if (tokens[tokens.length - 1]?.type === "quote") {
