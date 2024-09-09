@@ -1,0 +1,69 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  .snippet > pre {
+    margin-top: 0px;
+  }
+</style>
+
+<section class="snippet">
+  <pre>alert("hello world")</pre>
+</section>
+
+<section class="snippet">
+  <pre>
+document.body.style.backgroundColor = "black";
+</pre
+  >
+</section>
+
+<section class="snippet">
+  <pre>
+const snippet = document.createElement("section");
+snippet.classList.add("snippet");
+const pre = document.createElement("pre");
+pre.classList.add("new-snippet");
+pre.textContent = `document.querySelectorAll("pre").forEach(v => v.contentEditable = true);
+document.querySelector(".new-snippet").focus();
+document.execCommand("selectAll");`;
+snippet.append(pre);
+const playButton = document.createElement("button");
+playButton.textContent = "▶ Run";
+playButton.addEventListener("click", (e) => {
+  const code = snippet.querySelector("pre").textContent;
+  new Function(code)();
+});
+snippet.prepend(playButton);
+document.body.append(snippet);
+</pre
+  >
+</section>
+
+<script type="module">
+  const snippets = document.querySelectorAll(".snippet");
+  for (const snippet of snippets) {
+    const existingPlayButton = snippet.querySelector("button");
+    if (existingPlayButton) continue;
+    const playButton = document.createElement("button");
+    playButton.textContent = "▶ Run";
+    playButton.addEventListener("click", () => {
+      const code = snippet.querySelector("pre").textContent;
+      new Function(code)();
+    });
+    snippet.prepend(playButton);
+  }
+</script>
