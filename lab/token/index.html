@@ -195,7 +195,7 @@ rewrite age 30
 
       if (character === "\n") {
         if (token.type === "quote" || token.type === "string") {
-          tokens.pop();
+          // tokens.pop();
           tokens.push({ type: "error", value: `unfinished ${token.type}` });
           tokens.push({ type: "line-end", value: "\n" });
           tokens.push({ type: "empty" });
@@ -301,7 +301,7 @@ rewrite age 30
 
     const finishingType = tokens[tokens.length - 1]?.type;
     if (finishingType === "quote" || finishingType === "string") {
-      tokens.pop();
+      // tokens.pop();
       tokens.push({
         type: "error",
         value: `unfinished ${finishingType}`,
