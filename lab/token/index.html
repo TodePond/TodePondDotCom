@@ -17,7 +17,7 @@
 <style>
   * {
     overscroll-behavior: none;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
   }
 
   body {
@@ -83,7 +83,7 @@
     /* color: white; */
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 700px) {
     main {
       flex-direction: column;
     }
@@ -95,7 +95,9 @@
 
     #preview {
       width: 100%;
+      max-width: 100%;
       height: 50%;
+      min-width: 100%;
     }
   }
 </style>
@@ -136,10 +138,14 @@
       case "line-end":
         return "var(--best-colour-faded)";
       case "quote":
+        return "var(--green)";
+      case "string":
         return "var(--coral)";
       case "list-start":
       case "list-end":
         return "var(--calm-yellow)";
+      case "number":
+        return "var(--cyan)";
       case "error":
         return "var(--red)";
       case "symbol": {
@@ -163,9 +169,8 @@
   input.addEventListener("input", handleInput);
   input.value = `hello world
 rewrite \`name\` \`luke\`
-hello name
-rewrite (\`full\` \`name\`) \`luke wilson\`
-rewrite handle "todepond"
+rewrite (\`full\` \`name\`) "luke wilson"
+rewrite age 30
 `;
 
   function tokenise(input) {
@@ -189,7 +194,7 @@ rewrite handle "todepond"
       }
 
       if (character === "\n") {
-        if (token.type === "quote") {
+        if (token.type === "quote" || token.type === "string") {
           tokens.pop();
           tokens.push({ type: "error", value: `unfinished ${token.type}` });
           tokens.push({ type: "line-end", value: "\n" });
@@ -220,11 +225,26 @@ rewrite handle "todepond"
 
         if (token.type === "empty") {
           tokens.pop();
+          tokens.push({ type: "quote", value: "`" });
+          i++;
+          continue;
+        }
+      }
+
+      if (character === '"') {
+        if (token.type === "string") {
+          token.value += character;
+          tokens.push({ type: "empty" });
+          i++;
+          continue;
         }
 
-        tokens.push({ type: "quote", value: "`" });
-        i++;
-        continue;
+        if (token.type === "empty") {
+          tokens.pop();
+          tokens.push({ type: "string", value: '"' });
+          i++;
+          continue;
+        }
       }
 
       if (character === "(") {
@@ -247,12 +267,31 @@ rewrite handle "todepond"
         continue;
       }
 
-      if (token.type === "empty") {
-        token.type = "symbol";
-        token.value = "";
+      if (character.match(/[0-9]/)) {
+        if (token.type === "empty") {
+          tokens.pop();
+          tokens.push({ type: "number", value: "" });
+        }
+
+        const lastToken = tokens[tokens.length - 1];
+        if (lastToken?.type === "number") {
+          lastToken.value += character;
+          i++;
+          continue;
+        }
       }
 
-      token.value += character;
+      if (token.type === "number") {
+        tokens.push({ type: "empty" });
+      }
+
+      const latestToken = tokens[tokens.length - 1];
+      if (latestToken.type === "empty") {
+        latestToken.type = "symbol";
+        latestToken.value = "";
+      }
+
+      latestToken.value += character;
       i++;
     }
 
@@ -260,11 +299,12 @@ rewrite handle "todepond"
       tokens.shift();
     }
 
-    if (tokens[tokens.length - 1]?.type === "quote") {
-      const unfinishedToken = tokens.pop();
+    const finishingType = tokens[tokens.length - 1]?.type;
+    if (finishingType === "quote" || finishingType === "string") {
+      tokens.pop();
       tokens.push({
         type: "error",
-        value: `unfinished ${unfinishedToken.type}`,
+        value: `unfinished ${finishingType}`,
       });
     }
 
@@ -277,6 +317,40 @@ rewrite handle "todepond"
     }
 
     tokens.push({ type: "line-end", value: "EOF" });
+
+    const listTokens = tokens.filter(
+      (v) => v.type === "list-start" || v.type === "list-end"
+    );
+
+    let listBalance = 0;
+    for (const token of listTokens) {
+      if (token.type === "list-start") {
+        listBalance++;
+      } else {
+        listBalance--;
+      }
+      if (listBalance < 0) {
+        const errorToken = {
+          type: "error",
+          value: "unexpected end of list",
+        };
+        const index = tokens.indexOf(token);
+        tokens.splice(index + 1, 0, errorToken);
+        break;
+      }
+    }
+
+    if (listBalance > 0) {
+      const listStartTokens = tokens.filter((v) => v.type === "list-start");
+      const erroringListStartToken =
+        listStartTokens[listStartTokens.length - listBalance];
+      const errorToken = {
+        type: "error",
+        value: "unclosed list",
+      };
+      const index = tokens.indexOf(erroringListStartToken);
+      tokens.splice(index + 1, 0, errorToken);
+    }
 
     return tokens;
   }
