@@ -201,12 +201,30 @@ rewrite \`increment\` { v => v + 1 }
     let i = 0;
     while (i < input.length) {
       const character = input[i];
-      const token = tokens[tokens.length - 1];
+      let token = tokens[tokens.length - 1];
 
-      if (character === "{") {
+      if (character.match(/[0-9]/)) {
         if (token.type === "empty") {
           tokens.pop();
+          tokens.push({ type: "number", value: "" });
         }
+
+        const lastToken = tokens[tokens.length - 1];
+        if (lastToken?.type === "number") {
+          lastToken.value += character;
+          i++;
+          continue;
+        }
+      }
+
+      if (token.type === "number") {
+        tokens.push({ type: "empty" });
+      }
+
+      token = tokens[tokens.length - 1];
+
+      if (character === "{" && token.type === "empty") {
+        tokens.pop();
         const eaten = eatJavascriptEmbed({ input, start: i });
         if (eaten) {
           tokens.push({
@@ -313,24 +331,6 @@ rewrite \`increment\` { v => v + 1 }
         tokens.push({ type: "empty" });
         i++;
         continue;
-      }
-
-      if (character.match(/[0-9]/)) {
-        if (token.type === "empty") {
-          tokens.pop();
-          tokens.push({ type: "number", value: "" });
-        }
-
-        const lastToken = tokens[tokens.length - 1];
-        if (lastToken?.type === "number") {
-          lastToken.value += character;
-          i++;
-          continue;
-        }
-      }
-
-      if (token.type === "number") {
-        tokens.push({ type: "empty" });
       }
 
       const latestToken = tokens[tokens.length - 1];
