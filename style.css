@@ -28,7 +28,7 @@
   --shade-10: rgb(255, 255, 255);
 
   --best-colour: #9faeee;
-  --best-colour-faded: #8196ff;
+  --best-colour-faded: rgb(172, 139, 255);
 
   --void: var(--shade-0);
   --black: var(--shade-2);

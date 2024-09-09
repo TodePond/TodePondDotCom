@@ -39,16 +39,19 @@
     width: 50%;
     outline: none;
     tab-size: 4;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    /* padding: 1rem; */
+    padding: 2.5px 5px;
   }
 
   #preview {
-    padding: 1rem;
+    padding: 2.5px 5px;
+    /* padding: 0.2rem 0.4rem; */
     width: 50%;
     overflow-y: auto;
-    white-space: pre-wrap;
+    white-space: pre;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   @media (max-width: 760px) {
@@ -81,14 +84,14 @@
     const tokens = tokenise(input.value);
     // console.log(tokens);
     preview.innerHTML = tokens
-      .map((v) => ({
-        raw: v,
-        colour: getTokenColour(v),
-        formatted: `type: "${v.type}", value: "${v.value.replaceAll(
-          "\n",
-          "\\n"
-        )}"`,
-      }))
+      .map((v) => {
+        const value = v.value?.replaceAll("\n", "\\n") ?? v.type;
+        return {
+          raw: v,
+          colour: getTokenColour(v),
+          formatted: value,
+        };
+      })
       .map((v) => `<span style="color: ${v.colour}">${v.formatted}</span>`)
       .join("\n");
   }
@@ -152,6 +155,7 @@ rewrite handle "todepond"
 
       if (character === "\n") {
         if (token.type === "quote") {
+          tokens.pop();
           tokens.push({ type: "error", value: `unfinished ${token.type}` });
           tokens.push({ type: "line-end", value: "\n" });
           tokens.push({ type: "empty" });
@@ -193,6 +197,7 @@ rewrite handle "todepond"
           tokens.pop();
         }
         tokens.push({ type: "list-start", value: "(" });
+        tokens.push({ type: "empty" });
         i++;
         continue;
       }
@@ -216,13 +221,23 @@ rewrite handle "todepond"
       i++;
     }
 
-    if (tokens[tokens.length - 1].type === "empty") {
+    if (tokens[tokens.length - 1]?.type === "quote") {
+      const unfinishedToken = tokens.pop();
+      tokens.push({
+        type: "error",
+        value: `unfinished ${unfinishedToken.type}`,
+      });
+    }
+
+    if (tokens[tokens.length - 1]?.type === "empty") {
       tokens.pop();
     }
 
-    if (tokens[tokens.length - 1]?.type !== "line-end") {
-      tokens.push({ type: "line-end", value: "EOF" });
+    if (tokens[tokens.length - 1]?.type === "line-end") {
+      tokens.pop();
     }
+
+    tokens.push({ type: "line-end", value: "EOF" });
 
     return tokens;
   }
