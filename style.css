@@ -11,6 +11,7 @@
   --red: rgb(255, 67, 70);
   --orange: rgb(255, 128, 70);
   --yellow: rgb(255, 255, 70);
+  --calm-yellow: rgb(255, 225, 70);
 
   --light-blue: rgb(80, 140, 255);
 
@@ -27,6 +28,7 @@
   --shade-10: rgb(255, 255, 255);
 
   --best-colour: #9faeee;
+  --best-colour-faded: #8196ff;
 
   --void: var(--shade-0);
   --black: var(--shade-2);

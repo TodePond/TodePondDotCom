@@ -1,0 +1,231 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<style>
+  body {
+    /* font-family: "Inter", sans-serif; */
+    margin: 0;
+    padding: 0;
+    /* background-color: #f5f5f5; */
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #input {
+    width: 100%;
+    border: none;
+    resize: none;
+    width: 50%;
+    outline: none;
+    tab-size: 4;
+    font-size: 1.2rem;
+  }
+
+  #preview {
+    padding: 1rem;
+    width: 50%;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 760px) {
+    main {
+      flex-direction: column;
+    }
+
+    #input {
+      width: 100%;
+      height: 50%;
+    }
+
+    #preview {
+      width: 100%;
+      height: 50%;
+    }
+  }
+</style>
+
+<main>
+  <textarea id="input" wrap="off" spellcheck="false"></textarea>
+  <div id="preview"></div>
+</main>
+
+<script>
+  const input = document.getElementById("input");
+  const preview = document.getElementById("preview");
+
+  function handleInput() {
+    const tokens = tokenise(input.value);
+    // console.log(tokens);
+    preview.innerHTML = tokens
+      .map((v) => ({
+        raw: v,
+        colour: getTokenColour(v),
+        formatted: `type: "${v.type}", value: "${v.value.replaceAll(
+          "\n",
+          "\\n"
+        )}"`,
+      }))
+      .map((v) => `<span style="color: ${v.colour}">${v.formatted}</span>`)
+      .join("\n");
+  }
+
+  function getTokenColour(token) {
+    switch (token.type) {
+      case "line-end":
+        return "var(--best-colour-faded)";
+      case "quote":
+        return "var(--coral)";
+      case "list-start":
+      case "list-end":
+        return "var(--calm-yellow)";
+      case "error":
+        return "var(--red)";
+      case "symbol": {
+        switch (token.value) {
+          case "rewrite":
+            return "#4699ff";
+        }
+        return "";
+      }
+    }
+    return "";
+  }
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Tab") {
+      e.preventDefault();
+      document.execCommand?.("insertText", false, "\t");
+    }
+  });
+
+  input.addEventListener("input", handleInput);
+  input.value = `hello world
+rewrite \`name\` \`luke\`
+hello name
+rewrite (\`full\` \`name\`) \`luke wilson\`
+rewrite handle "todepond"
+`;
+
+  function tokenise(input) {
+    let tokens = [{ type: "empty" }];
+
+    let i = 0;
+    while (i < input.length) {
+      const character = input[i];
+      const token = tokens[tokens.length - 1];
+
+      if (character.match(/[ \t]/)) {
+        if (token.type === "symbol") {
+          tokens.push({ type: "empty" });
+          i++;
+          continue;
+        }
+        if (token.type === "empty") {
+          i++;
+          continue;
+        }
+      }
+
+      if (character === "\n") {
+        if (token.type === "quote") {
+          tokens.push({ type: "error", value: `unfinished ${token.type}` });
+          tokens.push({ type: "line-end", value: "\n" });
+          tokens.push({ type: "empty" });
+          i++;
+          continue;
+        }
+        if (token.type === "empty") {
+          tokens.pop();
+        }
+        const lastToken = tokens[tokens.length - 1];
+        if (lastToken.type === "line-end") {
+          tokens.pop();
+        }
+        tokens.push({ type: "line-end", value: "\n" });
+        tokens.push({ type: "empty" });
+        i++;
+        continue;
+      }
+
+      if (character === "`") {
+        if (token.type === "quote") {
+          token.value += character;
+          tokens.push({ type: "empty" });
+          i++;
+          continue;
+        }
+
+        if (token.type === "empty") {
+          tokens.pop();
+        }
+
+        tokens.push({ type: "quote", value: "`" });
+        i++;
+        continue;
+      }
+
+      if (character === "(") {
+        if (token.type === "empty") {
+          tokens.pop();
+        }
+        tokens.push({ type: "list-start", value: "(" });
+        i++;
+        continue;
+      }
+
+      if (character === ")") {
+        if (token.type === "empty") {
+          tokens.pop();
+        }
+        tokens.push({ type: "list-end", value: ")" });
+        tokens.push({ type: "empty" });
+        i++;
+        continue;
+      }
+
+      if (token.type === "empty") {
+        token.type = "symbol";
+        token.value = "";
+      }
+
+      token.value += character;
+      i++;
+    }
+
+    if (tokens[tokens.length - 1].type === "empty") {
+      tokens.pop();
+    }
+
+    if (tokens[tokens.length - 1]?.type !== "line-end") {
+      tokens.push({ type: "line-end", value: "EOF" });
+    }
+
+    return tokens;
+  }
+
+  handleInput();
+</script>
