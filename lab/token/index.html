@@ -148,6 +148,8 @@
         return "var(--cyan)";
       case "error":
         return "var(--red)";
+      case "embed":
+        return "var(--pink)";
       case "symbol": {
         switch (token.value) {
           case "rewrite":
@@ -171,7 +173,27 @@
 rewrite \`name\` \`luke\`
 rewrite (\`full\` \`name\`) "luke wilson"
 rewrite age 30
+rewrite \`increment\` { v => v + 1 }
 `;
+
+  function eatJavascriptEmbed({ input, start }) {
+    let i = start + 1;
+    let depth = 1;
+    while (i < input.length) {
+      const character = input[i];
+      if (character === "{") {
+        depth++;
+      }
+      if (character === "}") {
+        depth--;
+      }
+      if (depth === 0) {
+        return input.slice(start, i + 1);
+      }
+      i++;
+    }
+    return null;
+  }
 
   function tokenise(input) {
     let tokens = [{ type: "empty" }];
@@ -180,6 +202,32 @@ rewrite age 30
     while (i < input.length) {
       const character = input[i];
       const token = tokens[tokens.length - 1];
+
+      if (character === "{") {
+        if (token.type === "empty") {
+          tokens.pop();
+        }
+        const eaten = eatJavascriptEmbed({ input, start: i });
+        if (eaten) {
+          tokens.push({
+            type: "embed",
+            value: eaten,
+          });
+          i += eaten.length;
+          try {
+            const strippedEaten = eaten.slice(1, eaten.length - 1);
+            new Function("return " + strippedEaten)();
+          } catch (e) {
+            tokens.push({ type: "error", value: e.message });
+          }
+          tokens.push({ type: "empty" });
+          continue;
+        } else {
+          tokens.push({ type: "embed", value: input.slice(i) });
+          tokens.push({ type: "error", value: "unclosed embed" });
+          break;
+        }
+      }
 
       if (character.match(/[ \t]/)) {
         if (token.type === "symbol") {
