@@ -170,9 +170,8 @@
 
   input.addEventListener("input", handleInput);
   input.value = `hello world
-rewrite \`name\` \`luke\`
-rewrite (\`full\` \`name\`) "luke wilson"
 rewrite \`age\` 30
+rewrite (\`full\` \`name\`) "luke wilson"
 rewrite \`increment\` { v => v + 1 }
 increment increment age
 `;
