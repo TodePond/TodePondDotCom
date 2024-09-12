@@ -55,7 +55,7 @@
   });
 
   function getLocalItems() {
-    const rawLocalItems = localStorage.getItem("items") ?? "[]";
+    const rawLocalItems = localStorage.getItem("pondcast/items") ?? "[]";
     let localItems;
     try {
       localItems = JSON.parse(rawLocalItems);
