@@ -74,7 +74,11 @@ It's easier to let go than hold on. You'll outlast them. Be patient.
 
 <br>
 
-People think I don't have much experience with leadership but that's alright by me.
+People don't think I have much experience with leadership. Maybe I don't.
+
+<br>
+
+<hr>
 
 <br>
 
