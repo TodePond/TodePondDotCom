@@ -168,7 +168,7 @@ and here's joshua horowitz [challenging](https://x.com/qualmist/status/183451511
 
 (of course, josh has been heavily involved in dynamicland and features heavily on the new dynamicland website) 
 
-Josh's challenges here are really great and helpful, so I feel like I owe it to him to write up a more considered response. I'll do that soon!
+Josh's follow-on challenges here were really great and helpful, so I feel like I owe it to him to write up a more considered response. I'll do that at some point!
 
 <br>
 
@@ -182,9 +182,9 @@ I love the new dynamicland website because it opens up so much great work and re
 
 and it's allowing me to learn a lot, and im now about to speak about it in detail with lots of people i respect.
 
-for me, it shows the value and importance of normalising sharing scrappy fiddles! the website does it, and it's what I'm doing now,
+for me, it shows the value and importance of normalising sharing scrappy fiddles! the website does it, and it's what I'm trying to do now.
 
-and it's just the beginning, and I'm looking forward to what's next
+it's just the beginning, and I'm looking forward to what's next
 
 <br>
 
