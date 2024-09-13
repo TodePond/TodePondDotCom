@@ -39,6 +39,7 @@ Now all we can do is look through all the archives, from many years ago. Here ar
 > ✯ I have a surface level understanding of most "better computing" communities/movements, which is why I'm sharing all of this tadi web stuff publicly — to try to find others who are willing to run with the idea.
 >
 > ✯ More and more people are gradually discovering the tadi web and running with it. See pics.
+>
 > ![someone using the tadi web](1.png)
 >
 > ![someone using the tadi web](2.png)
