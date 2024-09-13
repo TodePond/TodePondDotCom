@@ -68,11 +68,13 @@ If someone abuses your trust, double-down on it. Tell them plainly how much trus
 
 It's easier to let go than hold on. You'll outlast them. Be patient.
 
-## Why are tech leaders so bad?
+<br>
 
-I'm new to the tech world (and I look less like a straight guy everyday) so people think that I don't have much experience with leadership.
+<hr>
 
-That's ok, I don't have anything to prove.
+<br>
+
+People think I don't have much experience with leadership but that's alright by me.
 
 <br>
 
