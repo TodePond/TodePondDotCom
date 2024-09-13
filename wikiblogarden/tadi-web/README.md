@@ -19,19 +19,18 @@ The tadi web isn't a new idea. It's simply the result of combining together all 
 ## Advanced tadi web
 
 - [How I write my blog](https://www.todepond.com/wikiblogarden/my-wikiblogarden/demo)
-- [Synchronising data](https://www.todepond.com/wikiblogarden/better-computing/synchronising-data)
-- [Putting data in the cloud](https://www.todepond.com/wikiblogarden/tadi-web/cloud)
-- [How to synchronise data](https://www.todepond.com/wikiblogarden/tadi-web/cloud/sync)
 - [World's first full-stack tadi website](/wikiblogarden/tadi-web/fame/facts)
-- [Image data](/wikiblogarden/tadi-web/image-data)
 
 ## Death of the tadi web
 
-The tadi web often dies. 
+The tadi web often dies.
 
 - [DEATH OF THE TADI WEB: How to make a meme](death-meme)
 - [DEATH OF THE TADI WEB: Worldwide](death/worldwide)
 - [DEATH OF THE TADI WEB: A clean start for the web](death/clean-start)
-<br>
+- [DEATH OF THE TADI WEB: Never heard of her](death/who)
+- [DEATH OF THE TADI WEB: Archive](death/archive)
+
+  <br>
 
 Back to the [wibliden](/wikiblogarden).
