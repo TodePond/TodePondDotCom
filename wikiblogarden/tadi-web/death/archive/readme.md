@@ -9,7 +9,7 @@
 
 I'm sorry to say this... but...
 
-The tadi web is Dead! [Again](https://www.todepond.com/wikiblogarden/tadi-web/death/who/)!
+THE TADI WEB IS DEAD! [AGAIN](https://www.todepond.com/wikiblogarden/tadi-web/death/who/)!
 
 <br>
 
@@ -80,7 +80,7 @@ yeah
 and
 
 > I'm sorry to say this... but...
-> THE TADI WEB IS DEAD! [Again](https://www.todepond.com/wikiblogarden/tadi-web/death/who/)!
+> THE TADI WEB IS DEAD! [AGAIN](https://www.todepond.com/wikiblogarden/tadi-web/death/who/)!
 > LONG LIVE THE TADI WEB!
 
 <br>

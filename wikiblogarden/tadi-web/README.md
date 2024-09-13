@@ -31,6 +31,6 @@ The tadi web often dies.
 - [DEATH OF THE TADI WEB: Never heard of her](death/who)
 - [DEATH OF THE TADI WEB: Archive](death/archive)
 
-  <br>
+<br>
 
 Back to the [wibliden](/wikiblogarden).
