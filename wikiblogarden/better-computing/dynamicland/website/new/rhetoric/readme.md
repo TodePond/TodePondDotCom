@@ -1,3 +1,5 @@
+more context [here](https://www.todepond.com/wikiblogarden/better-computing/dynamicland/website/new/)
+
 > Lu:\
 > my day nine dynamicland website reaction: 
 > 
