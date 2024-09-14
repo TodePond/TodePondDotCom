@@ -28,9 +28,9 @@
 > Josh:\
 > so I'm still fuzzy on whether your issue is with
 > 
-> 1. that point\
-> 2. the language he's using to make that point\
-> 3. you don't think that's the point he's actually\ making, and you take issue with the point you think he's actually making
+> 1. that point
+> 2. the language he's using to make that point
+> 3. you don't think that's the point he's actually making, and you take issue with the point you think he's actually making
 
 > Josh:\
 > (an example of an issue someone could have with #2: "Bret's use of 'real' is loaded language – he's using it to argue for the physical over the digital without making a real argument; he's begging the question")
