@@ -180,11 +180,9 @@ Josh's follow-on challenges here were really great and helpful, so I feel like I
 
 I love the new dynamicland website because it opens up so much great work and research and exploration to all of us out here in the real world.
 
-and it's allowing me to learn a lot, and im now about to speak about it in detail with lots of people i respect.
+and it's allowing me to learn a lot, and im now able to speak about it in detail with lots of people i respect.
 
 for me, it shows the value and importance of normalising sharing scrappy fiddles! the website does it, and it's what I'm trying to do now.
-
-it's just the beginning, and I'm looking forward to what's next
 
 <br>
 
