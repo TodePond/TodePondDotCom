@@ -50,9 +50,9 @@ more context [here](https://www.todepond.com/wikiblogarden/better-computing/dyna
 
 > so I'm still fuzzy on whether your issue is with
 > 
-> 1. that point\
-> 2. the language he's using to make that point\
-> 3. you don't think that's the point he's actually\ making, and you take issue with the point you think he's actually making
+> 1. that point
+> 2. the language he's using to make that point
+> 3. you don't think that's the point he's actually making, and you take issue with the point you think he's actually making
 
 (4) the truth is, i don't have an issue with it. it makes me feel sad, and slightly confused, and that's ok! it's ok to feel sad about something :) i'm trying to understand the perspective more to hopefully become less sad and confused about it
 
