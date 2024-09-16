@@ -1,15 +1,13 @@
 # I am really bad at coding
 
-this may or may not come as a surprise to you but I am really bad at coding
+this may or may not surprise you but I am really bad at coding
 
 <br>
 
 <br>
 
-I'm bad. I'm so so bad
-
-I get confused so easily
-
+I'm bad. I'm so so bad\
+I get confused so easily\
 I don't know what I'm doing
 
 <br>
