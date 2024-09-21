@@ -7,8 +7,11 @@
 
 :root {
   --green: rgb(60, 255, 138);
+  --light-cyan: rgb(113, 234, 255);
   --cyan: rgb(80, 204, 255);
+  --dark-cyan: rgb(35, 193, 255);
   --blue: rgb(60, 80, 255);
+  --lightish-blue: rgb(123, 137, 255);
   --light-blue: rgb(60, 255, 255);
   --purple: rgb(140, 80, 255);
   --light-purple: rgb(161, 110, 255);
@@ -29,11 +32,20 @@
   --rainbow-8: var(--orange);
   --rainbow-9: var(--yellow);
 
-  --rainbow-gradient: linear-gradient(
+  --pink-rainbow-gradient: linear-gradient(
     /* slanted */ 135deg,
     var(--light-pink),
     var(--light-purple),
     /* var(--orange), */ /* var(--yellow) */ var(--light-blue)
+  );
+
+  --rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+    var(--cyan),
+    var(--light-blue),
+    var(--lightish-blue),
+    var(--pink),
+    var(--light-blue)
   );
 
   --shade-0: rgb(6, 7, 10);
@@ -62,7 +74,7 @@
 html {
   /*  rainbow gradient background */
   background: var(--rainbow-gradient);
-  background-size: 300% 250%;
+  background-size: 1200% 800%;
 }
 
 /* cycling rainbow animation */

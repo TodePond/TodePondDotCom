@@ -7,8 +7,11 @@
 
 :root {
   --green: rgb(60, 255, 138);
+  --light-cyan: rgb(113, 234, 255);
   --cyan: rgb(80, 204, 255);
+  --dark-cyan: rgb(35, 193, 255);
   --blue: rgb(60, 80, 255);
+  --lightish-blue: rgb(123, 137, 255);
   --light-blue: rgb(60, 255, 255);
   --purple: rgb(140, 80, 255);
   --light-purple: rgb(161, 110, 255);
@@ -29,11 +32,15 @@
   --rainbow-8: var(--orange);
   --rainbow-9: var(--yellow);
 
+  --best-colour: #9faeee;
+  --best-colour-faded: rgb(172, 139, 255);
+
   --cellpond-rainbow-gradient: linear-gradient(
     /* slanted */ 135deg,
+    var(--cyan),
+    var(--light-blue),
     var(--light-pink),
-    var(--light-purple),
-    /* var(--orange), */ /* var(--yellow) */ var(--light-blue)
+    var(--pink)
   );
 
   --arroost-rainbow-gradient: linear-gradient(
@@ -75,13 +82,28 @@ html {
 }
 
 .cellpond::before {
+  /* background-color: var(--light-pink); */
   background: var(--cellpond-rainbow-gradient);
-  background-size: 200% 100%;
+  /* background-size: 200% 100%; */
+  background-size: 6000px 2000px;
 }
 
 .arroost::before {
+  /* background-color: var(--green); */
   background: var(--arroost-rainbow-gradient);
-  background-size: 300% 200%;
+  /* background-size: 300% 200%; */
+  background-size: 6000px 2000px;
+}
+
+@media (max-width: 750px) {
+  .cellpond::before {
+    /* background: var(--light-pink); */
+  }
+
+  .arroost::before {
+    /* background: var(--green); */
+    /* background-size: 600% 400%; */
+  }
 }
 
 .torn {
