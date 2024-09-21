@@ -230,6 +230,10 @@ a:hover {
   z-index: 10000;
 }
 
+.other a:hover {
+  outline: 2px solid var(--shade-3);
+}
+
 .c {
   outline-width: 1px;
   /* outline: none; */
