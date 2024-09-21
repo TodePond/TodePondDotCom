@@ -316,7 +316,7 @@ label {
 }
 
 ul {
-  padding-inline-start: 20px;
+  padding-inline-start: 0px;
 
   /* line-height: 1.2; */
 }
@@ -330,7 +330,8 @@ ul {
 }
 
 ul > li {
-  list-style: " — ";
+  /* list-style: " — "; */
+  list-style: none;
   /* margin-left: 0px; */
 }
 
