@@ -62,7 +62,7 @@
 html {
   /*  rainbow gradient background */
   background: var(--rainbow-gradient);
-  background-size: 300% 200%;
+  background-size: 1200% 800%;
 }
 
 /* cycling rainbow animation */
