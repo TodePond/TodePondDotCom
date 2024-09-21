@@ -281,7 +281,7 @@ a.button.danger {
 }
 
 a.button.tertiary {
-  border-color: #9faeee;
+  border-color: var(--best-colour);
 }
 
 a.button.warning {
