@@ -68,7 +68,7 @@ let's just send it
 
 yes
 
-let's send it and then\
+let's just send it and then\
 let's hope for the best
 
 PDFs are so bad\
