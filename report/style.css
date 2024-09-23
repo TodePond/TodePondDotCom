@@ -123,6 +123,10 @@ a {
   font-style: normal;
 }
 
+li > a {
+  padding: 2px 4px;
+}
+
 a::selection {
   background-color: white;
   color: var(--shade-3);

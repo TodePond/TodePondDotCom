@@ -58,11 +58,7 @@ But of course, nurses can't make that kind of decision, so it was a bit unfair o
 
 So she tried her best to encourage me to "stick with it" and "see how it goes" for another six months. 
 
-"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can stick with you. So it's possible that it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
-
-<br>
-
-<br>
+"After all", she said. "It can become a mental thing. Something you have to get over. One bad experience can get stuck in your head."
 
 <br>
 
@@ -76,7 +72,7 @@ What does it mean for something to be in your head?
 
 ## Gender dysphoria
 
-How do you know if someone is `transgender` or not? How do you know if *you're* `transgender` or not? 
+How do you know if someone is trans or not? How do you know if *you're* trans or not? 
 
 <details>
 <summary>
@@ -84,22 +80,21 @@ Spoiler alert. Click to reveal.
 </summary>
 Being trans is something that you feel in your head. And that doesn't make it any less real.
 
-Anyone who says otherwise is a <details><summary>Spoiler alert. Click to reveal.</summary>gatekeeping piece of shit.</details>
+Anyone who says otherwise is a...
+<br>
+
+<details><summary>Spoiler alert. Click to reveal.</summary>Gatekeeping piece of shit.</details>
 </details>
 
 <br>
 
-<br>
-
-<br>
-
-<br>
+<hr>
 
 <br>
 
 I stuck with the cushion for about three months, and then I stopped taking it out of protest, and some people worried about me, and gently encouraged me to start taking it again. 
 
-But no, I couldn't face it. I was at a [new job](https://tldraw.com), that I loved. And while I'm sure that my work would have been fine with me taking time off, I didn't want to do that. I was sick of being sick!
+But no, I couldn't face it. I was at a [new job](https://tldraw.com) that I loved. And I'm sure that my work would have been fine with me taking time off, but I didn't want to do that. I was just sick of being sick!
 
 And so, I welcomed back all my psoriasis symptoms with open arms. Hello again, red forehead! Welcome back, crippling limp! Oh and hi there, scabby leg, you're new! They were nothing compared to weekly vomit. 
 
@@ -113,17 +108,13 @@ I couldn't take cushion anymore, I couldn't look at it, couldn't even hold a pot
 
 My body was trying to protect me. It *learned* that cushion was POISON.
 
-Of course, in this case, my body was right: Cushion is poison.
+Of course, in this case, my body was right: Cushion *is* poison.
 
-My body got it right, but that didn't make it any easier, and every appointment at the doctors, and at the hospital, people told me to take it.
+My body got it right, but that didn't make it any easier, and at every appointment, people told me to take it.
 
 "I don't like it," I said. "It makes me sick."
 
-And of course, people told me, "Just give it a try. It'll be okay really. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
-
-<br>
-
-<br>
+And of course, they told me, "Just give it a try. It'll be okay really. It's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) in your head."
 
 <br>
 
@@ -133,7 +124,11 @@ And of course, people told me, "Just give it a try. It'll be okay really. It's [
 
 # In your head
 
-What does it mean for something to be— I don't care what it means. I'm not taking it.
+What does it mean for something to be in your head?
+
+[It doesn't matter!!!!!!!!!!](https://www.todepond.com/report/definitions-that-dont-matter/)
+
+Whatever it means, I'm not taking that cushion.
 
 <br>
 
@@ -141,5 +136,4 @@ What does it mean for something to be— I don't care what it means. I'm not tak
 
 <br>
 
-The vomit diaries will continue tomorrow.\
-Back to the [contents](https://www.todepond.com/wikiblogarden/health/vomit/diaries/).
+Continue to [part five](https://www.todepond.com/wikiblogarden/health/vomit/diaries/sunset-glasses).

@@ -1,0 +1,479 @@
+/* GRAVEYARD CSS */
+/* The tadi css is dead. Long live the tadi css! */
+
+* {
+  accent-color: #4680ff;
+}
+
+:root {
+  --green: rgb(60, 255, 138);
+  --cyan: rgb(80, 204, 255);
+  --blue: rgb(60, 80, 255);
+  --light-blue: rgb(60, 255, 255);
+  --purple: rgb(140, 80, 255);
+  --pink: rgb(255, 128, 222);
+  --coral: rgb(255, 128, 128);
+  --red: rgb(255, 67, 70);
+  --orange: rgb(255, 128, 70);
+  --yellow: rgb(255, 255, 70);
+
+  --rainbow-1: var(--green);
+  --rainbow-2: var(--cyan);
+  --rainbow-3: var(--blue);
+  --rainbow-4: var(--purple);
+  --rainbow-5: var(--pink);
+  --rainbow-6: var(--coral);
+  --rainbow-7: var(--red);
+  --rainbow-8: var(--orange);
+  --rainbow-9: var(--yellow);
+
+  --rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--green)
+  );
+
+  --shade-0: rgb(6, 7, 10);
+  --shade-1: rgb(14, 16, 22);
+  --shade-2: rgb(24, 29, 39);
+  --shade-3: rgb(31, 39, 54);
+  --shade-4: rgb(47, 56, 75);
+  --shade-5: rgb(55, 67, 98);
+  --shade-6: rgb(87, 101, 147);
+  --shade-7: rgb(135, 146, 171);
+  --shade-8: rgb(159, 174, 204);
+  --shade-9: rgb(224, 224, 224);
+  --shade-10: rgb(255, 255, 255);
+
+  --void: var(--shade-0);
+  --black: var(--shade-2);
+  --dark-grey: var(--shade-3);
+  --grey: var(--shade-5);
+  --light-grey: var(--shade-6);
+  --silver: var(--shade-8);
+  --white: var(--shade-10);
+
+  --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
+}
+
+html {
+  /*  rainbow gradient background */
+  background: var(--rainbow-gradient);
+  background-size: 1200% 800%;
+}
+
+/* cycling rainbow animation */
+@keyframes rainbow-cycle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  /* color: black; */
+  color: var(--shade-3);
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  font-size: 1.2em;
+}
+
+audio,
+video {
+  width: 100%;
+}
+
+a.anchor {
+  color: white;
+  background-color: var(--shade-3);
+  text-decoration: none;
+  outline: 2px solid var(--shade-3);
+  position: relative;
+  padding: 0px 3px;
+}
+
+a.anchor:hover {
+  color: var(--shade-3);
+  background-color: white;
+  outline: 2px solid white;
+  z-index: 10000;
+}
+
+a {
+  /* color: var(--shade-3);
+  background-color: white; */
+  color: white;
+  background-color: var(--shade-3);
+  text-decoration: none;
+  /* outline: 1px solid var(--shade-3); */
+  position: relative;
+  padding: 2px 4px;
+  margin-right: 0px;
+  cursor: pointer;
+  font-style: normal;
+}
+
+a::selection {
+  background-color: white;
+  color: var(--shade-3);
+}
+
+a.contents::selection {
+  background-color: var(--shade-3);
+  color: white;
+}
+
+figure {
+  margin: 0px;
+  padding: 40px;
+}
+
+@media (max-width: 800px) {
+  figure {
+    padding: 20px;
+  }
+}
+
+figcaption {
+  text-align: center;
+  /* italic */
+  font-style: italic;
+  margin-top: 10px;
+}
+
+a.contents {
+  color: var(--shade-3);
+  background-color: white;
+  /* outline: 2px solid white; */
+}
+
+a.contents:hover {
+  color: white;
+  background-color: var(--shade-3);
+  outline: 2px solid var(--shade-3);
+}
+
+p,
+li,
+td {
+  line-height: 1.5;
+}
+
+p {
+  margin: 25px 0px;
+}
+
+a:hover {
+  /* color: white; */
+  /* background-color: var(--shade-3); */
+  color: var(--shade-3);
+  background-color: white;
+  outline: 2px solid white;
+  z-index: 10000;
+}
+
+.c {
+  outline-width: 1px;
+  /* outline: none; */
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 0px 1px;
+}
+
+table {
+  border: 2px solid var(--shade-3);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Add border to table between columns and rows */
+table td,
+table th {
+  /* border: 1px solid var(--shade-3); */
+  border-left: 1px solid var(--shade-3);
+  padding: 5px;
+}
+
+table th {
+  border-bottom: 2px solid var(--shade-3);
+  width: 50%;
+}
+
+table td {
+  /* align top */
+  vertical-align: top;
+}
+
+/* .c:hover {
+  background-color: var(--blue);
+  outline-color: var(--blue);
+  color: white;
+} */
+
+:target {
+  outline: 4px solid white;
+  outline-offset: 4px;
+}
+
+a.footnote:target {
+  outline-offset: 0px;
+}
+
+a.footnote::before {
+  content: "[";
+}
+
+a.footnote::after {
+  content: "]";
+}
+
+label {
+  user-select: none;
+}
+
+ul {
+  padding-inline-start: 20px;
+
+  /* line-height: 1.2; */
+}
+
+*::selection {
+  background-color: white;
+  /* outline: 2px solid red; */
+  /* color: black; */
+  /* color: white; */
+}
+
+ul > li {
+  list-style: " — ";
+  /* margin-left: 0px; */
+}
+
+a.secondary {
+  color: #4699ff;
+}
+
+a.secondary:hover {
+  color: black;
+  background-color: #4699ff;
+  outline: 2px solid #4699ff;
+}
+
+a.danger {
+  color: #ff4346;
+}
+
+a.danger:hover {
+  color: black;
+  background-color: #ff4346;
+  outline: 2px solid #ff4346;
+}
+
+a.tertiary {
+  color: #9faeee;
+}
+
+a.tertiary:hover {
+  color: black;
+  background-color: #9faeee;
+  outline: 2px solid #9faeee;
+}
+
+a.warning {
+  color: #ffff46;
+}
+
+a.warning:hover {
+  color: black;
+  background-color: #ffff46;
+  outline: 2px solid #ffff46;
+}
+
+a.button {
+  border: 3px solid #46ff80;
+  padding: 4px 5px;
+  text-decoration: none;
+  line-height: 2.3;
+}
+
+a.button:hover {
+  outline: none;
+}
+
+a.button.secondary {
+  border-color: #4699ff;
+}
+
+a.button.danger {
+  border-color: #ff4346;
+}
+
+a.button.tertiary {
+  border-color: #9faeee;
+}
+
+a.button.warning {
+  border-color: #ffff46;
+}
+
+label.secondary,
+span.secondary,
+p.secondary {
+  color: #9faeee;
+}
+
+blockquote {
+  /* color: var(--shade-6); */
+  margin: 0px;
+  padding-left: 23px;
+  border-left: 1px var(--shade-6) solid;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--shade-3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  border-bottom: var(--shade-3) 3px solid;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  width: 100%;
+  text-align: center;
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  /* looks like a button */
+  padding: 5px;
+  border: 1px solid #9faeee;
+  background-color: #374362;
+  /* color: #9faeee; */
+  width: fit-content;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="search"]::placeholder,
+textarea::placeholder {
+  color: #9faeee;
+}
+
+/* input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+  } */
+
+:focus {
+  outline-color: 2px solid #4680ff;
+  border-radius: 0%;
+}
+
+button {
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button.danger {
+  background-color: #ff4346;
+  color: white;
+}
+
+button.primary {
+  background-color: #4680ff;
+  color: white;
+}
+
+pre {
+  background-color: #374362;
+  /*color: white;*/
+  padding: 11px;
+  overflow-x: auto;
+}
+
+pre.changelog {
+  color: #9faeee;
+}
+
+pre.changelog mark {
+  color: white;
+}
+
+pre mark {
+  color: #46ff80;
+  background: none;
+}
+
+/* input[type="checkbox"] { */
+/* width: 29px; */
+/* } */
+
+select {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+}

@@ -55,7 +55,7 @@
   });
 
   function getLocalItems() {
-    const rawLocalItems = localStorage.getItem("items") ?? "[]";
+    const rawLocalItems = localStorage.getItem("pondcast/items") ?? "[]";
     let localItems;
     try {
       localItems = JSON.parse(rawLocalItems);
@@ -69,12 +69,12 @@
   }
 
   async function main() {
-    const rawLocalItems = localStorage.getItem("items") ?? "[]";
+    const rawLocalItems = localStorage.getItem("pondcast/items") ?? "[]";
     const localItems = getLocalItems();
     renderItems(localItems);
 
     const items = await fetchItems();
-    localStorage.setItem("items", JSON.stringify(items));
+    localStorage.setItem("pondcast/items", JSON.stringify(items));
     renderItems(items);
   }
 

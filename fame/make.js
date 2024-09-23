@@ -3,52 +3,50 @@
 //========//
 // Config //
 //========//
-const BUILD_NAME = "pondoffame"
+const BUILD_NAME = "pondoffame";
 const EXAMPLE_CODE = `
 	
 	// ribbit
 	
-`
+`;
 //======//
 // File //
 //======//
-const decoder = new TextDecoder("utf-8")
-const encoder = new TextEncoder("utf-8")
+const decoder = new TextDecoder("utf-8");
+const encoder = new TextEncoder("utf-8");
 
 const readFile = async (path) => {
-	console.log("%cReading File: " + path, "color: rgb(0, 128, 255)")
-	const data = await Deno.readFile(path)
-	const source = decoder.decode(data)
-	return source
-}
+  console.log("%cReading File: " + path, "color: rgb(0, 128, 255)");
+  const data = await Deno.readFile(path);
+  const source = decoder.decode(data);
+  return source;
+};
 
 const writeFile = async (path, source) => {
-	console.log("%cWriting File: " + path, "color: rgb(0, 255, 128)")
-	const data = encoder.encode(source)
-	return await Deno.writeFile(path, data)
-}
+  console.log("%cWriting File: " + path, "color: rgb(0, 255, 128)");
+  const data = encoder.encode(source);
+  return await Deno.writeFile(path, data);
+};
 
 const readDir = async (path) => {
-	
-	const paths = {header: [], middle: [], footer: []}
-	
-	const base = {header: [], middle: [], footer: []}
-	const embed = {header: [], middle: [], footer: []}
-	const module = {header: [], middle: [], footer: []}
-	
-	const baseHtml = {header: [], middle: [], footer: []}
-	const embedHtml = {header: [], middle: [], footer: []}
-	const importHtml = {header: [], middle: [], footer: []}
-	
-	for await (const entry of Deno.readDir(path)) {
-		
-		let entryPath = `${path}/${entry.name}`
-		if (entry.isDirectory) await readDir(entryPath)
-		else {
-			let [name, extension] = entry.name.split(".")
-			const args = name.split("-")
-			
-			/*if (extension === "mt") {
+  const paths = { header: [], middle: [], footer: [] };
+
+  const base = { header: [], middle: [], footer: [] };
+  const embed = { header: [], middle: [], footer: [] };
+  const module = { header: [], middle: [], footer: [] };
+
+  const baseHtml = { header: [], middle: [], footer: [] };
+  const embedHtml = { header: [], middle: [], footer: [] };
+  const importHtml = { header: [], middle: [], footer: [] };
+
+  for await (const entry of Deno.readDir(path)) {
+    let entryPath = `${path}/${entry.name}`;
+    if (entry.isDirectory) await readDir(entryPath);
+    else {
+      let [name, extension] = entry.name.split(".");
+      const args = name.split("-");
+
+      /*if (extension === "mt") {
 				const dirtySource = await readFile(entryPath)
 				const source = dirtySource.split("").filter(c => c !== "\r").join("")
 				console.log("%cTranslating File: " + entryPath, "color: rgb(255, 128, 128)")
@@ -60,30 +58,43 @@ const readDir = async (path) => {
 				entryPath = `build/translations/` + name + ".js"
 			}*/
 
-			let target = undefined
-			if (extension === "js") {
-				target = args.includes("import")? module : (args.includes("embed")? embed : base)
-			}
-			else if (extension === "html") {
-				target = args.includes("import")? importHtml : (args.includes("embed")? embedHtml : baseHtml)
-			}
-			const position = args.includes("footer")? "footer" : (args.includes("header")? "header" : "middle")
-			
-			const source = await readFile(entryPath)
-			target[position].push(source)
-			if (target !== module && extension === "js") paths[position].push(entryPath)
-		}
-	}
-	return {base, embed, module, paths, baseHtml, embedHtml, importHtml}
-}
+      let target = undefined;
+      if (extension === "js") {
+        target = args.includes("import")
+          ? module
+          : args.includes("embed")
+          ? embed
+          : base;
+      } else if (extension === "html") {
+        target = args.includes("import")
+          ? importHtml
+          : args.includes("embed")
+          ? embedHtml
+          : baseHtml;
+      }
+      const position = args.includes("footer")
+        ? "footer"
+        : args.includes("header")
+        ? "header"
+        : "middle";
+
+      const source = await readFile(entryPath);
+      target[position].push(source);
+      if (target !== module && extension === "js")
+        paths[position].push(entryPath);
+    }
+  }
+  return { base, embed, module, paths, baseHtml, embedHtml, importHtml };
+};
 
 //============//
 // Read Stuff //
 //============//
-const {base, embed, module, paths, baseHtml, embedHtml, importHtml} = await readDir("source")
+const { base, embed, module, paths, baseHtml, embedHtml, importHtml } =
+  await readDir("source");
 
 //===============//
-// Build Project //
+// Build Exploration //
 //===============//
 /*const baseSource = [...base.header, ...base.middle, ...base.footer].join("\n\n")
 const embedSource = [...embed.header, baseSource, ...embed.middle, ...embed.footer].join("\n\n")
@@ -94,16 +105,18 @@ await writeFile(`build/${BUILD_NAME}-import.js`, moduleSource)*/
 //===============//
 // Build Example //
 //===============//
-const exampleTags = [...paths.header, ...paths.middle, ...paths.footer].map(path => `<script src="${path}"></script>`)
+const exampleTags = [...paths.header, ...paths.middle, ...paths.footer].map(
+  (path) => `<script src="${path}"></script>`
+);
 const exampleHtml = [
-	...embedHtml.header,
-	...baseHtml.header,
-	...embedHtml.middle,
-	...baseHtml.middle,
-	...exampleTags,
-	...baseHtml.footer,
-	...embedHtml.footer,
-].join("\n")
+  ...embedHtml.header,
+  ...baseHtml.header,
+  ...embedHtml.middle,
+  ...baseHtml.middle,
+  ...exampleTags,
+  ...baseHtml.footer,
+  ...embedHtml.footer,
+].join("\n");
 /*
 const exampleSource = `<!-- This file shows you how you can use the library by using multiple script tags that link directly to the source files. -->
 <!-- It is auto-generated by make.js -->
@@ -130,5 +143,5 @@ await writeFile("examples/example-embed-single.html", exampleSingleSource)*/
 //==================//
 // Build Tinkerable //
 //==================//
-const tinkerSource = `${exampleHtml}`
-await writeFile("index.html", tinkerSource)
+const tinkerSource = `${exampleHtml}`;
+await writeFile("index.html", tinkerSource);
