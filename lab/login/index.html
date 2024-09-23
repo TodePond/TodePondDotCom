@@ -190,6 +190,8 @@
         if (json.error) {
           alert(json.error);
         } else {
+          localStorage.removeItem("labLoginUsername");
+          localStorage.removeItem("labLoginPassword");
           location.href = "/lab/login/?delete";
         }
       });
