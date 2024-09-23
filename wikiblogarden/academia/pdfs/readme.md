@@ -125,8 +125,9 @@ in a list\
 that's all we need\
 maybe more\
 but the minimum is already better\
-then PDFs\
-oh PDFs
+than PDFs
+
+*oh PDFs*
 
 let go of perfection\
 of perfect lines\
