@@ -50,9 +50,9 @@ it doesn't show for me
 
 oh yes that is odd\
 I did it in the default viewer\
-using the signature thing
+using the signature thingy
 
-the what thing?\
+the what thingy?\
 and the what viewer?
 
 oh you know what\
