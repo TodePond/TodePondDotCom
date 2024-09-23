@@ -2,258 +2,294 @@
       <rss version="2.0">
         <channel>
           <title>Todepond Pondcast</title>
-          <link>http://www.todepond.com/pondcast/</link>
+          <link>https://www.todepond.com/pondcast</link>
           <description>weekly update from the pond</description>
             
         <item>
           <title>Older episodes</title>
-          <link>http://www.todepond.com/pondcast/older-episodes/</link>
+          <link>https://www.todepond.com/pondcast/older-episodes</link>
           <pubDate>Thu, 15 Aug 2024 15:38:00 GMT</pubDate>
+          
         </item>
       
 
         <item>
           <title>Normalise sharing scrappy fiddles</title>
-          <link>http://www.todepond.com/pondcast/normalise-sharing-scrappy-fiddles/</link>
+          <link>https://www.todepond.com/pondcast/normalise-sharing-scrappy-fiddles</link>
           <pubDate>Fri, 16 Aug 2024 15:20:00 GMT</pubDate>
+          
         </item>
       
 
         <item>
           <title>Perfect rhyme</title>
-          <link>http://www.todepond.com/pondcast/perfect-rhyme/</link>
+          <link>https://www.todepond.com/pondcast/perfect-rhyme</link>
           <pubDate>Fri, 16 Aug 2024 15:21:00 GMT</pubDate>
+          
         </item>
       
 
         <item>
           <title>Set</title>
-          <link>http://www.todepond.com/pondcast/set/</link>
+          <link>https://www.todepond.com/pondcast/set</link>
           <pubDate>Fri, 16 Aug 2024 15:22:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/set/1.m4a" length="12151931" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Multiple angles</title>
-          <link>http://www.todepond.com/pondcast/multiple-angles/</link>
+          <link>https://www.todepond.com/pondcast/multiple-angles</link>
           <pubDate>Fri, 16 Aug 2024 15:30:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/multiple-angles/1.m4a" length="14369827" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Wires to wires to wires</title>
-          <link>http://www.todepond.com/pondcast/wires-to-wires-to-wires/</link>
+          <link>https://www.todepond.com/pondcast/wires-to-wires-to-wires</link>
           <pubDate>Fri, 16 Aug 2024 15:31:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/wires-to-wires-to-wires/1.m4a" length="16742981" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Infinity rooms</title>
-          <link>http://www.todepond.com/pondcast/infinity-rooms/</link>
+          <link>https://www.todepond.com/pondcast/infinity-rooms</link>
           <pubDate>Fri, 16 Aug 2024 15:32:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/infinity-rooms/1.m4a" length="13793090" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Replacement</title>
-          <link>http://www.todepond.com/pondcast/replacement/</link>
+          <link>https://www.todepond.com/pondcast/replacement</link>
           <pubDate>Fri, 16 Aug 2024 15:33:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/replacement/1.m4a" length="13593679" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>CHOOSE: Your hero</title>
-          <link>http://www.todepond.com/pondcast/choose-your-hero/</link>
+          <link>https://www.todepond.com/pondcast/choose-your-hero</link>
           <pubDate>Fri, 16 Aug 2024 15:34:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/choose-your-hero/1.m4a" length="16243227" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Puss in boots</title>
-          <link>http://www.todepond.com/pondcast/puss-in-boots/</link>
+          <link>https://www.todepond.com/pondcast/puss-in-boots</link>
           <pubDate>Fri, 16 Aug 2024 15:35:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/puss-in-boots/1.m4a" length="16230011" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Berd has flown away</title>
-          <link>http://www.todepond.com/pondcast/berd-has-flown-away/</link>
+          <link>https://www.todepond.com/pondcast/berd-has-flown-away</link>
           <pubDate>Fri, 16 Aug 2024 15:36:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/berd-has-flown-away/1.m4a" length="19075017" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>VIDEO VOTE: Tode will wake up</title>
-          <link>http://www.todepond.com/pondcast/tode-will-wake-up/</link>
+          <link>https://www.todepond.com/pondcast/tode-will-wake-up</link>
           <pubDate>Fri, 16 Aug 2024 15:37:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/tode-will-wake-up/1.m4a" length="14587586" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Sixteen scrappy fiddles</title>
-          <link>http://www.todepond.com/pondcast/sixteen-scrappy-fiddles/</link>
+          <link>https://www.todepond.com/pondcast/sixteen-scrappy-fiddles</link>
           <pubDate>Fri, 16 Aug 2024 15:38:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/sixteen-scrappy-fiddles/1.m4a" length="15878076" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Pointing to the pieces</title>
-          <link>http://www.todepond.com/pondcast/pointing-to-the-pieces/</link>
+          <link>https://www.todepond.com/pondcast/pointing-to-the-pieces</link>
           <pubDate>Fri, 16 Aug 2024 15:39:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/pointing-to-the-pieces/1.m4a" length="33438070" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Vision pro</title>
-          <link>http://www.todepond.com/pondcast/vision-pro/</link>
+          <link>https://www.todepond.com/pondcast/vision-pro</link>
           <pubDate>Fri, 16 Aug 2024 15:40:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/vision-pro/1.m4a" length="19169389" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Final shot</title>
-          <link>http://www.todepond.com/pondcast/final-shot/</link>
+          <link>https://www.todepond.com/pondcast/final-shot</link>
           <pubDate>Fri, 16 Aug 2024 15:41:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/final-shot/1.m4a" length="7208137" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Finding ninety nine sands</title>
-          <link>http://www.todepond.com/pondcast/finding-ninety-nine-sands/</link>
+          <link>https://www.todepond.com/pondcast/finding-ninety-nine-sands</link>
           <pubDate>Fri, 16 Aug 2024 15:42:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/finding-ninety-nine-sands/1.m4a" length="19563054" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Twenty minute video</title>
-          <link>http://www.todepond.com/pondcast/twenty-minute-video/</link>
+          <link>https://www.todepond.com/pondcast/twenty-minute-video</link>
           <pubDate>Fri, 16 Aug 2024 15:43:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/twenty-minute-video/1.m4a" length="29959716" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Don't do maths</title>
-          <link>http://www.todepond.com/pondcast/dont-do-maths/</link>
+          <link>https://www.todepond.com/pondcast/dont-do-maths</link>
           <pubDate>Fri, 16 Aug 2024 15:44:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/dont-do-maths/1.m4a" length="19121266" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Why we are coders</title>
-          <link>http://www.todepond.com/pondcast/why-we-are-coders/</link>
+          <link>https://www.todepond.com/pondcast/why-we-are-coders</link>
           <pubDate>Fri, 16 Aug 2024 15:45:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/why-we-are-coders/1.mp3" length="15357120" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Natural code</title>
-          <link>http://www.todepond.com/pondcast/natural-code/</link>
+          <link>https://www.todepond.com/pondcast/natural-code</link>
           <pubDate>Fri, 16 Aug 2024 15:46:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/natural-code/1.m4a" length="23370368" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Torn leaf zero</title>
-          <link>http://www.todepond.com/pondcast/torn-leaf-zero/</link>
+          <link>https://www.todepond.com/pondcast/torn-leaf-zero</link>
           <pubDate>Fri, 16 Aug 2024 15:47:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/torn-leaf-zero/1.m4a" length="29609930" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Elephant in the room + Step by step</title>
-          <link>http://www.todepond.com/pondcast/elephant-in-the-room-and-step-by-step/</link>
+          <link>https://www.todepond.com/pondcast/elephant-in-the-room-and-step-by-step</link>
           <pubDate>Fri, 16 Aug 2024 15:48:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/elephant-in-the-room-and-step-by-step/1.m4a" length="53032344" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Out of time</title>
-          <link>http://www.todepond.com/pondcast/out-of-time/</link>
+          <link>https://www.todepond.com/pondcast/out-of-time</link>
           <pubDate>Fri, 16 Aug 2024 15:49:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/out-of-time/1.m4a" length="27932592" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Confession</title>
-          <link>http://www.todepond.com/pondcast/confession/</link>
+          <link>https://www.todepond.com/pondcast/confession</link>
           <pubDate>Fri, 16 Aug 2024 15:50:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/confession/1.m4a" length="17908176" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Todepond</title>
-          <link>http://www.todepond.com/pondcast/todepond/</link>
+          <link>https://www.todepond.com/pondcast/todepond</link>
           <pubDate>Fri, 16 Aug 2024 15:51:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/todepond/1.m4a" length="28807480" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Stitch</title>
-          <link>http://www.todepond.com/pondcast/stitch/</link>
+          <link>https://www.todepond.com/pondcast/stitch</link>
           <pubDate>Fri, 16 Aug 2024 15:52:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/stitch/1.m4a" length="34566176" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>This is a shepherd</title>
-          <link>http://www.todepond.com/pondcast/this-is-a-shepherd/</link>
+          <link>https://www.todepond.com/pondcast/this-is-a-shepherd</link>
           <pubDate>Fri, 16 Aug 2024 15:53:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/this-is-a-shepherd/1.m4a" length="29655325" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>This is not a fish</title>
-          <link>http://www.todepond.com/pondcast/this-is-not-a-fish/</link>
+          <link>https://www.todepond.com/pondcast/this-is-not-a-fish</link>
           <pubDate>Fri, 16 Aug 2024 15:54:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/this-is-not-a-fish/1.mp3" length="10754807" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Reaction reaction</title>
-          <link>http://www.todepond.com/pondcast/reaction-reaction/</link>
+          <link>https://www.todepond.com/pondcast/reaction-reaction</link>
           <pubDate>Fri, 16 Aug 2024 15:55:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/reaction-reaction/1.mp3" length="33012480" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>With friends</title>
-          <link>http://www.todepond.com/pondcast/with-friends/</link>
+          <link>https://www.todepond.com/pondcast/with-friends</link>
           <pubDate>Fri, 16 Aug 2024 15:56:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/with-friends/1.m4a" length="42562455" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Three and a half weeks</title>
-          <link>http://www.todepond.com/pondcast/three-and-a-half-weeks/</link>
+          <link>https://www.todepond.com/pondcast/three-and-a-half-weeks</link>
           <pubDate>Fri, 16 Aug 2024 15:58:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/three-and-a-half-weeks/1.mp3" length="14192352" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Tease open</title>
-          <link>http://www.todepond.com/pondcast/tease-open/</link>
+          <link>https://www.todepond.com/pondcast/tease-open</link>
           <pubDate>Fri, 16 Aug 2024 15:59:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/tease-open/1.mp3" length="9573888" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Boosh</title>
-          <link>http://www.todepond.com/pondcast/boosh/</link>
+          <link>https://www.todepond.com/pondcast/boosh</link>
           <pubDate>Sun, 25 Aug 2024 14:18:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/boosh/1.m4a" length="19733690" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>Good is not enough</title>
-          <link>http://www.todepond.com/pondcast/good-is-not-enough/</link>
+          <link>https://www.todepond.com/pondcast/good-is-not-enough</link>
           <pubDate>Tue, 03 Sep 2024 19:04:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/good-is-not-enough/1.m4a" length="37473561" type="audio/mpeg" />
         </item>
       
 
         <item>
           <title>What it means to be messy + What it means to be open</title>
-          <link>http://www.todepond.com/pondcast/what-it-means-to-be-messy-and-what-it-means-to-be-open/</link>
+          <link>https://www.todepond.com/pondcast/what-it-means-to-be-messy-and-what-it-means-to-be-open</link>
           <pubDate>Mon, 23 Sep 2024 18:20:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/what-it-means-to-be-messy-and-what-it-means-to-be-open/1.mp3" length="23799000" type="audio/mpeg" />
         </item>
       
         </channel>
