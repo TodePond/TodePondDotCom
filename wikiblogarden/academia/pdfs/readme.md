@@ -162,3 +162,17 @@ so so so bad
 <br>
 
 back to the [feed](/feed)
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+this poem is also available as a [PDF](https://vea.st/pdfsaresobad.pdf), thanks to community member [chloe](https://chadthundercock.com/@chlo3).
