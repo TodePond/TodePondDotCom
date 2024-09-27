@@ -64,6 +64,8 @@ No more DMs please
 
 No more emails please
 
+Post it for everyone to see!
+
 Unless it REALLY REALLY REALLY REALLY needs to be private
 
 Then we switch to public as soon as we can
