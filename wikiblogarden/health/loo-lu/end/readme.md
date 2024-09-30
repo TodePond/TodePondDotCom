@@ -144,7 +144,7 @@ Going to the loo is something I can't take for granted. Every time feels like a 
 
 So I carry out my boring little risk assessment and it's tiring. It's so so tiring. What a waste of energy.
 
-> Okay, so my hairline is pretty far forward right now but I do have a little bit of beard shadow, and the lighting accentuates my brow quite a lot, and my voice is pretty gravelly from all the coffee but on the other hand, my top masks my shoulders pretty well, though this is a pretty conservative area, and although two people have madame'd me and one had sir'd me, I– Oh damn this is a close one. 
+> Okay, so my hairline is pretty far forward right now but I do have a little bit of beard shadow, and the lighting accentuates my brow quite a lot, and my voice is pretty gravelly from all the coffee but on the other hand, my top masks my shoulders pretty well, though this is a pretty conservative area, and two people have madame'd me but one has sir'd me, and I– Oh damn this is a close one. 
 
 Sometimes I ask a nearby friend for advice. 
 
@@ -152,7 +152,7 @@ Sometimes I ask a nearby friend for advice.
 
 I ask for practical purposes, but they tend to give me something else. 
 
-> 👏 You 👏 should 👏 use 👏 whatever 👏 loo 👏 you 👏 feel 👏 comfortable 👏 in 👏 You 👏 are 👏 a 👏 woman 👏
+> 👏 You 👏 should 👏 use 👏 the 👏 loo 👏 you 👏 feel 👏 best 👏 in 👏 queen 👏 you 👏 are 👏 a 👏 woman 👏
 
 And of course they're right but— Ugh—
 
@@ -164,7 +164,7 @@ Yes alright alright.
 
 And then.
 
-> 👏 Yes 👏 Quee— 🫸🫷 Wait! ✋ What!? 🫴
+> 👏 Yes 👏 queen 👏 wait! ✋ what!? 🫴
 
 <br>
 
@@ -210,7 +210,7 @@ Yes, sometimes, all the toilet debates can seem like a distraction. The bigots w
 
 It's tempting to think we should ignore the toilet thing altogether, and keep our sights set on more crucial targets. It's a pretty reasonable thing to think.
 
-You might think that we should avoid the toilet "debate" altogether. You might think that we can't get bogged(!) down in it. But I don't think it's an either/or.
+You might think we need to avoid the toilet "debate". You might think that we can't get bogged(!) down in it. But I don't think it's an either/or.
 
 > As with most things in life, it's not one or the other.
 
