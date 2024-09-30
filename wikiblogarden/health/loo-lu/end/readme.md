@@ -90,7 +90,7 @@ And his answer was:
 
 Now of course, many news organisations reported this as Keir Starmer stating that trans women aren't allowed to use the womens loo. [^mail][^sun]
 
-And if that's true, then I'm truly fucked, and stuck in the mens, because I don't even have a gender certificate, and I doubt I ever will, because it's too hard to get.
+And if that's true, then I'm truly fucked, and stuck in the mens, because I don't have a gender certificate, and I doubt I ever will, because it's too hard to get.
 
 But in a way, that would be simpler. If it's decreed by law, by the prime minister himself, that I must use the mens, then my life would be— my fate would be clear.
 
