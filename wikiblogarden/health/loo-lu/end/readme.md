@@ -192,7 +192,7 @@ And what if I don't want to pass!?
 
 I think stories about the loo are compelling because they tend to be very ridiculous.
 
-Imagine there being such a fuss about such a mundane and boring part of our lives. Well I don't need to imagine. 
+Imagine there being such a fuss about such a mundane and boring part of our lives. Well we don't need to imagine. 
 
 <br>
 
