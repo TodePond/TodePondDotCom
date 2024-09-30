@@ -234,6 +234,12 @@ Join me! Join me. For fucks sake, join me.
 
 Back to the [wikiblogarden](/wikiblogarden).
 
+<br>
+
+<hr>
+
+<br>
+
 [^quote]: [Keir Starmer says trans women ‘don’t have the right’ to use women-only spaces, even if they have a GRC](https://www.attitude.co.uk/news/keir-starmer-women-only-spaces-469056/)
 [^mail]: [Keir Starmer says trans women with penises WON'T be allowed to use female toilets](https://www.dailymail.co.uk/news/article-13591309/Keir-Starmer-says-trans-women-penises-NOT-allowed-female-toilets-JK-Rowling.html)
 [^vague]: [Keir Starmer: Trans women 'don't have right' to use women-only spaces](https://www.thenational.scot/news/24424943.keir-starmer-trans-women-dont-right-use-women-only-spaces/)
