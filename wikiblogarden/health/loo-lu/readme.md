@@ -2,7 +2,7 @@
 
 My name is Lu. Every now and then, I need the loo.
 
-It doesn't always go as planned. On this page, I'll document every single unusual Lu loo visit from my life.
+It doesn't always go as planned. On this page, I'll document the unusual Lu loo visits from my life.
 
 > - 2nd December 2023: backfilled with many times I can remember. missed out loads but it's a good start.
 > - 3rd December 2023: remembered and added the burp castle tale.
@@ -11,6 +11,7 @@ It doesn't always go as planned. On this page, I'll document every single unusua
 > - 16th December 2023: added the first audio entry.
 > - 20th December 2023: added a new entry from work.
 > - 28th December 2023: added today's lu loo tale.
+> - 30th September 2024: added the end.
 
 ## Madame no
 
@@ -126,7 +127,7 @@ I went to the loo three times that evening. The first time, I walked past the fi
 
 ## Double-take
 
-I was at a tech conference. I went to the mens loo at the same time as a friend. We walked out the loo together, at the same time a man walked in. He gave me the most cartoonish double-take I've ever seen.
+I was at a tech conference. I went to the mens loo at the same time as a friend. We walked out the loo together, at the same time a man walked in. He gave me a cartoonish double-take.
 
 My friend found it hilarious.
 
@@ -136,13 +137,13 @@ When we moved into the new office, I noticed that there was a womens loo, a mens
 
 Day after day, it stayed locked. So I went into the mens each time.
 
-One day, I got the guts to open the disabled loo from the outside. Nobody was in there. I started using that one.
+One day, I opened the disabled loo from the outside. Nobody was in there. I started using that one.
 
 I think it was locked because the flusher was slightly broken. It was a bit fiddly, but it worked fine.
 
 ## So sorry
 
-After a while, the disabled loo got completely locked. They put an out-of-order sign on the door too.
+After a while, the disabled loo got completely locked. They put an out-of-order sign on the door.
 
 So I started using the mens again.
 
@@ -166,7 +167,7 @@ My partner told me it was the same in the womens too. So I went into the womens 
 
 ## Point me
 
-I was in a pub after work and I needed the loo. I noticed that I looked quite feminine that day, so I wasn't sure which one to go in. Both loos were on opposite sides of the pub, so I couldn't just pick out the emptiest one either.
+I was in a pub after work and I needed the loo. I wasn't sure which one to go in. Both loos were on opposite sides of the pub, so I couldn't just pick out the emptiest one either.
 
 I wanted to get an honest opinion. I didn't think my colleagues would tell me the cold hard truth. So I went to the bar and pretended I didn't know where the loos were.
 
@@ -194,21 +195,21 @@ I was in a pub and I needed the loo. I tried to do my usual trick: I asked the b
 
 Unfortunately, both the mens and womens loos were at the same place, so my trick didn't work.
 
-A group of loud, drunken lads walked into the mens so I didn't want to go in that one.
+A group of loud, drunken lads walked into the mens so I didn't go in that one.
 
-Luckily, there was a disabled loo there. It needed a radar key, but there was already a radar key in it! So I opened it and went in.
+Luckily, there was a disabled loo there. It needed a radar key, but there was already a radar key in it. So I opened it and went in.
 
-But the door didn't lock from the inside. I wondered if it wasn't locking because there was still a radar key in it. So I went back outside, took the radar key out, and then went back inside.
+But the door didn't lock from the inside. So I went back outside, took the radar key out, and then went back inside.
 
-But unfortunately, it still didn't lock. So I went out again, and put the radar key back in the lock, and then I went into the womens loo.
+But it still didn't lock. So I went out again, and put the radar key back in the lock, and then I went into the womens loo.
 
-There were only two cubicles inside. One said "engaged". The other one said "vacant". I pushed the door of the "vacant" one, but it was actually "engaged". The lock was just broken.
+There were only two cubicles inside. One said "engaged". The other one said "vacant". I pushed the door of the "vacant" one, but it was actually "engaged". The lock was broken.
 
-I freaked out and went back to my group at the table.
+I went back to my group at the table.
 
 My friend offered to come to the loo with me. She stood outside the disabled loo as my "guard" while I went to the loo.
 
-Later on, I needed the loo again. My friend came with me again. But unfortunately, the disabled loo had been locked, and the radar key removed. So we went into the womens loo together. Luckily, both cubicles were empty.
+Later on, I needed the loo again. My friend came with me again. But the disabled loo had been locked, and the radar key removed. So we went into the womens loo together. Both cubicles were empty this time.
 
 She suggested calling this Lu loo tale "The guard".
 
@@ -228,7 +229,7 @@ Someone else said that there had been a flood down here, and now the doors don't
 
 I waited for the chatting to stop, and then I left the loo.
 
-The guy I was with told me that he thinks I pass.
+The guy I was with told me I pass.
 
 ## Your hair looks big
 
@@ -238,7 +239,7 @@ The guy I was with told me that he thinks I pass.
 
 ## Saw someone
 
-I was at work, and I needed the loo. The disabled loo is still out of order.
+I was at work, and I needed the loo. The disabled loo was still out of order.
 
 When I was walking to the loo, I saw someone go into the mens, so I went in the womens.
 
@@ -246,7 +247,7 @@ Later on, I needed the loo again. When I was walking there, I saw someone go int
 
 ## Love
 
-I was at a pub and I needed the loo. I looked at myself in a reflection and I wasn't sure which one to go in. I asked my friends at the table and one friend suggested that I go into the 'vixens'.
+I was at a pub and I needed the loo. I wasn't sure which one to go in. I asked my friends at the table and one friend suggested that I go into the 'vixens'.
 
 I walked to the bar and I could see the womens quite hidden in the corner, so I went to that one.
 
@@ -257,6 +258,10 @@ I walked over to a server to ask him, and he thought I was trying to walk past h
 From the way he said it, I assumed that his 'love' was a gendered use of the word, as opposed to the more gender-neutral use you get from some people.
 
 I went back to the table, and went back to the womens loo later. I watched as one woman walked away from the loos, and took that as my chance to go.
+
+## What happened to the Lu loo tales?
+
+Read the ending [here](https://www.todepond.com/wikiblogarden/health/loo-lu/end/).
 
 <br>
 
