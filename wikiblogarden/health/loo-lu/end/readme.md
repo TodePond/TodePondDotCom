@@ -164,7 +164,7 @@ Yes alright alright.
 
 And then.
 
-> 👏 Yes 👏 Quee— 🫸🫷 Wait ✋ What!? 🫴
+> 👏 Yes 👏 Quee— 🫸🫷 Wait! ✋ What!? 🫴
 
 <br>
 
