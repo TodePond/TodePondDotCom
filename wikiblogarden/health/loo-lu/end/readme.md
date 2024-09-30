@@ -224,11 +224,11 @@ Shame to all the bystanders.
 
 Things may be fine for you now, whether you're trans or cis. But it's not for many others, trans and cis.
 
-I say it again: We need to be ruthless. We can't give them an inch. 
+We need to be ruthless. We can't give them an inch. 
 
 If the bigots want to argue over toilets, then fuck it. Let's do it! They're wrong on all counts and we'll spell that out clearly.
 
-Join me! Join me. For fucks sake, join me.
+Join me! Join me. For tode's sake, join me.
 
 <br>
 
