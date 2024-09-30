@@ -11,6 +11,7 @@ It doesn't always go as planned. On this page, I'll document the unusual Lu loo 
 > - 16th December 2023: added the first audio entry.
 > - 20th December 2023: added a new entry from work.
 > - 28th December 2023: added today's lu loo tale.
+> - 30th September 2024: added the end.
 
 ## Madame no
 
@@ -257,6 +258,10 @@ I walked over to a server to ask him, and he thought I was trying to walk past h
 From the way he said it, I assumed that his 'love' was a gendered use of the word, as opposed to the more gender-neutral use you get from some people.
 
 I went back to the table, and went back to the womens loo later. I watched as one woman walked away from the loos, and took that as my chance to go.
+
+## What happened to the Lu loo tales?
+
+Read the ending [here](https://www.todepond.com/wikiblogarden/health/loo-lu/end/).
 
 <br>
 
