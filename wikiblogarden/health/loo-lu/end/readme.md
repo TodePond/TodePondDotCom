@@ -140,7 +140,9 @@ As the hormones began to sink in more, I began to "pass" more, and I began to ha
 
 But I don't have none. It still happens. It's not at zero.
 
-Going to the loo is something I can't take for granted. Every time, it feels like a safety hazard. so I carry out my boring little risk assessment. It's tiring. It's so tiring. What a waste of energy.
+Going to the loo is something I can't take for granted. Every time, it feels like a safety hazard.
+
+So I carry out my boring little risk assessment. It's tiring. It's so so tiring. What a waste of energy.
 
 > Okay, so my hairline is pretty far forward right now but I do have a little bit of beard shadow, and the lighting excentuates my brow quite a lot, and my voice is pretty gravelly from all the coffee but on the other hand, this is a pretty conservative area, and although two people have madame'd me and one had sir'd me so... Oh damn this is a close one. 
 
@@ -166,11 +168,19 @@ And then.
 
 <br>
 
+<hr>
+
+<br>
+
 I know that many trans people have similar problems to me. They get stopped in the loo often, or get told by different people to go in different ones. 
 
 But it's not just trans people.
 
 Increasingly, anti-trans hysteria is affecting non-trans people too when they go to the loo. If you look androgynous or you don't follow gender norms in some way, you're likely to get thrown out the loo. A masculine looking cisgender woman experiences the same problems as I do. Or actually, they experience it even worse. [^butch]
+
+And what if I don't want to pass!?
+
+[Passing is bullshit](https://www.todepond.com/wikiblogarden/academia/citation/soon/)! It just means you adhere to some societal standard that may or may not change or reflect who I am.
 
 <br>
 
