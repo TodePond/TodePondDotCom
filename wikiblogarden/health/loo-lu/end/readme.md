@@ -140,7 +140,7 @@ As the hormones began to sink in more, I began to "pass" more, and I began to ha
 
 But I don't have none. It still happens. It's not at zero.
 
-Going to the loo is something I can't take for granted. Every time, it feels like a safety hazard.
+Going to the loo is something I can't take for granted. Every time feels like a safety hazard.
 
 So I carry out my boring little risk assessment and it's tiring. It's so so tiring. What a waste of energy.
 
