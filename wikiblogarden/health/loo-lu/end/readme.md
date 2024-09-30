@@ -48,7 +48,7 @@ There was a period of time in my life, where the following was true:
 
 If I go in the mens, people tell me to leave. If I go in the womens, people tell me to leave. Sometimes there's a gender neutral toilet, or a disabled loo, but sometimes there's not. Sometimes there's not. Or people tell me not to use those too.
 
-So I've developed strategies over time that helped me to avoid problems like this. I bring a baggy hoodie around in my bag, that I put on, whenever I need the loo. And I keep up my hood. I hold out my hands inside that hoodie, hiding my head, my hair and my chest.
+So I've developed strategies over time that help me to avoid problems like this. I bring a baggy hoodie around in my bag, that I put on, whenever I need the loo. And I keep up my hood. I hold out my hands inside that hoodie, hiding my head, my hair and my chest.
 
 Or I peak inside the loo to see if it's busy. To make sure there aren't any women or men, inside the loo, to send me out.
 
