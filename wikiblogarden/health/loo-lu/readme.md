@@ -2,7 +2,7 @@
 
 My name is Lu. Every now and then, I need the loo.
 
-It doesn't always go as planned. On this page, I'll document every single unusual Lu loo visit from my life.
+It doesn't always go as planned. On this page, I'll document the unusual Lu loo visits from my life.
 
 > - 2nd December 2023: backfilled with many times I can remember. missed out loads but it's a good start.
 > - 3rd December 2023: remembered and added the burp castle tale.
