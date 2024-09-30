@@ -142,7 +142,7 @@ But I don't have none. It still happens. It's not at zero.
 
 Going to the loo is something I can't take for granted. Every time, it feels like a safety hazard.
 
-So I carry out my boring little risk assessment. It's tiring. It's so so tiring. What a waste of energy.
+So I carry out my boring little risk assessment and it's tiring. It's so so tiring. What a waste of energy.
 
 > Okay, so my hairline is pretty far forward right now but I do have a little bit of beard shadow, and the lighting excentuates my brow quite a lot, and my voice is pretty gravelly from all the coffee but on the other hand, this is a pretty conservative area, and although two people have madame'd me and one had sir'd me so... Oh damn this is a close one. 
 
