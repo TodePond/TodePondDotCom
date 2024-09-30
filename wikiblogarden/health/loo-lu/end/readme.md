@@ -206,8 +206,6 @@ At the same time as I was asking Keir Starmer what loo to use, his colleague Wes
 
 If you're not trans yourself, you may not realise how fundamentally cruel and torturous this is.
 
-History will remember these villains for who they are.
-
 Yes, sometimes, all the toilet debates can seem like a distraction. The bigots want us to talk about— argue about toilets, because then we'll be distracted from all the bigger things. In that same week, Keir Starmer's toilet comments were a mask, shielding the government from eyeballs on the much more abhorrent acts they were committing to law. 
 
 It's tempting to think we should ignore the toilet thing altogether, and keep our sights set on more crucial targets. It's a pretty reasonable thing to think.
