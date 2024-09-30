@@ -172,7 +172,7 @@ And then.
 
 <br>
 
-I know that many trans people have similar problems to me. They get stopped in the loo often, or get told by different people to go in different ones. 
+I know that many trans people have similar problems to me. They get stopped in the loo, or get told by different people to go in different ones. 
 
 But it's not just trans people.
 
