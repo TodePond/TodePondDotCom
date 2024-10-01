@@ -452,3 +452,9 @@ input[type="checkbox"] {
   background-clip: text;
   color: transparent;
 }
+
+.post-berdpond {
+    transform: rotate(180deg);
+    text-align: end;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
