@@ -395,32 +395,55 @@
 
   const bubbles = [];
 
+  const bubbImage = new Image();
+  bubbImage.src = "/image/tentpole-grey.png";
+
   const draw = () => {
     context.clearRect(0, 0, canvas.width, canvas.height);
-    context.strokeStyle = "#374362";
-    context.lineWidth = 5;
+    // context.strokeStyle = "#374362";
+    // context.lineWidth = 5;
+    // context.globalAlpha = 0.25;
     for (const raindrop of bubbles) {
-      context.beginPath();
-      context.arc(raindrop.x, raindrop.y, raindrop.size, 0, Math.PI * 2, false);
-      context.stroke();
+      const width = bubbImage.width * (raindrop.size / 100);
+      const height = bubbImage.height * (raindrop.size / 100);
+      context.save();
+      context.translate(raindrop.x, raindrop.y);
+      context.rotate(raindrop.rotation);
+      context.drawImage(bubbImage, -width / 2, -height / 2, width, height);
+      context.restore();
+      // context.beginPath();
+      // context.arc(
+      //   raindrop.x,
+      //   raindrop.y,
+      //   raindrop.size,
+      //   0,
+      //   Math.PI * 2,
+      //   false
+      // );
+      // context.stroke();
     }
   };
 
   const update = (delta) => {
     if (Math.random() < delta * 0.5) {
       const size = 50 + Math.random() * 50;
+      const height = bubbImage.width * (size / 100);
       bubbles.push({
         x: Math.random() * canvas.width,
-        y: canvas.height + size,
+        y: canvas.height + height,
         size,
         speed: 50 + Math.random() * 50,
+        rotation: Math.random() * Math.PI * 2,
+        rotationSpeed: (Math.random() - 0.5) * 0.2,
       });
     }
 
     for (let i = 0; i < bubbles.length; i++) {
       const bubble = bubbles[i];
       bubble.y -= bubble.speed * delta;
-      if (bubble.y < -bubble.size) {
+      bubble.rotation += bubble.rotationSpeed * delta;
+      const height = bubbImage.height * (bubble.size / 100);
+      if (bubble.y < -height) {
         bubbles.splice(i, 1);
         i--;
       }
