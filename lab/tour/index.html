@@ -30,7 +30,7 @@
   iframe {
     width: 100%;
     height: 100%;
-    background-color: white;
+    /* background-color: white; */
     border: none;
   }
 
@@ -46,7 +46,34 @@
 <!-- </article> -->
 
 <script type="module">
-  const slides = ["/", "/wikiblogarden"];
+  const slides = [
+    "/lab/tour/welcome/",
+    "/lab/vector/",
+    "/",
+    "/wikiblogarden/",
+    "/feed/maker/",
+    "/pondcast/feed/maker/",
+    "/fame/dashboard/",
+    "/lab/",
+    "/lab/counter/",
+    "https://todepond-getcounterhistorytwo.web.val.run/",
+    "/lab/leave/",
+    "/lab/locker/",
+    "/lab/login/",
+    "/lab/emphasis/",
+    "/lab/video/",
+    "/pay/",
+    "/lab/code/",
+    "/lab/bootstrap/",
+    "/lab/browse/",
+    "/lab/tool/",
+    "/lab/toooooool/",
+    "/lab/spin/",
+    "/lab/connect/",
+    "/lab/same/",
+    "https://drawdeadfish.com/",
+  ];
+
   const localStorageStartingSlide =
     localStorage.getItem("/lab/tour/startingSlide") ?? "/";
 
@@ -59,4 +86,44 @@
   let currentSlide = startingSlide;
   let currentSlideIndex = slides.indexOf(currentSlide);
   iframe.src = currentSlide;
+
+  function handleKeyDown(e, _window = window) {
+    const activeElement = _window.document.activeElement;
+    if (
+      activeElement.tagName === "INPUT" ||
+      activeElement.tagName === "TEXTAREA"
+    ) {
+      return;
+    }
+
+    switch (e.key) {
+      case "ArrowLeft": {
+        currentSlideIndex = Math.max(0, currentSlideIndex - 1);
+        break;
+      }
+      case "ArrowRight": {
+        currentSlideIndex = Math.min(slides.length - 1, currentSlideIndex + 1);
+        break;
+      }
+      default: {
+        return;
+      }
+    }
+
+    if (currentSlideIndex === slides.indexOf(currentSlide)) {
+      return;
+    }
+    const slide = slides[currentSlideIndex];
+    iframe.src = slide;
+    currentSlide = slide;
+    localStorage.setItem("/lab/tour/startingSlide", currentSlide);
+  }
+
+  addEventListener("keydown", handleKeyDown);
+
+  iframe.addEventListener("load", () => {
+    iframe.contentWindow.addEventListener("keydown", (e) =>
+      handleKeyDown(e, iframe.contentWindow)
+    );
+  });
 </script>

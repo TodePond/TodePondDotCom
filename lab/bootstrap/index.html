@@ -25,7 +25,6 @@
 <script type="module">
   const textarea = document.querySelector("textarea");
   textarea.value = window.source ?? document.body.innerHTML;
-  textarea.focus();
   textarea.selectionStart = window.selectionStart ?? textarea.value.length;
   textarea.selectionEnd = textarea.selectionStart;
   textarea.addEventListener("input", () => {
