@@ -32,6 +32,7 @@
     height: 100%;
     /* background-color: white; */
     border: none;
+    /* color: white; */
   }
 
   body {
@@ -46,14 +47,17 @@
 <!-- </article> -->
 
 <script type="module">
+  const start = "/lab/tour/welcome/";
   const slides = [
-    "/lab/tour/welcome/",
+    start,
     "/lab/vector/",
+    // "http://localhost:4509/document.html",
     "/",
     "/wikiblogarden/",
     "/feed/maker/",
     "/pondcast/feed/maker/",
     "/fame/dashboard/",
+    "/fame/",
     "/lab/",
     "/lab/counter/",
     "https://todepond-getcounterhistorytwo.web.val.run/",
@@ -71,15 +75,15 @@
     "/lab/spin/",
     "/lab/connect/",
     "/lab/same/",
-    "https://drawdeadfish.com/",
+    "http://localhost:4508/",
   ];
 
   const localStorageStartingSlide =
-    localStorage.getItem("/lab/tour/startingSlide") ?? "/";
+    localStorage.getItem("/lab/tour/startingSlide") ?? start;
 
   const startingSlide = slides.includes(localStorageStartingSlide)
     ? localStorageStartingSlide
-    : "/";
+    : start;
 
   const iframe = document.querySelector("iframe");
 
