@@ -5,7 +5,7 @@ from the ground
 
 in the sky!\
 it doesn't need to make sense\
-i don't need to know
+and i don't need to know
 
 in the sky!\
 it's just a feeling\
