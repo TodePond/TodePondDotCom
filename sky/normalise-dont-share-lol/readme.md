@@ -105,8 +105,12 @@ I can only be a scrappy fiddle.
 > 
 > It starts when you’re born. It ends when you die. The rest is transition.
 
+<br>
+
 "Like one song fading into another"\
 — [Devine](https://xxiivv.com/)
+
+<br>
 
 > Embrace the gradient. Transition in slow-motion. Be a scrappy fiddle.
 
