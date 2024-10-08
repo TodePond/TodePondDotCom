@@ -40,9 +40,9 @@ There's a big difference.
 
 People think I'm asking them to share more, but I'm not. I've always said that you don't have to share things. Here's a quote from my [algorave post](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/):
 
-> "It is up to you whether you share yourself or not. But whatever you choose to do, whether you share scrappy fiddles or not, you **must** *normalise* sharing scrappy fiddles, at the very least for those who want to or have no choice, like [me](https://www.todepond.com/wikiblogarden/men/choose/the-way-i-am/).
+> It is up to you whether you share yourself or not. But whatever you choose to do, whether you share scrappy fiddles or not, you **must** *normalise* sharing scrappy fiddles, at the very least for those who want to or have no choice, like [me](https://www.todepond.com/wikiblogarden/men/choose/the-way-i-am/).
 > 
-> You are a scrappy fiddle. You may or may not share scrappy fiddles. But you must normalise sharing scrappy fiddles."
+> You are a scrappy fiddle. You may or may not share scrappy fiddles. But you must normalise sharing scrappy fiddles.
 
 You must normalise. You don't have to share. 
 
