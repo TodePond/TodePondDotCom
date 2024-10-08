@@ -2,7 +2,7 @@
 
 I have this saying that I say a lot. I say "normalise sharing scrappy fiddles". [^norm-foc][^algorave][^heart][^manifesto][^report]
 
-And other people join in too. [^malt][^carmen][^more][^more] [^spy][^playground][^process][^leaf][^should][^ai][^mindset][^broken][^bitwig][^keyboard][^doodle][^another][^beware][^norovirus][^frog][^hearts][^will][^albert]
+And other people join in too. [^malt][^carmen][^more][^more][^spy][^playground][^process][^leaf][^should][^ai][^mindset][^broken][^bitwig][^keyboard][^doodle][^another][^beware][^norovirus][^frog][^hearts][^will][^albert]
 
 And some people join the conversation, offering their views / critiques of the phrase. Well actually it's only been one person who's done that so far but— [^anselm]
 
