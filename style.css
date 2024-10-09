@@ -306,6 +306,12 @@ p.warning {
   color: #ffff46;
 }
 
+label.positive,
+span.positive,
+p.positive {
+  color: var(--green);
+}
+
 blockquote {
   color: #9faeee;
   margin: 0px;
