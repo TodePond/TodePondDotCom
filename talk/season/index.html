@@ -81,6 +81,7 @@
     --black: var(--best-colour-faded);
     --greenish: #2bb9ac;
     --blueish: #4895d7;
+    --greener: #55c978;
   }
 
   a.button.black {
@@ -146,6 +147,29 @@
     outline-color: var(--blueish);
   }
 
+  a.greener {
+    color: var(--greener);
+    text-decoration: none;
+  }
+
+  a.button.greener {
+    border-color: var(--greener);
+    color: var(--greener);
+  }
+
+  a.button.greener:hover {
+    background-color: var(--greener);
+    border-color: rgb(31, 39, 54);
+    color: rgb(31, 39, 54);
+    outline: 2px solid var(--greener);
+  }
+
+  a.greener:hover {
+    background-color: var(--greener);
+    color: rgb(31, 39, 54);
+    outline-color: var(--greener);
+  }
+
   main {
     display: flex;
     /* justify-content: center; */
@@ -177,6 +201,15 @@
     ><br />
     <a href="https://2024.heartofclojure.eu" class="pink"
       >Heart of Clojure, 18th September</a
+    >
+  </section>
+
+  <section class="talk-section">
+    <a href="https://www.youtube.com/watch?v=ft6xOAijwFo" class="button greener"
+      >DEATH OF THE TADI WEB</a
+    ><br />
+    <a href="https://futureofcoding.org/" class="greener"
+      >Future of Coding, 2nd October</a
     >
   </section>
 
