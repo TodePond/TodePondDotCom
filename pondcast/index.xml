@@ -292,5 +292,13 @@
           <enclosure url="https://www.todepond.com/pondcast/what-it-means-to-be-messy-and-what-it-means-to-be-open/1.mp3" length="23799000" type="audio/mpeg" />
         </item>
       
+
+        <item>
+          <title>The sky + Power</title>
+          <link>https://www.todepond.com/pondcast/the-sky-and-power</link>
+          <pubDate>Sun, 13 Oct 2024 18:00:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/the-sky-and-power/1.m4a" length="55179831" type="audio/mpeg" />
+        </item>
+      
         </channel>
       </rss>
