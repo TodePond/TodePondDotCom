@@ -84,7 +84,7 @@ Now that I have these role models, from tech and teaching, I can take a step bac
 
 <br>
 
-All of my role models are extremely patient and all of my role models are extremely humble. They're focused on boosting other people up, not on furthering their own name.
+All of my role models are patient and humble. They're focused on boosting other people up, not on furthering their own name.
 
 And I can ask myself: Am I that? Am I that too? Have I become that yet?
 
