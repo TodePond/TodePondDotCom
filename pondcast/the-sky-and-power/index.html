@@ -1,0 +1,544 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--real-rainbow-gradient);
+    color: black;
+    /* border-color: black; */
+    background-size: 700% 900%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    ); */
+    /* background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+    /* background-color: black; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: The sky
+  </h1>
+
+  <p>Welcome back to another weekly-ish episode of the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>
+    It&#39;s another two parter because I missed last week because I was in
+    Berlin for— I&#39;ll get to that.
+  </p>
+  <p>What&#39;s new these past two weeks?</p>
+  <h2 id="deaths-of-the-tadi-web">Deaths of the tadi web</h2>
+  <p>
+    <a href="https://todepond.com/talk/season">Talk season</a> continues. In
+    preparation for my keynote at
+    <a
+      href="https://causalislands.com/berlin/initial-speaker-announcements-and-cfp/"
+      >Berlin Causal Islands</a
+    >, I gave a shorter, twenty minute version at
+    <a href="https://lu.ma/foclondon">London Futures of Coding</a> two days
+    before the real deal.
+  </p>
+  <p>
+    It was quite campy! Watch it
+    <a href="https://youtu.be/ft6xOAijwFo">here</a>. Luckily, multiple people
+    filmed it again, so I was able to stitch together a complete recording. I
+    did this once before with the little
+    <a href="https://youtu.be/cF2OF75ivZM">Arroost demo</a> I gave there.
+  </p>
+  <p>The recording of the longer Berlin talk will be out at some point too.</p>
+  <p>
+    Funnily enough, I actually prefer the shorter version! Either way, it&#39;ll
+    be nice for people to see both. I might talk a bit about them on the next
+    pondcast, but I don&#39;t want to give out any spoilers right now.
+  </p>
+  <h2 id="dialogues">Dialogues</h2>
+  <p>
+    I&#39;ve been preparing for the talk I&#39;m giving at
+    <a href="https://2024.splashcon.org/track/splash-2024-Onward-Essays"
+      >Onward</a
+    >
+    at <a href="https://2024.splashcon.org/">SPLASH</a> in Los Angeles. I&#39;m
+    presenting the essay that
+    <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a> and I
+    <a
+      href="https://www.todepond.com/wikiblogarden/academia/natural-code/submitted/"
+      >wrote together</a
+    >.
+  </p>
+  <p>
+    Part of the puzzle has been figuring out how to include both me and Dave in
+    the talk, as the whole point of the essay is the &quot;dialogue&quot; that
+    we have between us. And Dave&#39;s not attending in-person!
+  </p>
+  <p>
+    Originally, we were planning to do some sort of live video feed thing, with
+    Dave joining remotely. But as time went on (and reality sunk in), we decided
+    to scope it down. The current plan is to include a pre-recorded video of
+    Dave in the middle section of the talk!
+  </p>
+  <p>
+    In my talks, the middle section is usually the demo segment. It&#39;s where
+    I show the thing I&#39;ve been working on. In this case, the thing I&#39;ve
+    been doing is having back-and-forth communications with Dave. So it checks
+    out!
+  </p>
+  <h2 id="tentpole">Tentpole</h2>
+  <p>
+    We created a computer collective! It&#39;s called
+    <a href="https://tentpole.computer/">Tentpole</a>. It&#39;s something that
+    me and my friend <a href="https://www.orionreed.com/">Orion Reed</a> have
+    been talking about for a while. And now, it&#39;s four of us, a network of
+    four friends who want to support each other:
+  </p>
+  <ul>
+    <li><a href="https://trimmings.wtf/">Philippa Markovics</a></li>
+    <li><a href="https://elliot.website/">Elliot Evans</a></li>
+    <li><a href="https://www.orionreed.com/">Orion Reed</a></li>
+    <li><a href="https://www.todepond.com/">me</a></li>
+  </ul>
+  <p>
+    We&#39;ve got very big very very long term plans for Tentpole, so stay tuned
+    for a very very very long time.
+  </p>
+  <p>
+    (And sign up to our mailing list on the
+    <a href="https://tentpole.computer/">website</a>.)
+  </p>
+  <br />
+  <h1 id="todepond-pondcast-power">TODEPOND PONDCAST: Power</h1>
+  <p>It&#39;s time for another! Here we go!</p>
+  <h2 id="open">Open</h2>
+  <p>
+    The recording of my
+    <a href="https://2024.heartofclojure.eu/talks/what-it-means-to-be-open/"
+      >opening keynote</a
+    >
+    is out! Watch it
+    <a href="https://youtu.be/MJzV0CX0q8o?si=tGTPZ6jP9UEywXFI">here</a>.
+  </p>
+  <p>
+    I&#39;m really pleased with how this one went, and
+    <a href="https://2024.heartofclojure.eu/">Heart of Clojure</a> was a really
+    special conference to be part of. I&#39;m still processing it to be honest!
+    I&#39;m still gathering up my learnings from it.
+  </p>
+  <p>
+    My only regret from the talk is that I accidentally said &quot;six
+    years&quot; at one point, when I was supposed to say &quot;five
+    years&quot;... It doesn&#39;t sound too bad, but it got an applause, so I
+    feel like a bit of a fraud. I muddled up my lines from the previous slide.
+    It was supposed to be &quot;six years&quot; on the first slide, and then
+    &quot;five years&quot; on the following slide. But I said &quot;six
+    years&quot; on both.
+  </p>
+  <p>
+    Still, I can&#39;t quite believe I&#39;ve been posting up one NEW THING
+    EVERY DAY for over five years.....................
+  </p>
+  <h2 id="screen-tree">Screen tree</h2>
+  <p>
+    <a href="https://elliot.website/">Elliot Evans</a> is part of
+    <a href="https://tentpole.computer/">Tentpole</a>. He&#39;s also a
+    researcher-in-residence at
+    <a href="https://www.inkandswitch.com/">Ink &amp; Switch</a>,
+    <a href="https://www.todepond.com/wikiblogarden/research/er-in-residence/"
+      >like me</a
+    >. And within his residency, he&#39;s exploring how to visually and
+    dynamically represent complicated things. In the past, he&#39;s done this
+    for different kinds of
+    <a
+      href="https://vezwork.github.io/polylab/dist/demo/articles/exploring_spaces/"
+      >SPACES</a
+    >. And now he&#39;s doing it for
+    <a
+      href="https://www.todepond.com/wikiblogarden/academia/citation/cant-find-it/"
+      >RECURSION and REPETITION</a
+    >.
+  </p>
+  <p>
+    Elliot&#39;s thing is similar, but also different, to
+    <a href="https://www.youtube.com/watch?v=Q4OIcwt8vcE">Screenpond</a> in
+    various ways, so it&#39;s been really interesting to compare the two. This
+    has led to me adding some more features to Screenpond.
+  </p>
+  <p>
+    Temporarily, you can see white lines on
+    <a href="https://screenpond.cool/">Screenpond itself</a> to see which
+    screens are &#39;children&#39; of other screens.
+  </p>
+  <p>
+    And you can now hold the space bar while manipulating a screen to allow it
+    to &#39;escape&#39; a screen while still
+    <a href="https://mas.to/@TodePond/113288200612137290"
+      >remaining a child of it</a
+    >. It sounds a bit abstract, because it is! I hope to try to make it more
+    concrete as time goes on.
+  </p>
+  <h2 id="power">Power</h2>
+  <p>
+    And of course, I&#39;ve been preparing for my other talk, my
+    <a
+      href="https://2024.splashcon.org/details/live-2024-papers/12/Arroost-Unblocking-creation-with-friends"
+      >presentation</a
+    >
+    of <a href="https://www.todepond.com/explore/arroost/">Arroost</a> at
+    <a href="https://liveprog.org/">LIVE</a> at
+    <a href="https://2024.splashcon.org/">SPLASH</a> in Los Angeles.
+  </p>
+  <p>
+    So of course, I&#39;ve been working through all of the feedback I got from
+    reviewers. In previous weeks of this pondcast, I&#39;ve addressed the
+    simpler / more basic points. Now we&#39;re onto the real good / juicy stuff.
+  </p>
+  <p>
+    One of the recurring themes in Arroost is POWER. Who holds the power? You or
+    the tool? Or the community? Or me? And who is control of the tool? And who
+    <em>should</em> be in control?
+  </p>
+  <p>
+    Letting go of control/power is helpful because it means you let go of
+    responsibility. If something sounds bad, it&#39;s not your fault! It&#39;s
+    Arroost&#39;s fault. This removes emotional blockers and sets you free.
+  </p>
+  <p>
+    This can also be a downside. It means that the user of the tool doesn&#39;t
+    have agency over it. Here&#39;s what Reviewer B said about it:
+  </p>
+  <blockquote>
+    <p>
+      I really appreciate how Arroost explicitly grapples with the notion of
+      power. An interesting lens to consider this might be the one taken by
+      <a href="https://dl.acm.org/doi/10.1145/3586183.3606831">this paper</a>
+      that I quite enjoy. Here’s a snippet of the abstract:
+    </p>
+    <blockquote>
+      <p>
+        Researchers who build creativity support tools (CSTs) define
+        abstractions and software representations that align with user needs to
+        give users the power to accomplish tasks. However, these specifications
+        also structure and limit how users can and should think, act, and
+        express themselves. Thus, tool designers unavoidably exert power over
+        their users by enacting a “normative ground” through their tools.
+      </p>
+    </blockquote>
+    <p>
+      The paper makes it clear that these power relations are unavoidable and
+      something that should be reckoned with explicitly, which I think Arroost
+      does very nicely.
+    </p>
+  </blockquote>
+  <p>And they continue:</p>
+  <blockquote>
+    <p>
+      I find the role of the community in Arroost to be fascinating as well.
+      It’s clear that some areas are off limits — like changing the behavior of
+      Arroost to disable the pitch bending from the passage I quoted above — but
+      it’s also clear that Arroost as a software artifact is in dialogue with
+      members of its community via, e.g., pull requests. What impact does
+      Arroost being in this intermediate space have on users and their
+      relationship to their music production software? In what ways does Arroost
+      align with or distance itself from
+      <a
+        href="https://userpages.umbc.edu/~skane/classes/is760/fall2011/papers/Muller2008.pdf"
+        >participatory design</a
+      >
+      and its normative goals?
+    </p>
+  </blockquote>
+  <p>Reviewer C brings up this theme as well:</p>
+  <blockquote>
+    <p>
+      An essential component in emotionally unblocking design seems to be the
+      user ceding control / granting agency to the tool, the degree to which
+      varies widely.\ On one end, there&#39;s tldraw taking control of its
+      marks&#39; imperfect styling to discourage pixel-perfect alignment, or
+      controlling how arrows are drawn so that they look nice, but otherwise
+      leaving the user full manual control of the overall scene (ignoring
+      makereal for the moment).
+    </p>
+    <p>
+      On the other end, there are tools like Electroplankton and Arroost that
+      control the high-level coordination patterns between lower-level
+      primitives. I&#39;m interested in these comparisons because I wonder how
+      the user-control-ceding nature of emotionally unblocking design may or may
+      not translate to tools that do afford high user control.
+    </p>
+    <p>
+      As another example, there&#39;s LLM-powered autocomplete a la tldraw&#39;s
+      makereal, which seems to sit somewhere in the middle of the spectrum: it
+      may be hard to predict the suggestion, but it&#39;s still scoped to the
+      user&#39;s prompt and some section of the edit state. How else might we
+      navigate these trade-offs between user control and creative unblocking?
+    </p>
+  </blockquote>
+  <p>Right... I&#39;ve just dumped a load of reviewer feedback on you there.</p>
+  <p>
+    Both reviewers talk about &quot;power&quot; (or &quot;control&quot;) from
+    different perspectives. Reviewer B talks about it from a social / community
+    point of view. Reviewer C talks about usability / functionality. But both
+    touch on a tension between the user and creator.
+  </p>
+  <p>
+    My very very boring answer is that I don&#39;t know what this all means yet.
+    I don&#39;t know how to respond to this point of feedback. It&#39;s
+    extremely thought-provoking. It asks deep questions about what&#39;s
+    important to us (when we&#39;re making creative tools). It&#39;s exactly the
+    kind of conversation I want to create / prompt with Arroost.
+  </p>
+  <p>Let&#39;s see how it goes!</p>
+  <br />
+  <p>
+    <strong
+      >Thank you for supporting all of this work!!!!! There really is a lot
+      going on. Any support at all is greatly appreciated. I can&#39;t thank you
+      enough for making this all happen! And no, I haven&#39;t forgotten about
+      the video or <a href="https://tornleaf.gallery/">Torn Leaf</a>. Stay
+      tuned. And hey, wherever you are in the world, whatever you&#39;re doing,
+      I hope you have a great week.</strong
+    >
+  </p>
+
+  <em>Days since tode fell asleep: 647</em><br />
+  <em>Days since bot went missing: 612</em><br />
+  <em>Days since berd flew away: 275</em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
+</details>
