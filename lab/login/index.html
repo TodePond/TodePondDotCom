@@ -117,6 +117,18 @@
         <label>Status</label>
         <input type="text" id="status" name="status" autocomplete="off" />
         <button id="update-status" class="primary">Update status</button>
+        <button id="update-gif">Update with GIF</button>
+        <dialog id="gif-dialog">
+          <form method="dialog">
+            <header>
+              Pick a GIF
+              <button type="submit" value="" class="close-button" autofocus>Close</button>
+            </header>
+            <button class="gif" value="tode" title="Tode"><img src="/image/tode.gif" alt="Tode" /></button>
+            <button class="gif" value="berd" title="Berd"><img src="/image/berd.gif" alt="Berd" /></button>
+            <button class="gif" value="bot" title="Bot"><img src="/image/bot.gif" alt="Bot" /></button>
+          </form>
+        </dialog>
         <br /><br />
         <span class="account-dashboard">
           <span class="account-actions">
@@ -206,13 +218,22 @@
           handleUpdateStatus({ username, password });
         }
       });
+      const gifDialog = document.querySelector('#gif-dialog');
+      document.querySelector('#update-gif').addEventListener("click", () => {
+        gifDialog.show();
+      });
+      gifDialog.addEventListener("close", () => {
+        const gif = gifDialog.returnValue;
+        if (!gif) return;  // close button clicked
+        handleUpdateStatus({ username, password, gif });
+      });
     }
 
     await pullUserStatuses();
     loadingFeed.style.display = "none";
   }
 
-  async function handleUpdateStatus({ username, password }) {
+  async function handleUpdateStatus({ username, password, gif = null }) {
     const button = document.querySelector("#update-status");
     if (button.disabled) {
       return;
@@ -231,7 +252,7 @@
       "https://todepond-labloginupdatestatus.web.val.run",
       {
         method: "POST",
-        body: JSON.stringify({ status, username, password }),
+        body: JSON.stringify({ status, username, password, gif }),
       }
     );
 
@@ -279,8 +300,14 @@
 
     const json = await response.json();
     for (const user of json) {
-      const [status, username, timestamp] = user;
-      entries.push({ status, username, timestamp: new Date(timestamp) });
+      const [status, username, timestamp, gif] = user;
+      const isGifValid = /^(tode|berd|bot)$/.test(gif);
+      entries.push({
+        status,
+        username,
+        timestamp: new Date(timestamp),
+        gif: isGifValid ? gif : undefined,
+      });
     }
 
     const sortedEntries = entries.sort((a, b) => b.timestamp - a.timestamp);
@@ -398,6 +425,10 @@
       span.innerHTML = getHtmlFromMarkdown(entry.status);
       span.className = "status-" + entry.username;
 
+      const img = status.querySelector('img');
+      img.src = entry.gif ? `/image/${entry.gif}.gif` : '';
+      img.style.display = entry.gif ? 'block' : 'none';
+
       addUserActions({
         userActionsElement: status.querySelector(".user-actions"),
         username: entry.username,
@@ -451,6 +482,10 @@
       span.style.wordWrap = "break-word";
       span.style.display = "block";
       p.appendChild(span);
+      const img = document.createElement('img');
+      img.src = entry.gif ? `/image/${entry.gif}.gif` : '';
+      img.style.display = entry.gif ? 'block' : 'none';
+      p.appendChild(img);
       const div = document.createElement("div");
       div.classList.add("actions");
       maybeAddActions({
