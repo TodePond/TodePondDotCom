@@ -17,4 +17,4 @@ let it die
 
 <br>
 
-don't go back to the wikiblogarden
+don't go back to the [wikiblogarden](/wikiblogarden)
