@@ -5,6 +5,13 @@
       <link>http://www.todepond.com/</link>
       <description>place for todes - ribbits aplenty</description>
   		<item>
+    			<title>Tode pasta (binned version)</title>
+    			<pubDate>Mon, 14 Oct 2024 18:18:00 GMT</pubDate>
+    			<link>https://www.todepond.com/sky/tode-pasta/binned-version</link>
+    			<guid>https://www.todepond.com/sky/tode-pasta/binned-version</guid>
+    			<description>This blog post became too esoteric and I'm putting it in the bin. Here it is in its final state. </description>
+    		</item>
+		<item>
     			<title>Death of the tadi web</title>
     			<pubDate>Wed, 09 Oct 2024 17:35:00 GMT</pubDate>
     			<link>https://youtu.be/ft6xOAijwFo</link>
@@ -1767,6 +1774,20 @@
     			<link>https://www.todepond.com/sky/role-models</link>
     			<guid>https://www.todepond.com/sky/role-models</guid>
     			<description>When I was a teacher, I was lucky enough to have many role models. </description>
+    		</item>
+		<item>
+    			<title>My qwerty keyboard</title>
+    			<pubDate>Sat, 19 Oct 2024 13:12:00 GMT</pubDate>
+    			<link>https://www.todepond.com/sky/my-qwerty-keyboard</link>
+    			<guid>https://www.todepond.com/sky/my-qwerty-keyboard</guid>
+    			<description>stretching my thumb</description>
+    		</item>
+		<item>
+    			<title>Sample item please ignore</title>
+    			<pubDate>Mon, 21 Oct 2024 20:40:00 GMT</pubDate>
+    			<link>asdasdsa sda asd </link>
+    			<guid>asdasdsa sda asd </guid>
+    			<description></description>
     		</item>
     </channel>
   </rss>
