@@ -6,10 +6,10 @@
 }
 
 :root {
-  --green: rgb(60, 255, 138);
-  --cyan: rgb(80, 204, 255);
+  --green: #3cff8a;
+  --cyan: #50ccff;
   --blue: rgb(60, 80, 255);
-  --light-blue: rgb(60, 255, 255);
+  --light-blue: #3cffff;
   --purple: rgb(140, 80, 255);
   --pink: rgb(255, 128, 222);
   --coral: rgb(255, 128, 128);
@@ -39,7 +39,7 @@
   --shade-0: rgb(6, 7, 10);
   --shade-1: rgb(14, 16, 22);
   --shade-2: rgb(24, 29, 39);
-  --shade-3: rgb(31, 39, 54);
+  --shade-3: #1f2736;
   --shade-4: rgb(47, 56, 75);
   --shade-5: rgb(55, 67, 98);
   --shade-6: rgb(87, 101, 147);
