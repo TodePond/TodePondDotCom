@@ -44,7 +44,7 @@ Why hide the fact that you're trans? It's nothing to be ashamed of.
 
 In my opinion, we should be "out" in every sense of the word. Don't hide the fact that you're trans. Let everybody know. Continually. Time and time again, passing is bullshit. 
 
-## Safety
+## Stealth and safety
 
 Some people *have* to do stealth for their own personal safety. They have to "pass" so that they don't get attacked or persecuted or whatever. 
 
