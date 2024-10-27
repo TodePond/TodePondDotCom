@@ -88,7 +88,7 @@ Thirdly— I don't even—
 > 
 > But this idea is propagated by society on the whole. It says “You’re either a man or a woman. There is no in between.”
 
-Transition doesn't involve a "mode switch". It's not a gear shift. It means realising that you were always inside an arrow, and nothing is holding you back from being who you are.
+Transition doesn't involve a "mode switch". It's not a gear shift. It means realising that you were always changing, and nothing is holding you back from being who you are.
 
 > Transition takes for fuckin ever. It happens very slowly, but it happens.
 > 
@@ -104,7 +104,7 @@ Because passing is bullshit.
 
 It leans in\
 To harmful ideas\
-That make things work. 
+That make things worse. 
 
 Passing is bullshit.
 
