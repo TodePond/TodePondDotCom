@@ -4,7 +4,7 @@
 
 <br>
 
-Twenty to thirty independent researchers sat in a circle.
+Twenty to thirty independent researchers sat down in a circle.
 
 They all shared their struggles with [building community](https://www.todepond.com/wikiblogarden/blending/goals/community/) and working with others. 
 
