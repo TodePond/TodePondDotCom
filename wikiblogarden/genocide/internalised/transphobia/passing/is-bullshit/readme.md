@@ -66,9 +66,9 @@ It's really hard to "pass" when medical transition is so restricted. It's an ext
 
 "Passing" assumes a binary. It's when you "seem to be" another gender to what you were (supposedly) born as. But this relies on the existence of distinct known categories.
 
-Maybe it could make sense for trans men and trans women. (It doesn't make sense, but it could). But passing will **never** make sense for non-binary people.
+Maybe it could make sense for trans men and trans women. (It doesn't, but it could). But passing will **never** make sense for non-binary people.
 
-You can't pass as non-binary. You can't *not* pass as non-binary. It's a made up concept. Language doesn't support it. It's not implementable. Passing is— this is starting to get tiring.
+You can't pass as non-binary. You can't *not* pass as non-binary. It's a made up concept. Language doesn't support it. It's not implementable. Passing is—
 
 ## But I won't pass
 
