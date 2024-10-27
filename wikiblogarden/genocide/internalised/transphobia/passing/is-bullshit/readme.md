@@ -88,13 +88,11 @@ Thirdly— I don't even—
 > 
 > But this idea is propagated by society on the whole. It says “You’re either a man or a woman. There is no in between.”
 
+Transition doesn't involve a "mode switch". It's not a gear shift. It means realising that you were always inside an arrow, and nothing is holding you back from being who you are.
+
 > Transition takes for fuckin ever. It happens very slowly, but it happens.
 > 
 > It starts when you’re born. It ends when you die. The rest is transition.
-> 
-> Don’t worry about starting too late! You were doing it since you were a baby.
-
-Transition doesn't involve a "mode switch". It's not a gear shift. It means realising that you were always at home, and nothing is holding you back from being yourself.
 
 ## Don't pass
 
