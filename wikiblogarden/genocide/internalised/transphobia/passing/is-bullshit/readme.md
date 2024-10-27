@@ -38,7 +38,9 @@ Tear down the bullshit rules that stop these things from happening. Passing is b
 
 Why are you trying to be "stealthy" about your gender?
 
-Stealth is when you "pass" to such an extent that people don't even know you're trans. As if you'd like to hide that. Why hide the fact that you're trans? It's nothing to be ashamed of. 
+Stealth is when you "pass" to such an extent that people don't even know you're trans. As if you'd like to hide that.
+
+Why hide the fact that you're trans? It's nothing to be ashamed of. 
 
 In my opinion, we should be "out" in every sense of the word. Don't hide the fact that you're trans. Let everybody know. Continually. Time and time again, passing is bullshit. 
 
