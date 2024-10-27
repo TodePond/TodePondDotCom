@@ -4,7 +4,7 @@
 
 <br>
 
-Twenty to thirty independent researchers sat down together at the Ink & Switch unconference. 
+Twenty to thirty independent researchers sat in a circle.
 
 They all shared their struggles with [building community](https://www.todepond.com/wikiblogarden/blending/goals/community/) and working with others. 
 
