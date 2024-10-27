@@ -78,9 +78,9 @@ Firstly, there's an incorrect assumption that "transition" only means changing y
 
 Secondly, their internalised transphobia / misogyny is on show. They think that trans people "have to pass" / "should pass" and they spread this myth. 
 
-Thirdly— I don't even know where to start.
+Thirdly— I don't even—
 
-Transition is—
+[Transition](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/) is—
 
 > Some people would like you to believe that transition happens instantly. You go to bed one day as a man/woman/whatever. You wake up the next as a man/woman/whatever.
 > 
