@@ -32,7 +32,7 @@ Oh and there was also [futures of coding](https://lu.ma/foclondon), which is way
 
 I was really pleased with how [What it means to be open](https://www.youtube.com/watch?v=MJzV0CX0q8o) went. It was my first ever opening keynote and that was very nerve-wracking for me. But I couldn't have picked a better venue / community / mentor for it. Thank you to the European clojure community and [Arne](https://toot.cat/@plexus) for all the support.
 
-<iframe width='500' height='294' src="https://www.youtube.com/embed/MJzV0CX0q8o?&theme=dark&autohide=2"frameborder="0"></iframe>
+<iframe width="500" height="294" src="https://www.youtube.com/embed/MJzV0CX0q8o?&theme=dark&autohide=2" frameborder="0"></iframe>
 
 ## Death of the tadi web
 
