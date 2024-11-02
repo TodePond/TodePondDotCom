@@ -8,7 +8,7 @@ A guide.
 
 <br>
 
-I use [any pronouns](/pronouns), which means you can refer to me by any pronoun: "he" or "she" or "they". 
+I use [any pronoun](/pronouns), which means you can refer to me by any pronoun: "he" or "she" or "they". 
 
 Some people think this means it's impossible to get my pronouns wrong / misgender me. But that's not true.
 
