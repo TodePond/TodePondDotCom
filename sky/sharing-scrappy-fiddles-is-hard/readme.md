@@ -12,7 +12,7 @@ Some people criticise the act of "sharing scrappy fiddles" like this:
 
 They say that sharing scrappy fiddles is not easy!
 
-They say it's not a worthwhile thing to do because it's hard. It can be time-consuming. It steals your time and energy that can be better spent on other things. It's tricky to do it consistently, or in a way that's accessible to other people. It leaves you feeling vulnerable. It's hard to know where to do it: In person? Online? And in either case, what places?
+They say it's not a worthwhile thing to do because it's hard. It can be time-consuming. It steals your time and energy that can be better spent on other things. It's tricky to do it consistently, or in a way that's accessible to other people. It leaves you feeling vulnerable. It's hard to know how to do it: In person? Online? And in either case, where?
 
 ## Sharing scrappy fiddles is hard
 
