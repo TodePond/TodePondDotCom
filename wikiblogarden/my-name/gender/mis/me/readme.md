@@ -22,6 +22,8 @@ It's very possible to misgender me. I know this because it happens a lot. People
 
 So if you don't know how to misgender me, this guide is for you! I'll cover many different ways to do it. Here we go.
 
+<br>
+
 ## "Lu only uses they/them pronouns"
 
 This is not true. This is you getting my pronouns wrong. 
