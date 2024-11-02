@@ -78,7 +78,7 @@ No I shouldn't.
 
 Listen, it's very convenient for you that any pronoun works for me. It's very easy. It's actually quite hard to get it wrong. It's not complicated. Just pick one. 
 
-Just pick one. It's not a fuss. It shouldn't be a fuss. But you can certainly make it one. 
+It's not a fuss. It shouldn't be a fuss. But you can certainly make it one. 
 
 I remember the day when I knew for sure / The day when I really knew who I was. Many years ago, when someone I knew / someone refused to accept my "any" pronoun, causing a fuss / a scene, asking / prodding me with questions but not in a nice way. 
 
@@ -100,7 +100,7 @@ And sometimes a glimpse is all you need!
 
 Just like you, [I didn't choose](https://www.todepond.com/wikiblogarden/men/choose/the-way-i-am) to be the way I am. Just like you, I have no choice on what my pronouns are. Maybe they'll change, maybe they won't. But they are what they are right now, and not because that's what I wanted them to be.
 
-I didn't pick them because they're easy. I didn't pick them because they're hard. No, just like you, I didn't pick them! I didn't pick them.
+I didn't pick them because they're easy. I didn't pick them because they're hard. No, just like you, I didn't pick them!
 
 <br>
 
@@ -108,7 +108,7 @@ But one thing I would say is:
 
 I'm not afraid of my pronouns being annoying / bothersome / tedious to other people. I know that, as trans people, we're sometimes compelled to shrink and disappear: Into [stealth](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/passing/is-bullshit), where we don't stand out or cause any kind of trouble at all. 
 
-And I simply refuse to do that! I will continue being [annoyingly visibly queer](https://www.todepond.com/wikiblogarden/genocide/visibility/annoyingly/), increasingly so, and if you are queer too, I invite you to join me.
+And I refuse to do that! I will continue being [annoyingly visibly queer](https://www.todepond.com/wikiblogarden/genocide/visibility/annoyingly/), increasingly so, and if you are queer too, I invite you to join me.
 
 <br>
 
