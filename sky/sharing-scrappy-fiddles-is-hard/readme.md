@@ -28,7 +28,7 @@ That's why we need to normalise sharing scrappy fiddles: To make it easier for t
 
 <br>
 
-I mean... this should be obvious, right? If sharing scrappy fiddles was easy, then we wouldn't need to normalise it!
+If sharing scrappy fiddles was easy, then we wouldn't need to normalise it.
 
 *When* sharing scrappy fiddles is easy, then we will have finally normalised it.
 
