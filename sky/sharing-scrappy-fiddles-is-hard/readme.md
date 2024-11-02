@@ -16,11 +16,11 @@ They say it's not a worthwhile thing to do because it's hard. It can be time-con
 
 ## Sharing scrappy fiddles is hard
 
-Of course, I never thought or said that sharing scrappy fiddles is easy. That's actually the whole point! I'm glad we see this the same way. 
+Of course, I never thought or said that sharing scrappy fiddles is easy. That's the whole point! I'm glad we see this the same way. 
 
 Sharing scrappy fiddles is currently WAY TOO DIFFICULT in the world we live in. 
 
-That's exactly why we need to normalise sharing scrappy fiddles: To make it easier for those who want to, or have no choice, [like me](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
+That's why we need to normalise sharing scrappy fiddles: To make it easier for those who want to, or have no choice, [like me](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
 
 <br>
 
