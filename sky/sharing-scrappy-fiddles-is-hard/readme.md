@@ -36,7 +36,7 @@ If sharing scrappy fiddles was easy, then we wouldn't need to normalise it.
 
 Normalise sharing scrappy fiddles. Not because it is easy, but because it is hard. 
 
-> didn't some president say that? Ugh..
+> didn't some american say that? Ugh..
 
 <br>
 
