@@ -26,19 +26,27 @@ So if you don't know how to misgender me, this guide is for you! I'll cover many
 
 ## "Lu only uses they/them pronouns"
 
-This is not true. This is you getting my pronouns wrong. 
+This is not true. This is you getting my pronouns wrong.
+
+<br>
 
 ## "Lu, who uses they/them pronouns, ..."
 
 When you say this, it sounds like I *only* use they/them pronouns, and this is not true. This is you getting my pronouns wrong.
 
+<br>
+
 ## "Lu's pronouns are they/them."
 
 This is not true. My pronouns are he/she/they.
 
+<br>
+
 ## "Lu uses they/them pronouns."
 
 Woah, this one is context-dependent. It's technically true, but it often implies that I *only* use they/them pronouns. Be careful. Don't get it wrong. Only use this sentence when the context allows it. 
+
+<br>
 
 ## "Lu uses it/its pronouns."
 
@@ -46,17 +54,25 @@ When I say "any" pronoun, it's clear from the cultural context that I am referri
 
 I guess this works differently in other languages / cultures. Translate accordingly.
 
+<br>
+
 ## "Lu should really stick with she/her pronouns."
 
 No I shouldn't.
+
+<br>
 
 ## "Lu should really stick with they/them pronouns."
 
 No I shouldn't.
 
+<br>
+
 ## "Lu should really stick with he/him pronouns."
 
 No I shouldn't.
+
+<br>
 
 ## "But which one are you?"
 
