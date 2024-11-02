@@ -4,7 +4,7 @@ I have a mantra:
 
 > Normalise sharing scrappy fiddles.
 
-It's when you [make it more socially acceptable](https://www.todepond.com/sky/normalise-dont-share-lol) to show-and-tell half-baked creations. The important part is that the sharer feels shy about whatever they're sharing. It's about allowing more people to share [the ongoing process](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/), not just the end.
+It's when you [make it more socially acceptable](https://www.todepond.com/sky/normalise-dont-share-lol) to show-and-tell half-baked creations. The important part is that the sharer feels a bit shy about whatever they're sharing. It's about allowing more people to share [the ongoing process](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/), not just the end.
 
 ## Sharing scrappy fiddles is not easy
 
