@@ -1,0 +1,68 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#db4938" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+<script type="module">
+  addEventListener("load", async () => {
+    await navigator.serviceWorker?.register("service-worker.js");
+    console.log("Service worker registered");
+  });
+</script>
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Local</h1>
+
+<p>You can download this page as a local app... maybe!?</p>
+
+<button>Click me for free spins yo!</button>
+
+<style>
+  /* spin animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+  @keyframes spin_2 {
+    0% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script type="module">
+  const button = document.querySelector("button");
+  let spinning = false;
+  let upsideDown = false;
+  button.addEventListener("click", () => {
+    if (spinning) return;
+    spinning = true;
+    // button.style.transform = upsideDown ? "rotate(180deg)" : "";
+    button.style.animation = upsideDown ? "spin_2 1s ease" : "spin 1s ease";
+    upsideDown = !upsideDown;
+    setTimeout(() => {
+      button.style.animation = "";
+      button.style.transform = upsideDown ? "rotate(180deg)" : "";
+      spinning = false;
+    }, 1000);
+  });
+</script>
