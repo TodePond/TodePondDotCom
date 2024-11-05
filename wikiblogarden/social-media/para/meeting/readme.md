@@ -1,6 +1,6 @@
 # It's weird when people recognise me 
 
-I am increasingly exposed to people recognising me when I attend events. It's weird, because I often don't know them.
+I am increasingly exposed to people recognising me when I attend events. It's weird, because I often don't know who they are.
 
 It's not much really. It's barely anything at all, but it's weird when it happens. 
 
