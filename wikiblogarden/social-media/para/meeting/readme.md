@@ -4,7 +4,7 @@ I am increasingly exposed to people recognising me when I attend events. It's we
 
 It's not much really. It's barely anything at all, but it's weird when it happens. 
 
-Someone will come up to me and / I'm getting better at noticing the look in their eye when they approach / that gives it away / that gives away that they watch my videos or read my blog or something. 
+Someone will come up to me and.. I'm getting better at noticing the look in their eye when they approach that gives it away / that gives away that they watch my videos or read my blog or something. 
 
 Like it's a slight look of shock or something. Like a "Wow I've read about you [going to the loo](https://www.todepond.com/wikiblogarden/health/loo-lu/end/)" kind of look, or something.
 
