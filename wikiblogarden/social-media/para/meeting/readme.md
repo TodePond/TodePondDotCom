@@ -1,4 +1,6 @@
-# It's weird when people recognise me 
+> this blog post is binned because it became a humble brag. please read with caution
+
+# It's weird when people recognise me (binned)
 
 I am increasingly exposed to people recognising me when I attend events. It's weird, because I often don't know who they are.
 
