@@ -16,7 +16,7 @@ Yeah of course it's okay to say hi. I'm a real person, it's fine.
 
 ## Unless it's not
 
-People are sometimes surprised that I don't speak with that [calm voice](https://youtu.be/54cK-XLu-s0?si=470FgJlo8vpOrfBa) I use in the videos. I'm actually very energetic in real life. That definitely surprises some people. And I'm quite tall. People sometimes comment on that. 
+People are sometimes surprised that I don't speak with that [calm voice](https://youtu.be/54cK-XLu-s0?si=470FgJlo8vpOrfBa) I use in my videos. I'm actually very energetic in real life. That definitely surprises some people. And I'm quite tall. People sometimes comment on that. 
 
 And people sometimes ask for my insight or advice or whatever, on certain things. And I guess I answer truthfully, but I'm just a person. I don't think I match up with the "imagined Lu" they have in their head.
 
