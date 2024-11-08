@@ -8,7 +8,7 @@
 
 "He wouldn't last two minutes."
 
-"Every time he makes a mistake, give him a slap."
+"Every time he makes a mistake, a slap."
 
 "Yes I think that's it."
 
