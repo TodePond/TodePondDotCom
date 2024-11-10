@@ -1,0 +1,656 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--real-rainbow-gradient);
+    color: black;
+    /* border-color: black; */
+    background-size: 700% 900%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    ); */
+    /* background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+    /* background-color: black; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Past
+  </h1>
+
+  <p>Welcome back to another non-weekly episode of the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>I&#39;m late again! I&#39;m very late, so it&#39;s a three-in-one.</p>
+  <blockquote>
+    <p><strong>WARNING. This is a triple length pondcast.</strong></p>
+  </blockquote>
+
+  <p>
+    This time it&#39;s because I was away in Los Angeles! Keep reading for more
+    details...
+  </p>
+  <p><img src="1.png" alt="image" /></p>
+  <h2 id="live">LIVE</h2>
+  <p>
+    I was in Los Angeles for <a href="https://2024.splashcon.org/">SPLASH</a>, a
+    big week-long academic conference about coding. It&#39;s a collection of
+    many different workshops and other things that happen in the same place.
+  </p>
+  <p>
+    First up, it was <a href="https://liveprog.org/">LIVE</a>, which is all
+    about <em>live</em> coding. (The clue&#39;s in the name).
+  </p>
+  <p>
+    At LIVE, I presented my live coding tool,
+    <a href="https://www.todepond.com/explore/arroost/">Arroost</a>, which you
+    saw in the
+    <a href="https://www.youtube.com/watch?v=DNBKdU6XrLY">Arrows</a> video
+    already. In the presentation, I argue that we should pay more attention to
+    supporting people&#39;s <strong>emotions</strong> within the tools that we
+    make.
+  </p>
+  <p>
+    The presentation was based on my earlier
+    <a href="https://www.todepond.com/report/arroost/">essay</a> about the same
+    thing. I&#39;m proud of them both so I&#39;d be very grateful if you gave
+    them a look!
+  </p>
+  <p>
+    Watch the
+    <a href="https://www.youtube.com/live/4GOeYylCMJI?t=12475s"
+      >presentation here</a
+    >. Read the
+    <a href="https://www.todepond.com/report/arroost/">essay here</a>.
+  </p>
+  <p><img src="2.png" alt="image" /></p>
+  <h2 id="onward-">Onward!</h2>
+  <p>
+    Two days later, I presented at
+    <a href="https://2024.splashcon.org/track/splash-2024-Onward-Essays"
+      >Onward</a
+    >. It was about the
+    <a href="https://dl.acm.org/doi/10.1145/3689492.3689807">essay</a> I wrote
+    with <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a>.
+  </p>
+  <p>
+    Onward is a <em>real</em> academic setting for new and radical ideas about
+    coding. They have PDFs and hidden costs and everything. It was crazy to be
+    standing among some industry legends like
+    <a href="https://www.felienne.com/">Felienne Hermans</a> and
+    <a href="https://en.wikipedia.org/wiki/Mary_Shaw_(computer_scientist"
+      >Mary Shaw</a
+    >, two people I really look up to. I tried to keep my cool around them, and
+    I think I only moderately embarrassed myself.
+  </p>
+  <p>
+    It&#39;s also crazy to have a PDF to my name: A real citable academic paper—
+    I mean— essay, with an index number thingy and everything. I think it&#39;s
+    called a &quot;DOI&quot; but I have no idea what it stands for and I
+    don&#39;t care to find out.
+  </p>
+  <p>
+    Anyway, yes, our essay— I mean— our paper is about &quot;natural code&quot;,
+    the idea that all communication can be meaningfully viewed as code, that can
+    be transmitted and implemented and run, like code. It&#39;s natural code.
+  </p>
+  <p>
+    To arrive at that idea, the essay goes through some slightly trippy
+    realisations, and it was nice to be able to perform those notes in person.
+  </p>
+  <p>
+    Again, I&#39;d be very grateful if you gave our
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3689492.3689807"
+      >essay a read</a
+    >
+    and/or
+    <a href="https://www.youtube.com/watch?v=bV12HhAYIik">the talk a watch</a>.
+  </p>
+  <p>
+    The conclusion of SPLASH marked the
+    <a href="https://www.todepond.com/talk/season/over/"
+      >end of todepond talk season</a
+    >. We celebrated by going to
+    <a href="https://elk.zone/mas.to/@TodePond/113403124120944196">disneyland</a
+    >.
+  </p>
+  <p><img src="3.png" alt="image" /></p>
+  <h2 id="iclc">ICLC</h2>
+  <p>
+    Just before SPLASH, I submitted a workshop to
+    <a href="https://iclc.toplap.org/2025/">ICLC</a>.
+  </p>
+  <blockquote>
+    <p>What is it with academic events and long capital letter acronyms?</p>
+  </blockquote>
+  <p>
+    I have no idea what ICLC stands for but I&#39;m pretty sure that &quot;Live
+    Programming&quot; is in there somewhere. Anyway, I put in an application to
+    run a workshop about
+    <a href="https://www.todepond.com/explore/cellpond/">cellpond</a> and I have
+    no idea if I&#39;ll be accepted or not.
+  </p>
+  <p>
+    The idea behind the workshop is that cellpond is &quot;live&quot; coding in
+    the sense that the computation running inside cellpond can be a living
+    system. It can be &quot;alive&quot;. Or at least, somewhere along the
+    spectrum of aliveness. It&#39;s not at zero. And this is made easier by a
+    couple of things:
+  </p>
+  <ul>
+    <li>Cellpond is very non-deterministic.</li>
+    <li>Cellpond programs are (usually) spatial.</li>
+  </ul>
+  <p>
+    If you watched my
+    <a href="https://www.youtube.com/watch?v=bV12HhAYIik"
+      >talk on natural code</a
+    >, you might notice some links here. And that&#39;s because this workshop
+    follows on from that most directly. I hope to elaborate more in the future!
+  </p>
+  <p>
+    If I get rejected, maybe I can find another chance to give the workshop.
+    We&#39;ll see!
+  </p>
+  <p><br /></p>
+  <h1 id="todepond-pondcast-present">TODEPOND PONDCAST: Present</h1>
+  <p>And now onto part two...</p>
+  <p><img src="4.png" alt="flok" /></p>
+  <h2 id="pasta-gang">Pasta gang</h2>
+  <p>
+    If you watched either of my
+    <a href="https://www.youtube.com/live/hlsDbXSZ2ko">two</a>
+    <a href="https://www.youtube.com/live/LrTiAm0wHOU">livestreams</a>, you may
+    have seen me using <a href="https://strudel.cc/">strudel</a> to make some
+    live music. Yes, <a href="https://strudel.cc/">strudel</a> is a live
+    programming tool that you can use in any web browser to make music
+    on-the-spot (live). And I&#39;ve been learning how to use it, following on
+    from my
+    <a href="https://www.todepond.com/explore/arroost/">arroost work</a>.
+  </p>
+  <p>
+    The thing is, it&#39;s way more fun to do strudel with other people: an
+    audience and also live collaborators (both, simultaneously).
+  </p>
+  <p>
+    So strudel&#39;s creator,
+    <a href="https://loophole-letters.vercel.app/">Felix Roos</a>, suggested to
+    me that I could try out <a href="https://flok.cc/">flok</a>, another tool,
+    this one by
+    <a href="https://elk.zone/mas.to/@munshkr@toplap.org">Damián Silvani</a>.
+    Yes, <a href="https://flok.cc">flok</a> is a live collaboration tool for
+    various different live programming tools, including strudel. It splits the
+    screen up into different parts, with each part being a different tool. It
+    means that multiple people can make music (or visuals) together, at the same
+    time.
+  </p>
+  <p>
+    So I started doing all of my music-making in a single flok room, which means
+    that anyone else can join, at any time, and it has really been quite
+    special. To make music with random strangers on the internet has been—
+    I&#39;m not exaggerating to say that it has sometimes felt like a religious
+    experience. I&#39;ll write more on it another time but—
+  </p>
+  <p>
+    The problem with this approach is that— by using this flok room, random
+    strangers can run code on your computer, which can be abused. It&#39;s
+    probably not okay to rely on trust here, so I created a
+    <a href="https://todepond.cool/flok">new website</a> to host a safe little
+    sandboxed version on. I barely did anything at all, but it&#39;s nice to be
+    able to use it without worrying about people messing around with my
+    computer, by popping open dialogs, or opening tabs, or whatever, unless I
+    messed something up.
+  </p>
+  <p>
+    I haven&#39;t been sharing around the link much, but you can find it at
+    <a href="https://todepond.cool/flok">todepond.cool/flok</a>. Leave me (or
+    others) a message there!
+  </p>
+  <p><img src="5.png" alt="people strudeling" /></p>
+  <h2 id="strudel-for-beginners-and-experts">
+    Strudel for beginners and experts
+  </h2>
+  <p>
+    I also attended the
+    <a href="https://www.inkandswitch.com/">Ink &amp; Switch</a>
+    <a href="https://lu.ma/2024-unconf-losangeles">event</a> at SPLASH. It was
+    an &quot;unconference&quot;, which means that anyone can put forward
+    activities for people to do.
+  </p>
+  <p>
+    I put forward an activity called &quot;strudel for beginners and
+    experts&quot;. My hope was that some beginners (like myself) would attend,
+    and some experts would also show up to help teach us all. Luckily, it
+    happened, and strudel expert
+    <a href="https://ijc8.me/">Ian Clestor</a> helped a bunch of people get
+    started, even pulling out his slides from a strudel workshop he ran at a
+    previous thing.
+  </p>
+  <p>
+    <a href="https://loophole-letters.vercel.app/">Felix Roos</a>, creator of
+    strudel, also showed up!!!!! He showed up remotely, of course, in my
+    safe-ish flok room. It was fun making music in strudel with him and also
+    some other people who had never used it before. I enjoyed seeing the look on
+    <a href="https://joshmpollock.com/">Josh Pollock</a>&#39;s
+    <a href="https://elk.zone/mas.to/@TodePond/113376237989502470">face</a>
+    after a long session with Felix. It&#39;s nice to share a
+    <a href="https://joshmpollock.com/blog/alive/">glimpse</a> of the
+    &quot;religious experience&quot; thing I was talking about earlier.
+    Anyway...
+  </p>
+  <p><img src="6.png" alt="image" /></p>
+  <h2 id="institute-of-weirdcoding">Institute of weirdcoding</h2>
+  <p>
+    I put forward another activity with
+    <a href="https://ivanish.ca">Ivan Reese</a>. It was a sequel to our session
+    from last year,
+    <a href="https://elk.zone/mas.to/@TodePond/111127996056302508"
+      >stop computerprogramming</a
+    >.
+  </p>
+  <blockquote>
+    <p>
+      Both of these sessions were put on by our fictional &quot;Institute of
+      weirdcoding&quot; organisation, as part of some extremely slowly advancing
+      lore.
+    </p>
+  </blockquote>
+  <p>
+    This year&#39;s session was called &quot;NO MORE IDEAS&quot;, which follows
+    on from my
+    <a href="https://www.youtube.com/watch?v=ft6xOAijwFo">tadi web talk</a>.
+  </p>
+  <p>
+    In the session, we all mapped out all of the different movements for
+    &quot;better computing&quot;, like
+    <a href="https://www.inkandswitch.com/local-first/">local-first</a>,
+    <a href="https://permacomputing.net/permacomputing/">permacomputing</a>,
+    <a href="https://indieweb.org/">IndieWeb</a>,
+    <a href="https://ar.al/2020/08/07/what-is-the-small-web/">small web</a>,
+    <a href="https://dubroy.com/blog/cold-blooded-software/"
+      >cold-blooded software</a
+    >, and so on. The list is very long.
+  </p>
+  <p>
+    The second thing we did was to eliminate any incompatible movements, while
+    trying to keep as many as possible. For example,
+    <a href="https://en.wikipedia.org/wiki/Web3">Web3</a> is incompatible with
+    the
+    <a href="https://www.sustainablewebmanifesto.com/"
+      >sustainable web manifesto</a
+    >, so we got rid of it. (Web3, not the sustainable web). (We got rid of
+    Web3).
+  </p>
+  <p>
+    The third task was to identify the running themes within these different
+    movements. We tried to identify what these movements were
+    <em>getting at</em>, beyond just their names and norms.
+  </p>
+  <p>
+    And then we tried to chart out these themes. Were any related? Was it a
+    spectrum? How many dimensions were there?
+  </p>
+  <p>
+    In the end, we realised that the themes ended up landing in one of three
+    groups. One was about staying simple and small. One was about being
+    connected. And one was about being able to last a long time.
+  </p>
+  <p>
+    And there was this epiphany moment, where it became apparent what these
+    three groups were:
+  </p>
+  <ul>
+    <li>
+      Caring about the past: Staying where we came from: Small and simple.
+    </li>
+    <li>
+      Caring about the present: Being connected to others: Being present in
+      community.
+    </li>
+    <li>
+      Caring about the future: Lasting a long time: Being sustainable and
+      maintainable.
+    </li>
+  </ul>
+  <p>
+    The thing bridging all of these movements together was &quot;time&quot;!
+  </p>
+  <p><br /></p>
+  <p>
+    It was a silly activity really. It was quite funny to carry out such a
+    seemingly pointless task. But it did cause a lot of good discussion, and
+    some people shared their useful insights with me. More on that another time.
+  </p>
+  <p><br /></p>
+  <h1 id="todepond-pondcast-future">TODEPOND PONDCAST: Future</h1>
+  <p>Right, we&#39;re getting there... This is part three.</p>
+  <p><img src="7.png" alt="image" /></p>
+  <h2 id="placements">Placements</h2>
+  <p>
+    <a href="https://slab.org/">Alex McLean</a> asked me if he could put me down
+    as a visiting researcher, which could mean &quot;doing something patterny
+    for a week or so&quot;. It would happen &quot;quite far in the future&quot;
+    and we &quot;would sort the details out nearer the time&quot;.
+  </p>
+  <p>
+    So of course I said yes, without asking any follow up questions because for
+    me it&#39;s a no-brainer.
+  </p>
+  <p>
+    This all depends on Alex securing funding, of course, which I expect to
+    happen.
+  </p>
+  <p><br /></p>
+  <p>
+    I&#39;m still a
+    <a href="https://www.todepond.com/wikiblogarden/research/er-in-residence/"
+      >researcher-in-residence</a
+    >
+    at <a href="https://www.inkandswitch.com/">Ink &amp; Switch</a>, and have
+    been for a while now. It&#39;s been very helpful to my learning and
+    practice.
+  </p>
+  <p>
+    And I wonder how long I&#39;m allowed to stay in that role, or how long I
+    should stay. If it lasts forever, it&#39;s not really a
+    &quot;residency&quot;, is it?
+  </p>
+  <p><img src="8.png" alt="image" /></p>
+  <h2 id="empathetic-computing">Empathetic computing</h2>
+  <p>
+    Sometimes people ask me what my work is &quot;about&quot;, and I&#39;ve
+    never been able to give them a good answer.
+  </p>
+  <p>
+    Part of the reason for that is because of how I tend to work in a
+    &quot;bottom-up&quot; way. I don&#39;t start with a goal, or a use-case. I
+    start by exploring &#39;primitives&#39;, the lego pieces that I put together
+    to <em>do stuff</em>.
+  </p>
+  <p>
+    I suppose I&#39;ve always followed my nose, with making videos, and
+    eventually accidentally reaching people, and entering research and art
+    worlds.
+  </p>
+  <p>
+    Still, it&#39;s helpful to be able to give people something to hold onto, so
+    that they can put my work in a box in their head. So I&#39;ve been playing
+    around with the term &quot;empathetic computing&quot; and I&#39;m not sure
+    about it yet. It sounds a bit too pompous, I think. But we&#39;ll see.
+  </p>
+  <p><img src="9.png" alt="image" /></p>
+  <h2 id="total-todepond">Total todepond</h2>
+  <p>
+    Of course, I really am working towards &quot;total todepond&quot;, which
+    means working on all this todepond work full-time.
+  </p>
+  <p>
+    It&#39;s really hard keeping this all up at the same time as doing a
+    full-time job, but I&#39;ve nearly always done that. The only time I
+    didn&#39;t was over nine months a couple of years ago. That period of time
+    led to
+    <a href="https://www.youtube.com/watch?v=WMJ1H3Ai-qs"
+      >New Cellular Automata</a
+    >
+    and <a href="https://www.youtube.com/watch?v=Q4OIcwt8vcE">Screens</a>.
+  </p>
+  <p>
+    I&#39;m in no rush to leave my (wonderful) job, but I am thinking that my
+    eventual next job will hopefully be total todepond. My work <em>now</em> is
+    to prepare for that. So of course...
+  </p>
+  <p>
+    <strong
+      >I am immeasurably thankful for your support. It&#39;s everything to me,
+      thank you thank you thank you, for making all of this possible. Welcome
+      in, newbies! And welcome back to all the old-timers. What a journey this
+      is turning out to be! Until next time... Wherever you are in the world...
+      Whatever you&#39;re doing... I hope you have a great week :)</strong
+    >
+  </p>
+
+  <em>Days since tode fell asleep: 674</em><br />
+  <em>Days since bot went missing: 639</em><br />
+  <em>Days since berd flew away: 302</em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
+</details>
