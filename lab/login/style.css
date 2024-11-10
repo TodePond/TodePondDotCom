@@ -1,6 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
 @import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+@import url('https://fonts.cdnfonts.com/css/bagel-fat-one');
+
+
 
 /* =========== */
 /* Login stuff */
@@ -466,4 +469,30 @@ input[type="checkbox"] {
   background: linear-gradient(#31d0a6, #105e58);
   background-clip: text;
   color: transparent;
+}
+
+
+
+/* ======= */
+/* Strawb  */
+/* ======= */
+
+.name-Strawb::after {
+    content: "🍓 gay";
+    border: 1px solid #cc0066;
+    color: #cc0066;
+    padding: 0.1em 0.2em;
+    margin: 0.35em;
+    font-size: 0.6em;
+    position: relative;
+    top: -0.25em;
+    font-weight: normal;
+    border-radius: 100px 0 0 100px;
+    text-shadow: none;
+}
+
+strong.name-Strawb {
+    color: #cc0066;
+    font-family: 'Bagel Fat One', sans-serif;
+    text-shadow: 0 0 1px #fff;
 }
