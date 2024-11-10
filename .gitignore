@@ -3,3 +3,6 @@
 .DS_Store
 *.pdf
 \[SPLASH'24] Pacific - Onward! (Oct 23th) \[-Br66SUjsdQ].mkv
+
+# for local builds
+_site
