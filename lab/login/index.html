@@ -218,13 +218,13 @@
           handleUpdateStatus({ username, password });
         }
       });
-      const gifDialog = document.querySelector('#gif-dialog');
-      document.querySelector('#update-gif').addEventListener("click", () => {
+      const gifDialog = document.querySelector("#gif-dialog");
+      document.querySelector("#update-gif").addEventListener("click", () => {
         gifDialog.show();
       });
       gifDialog.addEventListener("close", () => {
         const gif = gifDialog.returnValue;
-        if (!gif) return;  // close button clicked
+        if (!gif) return; // close button clicked
         handleUpdateStatus({ username, password, gif });
       });
     }
@@ -423,11 +423,15 @@
 
       const span = status.querySelector("span");
       span.innerHTML = getHtmlFromMarkdown(entry.status);
+      if (entry.username === "TodePond") {
+        // protip: log from individual user
+        // console.log(entry.status);
+      }
       span.className = "status-" + entry.username;
 
-      const img = status.querySelector('img');
-      img.src = entry.gif ? `/image/${entry.gif}.gif` : '';
-      img.style.display = entry.gif ? 'block' : 'none';
+      const img = status.querySelector("img.gif");
+      img.src = entry.gif ? `/image/${entry.gif}.gif` : "";
+      img.style.display = entry.gif ? "block" : "none";
 
       addUserActions({
         userActionsElement: status.querySelector(".user-actions"),
@@ -482,9 +486,10 @@
       span.style.wordWrap = "break-word";
       span.style.display = "block";
       p.appendChild(span);
-      const img = document.createElement('img');
-      img.src = entry.gif ? `/image/${entry.gif}.gif` : '';
-      img.style.display = entry.gif ? 'block' : 'none';
+      const img = document.createElement("img");
+      img.className = "gif";
+      img.src = entry.gif ? `/image/${entry.gif}.gif` : "";
+      img.style.display = entry.gif ? "block" : "none";
       p.appendChild(img);
       const div = document.createElement("div");
       div.classList.add("actions");
@@ -596,8 +601,8 @@
     let html = "";
     let i = 0;
 
-    if (markdown === 'please add gifs') {
-      return '<img src="gif.gif">';
+    if (markdown === "please add gifs") {
+      return '<img class="nogif" src="gif.gif">';
     }
 
     markdown = markdown
