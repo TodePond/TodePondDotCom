@@ -304,7 +304,64 @@ input[type="checkbox"] {
 /* =========== */
 /* PodeTond 💚 */
 /* =========== */
-.name-PodeTond.💚 {
+@supports not (-moz-appearance:none) { /* not firefox */
+    .name-PodeTond.💚 {
+        background: linear-gradient(
+            to right,
+          #eaacb8 20%,
+          #7acbf5 40%,
+            var(--green) 40%,
+            var(--green) 100%
+        );
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        display: inline-block; /* so it doesnt cut the heart */
+        font-family: "JetBrains Mono", sans-serif;
+    }
+}
+
+@supports (-moz-appearance:none) { /* firefox */
+    .name-PodeTond.💚 {
+      background: linear-gradient(
+        to right,
+        #eaacb8 5%,
+        #7acbf5 40%,
+        var(--green) 40%,
+        var(--green) 53%,
+        #eaacb8 53%,
+        #7acbf5 100%
+      );
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block; /* so it doesnt cut the heart */
+      font-family: "JetBrains Mono", sans-serif;
+    }
+}
+
+.name-PodeTond.💚::after {
+  content: "he/him";
+  width: 6em;
+  padding-left: 0.6em;
+  background: linear-gradient(
+    to right,
+    #eaacb8 20%,
+    #7acbf5 80%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block; /* so it doesnt cut the heart */
+  font-family: "JetBrains Mono", sans-serif;
+  animation: pronounce 30s linear infinite;
+}
+
+.at-PodeTond.💚::after {
+  content: "";
+  width:0;
+  padding-left:0;
+  animation: none;
+}
+
+.at-PodeTond.💚 {
   background: linear-gradient(
     to right,
     #eaacb8 20%,
@@ -312,10 +369,8 @@ input[type="checkbox"] {
     var(--green) 80%,
     var(--green) 100%
   );
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  display: inline-block; /* so it doesnt cut the heart */
-  font-family: "JetBrains Mono", sans-serif;
+  display: inline-block; 
 }
 
 .at-PodeTond.💚:hover {
@@ -324,6 +379,26 @@ input[type="checkbox"] {
   background-color: white;
   color: var(--shade-3);
   -webkit-text-fill-color: unset;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    @keyframes pronounce {
+            0%{content: "he/him"; opacity:1}
+         8.33%{opacity:1}
+        16.66%{opacity:0}
+           25%{opacity:1}
+        33.33%{content: "they/them"; opacity:1}
+        41.66%{opacity:1}
+           50%{opacity:0}
+        58.33%{opacity:1}
+        66.66%{content: "she/her"; opacity:1}
+           75%{opacity:1}
+        83.32%{opacity:0}
+        91.66%{opacity:1}
+          100%{content: "he/him"; opacity:1}
+    }
 }
 
 /* ==== */
