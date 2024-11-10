@@ -413,6 +413,11 @@ button.danger {
   color: white;
 }
 
+button {
+  background-color: var(--shade-10);
+  color: black;
+}
+
 button.primary {
   background-color: #4680ff;
   color: white;

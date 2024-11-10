@@ -13,8 +13,8 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
-<link rel="stylesheet" href="/style.css#v1" />
-<link rel="stylesheet" href="./style.css#v1" />
+<link rel="stylesheet" href="/style.css#v2" />
+<link rel="stylesheet" href="./style.css#v2" />
 
 <h1>Login</h1>
 <a
@@ -813,6 +813,17 @@
     loggedInUsername,
     loggedInPassword,
   }) {
+    const replyButton = document.createElement("button");
+    replyButton.textContent = "Reply";
+    replyButton.classList.add("secondary");
+    replyButton.classList.add("action-button");
+    replyButton.addEventListener("click", () => {
+      const statusInput = document.querySelector("#status");
+      statusInput.value = `@${username} `;
+      statusInput.focus();
+    });
+    userActionsElement.appendChild(replyButton);
+
     const likeButton = document.createElement("button");
     likeButton.textContent = "Like";
     likeButton.classList.add("primary");
