@@ -50,8 +50,7 @@
 </style>
 
 <h2 id="feed-heading">
-  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
-</h2>
+  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button> <button id="manual-refresh-button" class="secondary-span">↻</button></h2>
 <span
   id="loading-feed"
   style="position: fixed; top: 10px; left: 10px"
@@ -61,6 +60,7 @@
 <main></main>
 
 <script type="module">
+  const manualRefreshButton = document.querySelector("#manual-refresh-button");
   const refreshSign = document.querySelector("#refresh-sign");
   const loadingFeed = document.querySelector("#loading-feed");
   const usernameInput = document.querySelector("#username");
@@ -280,6 +280,7 @@
   usernameInput.addEventListener("keydown", handleInputKeyDown);
   passwordInput.addEventListener("keydown", handleInputKeyDown);
   refreshSign.addEventListener("click", toggleRefresh);
+  manualRefreshButton.addEventListener("click", handleManualRefresh);
 
   let nameSet = new Set();
 
@@ -391,6 +392,26 @@
 
   if (!getLocalRefreshStatus()) {
     setRefreshStatus(false);
+  }
+
+    // Is this a bad place to declare a variable? Sorry, new to this language :P - Rosy
+  let cooldownIntervalID;
+
+  function handleManualRefresh() {
+    manualRefreshButton.disabled = true;
+    manualRefreshButton.style.setProperty('--manual-refresh-button-opacity', 0);
+    pullUserStatuses()
+    cooldownIntervalID = setInterval(handleManualRefreshCooldown, 10);
+  }
+
+  function handleManualRefreshCooldown() {
+    let css = getComputedStyle(manualRefreshButton);
+    let newOpacity = parseFloat(css.getPropertyValue('--manual-refresh-button-opacity')) + 0.01;
+    manualRefreshButton.style.setProperty('--manual-refresh-button-opacity', newOpacity);
+    if (newOpacity >= 1.0) {
+      manualRefreshButton.disabled = false;
+      clearInterval(cooldownIntervalID);
+    }
   }
 
   function renderUserStatuses(entries) {
