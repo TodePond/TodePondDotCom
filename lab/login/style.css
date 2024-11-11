@@ -467,3 +467,25 @@ input[type="checkbox"] {
   background-clip: text;
   color: transparent;
 }
+
+/* ==== */
+/* fawn */
+/* ==== */
+.name-fawn {
+  color: var(--best-colour-faded);
+  font-family: "JetBrains Mono";
+}
+
+.name-fawn::before {
+  content: "~";
+}
+
+.name-fawn::after {
+  content: "♡";
+  padding-left: 0.4em; 
+  color: var(--red);
+}
+
+.at-fawn::before {
+  all: unset;
+}
