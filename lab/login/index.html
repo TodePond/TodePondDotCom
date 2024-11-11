@@ -613,6 +613,9 @@
     let html = "";
     let i = 0;
 
+    let blockquote = markdown.startsWith(">");
+    if (blockquote) html += "<blockquote>";
+
     if (markdown === "please add gifs") {
       return '<img class="nogif" src="gif.gif" alt="gifs are not supported">';
     }
@@ -758,6 +761,9 @@
     }
     if (coding) {
       html += "</code>";
+    }
+    if (blockquote) {
+      html += "</blockquote>";
     }
 
     return html;
