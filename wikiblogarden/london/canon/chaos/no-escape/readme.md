@@ -290,7 +290,7 @@ I am also [non-binary](https://www.todepond.com/wikiblogarden/my-name/gender/). 
 
 As much as I would like to escape the canonical gender binary that this world seems to be obsessed with... Unfortunately I cannot because I'm tied to the canon by name. The binary defines me. It's my starting point / my basis of identity.
 
-It took me a long time to realise this. I mean, I feel silly for how long it took me to realise this, but: You can't escape the **canon**, no matter how hard you try.
+It took me a long time to realise this. I mean, I feel silly for how long it took me to realise this, but: You can't escape the canon, no matter how hard you try.
 
 <br>
 
