@@ -280,7 +280,7 @@ By writing this blog post, I'm only making it worse. With every new paragraph, S
 > 
 > I do know that he recently shared an extra section on his [process](https://worrydream.com/process/) page — within the last 30 days it seems. 
 > 
-> In the new section, BV (Bret Victor) laments that "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)
+> In the new section, BV (Bret Victor) laments that "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)"
 
 ## Non-binary
 
