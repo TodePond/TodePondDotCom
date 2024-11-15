@@ -284,7 +284,9 @@ By writing this blog post, I'm only making it worse. With every new paragraph, S
 
 ## Non-binary
 
-I am [non-binary](https://www.todepond.com/wikiblogarden/my-name/gender/). My gender isn't defined by what it is! It's defined by what it isn't. 
+I am not Bret Victor.
+
+I am also [non-binary](https://www.todepond.com/wikiblogarden/my-name/gender/). My gender isn't defined by what it is! It's defined by what it isn't. 
 
 As much as I would like to escape the canonical gender binary that this world seems to be obsessed with... Unfortunately I cannot because I'm tied to the canon by name. The binary defines me. It's my starting point / my basis of identity.
 
@@ -293,6 +295,10 @@ It took me a long time to realise this. I mean, I feel silly for how long it too
 <br>
 
 Back to the [wlkkiiiikkllbbbhgggff](/wikiblogarden)
+
+<br>
+
+<br>
 
 <br>
 
