@@ -184,7 +184,7 @@ How do you define something?
 
 Well, usually, you do it in terms of something else. 
 
-You take something that's already there / that's part of the shared **canon**, and you say how it differs and how it doesn't. 
+You take something that's already there / that's already part of the shared **canon**, and you say how it differs and how it doesn't. 
 
 That way, people know what you're talking about.
 
@@ -202,17 +202,17 @@ NYC is a non-SF scene.
 
 ## Non-Bret Victor
 
-When people introduce their projects to me, they often define it in terms of the **canon**: The canon, in this case, often being Bret Victor, in the worlds I tend to work in.
+When people introduce their projects to me, they often define it in terms of the **canon**: The canon, in this case, often being Bret Victor. At least it is in the worlds I tend to work in.
 
 "My project is like Bret Victor's thing, but instead of X it does Y."
 
 "It's like if you took Bret Victor's thing but you add Y and X as well."
 
-Their work is always placed in the context of / in relation to the **canon**.
+Their work is placed in the context of / in relation to the existing **canon**.
 
 "You can map out the route from Bret to here."
 
-There's a plottable path to-and-from the thing we all know.
+There's a plottable path to-and-from the thing we all already know.
 
 ## Chicago and Toronto
 
@@ -222,7 +222,7 @@ There's a plottable path to-and-from the thing we all know.
 > 
 > Because they're always being defined in terms of NY.
 > 
-> Eg: https://en.m.wikipedia.org/wiki/The_Second_City — famous Chicago comedy group whose name is self-deprecating in reference to this.
+> Eg: [The Second City](https://en.m.wikipedia.org/wiki/The_Second_City) — famous Chicago comedy group whose name is self-deprecating in reference to this.
 > 
 > Ironically, Chicago and Toronto are "great" cities. When you live in a tiny little middle-of-nowhere, so many discussions with folks from bigger cities come down to "Why live there? They don't have XYZ. It's nice to have XYZ."
 > 
@@ -264,37 +264,32 @@ Or am I...?
 
 No, I am not. 
 
-## Non-binary
+## The canon
 
-Who am I?
-
-I am [Lu or Luke](https://www.todepond.com/wikiblogarden/my-name/) and I am [non-binary](https://www.todepond.com/wikiblogarden/my-name/gender/). My gender isn't defined by what it is! It's defined by what it isn't. 
-
-As much as I would like to escape the canonical gender binary this world is obsessed with... unfortunately, I cannot because I'm tied to the canon by name. The binary defines me. It's my starting point / my basis of identity.
-
-It took me a long time to realise this. I mean, I feel silly for how long it took me to realise this, but:
-
-*You can't escape the canon.*
-
-<br>
-
-## LDN
-
-By writing this blog post, I'm only making it worse. With every new blog post, SF will only become more cemented as the **canonical** tech scene, and Bret Victor will only become more of a saint.
+By writing this blog post, I'm only making it worse. With every new paragraph, SF only becomes even more cemented as the **canonical** tech scene, and Bret Victor only becomes even more of a saint.
 
 > I sometimes wonder what it's like for him, what with being canonised so consistently and all. 
 > 
 > I do know that he recently shared an extra section on his [process](https://worrydream.com/process/) page — within the last 30 days it seems. 
 > 
-> In the new section, BV (Bret Victor) laments that "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)"
-> 
-> Perhaps people feel like they're entitled to things because Bret Victor— Well, there's two / There's two Bret Victors.
-> 
-> ## The second Bret Victor
-> 
-> *But we'll have to get to that next time... in Part Two.*
-> 
-> See you soon! 
-> 
+> In the new section, BV (Bret Victor) laments that "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)
+
+## Non-binary
+
+I am [non-binary](https://www.todepond.com/wikiblogarden/my-name/gender/). My gender isn't defined by what it is! It's defined by what it isn't. 
+
+As much as I would like to escape the canonical gender binary that this world seems to be obsessed with... Unfortunately I cannot because I'm tied to the canon by name. The binary defines me. It's my starting point / my basis of identity.
+
+It took me a long time to realise this. I mean, I feel silly for how long it took me to realise this, but: You can't escape the **canon**, no matter how hard you try.
+
+<br>
+
 > Back to the [wlkkiiiikkllbbbhgggff](/wikiblogarden)
 
+<br>
+
+```
+CHAOS TO THE CANON will be continued (some day) in part two.
+
+This blog post was fast-tracked by someone paying 99 pounds to get it to the front of my queue.
+```
