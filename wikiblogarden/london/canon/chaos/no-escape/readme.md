@@ -2,6 +2,8 @@
 
 Here in London, there's a vibrant [coding scene](https://www.todepond.com/wikiblogarden/london/), and there has been for a long time. 
 
+![ leaf labelled as canon](canon.png)
+
 <br>
 
 <br>
@@ -214,7 +216,7 @@ Their work is placed in the context of / in relation to the existing **canon**.
 
 There's a plottable path to-and-from the thing we all already know.
 
-## Chicago and Toronto
+## Chicago
 
 [Ivan Reese writes...](https://mastodon.social/@spiralganglion/113450229436805709)
 
@@ -228,6 +230,8 @@ There's a plottable path to-and-from the thing we all already know.
 > 
 > Living somewhere small often means living in a shadow. Do with that what you will.
 
+And Ivan is right. The canon filters down a long food chain. NYC gets defined in terms of SF. Chicago gets defined in terms of NYC. And many places get compared to London too. I've lost count of the number of people who've told me "Manchester is basically a smaller London" and that couldn't be further from the truth. To say that is to do both cities a massive disservice.
+
 ## Non-New York
 
 Let's recap. 
@@ -236,9 +240,13 @@ Chicago is not New York.
 
 New York is not San Francisco. 
 
-London is not San Francisco. 
+San Francisco is not London.
 
-I am not Bret Victor. 
+London is not Manchester. 
+
+Bret Victor is not London.
+
+And I am not Bret Victor. 
 
 Or am I...?
 
