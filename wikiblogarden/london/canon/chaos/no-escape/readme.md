@@ -168,7 +168,7 @@ You see:
 
 Listen closely:
 
-The programming world is full of elitism, sexism and no no no no no no no no not yet not yet
+The programming world is full of elitism and toxic masculinity and and no no no no no no no no not yet not yet
 
 ## NYC
 
@@ -218,7 +218,7 @@ There's a plottable path to-and-from the thing we all already know.
 
 ## Chicago
 
-[Ivan Reese writes...](https://mastodon.social/@spiralganglion/113450229436805709)
+Ivan Reese [writes](https://mastodon.social/@spiralganglion/113450229436805709)...
 
 > Chicago and Toronto would like a word with you (and NY)
 > 
@@ -230,7 +230,7 @@ There's a plottable path to-and-from the thing we all already know.
 > 
 > Living somewhere small often means living in a shadow. Do with that what you will.
 
-And Ivan is right. The canon filters down a long food chain. NYC gets defined in terms of SF. Chicago gets defined in terms of NYC. And many places get compared to London too. I've lost count of the number of people who've told me "Manchester is basically a smaller London" and that couldn't be further from the truth. To say that is to do both cities a massive disservice.
+Ivan is right. The canon filters down a long food chain. NYC gets defined in terms of SF. Chicago gets defined in terms of NYC. And many places get compared to London too. I've lost count of the number of people who've told me "Manchester is basically a smaller London" and that couldn't be further from the truth. To say that is to do both cities a massive disservice.
 
 ## Non-New York
 
@@ -274,13 +274,13 @@ No, I am not.
 
 ## The canon
 
-By writing this blog post, I'm only making it worse. With every new paragraph, SF only becomes even more cemented as the **canonical** tech scene, and Bret Victor only becomes even more of a saint.
+By writing this blog post, I'm only making it worse. With every new paragraph, SF becomes even more cemented as the **canonical** tech scene, and Bret Victor becomes even more of a saint.
 
 > I sometimes wonder what it's like for him, what with being canonised so consistently and all. 
 > 
 > I do know that he recently shared an extra section on his [process](https://worrydream.com/process/) page — within the last 30 days it seems. 
 > 
-> In the new section, BV (Bret Victor) laments that "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)"
+> In the new section, BV (Bret Victor) laments, "There's also a weird sense of entitlement on the part of many people (why do I owe anyone anything in the first place?)"
 
 ## Non-binary
 
@@ -294,14 +294,17 @@ It took me a long time to realise this. I mean, I feel silly for how long it too
 
 <br>
 
+<br>
+
+<br>
+
+<br>
+
+CHAOS TO THE CANON will be continued (some day) in part two.
+
+This blog post was fast-tracked by someone [paying](/pay) 99 pounds to get it to the front of my queue.
+
+<br>
+
 Back to the [wlkkiiiikkllbbbhgggff](/wikiblogarden)
 
-<br>
-
-<br>
-
-<br>
-
-> CHAOS TO THE CANON will be continued (some day) in part two.
-> 
-> This blog post was fast-tracked by someone [paying](/pay) 99 pounds to get it to the front of my queue.
