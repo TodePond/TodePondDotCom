@@ -292,12 +292,10 @@ It took me a long time to realise this. I mean, I feel silly for how long it too
 
 <br>
 
-> Back to the [wlkkiiiikkllbbbhgggff](/wikiblogarden)
+Back to the [wlkkiiiikkllbbbhgggff](/wikiblogarden)
 
 <br>
 
-```
-CHAOS TO THE CANON will be continued (some day) in part two.
-
-This blog post was fast-tracked by someone paying 99 pounds to get it to the front of my queue.
-```
+> CHAOS TO THE CANON will be continued (some day) in part two.
+> 
+> This blog post was fast-tracked by someone [paying](/pay) 99 pounds to get it to the front of my queue.
