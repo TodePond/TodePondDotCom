@@ -2,7 +2,7 @@
 
 Here in London, there's a vibrant [coding scene](https://www.todepond.com/wikiblogarden/london/), and there has been for a long time. 
 
-![ leaf labelled as canon](canon.png)
+![ leaf labelled as canon](Magritte-1.jpg)
 
 <br>
 
