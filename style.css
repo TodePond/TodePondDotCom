@@ -382,6 +382,7 @@ input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
 input[type="search"]::placeholder,
+input[type="url"]::placeholder,
 textarea::placeholder {
   color: #9faeee;
 }
