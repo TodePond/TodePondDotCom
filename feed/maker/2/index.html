@@ -157,12 +157,12 @@
     for (const item of sortedItems) {
       const itemLink = item.link;
       const feedItem = `
-        <item>
-          <title>${item.title}</title>
-		  <description>${item.description}</description>
-          <link>${itemLink}</link>
-          <pubDate>${convertDateToPubDateFormat(item.pubDate)}</pubDate>
-        </item>
+		<item>
+			<title>${item.title}</title>
+			<description>${item.description}</description>
+			<link>${itemLink}</link>
+			<pubDate>${convertDateToPubDateFormat(item.pubDate)}</pubDate>
+		</item>
       `;
       feedItems.push(feedItem);
     }
