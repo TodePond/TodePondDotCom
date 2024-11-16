@@ -3,8 +3,7 @@
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"
-></script>
+  src="//gc.zgo.at/count.js"></script>
 <title>Tadi lab</title>
 <link rel="shortcut icon" href="/favicon.png" />
 <meta property="og:image" content="https://todepond.com/lab/og.png" />
@@ -17,8 +16,7 @@
 <link rel="stylesheet" href="/style.css#v2" />
 <link
   rel="stylesheet"
-  href="https://svenlaa.com/playground/loggo/user-styles.css"
-/>
+  href="https://svenlaa.com/playground/loggo/user-styles.css" />
 <link rel="stylesheet" href="./style.css#v2" />
 
 <h1>Login</h1>
@@ -445,6 +443,7 @@
       addUserActions({
         userActionsElement: status.querySelector(".user-actions"),
         username: entry.username,
+        instance: entry.instance,
         loggedInUsername: usernameInput.value,
         loggedInPassword: passwordInput.value,
       });
@@ -515,6 +514,7 @@
       addUserActions({
         userActionsElement: userActions,
         username: entry.username,
+        instance: entry.instance,
         loggedInUsername: usernameInput.value,
         loggedInPassword: passwordInput.value,
       });
@@ -777,7 +777,7 @@
     parsedLocalStatuses = [];
   }
   nameSet = new Set(
-    parsedLocalStatuses.map((v) => v.username + "" + v.instance)
+    parsedLocalStatuses.map((v) => v.username + "@" + v.instance)
   );
   renderUserStatuses(parsedLocalStatuses);
 
@@ -830,6 +830,7 @@
   function addUserActions({
     userActionsElement,
     username,
+    instance,
     loggedInUsername,
     loggedInPassword,
   }) {
@@ -839,7 +840,7 @@
     replyButton.classList.add("action-button");
     replyButton.addEventListener("click", () => {
       const statusInput = document.querySelector("#status");
-      statusInput.value = `@${username} `;
+      statusInput.value = `@${username}@${instance} `;
       statusInput.focus();
     });
     userActionsElement.appendChild(replyButton);
@@ -855,7 +856,7 @@
   }
 
   async function handleLike({ username, loggedInUsername, loggedInPassword }) {
-    alert("glad you like it babe");
+    alert("glad you like it babe (!)");
   }
 
   addEventListener("pointerdown", (event) => {
