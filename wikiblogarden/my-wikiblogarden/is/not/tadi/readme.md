@@ -2,7 +2,7 @@
 
 The tadi web is—
 
-If you don't know what the tadi web is, watch [this talk](https://www.todepond.com/) and then return here.
+If you don't know what the tadi web is, watch [this talk](https://www.youtube.com/watch?v=ft6xOAijwFo) and then return here.
 
 <br>
 
