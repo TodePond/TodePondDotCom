@@ -1,24 +1,41 @@
+<!----------------------------------------------------->
+<!--------------- meta stuff ---------------->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+
+<!-- Metadata -->
 <!DOCTYPE html>
+<title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Login" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Login" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<!-- Client styles -->
+<link rel="stylesheet" href="./style.css#v3" />
+
+<!-- User styles -->
+<link
+  rel="stylesheet"
+  href="https://svenlaa.com/playground/loggo/user-styles.css" />
+<link rel="stylesheet" href="./user-style.css#v3" />
+
+<!-- Analytics available at todepond.goatcounter.com -->
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
   src="//gc.zgo.at/count.js"></script>
-<title>Tadi lab</title>
-<link rel="shortcut icon" href="/favicon.png" />
-<meta property="og:image" content="https://todepond.com/lab/og.png" />
-<meta property="og:title" content="Tadi lab" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Tadi lab" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
-<link rel="stylesheet" href="/style.css#v2" />
-<link
-  rel="stylesheet"
-  href="https://svenlaa.com/playground/loggo/user-styles.css" />
-<link rel="stylesheet" href="./style.css#v2" />
+<!----------------------------------------------------->
+<!--------------- user interface stuff ---------------->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
 
+<!-- Title -->
 <h1>Login</h1>
 <a
   href="https://github.com/TodePond/TodePondDotCom/blob/main/lab/login/"
@@ -26,43 +43,37 @@
   >View source</a
 >
 
-<header>
-  <label for="username">Public username</label>
-  <input type="text" id="username" name="username" autocomplete="off" />
-  <br /><br />
-  <label for="password">Password</label>
-  <input type="password" id="password" name="password" autocomplete="off" />
-  <br /><br />
-  <button type="submit" class="primary">Login</button>
-</header>
-
-<style>
-  /* spinning animation */
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  #loading-feed {
-    animation: spin 1s linear infinite;
-  }
-</style>
-
-<h2 id="feed-heading">
-  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
-</h2>
+<!-- Loading spinny thing in top left corner -->
 <span
   id="loading-feed"
   style="position: fixed; top: 10px; left: 10px"
   class="secondary"
   >⏳</span
 >
+
+<!-- Login screen -->
+<header>
+  <label for="username">Public username</label>
+  <input type="text" id="username" name="username" autocomplete="off" />
+  <br /><br />
+  <label for="password">Unsecurely stored password</label>
+  <input type="password" id="password" name="password" autocomplete="off" />
+  <br /><br />
+  <button type="submit" class="primary">Login</button>
+</header>
+
+<!-- Feed title and refresh indicator -->
+<h2 id="feed-heading">
+  Feed <button id="refresh-sign" class="secondary span">Refreshing...</button>
+</h2>
+
+<!-- Statuses get put inside this -->
 <main></main>
 
+<!----------------------------------------------------->
+<!--------------- behaviour stuff ---------------->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
 <script type="module">
   import { config } from "./logiverse.js";
   const PAGE_PATH = "/lab/login/";

@@ -1,6 +1,464 @@
-@import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
-@import url("https://fonts.cdnfonts.com/css/restless-soul-bb");
-@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+/* Todepond style stuff */
+
+:root {
+  --green: rgb(70, 255, 129);
+  --cyan: rgb(70, 204, 255);
+  --blue: rgb(70, 128, 255);
+  --purple: rgb(128, 67, 255);
+  --pink: rgb(255, 128, 222);
+  --coral: rgb(255, 128, 128);
+  --red: rgb(255, 67, 70);
+  --orange: rgb(255, 128, 70);
+  --yellow: rgb(255, 255, 70);
+  --calm-yellow: rgb(255, 225, 70);
+
+  --light-blue: rgb(80, 140, 255);
+
+  --shade-0: rgb(6, 7, 10);
+  --shade-1: rgb(14, 16, 22);
+  --shade-2: rgb(24, 29, 39);
+  --shade-3: rgb(33, 39, 53);
+  --shade-4: rgb(47, 56, 75);
+  --shade-5: rgb(55, 67, 98);
+  --shade-6: rgb(87, 101, 147);
+  --shade-7: rgb(135, 146, 171);
+  --shade-8: rgb(159, 174, 204);
+  --shade-9: rgb(224, 224, 224);
+  --shade-10: rgb(255, 255, 255);
+
+  --best-colour: #9faeee;
+  --best-colour-faded: rgb(172, 139, 255);
+
+  --void: var(--shade-0);
+  --black: var(--shade-2);
+  --dark-grey: var(--shade-3);
+  --grey: var(--shade-5);
+  --light-grey: var(--shade-6);
+  --silver: var(--shade-8);
+  --white: var(--shade-10);
+
+  --rainbow-1: var(--green);
+  --rainbow-2: var(--cyan);
+  --rainbow-3: var(--blue);
+  --rainbow-4: var(--purple);
+  --rainbow-5: var(--pink);
+  --rainbow-6: var(--coral);
+  --rainbow-7: var(--red);
+  --rainbow-8: var(--orange);
+  --rainbow-9: var(--yellow);
+
+  --background: rgb(31, 39, 54);
+
+  --rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--cyan),
+    var(--light-blue),
+    var(--purple),
+    var(--pink),
+    var(--coral),
+    var(--red),
+    var(--orange),
+    var(--yellow)
+  );
+
+  --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
+}
+
+code {
+  background-color: var(--grey);
+  font-size: 16px;
+  padding: 0px 2px;
+  margin: 0px;
+}
+
+* {
+  accent-color: #4680ff;
+}
+
+body {
+  color: white;
+  background-color: rgb(31, 39, 54);
+  font-family: sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  font-size: 1.1em;
+}
+
+audio,
+video {
+  width: 100%;
+}
+
+a {
+  color: #46ff80;
+}
+
+:target {
+  outline: 2px solid #4680ff;
+  outline-offset: 2px;
+}
+
+a.footnote:target {
+  outline-offset: 0px;
+}
+
+a.footnote::before {
+  content: "[";
+}
+
+a.footnote::after {
+  content: "]";
+}
+
+label {
+  user-select: none;
+}
+
+a:hover {
+  color: black;
+  background-color: #46ff80;
+  outline: 2px solid #46ff80;
+}
+
+ul {
+  padding-inline-start: 20px;
+
+  /* line-height: 1.2; */
+}
+
+*::selection {
+  background-color: rgb(87, 101, 147);
+  /* outline: 2px solid white; */
+  /* color: black; */
+  /* color: white; */
+}
+
+ul > li {
+  list-style: " — ";
+  /* margin-left: 0px; */
+}
+
+a.secondary {
+  color: #4699ff;
+}
+
+a.secondary:hover {
+  color: black;
+  background-color: #4699ff;
+  outline: 2px solid #4699ff;
+}
+
+a.black {
+  color: black;
+}
+
+a.black:hover {
+  color: white;
+  background-color: black;
+  outline: 2px solid black;
+}
+
+a.danger {
+  color: #ff4346;
+}
+
+a.danger:hover {
+  color: black;
+  background-color: #ff4346;
+  outline: 2px solid #ff4346;
+}
+
+a.warning {
+  color: #ffff46;
+}
+
+a.warning:hover {
+  color: black;
+  background-color: #ffff46;
+  outline: 2px solid #ffff46;
+}
+
+a.tertiary {
+  color: #9faeee;
+}
+
+a.tertiary:hover {
+  color: black;
+  background-color: #9faeee;
+  outline: 2px solid #9faeee;
+}
+
+a.warning {
+  color: #ffff46;
+}
+
+a.warning:hover {
+  color: black;
+  background-color: #ffff46;
+  outline: 2px solid #ffff46;
+}
+
+summary.button {
+  background-color: var(--shade-5);
+  /* line-height: 2.3; */
+}
+
+summary.button:hover {
+  /* transform-origin: left; */
+  /* transform: scale(1.1); */
+}
+
+dialog h2 {
+  margin: 0px;
+}
+
+dialog input[type="password"],
+dialog input[type="text"],
+dialog textarea {
+  max-width: 100%;
+  background-color: #9faeee;
+  border: 1px solid black;
+  color: black;
+  /* padding: 5px; */
+  width: 100%;
+  font-family: sans-serif;
+  /* font-size: 1em; */
+}
+
+dialog::selection,
+dialog p::selection,
+dialog h2::selection {
+  background-color: #46ff80;
+}
+
+dialog input[type="password"]::selection,
+dialog input[type="text"]::selection,
+dialog textarea::selection {
+  background-color: #46ff80;
+}
+
+dialog input[type="password"]:disabled,
+dialog input[type="text"]:disabled,
+dialog textarea:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+label.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+a.button {
+  border: 3px solid #46ff80;
+  padding: 4px 5px;
+  text-decoration: none;
+  line-height: 2.3;
+}
+
+a.button:hover {
+  outline: none;
+}
+
+a.button.secondary {
+  border-color: #4699ff;
+}
+
+a.button.danger {
+  border-color: #ff4346;
+}
+
+a.button.tertiary {
+  border-color: var(--best-colour);
+}
+
+a.button.warning {
+  border-color: #ffff46;
+}
+
+label.secondary,
+span.secondary,
+p.secondary {
+  color: #9faeee;
+}
+
+label.danger,
+span.danger,
+p.danger {
+  color: #ff7275;
+}
+
+label.warning,
+span.warning,
+p.warning {
+  color: #ffff46;
+}
+
+label.positive,
+span.positive,
+p.positive {
+  color: var(--green);
+}
+
+blockquote {
+  color: #9faeee;
+  margin: 0px;
+  padding-left: 23px;
+  border-left: 1px #9faeee solid;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+hr.secondary {
+  background-color: #9faeee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: 100%;
+}
+
+h2 {
+  border-bottom: white 1px solid;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+img {
+  max-width: 100%;
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  /* looks like a button */
+  padding: 5px;
+  border: 1px solid #9faeee;
+  background-color: #374362;
+  /* color: #9faeee; */
+  width: fit-content;
+}
+
+details[open] summary {
+  /* margin-bottom: 10px; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+textarea {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="search"]::placeholder,
+input[type="url"]::placeholder,
+textarea::placeholder {
+  color: #9faeee;
+}
+
+/* input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+} */
+
+:focus {
+  outline-color: 2px solid #4680ff;
+  border-radius: 0%;
+}
+
+button {
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button.danger {
+  background-color: #ff4346;
+  color: white;
+}
+
+button {
+  background-color: var(--shade-10);
+  color: black;
+}
+
+button.primary {
+  background-color: #4680ff;
+  color: white;
+}
+
+button.warning {
+  background-color: #ffff46;
+  color: black;
+}
+
+pre {
+  background-color: #374362;
+  /*color: white;*/
+  padding: 11px;
+  overflow-x: auto;
+}
+
+pre.changelog {
+  color: #9faeee;
+}
+
+pre.changelog mark {
+  color: white;
+}
+
+pre mark {
+  color: #46ff80;
+  background: none;
+}
+
+input[type="checkbox"] {
+  /* width: 29px; */
+}
+
+select {
+  background-color: #374362;
+  border: 1px solid #9faeee;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+}
 
 /* =========== */
 /* Login stuff */
@@ -131,349 +589,16 @@ input[type="checkbox"] {
   margin-left: auto;
 }
 
-/* ============ */
-/* UsrBinAnnika */
-/* ============ */
-.status-UsrBinAnnika\@todepond\.com {
-  transform: rotate(-0.5deg);
-}
-
-.name-UsrBinAnnika\@todepond\.com::after {
-  content: "⚠️ DORK";
-  border: 1px solid hsl(42.2, 100%, 63.7%);
-  color: hsl(42.2, 100%, 63.7%);
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  position: relative;
-  top: -0.25em;
-  font-weight: normal;
-}
-
-.name-maybeanerd\@todepond\.com::after {
-  content: "NERD";
-  border: 1px dashed red;
-  color: red;
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  position: relative;
-  top: -0.25em;
-  font-weight: normal;
-}
-
-.at-UsrBinAnnika\@todepond\.com:hover::after {
-  border-color: var(--shade-3);
-  color: var(--shade-3);
-}
-
-/* ==== */
-/* Rosy */
-/* ==== */
-.name-Rosy\@todepond\.com {
-  color: var(--red);
-  font-family: "JetBrains Mono", sans-serif;
-}
-/* perhaps some sort of user tags system would be good to prevent long gradients being placed everywhere? */
-.name-Rosy\@todepond\.com::after {
-  content: "trans";
-  background: linear-gradient(
-    180deg,
-    rgba(91, 206, 250, 1) 0%,
-    rgba(91, 206, 250, 1) 19.9%,
-    rgba(245, 169, 184, 1) 20%,
-    rgba(245, 169, 184, 1) 39.9%,
-    rgba(255, 255, 255, 1) 40%,
-    rgba(255, 255, 255, 1) 59.9%,
-    rgba(245, 169, 184, 1) 60%,
-    rgba(245, 169, 184, 1) 79.9%,
-    rgba(91, 206, 250, 1) 80%
-  );
-  -webkit-text-fill-color: transparent;
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  top: -0.25em;
-  position: relative;
-  font-weight: normal;
-}
-
-.at-Rosy\@todepond\.com::after {
-  all: unset;
-}
-
-/* ======== */
-/* lord cat */
-/* ======== */
-
-.name-lord.cat\@todepond\.com,
-.name-lordcat\@svenlaa\.com {
-  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-family: "UnifrakturMaguntia";
-  font-size: 1.2em;
-}
-
-.at-lord.cat\@todepond\.com:hover,
-.at-lordcat\@svenlaa\.com:hover {
-  background-image: none;
-  background-clip: unset;
-  background-color: white;
-  color: var(--shade-3);
-  -webkit-text-fill-color: unset;
-}
-
-.name-lord.cat\@todepond\.com::after,
-.name-lordcat\@svenlaa\.com::after {
-  content: "Blåhaj Collector";
-  border-width: 1px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #c5a4ed, #a4a5ed 100%) 1;
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  position: relative;
-  top: -0.25em;
-  font-weight: normal;
-  background: linear-gradient(to right, #c5a4ed, #a4a5ed 100%);
-  background-clip: text;
-}
-
-.at-lord.cat\@todepond\.com::after,
-.at-lordcat\@svenlaa\.com::after {
-  all: unset;
-}
-
-/* ======= */
-/* Svenlaa */
-/* ======= */
-.name-Svenlaa\@todepond\.com {
-  background: linear-gradient(to right, var(--yellow), var(--green) 200%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-family: "JetBrains Mono", sans-serif;
-}
-
-.name-Svenlaa\@svenlaa\.com {
-  color: var(--green);
-  font-family: "JetBrains Mono", sans-serif;
-}
-
-/* ========== */
-/* HatsuSixty */
-/* ========== */
-.name-HatsuSixty\@todepond\.com {
-  background: linear-gradient(to right, var(--pink), var(--purple) 200%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* ======== */
-/* hivemind */
-/* ======== */
-.name-hivemind\@todepond\.com {
-  background: linear-gradient(180deg, rgb(248 22 22) 20%, rgb(200 66 36) 100%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-family: "Restless Soul BB", sans-serif;
-  font-size: 1.2em;
-}
-
-/* =========== */
-/* HatsuneMiku */
-/* =========== */
-.name-HatsuneMiku\@todepond\.com {
-  background: linear-gradient(to right, #87e5cf, #47c8c0 100%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* ======== */
-/* TodePond */
-/* ======== */
-.name-TodePond\@todepond\.com {
-  color: var(--green);
-}
-
-.name-TodePond\@todepond\.com::after {
-  content: "ADMIN";
-  border: 1px solid var(--green);
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  top: -0.25em;
-  position: relative;
-  font-weight: normal;
-}
-
-.at-TodePond\@todepond\.com.name-TodePond\@todepond\.com:hover::after {
-  border-color: var(--shade-3);
-}
-
-/* =========== */
-/* PodeTond 💚 */
-/* =========== */
-.name-PodeTond.💚\@todepond\.com {
-  background: linear-gradient(
-    to right,
-    #eaacb8 20%,
-    #7acbf5 80%,
-    var(--green) 80%,
-    var(--green) 100%
-  );
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  display: inline-block; /* so it doesnt cut the heart */
-  font-family: "JetBrains Mono", sans-serif;
-}
-
-.at-PodeTond.💚\@todepond\.com:hover {
-  background-image: none;
-  background-clip: unset;
-  background-color: white;
-  color: var(--shade-3);
-  -webkit-text-fill-color: unset;
-}
-
-/* ==== */
-/*  El  */
-/* ==== */
-@media (prefers-reduced-motion: no-preference) {
-  .name-El\@todepond\.com {
-    animation: 30s linear 0s infinite alternate el-color-shift;
-  }
-}
-@keyframes el-color-shift {
+/* spinning animation */
+@keyframes spin {
   0% {
-    color: lch(90% 90 209.2);
-  }
-  50% {
-    color: lch(90% 90 431.4);
+    transform: rotate(0deg);
   }
   100% {
-    color: lch(90% 90 368.7);
+    transform: rotate(360deg);
   }
 }
 
-/* ===== */
-/* sofia */
-/* ===== */
-.name-sofia\@todepond\.com {
-  letter-spacing: 0.5em;
-  color: transparent;
-  background: linear-gradient(to bottom, #fff 50%, #80ff00 100%);
-  background-clip: text;
-  text-shadow: 0 0 0.125em #80ff0080;
-}
-
-/* ====== */
-/* minion */
-/* ====== */
-:root {
-  --minion-red: #f27878;
-}
-
-.title-minion\@todepond\.com::after {
-  content: "NOT ADMIN";
-  color: var(--minion-red);
-  border: 1px solid var(--minion-red);
-  padding: 0.1em 0.2em;
-  margin: 0.35em;
-  font-size: 0.6em;
-  top: -0.2em;
-  position: relative;
-  background-image: linear-gradient(
-    120deg,
-    transparent 30%,
-    rgba(255, 200, 150, 0.5) 34%,
-    transparent 60%
-  );
-  background-size: 50px;
-  background-repeat: no-repeat;
-  background-position: 200%;
-}
-
-.name-minion\@todepond\.com {
-  color: var(--minion-red);
-}
-
-.name-minion\@todepond\.com::before,
-.name-minion\@todepond\.com::after {
-  content: "✨";
-  font-size: 0.5em;
-  position: relative;
-  top: -0.3em;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .title-minion\@todepond\.com::after {
-    -webkit-animation: minion-badgeSwish 10s ease-in-out infinite;
-    -moz-animation: minion-badgeSwish 10s ease-in-out infinite;
-    animation: minion-badgeSwish 10s ease-in-out infinite;
-  }
-}
-
-@-webkit-keyframes minion-badgeSwish {
-  0% {
-    background-position: 500px;
-  }
-  100% {
-    background-position: -50px;
-  }
-}
-@-moz-keyframes minion-badgeSwish {
-  0% {
-    background-position: 500px;
-  }
-  100% {
-    background-position: -50px;
-  }
-}
-@keyframes minion-badgeSwish {
-  0% {
-    background-position: 500px;
-  }
-  100% {
-    background-position: -50px;
-  }
-}
-
-/* ==== */
-/* R74n */
-/* ==== */
-.name-R74n\@todepond\.com {
-  color: #00ffff;
-}
-.name-R74n\@todepond\.com::after {
-  content: " 🔒";
-}
-
-/* ====== */
-/* soxfox */
-/* ====== */
-.name-soxfox\@todepond\.com {
-  color: transparent;
-  background: linear-gradient(150deg, #f4218f, #ff9e00);
-  background-clip: text;
-}
-
-.name-soxfox\@todepond\.com::after {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 0.6em;
-  background: linear-gradient(150deg, #f4218f, #ff9e00);
-  margin-left: 0.2em;
-  mask: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE4NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIiPjxwYXRoIGQ9Im0xNDcgMTQ3LTYgMTFjLTYgOS0xNCAxNi0yNiAyMWExNDcgMTQ3IDAgMCAxLTgzIDJjLTEzLTUtMjQtMTAtMzItMTZsMTQtMzFhMTAzIDEwMyAwIDAgMCA1OSAxOWMxMiAwIDIxLTIgMjctNiA1LTMgOC04IDgtMTQgMC00LTEtNy01LTEwLTMtMy03LTUtMTMtN2wtMjEtNi0zNC05Yy04LTQtMTYtOS0yMi0xNlM0IDY4IDQgNTZjMC0xMCAyLTIwIDgtMjggNi05IDE0LTE2IDI2LTIxYTEzOCAxMzggMCAwIDEgNzUtM2MxMSAzIDIxIDcgMjkgMTJsLTEzIDMyYy0xNy0xMC0zMy0xNS01MC0xNS0xMSAwLTIwIDItMjYgNi01IDQtOCA5LTggMTVzMyAxMSAxMCAxNGM2IDMgMTYgNiAyOSA5YTI5MyAyOTMgMCAwIDEgNDQgMTRsMzUtODhoMTM2bC0xMyAzNGgtOTRsLTIwIDQ3aDg0bC0xNCAzM2gtODNsLTEyIDMwWiIvPjwvc3ZnPg==")
-    no-repeat center;
-}
-
-/* ======= */
-/* Tristie */
-/* ======= */
-.name-Tristie\@todepond\.com {
-  background: linear-gradient(#31d0a6, #105e58);
-  background-clip: text;
-  color: transparent;
+#loading-feed {
+  animation: spin 1s linear infinite;
 }
