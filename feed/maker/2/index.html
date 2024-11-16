@@ -77,7 +77,9 @@
       items.push({ title, pubDate, description, link });
     }
 
-    return items.sort((a, b) => b.pubDate - a.pubDate);
+    const sortedItems = items.sort((a, b) => b.pubDate - a.pubDate);
+    localStorage.setItem("feed/maker/2:items", serialiseItems(sortedItems));
+    return sortedItems;
   }
 
   async function renderItems(items) {
@@ -195,8 +197,42 @@
     }
   });
 
+  function serialiseItems(items) {
+    return JSON.stringify(
+      items.map((item) => {
+        return {
+          title: item.title,
+          pubDate: item.pubDate.toISOString(),
+          description: item.description,
+          link: item.link,
+        };
+      })
+    );
+  }
+
+  function deserialiseItems(items) {
+    try {
+      return JSON.parse(items).map((item) => {
+        return {
+          title: item.title,
+          pubDate: new Date(item.pubDate),
+          description: item.description,
+          link: item.link,
+        };
+      });
+    } catch (error) {
+      return null;
+    }
+  }
+
   {
-    const items = await fetchItems();
-    renderItems(items);
+    const localItems = localStorage.getItem("feed/maker/2:items");
+    const parsedLocalItems = deserialiseItems(localItems) ?? [];
+    renderItems(parsedLocalItems);
+
+    const remoteItems = await fetchItems();
+    if (serialiseItems(remoteItems) !== localItems) {
+      renderItems(remoteItems);
+    }
   }
 </script>
