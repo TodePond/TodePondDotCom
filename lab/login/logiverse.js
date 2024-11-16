@@ -46,9 +46,9 @@ export const config = {
       feed: "https://evol-lablogingetusers.web.val.run",
       // update: "https://evol-labloginupdatestatus.web.val.run",
     },
-    {
-      name: "rossilaz.xyz",
-      feed: "https://mittzy-loginredux_getusers.web.val.run",
-    },
+    // {
+    //   name: "rossilaz.xyz",
+    //   feed: "https://mittzy-loginredux_getusers.web.val.run",
+    // },
   ],
 };
