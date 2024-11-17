@@ -186,13 +186,7 @@
 /* PodeTond 💚 */
 /* =========== */
 .name-PodeTond.💚\@todepond\.com {
-  background: linear-gradient(
-    to right,
-    #eaacb8 20%,
-    #7acbf5 80%,
-    var(--green) 80%,
-    var(--green) 100%
-  );
+  background: linear-gradient( to right, #eaacb8, #7acbf5 9ch, var(--green) 9ch );
   -webkit-text-fill-color: transparent;
   background-clip: text;
   display: inline-block; /* so it doesnt cut the heart */
