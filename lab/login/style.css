@@ -474,20 +474,34 @@ html {
 
 .account-dashboard {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: flex-start;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
   /* align-items: center; */
-  flex-wrap: wrap;
-  gap: 5px 10px;
+  /* flex-wrap: wrap; */
+  /* gap: 5px 10px; */
+}
+
+.account-burger {
 }
 
 .account-settings {
   display: flex;
   flex-direction: column;
   /* float: right; */
-  align-items: flex-end;
+  align-items: flex-start;
   margin-top: 10px;
   flex-shrink: 0;
+}
+
+.account-actions {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* float: right; */
+  /* align-items: flex-end; */
+  margin-top: 10px;
+  /* flex-shrink: 0; */
 }
 
 .account-settings > label {
@@ -577,6 +591,8 @@ input[type="checkbox"] {
 #gif-dialog {
   background-color: var(--shade-4);
   color: white;
+  z-index: 100;
+  position: fixed;
 }
 
 #gif-dialog header {
@@ -601,4 +617,10 @@ input[type="checkbox"] {
 
 #loading-feed {
   animation: spin 1s linear infinite;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
 }

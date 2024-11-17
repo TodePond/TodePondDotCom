@@ -133,25 +133,30 @@
       let html = `
             <label>Status</label>
             <input type="text" id="status" name="status" autocomplete="off" />
-            <button id="update-status" class="primary">Update status</button>
-            <button id="update-gif">Update status with GIF</button>
-            <dialog id="gif-dialog">
-            <form method="dialog">
-                <header>
-                Pick a GIF
-                <button type="submit" value="" class="close-button" autofocus>Close</button>
-                </header>
-                <button class="gif" value="tode" title="Tode"><img src="https://todepond.com/image/tode.gif" alt="Tode" /></button>
-                <button class="gif" value="berd" title="Berd"><img src="https://todepond.com/image/berd.gif" alt="Berd" /></button>
-                <button class="gif" value="bot" title="Bot"><img src="https://todepond.com/image/bot.gif" alt="Bot" /></button>
-            </form>
-            </dialog>
-            <br /><br />
-            <span class="account-dashboard">
-            <span class="account-actions">
-                <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
-                <button id="delete-account" class="danger">Delete account</button>
+            <span class="status-buttons">
+              <span>
+              <button id="update-status" class="primary">Update status</button>
+              <button id="update-gif">Update status with GIF</button>
+              </span>
+              <dialog id="gif-dialog">
+              <form method="dialog">
+                  <header>
+                  Pick a GIF
+                  <button type="submit" value="" class="close-button" autofocus>Close</button>
+                  </header>
+                  <button class="gif" value="tode" title="Tode"><img src="https://todepond.com/image/tode.gif" alt="Tode" /></button>
+                  <button class="gif" value="berd" title="Berd"><img src="https://todepond.com/image/berd.gif" alt="Berd" /></button>
+                  <button class="gif" value="bot" title="Bot"><img src="https://todepond.com/image/bot.gif" alt="Bot" /></button>
+              </form>
+              </dialog>
             </span>
+            <br /><br />
+              <details class="account-dashboard">
+                <summary class="account-burger">Burger menu</summary>
+                <span class="account-actions">
+                    <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
+                    <button id="delete-account" class="danger">Delete account</button>
+                </span>
         `;
 
       const loginAutomatically =
@@ -160,23 +165,23 @@
       html += `
             <span class="account-settings">
                 <label for="logged-in-toggle">
-                Login automatically
                 <input type="checkbox" id="logged-in-toggle" name="logged-in-toggle" ${
                   loginAutomatically ? "checked" : ""
                 } />
+                Login automatically
                 </label>
             ${
               username === config.instance_admin
                 ? `
                     <label for="admin-toggle">
-                    Admin controls
                     <input type="checkbox" id="admin-toggle" name="admin-toggle" />
+                    Admin controls
                     </label>
                 `
                 : ""
             }
             </span>
-        </span>
+        </details>
         `;
       header.innerHTML = html;
       const loggedInToggle = document.querySelector("#logged-in-toggle");
