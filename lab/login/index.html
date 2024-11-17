@@ -16,13 +16,13 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <!-- Client styles -->
-<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="./style.css#v4" />
 
 <!-- User styles -->
 <link
   rel="stylesheet"
   href="https://svenlaa.com/playground/loggo/user-styles.css" />
-<link rel="stylesheet" href="/user-style.css" />
+<link rel="stylesheet" href="/.user-style.css#v3" />
 
 <!-- Analytics available at todepond.goatcounter.com -->
 <script
@@ -76,7 +76,7 @@
 <!----------------------------------------------------->
 <script type="module">
   import { config } from "./logiverse.js";
-  const PAGE_PATH = "/signup/";
+  const PAGE_PATH = "/lab/login/";
 
   const refreshSign = document.querySelector("#refresh-sign");
   const loadingFeed = document.querySelector("#loading-feed");
@@ -152,7 +152,7 @@
             </span>
             <br /><br />
               <details class="account-dashboard">
-              <summary class="account-burger">Burger menu</summary>
+                <summary class="account-burger">Burger menu</summary>
                 <span class="account-actions">
                   <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
                   <button id="delete-account" class="danger">Delete account</button>
