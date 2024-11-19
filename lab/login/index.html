@@ -252,7 +252,10 @@
       // Password changing
       const changePasswordButton = document.querySelector("#change-password");
       changePasswordButton.addEventListener("click", async () => {
-        const newPassword = prompt("Enter new password");
+        var hiddenElement = document.getElementById('update-status');
+          hiddenElement.style.display = 'hidden';
+        var hiddenElement = document.getElementById('update-gif');
+          hiddenElement.style.display = 'hidden';
         if (!newPassword) {
           return;
         }
