@@ -252,10 +252,7 @@
       // Password changing
       const changePasswordButton = document.querySelector("#change-password");
       changePasswordButton.addEventListener("click", async () => {
-        var hiddenElement = document.getElementById('update-status');
-          hiddenElement.style.display = 'hidden';
-        var hiddenElement = document.getElementById('update-gif');
-          hiddenElement.style.display = 'hidden';
+        const newPassword = prompt("Enter new password");
         if (!newPassword) {
           return;
         }
@@ -268,7 +265,8 @@
     });
     const changeJson = await changeResponse.json();
     loadingFeed.style.display = "none";
-    
+
+    // Very weird error handling
     if (changeJson.error) {
       alert(changeJson.error);
     } else {
