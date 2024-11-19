@@ -154,6 +154,7 @@
               <details class="account-dashboard">
                 <summary class="account-burger">Burger menu</summary>
                 <span class="account-actions">
+                    <button id="mcplant">Eat McPlant</button>
                     <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
                     <button id="delete-account" class="danger">Delete account</button>
                 </span>
@@ -203,6 +204,10 @@
         });
       }
       // }
+      const mcplantButton = document.querySelector("#mcplant");
+      mcplantButton.addEventListener("click", () => {
+        alert("You eat a McPlant. Yum! You regain 10 HP.");
+      });
       const deleteAccountButton = document.querySelector("#delete-account");
       deleteAccountButton.addEventListener("click", async () => {
         const confirmDelete = confirm(
