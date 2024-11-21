@@ -34,7 +34,7 @@ Practice is the only effective way to learn. By trying and failing again and aga
 
 Practice, just [practice](https://www.todepond.com/wikiblogarden/genocide/platform/) is what you need. 
 
-The next question is about what good practice looks like. That's a question for another day
+And what makes good practice? That's a question for another day
 
 <br>
 
