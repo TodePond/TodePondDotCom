@@ -4,7 +4,11 @@ Most people are really bad at learning. Don't let that be you!
 
 <br>
 
-The absolute worst way to learn something is by: 
+<hr>
+
+<br>
+
+The worst way to learn something is by:
 
 ## 1. Reading
 
