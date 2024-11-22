@@ -70,6 +70,10 @@ And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpon
 
 <br>
 
+<hr>
+
+<br>
+
 And as [talk season](https://www.todepond.com/talk/season/over) has now closed, I find myself getting asked by myself and others, "What's next?"
 
 What's next for arroost and my work on [normalising sharing scrappy fiddles](https://www.youtube.com/watch?v=MJzV0CX0q8o)?
