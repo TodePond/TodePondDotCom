@@ -1,28 +1,28 @@
 # Yourself
 
-carve your own path
-go your own way
-you can't be anybody else 
+carve your own path\
+go your own way\
+you can't be anybody else\
 you can't be anyone but 
 
-pick your own fight
-reach your own goal
-you can't be anybody else
+pick your own fight\
+reach your own goal\
+you can't be anybody else\
 you can't be anyone but
 
-do your own task
-tell your own tale
+do your own task\
+tell your own tale\
+dance your own dance\
 sing your own song
-dance your own dance
 
-be your own self
-be your whole own self
-you can't be anybody no
+be your own self\
+be your whole own self\
+you can't be anybody no\
 you can't be anyone else
 
-you can't be anybody anyone
-anybody anyone
-you can't be anybody anyone
+you can't be anyone other\
+can't be anybody else\
+you can't be anybody anyone\
 apart from yourself
 
 <br>
