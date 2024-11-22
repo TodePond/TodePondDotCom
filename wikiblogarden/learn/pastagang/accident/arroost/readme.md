@@ -42,9 +42,9 @@ I know this because some people from the— Hey I already wrote a [blog post abo
 
 <br>
 
-<br>
+<hr>
 
-## Live coding
+<br>
 
 Despite starting out with [silliness](https://youtu.be/wWFfhaOWJ1Y?si=FK1rgpw7e60C9n_q), I now take my work very [seriously](https://youtu.be/9mbs0sx3z2A?si=wdtGQF-uvUsccVVc), whatever my work is. Is it research? art? i don't know but anyway whatever it is i take it seriously.
 
