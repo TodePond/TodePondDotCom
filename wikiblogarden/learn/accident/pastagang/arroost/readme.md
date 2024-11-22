@@ -1,4 +1,4 @@
-# PASTAGANG: I learned a programming language by accident
+# I learned a programming language by accident
 
 It was an accident!!
 
