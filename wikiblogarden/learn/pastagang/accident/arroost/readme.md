@@ -26,7 +26,7 @@ In any case, it was an accident: A complete accident. I didn't mean for those pr
 
 <br>
 
-And either way, I learned a lot. Not because I set out to. It wasn't intentional, no. No, it naturally happened: A natural by-product of what I was already doing.
+And either way, I learned a lot. Not because I set out to. It wasn't intentional, no. No, it naturally happened: Learning was a natural by-product of what I was already doing.
 
 <br>
 
