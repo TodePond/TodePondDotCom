@@ -3,12 +3,12 @@
 carve your own path\
 go your own way\
 you can't be anybody else\
-you can't be anyone but 
+you can't be anyone but—
 
 pick your own fight\
 reach your own goal\
 you can't be anybody else\
-you can't be anyone but
+you can't be anyone but—
 
 do your own task\
 tell your own tale\
