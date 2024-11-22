@@ -20,8 +20,8 @@ be your whole own self\
 you can't be anybody no\
 you can't be anyone else
 
-you can't be anyone other\
-can't be anybody else\
+you can't be anybody other\
+not anyone else\
 you can't be anybody anyone\
 apart from yourself
 
