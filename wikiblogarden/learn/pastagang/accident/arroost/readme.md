@@ -1,4 +1,4 @@
-# I learned a programming language by accident
+# I LEARNED A PROGRAMMING LANGUAGE BY ACCIDENT
 
 It was an accident!!
 
