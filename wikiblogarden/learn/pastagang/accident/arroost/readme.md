@@ -34,7 +34,7 @@ And either way, I learned a lot. Not because I set out to. It wasn't intentional
 
 # Part one: ARROOST
 
-My explorations led me to making a tool called [arroost](https://youtu.be/DNBKdU6XrLY?si=4ISQhHUkkqSsK8sU). I wanted to combine / blend together a lot of the things that I had learned into one. I wanted to see what would happen. And what happened was: 
+My [explorations](/explore/arroost) led me to making a tool called [arroost](https://youtu.be/DNBKdU6XrLY?si=4ISQhHUkkqSsK8sU). I wanted to combine / blend together a lot of the things that I had learned into one. I wanted to see what would happen. And what happened was: 
 
 I made a [live coding](https://youtu.be/-QY2x6aZzqc?si=3UcKF0iYy3BdVKSf) tool by accident.  I had no idea what live coding was, but I made a live coding tool (apparently). 
 
@@ -46,7 +46,7 @@ I know this because some people from the— Hey I already wrote a [blog post abo
 
 <br>
 
-Despite starting out with [silliness](https://youtu.be/wWFfhaOWJ1Y?si=FK1rgpw7e60C9n_q), I now take my work very [seriously](https://youtu.be/9mbs0sx3z2A?si=wdtGQF-uvUsccVVc), whatever my work is. Is it research? art? i don't know but anyway whatever it is i take it seriously.
+Despite starting out with [silliness](https://youtu.be/wWFfhaOWJ1Y?si=FK1rgpw7e60C9n_q), I now take my work very [seriously](https://youtu.be/9mbs0sx3z2A?si=wdtGQF-uvUsccVVc), whatever my work is. Is it research? art? I don't know but anyway whatever it is i take it seriously
 
 So when you— when I discover that I've accidentally made something, it is important for me— for you to learn more about what that thing that you've— that I've made *is*.
 
@@ -60,27 +60,21 @@ So when you— when I discover that I've accidentally made something, it is impo
 
 Obviously, the best way to learn is not by reading and studying and listening. No, the best way to learn is by [doing](https://www.todepond.com/wikiblogarden/learn/how/).
 
-So... for the past year or so, I have been trying to throw myself fully into the live coding world. I've been trying to participate, so that when it inevitably— with the hope that, when it became time to [write](/report/arroost) or [speak](http://www.youtube.com/live/4GOeYylCMJI?t=12475) about arroost, I would be ready.
+So... for the past year or so, I have been trying to throw myself fully into the live coding world. I've been trying to participate fully, so that when it inevitably— with the hope that, when it becomes time to [write](/report/arroost) or [speak](http://www.youtube.com/live/4GOeYylCMJI?t=12475) about arroost, I can be ready.
 
 And, yes! I did manage to include some notes about live coding in my work: In the [essay](/report/arroost) and the [talk](http://www.youtube.com/live/4GOeYylCMJI?t=12475) and the [blog post](http://www.youtube.com/live/4GOeYylCMJI?t=12475).
 
 But there's always more I can do. I regret not being able to reference [Laurie Spiegel](https://www.youtube.com/watch?v=zLd1RUDmX6w&list=PLlBhjvPmxc9EyPd0Lz6GiNg71n_204XeP&index=1) but I still haven't engrossed myself enough in her stuff.
 
-And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpond](/explore/cellpond), I'll keep returning to it over the course of several years to attempt to learn more and more.
+And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpond](/explore/cellpond), I'll keep returning to it over the course of several years in an attempt to learn more and more and more. Some things on purpose, some things by accident.
 
 <br>
 
-<hr>
-
 <br>
 
-And as [talk season](https://www.todepond.com/talk/season/over) has now closed, I find myself getting asked by myself and others, "What's next?"
+# Part two: STRUDEL
 
-What's next for arroost and my work on [normalising sharing scrappy fiddles](https://www.youtube.com/watch?v=MJzV0CX0q8o)?
-
-<br>
-
-So what *is* next? Well...
+Coming soon...?
 
 <br>
 
@@ -93,8 +87,6 @@ So what *is* next? Well...
 <br>
 
 <br>
-
-Find out in "Part two: STRUDEL"! catch ya later
 
 <br>
 
