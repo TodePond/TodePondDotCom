@@ -19,6 +19,7 @@
   --light-pink: rgb(255, 149, 227);
   --coral: rgb(255, 128, 128);
   --red: rgb(255, 67, 70);
+  --light-red: rgb(255, 90, 110);
   --orange: rgb(255, 128, 70);
   --yellow: rgb(255, 255, 70);
 
@@ -41,6 +42,14 @@
     var(--light-blue),
     var(--light-pink),
     var(--pink)
+  );
+
+  --tadiweb-rainbow-gradient: linear-gradient(
+    /* slanted */ 135deg,
+    var(--light-red),
+    var(--pink),
+    var(--light-pink),
+    var(--light-purple)
   );
 
   --arroost-rainbow-gradient: linear-gradient(
@@ -75,6 +84,12 @@
   --glow: 0 0px 5px var(--best-colour), 0 0px 10px var(--best-colour);
 }
 
+h2.appendix {
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
 html {
   /*  rainbow gradient background */
   background: var(--rainbow-gradient);
@@ -95,15 +110,13 @@ html {
   background-size: 6000px 2000px;
 }
 
-@media (max-width: 750px) {
-  .cellpond::before {
-    /* background: var(--light-pink); */
-  }
+.tadiweb::before {
+  /* background-color: var(--green); */
+  background: var(--tadiweb-rainbow-gradient);
 
-  .arroost::before {
-    /* background: var(--green); */
-    /* background-size: 600% 400%; */
-  }
+  /* opacity: 0.5; */
+  /* background-size: 300% 200%; */
+  background-size: 6000px 2000px;
 }
 
 .torn {
