@@ -7,7 +7,7 @@ a poem about entropy.
 entropy\
 entropy\
 entropy\
-en tropy\
+en tropy
 
 entropy\
 entrop\
