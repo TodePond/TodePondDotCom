@@ -10,7 +10,7 @@ It was an accident!!
 
 - <a href="#introduction" class="secondary">Introduction</a>
 - <a href="#arroost" class="secondary">Part one: Arroost</a>
-- <a href="#strudel" class="secondary">Strudel</a>
+- <a href="#strudel" class="secondary">Part two: Strudel</a>
 - Part three: Flok (coming soon) 
 - Part four: (spoiler)
 - Part five: (spoiler)
