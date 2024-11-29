@@ -282,7 +282,7 @@ And hey, neither of us knew what we were doing. Orion had to remind himself how 
 
 <br>
 
-*I really appreciate having a friend like Orion who is mad and bold enough to decide to say yes to almost everything, and just "go for it". He's one of the most likeable people I know and I miss him now that he's left London. But on the other hand, I don't think there's a single city in the world that deserves to keep hold of Orion. At least, not yet. That maniac belongs to the sky— I mean, he was even trying to get us to all go sky diving back in Los Angeles a few weeks ago. Unfortunately, I don't think he got a bite.*
+*I really appreciate having a friend like Orion who is mad and bold enough to decide to say yes to almost everything, and just "go for it". He's one of the most likeable people I know and I miss him now that he's left London. But on the other hand, I don't think there's a single city in the world that deserves to keep hold of Orion. At least, not yet. That maniac belongs to the sky— I mean, he even tried to get us to all go sky diving back in Los Angeles a few weeks ago. Unfortunately, I don't think he got a bite.*
 
 <br>
 
