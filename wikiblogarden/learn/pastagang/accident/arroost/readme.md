@@ -46,7 +46,7 @@ And either way, I learned a lot. Not because I set out to. It wasn't intentional
 
 <br>
 
-<h1 id="arroost">Arroost</h1>
+<h1 id="arroost">Part one: Arroost</h1>
 
 My [explorations](/explore) led me to making a tool called [arroost](https://youtu.be/DNBKdU6XrLY?si=4ISQhHUkkqSsK8sU). I wanted to combine / blend together a lot of the things that I had learned into one. I wanted to see what would happen. And what happened was: 
 
@@ -88,7 +88,7 @@ And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpon
 
 <br>
 
-<h1 id="strudel">Strudel</h1>
+<h1 id="strudel">Part two: Strudel</h1>
 
 I started learning [strudel](https://strudel.cc), a music making tool by [Felix Roos](https://garten.salat.dev/).
 
