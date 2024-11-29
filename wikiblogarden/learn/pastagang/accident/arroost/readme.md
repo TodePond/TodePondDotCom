@@ -244,7 +244,9 @@ My friend [V Buckenham](https://vbuckenham.com/) [puts it](https://merveilles.to
 
 So anyway, I tried to face my [emotional blockers](https://www.todepond.com/report/arroost/) by getting better at deleting code, ending up with [very little at all](https://strudel.cc/?3WHRSZGzHmkt#Ly8gImdldHRpbmcgYmV0dGVyIGF0IGRlbGV0aW5nIiBAYnkgdG9kZXBvbmQKCnNldGNwcyguNjUpCgokOiBuKCIwIDAgMCAwIDAgMCAtIikKLnN0ZXBzKDYpCi5zY2FsZSgiQzI6bWFqb3IiKQouc291bmQoImhhbmRjaGltZXMiKQoudHJhbnNwb3NlKCI8N00gOU0gM00gNU0%2BLzEiKQoudHJhbnNwb3NlKCIwLCA5TSIpCi5nYWluKC44KQoKJDogcygiYmQgc2QiKQouZ2FpbiguNSkKLnN0ZXBzKDMpCg%3D%3D).
 
-I began only sharing a tiny snapshot of my strudel sessions, because each session involved so much change, that one single link couldn't possibly contain—
+My shared strudels were only tiny snapshots of larger sessions, because each session involved so much change, that one single link couldn't possibly contain—
+
+The snapshot is just the tiny artifact at **the end**. The real art is in the [process](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/).
 
 <br>
 
