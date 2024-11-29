@@ -12,9 +12,9 @@ It was an accident!!
 - <a href="#arroost" class="secondary">Part one: Arroost</a>
 - <a href="#strudel" class="secondary">Strudel</a>
 - Part three: Flok (coming soon) 
-- Part four: [spoiler] (coming soon)
-- Part five: [spoiler] (coming soon)
-- Conclusion (coming soon) 
+- Part four: (spoiler)
+- Part five: (spoiler)
+- Conclusion
 
 <br>
 
