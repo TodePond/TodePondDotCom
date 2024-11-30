@@ -342,7 +342,7 @@ blockquote {
 
 hr {
   border: none;
-  height: 3px;
+  height: 1px;
   background-color: var(--shade-3);
 }
 
