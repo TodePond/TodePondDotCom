@@ -254,16 +254,6 @@ The snapshot is just the tiny artifact at **the end**. The real art is in the [p
 
 <br>
 
-Sure, I mean, when I'm live coding in person, with someone else present, in the real world, in real life—
-
-If I was physically present with someone—
-
-<br>
-
-<hr>
-
-<br>
-
 A month or so ago, I went to Berlin to give a talk at [causal islands](https://berlin.causalislands.com/). And in that talk, I showed the tiniest tiniest bit of strudel. It was basically nothing. It was a sliver.
 
 Even so, some people asked me to show strudel to them afterwards. So we all ended up going back to my hotel room (quite late) and I introduced some people to strudel. Like, "here's what it is" and" here's how it works" and "here's how to make some sounds in it" and stuff.
