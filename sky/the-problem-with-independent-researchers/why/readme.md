@@ -28,7 +28,7 @@ On the one hand, I had some people telling me that independent researchers **do*
 
 And on the other hand, I had a queue of independent researchers lining up to tell me that they **don't** work openly because working openly is a bad idea (because of one of the above reasons).
 
-> Unfortunately I can't share any of those responses openly here because they were all sent within private messages and closed communities. I did [ask](https://mas.to/@TodePond/113525040830359032) though.
+> Unfortunately I can't share any of those responses openly here because they were all sent to me within private messages and closed communities. I did [ask](https://mas.to/@TodePond/113525040830359032) though.
 
 <br>
 
