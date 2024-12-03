@@ -28,7 +28,7 @@ On the one hand, I had some people telling me that independent researchers **do*
 
 And on the other hand, I had a queue of independent researchers lining up to tell me that they **don't** work openly because working openly is a bad idea (because of one of the above reasons).
 
-Unfortunately I can't share any of those responses openly here because they were all sent in private messages and closed communities. I did [ask](https://mas.to/@TodePond/113525040830359032) though.
+> Unfortunately I can't share any of those responses openly here because they were all sent in private messages and closed communities. I did [ask](https://mas.to/@TodePond/113525040830359032) though.
 
 <br>
 
@@ -41,16 +41,6 @@ Now, there's a very strong possibility that I am indeed wrong, because I am very
 However, it can't be that both groups are right at the same time. And they seem to be largely unaware of each other. So here I am introducing you all.
 
 Anonymous group A, meet anonymous group B.
-
-<br>
-
-<hr>
-
-<br>
-
-*Sometimes I start to lose interest in trying to convince people to work openly / to be more open. It's quite tiring.*
-
-*However, I think it's really important. Like, I think it's important to our world on the whole. So I'll try not to give up.*
 
 <br>
 
