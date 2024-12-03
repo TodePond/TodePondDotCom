@@ -48,7 +48,9 @@ Anonymous group A, meet anonymous group B.
 
 <br>
 
-Despite all this, I am enjoying watching on and seeing several of my criticisers start to work more openly. I'm seeing people share more of their struggles, not just their wins. And I'm seeing organisations take steps towards figuring out the genuinely difficult challenge of "what it means to be open". Yes, I'm really pleased to see this because, [like I said](https://www.youtube.com/watch?v=MJzV0CX0q8o), I still don't know.
+Despite all this, I am enjoying watching on and seeing several of my criticisers start to work more openly. I'm seeing people share more of their struggles, not just their wins. And I'm seeing organisations take steps towards figuring out the genuinely difficult challenge of "what it means to be open".
+
+Yes, I'm really pleased to see this because, like I said, [I still don't know](https://www.youtube.com/watch?v=MJzV0CX0q8o).
 
 <br>
 
