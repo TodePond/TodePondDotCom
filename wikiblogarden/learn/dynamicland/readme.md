@@ -2,7 +2,7 @@
 
 I had a really great conversation with someone who worked at [dynamicland](https://dynamicland.org/) about [dynamicland](https://dynamicland.org/). And it really helped me to understand more about what [dynamicland](https://dynamicland.org/) is and the philosophy behind it and so on. 
 
-And I kept coming back to this conversation about [dynamicland](https://dynamicland.org/) to reflect on what they said about [dynamicland](https://dynamicland.org/)— to think it through and try to relate to [dynamicland](https://dynamicland.org/)'s goals and philosophy. This is especially interesting to me currently because my current work is steering towards being about [learning](https://www.todepond.com/wikiblogarden/learn/pastagang/accident/arroost/) and I believe [dynamicland](https://dynamicland.org/) has lots of interesting stuff to say about that. 
+And I kept coming back to this conversation about [dynamicland](https://dynamicland.org/) to reflect on what they said about [dynamicland](https://dynamicland.org/)— to think it through and try to relate to [dynamicland](https://dynamicland.org/)'s goals and philosophy. This is especially interesting to me currently because my current work is steering towards being about [learning](https://www.todepond.com/wikiblogarden/learn/pastagang/accident/arroost/) and I believe [dynamicland](https://dynamicland.org/) has a lot of interesting stuff to say about that. 
 
 Multiple times, I asked this person if I could share what they said publicly, so that: 
 
