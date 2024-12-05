@@ -27,11 +27,11 @@ This means that all our messages are now [gone](https://mas.to/@TodePond/1135250
 
 <br>
 
-I don't blame this person at all and I don't have any bad feelings towards them. Quite the opposite! I thank them deeply for spending time talking to me. It was very helpful and rewarding. 
+I don't blame this person at all and I don't have any bad feelings towards them. Quite the opposite! I thank them deeply for spending the time to talk to me. It was very helpful and rewarding. 
 
 I also don't blame them for deleting their twitter account. I commend their boldness and principle! 
 
-I just think it's sad that we lost that conversation.
+I just think it's sad we lost that conversation.
 
 <br>
 
