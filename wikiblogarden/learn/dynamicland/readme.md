@@ -6,8 +6,8 @@ And I kept coming back to this conversation about [dynamicland](https://dynamicl
 
 Multiple times, I asked this person if I could share what they said publicly, so that: 
 
-1. Other people could join in, and benefit as I had. 
-2. I could make a public archive of the useful information. 
+1. Other people can join in, and benefit like me. 
+2. I can archive the useful information. 
 
 But unfortunately they didn't respond to those requests. 
 
