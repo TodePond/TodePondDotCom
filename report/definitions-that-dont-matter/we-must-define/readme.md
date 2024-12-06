@@ -57,4 +57,4 @@ EVERY SINGLE THING (time) (time) (time)
 
 WE MUST DEFINE (now)\
 WE MUST DEFINE (define)\
-ALL TERMS BEFORE WE [DEFINE](https://www.todepond.com/report/definitions-that-dont-matter/)
+ALL TERMS BEFORE WE [BEGIN](https://www.todepond.com/report/definitions-that-dont-matter/)
