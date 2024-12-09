@@ -883,6 +883,15 @@
       handleLike({ username, loggedInUsername, loggedInPassword })
     );
     userActionsElement.appendChild(likeButton);
+
+    const plusButton = document.createElement("button");
+    plusButton.textContent = "Login+";
+    plusButton.classList.add("warning");
+    plusButton.classList.add("action-button");
+    plusButton.addEventListener("click", () =>
+      alert("This user pays for Login+")
+    );
+    userActionsElement.appendChild(plusButton);
   }
 
   async function handleLike({ username, loggedInUsername, loggedInPassword }) {
