@@ -15,11 +15,111 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
-  .key-information {
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    width: 0%;
-    height: 0%;
+  .talk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+  }
+
+  body {
+    /* background-color: black; */
+    background-color: var(--shade-5);
+    max-width: 100%;
+  }
+
+  main {
+    /* margin-top: 40px; */
+  }
+
+  h1 {
+    border-bottom: white 1px solid;
+    padding-bottom: 19px;
+    /* padding-top: 19px; */
+  }
+
+  .thumbnail {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .open:hover {
+    background-color: #87b3f7;
+    outline-color: #87b3f7;
+  }
+
+  .death:hover {
+    background-color: #ff4346;
+    outline-color: #ff4346;
+  }
+
+  .natural:hover {
+    background-color: #fffda2;
+    outline-color: #fffda2;
+  }
+
+  .escape:hover {
+    background-color: white;
+    outline-color: white;
   }
 </style>
+
+<h1>Talks</h1>
+
+<main class="talk-grid">
+  <section>
+    <a href="https://www.youtube.com/watch?v=MJzV0CX0q8o" class="open">
+      <img
+        width="1280"
+        height="720"
+        class="thumbnail"
+        style="object-fit: cover; object-position: 0 0"
+        src="/talk/thumbnail/what-it-means-to-be-open-2.png" />
+    </a>
+  </section>
+
+  <section>
+    <a href="http://www.youtube.com/live/4GOeYylCMJI?t=12475">
+      <img
+        width="1280"
+        height="720"
+        class="thumbnail"
+        style="object-fit: cover; object-position: 1 0"
+        src="/talk/thumbnail/unblocking-creation-with-friends.png" />
+    </a>
+  </section>
+
+  <section>
+    <a class="death" href="http://www.youtube.com/live/4GOeYylCMJI?t=12475">
+      <img
+        width="1280"
+        height="720"
+        class="thumbnail"
+        style="object-fit: cover; object-position: 0 0"
+        src="/talk/thumbnail/death-of-the-tadi-web-2.png" />
+    </a>
+  </section>
+
+  <section>
+    <a class="natural" href="https://youtu.be/bV12HhAYIik?si=bFkuDyI9bb4xHZ5r">
+      <img
+        width="1280"
+        height="720"
+        class="thumbnail"
+        style="object-fit: cover; object-position: 0 0"
+        src="/talk/thumbnail/dialogues-on-natural-code-2.png" />
+    </a>
+  </section>
+
+  <section>
+    <a class="escape" href="https://youtu.be/bV12HhAYIik?si=bFkuDyI9bb4xHZ5r">
+      <img
+        width="1280"
+        height="720"
+        class="thumbnail"
+        style="object-fit: cover; object-position: 0 0"
+        src="/talk/thumbnail/spatial-programming-without-escape.png" />
+    </a>
+  </section>
+</main>
