@@ -78,9 +78,9 @@ But yes, the more I write, the more I write more fluidly.
 
 ## Unblocking creation with friends
 
-When it was time to sit down and write up my [Arroost](/explore/arroost) work, it went okay. I wrote an essay called [Unblocking creation with friends](/report/arroost) and I'm pleased with it. 
+When it was time to sit down and write up my [Arroost](/explore/arroost) work, it went okay. I wrote an essay called [Unblocking creation with friends](/report/arroost) and I'm happy with it. 
 
-I could never imagine writing a whole essay like that before, not even twelve months ago. I'm pleased I can do it now.
+I could never imagine writing a whole essay like that before, not even twelve months ago. I'm pleased (relieved) I can do it now.
 
 ## I'm here now
 
