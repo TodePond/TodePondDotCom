@@ -33,7 +33,7 @@ As time went on, I began to write more and more personal stuff, not just compute
 
 One of the early occurrences of this was the [Lu loo tales](https://www.todepond.com/wikiblogarden/health/loo-lu/end/) but the most personal (by far) was [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/).
 
-Sometimes I wonder if I shouldn't share such personal information, or what would happen if my friends or colleagues read it and it changes what they think of me.
+Sometimes I wonder if I shouldn't share such personal information, or what would happen if my friends or colleagues saw it and it changed what they think of me.
 
 On the other hand, it's the blog post I receive the most emails about. Many people tell me they went through the same nasty things as me.
 
