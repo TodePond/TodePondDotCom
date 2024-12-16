@@ -132,7 +132,7 @@ I guess the interesting part is that it increases the number for everyone in the
 
 By far, the biggest success to come out of the lab is [Login](/lab/login) and, by extension, the [Logiverse](https://logiverse.social).
 
-It's a fully distributed / decentralised social media network, which sounds fancy but all it means is that multiple people are now running their own servers / instances / stores / appviews / websites / whatevers. Ah— That does sound complicated actually.
+It's a fully distributed / decentralised social media network, which sounds fancy but all it means is that multiple people are now running their own servers / instances / stores / appviews / websites / whatevers. Ah— That does sound complicated...
 
 It's a social network that isn't just run by one company or person. Multiple people run their own parts of the network, and we all connect to each other's parts and together it makes a large network. It makes the network stronger because if one of us goes bad or disappears, the larger network can continue being good. It means that no single person or company has control over the whole thing. It's shared responsibility. 
 
