@@ -180,15 +180,17 @@ I've also started using slashes to represent branching pathways / options that I
 
 ## Pasta gang
 
-I run a heavy [Quality control](https://www.todepond.com/wikiblogarden/repetition/quality/control/) system. The vast majority of my posts get rejected, and thrown in the bin. 
+I run a heavy [Quality control](https://www.todepond.com/wikiblogarden/repetition/quality/control/) system. The vast majority of my posts get rejected / thrown in the bin. 
 
-However, I have recently started to share my binned posts, as long as they have the disclaimer that they are binned, such as [Pasta gang](https://www.todepond.com/sky/tode-pasta/binned-version/). You can read the beginning of the eventual unbinned version in [I learned a programming language by accident]. But it's funny. I actually prefer some things from the binned version in the end. 
+However, I have recently started to share my binned posts, as long as they have the disclaimer that they are binned, such as [Pasta gang (binned)](https://www.todepond.com/sky/tode-pasta/binned-version/). You can read the beginning of the eventual unbinned version in [I learned a programming language by accident](https://www.todepond.com/wikiblogarden/learn/pastagang/accident/arroost/).
+
+But it's funny: After all that, I actually prefer some things from the binned version.
 
 Either way, you get to see both / to see my process.
 
 ## It's weird when people recognise me
 
-Another binned post is [It's weird when people recognise me](https://www.todepond.com/wikiblogarden/social-media/para/meeting/).
+Another binned post is [It's weird when people recognise me (binned)](https://www.todepond.com/wikiblogarden/social-media/para/meeting/).
 
 Despite being binned, it is still true. 
 
@@ -204,7 +206,7 @@ No. This section is binned.
 
 At some point, I realised that headings / titles were my crutch.
 
-All of my writing followed the same sort of structure and it became boring and repetitive. So with [No more titles](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-titles/), I decreed that I wouldn't use titles anymore, and I stuck to it / I went cold turkey for a long time. I didn't use any titles or subtitles on any post, even though this means you can't even click on those posts because there's no title to click.
+All of my writing followed the same sort of structure and it became boring and repetitive. So with [No more titles](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-titles/), I decreed that I wouldn't use titles anymore, and I stuck to it / I went cold turkey for a long time. I didn't use any titles or subtitles on any post, even though this meant you couldn't even click on those posts because there was no title to click.
 
 <br>
 
@@ -212,11 +214,11 @@ All of my writing followed the same sort of structure and it became boring and r
 
 <br>
 
-I only re-introduced titles after I grew free from them, with [Blog posts don't need titles](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-titles/crutches/titles) yes
+I only re-introduced titles after I grew free from them, with [Blog posts don't need titles](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-titles/crutches/titles)
 
-the titles were back but my wikiblogardenite was forever changed 
+the titles were back but my writing style was changed
 
-I now write in a looser way
+<!-- I now write in a looser way -->
 
 <!-- <br>
 
@@ -232,7 +234,11 @@ My wikiblogardenite is a playground for writing I play around with different wri
 
 <br>
 
-I started putting my weekly [Pondcast](/pondcast) on my wikiblogardenite too. It feels good to be free from closed platforms. 
+I started putting my weekly [Pondcast](/pondcast) on my wikiblogardenite too. It feels good to be free from closed platforms like patreon and substack
+
+<br>
+
+<hr>
 
 <br>
 
@@ -248,9 +254,9 @@ This lets me mess around in wikiblogardenite land without harming the visual lan
 
 And here we are, in the present day. 
 
-Turns out, (quite) a lot of people read the wikiblogardenite now, and that gives me a (small) platform. So of course, I feel obliged to try to use it for (a little bit of) good. 
+Turns out, (quite) a lot of people read the wikiblogardenite now and that gives me a (small) platform. So of course, I feel obliged to try to use it for (a little bit of) good. 
 
-Yes, I've been using it to share some of the struggles I experience as a trans person, in [Sulfasalazine](https://www.todepond.com/wikiblogarden/health/sulfasalazine/) and [Sulfasalazine: The sequel](https://www.todepond.com/wikiblogarden/health/sulfasalazine/two) and [The enshittification of GenderGP](https://www.todepond.com/wikiblogarden/genocide/visibility/) and [Today is a sad](https://www.todepond.com/wikiblogarden/genocide/sad-day) and [Clickbait title](https://www.todepond.com/wikiblogarden/genocide/sad-day/cass) and so on and really is quite boring / tiring. But I feel obliged to say *something*.
+Yes, I've been using it to share some of the struggles I experience as a trans person, in [Sulfasalazine](https://www.todepond.com/wikiblogarden/health/sulfasalazine/) and [Sulfasalazine: The sequel](https://www.todepond.com/wikiblogarden/health/sulfasalazine/two) and [The enshittification of GenderGP](https://www.todepond.com/wikiblogarden/genocide/visibility/) and [Today is a sad](https://www.todepond.com/wikiblogarden/genocide/sad-day) and [Clickbait title](https://www.todepond.com/wikiblogarden/genocide/sad-day/cass) and so on and it really is quite boring / tiring but I feel obliged to say *something*.
 
 I also write about the challenges I face from other queer / trans people with things like [My internalised transphobia](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/) and [Baby trans considered harmful](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/baby-trans) and [Passing is bullshit](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/passing/is-bullshit) and [Transition in slow motion](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/) and—
 
@@ -266,15 +272,15 @@ As I've said in the past, my only goal with this blog is to have written a blog 
 
 I even wrote a blog post about how [I wrote a blog post about that](https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that) and it's fun being able do that double tag joke in person.
 
-If you don't know what a "tag" is then feel free to write my post about jokes called [What is a joke](https://www.todepond.com/wikiblogarden/art/comedy/).
+If you don't know what a "tag" is then feel free to read my post about jokes called [What is a joke](https://www.todepond.com/wikiblogarden/art/comedy/).
 
 ## Chaos to the canon
 
 Sometimes people send me private messages, despite me asking everyone to [Please stop sending me messages](https://www.todepond.com/wikiblogarden/social-media/para/messages/). And sometimes they ask me to write a blog post about something, or to hurry up on one that's in progress.
 
-This helped me discover a new business opportunity to add to my list of [How I get money](https://www.todepond.com/wikiblogarden/work/how-i-get-money) so I offered to fast track any blog post for the obscene price of 99 pounds
+This helped me discover a new business opportunity to add to my list of [How I get money](https://www.todepond.com/wikiblogarden/work/how-i-get-money): I offered to fast track any blog post for the obscene price of 99 pounds
 
-Unexpectedly, two people paid it. Thank you to those two! One person specified no preference, so the second person got to choose, and they chose [Chaos to the canon](https://www.todepond.com/wikiblogarden/london/canon/chaos/no-escape/).
+Surprisingly, two people paid it. Thank you to both of you! One person specified no preference, so the second person got to choose, and they chose [Chaos to the canon](https://www.todepond.com/wikiblogarden/london/canon/chaos/no-escape/).
 
 <br>
 
@@ -292,7 +298,7 @@ So where are we now?
 
 ## Death of the tadi web
 
-I gave my first talk about the wikiblogardenite. It was only *indirectly* about the wikiblogardenite but it *really was* about the wikiblogardenite. The talk is called [Death of the tadi web](https://www.youtube.com/watch?v=ft6xOAijwFo) and it was a fun one to perform.
+I gave my first ever talk about the wikiblogardenite. It was only *indirectly* about the wikiblogardenite but it *really was* about the wikiblogardenite. The talk is called [Death of the tadi web](https://www.youtube.com/watch?v=ft6xOAijwFo) and it was a fun one to perform.
 
 ## Are analytics good
 
