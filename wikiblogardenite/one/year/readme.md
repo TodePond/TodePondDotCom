@@ -156,7 +156,7 @@ We have enough!!!!!
 
 One thing I know is... I will [Never stop writing](https://www.todepond.com/wikiblogarden/art/never-stop-writing/). And that's certainly not easy. In difficult moments, I find myself doubting myself / asking myself [Why bother](https://todepond.com/wikiblogarden/art/why-bother) but I've managed to keep going so far 
 
-Those uncomfortable moments when writing / continuing writing feels uncomfortable are also the moments where I learn most. I try to keep pushing through those moments.
+Those uncomfortable moments when writing feels uncomfortable are also the moments where I learn most. I try to keep pushing through those moments.
 
 ## Vomit diaries
 
