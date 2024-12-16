@@ -12,7 +12,7 @@ Funny questions people ask me when I show them a live coding tool.
 
 "How do you monetize?"
 
-"And you think this will pick up?"
+"Do you think this will pick up?"
 
 "Are you the founder?"
 
