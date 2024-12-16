@@ -138,13 +138,13 @@ It's a social network that isn't just run by one company or person. Multiple peo
 
 There are already things out there that claim to do this, like mastodon and bluesky, but they're so difficult to do that it's more of a hypothetical. Especially bluesky.
 
-But in the Logiverse it's easy. I've seen complete beginners do it. 
+And it's not easy in the Logiverse either. But it does seem to be a little less hard.
 
 Yes, I'm really quite impressed by what people have done with Login. It was nothing to do with me, so I'm thankful for the community for doing all that work.
 
 ## Building community
 
-One of the more 'highly rated' posts on the wikiblogardenite is [Building community], where I share my findings from a question I asked loads of researchers. 
+One of the more 'highly rated' posts on the wikiblogardenite is [Building community](https://www.todepond.com/wikiblogarden/blending/goals/community/), where I share my findings from a question I asked loads of researchers. 
 
 More largely, it represents a moment of change for me in my own work, away from making **things**, and towards making **space**.
 
