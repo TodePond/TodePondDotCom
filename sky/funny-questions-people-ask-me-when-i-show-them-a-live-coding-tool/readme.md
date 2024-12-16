@@ -1,6 +1,6 @@
 # Funny questions people ask me when I show them a live coding tool
 
-Funny questions people ask me when I show them a live coding tool
+Funny questions people ask me when I show them a live coding tool.
 
 "What's the use case?"
 
@@ -10,7 +10,7 @@ Funny questions people ask me when I show them a live coding tool
 
 "What's the point? I mean sure it can make music but—"
 
-"What's your monetization strategy?"
+"How do you monetize?"
 
 "And you think this will pick up?"
 
@@ -22,11 +22,16 @@ Funny questions people ask me when I show them a live coding tool
 
 "Are you raising?"
 
-"What does your go-to-market look like?"
+"What's your go-to-market strategy?"
 
-"Sorry it's very impressive and all but I just don't see it working out."
+"Is this AI?"
+
+"So an LLM is powering this?"
+
+"What model are you using?"
+
+"Sorry. It's very impressive and all but I just don't see it working out."
 
 <br>
 
-back to the [wikib
-logarden](/sky)
+back to the [wikiblogarden](/sky)
