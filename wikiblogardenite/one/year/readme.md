@@ -214,19 +214,15 @@ I only re-introduced titles after I grew free from them, with [Blog posts don't 
 
 the titles were back but my wikiblogardenite was forever changed 
 
-and I now write in a looser way
+I now write in a looser way
 
-# I break the rules more
-
-!!!!!!
-
-<br>
+<!-- <br>
 
 <hr>
 
 <br>
 
-My wikiblogardenite is a playground for writing I play around with different writing styles trying to hit the limits of what i can get away with and that keeps me learning
+My wikiblogardenite is a playground for writing I play around with different writing styles trying to hit the limits of what i can get away with and that keeps me learning -->
 
 <br>
 
