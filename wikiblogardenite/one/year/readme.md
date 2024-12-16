@@ -162,13 +162,15 @@ Those uncomfortable moments when writing feels uncomfortable are also the moment
 
 It took a real push to write the [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction). For a start, the act of writing it made me feel physically sick. But it also took a long time too.
 
-Despite all that, I am pleased I did it! I shared something that I wanted to share, and I practised writing an episodic story. 
+Despite all that, I am pleased I did it. I shared something that I wanted to share, and I practised writing an episodic story.
 
-I started it because there is another episodic thing that I'm still trying to write, but I was finding it too hard, so I thought I would practise with something less important first / with the [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction). And people seemed to like it. Thank god for that.
+I started the [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction) because there was another episodic thing that I was trying to write but I was finding it too hard, so I thought I would practise with something less important first / with the [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction).
+
+And people seemed to like it. Thank god for that.
 
 ## Write your blog on your phone
 
-The best way to keep myself writing is by writing my blog from my phone. I explained my thinking for this in [Write your blog on your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone), which was turned into a [song](https://mathstodon.xyz/@ngons/112105422898363468) by ngons.
+The best way to keep myself writing is by writing my blog on my phone. I explained my thinking for this in [Write your blog on your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone), which was turned into a [song](https://mathstodon.xyz/@ngons/112105422898363468) by ngons.
 
 ## Dashes
 
@@ -200,7 +202,7 @@ No. This section is binned.
 
 <br>
 
-At some point, I realised that headings / titles were a crutch to me.
+At some point, I realised that headings / titles were my crutch.
 
 All of my writing followed the same sort of structure and it became boring and repetitive. So with [No more titles](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-titles/), I decreed that I wouldn't use titles anymore, and I stuck to it / I went cold turkey for a long time. I didn't use any titles or subtitles on any post, even though this means you can't even click on those posts because there's no title to click.
 
@@ -250,9 +252,11 @@ Turns out, (quite) a lot of people read the wikiblogardenite now, and that gives
 
 Yes, I've been using it to share some of the struggles I experience as a trans person, in [Sulfasalazine](https://www.todepond.com/wikiblogarden/health/sulfasalazine/) and [Sulfasalazine: The sequel](https://www.todepond.com/wikiblogarden/health/sulfasalazine/two) and [The enshittification of GenderGP](https://www.todepond.com/wikiblogarden/genocide/visibility/) and [Today is a sad](https://www.todepond.com/wikiblogarden/genocide/sad-day) and [Clickbait title](https://www.todepond.com/wikiblogarden/genocide/sad-day/cass) and so on and really is quite boring / tiring. But I feel obliged to say *something*.
 
-I also write about the challenges I face from other queer / trans people with things like [My internalised transphobia](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/) and [Baby trans considered harmful](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/baby-trans) and [Passing is bullshit](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/passing/is-bullshit) and [Transition in slow motion](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/) and ugghhhh
+I also write about the challenges I face from other queer / trans people with things like [My internalised transphobia](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/) and [Baby trans considered harmful](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/baby-trans) and [Passing is bullshit](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/passing/is-bullshit) and [Transition in slow motion](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/) and—
 
-my theory is that some queer people sometimes think "I'm queer so I can't possibly be queerphobic" and this leads to queer people being some of the worst offenders.
+my theory is that some—
+
+<!-- my theory is that some queer people sometimes think "I'm queer so I can't possibly be queerphobic" and this leads to queer people being blind to it -->
 
 There's a lot of biphobia and enbyphobia within queer circles and unfortunately I am both of those things so it's nice to have a place to rant about it!!!!!!!!
 
@@ -268,9 +272,9 @@ If you don't know what a "tag" is then feel free to write my post about jokes ca
 
 Sometimes people send me private messages, despite me asking everyone to [Please stop sending me messages](https://www.todepond.com/wikiblogarden/social-media/para/messages/). And sometimes they ask me to write a blog post about something, or to hurry up on one that's in progress.
 
-This helped me discover a new business opportunity to add to my list of [How I get money](https://www.todepond.com/wikiblogarden/work/how-i-get-money) so I offered to fast track any blog post for the rip off price of 99 pounds
+This helped me discover a new business opportunity to add to my list of [How I get money](https://www.todepond.com/wikiblogarden/work/how-i-get-money) so I offered to fast track any blog post for the obscene price of 99 pounds
 
-And to my utter surprisal, two people did it. Thank you to those two! One person specified no preference, so the second person got to choose, and they chose [Chaos to the canon](https://www.todepond.com/wikiblogarden/london/canon/chaos/no-escape/).
+Unexpectedly, two people paid it. Thank you to those two! One person specified no preference, so the second person got to choose, and they chose [Chaos to the canon](https://www.todepond.com/wikiblogarden/london/canon/chaos/no-escape/).
 
 <br>
 
@@ -284,23 +288,23 @@ And to my utter surprisal, two people did it. Thank you to those two! One person
 
 # One year of the wikiblogardenite
 
-So where are they now?
+So where are we now?
 
 ## Death of the tadi web
 
-I gave my first talk about the wikiblogardenite! Hopefully the first of many. It was *only indirectly* about the wikiblogardenite but it *definitely was* about the wikiblogardenite. It was called [Death of the tadi web](https://www.youtube.com/watch?v=ft6xOAijwFo) and it was a fun one to perform.
+I gave my first talk about the wikiblogardenite. It was only *indirectly* about the wikiblogardenite but it *really was* about the wikiblogardenite. The talk is called [Death of the tadi web](https://www.youtube.com/watch?v=ft6xOAijwFo) and it was a fun one to perform.
 
 ## Are analytics good
 
-And yes, as foretold by [Are analytics good](https://www.todepond.com/wikiblogarden/social-media/analytics/), I did eventually add analytics. They're publicly available on my [Analytics](https://www.todepond.com/analytics/) page and also [Goatcounter](https://todepond.goatcounter.com).
+And yes, as foretold by [Are analytics good](https://www.todepond.com/wikiblogarden/social-media/analytics/), I did eventually add analytics. They're publicly available on my [Analytics](https://www.todepond.com/analytics/) page and also on [Goatcounter](https://todepond.goatcounter.com).
 
 I'm not ashamed.
 
 ## The sky
 
-Thank you for being here this year.
+Thank you for being here this year. Onto the next.
 
-I promise you that the wikiblogardenite will not end while I'm alive.
+<!-- I promise you that the wikiblogardenite will not end while I'm alive. -->
 
 <br>
 
