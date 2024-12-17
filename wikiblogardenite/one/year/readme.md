@@ -345,7 +345,7 @@ Here's a link to every single poem on my wikiblogardenite:
 - [PDFs are so bad 2](https://www.todepond.com/wikiblogarden/academia/pdfs/2/)
 - [Things I am bad at](https://www.todepond.com/wikiblogarden/me/bad/)
 - [Total escape](https://www.todepond.com/sky/escape/total/)
-- [Sleeping in the sky]()
+- [Sleeping in the sky](https://www.todepond.com/sky/escape/total/sleeping-in)
 - [My qwerty keyboard](https://www.todepond.com/sky/my-qwerty-keyboard/)
 - [Yourself](https://www.todepond.com/wikiblogarden/my-name/self/)
 - [Entropy](https://www.todepond.com/sky/entropy/)
