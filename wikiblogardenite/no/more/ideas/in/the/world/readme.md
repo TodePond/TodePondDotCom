@@ -1,6 +1,6 @@
 # No more ideas in the world 
 
-[No more ideas] will always be relevant in a world that values stuff stuff stuff— in a world that values getting brand new shiny stuff all the time because "new stuff is good" and "we love new stuff"
+[No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) will always be relevant in a world that values stuff stuff stuff— in a world that values getting brand new shiny stuff all the time because "new stuff is good" and "we love new stuff"
 
 We're surrounded by drivel, utter drivel, complete and utter drivel. Adverts that make us feel bad or feel wanting because we haven't got the new shiny thing GET THE NEW SHINY THING YOU KNOW YOU WANT IT GET IT
 
@@ -10,7 +10,7 @@ Don't get me wrong I love getting presents and unwrapping them and that's the wh
 
 ## No more ideas
 
-[No more ideas] combats the thousands of tech dudes lining up to make the brand new shiny thing that'll *change the world!*
+[No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) combats the thousands of tech dudes lining up to make the brand new shiny thing that'll *change the world!*
 
 Alan Kay Bret Victor fanboys lining up to be the next Alan Kay Bret Victor and *change the world!* secretly hoping that they become the hero and determine the course of the computing future with all their *new stuff!* their *new shiny stuff!*
 
@@ -21,6 +21,20 @@ we've built an ideas factory, we pump out ideas and prototypes whether they're p
 where do all those brand new ideas go? 
 
 absolutely fuckin nowhere
+
+## No more ideas
+
+[No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) for petes sake
+
+"But Lu"
+
+I know I know
+
+It's hard to see beyond the [canon](https://www.todepond.com/wikiblogarden/london/canon/chaos/no-escape/) we're part of. And in our case, our canon is a capitalist, materialistic, modernist world. We're mired in colonialism, with the need to expand and absorb, to take over whatever we can, to spread our gospel, to convert others to our cause, to be impressive, to live the American Dream. 
+
+Computing is built on war technology. From the Turing machine to the Memex, We're all built on war and we haven't moved on.
+
+The grain is war and to going against the grain causes chaos but chaos doesn't mean war chaos means peace
 
 <br>
 
