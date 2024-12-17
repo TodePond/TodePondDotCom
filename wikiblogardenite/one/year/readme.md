@@ -173,9 +173,9 @@ I started the [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomi
 
 And people seemed to like it. Thank god for that.
 
-## Write your blog on your phone
+## Write your blog from your phone
 
-The best way to keep myself writing is by writing my blog on my phone. I explained my thinking for this in [Write your blog on your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone), which was turned into a [song](https://mathstodon.xyz/@ngons/112105422898363468) by ngons.
+The best way to keep myself writing is by writing my blog from my phone. I explained my thinking for this in [Write your blog from your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone), which was turned into a [song](https://mathstodon.xyz/@ngons/112105422898363468) by ngons.
 
 ## Dashes
 
