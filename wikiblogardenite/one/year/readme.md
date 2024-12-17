@@ -328,7 +328,6 @@ Here's a link to every single poem on my wikiblogardenite:
 - [Finding my voice](https://www.todepond.com/wikiblogarden/art/voice/finding/)
 - [Men](https://www.todepond.com/wikiblogarden/men/)
 - [No more tools](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools/)
-<!-- - [I wrote a blog post about that](https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that/) -->
 - [Write your blog from your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone/)
 - [Cardboard cutouts](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) (scroll down)
 - [Why be bad on purpose](https://www.todepond.com/wikiblogarden/shitpost/)
