@@ -12,7 +12,7 @@ Don't get me wrong I love getting presents and unwrapping them and that's the wh
 
 [No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas) combats the thousands of tech dudes lining up to make the brand new shiny thing that'll *change the world!*
 
-Alan Kay Bret Victor fanboys lining up to be the next Alan Kay Bret Victor and *change the world!* secretly hoping that they become the hero and determine the course of the computing future with all their *new stuff!* their *new shiny stuff!*
+Alan Kay Bret Victor fanboys lining up to be the next Alan Kay Bret Victor and *change the world!* secretly hoping that they become the brand new hero and determine the future course of the computing future with all their *brand new stuff!* all their *new shiny stuff!*
 
 At the end of the day that's what the future of coding and Human Computer Interaction (ugh) communities have become these insular self-congratulatory islands that pump out stuff stuff stuff and new ideas, plenty of new ideas
 
