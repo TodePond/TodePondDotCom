@@ -89,7 +89,7 @@ I could never imagine writing a whole essay like that before, not even twelve mo
 
 I'm also pleased to see other people spin up their own wikiblogarden projects.
 
-I've seen quite a number of websites start with an opening post saying how they were inspired by the wikiblogarden in some way, like Sven's [I'm here now](https://svenlaa-com.pages.dev/bloggo/im-here-now/) and Jayrude's [Hello friends](https://jayrude.dev/blog/hello-friends/) and Enderprism's [I made a blog because Todepond asked me to](https://enderprism.github.io/post/new-blog/).
+I've seen quite a number of websites start with an opening post saying how they were inspired by the wikiblogarden in some way, like Sven's [I'm here now](https://svenlaa.com/bloggo/im-here-now/) and Jayrude's [Hello friends](https://jayrude.dev/blog/hello-friends/) and Enderprism's [I made a blog because Todepond asked me to](https://enderprism.github.io/post/new-blog/).
 
 I also get sad when they inevitably end.
 
