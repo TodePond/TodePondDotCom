@@ -97,7 +97,9 @@ I also get sad when they inevitably end.
 
 The wikiblogarden has now attracted some subtle criticism too! Which is surely another milestone.
 
-Yes, Philippa Markovics winks at the wikiblogarden in [Things that happened in September](https://trimmings.wtf/sept-2024). In the introductory post, she states that her website is a website, and not a wiki or a blog or a memex or a garden or a blah or an anything like a wikiblogarden, and she reminds you of this in the footer on every single page:
+Yes, Philippa Markovics winked at the wikiblogarden in [Things that happened in September](https://trimmings.wtf/sept-2024).
+
+In that introductory post, she states that her website is a website, and not a wiki or a blog or a memex or a garden or a blah or an anything like a wikiblogarden, and she reminds you of this in the footer on every single page:
 
 > This website is not a memex nor a garden nor a blog nor a diary or dairy or a portfolio or a wiki. It’s a website.
 
