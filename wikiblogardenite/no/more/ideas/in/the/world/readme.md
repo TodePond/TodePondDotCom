@@ -4,7 +4,7 @@
 
 We're surrounded by drivel, utter drivel, complete and utter drivel. Adverts that make us feel bad or feel wanting because we haven't got the new shiny thing GET THE NEW SHINY THING YOU KNOW YOU WANT IT GET IT
 
-Christmas is the worst. We're conditioned to get each other so much stuff stuff stuff— new stuff that we don't want, when what we really need is less, less stuff and more space, more room to breathe
+Christmas is the worst. We're conditioned to get each other so much stuff stuff stuff— new stuff that we don't even want when what we really need is less, less stuff and more space, more room to breathe
 
 Don't get me wrong I love getting presents and unwrapping them and that's the whole point: I'm trapped in this as much as you are
 
