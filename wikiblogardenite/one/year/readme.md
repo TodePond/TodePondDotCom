@@ -311,6 +311,50 @@ And yes, as foretold by [Are analytics good](https://www.todepond.com/wikiblogar
 
 I'm not ashamed.
 
+## My wikiblogardenite 
+
+From the [very first post](https://www.todepond.com/wikiblogarden/my-wikiblogarden/) until now, poems have featured heavily. I didn't expect that to happen but it did. 
+
+Here's a link to every single poem on my wikiblogardenite: 
+
+- [No more ideas](https://www.todepond.com/wikiblogarden/my-wikiblogarden/) (scroll down)
+- [Just block them](https://www.todepond.com/wikiblogarden/social-media/just-block-them/)
+- [Never stop writing](https://www.todepond.com/wikiblogarden/art/never-stop-writing/)
+- [Minification is evil](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/minification/)
+- [Just](https://www.todepond.com/wikiblogarden/better-computing/just/) (scroll down)
+- [Define define](https://www.todepond.com/report/definitions-that-dont-matter/) (scroll down)
+- [My number one tip for posting viral tweets, toots, posts, etc](https://www.todepond.com/wikiblogarden/social-media/write-less/)
+- [Mind the dozing claws](https://www.todepond.com/wikiblogarden/london/dozing-claws/)
+- [Finding my voice](https://www.todepond.com/wikiblogarden/art/voice/finding/)
+- [Men](https://www.todepond.com/wikiblogarden/men/)
+- [No more tools](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools/)
+<!-- - [I wrote a blog post about that](https://www.todepond.com/wikiblogarden/my-wikiblogarden/posts/about/that/) -->
+- [Write your blog from your phone](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone/)
+- [Cardboard cutouts](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/) (scroll down)
+- [Why be bad on purpose](https://www.todepond.com/wikiblogarden/shitpost/)
+- [Words words words](https://www.todepond.com/wikiblogarden/academia/words/)
+- [No more products](https://www.todepond.com/wikiblogarden/work/no-more-products/)
+- [Sayings](https://www.todepond.com/wikiblogarden/sayings/)
+- [Eh screw it](https://www.todepond.com/wikiblogarden/bottom-up/screw-it/)
+- [Fall off](https://www.todepond.com/wikiblogarden/genocide/fall-off/)
+- [The same people](https://www.todepond.com/wikiblogarden/blending/people/)
+- [Courage](https://www.todepond.com/wikiblogarden/art/never-stop-writing/courage/)
+- [My life has sometimes felt complicated](https://www.todepond.com/wikiblogarden/life/death/complicated/)
+- [God gave me nausea](https://www.todepond.com/wikiblogarden/health/vomit/diaries/ending/) (scroll down) 
+- [I am really bad at coding](https://www.todepond.com/wikiblogarden/coding/)
+- [PDFs are so bad](https://www.todepond.com/wikiblogarden/academia/pdfs/)
+- [PDFs are so bad 2](https://www.todepond.com/wikiblogarden/academia/pdfs/2/)
+- [Things I am bad at](https://www.todepond.com/wikiblogarden/me/bad/)
+- [Total escape](https://www.todepond.com/sky/escape/total/)
+- [Sleeping in the sky]()
+- [My qwerty keyboard](https://www.todepond.com/sky/my-qwerty-keyboard/)
+- [Yourself](https://www.todepond.com/wikiblogarden/my-name/self/)
+- [Entropy](https://www.todepond.com/sky/entropy/)
+- [We are coders](https://www.todepond.com/sky/we-are-coders/)
+- [I wanna make music](https://www.todepond.com/sky/i-wanna-make-music/)
+- [We must define](https://www.todepond.com/report/definitions-that-dont-matter/we-must-define/)
+- [The lines you don't draw](https://www.todepond.com/sky/space/lines/)
+
 ## The sky
 
 Thank you for being here this year. Onto the next.
