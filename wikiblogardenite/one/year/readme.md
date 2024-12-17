@@ -19,7 +19,8 @@ So yeah, it turns out that "X is bad/good" is a winning formula.
 But please remember, [Hackernews is a vile website](https://www.todepond.com/wikiblogarden/social-media/hackernews).
 
 ## Just 
- [Just](https://www.todepond.com/wikiblogarden/better-computing/just/) continues to be my most viewed post, flaring up on social media every few months or so.
+
+[Just](https://www.todepond.com/wikiblogarden/better-computing/just/) continues to be my most viewed post, flaring up on social media every few months or so.
 
 Some people love it and some people really really hate it because they fail to [Just read the article](https://www.todepond.com/wikiblogarden/better-computing/just/read/), which helps the virality, I think.
 
@@ -41,7 +42,9 @@ It's nice to know I'm not alone.
 
 ## I went to an algorave
 
-I gradually became more and more comfortable with writing longer posts. The longest one is currently [I went to an algorave](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/) and I'm pleased I made it that length.
+I gradually became more and more comfortable with writing longer posts.
+
+The longest one is currently [I went to an algorave](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/) and I'm pleased I made it that length.
 
 Sometimes you need a long time to tell a story.
 
@@ -51,14 +54,14 @@ Another of the long ones is [Cardboard cutouts](https://www.todepond.com/wikiblo
 
 I still find it hard to write about my teaching days because it makes me quite emotional, but I hope to do it more in the future. 
 
-The difficulty pushed me to adopt a 'fractured' writing style which makes use of lots of interspersed little snippets of story. I have grown to love this approach and I now use it often.
+The difficulty pushed me to adopt a fractured writing style which makes use of lots of interspersed little snippets of story. I have grown to love this approach and I now use it often.
 
-Here are some posts that make use of cutout style: 
+Here are some posts that make use of that cutout style: 
 
 - [Cardboard cutouts](https://www.todepond.com/wikiblogarden/london/cardboard/cutouts/)
 - [Vomit diaries](https://www.todepond.com/wikiblogarden/health/vomit/diaries/introduction/)
 - [I went to an algorave](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/)
-- Opening at heart of clojure (still writing this one) 
+- Opening at heart of clojure (still working on this one)
 
 ## Just practice
 
@@ -68,7 +71,7 @@ It's practice, [Just practice](https://www.todepond.com/wikiblogarden/genocide/p
 
 ## Definitions that don't matter
 
-For a very long time, I wanted to write up my [Define define](https://youtu.be/ZMklf0vUl18) video into a blog post / an essay. I tried and I tried, I wrote and I wrote and I rewrote my words into many— I tried many different shapes and forms and tones and lengths but I couldn't figure it out.
+For a very long time, I wanted to write up my [Define define](https://youtu.be/ZMklf0vUl18) video into a blog post / an essay. I tried and I tried, I wrote and I wrote and I rewrote my words into many— I tried many different shapes and forms and moods and lengths but I couldn't figure it out.
 
 <br>
 
@@ -80,7 +83,7 @@ But yes, the more I write, the more I write more fluidly.
 
 When it was time to sit down and write up my [Arroost](/explore/arroost) work, it went okay. I wrote an essay called [Unblocking creation with friends](/report/arroost) and I'm happy with it. 
 
-I could never imagine writing a whole essay like that before, not even twelve months ago. I'm pleased (relieved) I can do it now.
+I could never imagine writing a whole essay like that before, not even twelve months ago. I'm pleased (relieved) that I can do it now.
 
 ## I'm here now
 
