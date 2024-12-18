@@ -20,11 +20,11 @@ we've built an ideas factory, we mass produce them! we pump out new ideas and pr
 
 where do all these brand new ideas go? 
 
-absolutely fuckin nowhere
+absolutely nowhere
 
 and what do these ideas do? 
 
-absolutely fuckin nothing
+absolutely nothing
 
 ## No more ideas
 
