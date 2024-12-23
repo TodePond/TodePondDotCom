@@ -3503,11 +3503,46 @@ const SPLASH_TO_HEX = [
     style="writing-mode: vertical-lr; transform: rotate(180deg)" />
 </hgroup>
 
-<pre id="hex-output" style="width: fit-content; font-family: monospace">
-#ffffff</pre
->
+<hgroup>
+  <pre
+    id="splash-output"
+    style="
+      width: fit-content;
+      font-family: monospace;
+      display: inline-block;
+      margin: 0px;
+    ">
+999</pre
+  >
 
-<button id="copy-button">Copy hex to clipboard</button>
+  <pre
+    id="hex-output"
+    style="
+      width: fit-content;
+      font-family: monospace;
+      display: inline-block;
+      margin: 0px;
+    ">
+#ffffff</pre
+  >
+
+  <pre
+    id="rgb-output"
+    style="
+      width: fit-content;
+      font-family: monospace;
+      display: inline-block;
+      margin: 0px;
+    ">
+rgb(255, 255, 255)</pre
+  >
+</hgroup>
+
+<hgroup>
+  <button id="copy-button-splash">Copy splash to clipboard</button>
+  <button id="copy-button">Copy hex to clipboard</button>
+  <button id="copy-button-rgb">Copy RGB to clipboard</button>
+</hgroup>
 
 <br />
 <br />
@@ -3542,19 +3577,27 @@ const SPLASH_TO_HEX = [
     <a href="https://garten.salat.dev/">garten</a> which is a great website. pls
     check it out!!
   </p>
-
-  <p>
-    But yeah. Whether u wanna be
-    <a href="https://www.youtube.com/watch?v=ft6xOAijwFo">slippy</a> or
-    <a href="https://www.youtube.com/watch?v=MJzV0CX0q8o">scrappy</a>, i think
-    that being splashy can help ok bye.
-  </p>
 </blockquote>
 
 <br />
+
+<p>
+  But yeah. Whether u wanna be
+  <a href="https://www.youtube.com/watch?v=ft6xOAijwFo">slippy</a> or
+  <a href="https://www.youtube.com/watch?v=MJzV0CX0q8o">scrappy</a>, i think
+  that being splashy can help ok bye.
+</p>
+
+<br />
 <br />
 
-<p>back to da <a href="/wikiblogardenite/">wikiblogardenite</a>.</p>
+<p>back to da <a href="/wikiblogardenite/">wikiblogardenite</a></p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <style>
   hgroup {
@@ -3645,7 +3688,9 @@ const SPLASH_TO_HEX = [
   const greenRange = document.querySelector("#green-range");
   const blueRange = document.querySelector("#blue-range");
 
+  const splashOutput = document.querySelector("#splash-output");
   const hexOutput = document.querySelector("#hex-output");
+  const rgbOutput = document.querySelector("#rgb-output");
 
   function updatePreview() {
     const value = parseInt(numberInput.value, 10);
@@ -3665,6 +3710,9 @@ const SPLASH_TO_HEX = [
     hexOutput.textContent = themeToggle.checked
       ? getCellpondHexFromSplash(value)
       : getHexFromSplash(value);
+
+    splashOutput.textContent = value.toString().padStart(3, "0");
+    rgbOutput.textContent = hexToRgb(hexOutput.textContent);
 
     const splashRange = document.querySelector("#splash-range");
     splashRange.value = value;
@@ -3777,7 +3825,21 @@ const SPLASH_TO_HEX = [
     });
   });
 
+  const copyButtonSplash = document.querySelector("#copy-button-splash");
   const copyButton = document.querySelector("#copy-button");
+  const copyButtonRgb = document.querySelector("#copy-button-rgb");
+
+  let copiesSplash = 0;
+  copyButtonSplash.addEventListener("click", (e) => {
+    const value = numberInput.value;
+    navigator.clipboard.writeText(value);
+    copiesSplash++;
+    copyButtonSplash.textContent = `Copied splash to clipboard`;
+
+    if (copiesSplash > 1) {
+      copyButtonSplash.textContent += ` x${copiesSplash}`;
+    }
+  });
 
   let copies = 0;
   copyButton.addEventListener("click", (e) => {
@@ -3793,6 +3855,28 @@ const SPLASH_TO_HEX = [
       copyButton.textContent += ` x${copies}`;
     }
   });
+
+  let copiesRgb = 0;
+  copyButtonRgb.addEventListener("click", (e) => {
+    const value = numberInput.value;
+    const hex = themeToggle.checked
+      ? getCellpondHexFromSplash(value)
+      : getHexFromSplash(value);
+    const rgb = hexToRgb(hex);
+    navigator.clipboard.writeText(rgb);
+    copiesRgb++;
+    copyButtonRgb.textContent = `Copied RGB to clipboard`;
+
+    if (copiesRgb > 1) {
+      copyButtonRgb.textContent += ` x${copiesRgb}`;
+    }
+  });
+
+  function hexToRgb(hex) {
+    const hexChannels = hex.slice(1).match(/.{1,2}/g);
+    const rgbChannels = hexChannels.map((v) => parseInt(v, 16));
+    return `rgb(${rgbChannels.join(", ")})`;
+  }
 
   // const SPLASH_TO_HEX = [];
   // for (let i = 0; i < 1000; i++) {
