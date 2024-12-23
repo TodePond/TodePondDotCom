@@ -3654,6 +3654,11 @@ const SPLASH_TO_HEX = [
       splash: value,
       theme: themeToggle.checked ? "cellpond" : undefined,
     });
+    if (themeToggle.checked) {
+      numberTarget.classList.add("cellpond-splash");
+    } else {
+      numberTarget.classList.remove("cellpond-splash");
+    }
     numberTarget.textContent = value.toString().padStart(3, "0");
     updateSelects();
     updateRanges();
