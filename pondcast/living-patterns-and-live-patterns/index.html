@@ -1,0 +1,487 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<!-- <blockquote> -->
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<!-- </blockquote> -->
+
+<!-- <input id="paid-checkbox" type="checkbox" /> -->
+<style>
+  /* summary::marker {
+    padding: 0px 10px;
+  } */
+
+  * {
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 2px var(--shade-5); */
+    /* color: transparent !important;
+    text-shadow: none !important; */
+  }
+
+  a * {
+    /* no text shadow */
+    text-shadow: none;
+  }
+  /* closed: ⬇ */
+  /* open: ✰ */
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    /* box-shadow: none; */
+    background-color: black !important;
+    /* color: white !important; */
+    /* border-color: white; */
+    height: 33px;
+    /* box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1); */
+    /* outline: 2px solid white; */
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  summary.highlighted {
+    /* box-shadow: 0 0px 5px white; */
+    /* box-shadow: var(--glow); */
+    /* box-shadow: 2px 2px 4px rgba(6, 7, 10, 0.5); */
+  }
+
+  details[open] summary {
+    /* box-shadow: none; */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--real-rainbow-gradient);
+    color: black;
+    /* border-color: black; */
+    background-size: 700% 900%;
+    /* outline: 1px solid white; */
+    /* outline-offset: -1px; */
+    /* background-clip: border-box; */
+    /* border: none; */
+    /* padding: 10px 5px; */
+    /* box-shadow: none; */
+    /* margin: -4px 1px; */
+    /* border-color: black; */
+    /* border-image-outset: -1px; */
+    /* box-shadow: none; */
+  }
+
+  /* coarse pointer */
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  body {
+    /* min-height: 300%; */
+  }
+
+  summary {
+    /* margin-top: 0px; */
+    /* margin: 2px 0px; */
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  body:has(> details[open]) {
+    /* background: radial-gradient(
+      circle at 15% -15%,
+      var(--best-colour) 0%,
+      rgb(59, 73, 138) 8%,
+      rgb(31, 39, 54) 25%,
+      black 50%
+    ); */
+    /* background-size: 400% 300%; */
+    /* background-opacity: 0.5; */
+    /* background-color: black; */
+  }
+
+  h2 {
+    margin: 10px 0px;
+    /* border: none; */
+    font-size: 1.1em;
+    border: none;
+    /* border-top: white 1px solid; */
+    padding: 10px 0px;
+    /* font-weight: normal; */
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    /* background-color: rgba(14, 16, 22, 0.9); */
+    /* outline: 1px solid white; */
+    /* border: 4px solid rgba(159, 174, 238, 0.1); */
+    /* box-shadow: 2px 2px 0px rgba(159, 174, 238, 0.08); */
+    /* box-shadow: 0px 0px 20px rgba(159, 174, 238, 0.05); */
+    /* backdrop-filter: brightness(60%); */
+  }
+
+  img {
+    /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<!-- <div
+  id="cover"
+  style="
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
+
+    /* backdrop-filter: brightness(60%) contrast(90%); */
+    /* background-color: red; */
+    background-color: rgb(31, 39, 54);
+    /* background-color: var(--best-colour); */
+    /* margin-left: -100%; */
+    /* margin-bottom: -20px; */
+    /* margin-top: -26px; */
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: -100;
+    /* position: fixed; */
+    /* height: 40px; */
+    /* padding: 0px 200%; */
+    /* margin: 0px; */
+  "
+></div> -->
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+      // summary.boxShadow = "none";
+      // summary.classList.remove("highlighted");
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+        // summary.boxShadow = "none";
+        // summary.classList.remove("highlighted");
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+        // summary.classList.add("highlighted");
+      }
+    });
+  </script>
+
+  <!-- <hr
+    style="
+      /* margin-top: -3px; */
+      padding: 0px 200%;
+      margin-left: -100%;
+      overflow: hidden;
+      /* box-shadow: 0 0px 40px var(--best-colour); */
+      margin-bottom: 0px;
+      margin-top: 20px;
+      /* background-color: var(--best-colour); */
+      /* background-color: transparent; */
+    "
+  /> -->
+  <hr
+    style="
+      /* margin-bottom: 10px; */
+      margin-top: 18px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      /* outline: 2px solid rgba(159, 174, 238, 0.1); */
+      /* background-color: var(--best-colour); */
+    " />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.m4a" type="audio/x-m4a" />
+  </audio>
+  <h1
+    style="
+      margin-bottom: 10px;
+      margin-top: 30px;
+      /* margin-top: 35px; */
+      /* background-color: white; */
+      /* color: black; */
+      /* text-shadow: 2px 2px 2px var(--shade-5); */
+      /* background-color: rgb(31, 39, 54); */
+      /* margin-top: 60px; */
+      /* padding-top: 40px; */
+      /* padding-right: 100%; */
+      /* padding-left: 100%; */
+      /* margin-left: -100%; */
+      overflow: hidden;
+      /* color: black; */
+    ">
+    TODEPOND PONDCAST: Past
+  </h1>
+
+  <p>
+    Well then! It&#39;s time for another weekly— No, they&#39;re really not
+    weekly, are they. They haven&#39;t been weekly for a while. It really is
+    because of how busy I&#39;ve been. First I was in Belgium, then I was in
+    Berlin, then I was in Los Angeles, and last week... Last week I was at a
+    wedding. So here we are with another non-weekly episode of the...
+  </p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>
+    I&#39;m tradition, it&#39;ll be double length, to make sure we keep the
+    streak going.
+  </p>
+  <p>What&#39;s new?</p>
+  <img src="1.png" />
+  <h2 id="living-patterns">Living patterns</h2>
+  <p>
+    Great news! My submission to
+    <a href="https://iclc.toplap.org/2025/">ICLC</a> got accepted!
+  </p>
+  <p>
+    I told you about it
+    <a href="https://www.todepond.com/pondcast/past-and-present-and-future/"
+      >last time</a
+    >, but I submitted a workshop to a live coding conference in Barcelona and I
+    got accepted. And of course, I&#39;m really pleased.
+  </p>
+  <p>
+    One reviewer gave me a score of 30, which means a &quot;strong
+    acceptance&quot;, and the other one gave me a score of 20, which means an
+    &quot;acceptance&quot;, but not a strong one or weak one, just a normal one.
+    I have no idea what the maximum score is. If it&#39;s one hundred, that
+    would be really bad, so it&#39;s probably not.
+  </p>
+  <p>
+    Anyway, yes, I&#39;m relieved that the reviewers seemed to &#39;get it&#39;,
+    and also daunted that I now need to prepare a workshop. The submission
+    itself needed to be quite detailed, so I&#39;ve prepared quite a lot
+    already. So... the workshop is ready, but I am not, so I better get
+    cracking.
+  </p>
+  <img src="2.png" />
+  <h2 id="natural-code">Natural code</h2>
+  <p>
+    Speaking of submissions, the
+    <a href="https://2024.splashcon.org/">SPLASH</a> programming conference has
+    now officially ended.
+  </p>
+  <p>
+    Unfortunately, this means that our paper,
+    <a href="https://dl.acm.org/doi/10.1145/3689492.3689807"
+      >Dialogues on natural code</a
+    >
+    has now stopped being freely available. You now have to pay money to access
+    it. And none of that money goes to me or my co-author,
+    <a href="https://www.cs.unm.edu/~ackley/">Dave Ackley</a>. Quite the
+    opposite! We had to pay large amounts of money ourselves, just for this
+    thing to be sold by and for someone else. It&#39;s utterly ridiculous.
+  </p>
+  <p>
+    I&#39;m allowed to post up a pre-print of the paper on my personal website,
+    and I will be doing that. But I think I&#39;d like to create a bit of
+    interest in the paper, and kind of... raise awareness of the fact that so
+    much science is hidden behind paywalls for the vast majority of the
+    world&#39;s population.
+  </p>
+  <p>
+    Regardless of all this, I&#39;m still very pleased that I did write this
+    paper with Dave. It was a great experience on the whole and I learned
+    bucketloads. But that doesn&#39;t mean there aren&#39;t aspects worth
+    criticising!
+  </p>
+  <p>Anyway... I&#39;ll have a think.</p>
+  <img src="3.png" />
+  <h2 id="logiverse">Logiverse</h2>
+  <p>
+    Here&#39;s an update from the
+    <a href="https://www.todepond.com/explore/tadi-web/">tadi web</a>.
+  </p>
+  <p>
+    A while ago, I made a little microblogging experiment called
+    <a href="/lab/login">Login</a> to practise some skills. It&#39;s a mini
+    clone of something like bluesky or mastodon but much much worse.
+  </p>
+  <p>
+    The fun part of being part of the tadi web is that it&#39;s really easy for
+    other people to build stuff with it or on top of it too. And that&#39;s what
+    happened.
+  </p>
+  <p>
+    Many other community members have built their own versions of the Login
+    site, and all of these different sites are now talking to each other. This
+    means you can post on one site, and it&#39;ll appear on all the others. It
+    shares the load of power across the network. It&#39;s a distributed system.
+  </p>
+  <p>
+    There are also various custom clients, like one called
+    <a href="https://tristie.org/logarithm/">Logarithm</a> that lets you log in
+    to any other site. And some people have made clients that let them [post
+    from the command line] on their computer. And there&#39;s even an [iPhone
+    app]!
+  </p>
+  <p>
+    Together, all of these different things make up the
+    <a href="https://logiverse.social">Logiverse</a> so I made a little
+    <a href="https://logiverse.social">signpost website</a> to help to introduce
+    it to people.
+  </p>
+  <p>
+    Interest in Login seems to fluctuate, with each wave getting more exciting
+    than the last, so I&#39;m looking forward to what happens next. It
+    definitely feels like the next chapter of my
+    <a href="/explore/tadi-web">tadi web</a> work.
+  </p>
+  <p><br /></p>
+  <p><em>And now... part two...</em></p>
+  <h1 id="todepond-pondcast-live-patterns">TODEPOND PONDCAST: Live patterns</h1>
+  <p>What else is new?</p>
+  <img src="4.png" />
+  <h2 id="pasta-gang">Pasta gang</h2>
+  <p>
+    I have continued participating in &quot;pastagang&quot;, the collaborative
+    music making that I introduced
+    <a href="https://www.todepond.com/pondcast/past-and-present-and-future/"
+      >last time</a
+    >.
+  </p>
+  <p>
+    Many sessions have been recorded and uploaded to this
+    <a
+      href="https://youtube.com/playlist?list=PL9uRa69RF-7wOS5CnK0wy34t5HYgFLIng&amp;si=dLsVggmRa92PXfUS"
+      >youtube playlist</a
+    >. You can see us get better (and worse) over time.
+  </p>
+  <p>
+    <a href="https://midirus.com/">Tristan de Cacqueray</a> has started
+    <a href="https://midirus.com/project/pastagang">editing and remixing</a> the
+    improvised tracks that we end up making.
+  </p>
+  <p>
+    And a couple of pastagang participants (<a href="https://guedelhoefer.dev/"
+      >Hannes Güdelhöfer</a
+    >
+    and <a href="https://veralin.dk/">Anders Kaare</a>) have submitted
+    <a href="https://github.com/munshkr/flok/pull/300">improvements</a> to
+    <a href="https://flok.cc">flok</a>, the collaboration tool that we use, made
+    by <a href="https://social.toplap.org/@munshkr">Damián Silvani</a>. And
+    great news!
+    <a href="https://github.com/munshkr/flok/pull/301">One of them</a> has been
+    accepted and merged
+  </p>
+  <p>
+    I&#39;ve also started a very long
+    <a
+      href="https://www.todepond.com/wikiblogarden/learn/pastagang/accident/arroost/"
+      >write-up</a
+    >
+    of my pastagang experience so far. I&#39;m writing and releasing it bit by
+    bit.
+  </p>
+  <img src="5.png" />
+  <h2 id="london-live-coding">London live coding</h2>
+  <p>
+    I finally managed to attend a London live coding meetup this week! And of
+    course, I showed <a href="/explore/arroost">Arroost</a> to some people
+    there. But I also showed them pastagang and the
+    <a
+      href="https://www.youtube.com/playlist?list=PL9uRa69RF-7wOS5CnK0wy34t5HYgFLIng"
+      >collaborations</a
+    >
+    we&#39;ve been doing.
+  </p>
+  <p>
+    And I invited everyone to join in and jump into the collaborative
+    environment with their laptops. And it was mad! I&#39;ve never seen so many
+    people editing one visual / one sound all together at the same time. There
+    were a bunch of people who joined remotely too.
+  </p>
+  <p>
+    It was pure chaos and carnage, and we crashed the thing a few times by
+    accident, but it was very exciting too. I&#39;ve never done anything like
+    that before.
+  </p>
+  <p>
+    One day later, a Slovenian live coding meetup did the same thing! Except,
+    this time, I was one of the remote participants. It was mad fun. They went
+    so intense.
+  </p>
+  <p>
+    I think there&#39;s something special about these moments of long distance
+    collaboration. I don&#39;t yet know what it really is but it feels like
+    stars aligning! I&#39;m going to investigate further.
+  </p>
+  <img src="6.png" />
+  <h2 id="there-s-no-one-else-left">There&#39;s no one else left</h2>
+  <p>I should give you a little update about the future.</p>
+  <p>
+    People are still waiting for me to do Torn Leaf Zero, the first exhibition
+    of <a href="https://tornleaf.gallery/">Torn Leaf</a>, and I&#39;m working on
+    it! At some point, I&#39;m going to contact all entrants to give them an
+    update. I know how to do it justice, and I&#39;m working on it.
+  </p>
+  <p>
+    And I&#39;m still working on the next video, Top 99 Ways To Make Sand.
+    I&#39;m still working towards a trailer, and I&#39;ve been iterating on the
+    pacing of that.
+  </p>
+  <p>
+    <a href="https://floracaulton.com/">Flora</a>&#39;s been working on some
+    animation for it, and you might get a sneak peak if you follow her on her
+    <a href="https://bsky.app/profile/floramus.bsky.social">bluesky</a> or
+    <a href="https://www.instagram.com/floramus/">instagram</a>.
+  </p>
+  <p>
+    <strong
+      >Right, that&#39;s it! Thank you for listening along and thank you for
+      being here. And THANK YOU for all your support. I can&#39;t do all this
+      without you so, yeah, thank you. Wherever you are in the world........
+      Whatever you&#39;re doing.... I hope you have a great week.</strong
+    >
+  </p>
+
+  <em>Days since tode fell asleep: 674</em><br />
+  <em>Days since bot went missing: 639</em><br />
+  <em>Days since berd flew away: 302</em>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
+</details>
