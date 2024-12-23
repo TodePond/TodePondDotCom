@@ -14,11 +14,19 @@
 
 <link rel="stylesheet" href="/style.css" />
 
-<p>
-  Days since tode fell asleep: <span id="days-tode"></span><br />
-  Days since bot went missing: <span id="days-bot"></span><br />
-  Days since berd flew away: <span id="days-berd"></span><br />
-</p>
+<!-- prettier-ignore -->
+<main><em>Days since tode fell asleep: <span id="days-tode"></span></em>
+<br />
+<em>Days since bot went missing: <span id="days-bot"></span></em>
+<br />
+<em>Days since berd flew away: <span id="days-berd"></span></em>
+</main>
+
+<br />
+
+<pre></pre>
+
+<button>Copy to clipboard</button>
 
 <script type="module">
   // 5th january 2023
@@ -41,7 +49,24 @@
     daysTode.textContent = diffTode;
     daysBot.textContent = diffBot;
     daysBerd.textContent = diffBerd;
+    updatePre();
   }
 
+  function updatePre() {
+    const articleSource = document.querySelector("main").innerHTML;
+    document.querySelector("pre").textContent = articleSource;
+  }
   updateDays();
+
+  let copies = 0;
+  document.querySelector("button").addEventListener("click", () => {
+    navigator.clipboard.writeText(document.querySelector("pre").textContent);
+    copies++;
+    document.querySelector("button").textContent = `Copied to clipboard!`;
+    if (copies > 1) {
+      document.querySelector(
+        "button"
+      ).textContent = `Copied to clipboard! x${copies}`;
+    }
+  });
 </script>
