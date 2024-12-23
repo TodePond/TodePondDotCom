@@ -3665,6 +3665,9 @@ const SPLASH_TO_HEX = [
     hexOutput.textContent = themeToggle.checked
       ? getCellpondHexFromSplash(value)
       : getHexFromSplash(value);
+
+    const splashRange = document.querySelector("#splash-range");
+    splashRange.value = value;
   }
 
   function updateFromRanges() {
