@@ -81,7 +81,14 @@ const createScreen = (patrons) => {
 const createPond = (patrons) => {
   if (patrons.length === 0) return;
   for (const [i, patron] of patrons.entries()) {
-    const { flipped, x, y } = froggyPositions[i];
+    const froggyPosition = froggyPositions[i];
+    if (!froggyPosition) {
+      alert(
+        "Not enough froggy positions!!! The pond is overflowing!!! 🐸🐸🐸!!! Please let @TodePond know :)"
+      );
+      break;
+    }
+    const { flipped, x, y } = froggyPosition;
     createEntity(
       `Colours/Froggy${COLOUR_MAP[patron.flavour]}${flipped ? "Flip" : ""}.png`,
       {
