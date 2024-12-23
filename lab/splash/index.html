@@ -3539,9 +3539,9 @@ rgb(255, 255, 255)</pre
 </hgroup>
 
 <hgroup>
-  <button id="copy-button-splash">Copy splash to clipboard</button>
-  <button id="copy-button">Copy hex to clipboard</button>
-  <button id="copy-button-rgb">Copy RGB to clipboard</button>
+  <button id="copy-button-splash">Copy splash</button>
+  <button id="copy-button">Copy hex</button>
+  <button id="copy-button-rgb">Copy RGB</button>
 </hgroup>
 
 <br />
@@ -3834,7 +3834,7 @@ rgb(255, 255, 255)</pre
     const value = numberInput.value;
     navigator.clipboard.writeText(value);
     copiesSplash++;
-    copyButtonSplash.textContent = `Copied splash to clipboard`;
+    copyButtonSplash.textContent = `Copied splash`;
 
     if (copiesSplash > 1) {
       copyButtonSplash.textContent += ` x${copiesSplash}`;
@@ -3849,7 +3849,7 @@ rgb(255, 255, 255)</pre
       : getHexFromSplash(value);
     navigator.clipboard.writeText(hex);
     copies++;
-    copyButton.textContent = `Copied hex to clipboard`;
+    copyButton.textContent = `Copied hex`;
 
     if (copies > 1) {
       copyButton.textContent += ` x${copies}`;
@@ -3865,7 +3865,7 @@ rgb(255, 255, 255)</pre
     const rgb = hexToRgb(hex);
     navigator.clipboard.writeText(rgb);
     copiesRgb++;
-    copyButtonRgb.textContent = `Copied RGB to clipboard`;
+    copyButtonRgb.textContent = `Copied RGB`;
 
     if (copiesRgb > 1) {
       copyButtonRgb.textContent += ` x${copiesRgb}`;
