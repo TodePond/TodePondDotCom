@@ -4,7 +4,7 @@ I wrote a thingy about ideas, called [No more ideas in the world](https://www.to
 
 [Jonas-Merlin Schumacher](https://www.jonasmerl.in/) wrote a response to it, called [What I think ideas are for](https://www.jonasmerl.in/blog/what-i-think-ideas-are-for).
 
-And this is my response to that response, called [How change happens](https://www.todepond.com/wikiblogardenite/no/more/ideas/in/the/world/response). It is my response response.
+And this is my response to that response, called [How change happens](https://www.todepond.com/wikiblogardenite/no/how/change/happens). It is my response response.
 
 <br>
 
