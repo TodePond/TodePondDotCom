@@ -143,11 +143,11 @@ Yes, the best way to implement or improve an idea might be to let it go / let so
 
 We can say the same thing for other people's ideas. Someone else's idea might need help from **you**. You don't need to create your own idea to be helpful. You can support someone else's.
 
-This is what I am trying to do nowadays. I'm trying to avoid making my own new flashy ideas, and instead getting involved with other people's. Hey, yesterday I did some boring maintenance of someone else's tool, not my own. It was very rewarding! You should try it. 
+This is what I am trying to do nowadays. I am trying to avoid making my own new flashy ideas, and instead getting involved with other people's. Hey, yesterday I did some boring maintenance of someone else's tool, not my own. It was very rewarding! You should try it. 
 
-My belief is that this is what all researchers, developers, experimenters, tinkerers, builders, speakers, leaders should do. They should work with other people's things, not their own. I'm currently testing that belief by **doing it**.
+My belief is that this is what all researchers, developers, experimenters, tinkerers, builders, speakers, leaders, artists should do. They should work with other people's things, not their own. I'm currently testing that belief by **doing it**.
 
-I am trying to get better at [building community](https://www.todepond.com/wikiblogarden/blending/goals/community/), or more accurately, [making space](https://post.lurk.org/@yaxu/112586629282774766) for community to grow.
+Yes, I am trying to get better at [building community](https://www.todepond.com/wikiblogarden/blending/goals/community/), or more accurately, [making space](https://post.lurk.org/@yaxu/112586629282774766) for community to grow.
 
 ## No more ideas is hard
 
