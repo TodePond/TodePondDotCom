@@ -147,6 +147,8 @@ This is what I am trying to do nowadays. I'm trying to avoid making my own new f
 
 My belief is that this is what all researchers, developers, experimenters, tinkerers, builders, speakers, leaders should do. They should work with other people's things, not their own. I'm currently testing that belief by **doing it**.
 
+I am trying to get better at [building community](https://www.todepond.com/wikiblogarden/blending/goals/community/), or more accurately, [making space](https://post.lurk.org/@yaxu/112586629282774766) for community to grow.
+
 ## No more ideas is hard
 
 It's very tricky to avoid having new ideas. It's very tempting to drop what you're doing and start something new. This is why I made a mantra: So that I can tell it to myself in moments of temptation. 
