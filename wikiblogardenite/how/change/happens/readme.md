@@ -151,7 +151,7 @@ Yes, I am trying to get better at [building community](https://www.todepond.com/
 
 ## No more ideas is hard
 
-It's very tricky to avoid having new ideas. It's very tempting to drop what you're doing and start something new. This is why I made a mantra: So that I can tell it to myself in moments of temptation. 
+It's very tricky to avoid having new ideas. It's very tempting to drop what you're doing and start something new. This is why I made a mantra for myself: So that I can tell it to myself in moments of temptation. 
 
 When I start to fantasize about a shiny new thing I could make, I tell myself "NO".
 
@@ -164,7 +164,7 @@ And then I get back to work.
 
 The mantra does not try to be "correct" or "right" or "accurate". I don't care about being right. I don't care if it's wrong. 
 
-The only purpose of the mantra is to influence myself / to help me stop making new ideas, and stay focused. 
+The only purpose of the mantra is to influence myself / to help me stop making new ideas, and stay focused. So it needs to be convincing and it needs to have impact.
 
 If the mantra works as intended, then it's a good mantra.
 
