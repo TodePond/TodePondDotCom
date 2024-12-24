@@ -42,7 +42,7 @@ The response is also correct about what some of my goals are, I guess?
 
 > And judging from passages like "We think the only way to change the world is to bring new ideas and tools into it and take over everything and then 'technology our way out' of any problems we have", I think that it's safe to say that this is still Wilson's ultimate goal: to see change implemented in the world. 
 
-Yes, I suppose I would like "change" to happen in the world, in a way. But, the funny thing—
+Yes, I suppose I would like "change" to happen in the world, in a way. But, the funny thing is—
 
 If you read my [wikiblogardenite](/wikiblogardenite) often, you might be able to guess what kind of change I would like to see. For example, I would like to be able to use the [loo without fear](https://www.todepond.com/wikiblogarden/health/loo-lu/end/) and to get my [arthritis medicine without too much trouble](https://www.todepond.com/wikiblogarden/health/sulfasalazine/two). Yes, this is the kind of change I would like to see implemented in the world.
 
