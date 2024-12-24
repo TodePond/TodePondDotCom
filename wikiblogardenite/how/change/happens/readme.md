@@ -175,6 +175,7 @@ Oh dear this response response got longer than I hoped for. We've run out of tim
 - The working definition you "pulled out of [your] ass" is wrong. 
 - "Utopian thought" is fascist and cringe.
 
+<br>
 
 Back to the [wikiblogardenite](/wikiblogardenite).
 
