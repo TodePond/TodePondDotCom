@@ -24,7 +24,7 @@ First I'll do the meta thing and say Jonas-Merlin's response is good and I am th
 
 ## The summary
 
-I almost completely agree with Jonas-Merlin, but there are two things I strongly disagree issue with. Let's go through it all either way.
+I almost completely agree with Jonas-Merlin, but there are two things I strongly disagree with. Let's go through it all either way.
 
 <br>
 
