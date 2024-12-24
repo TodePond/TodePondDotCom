@@ -86,13 +86,15 @@ Now we get to the part of the response where the author thinks they disagree wit
 > 
 > This might help you see your own ideas already at work in the existing tools, or it might help you to better imagine how things could be. Why they are the way they are and not the way they aren't. It might lead you to realise that additive solutions aren't always the way, and that increasing complexity might be a bad idea. That subtracting from things might actually mean subtracting yourself from them. That the context in which ideas were formed matters and that they will always carry a bit of that context with them. Having ideas and building tools keeps your ego in check. It's also the best and fastest way to kill your ideas. And to be truly ready to work on other's. 
 
-Yes, "implementing your idea is the fastest way to kill it" is something I've [said before](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/).
+Yes, "implementing your idea is the fastest way to kill it" is something I've [I agree with](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/).
 
 "Nothing kills an idea quicker than putting it into practice. If your idea is truly worth keeping, then it will be hard to kill."
 
-And Jonas-Merlin is right that ideas are **good**.
+<br>
 
-And you might be surprised to hear that I think ideas are **good** and that's probably because— This always happens. 
+And I agree with Jonas-Merlin Schumacher that ideas are **good**.
+
+And you might be surprised to hear that I think that ideas are **good** and that's okay because this always happens. 
 
 ## Normalise sharing scrappy fiddles
 
@@ -131,7 +133,9 @@ So yes, I agree that ideas are not the problem. It's people. People are always t
 
 ## Make space
 
-I particularly like this sentence. 
+I particularly like these points. 
+
+> Ideas [...] are destined to fail if they are built by people who [...] have their ego wrapped up in it, instead of being ready to dissolve themselves in a true sense of community.
 
 > Subtracting from things might actually mean subtracting yourself from them.
 
