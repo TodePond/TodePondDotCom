@@ -62,7 +62,7 @@ The paper isn't freely accessible right now because academia is stupid.
 
 ## Modernism sucks
 
-I'm glad the responses identifies the [anti-modernist](https://www.todepond.com/wikiblogarden/meta/narrative/modernism/) undertones behind "no more ideas".
+I'm glad the response identifies the [anti-modernist](https://www.todepond.com/wikiblogarden/meta/narrative/modernism/) undertones behind "no more ideas".
 
 > The post posits that just maybe, more of what we already have isn't the solution to a problem brought about by what we already have. More technology isn't a valid solution to the problems caused by technology. Less is. But the ideas we get from the dominant communities in tech are about replacing the ones that came before with new ones, about expanding totally and ultimately replacing what is already there, a totality which itself is at the core of both the old and new ideas. So maybe the solution is to instead merge with what is already there in a way that improves it. 
 
