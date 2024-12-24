@@ -112,7 +112,7 @@ The mantra is:
 
 NORMALISE SHARING SCRAPPY FIDDLES. 
 
-So I wrote up a [clarification](https://www.todepond.com/sky/normalise-dont-share-lol) for that but still people ignore me, even most strong supporters of the phrase. 
+So I wrote up a [clarification](https://www.todepond.com/sky/normalise-dont-share-lol) for that but still people ignore me, even the strongest supporters of the phrase. 
 
 "Normalise sharing scrappy fiddles" is a very buggy piece of code. It gets misinterpreted by most people who hear it, and it doesn't run as intended. 
 
