@@ -50,5 +50,13 @@ export const config = {
     //   name: "rossilaz.xyz",
     //   feed: "https://mittzy-loginredux_getusers.web.val.run",
     // },
+    {
+      name: "logivert.pages.dev",
+      feed: "https://api-logivert.elouan-grimm-5a5.workers.dev/logiverse/logs",
+      // update: 'https://api-logivert.elouan-grimm-5a5.workers.dev/logiverse/update',
+      // login: 'https://api-logivert.elouan-grimm-5a5.workers.dev/logiverse/login',
+      // delete: 'https://api-logivert.elouan-grimm-5a5.workers.dev/logiverse/delete',
+      // ban: 'https://api-logivert.elouan-grimm-5a5.workers.dev/logiverse/ban',
+    },
   ],
 };
