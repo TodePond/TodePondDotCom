@@ -13,6 +13,9 @@
 <meta name="twitter:image" content="https://todepond.com/lab/og.png" />
 
 <link rel="stylesheet" href="/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/matan-h/splash-css@master/dist/styles.css" />
 
 <style>
   body {
@@ -3223,10 +3226,11 @@
 </p>
 
 <p>
-  This is a strategy I developed / used for <a href="/explore/cellpond">Cellpond</a>.
-  It's part of why it runs so fast. It also means the user can deal with
-  discrete / individual colour values in the drag-and-drop user interface. They
-  don't have to deal with large numbers at all. Only one to nine.
+  This is a strategy I developed / used for
+  <a href="/explore/cellpond">Cellpond</a>. It's part of why it runs so fast. It
+  also means the user can deal with discrete / individual colour values in the
+  drag-and-drop user interface. They don't have to deal with large numbers at
+  all. Only one to nine.
 </p>
 
 <br />
@@ -3579,13 +3583,191 @@ rgb(255, 255, 255)</pre
 
 <br />
 <br />
+<h2>Update!</h2>
+
+<p>
+  <a href="https://matan-h.com/">Matan</a> made an
+  <a href="https://fosstodon.org/@matan_h/113704557807674284"
+    >SCSS function that implements splash</a
+  >.
+</p>
+
+<pre>
+@function splash($r, $g, $b) {
+  // 255/9 ≈ 28.34
+  @return rgb($r * 28.34, $g * 28.34, $b * 28.34);
+}
+</pre>
+
+<p>It lets you specify any splash colour.</p>
+
+<pre>
+.foo {
+  background-color: splash(0, 0, 9)
+}
+</pre>
+
+<p>
+  They also made a
+  <a href="https://github.com/matan-h/splash-css">static CSS file</a> that you
+  can use. Get it from
+  <a href="https://github.com/matan-h/splash-css">their repo</a>, or use it now
+  by linking it in your head.
+</p>
+
+<pre>
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/matan-h/splash-css@master/dist/styles.css">
+</pre>
+
+<p>It comes pre-baked with all the splash colours.</p>
+
+<pre>
+&lt;span style="background-color: var(--sp090)">090&lt;/span>
+</pre>
+
+<p>
+  It's powering this one:
+  <span class="splash-stagnant" style="background-color: var(--sp090)">
+    090
+  </span>
+</p>
+
+<br />
+
+<style>
+  /* CSS Implementation of https://www.todepond.com/lab/splash/ */
+  /* A mixin prototype, see https://kizu.dev/indirect-cyclic-conditions/ for how this works */
+  @layer splash {
+    * {
+      /* Our input, with a list of “dependencies” */
+      --splash-bg: var(--_splash-bg-value) var(--_splash-shadow)
+        var(--_splash-color);
+
+      /* Extracting the color components from the input */
+      --_splash_r: round(down, var(--splash-bg) / 100, 1);
+      --_splash_g: round(
+        down,
+        (var(--splash-bg) - var(--_splash_r) * 100) / 10,
+        1
+      );
+      --_splash_b: calc(
+        var(--splash-bg) - var(--_splash_r) * 100 - var(--_splash_g) * 10
+      );
+
+      /* Normalizing the values to regular rgb: any changes and adjustements can go here */
+      --_rgb_r: calc(var(--_splash_r) * 255 / 9);
+      --_rgb_g: calc(var(--_splash_g) * 255 / 9);
+      --_rgb_b: calc(var(--_splash_b) * 255 / 9);
+
+      /* Assigning the actual value for the background color. */
+      --_splash-bg-value: rgb(var(--_rgb_r), var(--_rgb_g), var(--_rgb_b));
+      background: var(--_splash-bg-value, revert-layer);
+
+      /* By default, adding a text-shadow (might be overridden later) */
+      --_splash-shadow: Canvas 1px 1px 0px, Canvas -1px -1px 0px,
+        Canvas 1px -1px 0px,
+        Canvas -1px 1px 0px var(--WHEN, var(--_splash-bg-value));
+      text-shadow: var(--_splash-shadow, revert-layer);
+
+      /* If the browser supports relative colors, use them to assign a color instead of a shadow */
+      /* See https://lea.verou.me/blog/2024/contrast-color/ for more details */
+      @supports (color: oklch(from red l c h)) {
+        --l: clamp(0, (l / var(--l-threshold, 0.71) - 1) * -infinity, 1);
+        --_splash-color: oklch(from var(--_splash-bg-value) var(--l) 0 h)
+          var(--WHEN, var(--splash-bg));
+        color: var(--_splash-color, revert-layer);
+        text-shadow: revert-layer;
+      }
+    }
+  }
+
+  :root {
+    /* Required for indirect cyclic conditions */
+    --WHEN: ;
+
+    color-scheme: light dark;
+  }
+
+  .test {
+    padding: 0.2em 0.4em;
+    font: bold 1.3em/1.8 Helvetica, sans-serif;
+
+    &::after {
+      content: attr(style);
+    }
+  }
+
+  code {
+    --splash-bg: 909;
+  }
+
+  em {
+    --splash-bg: 099;
+  }
+</style>
+
+<h2>Another update!</h2>
+
+<p>
+  <a href="https://kizu.dev/">Roman Komarov</a> implemented splash using CSS
+  mixins.
+</p>
+
+<ul>
+  <li>
+    Read their
+    <a href="https://blog.kizu.dev/splash-colour-mixin/">blog post</a> about it.
+  </li>
+  <li>
+    Try it out in their
+    <a href="https://codepen.io/kizu/pen/yyBoyev">sandbox</a>.
+  </li>
+</ul>
+
+<p>It lets you specify colours using mixins.</p>
+
+<pre>
+&lt;span style="--splash-bg: 971">971&lt;/span>
+</pre>
+
+<p>
+  It's powering this one:
+  <span class="splash-stagnant" style="--splash-bg: 971">971</span>
+</p>
+
+<p>And I was pleased to read how easy it was.</p>
+
+<blockquote>
+  A format being just a three-digit number makes it straightforward to work
+  with. If it had any letters in it, it would be much harder to work with in
+  CSS!
+</blockquote>
+
+<br />
+<br />
+<br />
+
+<h2>More updates?</h2>
+
+<p>
+  If you make something splash-related, let me know and I'll be delighted to add
+  it here :)
+</p>
+
+<br />
+<br />
+<br />
+
+<br />
+<br />
+
+<br />
 
 <p>back to the <a href="/wikiblogardenite/">wikiblogardenite</a></p>
 <br />
 <br />
 <br />
-<br />
-<br />
+
 <br />
 
 <style>
@@ -3603,6 +3785,7 @@ rgb(255, 255, 255)</pre
 
   .splash,
   .splash-override,
+  .splash-stagnant,
   .cellpond-splash {
     line-height: 1.8;
     font-size: 1.3rem;
