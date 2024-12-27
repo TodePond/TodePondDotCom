@@ -2,8 +2,6 @@
 
 <br>
 
-<br>
-
 We can think of the world as being people and culture, communities crossing over.
 
 We can think of the world as market forces.
