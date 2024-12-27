@@ -1,6 +1,6 @@
 # The unimportance of being right
 
-We can think of the world as being people and culture, communities crossing over.\
+We can think of the world as people and culture, communities crossing over.\
 We can think of the world as market forces.\
 We can think of the world as atoms and molecules and quarks and laws and the what-not of whatever it is we all are.
 
