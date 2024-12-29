@@ -46,6 +46,10 @@ export const config = {
       feed: "https://evol-lablogingetusers.web.val.run",
       // update: "https://evol-labloginupdatestatus.web.val.run",
     },
+    {
+      name: "blag.slonk.ing",
+      feed: "https://blag.slonk.ing/posts/blogin?action=posts",
+    },
     // {
     //   name: "rossilaz.xyz",
     //   feed: "https://mittzy-loginredux_getusers.web.val.run",
