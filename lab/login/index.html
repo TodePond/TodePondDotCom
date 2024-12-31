@@ -109,12 +109,14 @@
     submitButton.textContent = "Logging in...";
 
     loadingFeed.style.display = "block";
-    const response = await fetch(config.endpoints.login, {
-      method: "POST",
-      body: JSON.stringify({ username, password }),
-    });
+    const json = await fetch(config.endpoints.login, {
+            signal: AbortSignal.timeout(5000),
+            method: 'POST',
+            body: JSON.stringify({ username, password }),
+        })
+            .then((res) => res.json())
+            .catch(() => ({ error: 'Failed to connect to the server' }));
 
-    const json = await response.json();
 
     if (json.error) {
       submitButton.disabled = false;
