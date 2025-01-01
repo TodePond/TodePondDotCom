@@ -8,10 +8,11 @@
 - [x] children lose access to private medical transition. UPDATE: ticked off on 29th May 2024[^june]
 - [x] children accessing care through private medical services forced to de-transition. UPDATE: ticked off on 29th May 2024[^june]
 - [x] incoming prime minister states that trans women must not use the women's loos. UPDATE: ticked off on 2nd July 2024[^loo]
-- [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 12th July 2024[^july]
+- [x] forced de-transition of trans children planned to be made permanent. UPDATE: ticked off on 12th July 2024[^july]
 - [x] forced de-transition of trans children classed as legal by courts. UPDATE: ticked off on 29th July 2024[^legal]
 - [x] national health service's review into trans children's care widely discredited as politically biased. UPDATE: ongoing. first ticket off on 14th March 2024. last ticked off on 7th August 2024[^amer][^bm][^ruth]
 - [x] national health service plans to review trans adults care. UPDATE: ticked off on 7th August 2024[^adult]
+- [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 13th December 2024[^dec]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
@@ -27,6 +28,7 @@
 [^bm]: [BMA to undertake an evaluation of the Cass Review on gender identity services for children and young people](https://www.bma.org.uk/bma-media-centre/bma-to-undertake-an-evaluation-of-the-cass-review-on-gender-identity-services-for-children-and-young-people)
 [^ruth]: [What’s wrong with the Cass Review? A round-up of commentary and evidence](https://ruthpearce.net/2024/04/16/whats-wrong-with-the-cass-review-a-round-up-of-commentary-and-evidence/)
 [^adult]: [Review of adult gender dysphoria services](https://www.england.nhs.uk/commissioning/spec-services/npc-crg/gender-dysphoria-clinical-programme/review-of-adult-gender-dysphoria-services/)
+[^dec]: [Ban on puberty blockers to be made indefinite on experts’ advice](https://www.gov.uk/government/news/ban-on-puberty-blockers-to-be-made-indefinite-on-experts-advice)
 
 <br>
 

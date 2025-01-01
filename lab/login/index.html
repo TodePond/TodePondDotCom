@@ -109,12 +109,14 @@
     submitButton.textContent = "Logging in...";
 
     loadingFeed.style.display = "block";
-    const response = await fetch(config.endpoints.login, {
-      method: "POST",
-      body: JSON.stringify({ username, password }),
-    });
+    const json = await fetch(config.endpoints.login, {
+            signal: AbortSignal.timeout(5000),
+            method: 'POST',
+            body: JSON.stringify({ username, password }),
+        })
+            .then((res) => res.json())
+            .catch(() => ({ error: 'Failed to connect to the server' }));
 
-    const json = await response.json();
 
     if (json.error) {
       submitButton.disabled = false;
@@ -158,6 +160,9 @@
                   <button id="delete-account" class="danger">Delete account</button>
                   <!-- new Change Password button -->
                   <button id="change-password" class="secondary">Change Password</button>
+                    <button id="mcplant">Eat McPlant</button>
+                    <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
+                    <button id="delete-account" class="danger">Delete account</butto
                 </span>
       `;
 
@@ -205,6 +210,10 @@
         });
       }
       // }
+      const mcplantButton = document.querySelector("#mcplant");
+      mcplantButton.addEventListener("click", () => {
+        alert("You eat a McPlant. Yum! You regain 10 HP.");
+      });
       const deleteAccountButton = document.querySelector("#delete-account");
       deleteAccountButton.addEventListener("click", async () => {
         const confirmDelete = confirm(
@@ -359,12 +368,19 @@
 
     const entries = [];
     const instances = await Promise.all(
-      config.instances.map(({ feed, name }) =>
-        fetch(feed)
-          .then((res) => res.json())
-          .then((feed) => ({ name, feed }))
-      )
-    );
+            config.instances.map(({ feed, name }) => {
+                const controller = new AbortController();
+                const timeout = setTimeout(() => controller.abort(), 5000);
+
+                return fetch(feed, { signal: controller.signal })
+                    .then((res) => res.json())
+                    .then((feed) => {
+                        clearTimeout(timeout);
+                        return { name, feed };
+                    })
+                    .catch(() => ({ name, feed: [] })); // Return empty feed on timeout/error
+            })
+        );
     for (let instance of instances) {
       for (let post of instance.feed) {
         const [status, username, timestamp, gif] = post;
@@ -926,6 +942,15 @@
       handleLike({ username, loggedInUsername, loggedInPassword })
     );
     userActionsElement.appendChild(likeButton);
+
+    const plusButton = document.createElement("button");
+    plusButton.textContent = "Login+";
+    plusButton.classList.add("warning");
+    plusButton.classList.add("action-button");
+    plusButton.addEventListener("click", () =>
+      alert("This user pays for Login+")
+    );
+    userActionsElement.appendChild(plusButton);
   }
 
   async function handleLike({ username, loggedInUsername, loggedInPassword }) {

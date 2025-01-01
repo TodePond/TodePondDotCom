@@ -35,7 +35,7 @@ export const config = {
     },
     {
       name: "svenlaa.com",
-      feed: "https://svenlaa-lablogingetusers.web.val.run",
+      feed: "https://api.svenlaa.com/logiverse/logs",
       // update: "https://svenlaa-labloginupdatestatus.web.val.run",
       // login: "https://svenlaa-lablogin.web.val.run",
       // delete: "https://svenlaa-lablogindeleteaccount.web.val.run",
@@ -45,6 +45,10 @@ export const config = {
       name: "evolved.systems",
       feed: "https://evol-lablogingetusers.web.val.run",
       // update: "https://evol-labloginupdatestatus.web.val.run",
+    },
+    {
+      name: "blag.slonk.ing",
+      feed: "https://blag.slonk.ing/posts/blogin?action=posts",
     },
     // {
     //   name: "rossilaz.xyz",

@@ -1,0 +1,72 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<!-- prettier-ignore -->
+<main><em>Days since tode fell asleep: <span id="days-tode"></span></em>
+<br />
+<em>Days since bot went missing: <span id="days-bot"></span></em>
+<br />
+<em>Days since berd flew away: <span id="days-berd"></span></em>
+</main>
+
+<br />
+
+<pre></pre>
+
+<button>Copy to clipboard</button>
+
+<script type="module">
+  // 5th january 2023
+  const TODE_DATE = new Date(2023, 0, 5);
+  // 35 days later
+  const BOT_DATE = new Date(2023, 1, 9);
+  // 12th january 2024
+  const BERD_DATE = new Date(2024, 0, 12);
+
+  const daysTode = document.getElementById("days-tode");
+  const daysBot = document.getElementById("days-bot");
+  const daysBerd = document.getElementById("days-berd");
+
+  function updateDays() {
+    const now = new Date();
+    const diffTode = Math.floor((now - TODE_DATE) / (1000 * 60 * 60 * 24));
+    const diffBot = Math.floor((now - BOT_DATE) / (1000 * 60 * 60 * 24));
+    const diffBerd = Math.floor((now - BERD_DATE) / (1000 * 60 * 60 * 24));
+
+    daysTode.textContent = diffTode;
+    daysBot.textContent = diffBot;
+    daysBerd.textContent = diffBerd;
+    updatePre();
+  }
+
+  function updatePre() {
+    const articleSource = document.querySelector("main").innerHTML;
+    document.querySelector("pre").textContent = articleSource;
+  }
+  updateDays();
+
+  let copies = 0;
+  document.querySelector("button").addEventListener("click", () => {
+    navigator.clipboard.writeText(document.querySelector("pre").textContent);
+    copies++;
+    document.querySelector("button").textContent = `Copied to clipboard!`;
+    if (copies > 1) {
+      document.querySelector(
+        "button"
+      ).textContent = `Copied to clipboard! x${copies}`;
+    }
+  });
+</script>

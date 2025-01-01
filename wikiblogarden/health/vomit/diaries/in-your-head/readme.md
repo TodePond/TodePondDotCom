@@ -218,7 +218,7 @@ Dr Gravy *wasn't* looking at me over her sunset glasses.
 
 No, she was looking at her— something had caught her— her computer screen instead— something had caught her eye.
 
-"It says here that you're transitioning."
+"It says here that you've started transitioning."
 
 "Yes."
 
