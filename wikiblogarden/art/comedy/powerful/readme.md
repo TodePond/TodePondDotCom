@@ -60,7 +60,7 @@ It's funny how many people think we only joke because "it's funny". As if that's
 
 Some people think "it lets us get away with saying things we want to say but we can't". And they're not completely wrong but—
 
-Some people think humour is an excuse for bad behaviour. We can say something mean or do something harmful and then put up our hands and say "but I was [just](https://www.todepond.com/wikiblogarden/better-computing/just/) joking" and "it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke". You know, ["like on top gear"](https://youtu.be/K7CnMQ4L9Pc?si=Qv5DMwqp_g-J5QUT).
+Some people think humour is an excuse for bad behaviour. We can say something mean or do something harmful and then put up our hands and say "but I was [just](https://www.todepond.com/wikiblogarden/better-computing/just/) joking" and "it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke". You know, "[like on top gear](https://youtu.be/K7CnMQ4L9Pc?si=Qv5DMwqp_g-J5QUT)".
 
 And in my experience, these same people think we shouldn't tell any jokes that are mean or cutting or insulting, full stop.
 
@@ -78,7 +78,11 @@ In fact, there is no joke that everyone gets, because if everyone gets it, then 
 
 Not everyone gets every joke, no. But still...
 
+<br>
+
 \*ahem\*
+
+<br>
 
 Jokes can show us perspective. They can let us step back and take a fresh look at what we see.
 
