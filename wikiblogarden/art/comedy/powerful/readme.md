@@ -14,7 +14,7 @@ Instead, I should identify similarities and differences, and discuss the pros an
 
 The [tadi web](/explore/tadi-web) is a joke. It's a [parody](https://www.youtube.com/watch?v=ft6xOAijwFo).
 
-And numerous people have told me that I only made it a joke so that I can avoid being vulnerable. By it being "[just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke", I can dismiss any criticism I get because I can just say that it's "[just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke".
+And numerous people have told me that I only made it a joke so that I can avoid being vulnerable. By it being "[just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke", I can dismiss any criticism I get because I can [just](https://www.todepond.com/wikiblogarden/better-computing/just/) say that it's "[just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke".
 
 Instead, they say I should be serious about the tadi web. I should **do it** / commit to the idea fully / live it for multiple years and—
 
@@ -30,7 +30,7 @@ People warned me that Bret Victor's friends might see it, or— Heaven forbid, B
 
 [Dreamberd](https://github.com/TodePond/DreamBerd) is a perfect programming language. It is also a joke / a parody of the entire programming language ecosystem. It is not a parody of any specific programming language itself. It is a parody of all the people behind them.
 
-And unlike all my other jokey things, no one seems to complaun about Dreamberd. My theory for this is that everyone thinks Dreamberd is not about them.
+And unlike all my other jokey things, no one seems to complain about Dreamberd. My theory for this is that everyone thinks Dreamberd is not about them.
 
 People say "Dreamberd is a parody of javascript" or "Dreamberd is a parody of rust" or "Dreamberd is a parody of programming language academics obsessing over—" or "Dreamberd is a parody of startup culture injecting our—"
 
@@ -60,11 +60,11 @@ It's funny how many people think we only joke because "it's funny". As if that's
 
 Some people think "it lets us get away with saying things we want to say but we can't". And they're not completely wrong but—
 
-Some people think humour is an excuse for bad behaviour. We can say something mean or do something harmful and then put up our hands and say "but I was [just](https://www.todepond.com/wikiblogarden/better-computing/just/) joking" and "it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke". You know, "[like on top gear](https://youtu.be/K7CnMQ4L9Pc?si=Qv5DMwqp_g-J5QUT)".
+Some people think humour is an excuse for bad behaviour. We can say something mean or do something harmful and then [just](https://www.todepond.com/wikiblogarden/better-computing/just/) put up our hands and say "but I was [just](https://www.todepond.com/wikiblogarden/better-computing/just/) joking" and "it's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a joke". You know, "[like on top gear](https://youtu.be/K7CnMQ4L9Pc?si=Qv5DMwqp_g-J5QUT)".
 
 And in my experience, these same people think we shouldn't tell any jokes that are mean or cutting or insulting, full stop.
 
-And in my experience, these same people are all [men](https://www.todepond.com/wikiblogarden/men): The most fragile and sensitive people of all.
+And in my experience, these same people are all [men](https://www.todepond.com/wikiblogarden/men): The most sensitive and fragile humans of all.
 
 <br>
 
@@ -72,7 +72,7 @@ And in my experience, these same people are all [men](https://www.todepond.com/w
 
 Not everyone gets every joke. 
 
-In fact, there is no joke that everyone gets, because if everyone gets it, then there is no joke. Because— Look, we've been through this [already](https://www.todepond.com/wikiblogarden/art/comedy/).
+In fact, there is no joke that everyone gets, because if everyone gets it, then there is no joke. Because, when you tell a joke, you— Look, we've been through this [already](https://www.todepond.com/wikiblogarden/art/comedy/).
 
 <br>
 
