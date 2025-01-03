@@ -1,3 +1,17 @@
+<style>
+  .pro {
+    color: var(--green);
+  }
+
+  .con {
+    color: var(--red);
+  }
+
+  .pro, .con {
+    font-weight: bold;
+  }
+</style>
+
 # The pros and cons of being trans*
 
 *More specifically, the pros and cons of being a transfeminine non-binary person who went through two puberties.
