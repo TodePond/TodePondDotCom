@@ -92,7 +92,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ Needles. 🫨</span>
 
-<span class="con">❌ Hundreds of pounds spent on needles of various kinds. 🫨</span>
+<span class="con">❌ Thousands of pounds spent on needles. 🫨</span>
 
 <span class="con">❌ Patches leave glue marks on your butt all the time. 🫨</span>
 
