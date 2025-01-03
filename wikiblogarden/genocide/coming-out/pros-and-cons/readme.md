@@ -104,9 +104,9 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <br>
 
-<span class="con">❌ All your friends and family will leave you. 🫨</span>
+<span class="con">❌ Your friends and family will leave you. 🫨</span>
 
-<span class="con">❌ Those that stay will be even more trouble. 🫨</span>
+<!--<span class="con">❌ Those that stay will be even more trouble. 🫨</span>-->
 
 <span class="pro">✅ You get to pick your own name. 🤗</span>
 
