@@ -38,7 +38,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You're more "interesting". 🤗</span>
 
-negative: Tens of thousands of pounds spent on hormones and medical checks. 🫨</span>
+<span class="pro">✅ Tens of thousands of pounds spent on hormones and medical checks. 🫨</span>
 
 <span class="pro">✅ You get asked to speak at more events because you're good for diversity! 🤗</span>
 
