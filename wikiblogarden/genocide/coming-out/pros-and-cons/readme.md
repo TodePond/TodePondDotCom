@@ -156,9 +156,9 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You get to be yourself. 🤗</span>
 
-<span class="con">❌ Everyone tells you how much of an ally they are. 🫨</span>
-
 <span class="con">❌ Everyone ignores all the other things about you and fixate on the fact that you're trans*. 🫨</span>
+
+<span class="con">❌ Everyone tells you how much of an ally they are. 🫨</span>
 
 <span class="pro">✅ You stop being a miserable little shit. 🤗</span>
 
