@@ -14,7 +14,7 @@
 
 # The pros and cons of being trans*
 
-*More specifically, the pros and cons of being a transfeminine non-binary person who went through two puberties.
+\*More specifically, the pros and cons of being a transfeminine non-binary person who went through two puberties.
 
 <br>
 
@@ -44,7 +44,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <br>
 
-# Being trans!*
+# Being trans!\*
 
 <span class="pro">✅ No periods. 🤗</span>
 
@@ -156,7 +156,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You get to be yourself. 🤗</span>
 
-<span class="con">❌ Everyone ignores all the other things about you and fixate on the fact that you're trans*. 🫨</span>
+<span class="con">❌ Everyone ignores all the other things about you and fixate on the fact that you're trans\*. 🫨</span>
 
 <span class="con">❌ Everyone tells you how much of an ally they are. 🫨</span>
 
@@ -235,7 +235,7 @@ Excuse me.
 
 <br>
 
-(sudden whiplash) So now you know the pros and cons of being trans*. So now you know whether to decide to be trans* or not. 
+(sudden whiplash) So now you know the pros and cons of being trans\*. So now you know whether to decide to be trans\* or not. 
 
 I think—
 
