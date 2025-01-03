@@ -174,6 +174,8 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You finally find inner peace. 🤗</span>
 
+<span class="con">❌ Shoes don't fit you. 🫨</span>
+
 <br>
 
 <br>
