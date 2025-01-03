@@ -82,7 +82,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ Your friends tell you "you are so beautiful qween". 🤗</span>
 
-<span class="con">❌ Crippling trauma from conversation therapy that weighs you down even after all these years. 🫨</span>
+<span class="con">❌ Crippling trauma from conversion therapy that weighs you down even after all these years. 🫨</span>
 
 <span class="pro">✅ You're tall and have a strong jawline. 🤗</span>
 
