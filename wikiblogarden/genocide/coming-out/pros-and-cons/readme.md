@@ -221,7 +221,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ Kept thinkin' I could never live without you by my side. 🫨</span>
 
-<span class="pro">✅ But then I spent so many nights thinkin' how you did me wrong. 🫨</span>
+<span class="con">❌ But then I spent so many nights thinkin' how you did me wrong. 🫨</span>
 
 <span class="pro">✅ And I grew strong and I learned how to get along. 🤗</span>
 
