@@ -193,23 +193,23 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ You develop a deep hatred and mistrust of the world. 🫨</span>
 
-<span class="con">❌ You feel numb at times. 😐</span>
+<span class="con">❌ You feel numb at times. 🫨</span>
 
-<span class="pro">✅ You get a zoomed out perspective on little things that don't matter. 😐</span>
+<span class="pro">✅ You get a zoomed out perspective on little things that don't matter. 🫨</span>
 
-<span class="pro">✅ You see through the bullshit of many parts of life. 😐</span>
+<span class="pro">✅ You see through the bullshit of many parts of life. 🫨</span>
 
-<span class="pro">✅ Small problems don't bother you. 😐</span>
+<span class="pro">✅ Small problems don't bother you. 🫨</span>
 
-<span class="pro">✅ You're forced to learn to let code die. 😐</span>
+<span class="pro">✅ You're forced to learn to let code die. 🫨</span>
 
-<span class="pro">✅ You let code die. 😐</span>
+<span class="pro">✅ You let code die. 🫨</span>
 
-<span class="pro">✅ Let code die. 😐</span>
+<span class="pro">✅ Let code die. 🫨</span>
 
-<span class="pro">✅ Let code die. 😐</span>
+<span class="pro">✅ Let code die. 🫨</span>
 
-<span class="pro">✅ Let code die. 😐</span>
+<span class="pro">✅ Let code die. 🫨</span>
 
 \*ahem\*
 
