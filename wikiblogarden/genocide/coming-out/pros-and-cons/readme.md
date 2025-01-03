@@ -211,6 +211,28 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ Let code die. 🫨</span>
 
+<br>
+
+<hr>
+
+<br>
+
+<span class="con">❌ At first I was afraid, I was petrified. 🫨</span>
+
+<span class="con">❌ Kept thinkin' I could never live without you by my side. 🫨</span>
+
+<span class="pro">✅ But then I spent so many nights thinkin' how you did me wrong. 🫨</span>
+
+<span class="pro">✅ And I grew strong and I learned how to get along. 🤗</span>
+
+<span class="pro">✅ Oh yes, I, I let code die. 🤗</span>
+
+<span class="pro">✅ Oh, as long as I know how to love, I know I'll stay alive. 🤗</span>
+
+<span class="pro">✅ I've got all my life to live, and I've got all my code to give. 🤗</span>
+
+<span class="pro">✅ And I'll let, I'll let code die, hey hey! 🤗</span>
+
 \*ahem\*
 
 <br>
