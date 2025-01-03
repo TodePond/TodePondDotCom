@@ -110,11 +110,11 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You get to pick your own name. 🤗</span>
 
-<span class="con">❌ Everyone will freak out when you change your name. 🫨</span>
+<span class="con">❌ Everyone freaks out when you change your name. 🫨</span>
 
-<span class="con">❌ Strangers in the street will call you tranny, faggot, freak, dyke, homo, pedo, kiddy fiddler and more. 🫨</span>
+<span class="con">❌ Strangers in the street call you tranny, faggot, freak, dyke, homo, pedo, kiddy fiddler and more. 🫨</span>
 
-<span class="con">❌ Going to the loo becomes a safety hazard. 🫨</span>
+<span class="con">❌ Going to the loo is a safety hazard. 🫨</span>
 
 <span class="pro">✅ You get to pick the shorter queue at the loo. 🤗</span>
 
@@ -124,7 +124,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <br>
 
-<span class="con">❌ Government, media, and the entire nation debates your mere existence daily. 🫨</span>
+<span class="con">❌ Government, media, and the entire nation debates your existence daily. 🫨</span>
 
 <span class="pro">✅ It makes you a cooler youtuber. 🤗</span>
 
@@ -136,7 +136,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ There's a ten year wait for treatment. 🫨</span>
 
-<span class="con">❌ Doctors refuse to give you medicine even after a ten year wait. 🫨</span>
+<span class="con">❌ Doctors refuse to give you medicine after a ten year wait. 🫨</span>
 
 <span class="con">❌ You have to buy medication on the black market. 🫨</span>
 
@@ -152,7 +152,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You find out who your real friends are. 🤗</span>
 
-<span class="con">❌ Everyone starts treating you like a women and you discover that the feminists were right all along. 🫨</span>
+<span class="con">❌ Everyone starts treating you like a women and you discover that the feminists were right. 🫨</span>
 
 <span class="pro">✅ You get to be yourself. 🤗</span>
 
