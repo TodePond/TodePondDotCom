@@ -94,7 +94,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ Thousands of pounds spent on needles. 🫨</span>
 
-<span class="con">❌ Patches leave glue marks on your butt all the time. 🫨</span>
+<span class="con">❌ Patches leave glue marks on your butt. 🫨</span>
 
 <span class="pro">✅ Glue on your butt serves as a good target for needle placement. 🤗</span>
 
