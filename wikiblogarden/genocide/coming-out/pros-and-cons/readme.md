@@ -189,9 +189,9 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You get silly ideas for blog posts. 🤗</span>
 
-<span class="con">❌ It's very tricky to go swimming. 🫨</span>
-
 <span class="con">❌ You develop a deep hatred and mistrust of the world. 🫨</span>
+
+<span class="con">❌ It's very tricky to go swimming. 🫨</span>
 
 <span class="con">❌ You feel numb at times. 🫨</span>
 
@@ -225,13 +225,13 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ And I grew strong and I learned how to get along. 🤗</span>
 
-<span class="pro">✅ Oh yes, I, I let code die. 🤗</span>
+<span class="pro">✅ Oh yes I, I let code die. 🤗</span>
 
 <span class="pro">✅ Oh, as long as I know how to love, I know I'll stay alive. 🤗</span>
 
 <span class="pro">✅ I've got all my life to live, and I've got all my code to give. 🤗</span>
 
-<span class="pro">✅ And I'll let, I'll let code die, hey hey! 🤗</span>
+<span class="pro">✅ And I'll let, I let code die, hey hey! 🤗</span>
 
 \*ahem\*
 
