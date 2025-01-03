@@ -66,7 +66,7 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="con">❌ No vagina exams yet. 🫨</span>
 
-<span class="pro">✅ Free contraception. 🤗</span>
+<span class="pro">✅ Automatic contraception. 🤗</span>
 
 <span class="con">❌ Thousands of pounds spent on "gamete storage". 🫨</span>
 
