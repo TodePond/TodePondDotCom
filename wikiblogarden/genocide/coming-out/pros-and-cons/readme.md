@@ -265,8 +265,11 @@ On balance, it's probably worth it.
 
 <br>
 
+"I will survive" adaptation by froos.
+
 Back to the [wikiblogardenite](/wikiblogardenite).
 
+<br>
 
 
 
