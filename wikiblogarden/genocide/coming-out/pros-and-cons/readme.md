@@ -48,7 +48,9 @@ negative: Tens of thousands of pounds spent on hormones and medical checks. 🫨
 
 <br>
 
-<span class="pro">✅ No vagina exams... 🤗</span> <span class="con">❌ yet. 🫨</span>
+<span class="pro">✅ No vagina exams. 🤗</span>
+
+<span class="con">❌ No vagina exams yet. 🫨</span>
 
 <span class="pro">✅ Free contraception. 🤗</span>
 
