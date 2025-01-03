@@ -174,7 +174,48 @@ We'll cover all the pros and cons, the goods and bads, the warts and wins of...
 
 <span class="pro">✅ You finally find inner peace. 🤗</span>
 
+<br>
+
+<hr>
+
+<br>
+
+
 <span class="con">❌ Shoes don't fit you. 🫨</span>
+
+<span class="con">❌ Paperwork gets lost because computer systems can't cope with your records not matching up. 🫨</span>
+
+<span class="con">❌ Some careers become off-limits to you. 🫨</span>
+
+<span class="pro">✅ You get silly ideas for blog posts. 🤗</span>
+
+<span class="con">❌ It's very tricky to go swimming. 🫨</span>
+
+<span class="con">❌ You develop a deep hatred and mistrust of the world. 🫨</span>
+
+<span class="con">❌ You feel numb at times. 😐</span>
+
+<span class="pro">✅ You get a zoomed out perspective on little things that don't matter. 😐</span>
+
+<span class="pro">✅ You see through the bullshit of many parts of life. 😐</span>
+
+<span class="pro">✅ Small problems don't bother you. 😐</span>
+
+<span class="pro">✅ You're forced to learn to let code die. 😐</span>
+
+<span class="pro">✅ You let code die. 😐</span>
+
+<span class="pro">✅ Let code die. 😐</span>
+
+<span class="pro">✅ Let code die. 😐</span>
+
+<span class="pro">✅ Let code die. 😐</span>
+
+\*ahem\*
+
+<br>
+
+Excuse me.
 
 <br>
 
