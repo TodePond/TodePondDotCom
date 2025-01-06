@@ -278,12 +278,6 @@ I don't know what that tool was, that he opened up, but he opened up some other 
 
 And hey, neither of us knew what we were doing. Orion had to remind himself how that tool worked, and both of us had to figure out very quickly how to make two different laptops using two different tools work together, and—
 
-<br>
-
-<hr>
-
-<br>
-
 <!-- I really appreciate having a friend like Orion who is mad and bold enough to decide to say yes to almost everything, and [just](https://www.todepond.com/wikiblogarden/better-computing/just/) [go for it](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/). I miss him now that he’s left London.
 
 But on the other hand, I don’t think there’s a single city in the world that deserves to keep hold of Orion. At least, not yet. That maniac belongs to the sky— I mean, he even tried to get us to all go sky diving back in Los Angeles a few weeks ago. Unfortunately, I don’t think he got a bite.
