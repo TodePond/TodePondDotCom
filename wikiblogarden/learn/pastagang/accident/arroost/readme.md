@@ -11,7 +11,7 @@ The easiest way to learn is by accident. I know this because I joined an emergen
 - <a href="#introduction" class="secondary">Introduction</a>
 - <a href="#arroost" class="secondary">Part one: Arroost</a>
 - <a href="#strudel" class="secondary">Part two: Strudel</a>
-- <a href="#flok">Part three: Flok</a> (coming soon) 
+- <a class="secondary" href="#flok">Part three: Flok</a> (coming soon) 
 - Part four: (spoiler)
 - Part five: (spoiler)
 - Part six: Nudel
