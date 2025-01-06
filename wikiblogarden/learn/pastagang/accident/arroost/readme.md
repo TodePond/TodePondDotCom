@@ -1,6 +1,6 @@
-# I learned a programming language by accident
+# Learning by accident
 
-It was an accident!!
+The easiest way to learn is by accident. I know this because I joined an emergent cult called— Look, it's simpler if I tell you the whole story.
 
 <br>
 
@@ -11,9 +11,11 @@ It was an accident!!
 - <a href="#introduction" class="secondary">Introduction</a>
 - <a href="#arroost" class="secondary">Part one: Arroost</a>
 - <a href="#strudel" class="secondary">Part two: Strudel</a>
-- Part three: Flok (coming soon) 
+- <a href="#flok">Part three: Flok</a> (coming soon) 
 - Part four: (spoiler)
 - Part five: (spoiler)
+- Part six: Nudel
+- Part seven: Paper
 - Conclusion
 
 <br>
@@ -81,6 +83,14 @@ And, yes! I did manage to include some notes about live coding in my work: In th
 But there's always more I can do. I regret not being able to reference [Laurie Spiegel](https://www.youtube.com/watch?v=zLd1RUDmX6w&list=PLlBhjvPmxc9EyPd0Lz6GiNg71n_204XeP&index=1) but I haven't engrossed myself enough in her stuff yet.
 
 And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpond](/explore/cellpond), I'll keep returning to it over the course of several years in an attempt to learn more and more and more. Some things on purpose, some things by **accident**.
+
+<br>
+
+<hr>
+
+<br>
+
+(coming soon: what I learned from arroost)
 
 <br>
 
@@ -274,13 +284,114 @@ And hey, neither of us knew what we were doing. Orion had to remind himself how 
 
 <br>
 
-*I really appreciate having a friend like Orion who is mad and bold enough to decide to say yes to almost everything, and just "go for it". He's one of the most likeable people I know and I miss him now that he's left London. But on the other hand, I don't think there's a single city in the world that deserves to keep hold of Orion. At least, not yet. That maniac belongs to the sky— I mean, he even tried to get us to all go sky diving back in Los Angeles a few weeks ago. Unfortunately, I don't think he got a bite.*
+<!-- I really appreciate having a friend like Orion who is mad and bold enough to decide to say yes to almost everything, and [just](https://www.todepond.com/wikiblogarden/better-computing/just/) [go for it](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/). I miss him now that he’s left London.
+
+But on the other hand, I don’t think there’s a single city in the world that deserves to keep hold of Orion. At least, not yet. That maniac belongs to the sky— I mean, he even tried to get us to all go sky diving back in Los Angeles a few weeks ago. Unfortunately, I don’t think he got a bite.
+-->
+
+<br>
+
+<hr>
+
+<br>
+
+He whipped out his phone too and presented some sort of touch screen keyboard that he played chords on and we had moments of getting confused with all the notes but then "Oh it's zero-indexed" and it was all fine again. 
+
+We recorded samples on his phone. We recorded silly catchphrases like "normalise sharing scrappy fiddles" and "anything can be voice training" and played them back at different pitches to make riffs and repeating refrains.
+
+And yes, I tried to delete code as we went on, to let my code die when it had done its thing / had its moment. And those were the best moments, when one instrument got removed, making space for the other sounds to shine and keep going, onto the next part, onto the next, onto the next.
+
+<br>
+
+<hr>
+
+<br>
+
+The conference came to a close and we all went home, and I always feels sad when this happens. 
+
+<!-- I feel very lucky to be able to be able to go around to all these different worlds: To industry events and art events and even academia. Wherever I am, I learn a little more. -->
+
+Reality sinks in as I sit down at home, in my flat, thinking back to that fun session, wanting to make more music. Not just on my own. I can already do that. I—
+
+At home, I've always enjoyed playing my [baritone ukulele](https://youtu.be/ZMklf0vUl18?si=_5oeBeWUQW6JFWYE), and my assortment of other [toy instruments](https://youtu.be/DNBKdU6XrLY?si=-zLchArXnfkRsnzb). But I longed for—
+
+<br>
+
+<hr>
+
+<br>
+
+So I posted up the [remnants](https://strudel.cc/?4BkwkgxHSC3n#Ci8vICJuZW1vIiBAYnkgdG9kZXBvbmQgYW5kIGZyaWVuZHMKCiQ6IHMoIltiZCBoaDozXSBzZCBsdCA8b2ggW29oIGhoXSBbbWlzYzo1IGhoXT4iKQouYmFuaygiUm9sYW5kTUMzMDMiKQovLyAuaHVzaCgpCgokOiBzKCJtaXNjKDMsIDgpIikKLy8gLmxwZig4MDApCi5vZmYoIi4yIiwgeD0%2BIHgubHBmKDcwMCkpCgokOiBuKCI8MSAzIDUgNz4qMiIpCi5zY2FsZSgiQzQ6bWFqb3IiKQouc291bmQoInBpYW5vLCBoYW5kY2hpbWVzIikKLnByZXNzKCkKLmp1eChyZXYpCi5zY2FsZVRyYW5zcG9zZSgiPDAgMj4iKQouc2NhbGVUcmFuc3Bvc2UoIjwwIC00Pi8zIikKCiQ6IG4oIjUiKQouc2NhbGUoIkM0Om1ham9yIikKLnNvdW5kKCJzcXVhcmUiKQouZGlzdG9ydCguNSApCi8vIC5odXNoKCkKLnNjYWxlVHJhbnNwb3NlKCI8MCAyPi8yIikKICAuc2NhbGVUcmFuc3Bvc2UoIjAsIDw0IDI%2BLzUiKQouZGVjYXkoMikKLmRlbGF5KC44KQouZGVsYXl0aW1lKC44KQo%3D) of that jam that I had left over but, like I said, they weren't the creation. They were merely the aftermath left over at the end: The glowing feeling you get after something good happens. The sun burnt on the back of your eyeballs.
+
+For the first time, it didn't feel like the music was made by me. So for [one remnant](https://strudel.cc/?4BkwkgxHSC3n#Ci8vICJuZW1vIiBAYnkgdG9kZXBvbmQgYW5kIGZyaWVuZHMKCiQ6IHMoIltiZCBoaDozXSBzZCBsdCA8b2ggW29oIGhoXSBbbWlzYzo1IGhoXT4iKQouYmFuaygiUm9sYW5kTUMzMDMiKQovLyAuaHVzaCgpCgokOiBzKCJtaXNjKDMsIDgpIikKLy8gLmxwZig4MDApCi5vZmYoIi4yIiwgeD0%2BIHgubHBmKDcwMCkpCgokOiBuKCI8MSAzIDUgNz4qMiIpCi5zY2FsZSgiQzQ6bWFqb3IiKQouc291bmQoInBpYW5vLCBoYW5kY2hpbWVzIikKLnByZXNzKCkKLmp1eChyZXYpCi5zY2FsZVRyYW5zcG9zZSgiPDAgMj4iKQouc2NhbGVUcmFuc3Bvc2UoIjwwIC00Pi8zIikKCiQ6IG4oIjUiKQouc2NhbGUoIkM0Om1ham9yIikKLnNvdW5kKCJzcXVhcmUiKQouZGlzdG9ydCguNSApCi8vIC5odXNoKCkKLnNjYWxlVHJhbnNwb3NlKCI8MCAyPi8yIikKICAuc2NhbGVUcmFuc3Bvc2UoIjAsIDw0IDI%2BLzUiKQouZGVjYXkoMikKLmRlbGF5KC44KQouZGVsYXl0aW1lKC44KQo%3D), I said that the song was by "todepond and friends". And for the [second one](https://strudel.cc/?VfgRAK-uZKaq), I said it was by "tentpole", which is the [collective](https://tentpole.computer) that me and Orion are part of. 
+
+Yes, it didn't feel right to say that those remnants were made by only me, even if I did all the typing. Because it wasn't just from me: The code that ended up being written down was the result of all of us who were there. Orion made music on his own machines and that directly affected my own code. And the others there gave suggestions and instructions like "do this" and "do that" but also—
+
+Whenever I change some code, I get some feedback from the room. Sometimes people seem unbothered, or sometimes they start nodding their head, or they say "yes" or "what is that" or something. 
+
+Just by being there, you influence the music / you change the jam.
+
+<br>
+
+*The music isn't mine anymore. It belongs to the jam.*
 
 <br>
 
 <br>
 
-That feels like a good spot to pause for now. This essay about pastagang will be continued in Part three: Flok.
+<br>
+
+<br>
+
+This phenomenon I'm describing is something that is [often described](todo: reference) to happen within [algorave](https://algorave.com).
+
+I guess the same is true for jamming— algojamming— algojam(??).
+
+<br>
+
+<hr>
+
+<br>
+
+I longed for more.
+
+I mean— I tried my best to recreate the ebb and flow of that session in the strudels I shared. I put long loops on remnants to simulate the "building and demolishing [of] structure over time" and I like how it [ended up](https://strudel.cc/?6YeBYV3k4Bh8#Ly8gInNvcnJ5IHRvIGludGVycnVwdCIgQGJ5IHRvZGVwb25kCgpzZXRjcHMoLjY1KQoKbGV0IHVwbGFzcyA9ICI8Mk0gMD4vNDAiCgokOiBuKCIwIDAgMCAwIDAgMCAtIikKLnN0ZXBzKDYpCi5ub3RlKCJDMiIpCi5zb3VuZCgiaGFuZGNoaW1lcyIpCi50cmFuc3Bvc2UoIjw3TSA5TSAzTSA1TT4vMSIpCi50cmFuc3Bvc2UoIjAsIDlNIikKICAudHJhbnNwb3NlKHVwbGFzcykKLmdhaW4oLjgpCgpsZXQgY3V0cGFzcyA9IHNxdWFyZS5yYW5nZSgwLCAuNikuc2xvdygzNikKbGV0IGJsb3dwYXNzID0gc2luZS5yYW5nZSgyMDAsIDIwMDApLnNsb3coMzIpCmxldCBnbG93cGFzcyA9IHNpbmUucmFuZ2UoMjAwLCAyMDAwKS5zbG93KDQwKQpsZXQgc2xvd3Bhc3MgPSBzaW5lLnJhbmdlKDIwMCwgMjAwMCkuc2xvdyg0NCkKCiQ6IG4oIjAiKQogIC5zdGVwcygiPDMgMyAzIDM%2BIikKLnNjYWxlKCJDMzpseWRpYW4iKQouc291bmQoInBpYW5vIikKLnRyYW5zcG9zZSgiPDNNIDVNIDdNIDlNPiIpCi5zY2FsZVRyYW5zcG9zZSgiMCwgMiIpCi5wcmVzcygpCi5scGYoYmxvd3Bhc3MpCiAgLnRyYW5zcG9zZSh1cGxhc3MpCgoKJDogbigiMC8yIikKICAuc3RlcHMoIjwzIDMgMyAzPiIpCi5zY2FsZSgiQzI6bHlkaWFuIikKLnNvdW5kKCJmb2xraGFycCIpCi50cmFuc3Bvc2UoIjwzTSA1TSA3TSA5TT4iKQouc2NhbGVUcmFuc3Bvc2UoIjQiKQogIC5nYWluKDEuMikKICAvLyAuZGVjYXkoMSkKICAvLyAucm9vbSgxKQoucHJlc3MoKQovLyAuaHVzaCgpCi5scGYoZ2xvd3Bhc3MpCiAgLnRyYW5zcG9zZSh1cGxhc3MpCgoKJDogbigiMCIpCiAgLnN0ZXBzKCI8ND4iKQouc2NhbGUoIkMzOmx5ZGlhbiIpCi5zb3VuZCgia2FsaW1iYSIpCi50cmFuc3Bvc2UoIjwzTSA1TSA3TSA5TT4iKQovLyAuc2NhbGVUcmFuc3Bvc2UoIjIiKQogIC5nYWluKDEuMikKLnBhbihyYW5kKQoubHBmKHNsb3dwYXNzKQovLyAub2ZmKCIuNSIsIHg9PngucGFuKHJhbmQpKQovLyAucHJlc3MoKQovLyAuaHVzaCgpCiAgLnRyYW5zcG9zZSh1cGxhc3MpCgoKJDogcygiYmQgc2QiKQogIC8vIC5iYW5rKCJSb2xhbmRENzAiKQovLyAuZ2FpbiguNSkKLnN0ZXBzKDMpCi5nYWluKGN1dHBhc3MpCgo%3D).
+
+It was even nice to see other people run with it, like [Tristan de Cacqueray](https://midirus.com/), who tweaked the audio and added visuals in [their version](https://functional.cafe/@tristanC/113278415165354454).
+
+This gave me a taste of what happened in Berlin and it was nice. 
+
+Yes it was nice. It was nice. 
+
+BUT IT WASN'T THE SAME. 
+
+It was not the same. 
+
+<br>
+
+<hr>
+
+<br>
+
+Nowadays, I know what to do in these situations.
+
+When I have a problem, I know it's best to be open about it: To as many people as possible. This is part of what I call [open practice](https://www.youtube.com/watch?v=MJzV0CX0q8o).
+
+So I posted up my problem on `the internet`.
+
+> the more strudeling i do, the less i end up with "finished" tracks to share. its more about the changing over time. but i crave including other people in these things, it feels lonely to do it on my own.
+> 
+> in berlin, me and @orion were up for hours and hours jamming together on different tools and it was really really nice
+> 
+> i am learning that things sound better when you're bold with your changes and deletions. go with ur gut, with STRONG FEELING
+
+I posted up that message in an attempt to awaken fifty nerds who might jump in to help out or fix my problem. Luckily it only took one: [Felix Roos](https://garten.salat.dev/).
+
+<br>
+
+# Part three: Flok
+
+(coming soon) 
 
 <br>
 
@@ -290,10 +401,5 @@ That feels like a good spot to pause for now. This essay about pastagang will be
 
 <br>
 
-<br>
+Back to the [jam](https://pastagang.cc).
 
-<br>
-
-<br>
-
-Back to da [fwed](/feed).
