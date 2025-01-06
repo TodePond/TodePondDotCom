@@ -389,7 +389,7 @@ I posted up that message in an attempt to awaken fifty nerds who might jump in t
 
 <br>
 
-# Part three: Flok
+<h1 id="flok">Part three: Flok</h1>
 
 (coming soon) 
 
