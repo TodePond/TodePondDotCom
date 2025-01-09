@@ -204,10 +204,4 @@ See?
 
 <br>
 
-The world is made of cycles.
-
-But time is not a circle: It's more of a spiral line. Because infinite growth does not exist. And growth doesn't mean getting bigger! It means change.
-
-<br>
-
 Back to the [wikiblogardenite](/wikiblogardenite).
