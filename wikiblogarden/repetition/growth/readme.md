@@ -26,7 +26,7 @@ Interest generates around a thing, which causes other things to happen, and thes
 
 ## The fall
 
-Time passes and your chronological distance from the original spark goes longer. And interest in it fades.
+Time passes and your chronological distance from the original spark grows longer. And interest in it fades.
 
 "Perhaps it was just a fad."
 
@@ -114,7 +114,7 @@ The peak is the reward / punishment of the rise. It'll probably be hard to keep 
 
 I don't think the peak is a good time to change the community, because it's a time when many people are loving it, and some people are hating it because it's different to the previous peak. So there's a chance for conflict. 
 
-And besides, there's no chance for the community to change at this point, because it's not... changing. It only changes when it's rising or falling. Never at the peak or pit, the static times.
+And besides, there's no chance for the community to change at this point, because it's not... changing. It only changes when it's rising or falling. It only changes when it's changing. Never at the peak or pit: Those are static times.
 
 ## The fall
 
@@ -122,23 +122,27 @@ As excitement fades, it's a good time for reflections and learnings.
 
 "What just happened?"
 
+<br>
+
 What was so good about it? What's so good about this community? How welcoming is it? 
 
-Is there anything you wish you had while you were on the rise or at the peak? 
+Is there anything you wish you had while you were on the rise or at the peak?
+
+And give thanks.
+
+<br>
+
+Now let it fall and end gracefully. Let it die back down. It's time to rest.
+
+<br>
+
+<br>
 
 ## The pit
 
-The pit is the default state of the universe. Nothing happens.
+The pit is the default state of the universe. Nothing happens here.
 
-So you end up with some spare time. Now is the time to prepare for the next rise. Don't worry. It'll happen. 
-
-<br>
-
-<br>
-
-I see some communities fail because people give up on it at the first pit. They think that there must be something wrong with the community, and that's why it died down. But they're wrong.
-
-These people lack patience, and resilience.
+So you end up with some spare time. Now is the time to prepare for the next rise. Don't worry. It'll happen eventually.
 
 <br>
 
@@ -146,13 +150,19 @@ These people lack patience, and resilience.
 
 <br>
 
+I see some communities fail because people give up on it at the first pit. They think that there must be something wrong with the community, and that's why it died down. But they're wrong. It's supposed to happen this way.
+
+In my opinion, these people lack patience, and resilience.
+
+<br>
+
 <br>
 
 <br>
 
-Sometimes it can take years.
+Sometimes it can take years!
 
-But by all means, throw out a spark and see if people are ready. If they are they are. If they are not, then do something else. 
+But by all means, throw out a spark and see if people are ready. If they are then they are. If they are not, then do something else. 
 
 <br>
 
@@ -172,11 +182,15 @@ I think it's helpful to see a community as a living system— computation, becau
 
 A community is like a plant and growing a plant is all about timing. You have to water it at the right time and cut it back at the right time. 
 
-If it grows too much, it'll tire itself out and die for good. So let it die a little bit, to keep it in balance. 
+If it grows too much, it'll tire itself out and die for good. So let it die a little bit, to keep it in balance. But cut it back too much, and it won't bounce back.
 
-If you need to rehome it, do it when it's healthiest: When it's growing. But you might need to get the new pot ready before then. 
+If you need to rehome the plant, do it when it's healthiest: When it's growing. But you might need to get the new pot ready ahead of time.
 
-Its fruits or flowers or seeds can spawn new plants, but you'll want to place them carefully. Don't let them land too close, or there won't be enough space. 
+Fruits or flowers or seeds can spawn new plants, but you'll want to place them carefully. Don't let them land too close, or there won't be enough space.
+
+<br>
+
+When growing plants, patience is key. You can't rush it. It [just](https://www.todepond.com/wikiblogarden/better-computing/just/) takes time.
 
 <br>
 
@@ -192,9 +206,7 @@ See?
 
 The world is made of cycles.
 
-But time is not a circle. It's more of a spiral line.
-
-Because growth doesn't mean getting bigger. It means change!
+But time is not a circle: It's more of a spiral line. Because infinite growth does not exist. And growth doesn't mean getting bigger! It means change.
 
 <br>
 
