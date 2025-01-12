@@ -84,6 +84,7 @@ code {
 
 * {
   accent-color: #4680ff;
+  box-sizing: border-box;
 }
 
 body {
@@ -411,7 +412,14 @@ textarea::placeholder {
   border-radius: 0%;
 }
 
-button {
+input[type="file"] {
+  font-size: 1em;
+}
+
+button,
+input[type="file"]::file-selector-button {
+  background-color: var(--shade-10);
+  color: black;
   padding: 5px;
   font-size: 1em;
   cursor: pointer;
@@ -425,11 +433,6 @@ button:disabled {
 button.danger {
   background-color: #ff4346;
   color: white;
-}
-
-button {
-  background-color: var(--shade-10);
-  color: black;
 }
 
 button.primary {
