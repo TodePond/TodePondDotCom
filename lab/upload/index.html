@@ -14,21 +14,40 @@
 
 <link rel="stylesheet" href="/style.css" />
 
-<h1>Upload</h1>
+<header>
+  <h1>Upload</h1>
 
-<p>
-  Feel free to upload images for use in other places, eg:
-  <a href="https://pastagang.cc">pastagang</a>.
-</p>
+  <p>
+    Feel free to upload images for use in other places, eg:
+    <a href="https://pastagang.cc">pastagang</a>.
+  </p>
+  <p>
+    All uploaded images are public and available at
+    <code>https://todepond-up.web.val.run?name</code>
+  </p>
 
-<p>
-  Please delete your uploads after you've finished with them to make space for
-  others.
-</p>
+  <p>Replace <code>name</code> with the name you gave the image.</p>
+
+  <br />
+
+  <p>
+    <em>
+      Please delete your uploads after you've finished with them to make space
+      for others.
+    </em>
+  </p>
+</header>
 
 <style>
+  header {
+    /* max-width: 1000px; */
+  }
   body {
     max-width: 100%;
+  }
+
+  code {
+    white-space: nowrap;
   }
 
   form {
