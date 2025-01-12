@@ -110,7 +110,12 @@
   <button class="primary" id="upload-button">Upload</button>
 </form>
 
+<br />
+
 <h2>Uploaded files</h2>
+<button id="refresh-button">Refresh</button>
+<br />
+<br />
 
 <article id="uploads"></article>
 
@@ -122,6 +127,7 @@
   const fileInput = document.getElementById("file");
   const previewImage = document.getElementById("preview");
   const uploadButton = document.getElementById("upload-button");
+  const refreshButton = document.getElementById("refresh-button");
 
   fileInput.addEventListener("change", () => {
     const file = fileInput.files[0];
@@ -173,8 +179,12 @@
   }
 
   async function pullUploads() {
+    refreshButton.disabled = true;
+    refreshButton.textContent = "Refreshing...";
     const uploads = await fetchUploads();
     renderUploads(uploads);
+    refreshButton.textContent = "Refresh";
+    refreshButton.disabled = false;
   }
 
   const uploadsElement = document.getElementById("uploads");
@@ -227,6 +237,8 @@
       uploadElement.appendChild(deleteButton);
     }
   }
+
+  refreshButton.addEventListener("click", pullUploads);
 
   pullUploads();
 </script>
