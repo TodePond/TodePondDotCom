@@ -78,11 +78,16 @@
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAABJRU5ErkJggg=="
       alt="Preview of file upload"
       id="preview" />
-    <input type="file" id="file" accept="image/*"
-  /></label>
+    <input type="file" id="file" accept="image/*" required />
+  </label>
   <label for="name">
     Unique upload name
-    <input type="text" id="name" autocomplete="off" spellcheck="false" />
+    <input
+      type="text"
+      id="name"
+      autocomplete="off"
+      spellcheck="false"
+      required />
   </label>
   <button class="primary" id="upload-button">Upload</button>
 </form>
@@ -180,6 +185,8 @@
       deleteButton.textContent = "Delete";
       deleteButton.className = "danger";
       deleteButton.addEventListener("click", async () => {
+        deleteButton.disabled = true;
+        deleteButton.textContent = "Deleting...";
         const response = await fetch(
           `https://todepond-labuploaddelete.web.val.run`,
           {
@@ -188,6 +195,11 @@
           }
         );
         const data = await response.json();
+        if (!data.ok) {
+          alert(data.error);
+        }
+        deleteButton.textContent = "Delete";
+        deleteButton.disabled = false;
         pullUploads();
       });
 
