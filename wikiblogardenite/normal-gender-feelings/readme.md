@@ -54,7 +54,7 @@ It's often hard to figure out what our feelings mean. Interpreting our feelings 
 
 When we're young, we have to piece together all the different feelings we're feeling, because they're all new to us.
 
-For small children, excitement and anger can feel like the same thing. Or it can be hard to tell the difference between positive and negative attention. Or anxiety can feel like a stomach ache if we don't know what it is.
+As small children, excitement and anger can feel like the same thing. Or it can be hard to tell the difference between positive and negative attention. Or anxiety can feel like a stomach ache if we don't know what it is.
 
 As we grow up, we get more and more used to our feelings and we get more and more used to identifying them. But sadly, many adults fail to do this. Sometimes, the people in the highest positions of power have the least emotional intelligence of all.
 
