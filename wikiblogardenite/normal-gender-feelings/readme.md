@@ -70,7 +70,7 @@ Some feelings are talked about much less, like depression and mania, so it can b
 
 Depression, for example, is a taboo topic, so we may not even be aware that it's a thing that could happen to us.
 
-We might think that whatever it is we're feeling is a normal thing for us to feel, or that we deserve it, or it's just because we're tired, or whatever.  We may fail to identify the feeling of depression that we hold inside.
+We might think that whatever we're feeling is a normal thing for us to feel, or that we deserve it, or it's just because we're tired, or whatever.  We may fail to identify the feeling of depression that we hold inside.
 
 "Perhaps everyone feels like this."
 
