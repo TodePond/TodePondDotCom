@@ -42,7 +42,7 @@ When we're at a "normal" level of hunger, we might not notice or think about our
 
 Gender feelings are the same. It's hard to notice them unless something is wrong. Our body only tells us something if something isn't right / doesn't feel right. 
 
-Yes, gender is something we can feel, no different to a pang in our stomach or a breeze on our hand. Though it's not always easy to notice.
+Yes, gender is something that we can feel, no different to a pang in our stomach or a breeze on our hand. Though it's not always easy to notice.
 
 <br>
 
