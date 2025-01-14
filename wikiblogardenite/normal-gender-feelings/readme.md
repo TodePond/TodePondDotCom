@@ -20,9 +20,9 @@ We all "feel" our gender in the same way that we "feel" how hungry we are or how
 
 Just like our hunger and temperature feelings, we often don't notice our gender feelings unless something is wrong. 
 
-When you are at a "normal" temperature, you don't feel much at all— Or rather, you do feel something and what you feel is "normal".
+When we are at a "normal" temperature, we don't feel much at all— Or rather, we do feel something and what we feel is "normal".
 
-When you are at a "normal" level of hunger, you might not notice your hunger feelings, or how hungry you are or not. You [just](https://www.todepond.com/wikiblogarden/better-computing/just/) feel normal.
+When we are at a "normal" level of hunger, we might not notice our hunger feelings, or how hungry we are or not. We [just](https://www.todepond.com/wikiblogarden/better-computing/just/) feel normal.
 
 *It goes without saying that every human on earth should be entitled to normal hunger and temperature feelings.*
 
