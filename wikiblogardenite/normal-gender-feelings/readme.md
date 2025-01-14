@@ -12,7 +12,7 @@ Some people think that "normal" is a bad word and I don't think it is.
 
 What is a gender feeling? 
 
-A gender feeling is how you feel about your— I mean—
+A gender feeling is how you feel about your—
 
 We all have gender feelings. 
 
