@@ -34,7 +34,7 @@ It was often very silly. And we'd all be laughing together as a group.
 
 <br>
 
-When you step into the circle in Freeze, anything can happen. You can be in any place at any time. You can doing anything as anyone. You don't know what it might be. It might be up to you, or it might be up to someone else. Or sometimes it seems to happen automatically.
+When you step into the circle in Freeze, anything can happen. You can be in any place at any time. You can be doing anything as anyone. You don't know what it might be. It might be up to you, or it might be up to someone else. Or sometimes it seems to happen automatically.
 
 <br>
 
