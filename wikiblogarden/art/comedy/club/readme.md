@@ -58,9 +58,9 @@ We even played "Freeze". It was great! Except—
 
 Well, I enjoyed Freeze when we played it in the sessions, but we also did it in shows.
 
-We put on lots and lots and lots of— many shows and I hosted lots of them too, which means I was the idiot at the front of the stage warming up the crowd and doing the audience interaction stuff. 
+We put on lots and lots and lots of— many shows and I hosted lots of them too, which means I was the idiot at the front of the stage warming up the crowd and doing the audience interaction stuff and stuff.
 
-I really thrived in this role. I was pretty fearless (some might say "numb") at that time of my life, so I was relaxed in front of the crowd. And for me, it wasn't about making people— Wait, no. I'm getting ahead.
+I really thrived in this role. I was pretty fearless (some might say "numb") at that point in my life, so I felt relaxed in front of the crowd. And for me—
 
 <br>
 
