@@ -16,7 +16,7 @@ A gender feeling is how you feel about your—
 
 We all have gender feelings. 
 
-We all "feel" our gender in the same way we "feel" how hungry we are or how warm or cold we are. 
+We all "feel" our gender in the same way that we "feel" how hungry we are or how warm or cold we are. 
 
 Just like our hunger and temperature feelings, we often don't notice our gender feelings unless something is wrong. 
 
