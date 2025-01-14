@@ -18,11 +18,19 @@ We all have gender feelings.
 
 We all "feel" our gender in the same way that we "feel" how hungry we are or how warm or cold we are. 
 
+<br>
+
 Just like our hunger and temperature feelings, we often don't notice our gender feelings unless something is wrong. 
 
-When we are at a "normal" temperature, we don't feel much at all— Or rather, we do feel something and what we feel is "normal".
+A feeling may not bubble to the surface or grab our attention unless something is wrong and it needs to prompt us into action in some way.
 
-When we are at a "normal" level of hunger, we might not notice our hunger feelings, or how hungry we are or not. We [just](https://www.todepond.com/wikiblogarden/better-computing/just/) feel normal.
+When we're hungry, it can feel hard to think about anything other than how much we want to eat. When we're too hot or too cold, it can stop us from doing anything else, unless we solve the problem by adding or removing clothing, or opening or closing the window, or something.
+
+But when we're at a "normal" temperature, we don't feel much at all— Or rather, we do feel something and what we feel is "normal".
+
+When we're at a "normal" level of hunger, we might not notice or think about our hunger feelings at all. We [just](https://www.todepond.com/wikiblogarden/better-computing/just/) feel normal.
+
+
 
 *It goes without saying that every human on earth should be entitled to normal hunger and temperature feelings.*
 
@@ -32,7 +40,7 @@ When we are at a "normal" level of hunger, we might not notice our hunger feelin
 
 <br>
 
-Gender feelings are the same. It's hard to notice them unless something is wrong. Our bodies only tell us something if something isn't right / doesn't feel right. 
+Gender feelings are the same. It's hard to notice them unless something is wrong. Our body only tells us something if something isn't right / doesn't feel right. 
 
 Yes, gender is something we can feel, no different to a pang in our stomach or a brush of our hand. But it's not always easy to notice.
 
