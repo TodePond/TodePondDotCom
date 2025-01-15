@@ -206,6 +206,17 @@
       imageElement.style.border = "1px solid rgb(159, 174, 238)";
       imageElement.style.backgroundColor = "rgb(55, 67, 98)";
       imageElement.style.height = "300px";
+      imageElement.onerror = () => {
+        imageElement.remove();
+      };
+
+      const audioElement = document.createElement("audio");
+      audioElement.controls = true;
+      audioElement.src = `https://tode.party?${upload.name}`;
+      audioElement.style.width = "100%";
+      audioElement.onerror = () => {
+        audioElement.remove();
+      };
 
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "Delete";
@@ -232,6 +243,7 @@
       uploadsElement.appendChild(uploadElement);
       uploadElement.appendChild(nameElement);
       uploadElement.appendChild(imageElement);
+      uploadElement.appendChild(audioElement);
       uploadElement.appendChild(deleteButton);
     }
   }
