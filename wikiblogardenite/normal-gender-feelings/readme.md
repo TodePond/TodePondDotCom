@@ -22,7 +22,7 @@ We all "feel" our gender in the same way that we "feel" how hungry we are or how
 
 Just like our hunger and temperature feelings, we often don't notice our gender feelings unless something is wrong. 
 
-A feeling may not bubble to the surface or grab our attention unless something is wrong and it needs to prompt us into action in some way.
+A feeling may not bubble to the surface or grab our attention unless we need to prompted into action in some way.
 
 When we're hungry, it can feel hard to think about anything other than how much we want to eat. When we're too hot or too cold, it can stop us from doing anything else, unless we solve the problem by adding or removing clothing, or opening or closing the window, or something.
 
