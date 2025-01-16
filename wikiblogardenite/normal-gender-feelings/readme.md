@@ -1,4 +1,8 @@
-# Normal gender feelings
+> I tried write about something and i failed. I'm discussing this draft and I'll try to approach the topic from a different angle. It's here if you want to read it though.
+
+<br>
+
+# Normal gender feelings (binned version)
 
 Some people think that "normal" is a bad word and I don't think it is. 
 
@@ -20,13 +24,13 @@ We all "feel" our gender in the same way that we "feel" how hungry we are or how
 
 <br>
 
-Just like our hunger and temperature feelings, we often don't notice our gender feelings unless something is wrong. 
+Just like our hunger and temperature feelings, we often don't notice our gender feelings unless—
 
-A feeling may not bubble to the surface or grab our attention unless we need to prompted into action in some way.
+A feeling may not bubble to the surface or grab our attention unless—
 
-When we're hungry, it can feel hard to think about anything other than how much we want to eat. When we're too hot or too cold, it can stop us from doing anything else, unless we solve the problem by adding or removing clothing, or opening or closing the window, or something.
+When we're hungry, it can feel hard to think about anything other than how much we want to eat. When we're too hot or too cold, it can stop us from doing anything else, unless—
 
-But when we're at a "normal" temperature, we don't feel much at all— Or rather, we do feel something and what we feel is "normal".
+When we're at a "normal" temperature, we don't feel much at all— Or rather, we do feel something and what we feel is "normal".
 
 When we're at a "normal" level of hunger, we might not notice or think about our hunger feelings at all. We [just](https://www.todepond.com/wikiblogarden/better-computing/just/) feel normal.
 
@@ -94,31 +98,30 @@ If you, dear reader, experience depression, then I want you to know that you don
 
 <br>
 
-<br>
-
-<br>
-
-<br>
-
 ## Normal gender feelings 
 
-The vast majority of people are very— extremely content with their gender. They experience normal gender feelings.
+The vast majority of people are very extremely content with their gender. They experience normal gender feelings.
 
 - Most people do not want to turn into a different gender. 
 - Most people do not fantasise about being a different gender. 
 - Most people see themselves as the gender that everyone else sees them as. 
 - Most people do not think their life would be better if they were a different gender.
 - Most people do not want to change their name to one of a different gender.
+- Most people would not prefer to be a different gender.
 
-These are all normal gender feelings. Fortunately, I experience them all everyday.
+These are all— If you are described— If that sounds—
+
+Fortunately, I experience normal gender feelings everyday.
+
+<br>
 
 <br>
 
 Imagine if you woke up as a different gender. And you [passed](https://www.todepond.com/wikiblogarden/genocide/internalised/transphobia/passing/is-bullshit) fully as that gender. And everyone thought you were that new gender. And in fact, everyone and the world acts as if you were always that gender.
 
-The **normal gender feeling** response to this question is:
+The **normal gender feeling** response to this question would be:
 
-"No I would hate that."
+"No, I would not like that."
 
 or "I would want to change back."
 
@@ -138,15 +141,17 @@ or "That's exciting."
 
 <br>
 
+<br>
+
 Very few people have not-normal gender feelings. But some do.
 
-I did, for example, for most of my— For most of my life, I had not-normal gender feelings, but it turns out you can [just](https://www.todepond.com/wikiblogarden/better-computing/just/) get rid of them by doing this [one weird trick](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
+I had not-normal gender feelings for most of my— For most of my life, I had not-normal gender feelings, but it turns out you can [just](https://www.todepond.com/wikiblogarden/better-computing/just/) get rid of them by doing this [one weird trick](https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/).
 
 <br>
 
 # Normal gender feelings
 
-*It goes without saying that every human on earth should be entitled to normal gender feelings.*
+It goes without saying that every human on earth should be entitled to normal gender feelings.
 
 If you, dear reader, experience not-normal gender feelings, then I want you to know that you don't deserve to feel that way. It doesn't matter what you've done or what you're like or who you are. I don't think you deserve to feel that way.
 
@@ -156,4 +161,4 @@ If you, dear reader, experience not-normal gender feelings, then I want you to k
 
 <br>
 
-onto the [wikiblogardenite](/wikiblogardenite).
+Back to the [wikiblogardenite](/wikiblogardenite).
