@@ -1,4 +1,4 @@
-> I tried to write about something and i failed. I'm discussing this draft and I'll try to approach the topic from a different angle. It's here if you want to read it though.
+> I tried to write about something and i failed. I'm binning this work-in-progress draft and I'll try to approach the topic from a different angle. It's here if you want to read it though.
 
 <br>
 
