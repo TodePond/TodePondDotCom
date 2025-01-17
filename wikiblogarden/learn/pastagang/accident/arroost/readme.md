@@ -22,7 +22,7 @@ The easiest way to learn is by accident. I know this because I joined an emergen
 
 <br>
 
-<h2 id="introduction">Introduction</h2>
+<h1 id="introduction">Introduction</h1>
 
 Sometimes I look back and try to figure out how I got here.
 
