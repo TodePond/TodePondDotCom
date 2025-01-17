@@ -62,7 +62,7 @@ I know this because some people from the— Hey I already wrote a [blog post abo
 
 <br>
 
-Despite starting out with [silliness](https://youtu.be/wWFfhaOWJ1Y?si=FK1rgpw7e60C9n_q), I now take my work very [seriously](https://youtu.be/9mbs0sx3z2A?si=wdtGQF-uvUsccVVc), whatever my work is. research? art? I don't know what it is but anyway whatever it is i take it seriously
+Despite starting out with [silliness](https://youtu.be/wWFfhaOWJ1Y?si=FK1rgpw7e60C9n_q), I now take my work very [seriously](https://youtu.be/9mbs0sx3z2A?si=wdtGQF-uvUsccVVc), whatever it is. research? art? I don't know what it is but anyway whatever it is i take it seriously
 
 So when [you](https://www.todepond.com/wikiblogarden/you/target-audience/)— when I discover that I've accidentally made something, it is important for me to learn more about what that thing that you've— what I've made *is*.
 
@@ -74,9 +74,9 @@ So when [you](https://www.todepond.com/wikiblogarden/you/target-audience/)— wh
 
 <br>
 
-Obviously, the best way to learn is not by reading and studying and listening. No, the best way to learn is by [doing](https://www.todepond.com/wikiblogarden/learn/how/).
+<!-- Obviously, the best way to learn is not by reading and studying and listening. No, the best way to learn is by [doing](https://www.todepond.com/wikiblogarden/learn/how/).-->
 
-So... for the past year or so, I have been trying to throw myself fully into the live coding world. I've been trying to participate fully, so that when it inevitably— with the hope that, when it becomes time to [write](/report/arroost) or [speak](http://www.youtube.com/live/4GOeYylCMJI?t=12475) about arroost, I can be ready.
+So... for the past year or so, I've been trying to throw myself fully into the live coding world. I've been trying to participate fully, so that when it inevitably— with the hope that, when it becomes time to [write](/report/arroost) or [speak](http://www.youtube.com/live/4GOeYylCMJI?t=12475) about arroost, I can be ready.
 
 And, yes! I did manage to include some notes about live coding in my work: In the [essay](/report/arroost) and the [talk](http://www.youtube.com/live/4GOeYylCMJI?t=12475) and the [blog post](http://www.youtube.com/live/4GOeYylCMJI?t=12475).
 
@@ -86,11 +86,15 @@ And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpon
 
 <br>
 
-<hr>
+<br>
+
+## What I learned from arroost
+
+When I was a small boy, I learned to play the trumpet. The way I learned was being taught, in one on one sessions, where I was told exactly what to do.
 
 <br>
 
-(coming soon: what I learned from arroost)
+(todo: more here)
 
 <br>
 
