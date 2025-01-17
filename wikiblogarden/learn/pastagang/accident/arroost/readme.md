@@ -1,6 +1,6 @@
 # Learning by accident
 
-The easiest way to learn is by accident. I know this because I joined an emergent cult called— Look, it's simpler if I tell you the whole story.
+The easiest way to learn is by accident. I know this because I joined an emergent cult called pastagang.
 
 <br>
 
