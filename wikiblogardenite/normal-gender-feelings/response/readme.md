@@ -2,7 +2,11 @@
 > 
 > [todepond.com/wikiblogardenite/normal-gender-feelings](https://www.todepond.com/wikiblogardenite/normal-gender-feelings/)
 
+<br>
+
 > I like this. Curious why it got binned. Looking forward to reading the next version. I definitely feel a lot more "normal" about my gender now that I am transitioning/have transitioned/will transition further. It's nice.
+
+<br>
 
 > nice! glad to hear that. 
 > 
