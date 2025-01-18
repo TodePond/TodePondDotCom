@@ -162,7 +162,7 @@ revelling-in-my-queerness sort of way. I sometimes feel not-normal
 gender feelings during sex, but I don't mind too much. You can use it
 for good, too. I guess that might approach a kink in some sense!
 
-I hope this helps/is interesting. Take care out there &lt;3 -- 17th [Magpie](https://mastodon.art/@seventeenmagpie)
+I hope this helps/is interesting. Take care out there &lt;3 -- [17th Magpie](https://mastodon.art/@seventeenmagpie)
 
 <br>
 
