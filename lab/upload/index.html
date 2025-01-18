@@ -82,17 +82,29 @@
 
 <form id="form">
   <label for="file">
-    <img
+    <div
       style="
         border: 1px solid rgb(159, 174, 238);
         width: 100%;
         background-color: rgb(55, 67, 98);
         height: 300px;
-        object-fit: contain;
-      "
-      alt="Preview of file upload"
-      id="preview" />
-    <audio controls></audio>
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+      <img
+        style="
+          display: none;
+          border: 1px solid rgb(159, 174, 238);
+          width: 100%;
+          background-color: rgb(55, 67, 98);
+          height: 100%;
+          object-fit: contain;
+        "
+        alt="Preview of file upload"
+        id="preview" />
+      <audio controls style="display: none" id="preview-audio"></audio>
+    </div>
     <input type="file" id="file" accept="audio/*, image/*" required />
   </label>
   <label for="name">
@@ -121,6 +133,7 @@
   const nameInput = document.getElementById("name");
   const fileInput = document.getElementById("file");
   const previewImage = document.getElementById("preview");
+  const previewAudio = document.getElementById("preview-audio");
   const uploadButton = document.getElementById("upload-button");
   const refreshButton = document.getElementById("refresh-button");
 
@@ -130,8 +143,25 @@
     reader.onload = () => {
       const dataUrl = reader.result;
       previewImage.src = dataUrl;
+      previewAudio.src = dataUrl;
     };
     reader.readAsDataURL(file);
+  });
+
+  previewAudio.addEventListener("canplaythrough", () => {
+    previewAudio.style.display = "block";
+  });
+
+  previewImage.addEventListener("load", () => {
+    previewImage.style.display = "block";
+  });
+
+  previewAudio.addEventListener("error", () => {
+    previewAudio.style.display = "none";
+  });
+
+  previewImage.addEventListener("error", () => {
+    previewImage.style.display = "none";
   });
 
   form.addEventListener(
