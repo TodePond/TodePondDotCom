@@ -1,3 +1,18 @@
+> Normal gender feelings (binned version) 
+> 
+> [todepond.com/wikiblogardenite/normal-gender-feelings](https://www.todepond.com/wikiblogardenite/normal-gender-feelings/)
+
+> I like this. Curious why it got binned. Looking forward to reading the next version. I definitely feel a lot more "normal" about my gender now that I am transitioning/have transitioned/will transition further. It's nice.
+
+> nice! glad to hear that. 
+> 
+> hmm i think i haven't boiled down to what i want to say yet. too many mixed messages. maybe that's better though
+>
+> could you say more on your experiences of feeling more "normal" now?
+
+> hmm... this gets introspective and complex. i'm going to have a play and try and put my thoughts into a good shape :))
+
+> look forward to it! whatever the shape
 
 > Hi Lu(ke), \
 > Here is the text. It is mostly two-beat style, because I figured that
