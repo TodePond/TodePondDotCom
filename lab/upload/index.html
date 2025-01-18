@@ -19,7 +19,7 @@
 
   <p>
     Feel free to upload images for use in other places, eg:
-    <a href="https://pastagang.cc">pastagang</a>.
+    <a href="https://pastagang.cc" target="_blank">pastagang</a>.
   </p>
   <p>
     All uploaded images are available at
@@ -90,9 +90,9 @@
         height: 300px;
         object-fit: contain;
       "
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAABJRU5ErkJggg=="
       alt="Preview of file upload"
       id="preview" />
+    <audio controls></audio>
     <input type="file" id="file" accept="audio/*, image/*" required />
   </label>
   <label for="name">
@@ -117,8 +117,6 @@
 <article id="uploads"></article>
 
 <script type="module">
-  const EMPTY_IMAGE =
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAABJRU5ErkJggg==";
   const form = document.getElementById("form");
   const nameInput = document.getElementById("name");
   const fileInput = document.getElementById("file");
@@ -156,7 +154,6 @@
       if (data.ok) {
         nameInput.value = "";
         fileInput.value = "";
-        previewImage.src = EMPTY_IMAGE;
       } else {
         alert(data.error);
       }
