@@ -34,7 +34,7 @@
 
 > wanna be a guest blog writer on my blog? if you rather keep it private then email is also fine
 >
-> (it can be as messy as u want innit)
+> (it can be as messy as u want)
 
 <br>
 
@@ -43,10 +43,6 @@
 <br>
 
 > up to you! pull request is fine or an issue or an email or whatever
-
-<br>
-
-> I did an email cos idk how github works -- or i will once it sends... i had fun writing this :))
 
 <br>
 
@@ -166,7 +162,7 @@ revelling-in-my-queerness sort of way. I sometimes feel not-normal
 gender feelings during sex, but I don't mind too much. You can use it
 for good, too. I guess that might approach a kink in some sense!
 
-I hope this helps/is interesting. Take care out there lt;3 -- 17th Magpie
+I hope this helps/is interesting. Take care out there lt;3 -- 17th [Magpie](https://mastodon.art/@seventeenmagpie)
 
 <br>
 
@@ -177,5 +173,13 @@ I hope this helps/is interesting. Take care out there lt;3 -- 17th Magpie
 > And that's it, thanks for reading it, and for writing stuff worth
 > engaging with in the first place :))
 > 
-> Have a lovely evening,
+> Have a lovely evening,\
 > Mags
+
+<br>
+
+<hr>
+
+<br>
+
+> I did an email cos idk how github works -- or i will once it sends... i had fun writing this :))
