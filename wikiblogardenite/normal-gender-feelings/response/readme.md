@@ -4,7 +4,7 @@
 > would be fun to try. Obviously if it's not useful/what you're looking
 > for &c., you can edit/not post it. Uhhh... yeah! Not sure if it's any
 good, but it's all true, and sincere!
-
+> 
 > Little scary this being on the internet but I like the idea of it being
 viewable/part of the conversation. I repeat myself a fair bit, usually
 for emphasis, but I leave cutting out some repetitions to your discretion.
