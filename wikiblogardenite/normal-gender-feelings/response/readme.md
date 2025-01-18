@@ -1,5 +1,7 @@
 # Normal gender feelings
 
+<br>
+
 > Normal gender feelings (binned version) 
 > 
 > [todepond.com/wikiblogardenite/normal-gender-feelings](https://www.todepond.com/wikiblogardenite/normal-gender-feelings/)
