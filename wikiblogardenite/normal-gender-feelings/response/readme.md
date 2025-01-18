@@ -1,3 +1,5 @@
+# Normal gender feelings
+
 > Normal gender feelings (binned version) 
 > 
 > [todepond.com/wikiblogardenite/normal-gender-feelings](https://www.todepond.com/wikiblogardenite/normal-gender-feelings/)
@@ -14,9 +16,41 @@
 >
 > could you say more on your experiences of feeling more "normal" now?
 
+<br>
+
 > hmm... this gets introspective and complex. i'm going to have a play and try and put my thoughts into a good shape :))
 
+<br>
+
 > look forward to it! whatever the shape
+
+<br>
+
+> okay ive made it! :) (had fun) but its too long for 'don. what's the best way to openly share something long with you? (or i can just email). i don't have a website on the public facing internet.
+
+<br>
+
+> wanna be a guest blog writer on my blog? if you rather keep it private then email is also fine
+>
+> (it can be as messy as u want innit)
+
+<br>
+
+> it exists! so... to make a guess post i make a pull request right?
+
+<br>
+
+> up to you! pull request is fine or an issue or an email or whatever
+
+<br>
+
+> I did an email cos idk how github works -- or i will once it sends... i had fun writing this :))
+
+<br>
+
+<hr>
+
+<br>
 
 > Hi Lu(ke), \
 > Here is the text. It is mostly two-beat style, because I figured that
@@ -27,6 +61,10 @@ good, but it's all true, and sincere!
 > Little scary this being on the internet but I like the idea of it being
 viewable/part of the conversation. I repeat myself a fair bit, usually
 for emphasis, but I leave cutting out some repetitions to your discretion.
+
+<br>
+
+<br>
 
 <br>
 
@@ -127,6 +165,12 @@ gender feelings during sex, but I don't mind too much. You can use it
 for good, too. I guess that might approach a kink in some sense!
 
 I hope this helps/is interesting. Take care out there lt;3 -- 17th Magpie
+
+<br>
+
+<br>
+
+<br>
 
 > And that's it, thanks for reading it, and for writing stuff worth
 > engaging with in the first place :))
