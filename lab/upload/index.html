@@ -225,25 +225,77 @@
       const nameElement = document.createElement("p");
       nameElement.textContent = upload.name;
 
-      const imageElement = document.createElement("img");
-      imageElement.loading = "lazy";
-      imageElement.src = `https://tode.party?${upload.name}`;
-      imageElement.style.width = "100%";
-      imageElement.style.objectFit = "contain";
-      imageElement.style.border = "1px solid rgb(159, 174, 238)";
-      imageElement.style.backgroundColor = "rgb(55, 67, 98)";
-      imageElement.style.height = "300px";
-      imageElement.onerror = () => {
-        imageElement.remove();
-      };
+      const previewContainer = document.createElement("div");
+      previewContainer.style.display = "flex";
+      previewContainer.style.justifyContent = "center";
+      previewContainer.style.alignItems = "center";
+      previewContainer.style.height = "300px";
+      previewContainer.style.backgroundColor = "rgb(55, 67, 98)";
+      previewContainer.style.border = "1px solid rgb(159, 174, 238)";
 
-      const audioElement = document.createElement("audio");
-      audioElement.controls = true;
-      audioElement.src = `https://tode.party?${upload.name}`;
-      audioElement.style.width = "100%";
-      audioElement.onerror = () => {
-        audioElement.remove();
-      };
+      fetch(`https://tode.party?${upload.name}`).then(async (response) => {
+        if (!response.ok) {
+          return;
+        }
+
+        const contentType = response.headers.get("content-type");
+        if (contentType.startsWith("image")) {
+          const imageElement = document.createElement("img");
+          imageElement.loading = "lazy";
+          imageElement.style.width = "100%";
+          imageElement.style.objectFit = "contain";
+          imageElement.style.height = "300px";
+          // src the response
+          const blob = await response.blob();
+          imageElement.src = URL.createObjectURL(blob);
+          imageElement.onerror = () => {
+            imageElement.remove();
+          };
+          previewContainer.appendChild(imageElement);
+        } else if (contentType.startsWith("audio")) {
+          const audioElement = document.createElement("audio");
+          audioElement.controls = true;
+          audioElement.style.width = "100%";
+          // src the response
+          const blob = await response.blob();
+          audioElement.src = URL.createObjectURL(blob);
+          audioElement.onerror = () => {
+            audioElement.remove();
+          };
+          previewContainer.appendChild(audioElement);
+        } else if (contentType.startsWith("video")) {
+          const videoElement = document.createElement("video");
+          videoElement.controls = true;
+          videoElement.style.width = "100%";
+          // src the response
+          const blob = await response.blob();
+          videoElement.src = URL.createObjectURL(blob);
+          videoElement.onerror = () => {
+            videoElement.remove();
+          };
+          previewContainer.appendChild(videoElement);
+        }
+      });
+
+      // const imageElement = document.createElement("img");
+      // imageElement.loading = "lazy";
+      // imageElement.src = `https://tode.party?${upload.name}`;
+      // imageElement.style.width = "100%";
+      // imageElement.style.objectFit = "contain";
+      // imageElement.style.border = "1px solid rgb(159, 174, 238)";
+      // imageElement.style.backgroundColor = "rgb(55, 67, 98)";
+      // imageElement.style.height = "300px";
+      // imageElement.onerror = () => {
+      //   imageElement.remove();
+      // };
+
+      // const audioElement = document.createElement("audio");
+      // audioElement.controls = true;
+      // audioElement.src = `https://tode.party?${upload.name}`;
+      // audioElement.style.width = "100%";
+      // audioElement.onerror = () => {
+      //   audioElement.remove();
+      // };
 
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "Delete";
@@ -269,8 +321,7 @@
 
       uploadsElement.appendChild(uploadElement);
       uploadElement.appendChild(nameElement);
-      uploadElement.appendChild(imageElement);
-      uploadElement.appendChild(audioElement);
+      uploadElement.appendChild(previewContainer);
       uploadElement.appendChild(deleteButton);
     }
   }
