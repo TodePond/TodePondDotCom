@@ -31410,8 +31410,8 @@ for (const cell of cells) {
       const deltaTime = time - previousTime;
       previousTime = time;
 
-      // const eventCount = Math.min(EVENT_RATE * deltaTime, EVENT_MAX);
-      const eventCount = 700;
+      // const eventCount = Math.min(EVENT_RATE * deltaTime, 4000);
+      const eventCount = 2000;
       for (let i = 0; i < eventCount; i++) {
         const x = Math.floor(Math.random() * WORLD_WIDTH);
         const y = Math.floor(Math.random() * WORLD_HEIGHT);
