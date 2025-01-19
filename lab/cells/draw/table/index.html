@@ -31303,7 +31303,7 @@ for (const cell of cells) {
   {
     const WORLD_WIDTH = 100;
     const WORLD_HEIGHT = 100;
-    const EVENT_RATE = 1000;
+    const EVENT_RATE = 100;
     const NEIGHBOUR_POSITIONS = [
       [0, -1],
       [1, -1],
@@ -31401,8 +31401,18 @@ for (const cell of cells) {
       return +`${newR}${newG}${b}`;
     }
 
-    function tick() {
-      for (let i = 0; i < EVENT_RATE; i++) {
+    let previousTime = 0;
+    function tick(time) {
+      if (!time) {
+        requestAnimationFrame(tick);
+        return;
+      }
+
+      const deltaTime = time - previousTime;
+      previousTime = time;
+
+      const eventCount = EVENT_RATE * deltaTime;
+      for (let i = 0; i < eventCount; i++) {
         const x = Math.floor(Math.random() * WORLD_WIDTH);
         const y = Math.floor(Math.random() * WORLD_HEIGHT);
         const cell = cells[y * WORLD_WIDTH + x];
