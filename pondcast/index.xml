@@ -300,5 +300,13 @@
           <enclosure url="https://www.todepond.com/pondcast/past-and-present-and-future/1.m4a" length="61431254" type="audio/mpeg" />
         </item>
       
+
+        <item>
+          <title>Living patterns + Live patterns</title>
+          <link>https://www.todepond.com/pondcast/living-patterns-and-live-patterns</link>
+          <pubDate>Sun, 26 Jan 2025 19:00:00 GMT</pubDate>
+          <enclosure url="https://www.todepond.com/pondcast/living-patterns-and-live-patterns/1.m4a" length="43609122" type="audio/mpeg" />
+        </item>
+      
         </channel>
       </rss>
