@@ -31421,6 +31421,19 @@ for (const cell of cells) {
       const deltaTime = time - previousTime;
       previousTime = time;
 
+      const maxRandomValueIndex = 2 ** 14;
+      const randomValues = crypto.getRandomValues(new Uint32Array(2 ** 14));
+      let randomValuesIndex = 0;
+
+      function getRandomInt() {
+        randomValuesIndex++;
+        if (randomValuesIndex >= maxRandomValueIndex) {
+          randomValuesIndex = 0;
+          crypto.getRandomValues(randomValues);
+        }
+        return randomValues[randomValuesIndex];
+      }
+
       // const eventCount = Math.min(EVENT_RATE * deltaTime, 4000);
       const eventCount = 1000 * (window.speedModifier ?? 1);
       for (let i = 0; i < eventCount; i++) {
