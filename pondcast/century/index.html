@@ -1,0 +1,204 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond pondcast</title>
+<link rel="shortcut icon" href="/favicon.png" />
+
+<link rel="stylesheet" href="/pondcast/style.css" />
+
+<p class="" style="margin-bottom: 0px; margin-top: -20px; text-shadow: none">
+  The weekly TODEPOND PONDCAST is for paying supporters only.<br />
+  Please only listen / read if you've
+  <a href="https://www.patreon.com/todepond" style="text-shadow: none">paid</a>
+  :)
+</p>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  a * {
+    text-shadow: none;
+  }
+  details[open] summary::marker {
+    content: "";
+  }
+
+  details summary::marker {
+    content: "";
+  }
+
+  summary {
+    background-color: black !important;
+    height: 33px;
+    padding-right: 10px;
+    padding-left: 6px;
+    border: 1px solid white;
+    text-shadow: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  summary:hover {
+    background: var(--real-rainbow-gradient);
+    color: black;
+    background-size: 700% 900%;
+  }
+
+  @media (pointer: coarse) {
+    summary:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  summary {
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 10px 0px;
+    font-size: 1.1em;
+    border: none;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+
+  audio {
+    z-index: 100;
+  }
+</style>
+<details id="paid-toggle">
+  <summary class="button highlighted">→ Click here if you've paid!</summary>
+
+  <script>
+    const thanks = "✰ Thanks for supporting me!";
+    const key = window.location.pathname + "paid";
+    console.log(key);
+    const paid = localStorage.getItem(key);
+    const details = document.getElementById("paid-toggle");
+    const summary = details.querySelector("summary");
+    if (paid) {
+      details.open = true;
+      summary.textContent = thanks;
+    }
+    details.addEventListener("toggle", (event) => {
+      if (details.open) {
+        localStorage.setItem(key, "true");
+        summary.textContent = thanks;
+      } else {
+        localStorage.removeItem(key);
+        summary.textContent = "→ Click here if you've paid!";
+      }
+    });
+  </script>
+
+  <hr style="margin-top: 18px; position: absolute; left: 0px; right: 0px" />
+
+  <audio controls style="position: sticky; top: 10px; margin-top: 38px">
+    <source src="1.mp3" type="audio/mpeg" />
+  </audio>
+  <h1 style="margin-bottom: 10px; margin-top: 30px; overflow: hidden">
+    TODEPOND PONDCAST: Century
+  </h1>
+  <p>Welcome back to another—</p>
+  <p>
+    These updates have stopped being weekly, which is bad. I hereby declare
+    bankruptcy on keeping up to date with my deadlines. To get back on track,
+    I&#39;m going to reduce the quality of these posts. I&#39;m pretty sure this
+    will let me get back to a weekly cadence.
+  </p>
+  <p>Welcome back to the...</p>
+  <p>🐸 TODEPOND PONDCAST 🐸</p>
+  <p>What&#39;s new?</p>
+  <h2 id="dialogues-on-natural-code">Dialogues on natural code</h2>
+  <p>
+    I properly &quot;launched&quot; the paper I wrote with Dave Ackley. You can
+    read the launch and the paper at <a href="/code">todepond.com/code</a>.
+  </p>
+  <p>
+    It contains some reflections and warnings about publishing through the ACM.
+  </p>
+  <p>
+    Thanks again to everyone who has contributed to the Living Computation
+    Foundation at any point. You helped to support me and some of the costs I
+    complained about in the <a href="/code">launch</a>.
+  </p>
+  <p><br /></p>
+  <p>
+    Publishing a paper like this brings us some legitimacy. In Dave&#39;s
+    <a href="https://youtu.be/E1F4kbNPWPM?si=MrxAEKDxWHebcjEC"
+      >most recent update</a
+    >, he mentioned how his progress meter has now moved onto the next stage.
+    The previous milestone was, of course, being mocked by your
+    <em>precious</em> Alan Kay.
+  </p>
+  <h2 id="two-two-two-two">Two two two two</h2>
+  <p>
+    I did a
+    <a href="https://www.youtube.com/live/Zgq64ONM_5U?si=MzzgXZbDhAUm_qO0"
+      >challenge livestream</a
+    >. It was called Two Two Two Two.
+  </p>
+  <p>
+    The challenge was to complete Ivan Reese&#39;s ridiculous 2222 game four
+    times in two hours twenty two minutes and twenty two seconds. I started at
+    two o&#39;clock.
+  </p>
+  <p>
+    If you have no idea what I&#39;m talking about then feel free to watch the
+    <a href="https://www.youtube.com/live/Zgq64ONM_5U?si=MzzgXZbDhAUm_qO0"
+      >full livestream</a
+    >, although I doubt that would clear up much.
+  </p>
+  <p><br /></p>
+  <p>
+    With the conclusion of this livestream, I now have three different
+    &quot;formats&quot; of livestream that I can do. I think they&#39;re all
+    pretty fun. In future livestreams, I can stick to these formats but up the
+    ante.
+  </p>
+  <h2 id="top-99-ways-to-make-sand">Top 99 ways to make sand</h2>
+  <p>Now the biggest news.</p>
+  <p>
+    I released a
+    <a href="https://www.youtube.com/watch?v=4cmf09JjB8c">teaser trailer</a> for
+    the next video, Top 99 Ways To Make Sand. Watch it now
+    <a href="https://www.youtube.com/watch?v=4cmf09JjB8c">here</a>!
+  </p>
+  <p>
+    I changed plans away from my original plans. I was originally going to use
+    the first section of the final video for the teaser trailer. But that
+    section involves some slightly fiddly effects, so it&#39;s not ready yet.
+    Rather than hold back the trailer for longer, I decided to do it in a
+    different way. And I&#39;m pleased I did! It ended up being a bigger deal in
+    the end.
+  </p>
+  <p>
+    Anyway, that&#39;s it for this week! Thank you for being here... And
+    wherever you are in the world... whatever you&#39;re doing... I hope you
+    have a great week.
+  </p>
+  <p>
+    <em>Days since tode fell asleep: <span id="days-tode">752</span></em>
+    <br />
+    <em>Days since bot went missing: <span id="days-bot">717</span></em>
+    <br />
+    <em>Days since berd flew away: <span id="days-berd">380</span></em>
+  </p>
+
+  <p><br /></p>
+
+  <p>Back to the <a href="/pondcast/">pondcast</a>.</p>
+</details>
