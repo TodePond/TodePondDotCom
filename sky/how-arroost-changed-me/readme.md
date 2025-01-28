@@ -196,17 +196,13 @@ I always loved—
 
 These machines are bonkers. When you play one, it's chaotic, it's messy, it's silly, it's stupid, it's scrappy. And despite being toy-like, they're actually really *hard* to play. It often sounds quite "bad" when you play one.
 
-Paradoxically, the otomatone (for example) is easy to play because of how hard it is to play it. It's hard and this makes it easy. Because there's no expectation to sound "good".
+Paradoxically, the otomatone (for example) is easy to play because it's hard to play. It's hard and this makes it easy. Because there's no expectation to sound "good".
 
 > The only reason you play an otomatone is to have fun... and express yourself... not to sound good... or be impressive...
 
 I steadily grew my collection of toy instruments and nonsense machines. A stylophone, a slide whistle, a bigger ukulele! I mean, they're not really toy instruments. They're real instruments, but they're sometimes incorrectly perceived that way: As unserious silly toys.
 
-To me, this misperception is helpful. It takes the pressure off. It reminds me to have fun and "play". Not "play" as in "perform" but "play" as in "play".
-
-<br>
-
-I received an otomatone as a gift and I started going by any [pronoun](/pronouns).
+To me, this misperception is helpful. It takes the pressure off. It reminds me to have fun and "play". Not "play" as in "perform" but "play" as in "play". Anyway, I received an otomatone as a gift and I changed my [pronouns](/pronouns).
 
 ## Electroplankton
 
@@ -220,11 +216,11 @@ Yes, in my arrogance, I thought I had learned everything there was to learn abou
 
 It's ridiculous really, but I—
 
-Yes, I thought I would put my learnings to good use and make a [tool](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools). I would make a single tool that captures and conveys my [idea](https://www.todepond.com/wikiblogardenite/no/more/ideas/in/the/world/). My single idea that / about creativity and how to do it. Yes! It would be my greatest work / my finest work to date. The latest radical mind altering substance from the tode pond lab.
+Yes, I thought I would put my learnings to good use and make a [tool](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/no-more-tools). I would make a single tool that captures and conveys my [idea](https://www.todepond.com/wikiblogardenite/no/more/ideas/in/the/world/): My single idea that / about creativity and how to do it. Yes! It would be my greatest work / my finest piece to date: The latest radical mind altering substance straight outta the tode pond lab.
 
 Little did I know...
 
-I was about to be deeply humbled and *changed* by what happened next. 
+Little did I know, I was about to be deeply humbled and *changed* by what happened next. 
 
 <br>
 
@@ -232,11 +228,11 @@ I was about to be deeply humbled and *changed* by what happened next.
 
 <br>
 
-Normally, it's me. Normally, I'm the one who's telling other people to [share scrappy fiddles](https://www.youtube.com/watch?v=MJzV0CX0q8o), or more specifically, [normalise sharing scrappy fiddles](https://www.todepond.com/sky/normalise-dont-share-lol). But I've never told the story about how scrappy fiddles became normalised for me: For myself, sharing scrappy fiddles wasn't always normal. 
+Normally it's me. Normally *I'm* the one who's telling *other* people to [share scrappy fiddles](https://www.youtube.com/watch?v=MJzV0CX0q8o), or more specifically, [normalise sharing scrappy fiddles](https://www.todepond.com/sky/normalise-dont-share-lol). But I've never told the story about how scrappy fiddles became normalised for myself: For myself, sharing scrappy fiddles wasn't always normal. 
 
-What, you think I was born like this? Sharing non stop, ever open and blah blah blah No! 
+I wasn't born like this. No! 
 
-No! It's something that happened to me and I increased my oestrogen dose from one patch to two.
+No! It's something that *happened* to me and I increased my oestrogen dose from one patch to two.
 
 <br>
 
