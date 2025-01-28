@@ -192,7 +192,7 @@ Anyway, I joined the tldraw team and I decided that either's fine: My name. Eith
 
 I always loved—
 
-[Maywa Denki](https://www.youtube.com/watch?v=jKPBD3HHU4g) is an electronics company that makes [nonsense machines](https://www.youtube.com/watch?v=vX-dEq4UDYI), like [Mr Knocky] and [Sushi Go] and the infamous [Otomatone](https://youtu.be/YqKt7XL54Mo?si=PvaZ0FoIZV0ApmZB).
+[Maywa Denki](https://www.youtube.com/watch?v=jKPBD3HHU4g) is an electronics company that makes [nonsense machines](https://www.youtube.com/watch?v=vX-dEq4UDYI), like [Mr Knocky](https://youtu.be/DcYUfO-5_Dc?si=Sf40Rk6A-rtmIqAR) and [Sushi Go](https://youtu.be/1fXIQKw2gdg?si=ek7GzsIUBV10vPCK) and the infamous [Otomatone](https://youtu.be/YqKt7XL54Mo?si=PvaZ0FoIZV0ApmZB).
 
 These machines are bonkers. When you play one, it's chaotic, it's messy, it's silly, it's stupid, it's scrappy. And despite being toy-like, they're actually really *hard* to play. It often sounds quite "bad" when you play one.
 
