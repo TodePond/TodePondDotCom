@@ -172,7 +172,7 @@ Instead, you feel free to "get on with it" and get your thinking down on the pag
 
 A low fidelity drawing can certainly be messy. But a low fidelity drawing can also be neat.
 
-It's not the fidelity that matters. You can make some extremely high fidelity drawings in tldraw. We see this all the time. But those high fidelity boards are still messy. They still have the same imperfect splodgy wobbles as every other tldraw drawing.
+It's not the fidelity that matters. You can make some extremely high fidelity drawings in tldraw. We see this all the time. But those high fidelity boards are still messy. They still have the same imperfect splodgy wobbles as every other tldraw creation.
 
 These high fidelity drawings— The high fidelity drawings that people make in tldraw— These high fidelity drawings are not high fidelity **despite** being scrappy. They are high fidelity **because** they are scrappy: The tool's looseness loosens up the person drawing. It lets them draw and draw and draw and—
 
