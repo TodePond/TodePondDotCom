@@ -170,7 +170,7 @@ Instead, you feel free to "get on with it" and get your thinking down on the pag
 
 [Peter van Hardenberg](https://www.pvh.ca/) from [ink and switch](https://www.inkandswitch.com/) often tells me, "The fidelity of the tool should match the fidelity of the idea" when referring to tldraw. As in... He says tldraw is good because it's low fidelity and that matches the fidelity of your— and I disagree, or at least, I mean— Maybe I agree, maybe I don't. I don't really care. But either way, it's missing the point. 
 
-A low fidelity drawing can certainly be messy. A low fidelity drawing can also be neat.
+A low fidelity drawing can certainly be messy. But a low fidelity drawing can also be neat.
 
 It's not the fidelity that matters. You can make some extremely high fidelity drawings in tldraw. We see this all the time. But those high fidelity boards are still messy. They still have the same imperfect splodgy wobbles as every other tldraw drawing.
 
