@@ -66,11 +66,11 @@ For the first time, I made an active effort to seek contributions from the commu
 
 I accepted most of these contributions, and they made arroost much better. For example, [jessie](https://jessiejs.github.io/) added some great visual changes that made it feel far more tangible. 
 
-![jessie's design](https://private-user-images.githubusercontent.com/63984309/265826558-706a4484-ce27-4037-9db4-54f63dbbe560.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg0MDMxNTksIm5iZiI6MTczODQwMjg1OSwicGF0aCI6Ii82Mzk4NDMwOS8yNjU4MjY1NTgtNzA2YTQ0ODQtY2UyNy00MDM3LTlkYjQtNTRmNjNkYmJlNTYwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjAxVDA5NDA1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJhZmFkN2Y4M2EzYWRhZTUxNDg0ZjcwMjExZDEyNzI1MjgxNWVlYmZjZmE4ZmQ3OTAwYmQ2YzE1ZjAwM2YyZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QpEhXSEAJsMK7DdPvaDC0SXuGnN7ZrkfqBJ6j0PeV-g)
+![jessie's design](shadow.png)
 
 However, I rejected another contribution because it didn't match the goals that I personally had in mind for arroost. For me, it was really important that arroost didn't look "good" or "polished", and for me... these designs were simply too good. There's nothing wrong with them, and they're great designs. I really really love them! And if I wanted to turn arroost into a product or a game, I would use them. But they didn't fit the goals I had in mind at that time of my life.
 
-![nice node designs](https://private-user-images.githubusercontent.com/63984309/287545906-104a1b6a-33cb-4463-af5b-b72e45ca1560.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg0MDUxNTMsIm5iZiI6MTczODQwNDg1MywicGF0aCI6Ii82Mzk4NDMwOS8yODc1NDU5MDYtMTA0YTFiNmEtMzNjYi00NDYzLWFmNWItYjcyZTQ1Y2ExNTYwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjAxVDEwMTQxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQyNzY4NjNhMzA0ZWU5NTM0YTgwYTc1ZTZhMjhlYTUzMTI5NzdhODAxZDc3ODRkZTZmNGM1NWFkZDBiODc5Y2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2LpTOIRsPkv0a6GofIysom3jlPUiwt_FTTxsHatc5Oo)
+![nice node designs](icon.png)
 
 When your contribution gets rejected, it's not a nice feeling. I don't think it would encourage you to get more involved.
 
