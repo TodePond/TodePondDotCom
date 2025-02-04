@@ -30,7 +30,7 @@ But I am also [benevolent dictator for life](https://en.m.wikipedia.org/wiki/Ben
 
 <br>
 
-<hr>
+<br>
 
 <br>
 
@@ -220,12 +220,12 @@ I offer you this idea:
 
 > When I say things to you, it's because I think it's the right thing to do at that moment in time. That doesn't mean you have to accept it, or follow it, or even listen. Please, I invite you to judge the [code](/code) I transmit! Do you [let it die](https://www.pastagang.cc/blog/let-code-die/)? or let it sit? 
 > 
-> You're a player like me. What will YOU say?
+> It's a two way street You're a player like me. What will YOU say?
 
 <br>
 
 <br>
 
-jesus fuckin christ its been a stressful week trying to sort out flat stuff and i guess all the news the blog posts have ended up weird back to the [wikiblogardenite](/wikiblogardenite)
+back to the [wikiblogardenite](/wikiblogardenite)
 
 
