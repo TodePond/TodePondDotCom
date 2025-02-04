@@ -220,7 +220,7 @@ I offer you this idea:
 
 > When I say things to you, it's because I think it's the right thing to do at that moment in time. That doesn't mean you have to accept it, or follow it, or even listen. Please, I invite you to judge the [code](/code) I transmit! Do you [let it die](https://www.pastagang.cc/blog/let-code-die/)? or let it sit? 
 > 
-> You're a player like me. What will you say?
+> You're a player like me. What will YOU say?
 
 <br>
 
