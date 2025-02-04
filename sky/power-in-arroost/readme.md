@@ -152,7 +152,7 @@ Giving people exactly what they want is how we ended up with tiktok feeds and ev
 
 We are animals! Our minds and bodies are not yet evolved for the information age. Our fleshy prisons have not yet learned to ignore a dopamine signal if it comes from a scrollable page. 
 
-Yes, if you really love someone, you don't give them the dopamine fix their body wants / that suffocates. You give them something that makes a positive impact instead.
+Yes, if you really love someone, you don't give them the dopamine fix their body wants but shouldn't. You give them something that makes a positive impact instead.
 
 I think that should be obvious! 
 
@@ -168,7 +168,7 @@ Love is unconditional! It's not a trade or a transaction. You do it because you 
 
 Because of this, love puts you in a vulnerable position. Because... When you act out of love, there's a chance that you'll be ignored or rejected. 
 
-And for me, this is the big glaring issue with power in arroost, and it's something that it prominent within Melanie's course: Consent.
+And for me, this is the big glaring issue with power in arroost, and it's something that is prominent within Melanie's course: Consent.
 
 <br>
 
@@ -180,9 +180,11 @@ I imposed my views of what I thought would be beneficial... onto others.
 
 Listen, I thought I was right: I thought it was a "helpful" thing to do! But I didn't ask people if they wanted me to make those decisions or changes: I just did them. 
 
-It would be so much more empowering if I let you choose: Choose which features you wanted and which ones you didn't. Because then... if you do decide to use arroost as I offer it, and it works out... Then it's even more clearly you who succeeded, instead of me stealing your credit.
+It would be so much more empowering if I let you choose: Choose which features you wanted and which ones you didn't. Because then... if you do decide to use arroost as I offer it, and it works out... Then it's even more clearly your success, instead of mine— me stealing your credit.
 
-I shouldn't get to claim victory when you benefit from using arroost. That belongs to you! Not to me or to arroost but to you.
+I shouldn't get to claim victory when you do well with arroost. That belongs to you! Not to me or to arroost but to you.
+
+<br>
 
 Too many of our tools (including mine) claim to empower people but instead impose their own constricted world view.
 
@@ -204,7 +206,7 @@ This is what I think:
 
 A good tool should empower users. It should not come as a "prescription", but as an "offering".
 
-I don't want to be yet-another-tech-bro. I'm not here to [tell you how to live your life](https://vimeo.com/906418692) but that is what I am doing more and more... It's bad. 
+I don't want to be yet-another-tech-bro. I'm not here to [tell you how to live your life](https://vimeo.com/906418692) but that is what I am doing more and more and more... and it's bad. 
 
 <br>
 
@@ -212,7 +214,7 @@ I don't want to be yet-another-tech-bro. I'm not here to [tell you how to live y
 
 <br>
 
-After my [opening keynote](https://www.youtube.com/watch?v=MJzV0CX0q8o) at Heart of Clojure, I experienced three days of people telling me, "I'm gonna do what you told me to do" and I was repeatedly like "No no no only if you want to! You don't have to do what I tell you" and for the first time in my life, I was a bit scared by people *obeying* me. 
+After my [opening keynote](https://www.youtube.com/watch?v=MJzV0CX0q8o) at Heart of Clojure, I experienced three days of people telling me, "I'm gonna do what you said" and I was repeatedly like "No no no only if you want to! You don't have to do what I tell you" and for the first time in my life, I was a bit scared by people *obeying* me. 
 
 So when I sat down with people on the final day of the conference, they seemed slightly surprised by my frustration and/or disappointment with myself.
 
@@ -222,9 +224,9 @@ Please, I invite you to listen to me:
 
 I offer you this idea:
 
-> When I say things to you, it's because I think it's the right thing to do at that moment in time. That doesn't mean you have to accept it, or follow it, or even listen. Please, I invite you to judge the [code](/code) I transmit! Do you [let it die](https://www.pastagang.cc/blog/let-code-die/)? or let it sit? 
+> When I say things to you, it's because I think it's the right thing to say at that moment in time. That doesn't mean you have to accept it, or follow it, or even listen. Please, I invite you to judge the [code](/code) I transmit! Do you [let it die](https://www.pastagang.cc/blog/let-code-die/)? or do you let it sit? 
 > 
-> It's a two way street You're a player like me. What will YOU say?
+> It's a two way street. You're a player like me. What will YOU say???!?!!??!!!?!
 
 <br>
 
