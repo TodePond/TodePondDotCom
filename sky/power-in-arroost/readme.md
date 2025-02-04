@@ -168,7 +168,7 @@ Love is unconditional! It's not a trade or a transaction. You do it because you 
 
 Because of this, love puts you in a vulnerable position. Because... When you act out of love, there's a chance that you'll be ignored or rejected. 
 
-And for me, this is the big glaring issue with power in arroost: Consent.
+And for me, this is the big glaring issue with power in arroost, and it's something that it prominent within Melanie's course: Consent.
 
 <br>
 
