@@ -26,7 +26,7 @@ By taking away control from the "user", I gain more power myself, as the "author
 
 In my heart— In my essay, I give my reasons for doing this. It's to help people! It's to help myself. I am a user of arroost too, after all.
 
-But I am also [benevolent dictator for life](https://en.m.wikipedia.org/wiki/Benevolent_dictator_for_life) of arroost! I hold all the power.
+But I am also [benevolent dictator for life](https://en.m.wikipedia.org/wiki/Benevolent_dictator_for_life)! I hold all the power.
 
 <br>
 
