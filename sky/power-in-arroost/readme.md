@@ -178,11 +178,15 @@ And for me, this is the big glaring issue with power in arroost, and it's someth
 
 I imposed my views of what I thought would be beneficial... onto others.
 
-Listen, I think I was right: I think it was a "helpful" thing to do! But I didn't ask people if they wanted me to make those decisions or changes: I just did them. 
+Listen, I thought I was right: I thought it was a "helpful" thing to do! But I didn't ask people if they wanted me to make those decisions or changes: I just did them. 
 
-It would be so much more empowering if I let you choose: Choose which features you wanted and which ones you didn't. Because then... if you do decide to use arroost as I offer it, and it works out... Then it's you who succeeded, instead of me. 
+It would be so much more empowering if I let you choose: Choose which features you wanted and which ones you didn't. Because then... if you do decide to use arroost as I offer it, and it works out... Then it's even more clearly you who succeeded, instead of me stealing your credit.
 
-I shouldn't get to claim victory when someone else benefits from using arroost. That belongs to them! Not to me. Not to arroost. But to them. 
+I shouldn't get to claim victory when you benefit from using arroost. That belongs to you! Not to me or to arroost but to you.
+
+Too many of our tools (including mine) claim to empower people but instead impose their own constricted world view.
+
+As developers, researchers, whatevers, this is all we seem to do. Software is repeatedly a controlling and limiting and manipulating force.
 
 <br>
 
