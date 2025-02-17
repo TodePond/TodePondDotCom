@@ -214,7 +214,7 @@ However, when the end came, no one mentioned those things. All of the families a
 
 <br>
 
-It's true that I've made many many many mistakes in my education career, and career on the whole. I've fucked up many times, and a I'll fuck up many more. 
+It's true that I've made many many many mistakes in my education career, and career on the whole. I've fucked up many times, and I'll fuck up many more. 
 
 But after it all, I can truly say— I am truly happy / relieved to say— When it came to my leaving, and Special assembly, I know that we did it right. 
 
