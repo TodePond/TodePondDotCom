@@ -146,7 +146,7 @@ No answer.
 
 The stimming stopped. 
 
-Then his answer came, and I said, "Yes, that's totally fine." Then we hugged, high fived, shook hands and waved, then he left.
+His answer came, and I said, "Yes, that's totally fine." Then we hugged, high fived, shook hands and waved, then he left.
 
 Karan left with his mum and I said goodbye again later in the playground, where he reminded me to watch the new Spiderman film when it comes out, and to email the school to say what I think of it.
 
