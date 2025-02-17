@@ -146,11 +146,11 @@ No answer.
 
 The stimming stopped. 
 
-His answer came, and I said, "Yes, that's totally fine." Then we hugged, high fived, shook hands and waved, then he left.
+His answer came, and I said, "Yes, that's totally fine." Then we hugged, high fived, shook hands and waved, and he left.
 
 Karan left with his mum and I said goodbye again later in the playground, where he reminded me to watch the new Spiderman film when it comes out, and to email the school to say what I think of it.
 
-Two months later, I kept my promise and emailed Alex with my review. It was great, just as Karan had predicted. 
+Two months later, I kept my promise and emailed Miss K with my review. It was great, just as Karan had predicted. 
 
 "Are you ready now Harry?"
 
@@ -206,7 +206,7 @@ Everyone was gone from the classroom and I sat in emptiness, ready to tidy up my
 
 I was always worried that I had not done enough as a teacher. I wondered if I could have or should have done more or better to help them to learn phonics or arithmetic or even social skills or sports or everything else. I always grappled with, or I should say— I struggled to grapple with the fact that my own performance could shape the future success in these children's educations and therefore lives. I always felt guilty about not working those extra evenings to get extra things ready, or to think things through more. 
 
-However, when the end came, no one mentioned those things. All of the families and parents thanked me for the same thing: They thanked me for caring about their child, and respecting them, and giving them time. This reassured me. 
+However, when the end came, no one mentioned that. All of the families and parents thanked me for the same thing: They thanked me for caring for their child, and respecting them, and giving them time. This reassured me. 
 
 <br>
 
