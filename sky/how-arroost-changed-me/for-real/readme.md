@@ -154,7 +154,7 @@ I will come out time and time again: out of the closet and out of my shell. I kn
 
 With arroost—
 
-Arroost changed me because it made me practise coming out of my shell with music. I care less and less about the rules! I now know that I don't need rhythm or timing or a beat. There's no "right" way to make music or sounds. And scales aren't real! Notes don't matter. I make the sounds that I want! I do what I want! And I'll keep coming out again and again to make that real! 
+Arroost changed me because it made me start coming out of my shell with music, and I haven't stopped. I care less and less about the rules! I now know that I don't need rhythm or timing or a beat. There's no "right" way to make music or sounds. And scales aren't real! Notes don't matter. I make the sounds that I want! I do what I want! And I'll keep coming out again and again to make that real! 
 
 Some people don't like it! 
 
