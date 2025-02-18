@@ -72,13 +72,13 @@ I'm telling you the truth. Making music in arroost is so far removed from "norma
 
 ## Letting go of time
 
-I used arroost every day while I was building it. I'd start most coding sessions with twenty to thirty minutes of use. And on days when I didn't work on it, I'd find the time for a quick arroost session, usually after work.
+I used arroost every day while I was building it. I'd start most coding sessions with twenty to thirty minutes of use. And on days when I didn't work on it, I'd find the time for a quick arroost session, usually after my commute home.
 
 It was fun trying out different sounds and instruments in it. I have a hearty collection of "toy" instruments like a stylophone and otomatone and more and it always surprised me how they would come out inside arroost.
 
 I think— When you do something every day, it changes how you think. I noticed my—
 
-During this time, I didn't stop playing my— I continued playing my baritone ukulele too, and making music in other ways. And I noticed that my non-arroosr music started to change, to become more like the music I made in arroost.
+During this time, I didn't stop playing my— I continued playing my baritone ukulele too, and making music in other ways. And I noticed that my non-arroost music started to change, to become more like the music I made in arroost.
 
 <br>
 
@@ -150,7 +150,7 @@ The killing of these practices is more widely known as "normalising sharing scra
 
 <br>
 
-I will come out time and time again: out of the closet and out of my shell. I know that being brave / expressing myself is not a one time thing. I don't do it and then it's done. "Being me" means consistently reaffirming who I am or what I'm about, and not just when it's easy, but especially when it's not easy. This is what it means to be open: To make yourself vulnerable: To leave your weak spots open. 
+I will come out time and time again: out of the closet and out of my shell. I know that being brave / expressing myself is not a one time thing. I don't do it and then it's done. "Being me" means consistently reaffirming who I am or what I'm about, and not just when it's easy, but especially when it's hard. This is what it means to be open: To make yourself vulnerable: To leave your weak spots open. 
 
 With arroost—
 
