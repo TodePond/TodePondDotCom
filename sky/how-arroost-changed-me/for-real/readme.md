@@ -1,4 +1,4 @@
-> Read [part one](/sky/how-arroost-changed-me).
+> Read [part one](/sky/how-arroost-changed-me) first.
 
 <br>
 
