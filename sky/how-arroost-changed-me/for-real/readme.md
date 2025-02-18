@@ -114,7 +114,7 @@ However, it did shape my experience of using it. It meant that any bit of code a
 
 There is no way to export or save or share arroost code, other than recording a video or audio snippet. There's no way for me to give someone else my arroost program. 
 
-For me, this put the emphasis onto the experience of using arroost, rather than creating some artifact from it. The goal became to be present / in the moment of using arroost: To enjoy it while it lasted. 
+For me, this put the emphasis onto the experience of using arroost, rather than creating some artifact from it. The goal became to be present / in the moment while using arroost: To enjoy it while it lasted. 
 
 For me, this firmly shaped arroost as something to "do" rather than something to "have done".
 
