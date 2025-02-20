@@ -68,7 +68,9 @@ So when I write a blog post, do I write my feelings? Or do I write what's import
 
 <br>
 
-WHY NOT BOTH???????
+<br>
+
+WELL WHY NOT BOTH???????
 
 <br>
 
