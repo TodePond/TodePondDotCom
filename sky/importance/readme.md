@@ -32,9 +32,9 @@ What they lack is bottom up, distributed effort. Put simply: There's more of us.
 
 In UK politics, there are more left wingers than right wingers, but we have historically failed to hold power because we all compete with each other instead of the real enemy: Right wing cunts.
 
-And when we do "win", we don't really, because we only end up with the fake left wing / our current right wing shitshow of a government: The miserable Labour party. The miserable Labour party pulls out policies from its arse that none of us wanted, like [trans](https://transactual.org.uk/blog/2024/08/23/statement-on-the-extended-ban-on-puberty-blockers/) and [beaver](https://www.theguardian.com/environment/2025/jan/14/no-10-blocks-beaver-release-plan-tory-legacy) eradication.
+And when we do "win", we don't really, because we only end up with the fake left wing / our current right wing shitshow of a government: The miserable Labour party. The miserable Labour party pulls out policies from its arse that none of us want, like [trans](https://transactual.org.uk/blog/2024/08/23/statement-on-the-extended-ban-on-puberty-blockers/) and [beaver](https://www.theguardian.com/environment/2025/jan/14/no-10-blocks-beaver-release-plan-tory-legacy) eradication.
 
-For real left wing victory, we need to cooperate. We need left wing movements to drop their stuff upper lip and to communicate and to work together, and Yes that includes Labour: We need Labour to need us because we need to bully them into behaving.
+For real left wing victory, we need to cooperate. We need left wing movements to drop their stiff upper lip and to communicate and to work together, and Yes that includes Labour: We need Labour to need us because we need to bully them into behaving.
 
 *Did you know that Labour party members voted to put forward highly important vote reform at their annual conference this year? But the top down leaders of the party shut it down. The Labour party is sick because it's being ruled by cunts who ignore the masses that ask for them to cooperate.*
 
