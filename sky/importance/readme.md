@@ -64,7 +64,7 @@ Well...
 
 What I do know is— One thing I know to be important is— Compromise is important. That's what I know. And like with most things in life, it's not [one or the other](https://www.todepond.com/report/definitions-that-dont-matter/).
 
-So when I write a blog post, do I share my feelings? Or do I share what's important? 
+So when I write a blog post, do I write my feelings? Or do I write what's important? 
 
 <br>
 
