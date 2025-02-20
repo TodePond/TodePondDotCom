@@ -36,7 +36,7 @@ And when we do "win", we don't really, because we only end up with the fake left
 
 For real left wing victory, we need to cooperate. We need left wing movements to drop their stiff upper lip and to communicate and to work together, and Yes that includes Labour: We need Labour to need us because we need to bully them into behaving.
 
-*Did you know that Labour party members voted overwhelmingly in favour of [crucial voting reform](https://www.independent.co.uk/news/uk/sarah-olney-the-bill-mps-commons-labour-b2658162.html) at their annual conference this year? But the top down leaders of the party shut it down because they're cunts. The Labour party is sick because it's being ruled by cunts who ignore the masses that ask for them to cooperate.*
+*Did you know that Labour party members voted overwhelmingly in favour of [crucial voting reform](https://www.independent.co.uk/news/uk/sarah-olney-the-bill-mps-commons-labour-b2658162.html) at their annual conference this year? But the top down leaders of the party shut it down because they're bellends. The Labour party is sick because it's being ruled by cunts who ignore the masses that ask for them to cooperate.*
 
 AAAAAAAAAAAARRRRRRRRRRGGGGGGGHHHHH
 
