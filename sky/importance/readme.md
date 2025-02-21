@@ -20,7 +20,7 @@ So what do I do? what do I do?
 
 <br>
 
-## The planet is dying
+<h2 id="planet">The planet is dying</h2>
 
 America is already dead, and we're next in line.
 
