@@ -338,6 +338,38 @@ for (const key in { age: 31 }) {
 <br />
 <br />
 
+<p>
+  By the way, all the examples on this page set
+  <code>configurable</code> to true, which means you can delete or redefine the
+  property later.
+</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  value: "Luke",
+  configurable: true
+})
+
+const player = { age: 31 }
+console.log(player.name)
+
+Reflect.defineProperty(Object.prototype, "name", {
+  value: "Bob",
+  configurable: true
+})
+
+console.log(player.name)
+</pre
+  >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "name")
+  </pre>
+</section>
+
+<br />
+<br />
+
 <h2>Getters</h2>
 
 <p>You can also define a property as a getter.</p>
@@ -483,10 +515,10 @@ Reflect.deleteProperty(Object.prototype, "d")
 
 <p>
   But wait! What if someone wants to use the <code>d</code> property themselves?
-  It's a commonly used property name for SVG paths, for example.
+  Currently, they can't use it because we've taken it over.
 </p>
 
-<p>Currently, they can't use it because we've taken it over.</p>
+<p>This example fails to set the <code>d</code> property.</p>
 
 <section class="snippet">
   <pre>
@@ -498,10 +530,56 @@ Reflect.defineProperty(Object.prototype, "d", {
   },
 })
 
-const path = { name: "triangle" }
-path.d = "M150 5 L75 200 L225 200 Z"
-console.log(object.d)
-  </pre>
+const polygon = {}
+polygon.a = [0, 0]
+polygon.b = [1, 0]
+polygon.c = [1, 1]
+polygon.d = [0, 1]
+
+console.log(polygon)</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+</pre
+  >
+</section>
+
+<br />
+<br />
+
+<p>
+  We can get around this by defining a setter that redefines the
+  <code>d</code> property.
+</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    const value = this.valueOf()
+    console.log(value)
+    return value
+  },
+  set(value) {
+    Reflect.defineProperty(this, "d", {
+      value,
+      enumerable: true,
+    })
+  },
+})
+
+const polygon = {}
+polygon.a = [0, 0]
+polygon.b = [1, 0]
+polygon.c = [1, 1]
+polygon.d = [0, 1]
+
+console.log(polygon)</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+</pre
+  >
 </section>
 
 <script type="module">
@@ -534,7 +612,7 @@ console.log(object.d)
   const _ReflectDefineProperty = Reflect.defineProperty;
   Reflect.defineProperty = function (target, propertyKey, descriptor) {
     const defaultDescriptor = {
-      configurable: false,
+      configurable: true,
     };
     const newDescriptor = { ...defaultDescriptor, ...descriptor };
     return _ReflectDefineProperty(target, propertyKey, newDescriptor);
