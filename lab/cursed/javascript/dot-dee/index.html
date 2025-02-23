@@ -60,6 +60,7 @@
 <p>Javascript is a powerful language. You can do lots of things with it.</p>
 
 <br />
+<br />
 
 <h2>Hello world</h2>
 
@@ -72,6 +73,7 @@
   <pre>console.log("Hello world")</pre>
 </section>
 
+<br />
 <br />
 
 <p>
@@ -90,8 +92,12 @@
     });
   </pre>
   <pre>"Hello world".d</pre>
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <p><code>.d</code> is very short. It only takes two key presses.</p>
@@ -106,9 +112,13 @@
       },
     });
   </pre>
-  <pre>const number = Math.random().toFixed(2).d</pre>
+  <pre>Math.random().toFixed(2).d</pre>
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <p>
@@ -134,8 +144,12 @@ if (age.d &lt; 18) {
   console.log("Welcome")
 }</pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <p>You can use <code>.d</code> anywhere! Get creative.</p>
@@ -155,8 +169,12 @@ const player = { name: "Luke".d, score: 100 }
 player.d.score += 42
 player.score.d</pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <h2>Everything is an object</h2>
@@ -191,19 +209,31 @@ console.log({age: 31}.name)
 delete Object.prototype.name
 </pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
-<br />
+<!-- <br />
 
 <br />
 
-<hr />
+<br />
 
+<hr /> -->
+
+<br />
 <br />
 
 <p>
   It's not a good idea to add things <em>directly</em> to
   <code>Object.prototype</code> because it messes up looping through objects.
+</p>
+
+<p>
+  It'll loop through the object's keys, but <em>also</em> through the keys you
+  added to the prototype, which is probably not what you want because it'll mess
+  up a lot of stuff, including other libraries.
 </p>
 
 <section class="snippet">
@@ -213,13 +243,13 @@ delete Object.prototype.name
         const value = this.valueOf();
         console.log(value);
         return value;
-      },
-    });
+      }
+    })
   </pre>
   <pre>
 Object.prototype.name = "Luke"
 
-for (const key in {age: 31}) {
+for (const key in { age: 31 }) {
   console.log(key)
 }
 </pre
@@ -228,8 +258,12 @@ for (const key in {age: 31}) {
 delete Object.prototype.name
 </pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <!-- <h2>Define property</h2> -->
@@ -243,7 +277,7 @@ delete Object.prototype.name
   <pre>
 Reflect.defineProperty(Object.prototype, "name", {
   value: "Luke"
-});
+})
 
 console.log("Test".name)
 console.log((1234).name)
@@ -251,25 +285,33 @@ console.log([3, 2, 5].name)
 console.log({age: 31}.name)
 </pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "name")
+  </pre>
 </section>
 
 <br />
+<br />
 
-<p>But it doesn't mess up looping.</p>
+<p>And it doesn't mess up looping.</p>
 
 <section class="snippet">
   <pre>
 Reflect.defineProperty(Object.prototype, "name", {
   value: "Luke"
-});
+})
 
-for (const key in {age: 31}) {
+for (const key in { age: 31 }) {
   console.log(key)
 }
 </pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "name")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <p>
@@ -282,21 +324,21 @@ for (const key in {age: 31}) {
 Reflect.defineProperty(Object.prototype, "name", {
   value: "Luke",
   enumerable: true
-});
+})
 
-for (const key in {age: 31}) {
+for (const key in { age: 31 }) {
   console.log(key)
 }</pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "name")
+  </pre>
 </section>
 
 <br />
-
 <br />
 
-<hr />
-
-<br />
+<h2>Getters</h2>
 
 <p>You can also define a property as a getter.</p>
 
@@ -304,14 +346,18 @@ for (const key in {age: 31}) {
   <pre>
 Reflect.defineProperty(Object.prototype, "name", {
   get() {
-    return "Luke";
+    return "Luke"
   }
-});
+})
 
 console.log("Test".name)</pre
   >
+  <pre class="hidden">
+    Reflect.deleteProperty(Object.prototype, "name")
+  </pre>
 </section>
 
+<br />
 <br />
 
 <p>You can add side effects to the getter.</p>
@@ -320,11 +366,10 @@ console.log("Test".name)</pre
   <pre>
 Reflect.defineProperty(Object.prototype, "name", {
   get() {
-    console.log("Hello");
-    return "Luke";
-  },
-  configurable: true
-});
+    console.log("Getting name...")
+    return "Luke"
+  }
+})
 
 console.log("Test".name)</pre
   >
@@ -332,6 +377,131 @@ console.log("Test".name)</pre
 Reflect.deleteProperty(Object.prototype, "name")
 </pre
   >
+</section>
+
+<br />
+<br />
+
+<p>
+  To make <code>.d</code> happen, the side effect just needs to log to the
+  console.
+</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    console.log(this)
+  },
+})
+
+"Hello world".d</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+  </pre>
+</section>
+
+<br />
+<br />
+
+<p>
+  But wait! It's not working right. It's not printing <code>Hello world</code>.
+  It's printing <code>"Hello world" </code> instead.
+</p>
+
+<p>
+  That's because we're printing the object itself, not the
+  <strong>primitive value</strong> of the object.
+</p>
+
+<p>We can get what we need by using the <code>valueOf</code> method.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    console.log(this.valueOf())
+  },
+})
+
+"Hello world".d</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+</pre
+  >
+</section>
+
+<br />
+<br />
+
+<p>It's logging the right thing now, but we can't plop it in anywhere yet.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    console.log(this.valueOf())
+  },
+})
+
+"Hello world".d.toUpperCase().d</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+</pre
+  >
+</section>
+<br />
+<br />
+
+<p>To fix it, we need to return the value itself in the getter</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    const value = this.valueOf()
+    console.log(value)
+    return value
+  },
+})
+
+"Hello world".d.toUpperCase().d</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "d")
+</pre
+  >
+</section>
+
+<br />
+<br />
+
+<h2>Escape plan</h2>
+
+<p>
+  But wait! What if someone wants to use the <code>d</code> property themselves?
+  It's a commonly used property name for SVG paths, for example.
+</p>
+
+<p>Currently, they can't use it because we've taken it over.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "d", {
+  get() {
+    const value = this.valueOf()
+    console.log(value)
+    return value
+  },
+})
+
+const path = { name: "triangle" }
+path.d = "M150 5 L75 200 L225 200 Z"
+console.log(object.d)
+  </pre>
 </section>
 
 <script type="module">
@@ -361,6 +531,15 @@ Reflect.deleteProperty(Object.prototype, "name")
 
   let hueIndex = 0;
 
+  const _ReflectDefineProperty = Reflect.defineProperty;
+  Reflect.defineProperty = function (target, propertyKey, descriptor) {
+    const defaultDescriptor = {
+      configurable: false,
+    };
+    const newDescriptor = { ...defaultDescriptor, ...descriptor };
+    return _ReflectDefineProperty(target, propertyKey, newDescriptor);
+  };
+
   const _consoleLog = console.log.bind(console);
   let consoleOffset = 0;
   console.log = function (message) {
@@ -387,6 +566,32 @@ Reflect.deleteProperty(Object.prototype, "name")
     document.body.append(div);
     setTimeout(() => div.remove(), 2000);
     _consoleLog(message);
+  };
+
+  const _consoleError = console.error.bind(console);
+  console.error = function (message) {
+    const div = document.createElement("div");
+    if (typeof message === "object") {
+      message = JSON.stringify(message, null, 2);
+    }
+    div.textContent = message;
+    div.style.pointerEvents = "none";
+    div.style.position = "fixed";
+    div.style.left = cursor.position[0] + 20 + "px";
+    div.style.top = cursor.position[1] - 8 + consoleOffset + "px";
+    consoleOffset += 25;
+
+    div.style.color = `var(--red)`;
+    div.style.fontFamily = "sans-serif";
+    div.style.fontSize = "20px";
+    div.style.textShadow =
+      "2px 2px 0px var(--black), -2px -2px 0px var(--black), 2px -2px 0px var(--black), -2px 2px 0px var(--black), 0px 2px 0px var(--black), 0px -2px 0px var(--black), 2px 0px 0px var(--black), -2px 0px 0px var(--black)";
+    div.style.zIndex = 1000;
+
+    div.style.animation = "rise-fade 2s ease-out forwards";
+    document.body.append(div);
+    setTimeout(() => div.remove(), 2000);
+    _consoleError(message);
   };
 
   const snippets = document.querySelectorAll(".snippet");
@@ -420,7 +625,8 @@ Reflect.deleteProperty(Object.prototype, "name")
         playButtonBounds.left + playButtonBounds.width - 10,
         playButtonBounds.top + playButtonBounds.height / 2,
       ];
-      new Function(code)();
+      const caughtCode = `try { ${code} } catch (e) { console.error(e.message) }`;
+      new Function(caughtCode)();
       // console.log(code);
     });
     snippet.append(playButton);
