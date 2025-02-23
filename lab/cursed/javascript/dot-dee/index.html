@@ -1,0 +1,428 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/matan-h/splash-css@master/dist/styles.css" />
+
+<style>
+  @font-face {
+    font-family: "FontWithASyntaxHighlighter";
+    src: url("/font/FontWithASyntaxHighlighter-Regular.woff2") format("woff2");
+  }
+  pre {
+    font-family: "FontWithASyntaxHighlighter", monospace;
+    font-size: 16px;
+  }
+
+  code {
+    font-family: "FontWithASyntaxHighlighter", monospace;
+    font-size: 16px;
+    padding-top: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.1em;
+  }
+
+  .snippet > pre {
+    margin-bottom: 0px;
+  }
+
+  @keyframes rise-fade {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>
+
+<h1>Dot dee</h1>
+
+<p>Javascript is a powerful language. You can do lots of things with it.</p>
+
+<br />
+
+<h2>Hello world</h2>
+
+<p>
+  You can print a message to the console by using
+  <code>console.log</code>.
+</p>
+
+<section class="snippet">
+  <pre>console.log("Hello world")</pre>
+</section>
+
+<br />
+
+<p>
+  With cursed javascript, you can also use
+  <code>.d</code>.
+</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>"Hello world".d</pre>
+</section>
+
+<br />
+
+<p><code>.d</code> is very short. It only takes two key presses.</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>const number = Math.random().toFixed(2).d</pre>
+</section>
+
+<br />
+
+<p>
+  You can use <code>.d</code> anywhere and it won't mess up the rest of your
+  code. You can even use it in conditionals.
+</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>
+const age = 31
+if (age.d &lt; 18) {
+  console.log("No entry")
+} else {
+  console.log("Welcome")
+}</pre
+  >
+</section>
+
+<br />
+
+<p>You can use <code>.d</code> anywhere! Get creative.</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>
+const player = { name: "Luke".d, score: 100 }
+player.d.score += 42
+player.score.d</pre
+  >
+</section>
+
+<br />
+
+<h2>Everything is an object</h2>
+
+<p>In javascript, everything is an <code>Object</code>.</p>
+
+<p>
+  So anything you add to <code>Object.prototype</code> gets added to
+  <em>everything</em>.
+</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>
+Object.prototype.name = "Luke"
+
+console.log("Test".name)
+console.log((1234).name)
+console.log([3, 2, 5].name)
+console.log({age: 31}.name)
+</pre
+  >
+  <pre class="hidden">
+delete Object.prototype.name
+</pre
+  >
+</section>
+
+<br />
+
+<br />
+
+<hr />
+
+<br />
+
+<p>
+  It's not a good idea to add things <em>directly</em> to
+  <code>Object.prototype</code> because it messes up looping through objects.
+</p>
+
+<section class="snippet">
+  <pre class="hidden">
+    Reflect.defineProperty(Object.prototype, "d", {
+      get() {
+        const value = this.valueOf();
+        console.log(value);
+        return value;
+      },
+    });
+  </pre>
+  <pre>
+Object.prototype.name = "Luke"
+
+for (const key in {age: 31}) {
+  console.log(key)
+}
+</pre
+  >
+  <pre class="hidden">
+delete Object.prototype.name
+</pre
+  >
+</section>
+
+<br />
+
+<!-- <h2>Define property</h2> -->
+
+<p>
+  It's better to use <code>Reflect.defineProperty</code> instead. It still adds
+  the property to everything.
+</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  value: "Luke"
+});
+
+console.log("Test".name)
+console.log((1234).name)
+console.log([3, 2, 5].name)
+console.log({age: 31}.name)
+</pre
+  >
+</section>
+
+<br />
+
+<p>But it doesn't mess up looping.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  value: "Luke"
+});
+
+for (const key in {age: 31}) {
+  console.log(key)
+}
+</pre
+  >
+</section>
+
+<br />
+
+<p>
+  This is because <code>Reflect.defineProperty</code> makes properties
+  non-enumerable by default. You can override this though.
+</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  value: "Luke",
+  enumerable: true
+});
+
+for (const key in {age: 31}) {
+  console.log(key)
+}</pre
+  >
+</section>
+
+<br />
+
+<br />
+
+<hr />
+
+<br />
+
+<p>You can also define a property as a getter.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  get() {
+    return "Luke";
+  }
+});
+
+console.log("Test".name)</pre
+  >
+</section>
+
+<br />
+
+<p>You can add side effects to the getter.</p>
+
+<section class="snippet">
+  <pre>
+Reflect.defineProperty(Object.prototype, "name", {
+  get() {
+    console.log("Hello");
+    return "Luke";
+  },
+  configurable: true
+});
+
+console.log("Test".name)</pre
+  >
+  <pre class="hidden">
+Reflect.deleteProperty(Object.prototype, "name")
+</pre
+  >
+</section>
+
+<script type="module">
+  const cursor = {
+    position: [innerWidth / 2, innerHeight / 2],
+  };
+
+  function updateCursorFromPointerEvent(e) {
+    cursor.position = [e.clientX, e.clientY];
+  }
+
+  addEventListener("pointermove", updateCursorFromPointerEvent);
+  addEventListener("pointerdown", updateCursorFromPointerEvent);
+  addEventListener("pointerup", updateCursorFromPointerEvent);
+
+  const HUES = [
+    "green",
+    // "cyan",
+    // "blue",
+    // "purple",
+    // "pink",
+    // "coral",
+    // "red",
+    // "orange",
+    // "yellow",
+  ];
+
+  let hueIndex = 0;
+
+  const _consoleLog = console.log.bind(console);
+  let consoleOffset = 0;
+  console.log = function (message) {
+    const div = document.createElement("div");
+    if (typeof message === "object") {
+      message = JSON.stringify(message, null, 2);
+    }
+    div.textContent = message;
+    div.style.pointerEvents = "none";
+    div.style.position = "fixed";
+    div.style.left = cursor.position[0] + 20 + "px";
+    div.style.top = cursor.position[1] - 8 + consoleOffset + "px";
+    consoleOffset += 25;
+
+    div.style.color = `var(--${HUES[hueIndex]})`;
+    hueIndex = (hueIndex + 1) % HUES.length;
+    div.style.fontFamily = "sans-serif";
+    div.style.fontSize = "20px";
+    div.style.textShadow =
+      "2px 2px 0px var(--black), -2px -2px 0px var(--black), 2px -2px 0px var(--black), -2px 2px 0px var(--black), 0px 2px 0px var(--black), 0px -2px 0px var(--black), 2px 0px 0px var(--black), -2px 0px 0px var(--black)";
+    div.style.zIndex = 1000;
+
+    div.style.animation = "rise-fade 2s ease-out forwards";
+    document.body.append(div);
+    setTimeout(() => div.remove(), 2000);
+    _consoleLog(message);
+  };
+
+  const snippets = document.querySelectorAll(".snippet");
+  for (const snippet of snippets) {
+    const playButton = document.createElement("button");
+    playButton.textContent = "▶ Run";
+    const pres = snippet.querySelectorAll("pre");
+    for (const pre of pres) {
+      pre.contentEditable = true;
+      pre.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && (e.ctrlKey || e.metaKey || e.altKey)) {
+          e.preventDefault();
+          playButton.click();
+          return;
+        }
+        if (e.key === "Enter") {
+          document.execCommand("insertLineBreak");
+          e.preventDefault();
+          return;
+        }
+      });
+    }
+    playButton.addEventListener("click", () => {
+      consoleOffset = 0;
+      const hidden = snippet.querySelector(".hidden");
+      const code = Array.from(pres)
+        .map((pre) => pre.textContent)
+        .join("\n");
+      const playButtonBounds = playButton.getBoundingClientRect();
+      cursor.position = [
+        playButtonBounds.left + playButtonBounds.width - 10,
+        playButtonBounds.top + playButtonBounds.height / 2,
+      ];
+      new Function(code)();
+      // console.log(code);
+    });
+    snippet.append(playButton);
+  }
+</script>
