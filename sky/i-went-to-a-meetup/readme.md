@@ -164,8 +164,6 @@ And yes, yes. It was very special to me, and it was all good learning.
 
 <br>
 
-<hr>
-
 <br>
 
 <br>
