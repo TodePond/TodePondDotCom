@@ -130,7 +130,7 @@ Music came out of my laptop and visuals came out of Laura's. That way, if I inev
 
 Loads and loads and loads of people joined in, like Bogdan and George and many more in the venue, and many more around the world. It was a convergence of different people! Some of us shared a physical space. Some of us shared a jam. We all shared an experience! 
 
-At that moment in time, that was the most people I had ever seen in one jam. Fortunately, we now knew how to handle that many people, thanks to all the learning. Nudel felt fast and the jam felt chaotic without going off the rails.
+At that moment in time, that was the most people I had ever seen in one jam. Fortunately, we knew how to handle that many people, thanks to all the learning. Nudel felt fast and the jam felt chaotic but not too much.
 
 <br>
 
