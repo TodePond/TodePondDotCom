@@ -44,7 +44,7 @@ When it got to the end, we did a jam in [dotcool](https://todepond.cool/flok), f
 
 While doing it, I felt strongly connected to the people around me, who felt less and less like strangers. People I had only met once before like [George](http://georgeash.co.uk/) (greg). People I had only just met, like [Laura](https://neuromatch.social/@laura_porta) (laura2). And more.
 
-I felt connected to all the people who joined from afar, like [Felix](https://garten.salat.dev/) (froos) and [Tristan](https://midirus.com/) (midirus) and [Hannes](https://guedelhoefer.dev/) (reckter). Three people who I feel I know scarily well despite never having met or even spoken to at all.
+I felt connected to all the people who joined from afar, like [Felix](https://garten.salat.dev/) (froos) and [Tristan](https://midirus.com/) (midirus) and [Hannes](https://guedelhoefer.dev/) (reckter). Three people who I feel I know scarily well despite never having met or even spoken.
 
 In that pub basement, I felt like I was part of something...
 
@@ -90,7 +90,7 @@ It was all good learning.
 
 <br>
 
-# I went to algojam
+# I went to an algojam
 
 I went to an algojam and it changed me forever.
 
