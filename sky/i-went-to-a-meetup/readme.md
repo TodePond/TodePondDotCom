@@ -108,7 +108,7 @@ I tried my best but I do wonder if I raced through everyone too fast with the ti
 
 <br>
 
-As people turned up, I saw Laura (laura2), Bogdan (boggo), George (greg), and some other people I knew like June (trampbunny).
+As people turned up, I saw Laura (laura2), Bogdan (boggo), George (greg), and some other people I knew like [June](https://trampbunny.tv/) (trampbunny).
 
 We all said yes, we'd be around for the pastagang slot and we'd give it a go! 
 
