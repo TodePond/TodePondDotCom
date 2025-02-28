@@ -176,5 +176,4 @@ The next algojam is [next week](https://lu.ma/35xf6hly).
 
 <br>
 
-Back to the [wikiblogardenite](/wikiblogardenite).
 
