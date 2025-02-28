@@ -126,7 +126,7 @@ I volunteered to be the idiot with the microphone, introducing pastagang and wha
 
 Then we did it! 
 
-Music came out of my laptop and visuals came out of Laura's. That way, if I inevitably break hydra, Laura can refresh her screen, and I don't have to. That way, we can keep both the sound and visuals going.
+Music came out of my laptop and visuals came out of Laura's. That way, when I inevitably break hydra, Laura can refresh her screen and I don't have to. That way, we can keep both the sound and visuals going.
 
 Loads and loads and loads of people joined in, like Bogdan and George and many more in the venue, and many more around the world. It was a convergence of different people! Some of us shared a physical space. Some of us shared a jam. We all shared an experience! 
 
@@ -136,7 +136,7 @@ At that moment in time, that was the most people I had ever seen in one jam. For
 
 I invited June to come over to my laptop to take over and do some hydra. It was at this moment that I realised that my hydra pane was broken, so this didn't work out. 
 
-In my "debugging" of this, I accidentally broke the hydra engine, and I forced a bunch of people to refresh. Sorry yaxu!
+In my overzealous "debugging" of this, I accidentally but inevitably broke hydra, forcing a bunch of people to refresh. Sorry yaxu!
 
 <br>
 
@@ -150,11 +150,13 @@ Luckily, enough people filmed bits and pieces of the slot. I stitched it all tog
 
 The night continued, and I signed up to do a solo visuals slot alongside Daniel.
 
-I had a lot of fun expressing my inner something with lots of recursion as usual! 
+I had a lot of fun expressing my inner something(?) with lots of recursion as usual! 
 
 I recorded it on [youtube](https://www.youtube.com/live/n49ahMFMzWs?si=HsTErx5emlg00mbS) but it's nothing without Daniel's sounds happening at the same time. I'll stitch it together whenever the recording of the night gets released on [compute.radio](https://compute.radio).
 
-After that, we did another pastagang slot. At this point, most people had left, so it just us keen pastagangers left. We were doing it for the fun of it and nothing else. 
+<br>
+
+After that, we did another pastagang slot. At this point, most people had gone home, so it was just us keen pastagangers remaining. We were doing it for the fun of it and nothing else. 
 
 And this time, we had three of us plugged in. Both me and Laura were plugged in for visuals, and George was plugged in for audio. That way, we were even more resilient to things going wrong. 
 
