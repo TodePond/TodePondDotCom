@@ -140,6 +140,10 @@ In my overzealous "debugging" of this, I accidentally but inevitably broke hydra
 
 <br>
 
+When the slot finished, Laura gave me a surprisingly hard fist pump. I shook out my hand to handle the pain.
+
+<br>
+
 Luckily, enough people filmed bits and pieces of the slot. I stitched it all together into a megamix, which you can watch on [youtube](https://youtu.be/mKE-aMVR0E4?si=aUj9YAwcI7x69k83) or download from the [internet archive](https://archive.org/details/pastagang-rhythms).
 
 <br>
