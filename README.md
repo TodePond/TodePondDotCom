@@ -1,4 +1,4 @@
-this is my website
+this is my website.
 
 there are many contributors thank you 
 
