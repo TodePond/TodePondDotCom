@@ -82,19 +82,7 @@ And, yes! I did manage to include some notes about live coding in my work: In th
 
 But there's always more I can do. I regret not being able to reference [Laurie Spiegel](https://www.youtube.com/watch?v=zLd1RUDmX6w&list=PLlBhjvPmxc9EyPd0Lz6GiNg71n_204XeP&index=1) but I haven't engrossed myself enough in her stuff yet.
 
-And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpond](/explore/cellpond), I'll keep returning to it over the course of several years in an attempt to learn more and more and more. Some things on purpose, some things by **accident**.
-
-<br>
-
-<br>
-
-## What I learned from arroost
-
-When I was a small boy, I learned to play the trumpet. The way I learned was being taught, in one on one sessions, where I was told exactly what to do.
-
-<br>
-
-(todo: more here)
+And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpond](/explore/cellpond), I'll keep returning to it over the course of several years in an attempt to learn more and more and more. Some things on purpose, some things by [accident](https://www.todepond.com/sky/how-arroost-changed-me/).
 
 <br>
 
@@ -329,9 +317,7 @@ Whenever I change some code, I get some feedback from the room. Sometimes people
 
 Just by being there, you influence the music / you change the jam.
 
-<br>
-
-*The music isn't mine anymore. It belongs to the jam.*
+The music isn't mine anymore. It belongs to the jam.
 
 <br>
 
@@ -363,15 +349,11 @@ Yes it was nice. It was nice.
 
 BUT IT WASN'T THE SAME. 
 
-It was not the same. 
-
 <br>
 
 <hr>
 
 <br>
-
-Nowadays, I know what to do in these situations.
 
 When I have a problem, I know it's best to be open about it: To as many people as possible. This is part of what I call [open practice](https://www.youtube.com/watch?v=MJzV0CX0q8o).
 
@@ -384,6 +366,8 @@ So I posted up my problem on `the internet`.
 > i am learning that things sound better when you're bold with your changes and deletions. go with ur gut, with STRONG FEELING
 
 I posted up that message in an attempt to awaken fifty nerds who might jump in to help out or fix my problem. Luckily it only took one: [Felix Roos](https://garten.salat.dev/).
+
+<br>
 
 <br>
 
