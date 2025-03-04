@@ -363,7 +363,7 @@ So I posted up my problem on `the internet`.
 > 
 > i am learning that things sound better when you're bold with your changes and deletions. go with ur gut, with STRONG FEELING
 
-I posted up that message in an attempt to awaken fifty nerds who might jump in to help out or fix my problem. Luckily it only took one: [Felix Roos](https://garten.salat.dev/).
+I posted up that message in an attempt to awaken fifty nerds who might jump in to help out or fix my problem. Luckily it only took one.
 
 <br>
 
@@ -371,7 +371,7 @@ I posted up that message in an attempt to awaken fifty nerds who might jump in t
 
 <h1 id="flok">Part three: Flok</h1>
 
-In response to my call for help, Felix reminded me of something in a [now deleted toot](https://post.lurk.org/@froos/114097492806162293): 
+In response to my call for help, [Felix] reminded me of something in a [now deleted toot](https://post.lurk.org/@froos/114097492806162293): 
 
 > you can do collab strudel in flok it's alot of fun
 
@@ -431,15 +431,7 @@ I [posted](https://mas.to/@TodePond/113288477131868114):
 
 > ok im doing all my strudeling in [flok.cc/s/todepond](https://flok.cc/s/todepond) from now on. if anyone stumbles across me theyre lucky/unlucky
 
-<br>
-
-<hr>
-
-<br>
-
-Felix joined me in the room almost immediately.
-
-<br>
+And Felix joined immediately.
 
 (to be continued)
 
@@ -451,5 +443,4 @@ Felix joined me in the room almost immediately.
 
 <br>
 
-Back to the [jam](https://pastagang.cc).
-
+Back to the [jam](https://pastagang.cc)
