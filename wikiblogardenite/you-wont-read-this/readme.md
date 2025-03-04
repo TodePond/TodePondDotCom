@@ -12,7 +12,7 @@ In fact, hardly anyone reads my blog posts nowadays. My [analytics](/analytics) 
 
 ## Why
 
-I think I write too many of them, so it's too hard to bother keeping up. 
+I think I write too many blog posts, so it's too hard to bother keeping up. 
 
 Also, every blog post I write devalues all my other blog posts, past and future, because they don't seem so special anymore. 
 
