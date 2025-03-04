@@ -14,8 +14,6 @@ The easiest way to learn is by accident. I know this because I joined an emergen
 - <a class="secondary" href="#flok">Part three: Flok</a> (work in progress) 
 - Part four: (spoiler)
 - Part five: (spoiler)
-- Part six: Nudel
-- Part seven: Paper
 - Conclusion
 
 <br>
