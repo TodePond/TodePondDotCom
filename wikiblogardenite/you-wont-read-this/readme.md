@@ -1,6 +1,6 @@
 # You probably won't read this blog post
 
-It's true, you probably won't, though I guess you're here right now. 
+It's true. You probably won't. Though I guess you're here right now. 
 
 <br>
 
