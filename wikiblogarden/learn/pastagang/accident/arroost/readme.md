@@ -11,7 +11,7 @@ The easiest way to learn is by accident. I know this because I joined an emergen
 - <a href="#introduction" class="secondary">Introduction</a>
 - <a href="#arroost" class="secondary">Part one: Arroost</a>
 - <a href="#strudel" class="secondary">Part two: Strudel</a>
-- <a class="secondary" href="#flok">Part three: Flok</a> (coming soon) 
+- <a class="secondary" href="#flok">Part three: Flok</a> (work in progress) 
 - Part four: (spoiler)
 - Part five: (spoiler)
 - Part six: Nudel
@@ -373,7 +373,77 @@ I posted up that message in an attempt to awaken fifty nerds who might jump in t
 
 <h1 id="flok">Part three: Flok</h1>
 
-(coming soon) 
+In response to my call for help, Felix reminded me of something in a [now deleted toot](https://post.lurk.org/@froos/114097492806162293): 
+
+> you can do collab strudel in flok it's alot of fun
+
+<br>
+
+[Flok](https://flok.cc) is a tool that lets you collaborate with other people over the internet in live coding languages like strudel.
+
+I had already used it once before: At Alex's workshop. We ended that workshop by all going to the same flok link and editing code together. I couldn't believe I forgot about that!
+
+<br>
+
+<hr>
+
+<br>
+
+We were all beginners in that workshop, so when we joined, we weren't sure what to do.
+
+We all joined the flok room one by one and I watched as cursors filled the screen in silence. Then someone, maybe Alex, kicked off a kick drum.
+
+Other sounds started to appear, and I put down some piano notes like usual.
+
+"Can I [just] do this?" I thought. "Am I allowed to do this?"
+
+Some people made flashy visuals appear on the screen too and I had no idea how they did that.
+
+<br>
+
+<hr>
+
+<br>
+
+The code editors filled up with code and so did the sound, and the intensity rose. The music became more and more full. The visuals became more and more complex. And then, it started getting faster and faster and faster. 
+
+Soon it was hard to keep up with what was going on and it got even faster and faster and faster until all the sounds merged into one single squished together noise and then BOOM it stopped. 
+
+I looked up, regaining my bearings and awareness of my surroundings, as did everyone else. Alex was still sitting at the front, but this time with a cheeky grin on his face. Ah yes! It was him making it faster and faster as a way of bringing the jam to its end, and I looked at my watch. Yes, it was the end of the workshop. Time went faster than expected. 
+
+<br>
+
+In that moment, I looked around at the people I had just met, like [Marysia] and [June] and [George], and I can only speak for myself here but it felt like we had just done something special together, like a ritual or a ceremony or something. 
+
+<br>
+
+Yes, I remember it well. It was the first time I used flok. I had no idea what it would end up becoming.
+
+<br>
+
+<hr>
+
+<br>
+
+I was doing a lot of strudel in strudel. But I realised I could be doing all my strudel in flok instead. That way, anyone could join me from anywhere.
+
+If no one joins me, then it's no different to before. But if they do... I wondered what would happen?
+
+I [posted](https://mas.to/@TodePond/113288477131868114):
+
+> ok im doing all my strudeling in [flok.cc/s/todepond](https://flok.cc/s/todepond) from now on. if anyone stumbles across me theyre lucky/unlucky
+
+<br>
+
+<hr>
+
+<br>
+
+Felix joined me in the room almost immediately.
+
+<br>
+
+(to be continued)
 
 <br>
 
