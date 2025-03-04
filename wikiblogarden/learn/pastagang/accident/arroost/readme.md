@@ -371,31 +371,47 @@ I posted up that message in an attempt to awaken fifty nerds who might jump in t
 
 <h1 id="flok">Part three: Flok</h1>
 
-In response to my call for help, [Felix] reminded me of something in a [now deleted toot](https://post.lurk.org/@froos/114097492806162293): 
+In response to my call for help, Felix reminded me of something in a [now deleted toot](https://post.lurk.org/@froos/114097492806162293). 
+
+He said:
 
 > you can do collab strudel in flok it's alot of fun
 
 <br>
 
+Yes!
+
 [Flok](https://flok.cc) is a tool that lets you collaborate with other people over the internet in live coding languages like strudel.
 
-I had already used it once before: At Alex's workshop. We ended that workshop by all going to the same flok link and editing code together. I couldn't believe I forgot about that!
+I had only used it once before: At the end of Alex's workshop, we ended that workshop by all going to the same flok link, and editing code together.
+
+I can't believe I forgot about that!
 
 <br>
 
-<hr>
+<br>
+
+<br>
 
 <br>
 
 We were all beginners in that workshop, so when we joined, we weren't sure what to do.
 
-We all joined the flok room one by one and I watched as cursors filled the screen in silence. Then someone, maybe Alex, kicked off a kick drum.
+But We all joined the flok room one by one and I watched as cursors filled the screen in silence. Then someone, maybe Alex, kicked off a kick drum.
 
-Other sounds started to appear, and I put down some piano notes like usual.
+Then Other sounds started to appear, and I put down some piano notes like usual.
 
-"Can I [just] do this?" I thought. "Am I allowed to do this?"
+"Am I allowed to do this?" I thought to myself. 
 
-Some people made flashy visuals appear on the screen too and I had no idea how they did that.
+<br>
+
+Some people made flashy visuals appear on the screen.
+
+"I have no idea how they're doing that", I thought to myself.
+
+<br>
+
+<br>
 
 <br>
 
@@ -407,7 +423,7 @@ The code editors filled up with code and so did the sound, and the intensity ros
 
 Soon it was hard to keep up with what was going on and it got even faster and faster and faster until all the sounds merged into one single squished together noise and then BOOM it stopped. 
 
-I looked up, regaining my bearings and awareness of my surroundings, as did everyone else. Alex was still sitting at the front, but this time with a cheeky grin on his face. Ah yes! It was him making it faster and faster as a way of bringing the jam to its end, and I looked at my watch. Yes, it was the end of the workshop. Time went faster than expected. 
+I looked up, regaining my bearings and awareness of my surroundings, as did everyone else. Alex was still sitting at the front, but this time with a cheeky grin on his face. Ah yes! It was him making it faster and faster as a way of bringing the jam to its end / letting it die, and I looked at my watch. Yes, it was the end of the workshop. Time went faster than expected. 
 
 <br>
 
@@ -415,7 +431,9 @@ In that moment, I looked around at the people I had just met, like [Marysia] and
 
 <br>
 
-Yes, I remember it well. It was the first time I used flok. I had no idea what it would end up becoming.
+Yes, I remember it well. It was the first time I used flok. I had no idea what it would end up becoming!
+
+<br>
 
 <br>
 
@@ -423,11 +441,11 @@ Yes, I remember it well. It was the first time I used flok. I had no idea what i
 
 <br>
 
-I was doing a lot of strudel in strudel. But I realised I could be doing all my strudel in flok instead. That way, anyone could join me from anywhere.
+I was doing a lot of strudel in strudel. But Felix made me realise that I could do my strudel in flok instead. That way, anyone could join me from anywhere.
 
-If no one joins me, then it's no different to before. But if they do... I wondered what would happen?
+If no one joins me, then it's no different to before. But if they do...
 
-I [posted](https://mas.to/@TodePond/113288477131868114):
+So I [posted](https://mas.to/@TodePond/113288477131868114):
 
 > ok im doing all my strudeling in [flok.cc/s/todepond](https://flok.cc/s/todepond) from now on. if anyone stumbles across me theyre lucky/unlucky
 
