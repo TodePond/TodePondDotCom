@@ -44,10 +44,10 @@ The other thing is that my blog posts are mostly pressure valves for my current 
 
 It's 2025 so I should probably make peace with the fact that I'm a fallible human, just like everybody else. And that means that I get influenced by the reactions I get to the things that I share, for good and for bad. 
 
-If no one read or liked my blog posts, I wouldn't be so motivated to make them. 
+If no one reads or likes my blog posts, I won't be so motivated to make them. 
 
 Paradoxically, the best way to get people to read and like my blog posts is to care as little as possible about how many people read and like my blog posts. 
 
 So I can get a bit stuck.
 
-I need to remember: Don't forget to—
+I need to remember something but I keep forgetting.
