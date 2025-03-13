@@ -42,6 +42,8 @@ The night started! Many people signed up again and some keen beans filled in any
 
 ![setlist](slots.jpg)
 
+![a more complete setlist](slots2.jpg)
+
 This time, I signed up for a visual slot, alongside [Claude](https://mathr.co.uk/web/). And for the first time, I signed up for an audio slot, alongside Laura.
 
 In London, pastagangers tend to sign up for a solo slot as well as a pastagang slot. In Karlsruhe, it seems to be [different](https://post.lurk.org/@froos/114097687889844221).
@@ -162,7 +164,9 @@ Bogdan and Pablo did a metal set! Bogdan on sound, Pablo on visuals. Pablo used 
 
 Laura did some radical plant visuals over the top of [Daniel](https://social.toplap.org/@synte)'s sound, which featured a heavily slowed down [Girls Aloud song](https://youtu.be/Wy3SV2fvoG8?si=WBUjW95ICdfJ4edm). I only know this because he called me over to point it out. It was so distorted that you wouldn't notice unless you were looking for it. (This song has been used as a sample quite a bit in the pastagang room).
 
-For one set, a man and woman whipped out two handheld game consoles. Or at least, they looked like game consoles, like gameboys or something? They were custom built or modified or something, I don't know. When the music started they immediately began jumping up and down with such ENERGY and they didn't stop until the very end. It really put a smile on my face. The visual was a 2D platformer game that the woman was playing. It was inspired! We were all cheering on and the music was so fitting. I wish I knew their names. 
+For one set, a man and woman whipped out two handheld game consoles. Or at least, they looked like game consoles, like gameboys or something? They were custom built or modified or something, I don't know. When the music started they immediately began jumping up and down with such ENERGY and they didn't stop until the very end. It really put a smile on my face. The visual was a 2D platformer game that the woman was playing. It was inspired! We were all cheering on and the music was so fitting. I wish I knew their names.
+
+Edit: They're called Naku and Becky!
 
 There were so many slots, I can't cover them all. 
 
