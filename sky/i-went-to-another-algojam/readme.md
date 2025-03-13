@@ -1,4 +1,4 @@
-# I went to [another](https://www.todepond.com/sky/i-went-to-a-meetup/) algojam
+# I went to another algojam
 
 And it— I turned up late and discovered the room pastaganging already.
 
