@@ -20,8 +20,6 @@ Sometimes, you join and you're the only one there, so you use it as if it's any 
 
 Yes, that one there is [Lucy](https://heavy-lifting.org/) from Sheffield, and that one there is [Hannes](https://guedelhoefer.dev/) from Germany. And there are loads more. They're probably here because they know there's an algorave.
 
-![warmup](warmup2.jpg)
-
 <br>
 
 I put down [Tommy](https://mot4i.bearblog.dev/)'s kick drum sample and somebody asked me if I was the one making that sound. I said yes, then I made it happen a bit more.
@@ -122,7 +120,7 @@ When it was pastagang's turn to perform, Laura and Bogdan plugged in again, and 
 
 Instead, I sat down by the projector with [Pablo](https://fosstodon.org/@kednar) (who I just met in person for the first time) and [George](https://social.toplap.org/@gregson) (who loves the crow sample).
 
-![error face](face.jpg)
+![error face](face.png)
 
 It was a fun place to sit, but I think it would be better if we pulled out some tables and went in the middle with our laptops facing outwards, so that everyone can see them (and jump in if they want). This is something we've talked about doing, but in the panic of getting everything set up on the night, it seems to get lost. 
 
@@ -158,7 +156,7 @@ I asked Laura how she does it. She said she looks at the visuals, and finds a bi
 
 <br>
 
-The set finished and I enjoyed the rest of the night through a fuzzy feeling. I didn't drink alcohol. It was the pasta.
+The set finished and I enjoyed the rest of the night through a fuzzy feeling.
 
 And also, I love how varied the sets are in an algojam. Every 15 minutes is something completely different.
 
@@ -167,6 +165,8 @@ Bogdan and Pablo did a metal set! Bogdan on sound, Pablo on visuals. Pablo used 
 Laura did some radical plant visuals over the top of [Daniel](https://social.toplap.org/@synte)'s sound, which featured a heavily slowed down [Girls Aloud song](https://youtu.be/Wy3SV2fvoG8?si=WBUjW95ICdfJ4edm). I only know this because he called me over to point it out. It was so distorted that you wouldn't notice unless you were looking for it. (This song has been used as a sample quite a bit in the pastagang room).
 
 For one set, a man and woman whipped out two handheld game consoles. Or at least, they looked like game consoles, like gameboys or something? They were custom built or modified or something, I don't know. When the music started they immediately began jumping up and down with such ENERGY and they didn't stop until the very end. It really put a smile on my face. The visual was a 2D platformer game that the woman was playing. It was inspired! We were all cheering on and the music was so fitting. I wish I knew their names. 
+
+![handhelds](handhelds.jpg)
 
 There were so many slots, I can't cover them all. 
 
