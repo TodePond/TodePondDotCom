@@ -122,6 +122,8 @@ When it was pastagang's turn to perform, Laura and Bogdan plugged in again, and 
 
 Instead, I sat down by the projector with [Pablo](https://fosstodon.org/@kednar) (who I just met in person for the first time) and [George](https://social.toplap.org/@gregson) (who loves the crow sample).
 
+![error face](face.jpg)
+
 It was a fun place to sit, but I think it would be better if we pulled out some tables and went in the middle with our laptops facing outwards, so that everyone can see them (and jump in if they want). This is something we've talked about doing, but in the panic of getting everything set up on the night, it seems to get lost. 
 
 <br>
@@ -222,6 +224,6 @@ Okay, enough of this.
 
 The next pastagang slot will be at [Noughty Fingers](https://ra.co/events/2117681).
 
-
+![noughty fingers](noughty.jpg)
 
 
