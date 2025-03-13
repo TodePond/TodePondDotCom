@@ -56,8 +56,6 @@ Claude brought an intensity that really moved me. I tried my best to keep up wit
 
 And it was good practice for me, to do visuals again. I feel like I'm feeling out the kind of style I want to lean into, and I haven't quite got there yet but I'm exploring it. Next time, I'm gonna try to cut back a lot of things and lean in more deliberately to the recursive screen sharing thing.
 
-![my visuals](visuals.jpg)
-
 In my slot, I poked fun at people who hate the kaleidescope visual effect, which was maybe a little bold as I was standing next to some kaleidescope haters at the time.
 
 ![thou shalt not use kaleidescope](kaleid.jpg)
@@ -165,8 +163,6 @@ Bogdan and Pablo did a metal set! Bogdan on sound, Pablo on visuals. Pablo used 
 Laura did some radical plant visuals over the top of [Daniel](https://social.toplap.org/@synte)'s sound, which featured a heavily slowed down [Girls Aloud song](https://youtu.be/Wy3SV2fvoG8?si=WBUjW95ICdfJ4edm). I only know this because he called me over to point it out. It was so distorted that you wouldn't notice unless you were looking for it. (This song has been used as a sample quite a bit in the pastagang room).
 
 For one set, a man and woman whipped out two handheld game consoles. Or at least, they looked like game consoles, like gameboys or something? They were custom built or modified or something, I don't know. When the music started they immediately began jumping up and down with such ENERGY and they didn't stop until the very end. It really put a smile on my face. The visual was a 2D platformer game that the woman was playing. It was inspired! We were all cheering on and the music was so fitting. I wish I knew their names. 
-
-![handhelds](handhelds.jpg)
 
 There were so many slots, I can't cover them all. 
 
