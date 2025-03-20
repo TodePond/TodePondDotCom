@@ -78,25 +78,31 @@ No.
 
 "I just wanted to say—"
 
-What I know is this: I'm connected to the people and the world around me. I have no choice over—
+What I know is this: I'm connected to the people and the world around me. I have no—
 
-"I don't think surrealism would—"
+"I don't think surrealism—"
 
-I can't mark the— You can see me. You can hear me. I might not be able to clearly define my stance or my views or whatever it is that I—
+I can't— You can see me. You can hear me. I might not be able to clearly define my stance or my views or whatever it is that I—
 
-"I just don't think that surrealism— I mean, really. Come on, it's—"
+"I just don't think that surrealism— I mean, really, come on, it's—"
 
-We don't need to finish our sentences! Thoughts and concepts don't have to be fully—
+We don't need to finish our sentences! Thoughts and concepts don't have to be—
 
 "I don't think that surrealism would have ever been able to stop World War Two from happening. Even if it succeeded."
 
 <br>
 
-You don't know that.
+<br>
+
+<br>
+
+<br>
+
+You don't mean that. 
 
 "Yes I do."
 
-<br>
+You wouldn't dare.
 
 <hr>
 
