@@ -6,7 +6,7 @@ You say your hydra set is "from scratch" but you didn't even write the entire li
 
 It's not "from scratch" unless you build the language you use from scratch during the set from scratch. You have to start with an empty repo. Start by creating a repo and then build the language from scratch and then do the set during the last two minutes, or three if you're fast.
 
-You can't use javascript during a "from scratch" set because it's already made. It's only "from scratch" if you type in certified machine code or zeroes and ones. Although that is also a push as it builds on decades of computer science research.
+You can't use javascript during a "from scratch" set because it's already made. It's only "from scratch" if you type in certified machine code or zeroes and ones. Although that is still a push as it builds on decades of computer science research.
 
 Remember: It's not "from scratch" unless your editor is completely empty at the start of the set. Also you're not allowed to use your memory or remember or recall anything at all because that way you're using things that you've already prepared: Memories. And that's not from scratch.
 
