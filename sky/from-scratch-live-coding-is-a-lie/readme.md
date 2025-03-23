@@ -18,9 +18,7 @@ It's not "from scratch" unless you record every single sample you use during the
 
 If you've done live coding before, it's not "from scratch" because you're not really starting from scratch. 
 
-When live coding "from scratch", don't ever use any patterns or notes or sounds or numbers that you've used before. Everything needs to be entirely original. Do not repeat yourself. Do not do something that you've done before. You must make something new.
-
-Oh [berd](https://youtu.be/WMJ1H3Ai-qs?si=n95h45pM59SGjsNq).
+When live coding "from scratch", don't ever use any patterns or notes or sounds or numbers that you've used before. Everything needs to be entirely original. Do not repeat yourself. Do not do something that you've done before. You must make something [new](https://youtu.be/WMJ1H3Ai-qs?si=n95h45pM59SGjsNq).
 
 <br>
 
