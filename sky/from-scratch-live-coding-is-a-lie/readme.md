@@ -10,15 +10,15 @@ You can't use javascript during a "from scratch" set because it's already made. 
 
 Remember: It's not "from scratch" unless your editor is completely empty at the start of the set. Also you're not allowed to use your memory or remember or recall anything at all because that way you're using things that you've already prepared: Memories. And that's not from scratch.
 
-You say your set is "from scratch" yet you stand there with an already built laptop, complete with screen and keyboard and cable ports? It's not from scratch unless you build your own machine from scratch at the start of the set, screwing and melding together all the hardware you need. Remember: If you need any tools for this task like screwdrivers, soldering irons and protective eyewear, then you need to build these from scratch too: During the set.
+You say your set is "from scratch" yet you stand there with an already built laptop, complete with screen and keyboard and cable ports? It's not from scratch unless you build your own machine from scratch at the start of the set, screwing and melding together all the hardware you need. Remember: If you need any tools for this task like screwdrivers, soldering irons and protective eyewear, then you need to build these during the set: From scratch.
 
-You say your set is "from scratch" yet the projector is already switched on and connected and correctly displaying your screen? If you really want to live code from scratch, make sure you only start mirroring your device after the time slot has started. It usually only takes thirty to forty minutes to get this done so you should really be doing this during the performance. Otherwise, it's not from scratch. 
+You say your set is "from scratch" yet the projector is already switched on and connected and correctly displaying your screen? If you really want to live code from scratch, make sure you only start mirroring your device after the time slot has officially started. It usually only takes thirty to forty minutes to get this done so you should really be doing this during the performance. Otherwise, it's not from scratch. 
 
-It's not "from scratch" unless you record every single sample you use during the set. If you want a piano sample, record yourself playing any notes you need on a real piano during the set. Remember: You'll also need to build the piano from scratch.
+It's not "from scratch" unless you record every single sample you use during the set. If you want a piano sample, record yourself playing any notes you need on a real piano during the set. Remember: You also need to build the piano from scratch.
 
 If you've done live coding before, it's not "from scratch" because you're not really starting from scratch. 
 
-When live coding "from scratch", don't ever use any patterns or notes or sounds or numbers that you've used before. Everything needs to be entirely original. Do not repeat yourself. Do not do something that you've done before. You must make something [new](https://youtu.be/WMJ1H3Ai-qs?si=n95h45pM59SGjsNq).
+When live coding "from scratch", don't ever use any patterns or notes or sounds or numbers that you've used before. Everything needs to be entirely original. Do not repeat yourself. Do not do something you've done before. You must make something [new](https://youtu.be/WMJ1H3Ai-qs?si=n95h45pM59SGjsNq).
 
 <br>
 
