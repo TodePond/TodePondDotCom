@@ -10,7 +10,7 @@ Do all the stupid things! you know are stupid! but you want to do anyway!
 
 When I die! I'll not regret! doing stupid things!
 
-I'll regret not doing enough! 
+I'll regret! not doing! enough! 
 
 <br>
 
