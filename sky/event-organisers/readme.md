@@ -14,7 +14,7 @@ As an organiser, your job is to improve this naturally-happening phenomenon and 
 
 This learning is a learning I learned from [Arne](https://toot.cat/@plexus) during some of the mentoring he gave me as part of the buildup to my [talk](https://www.youtube.com/watch?v=MJzV0CX0q8o) at [Heart of Clojure](https://2024.heartofclojure.eu/). It's something he told me. 
 
-You could see it reflected in the conference itself (that Arne organised). You could tell that the conference was built around the idea that it was— that we were all there to come together and interact with each other and learn from each other. Or as Arne put it in his opening intro:
+You could see it reflected in the conference itself (which Arne organised). You could tell that the conference was built around the idea that it was— that we were all there to come together and interact with each other and learn from each other. Or as Arne put it in his opening intro:
 
 "Come alive!"
 
