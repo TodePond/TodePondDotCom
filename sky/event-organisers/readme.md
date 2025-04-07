@@ -18,7 +18,7 @@ You could see it reflected in the conference itself (which Arne organised). You 
 
 "Come alive!"
 
-The conference took place across two venues. There was a nice walk between the two of them, and when you did that walk, you ended walking past many other conference attendees, easily identifiable by their big colourful glowy green badge around their neck. Saying hello to everyone you walked past was a nice / cheesy / wholesome activity to do and it gave you an easy way to start serendipitous conversations.
+The conference took place across two venues. There was a nice walk between the two of them, and when you did that walk, you ended up walking past many other conference attendees, easily identifiable by the big colourful glowy green badge around their necks. Saying hello to everyone you walked past was a nice / cheesy / wholesome activity to do and it gave you an easy way to start serendipitous conversations.
 
 The second space was open, with plenty of space to sit around, crash, hang out, meet people, do stuff. Most conferences I go to are too stuffy and serious for that sort of thing, but not this one! 
 
