@@ -18,19 +18,25 @@ You could see it reflected in the conference itself (which Arne organised). You 
 
 "Come alive!"
 
+<br>
+
 The conference took place across two venues. There was a nice walk between the two of them, and when you did that walk, you ended up walking past many other conference attendees, easily identifiable by the big colourful glowy green badge around their necks. Saying hello to everyone you walked past was a nice / cheesy / wholesome activity to do and it gave you an easy way to start serendipitous conversations.
+
+<br>
 
 The second space was open, with plenty of space to sit around, crash, hang out, meet people, do stuff. Most conferences I go to are too stuffy and serious for that sort of thing, but not this one! 
 
 You didn't feel bad for spending time chatting either. Normally, spending time in the "hallway track" means missing talks. But at Heart of Clojure, there were hearty gaps between sessions to give you enough breathing room to take the time you needed. 
 
-The thing that surprised me most was the schedule. Everyone has access to it via a custom built web app. That part was pretty normal. The crazy part was that anyone could add new sessions to the schedule in the app: *Anyone*!
+<br>
 
-Anyone could add a session to the *official* timetable, which felt completely crazy to me. I couldn't believe they trusted people to do this. I mean, I guess there was some approval system or something, for abuse and stuff? But it was more about the artistic control that the organisers were willing to part with. By letting anyone change their conference's plan, they let go of control. They made space for someone else.
+The thing that surprised me most was the schedule. Everyone has access to it via a custom built web app. That part was pretty normal. The crazy part was that anyone could add new sessions to the official schedule in the app: *Anyone*!
 
-I think some people would say, "That's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) an unconference" and I would say "No it's not". Unconferences are when there's no structure or schedule at all and it's a free-for-all. Everyone creates the conference together from scratch. And yes, I guess that's similar in some ways. But Heart of Clojure felt much higher stakes than that.
+Anyone could add a session to the *official* schedule, which felt completely crazy to me. I couldn't believe they trusted people to do this. I mean, I guess there was some approval system or something, for abuse and stuff? But it was more about the artistic control that the organisers were willing to part with. By letting anyone change their conference's plan, they let go of control. They made space for someone else.
 
-In an unconference, there's nothing to lose. You're starting with nothing so there's not much pressure.
+I think some people would say, "That's [just](https://www.todepond.com/wikiblogarden/better-computing/just/) an unconference" and I would say "No it's not". Unconferences are when there's no schedule at all and it's a free-for-all. Everyone creates the unconference together from scratch. And yes, I guess that's similar in some ways. But Heart of Clojure felt much higher stakes than that.
+
+There's nothing to lose in an unconference.
 
 In Heart of Clojure, there was a fully crafted plan, planned with care and attention, and then that plan was given to you as a gift that you're entrusted with.
 
