@@ -24,7 +24,7 @@ The second space was open, with plenty of space to sit around, crash, hang out, 
 
 You didn't feel bad for spending time chatting either. Normally, spending time in the "hallway track" means missing talks. But at Heart of Clojure, there were hearty gaps between sessions to give you enough breathing room to take the time you needed. 
 
-The thing that surprised me most was the schedule. Everyone has access to it via a custom built web app. The crazy part was that anyone could add to it: *Anyone*!
+The thing that surprised me most was the schedule. Everyone has access to it via a custom built web app. That part was pretty normal. The crazy part was that anyone could add new sessions to the schedule in the app: *Anyone*!
 
 Anyone could add a session to the *official* timetable, which felt completely crazy to me. I couldn't believe they trusted people to do this. I mean, I guess there was some approval system or something, for abuse and stuff? But it was more about the artistic control that the organisers were willing to part with. By letting anyone change their conference's plan, they let go of control. They made space for someone else. 
 
