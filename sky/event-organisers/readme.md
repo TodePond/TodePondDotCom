@@ -16,7 +16,7 @@ This learning is a learning I learned from [Arne](https://toot.cat/@plexus) duri
 
 You could see it reflected in the conference itself (that Arne organised). You could tell that the conference was built around the idea that it was— that we were all there to come together and interact with each other and learn from each other. Or as Arne put it in his opening intro:
 
-> "Come alive!"
+"Come alive!"
 
 The conference took place across two venues. There was a nice walk between the two of them, and when you did that walk, you ended walking past many other conference attendees, easily identifiable by their big colourful glowy green badge around their neck. Saying hello to everyone you walked past was a nice / cheesy / wholesome activity to do and it gave you an easy way to start serendipitous conversations.
 
@@ -61,6 +61,8 @@ Move that one table! Make room for one more!
 Host that event! Help that beginner! Make that connection! Let go of control! Make room for one more! 
 
 This should be obvious. 
+
+<br>
 
 <br>
 
