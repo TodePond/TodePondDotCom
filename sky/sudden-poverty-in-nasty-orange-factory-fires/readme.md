@@ -63,7 +63,7 @@ Jake was doing a drama degree at the time. He decided to do some imaginary cours
 
 <br>
 
-<div style="font-family: serif !important">
+<article style="font-family: serif !important">
 
 # Overall Premise
 
@@ -93,7 +93,7 @@ The third way is through Participation. This can come in two forms; Structured a
 - Is the 4th wall behind the audience, or acting as a fence gate?
 - Are we centering on comedy or storytelling?
 
-</div>
+</article>
 
 <br>
 
