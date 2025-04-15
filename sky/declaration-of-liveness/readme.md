@@ -1,4 +1,4 @@
-# Declaration of liveness 
+# My promise of liveness 
 
 I, Lu Wilson, hereby declare that I won't do **any** live coding performance unless the audience is also allowed to join in and perform with me. I wholeheartedly swear that every single one of my live coding performances will be open for the audience to join, no matter what.
 
