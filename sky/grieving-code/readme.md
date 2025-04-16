@@ -10,7 +10,7 @@ When live coding music or visuals, it's a helpful reminder to delete your code: 
 
 <br>
 
-Pastagang added this paragraph to the blog post:
+At some point, pastagang added this paragraph to the blog post:
 
 > If you are grieving or otherwise sensitive to mortality, you can thing of this concept as ‘let it float down the river’. 
 
