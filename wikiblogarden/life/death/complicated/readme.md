@@ -12,7 +12,7 @@ i guess i still find my life complicated, at times, a lot, nearly all the time. 
 
 <h2></h2>
 
-nanny tapped her glass and called our attention and everyone stopped their talking to look over
+she tapped her glass and called our attention and everyone stopped their talking to look over
 
 "now i just want to say"
 
@@ -44,7 +44,7 @@ i needed to
 
 "that whatever happens"
 
-show i was—
+show i was
 
 "we just hope"
 
@@ -52,7 +52,7 @@ my face began to hurt
 
 "we just hope that you're happy"
 
-and my face grew sore, trying to maintain attention but not letting my front slip
+and my face grew sore, trying to maintain attention but not slipping
 
 "that's all we hope for"
 
