@@ -16,7 +16,7 @@ At some point, pastagang added this paragraph to the blog post:
 
 It provides an alternative way of phrasing the mantra, in case you are grieving. 
 
-However, when I first wrote the "let code die" mantra, I was grieving a family member who was very [important to me](https://www.todepond.com/wikiblogarden/life/death/complicated/). The whole point of the mantra is that it's related to grieving. The mantra is about grieving.
+However, when I first wrote the "let code die" mantra, I was grieving myself: for someone who was very [important to me](https://www.todepond.com/wikiblogarden/life/death/complicated/). The whole point of the mantra is that it's related to grieving. The mantra is about grieving.
 
 In small cases, it's about grieving your code or your work. In bigger cases, it's about moving on from a death, or overcoming trauma, or moving on.
 
