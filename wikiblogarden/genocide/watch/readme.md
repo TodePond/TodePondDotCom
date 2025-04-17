@@ -13,6 +13,8 @@
 - [x] national health service's review into trans children's care widely discredited as politically biased. UPDATE: ongoing. first ticket off on 14th March 2024. last ticked off on 7th August 2024[^amer][^bm][^ruth]
 - [x] national health service plans to review trans adults care. UPDATE: ticked off on 7th August 2024[^adult]
 - [x] forced de-transition of trans children made permanent. UPDATE: ticked off on 13th December 2024[^dec]
+- [x] trans women legally defined as men. ticket off on 16th May 2025[^supreme]
+- [ ] equality committee states plans to ban trans women from womens toilets. ticked off on 17th May 2025[^equal]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
@@ -29,6 +31,8 @@
 [^ruth]: [What’s wrong with the Cass Review? A round-up of commentary and evidence](https://ruthpearce.net/2024/04/16/whats-wrong-with-the-cass-review-a-round-up-of-commentary-and-evidence/)
 [^adult]: [Review of adult gender dysphoria services](https://www.england.nhs.uk/commissioning/spec-services/npc-crg/gender-dysphoria-clinical-programme/review-of-adult-gender-dysphoria-services/)
 [^dec]: [Ban on puberty blockers to be made indefinite on experts’ advice](https://www.gov.uk/government/news/ban-on-puberty-blockers-to-be-made-indefinite-on-experts-advice)
+[^supreme]: []
+[^equal]: [What ‘woman’ definition means for trans women’s rights in toilets and changing rooms](https://metro.co.uk/2025/04/17/trans-women-barred-using-womens-toilets-equality-watchdog-says-22923764/)
 
 <br>
 
