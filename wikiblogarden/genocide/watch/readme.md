@@ -13,8 +13,8 @@
 - [x] national health service's review into trans children's care widely discredited as politically biased. ticked off on 14th March 2024[^amer][^bm][^ruth]
 - [x] national health service plans to review trans adults care. ticked off on 7th August 2024[^adult]
 - [x] forced de-transition of trans children made permanent. ticked off on 13th December 2024[^dec]
-- [x] trans women legally defined as men. ticket off on 16th May 2025[^supreme]
-- [x] equality committee states plans to ban trans women from womens toilets. ticked off on 17th May 2025[^equal]
+- [x] trans women legally defined as men. ticket off on 16th April 2025[^supreme]
+- [x] equality committee states plans to ban trans women from womens toilets. ticked off on 17th April 2025[^equal]
 - [ ] what's next?
 
 [^conversion]: [My conversion therapy story](https://www.todepond.com/wikiblogarden/health/conversion-therapy/)
