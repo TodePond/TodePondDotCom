@@ -1,12 +1,12 @@
 # Let me use the loo
 
-Here we go... It's time for another [Lu loo tale](https://www.todepond.com/wikiblogarden/health/loo-lu/end/#fn:butch).
+Here we go... It's time for another [Lu loo tale](https://www.todepond.com/wikiblogarden/health/loo-lu/end/).
 
 This week, trans people were [legally un-recognised](https://www.thenation.com/article/society/supreme-court-trans-ruling-analysis-uk/) in this country. Trans men are no longer viewed as men. Trans women are no longer viewed as women. Non-binary people are *still* not recognised, just like before, but now we're even more fucked.
 
 As a joke, I [jokingly asked](https://www.todepond.com/wikiblogarden/health/loo-lu/end/) Keir Starmer which toilet I should use (the mens or the womens) every day for over two weeks but he unfortunately didn't reply. 
 
-Now, the answer to that question is even more unclear, with the head of the government's equality committee [stating](https://www.bbc.co.uk/news/articles/c5y42zzwylvo) that trans people should use the toilet that matches their "biological sex", a [terf](https://youtu.be/1pTPuoGjQsI?si=0aErrKZc10Ezuu9I) dog whistle referring to sex assigned at birth. It sounds like a scientific term but it's not. It's completely made up and intentionally vague and divisive.
+Today, the answer to that question is even more unclear, with the head of the government's equality committee [stating](https://www.bbc.co.uk/news/articles/c5y42zzwylvo) that trans people should use the toilet that matches their "biological sex", a [terf](https://youtu.be/1pTPuoGjQsI?si=0aErrKZc10Ezuu9I) dog whistle referring to sex assigned at birth. It sounds like a scientific term but it's not. It's completely made up and intentionally vague and divisive.
 
 What this means is... We're now at this ridiculous point where people like [Hunter Schafer](https://www.bbc.co.uk/news/articles/cg4klq45ngvo) will legally have to use the mens loo in this country. 
 
