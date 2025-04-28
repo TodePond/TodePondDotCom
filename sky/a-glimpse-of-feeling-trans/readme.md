@@ -42,8 +42,8 @@ Other places and times present their own understanding of gender that I'm much w
 
 In the western world, we're so— We're so behind, in the western world. Patriarchy and misogin— mysogy— misogyny are so deeply embedded in our culture and roots. The romans fucked us hard, quite literally. They were so fucked up and I don't think enough people know that. Rape and male violence wasn't just common: It was more than that: It was the bedrock of roman civilization.
 
-Then christianity happened, and those values got spread around and mixed up and muddled with all the roman bullshit and we're still recovering, over two thousand years later! Fuck! 
+Then christianity happened, and those values got spread around and mixed up and muddled with all the roman bullshit and we're still recovering, over two thousand years later! Fuck!
 
-We live in the remnants of a rape-fueled military empire. We're in this sick cycle of expanding our colonial reach. History repeats itself. The british empire, now the american one, and everything, yes everything, is seen in terms of battle and war and fight and debate. Which side will win? The truscum or the tucute? I'm team tucute. What are you? 
+We live in the remnants of a rape-fueled military empire. We're in this sick cycle of expanding our colonial reach. History repeats itself. The british empire, now the american one, and everything (everything) is seen in terms of battle and war and fight. Which side will win? The truscum or the tucute? I'm team tucute. What are you? 
 
-Zoom out zoom out zoom out zoom out zoom back to the [wikiblogardenite](/wikiblogardenite).
+Back to the [wikiblogardenite](/wikiblogardenite).
