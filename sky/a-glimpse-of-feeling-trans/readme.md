@@ -20,7 +20,7 @@ Ugh...
 
 Many stories have been told in attempts to explain what it MEANS and FEELS like to be trans, and I think they've all been really bad. They end up too simple or too apologetic or too inaccurate or they end up answering a different question.
 
-When I was growing up, I heard the stories of "being born in the wrong body" told by "transsexuals" who were experiencing "gender dysphoria" or "gender incongruence", and this formed the basis of my understanding of what it means to be trans in a very harmful way. It took me decades to overcome and grow out of that.
+When I was growing up, I heard the stories of "being born in the wrong body" told by "transsexuals" who were experiencing "gender dysphoria" or "gender incongruence", and this formed the basis of my understanding of what it meant to be trans in a very harmful way. It took me decades to overcome and grow out of that.
 
 Some people go the other way, becoming more radical and harmful in their views as they progress, and we refer to those people as "truscum" or "trans medicalists". They end up internalising the transphobia and transmisogi— transmyso— I can't spell it, but they end up believing the transphobic talking points used against them, and they join in: Excluding other trans people from the community, pulling up the ladder behind them.
 
