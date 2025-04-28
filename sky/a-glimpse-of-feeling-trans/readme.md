@@ -44,6 +44,6 @@ In the western world, we're so— We're so behind, in the western world. Patriar
 
 Then christianity happened, and those values got spread around and mixed up and muddled with all the roman bullshit and we're still recovering, over two thousand years later! Fuck!
 
-We live in the remnants of a rape-fueled military empire. We're in this sick cycle of expanding our colonial reach. History repeats itself. The british empire, now the american one, and everything (everything) is seen in terms of battle and war and fight. Which side will win? The truscum or the tucute? I'm team tucute. What are you? 
+We live in the remnants of many rape-fueled military empires. We're in this sick cycle of expanding our colonial reach. History repeats itself. The roman empire, the british empire, the american one, and everything (everything) is seen in terms of battle and war and fight. Which side will win? The truscum or the tucute? I'm team tucute. What are you? 
 
 Back to the [wikiblogardenite](/wikiblogardenite).
