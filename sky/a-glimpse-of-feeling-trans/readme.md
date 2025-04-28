@@ -40,7 +40,7 @@ The truscum-tucute war is a largely western battle.
 
 Other places and times present their own understanding of gender that I'm much worse versed / less familiar with. I hear about "third gender" and "two spirit" people who escape the gender binary and, in my deep ignorance, I wonder what that's like. Do those people experience the same thing as me? Or is it something different? Perhaps there's some overlap, or perhaps it's something that I'm completely unaware of, with my limited western viewpoint. It feels like the elephant in the room in the communities and conversations I'm part of, or more of gaping hole where the missing elephant should be.
 
-In the western world, we're so backwards. Patriarchy and misogin— mysogy— misogyny is so deeply embedded in our culture and roots. The romans fucked us hard, quite literally. They were so fucked up and I don't think enough people know that. Rape and male violence wasn't just common: It was more than that: It was the bedrock of roman civilization.
+In the western world, we're so— We're so behind, in the western world. Patriarchy and misogin— mysogy— misogyny are so deeply embedded in our culture and roots. The romans fucked us hard, quite literally. They were so fucked up and I don't think enough people know that. Rape and male violence wasn't just common: It was more than that: It was the bedrock of roman civilization.
 
 Then christianity happened, and those values got spread around and mixed up and muddled with all the roman bullshit and we're still recovering, over two thousand years later! Fuck! 
 
