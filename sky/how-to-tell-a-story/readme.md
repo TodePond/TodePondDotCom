@@ -34,15 +34,15 @@ This is what keeps them going through the boring long bits of your story. If you
 
 <br>
 
-When you tell a story, there's an agreement between you and the receiver. As a storyteller, you need to show:
+When you tell a story, there's an agreement between you and the audience. As a storyteller, you need to be able to show them:
 
 1. You are trying hard.
-2. You know what you're doing. 
+2. You know what you're doing.
 3. You have an angle.
 
 Otherwise why would anyone listen? 
 
-Don't let it scare you. You don't have to be "good". Your story may or may not be to the receiver's taste, but it might still be worth receiving / worth their time. 
+Don't let it scare you. You don't have to be "good". Your story may or may not be to the audience's taste, but it might still be worth their time and attention.
 
 Don't misunderstand point 2. "You need to know what you're doing" can sound off-putting, but it's not about being good or skilled: It's about being intentional:
 
@@ -50,6 +50,4 @@ Think about all the choices that go into creating a story.
 
 What will you choose for *your* story that make it *yours* and not anyone else's?
 
-What makes it *yours* and not anyone else's? An AI model won't help you with that: It'll make it worse. Following best practices won't help you either. You don't need to follow any of these rules. They're [just](https://www.todepond.com/wikiblogarden/better-computing/just/) something I made up to tell another [stupid](https://www.todepond.com/sky/do-stupid-things) story. And once you've delivered the payoff, the best thing to do is end it quickly, to leave your audience wanting more.
-
-Back to the [wikiblogardenite](/wikiblogardenite).
+What makes it *yours* and not anyone else's? An AI model won't help you with that: It'll make it less intentional. Following best practices won't help you either. You don't need to follow any of these rules. They're [just](https://www.todepond.com/wikiblogarden/better-computing/just/) something I made up to tell yet another [stupid](https://www.todepond.com/sky/do-stupid-things) story. Always end abruptly.
