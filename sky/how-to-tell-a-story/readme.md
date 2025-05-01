@@ -48,6 +48,6 @@ Don't misunderstand point 2. "You need to know what you're doing" can sound off-
 
 Think about all the choices that go into creating a story.
 
-What will you choose for *your* story that make it *yours* and not anyone else's?
+What will you choose for *your* story to makes it *yours* and not anyone else's?
 
-What makes it *yours* and not anyone else's? An AI model won't help you with that: It'll make it less intentional. Following best practices won't help you either. You don't need to follow any of these rules. They're [just](https://www.todepond.com/wikiblogarden/better-computing/just/) something I made up to tell yet another [stupid](https://www.todepond.com/sky/do-stupid-things) story. Always end abruptly.
+What makes it *yours* and not anyone else's? An AI model won't help you with that. Following best practices won't help you either. You don't need to follow any of these rules. They're [just](https://www.todepond.com/wikiblogarden/better-computing/just/) something I made up to tell yet another [stupid](https://www.todepond.com/sky/do-stupid-things) story. Always end abruptly.
