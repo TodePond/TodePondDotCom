@@ -16,7 +16,7 @@ If the audience is expecting a YouTube video tutorial, I'll start by leaning int
 
 <br>
 
-When telling stories—
+When you're telling a story—
 
 When you're listening to a story, the nicest feeling is when you're able to relax and fully let go
 
