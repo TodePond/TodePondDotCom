@@ -20,7 +20,7 @@ When you're telling a story—
 
 When you're listening to a story, the nicest feeling is when you're able to relax and fully let go
 
-and fully let yourself engage with and go along with the story.
+fully let yourself engage with and go along with the story.
 
 You don't want to have to force it. You don't want to have to put in the effort to maintain your effort or energy or attention or anything.
 
