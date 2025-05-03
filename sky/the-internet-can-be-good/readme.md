@@ -42,7 +42,7 @@ we live in a system where the more money you have, the more likely it is that yo
 
 ## How to fix the internet
 
-to fix the internet, you need to fix the people behind the internet. to do that, we need to stop all the cunts in the top 1% of wealth around the world. to do that, we need to stop financially rewarding cunty behaviour. to do that, we need to end populism. to do that we need to work together. to do that, we need to reach lots of people. to do that, we need to use the internet, despite it being bad 
+to fix the internet, we need to fix the people behind the internet. to do that, we need to stop all the cunts in the top 1% of wealth around the world. to do that, we need to stop financially rewarding cunty behaviour. to do that, we need to end populism. to do that we need to work together. to do that, we need to reach lots of people. to do that, we need to use the internet, despite it being bad 
 
 back to the [wikiblogardenite](/wikiblogardenite)
 
