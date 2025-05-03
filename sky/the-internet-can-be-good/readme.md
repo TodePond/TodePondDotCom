@@ -32,7 +32,7 @@ when I was young, and the internet first introduced itself to me, I dreamt of co
 
 <br>
 
-everything on the internet was once put there by a person. if you see something on the internet, it's because someone put it there / made the active decision to place it there to be prodded. for me, this made it clear that the internet was a window into other people's lives around the world.
+everything on the internet was once put there by a person. if you see something on the internet, it's because someone put it there / made the active decision to place it there to be prodded. for me, this makes it clear that the internet is a window into other people's lives around the world.
 
 whether that's a good thing or not depends on who you're prodding and who's prodding you. the internet is this insane extrapolated manifestation of people's choices, multiplied by how much time and money that person has. 
 
