@@ -4,7 +4,7 @@ when I was young, the internet introduced itself to me as this wonderful yet sca
 
 I didn't know or understand what it was, but then again, no one did. it was this unknowable unseeable "thing" that you can prod / that prods you back when you prod it.
 
-back then, the internet was something you "spent time on". being connected to the internet meant making the active decision to "surf the web". it was different to the "always online" experience of the web we now experience. 
+back then, the internet was something you "spent time on". being connected to the internet meant making the active decision to "surf the web". it was different to the "always online" experience we now experience. 
 
 even back then, I knew that the internet wasn't a— the internet is [just](https://www.todepond.com/wikiblogarden/better-computing/just/) a manifestation of people's—
 
