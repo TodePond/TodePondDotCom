@@ -78,9 +78,10 @@
     getCreation: "https://pondiverse.val.run/get-creation?id=",
     getCreationImage: "https://pondiverse.val.run/get-creation-image?id=",
     getCreations: "https://pondiverse.val.run/get-creations",
+    deleteCreation: "https://pondiverse.val.run/delete-creation",
   };
 
-  const CREATIONS_PER_PAGE = 10;
+  const CREATIONS_PER_PAGE = 20;
   {
     const creations = await fetchPondiverseCreations({ instance });
     renderMoreCreations(creations);
@@ -111,17 +112,22 @@
           return;
         }
 
+        let response;
         try {
-          const response = await deletePondiverseCreation(creation.id, {
+          response = await deletePondiverseCreation(creation.id, {
             instance,
             password,
           });
         } catch (error) {
           console.error("Error deleting creation:", error);
-          alert("Failed to delete creation. Please try again.");
+          alert("Failed to delete creation.");
           return;
         }
 
+        if (!response.ok) {
+          alert(response.error);
+          return;
+        }
         deleteButton.innerText = "Deleted";
         deleteButton.classList.remove("danger");
         deleteButton.disabled = true;
