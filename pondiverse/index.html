@@ -27,6 +27,14 @@
   emailing todepond@gmail.com
 </p>
 
+<p>
+  <input
+    style="max-width: 500px"
+    type="password"
+    id="password"
+    placeholder="Admin password" />
+</p>
+
 <style>
   main {
     display: grid;
@@ -71,10 +79,9 @@
     getCreations: "https://pondiverse.val.run/get-creations",
   };
 
-  const CREATIONS_PER_PAGE = 20;
+  const CREATIONS_PER_PAGE = 10;
   {
     const creations = await fetchPondiverseCreations({ instance });
-    console.log(creations);
     renderMoreCreations(creations);
   }
 
@@ -90,6 +97,17 @@
       });
       main.append(card);
     }
+    const remainingCreations = creations.slice(CREATIONS_PER_PAGE);
+    if (remainingCreations.length > 0) {
+      const button = document.createElement("button");
+      button.innerText = "Load more";
+      button.style.marginTop = "8px";
+      button.addEventListener("click", () => {
+        renderMoreCreations(remainingCreations);
+        button.remove();
+      });
+      document.body.append(button);
+    }
   }
 
   function Card({ title, imageUrl, type, data }) {
@@ -103,4 +121,14 @@
     `;
     return card;
   }
+
+  const passwordLocalStorageKey = "pondiverse-admin-password";
+  const passwordInput = document.querySelector("#password");
+  passwordInput.addEventListener("input", () => {
+    const password = passwordInput.value;
+    localStorage.setItem(passwordLocalStorageKey, password);
+  });
+
+  const password = localStorage.getItem(passwordLocalStorageKey) || "";
+  passwordInput.value = password;
 </script>
