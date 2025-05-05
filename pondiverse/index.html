@@ -1,0 +1,106 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+<title>Todepond dot com</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/og.png" />
+<meta property="og:title" content="Todepond dot com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Todepond dot com" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+
+<h1>Todepondiverse</h1>
+
+<p>
+  The todepondiverse is a store for the
+  <a href="https://pondiverse.com">pondiverse</a>, run by me, Lu Wilson. It's
+  currently the default store, so a lot of creations end up inside it.
+</p>
+<p>
+  The todepondiverse has zero tolerance for abuse, hate, and other malicious
+  behaviour. If you see something that doesn't belong here, please report it by
+  emailing todepond@gmail.com
+</p>
+
+<style>
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 8px;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 8px;
+    padding-top: 0px;
+  }
+
+  .data {
+    /* white-space: nowrap; */
+    max-height: 60px;
+  }
+
+  img {
+    border: 1px solid #ccc;
+  }
+</style>
+
+<main id="creations"></main>
+
+<script type="module">
+  import {
+    fetchPondiverseCreations,
+    getPondiverseCreationImageUrl,
+  } from "./pondiverse.js";
+
+  const instance = {
+    name: "todepondiverse",
+    home: "https://todepond.com/pondiverse",
+    addCreation: "https://pondiverse.val.run/add-creation",
+    getCreation: "https://pondiverse.val.run/get-creation?id=",
+    getCreationImage: "https://pondiverse.val.run/get-creation-image?id=",
+    getCreations: "https://pondiverse.val.run/get-creations",
+  };
+
+  const CREATIONS_PER_PAGE = 20;
+  {
+    const creations = await fetchPondiverseCreations({ instance });
+    console.log(creations);
+    renderMoreCreations(creations);
+  }
+
+  function renderMoreCreations(creations) {
+    const main = document.querySelector("main");
+    const creationsToRender = creations.slice(0, CREATIONS_PER_PAGE);
+    for (const creation of creationsToRender) {
+      const card = Card({
+        title: creation.title,
+        type: creation.type,
+        data: creation.data,
+        imageUrl: getPondiverseCreationImageUrl(creation, { instance }),
+      });
+      main.append(card);
+    }
+  }
+
+  function Card({ title, imageUrl, type, data }) {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <p><strong>${title}</strong></p>
+      <p>${type}</p>
+      <img src="${imageUrl}" alt="${title}" />
+      <pre class="data">${data}</pre>
+    `;
+    return card;
+  }
+</script>
