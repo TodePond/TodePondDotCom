@@ -9,6 +9,7 @@ const DEFAULT_INSTANCE = {
   getCreation: "https://pondiverse.val.run/get-creation?id=",
   getCreationImage: "https://pondiverse.val.run/get-creation-image?id=",
   getCreations: "https://pondiverse.val.run/get-creations",
+  deleteCreation: "https://pondiverse.val.run/delete-creation",
 };
 
 const PONDIVERSE_BUTTON_STYLE = `
@@ -149,6 +150,25 @@ export async function fetchPondiverseCreation(
     : instance.getCreation + creation;
   const response = await fetch(url);
   return await response.json();
+}
+
+//============================//
+// DELETE PONDIVERSE CREATION //
+//============================//
+// For deleting a creation by its id
+export async function deletePondiverseCreation(
+  id,
+  { instance = DEFAULT_INSTANCE, password } = {}
+) {
+  const response = await fetch(instance.deleteCreation, {
+    method: "POST",
+    body: JSON.stringify({ id, password }),
+  });
+  const json = await response.json();
+  if (!response.ok) {
+    throw new Error(json.error);
+  }
+  return json;
 }
 
 //===================================//

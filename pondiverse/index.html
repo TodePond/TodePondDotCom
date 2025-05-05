@@ -68,6 +68,7 @@
   import {
     fetchPondiverseCreations,
     getPondiverseCreationImageUrl,
+    deletePondiverseCreation,
   } from "./pondiverse.js";
 
   const instance = {
@@ -90,12 +91,42 @@
     const creationsToRender = creations.slice(0, CREATIONS_PER_PAGE);
     for (const creation of creationsToRender) {
       const card = Card({
-        title: creation.title,
-        type: creation.type,
-        data: creation.data,
+        ...creation,
         imageUrl: getPondiverseCreationImageUrl(creation, { instance }),
       });
       main.append(card);
+
+      const deleteButton = card.querySelector(`#delete-${creation.id}`);
+      deleteButton.addEventListener("click", async () => {
+        const password = localStorage.getItem("pondiverse-admin-password");
+        if (!password) {
+          alert("Enter your an admin password first.");
+          return;
+        }
+
+        const confirmed = confirm(
+          `Are you sure you want to delete creation ${creation.id}?`
+        );
+        if (!confirmed) {
+          return;
+        }
+
+        try {
+          const response = await deletePondiverseCreation(creation.id, {
+            instance,
+            password,
+          });
+        } catch (error) {
+          console.error("Error deleting creation:", error);
+          alert("Failed to delete creation. Please try again.");
+          return;
+        }
+
+        deleteButton.innerText = "Deleted";
+        deleteButton.classList.remove("danger");
+        deleteButton.disabled = true;
+        deleteButton.style.cursor = "not-allowed";
+      });
     }
     const remainingCreations = creations.slice(CREATIONS_PER_PAGE);
     if (remainingCreations.length > 0) {
@@ -110,14 +141,15 @@
     }
   }
 
-  function Card({ title, imageUrl, type, data }) {
+  function Card({ id, title, imageUrl, type, data }) {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <p><strong>${title}</strong></p>
+      <p><strong>${id} - ${title}</strong></p>
       <p>${type}</p>
       <img src="${imageUrl}" alt="${title}" />
       <pre class="data">${data}</pre>
+      <button id="delete-${id}" class="danger">Delete</button>
     `;
     return card;
   }
