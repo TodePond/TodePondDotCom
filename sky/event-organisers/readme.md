@@ -40,7 +40,7 @@ There's nothing to lose in an unconference.
 
 In Heart of Clojure, there was a fully crafted plan, planned with care and attention, and then that plan was given to you as a gift that you're entrusted with.
 
-By creating a 
+By creating a—
 
 <br>
 
@@ -54,13 +54,13 @@ I see the same ego-death-style organising from [Daniel](https://syntelang.github
 
 He seems like a really reluctant organiser to me (in a good way). He organises events because he wants to *attend* them, so that means he's always trying to boost other people to take things into their own hands.
 
-It seems to be working.
+It seems to be working!
 
 <br>
 
 Sometimes there's a bit of a culture clash, where some people don't immediately get or understand the attendee-led approach. I've seen many people accidentally volunteer themselves into doing a job by complaining that it's not done. 
 
-"I don't think that table should be here. It should be over there instead."
+"I don't think this table should be here. It should be over there instead."
 
 Okay then. 
 
