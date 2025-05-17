@@ -1,5 +1,3 @@
-# Saved by the bed
-
 Dear diary,
 
 Today I cleared out my childhood room and I rediscovered you / my old diary that I used to write in when I was a young teenager. 
@@ -16,10 +14,10 @@ My writing included: A full-page explanation of why I love my bed so much, and w
 
 God, it feels like a million miles away now, but I guess that experience is still part of me, somehow. 
 
-It can be taboo to talk about these things, but looking back, I am very very pleased that I made it through and successfully became a trans adult rather than [just another trans kid statistic](https://www.thetrevorproject.org/blog/anti-transgender-laws-cause-up-to-72-increase-in-suicide-attempts-among-transgender-and-nonbinary-youth-study-shows/).
+It can be taboo to talk about these things, but looking back, I am very very pleased that I made it through and successfully became a trans adult rather than [just another statistic](https://www.thetrevorproject.org/blog/anti-transgender-laws-cause-up-to-72-increase-in-suicide-attempts-among-transgender-and-nonbinary-youth-study-shows/).
 
 <br>
 
-Those old diary pages... They make me cringe, but they also give me some direct connection to my younger self. They give me some unfiltered insight into how I used to be. It's a way for teenager Lu to speak to fifteen years into the future Lu: Somewhen over my full life's years away.
+Those old diary pages... They make me cringe, but they also give me some direct connection to my younger self. They give me some unfiltered insight into how I used to be. It's a way for teenager Lu to speak to fifteen years into the future Lu: Over my full life's years away.
 
 Unfortunately, I can't respond. But if I could... I would say that (a) That's very cringe, and (b) I am still writing cringe diary entries decades later, and I somehow justify it by calling it a [wikiblogardenite](/wikiblogardenite).
