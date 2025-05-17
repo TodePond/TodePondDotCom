@@ -20,6 +20,6 @@ It can be taboo to talk about these things, but looking back, I am very very ple
 
 <br>
 
-back to bed
+Those old diary pages... They make me cringe, but they also give me some direct connection to my younger self. They give me some unfiltered insight into how I used to be. It's a way for teenager Lu to speak to fifteen years into the future Lu: Somewhen over my full life's years away.
 
-
+Unfortunately, I can't respond. But if I could... I would say that (a) That's very cringe, and (b) I am still writing cringe diary entries decades later, and I somehow justify it by calling it a [wikiblogardenite](/wikiblogardenite).
