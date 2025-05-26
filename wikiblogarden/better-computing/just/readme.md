@@ -1,3 +1,7 @@
+---
+description: I don't like that word.
+---
+
 # Just
 
 I don't like that word.

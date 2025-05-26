@@ -1,3 +1,7 @@
+---
+description: There are some people out there trying to make us **use computers better**.
+---
+
 # Better computing
 
 There are some people out there trying to make us **use computers better**.
