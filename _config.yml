@@ -1,0 +1,25 @@
+# og:site_name, and appended to page title tag
+title: Todepond dot com
+
+# override default of "home page"
+description: ""
+
+# og:locale
+locale: en_UK
+
+twitter:
+  # twitter:site
+  username: todepond
+  # twitter:card
+  card: summary_large_image
+
+defaults:
+  - values:
+      # og:image and twitter:image
+      # override per-post with "image:" front matter
+      image: https://todepond.com/og.png
+
+readme_index:
+  # ensure readme.md is available as index.html even if
+  # the markdown has front matter
+  with_frontmatter: true
