@@ -1,6 +1,6 @@
 # Accepting liveness
 
-I'm extremely new to live coding in the sense that When I ask people how long they've been live coding, they often say something like "oh no not very long at all, I'm very new to it" and then they state a number of months over five times longer than mine.
+I'm extremely new to live coding in the sense that When I ask people how long they've been live coding, they often say something to me like "oh no not very long at all, I'm very new to it" and then they state a number of months over five times longer than mine.
 
 So I was surprised when the conference organisers reached out to me, asking me to do one of the keynotes. I said yes of course! What a huge privilege and opportunity. Of course I'd do it.
 
