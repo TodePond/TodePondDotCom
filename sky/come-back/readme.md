@@ -32,7 +32,7 @@ So what are you up to now?
 
 Ah well, uhh, I'm a "software engineer", making, you know, virtual whiteboard software. 
 
-Oh wow! Probably better than the one we use. 
+Oh wow! Probably better than the one we use at [redacted].
 
 Haha I don't know. I mean, that's the idea. 
 
