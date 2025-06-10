@@ -45,3 +45,5 @@ Yeah. Well yeah I enjoy it a lot.
 But I miss teaching a lot.
 
 Well, you know, you can always come back.
+
+Back to the [wikiblogardenite](/wikiblogardenite).
