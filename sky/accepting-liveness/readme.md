@@ -44,4 +44,18 @@ And yeah it turns out that I— After some sitting down and thinking and [tootin
 
 <br>
 
+<br>
+
+<br>
+
+Addition by Bernat:
+
+> Sorry I made you question your ideas about liveness 😂
+>
+> it was really an innocent comment. I've always done live stuff, not as a technologically pure philosophy but as what's natural to me. It feels natural to see a system react instantly to what I do. It feels more like I'm playing, instead of working, if that makes sense. Since I was a kid and programmed in Basic or Logo this was the way things worked for me. Of course that all dissolved in university where I learned "the real industry", but when I graduated and started working with Smalltalk and Scratch, and especially working somewhere where I was constantly surrounded by kids learning how to program, I remembered what it was that got me excited about live systems. Liveness is really to me a pedagogical prerequisite. You can learn with non-live systems, but you've got to be -as opposed to what you say in your post- an analytical engineer-like most probably male archetype person to learn that way.
+
+What do *you* think, reader?
+
+<br>
+
 Back to the [wikiblogardenite](/wikiblogardenite).
