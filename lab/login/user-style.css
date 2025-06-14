@@ -346,9 +346,18 @@
 /* caml :) */
 /* ======= */
 
-.name-caml\@todepond\.com {
+.name-caml\@todepond\.com:after {
   animation: shake 0.2s infinite;
   text-decoration: overline rgb(81, 133, 68) 2px;
+  content: "caml";
+  border: 2px groove rgb(247, 237, 124)
+  padding: 0.1em 0.2em;
+  margin: 0.35em;
+  font-size: 0.6em;
+  top: -0.25em;
+  position: relative;
+  font-weight: normal;
+  border-radius:3px;
 }
 
 .name-caml\@todepond\.com:hover {
