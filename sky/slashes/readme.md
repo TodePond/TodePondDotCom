@@ -1,6 +1,6 @@
 # Slashes
 
-About a year ago, I wrote about the [dashes](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/handwriting) that I use— write with on my wikiblogardenite— that you're reading right now.
+About a year ago, I wrote about the [dashes](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/handwriting) that I use— write with on my— that you're reading right now.
 
 The idea is that I don't delete previous— things that I've—
 
