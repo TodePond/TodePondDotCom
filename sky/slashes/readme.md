@@ -32,6 +32,6 @@ Anyway I don't know. I think if I let myself do intentional dashes, it ends up s
 
 okay wow
 
-maybe that's the way to go
+maybe that's the way to go——— No no no no, on second thoughts I hate it
 
 back to the [wikiblogardenite](/wikiblogardenite)
