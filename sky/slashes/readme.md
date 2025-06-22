@@ -20,7 +20,9 @@ It's really hard to write about your— It's like speaking about how your voice 
 
 And yeah, that's kind of the problem I've had. After a year of using the dashes approach, I've become very used to it. So much so, that I— my writing voice inside my head has started to include dashes in them— the things— the trails of consciousness— thoughts / emerging thoughts / words that end up landing on the page. AAAAAAARRRRRRGGGHHHH
 
-So what I end up with getting— is far too many dashes, because some of them are pre-planned dashes, because that's my writing style that I can't help but doing— do when I'm writing live. And then on top of that, I end up changing my mind a lot, so I end up removing or changing stuff. I—— It's more like human speech. Like, have you ever tried to transcribe raw human speech? It's pretty wild really. It doesn't make a whole lot of sense as written, uhh— or maybe it does— oh god what am I talking about
+So— No.
+
+What I end up with getting— is far too many dashes, because some of them are pre-planned dashes, because that's my writing style that I can't help but doing— do when I'm writing live. And then on top of that, I end up changing my mind a lot, so I end up removing or changing stuff. I—— It's more like human speech. Like, have you ever tried to transcribe raw human speech? It's pretty wild really. It doesn't make a whole lot of sense as written, uhh— or maybe it does— oh god what am I talking about
 
 Like what am I supposed to do if my inner monologue writes a dash but then I decide against the dash in the end? Do I do a double dash? Like "——"? It feels ridiculous.
 
