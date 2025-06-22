@@ -2,7 +2,7 @@
 
 About a year ago, I wrote about the [dashes](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/handwriting) that I use— write with on my— that you're reading right now.
 
-The idea is that I don't delete previous— things that I've—
+The idea is that I don't delete previous words— things that I've—
 
 By adopting dashes, it means that I don't have to delete anything in my editing— writing process. You can see a recording of how I wrote my blog post. You can see where I deleted something or changed something because there's a dash there. It doesn't mean I didn't go back and edit any part of the post. But if I do edit, then I still don't delete. I write a dash instead, and then I write something else. 
 
