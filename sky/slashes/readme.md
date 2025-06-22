@@ -28,7 +28,7 @@ Like what am I supposed to do if my inner monologue writes a dash but then I dec
 
 Something I've been doing / You may have noticed this if you read my other posts / I've been using slashes instead when it's a "pre-planned" dash. You might notice that they usually make— They have a different feel to the dashes. However, I sometimes feel a bit mean / like I'm being a bit mean to myself by not allowing myself to do an intended dash / You know what I mean?
 
-Anyway I don't know. I think if I let myself do intentional dashes, it ends up sounding a bit grandiose / like the pauses it creates in my writing sound overly dramatic or something. However, slashes feel really unsatisfying / way less satisfying than a dash. They take up less visual room and they're less jarring, which is what I like about dashes. I've been thinking about using other symbols instead but that's a bit fiddly • a bit of a pain but maybe • hey wait a minute I actually • I kinda like that
+Anyway I don't know. I think if I let myself do intentional dashes, it ends up sounding a bit grandiose / it makes the pauses it creates in my writing sound overly dramatic or something. However, slashes feel really unsatisfying / way less satisfying than a dash. They take up less visual room and they're less jarring, which is what I like about dashes. I've been thinking about using other symbols instead but that's a bit fiddly • a bit of a pain but maybe • hey wait a minute I actually • I kinda like that
 
 okay wow
 
