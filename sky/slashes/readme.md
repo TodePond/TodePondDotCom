@@ -16,7 +16,7 @@ But hey, to do it / this properly—
 
 To do this properly, you have to really commit to it. You can't half-do it. If you don't stick to it— If you don't stick to the practice fully, then the liveness gets broken / the effects get— the effect gets lost. 
 
-It's really hard to write about— It's like speaking about how your voice sounds. You can't stop thinking about it while you're speaking. It makes it all become deliberate. It's hard. 
+It's really hard to write about your— It's like speaking about how your voice sounds. You can't stop thinking about it while you're speaking. It makes it all become deliberate. It's hard. 
 
 And yeah, that's kind of the problem I've had. After a year of using the dashes approach, I've become very used to it. So much so, that I— my writing voice inside my head has started to include dashes in them— the things— the trails of consciousness— thoughts / emerging thoughts / words that end up landing on the page. AAAAAAARRRRRRGGGHHHH
 
