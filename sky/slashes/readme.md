@@ -14,7 +14,7 @@ In a sense, it makes this blog post liver... live-er... than before / than it wo
 
 But hey, to do it / this properly—
 
-To do this properly, you have to really commit to it. You can't half-do it. If you don't stick to it— If you don't stick to the practice fully, then the liveness gets broken / the effects gets— get lost. 
+To do this properly, you have to really commit to it. You can't half-do it. If you don't stick to it— If you don't stick to the practice fully, then the liveness gets broken / the effects get— the effect gets lost. 
 
 It's really hard to write about— It's like speaking about how your voice sounds. You can't stop thinking about it while you're speaking. It makes it all become deliberate. It's hard. 
 
