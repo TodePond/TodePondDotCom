@@ -39,4 +39,4 @@ Fuck you! I won't do what you tell me!\
 Motherfucker!\
 AAAAAARRRGHHHH
 
-and if you're one of those people who thinks I shouldn't be so angry and we should think this through and make it "positive" and "helpful" and "gentle" and bleugh then Fuck you too! Fuck AI music! Fuck the police! and Fuck off back to the [wikiblogardenite](/wikiblogardenite)!
+and if you're one of those people who thinks I shouldn't be so angry and we should think this through and make it "positive" and "helpful" and "gentle" and bleugh then Fuck you too! also Fuck AI music! Fuck the police! and Fuck off back to the [wikiblogardenite](/wikiblogardenite)!
