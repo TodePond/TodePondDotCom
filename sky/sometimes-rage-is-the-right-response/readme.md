@@ -14,9 +14,9 @@ Anger! is part of art and culture and music and always will be (unless the prick
 
 so... yes, I agree with them both.
 
-Fuck you Reform!\
-Fuck you welfare cuts!\
-Fuck you transphobia!\
+Fuck you, Reform!\
+Fuck you, welfare cuts!\
+Fuck you, transphobia!\
 Fuck you for silencing protests!\
 Fuck you for selling arms!\
 Fuck you for justifying genocide!\
