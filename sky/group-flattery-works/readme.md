@@ -24,8 +24,6 @@ For the record, I don't think that "working hard" is a good thing to value.
 
 ## Conspiracy
 
-It doesn't have to be true. It doesn't matter. It's flattery.
-
 It's a self-fulfilling prophecy. If you call your team "patient" then they will become more patient. If you call your team "hard working" then they will work harder. Listen, I don't make the rules, but you can steer a group's values by stating what it's good at. It attracts more people who also value those things, and it means that people hold themselves to high standards in that standard. 
 
 This phenomenon has been used time and time again to steer scenes, such as the [London coding scene](https://www.todepond.com/wikiblogarden/london/). It's a "fake it til you make it" kind of thing. You need someone to state what a scene is and what a scene is good at. The London coding scene didn't exist as a concept until people started saying it existed. Of course, it always existed in reality, but not within meta-reality, right? You're following, right? Are you still with me? 
