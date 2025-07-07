@@ -20,7 +20,7 @@ If there are people listening who know they don't work hard, then they will feel
 
 There might be some people who think they work hard but actually don't and you will start to hear about these people if you make it clear that "working hard" is what this team does, because people will start to get annoyed with those people for taking the credit. 
 
-For the record, I don't think that "working hard" is a good thing to optimise for. 
+For the record, I don't think that "working hard" is a good thing to value.
 
 ## Conspiracy
 
