@@ -30,7 +30,11 @@ This phenomenon has been used time and time again to steer scenes, such as the [
 
 It's why [Matt Webb](https://interconnected.org/home/) describes the London [scenius](https://kk.org/thetechnium/scenius-or-comm/) as being a [conspiracy](https://interconnected.org/home/2023/12/04/weeknote): An open secret. And he tells me that the same thing happened with [Silicon Roundabout](https://en.wikipedia.org/wiki/East_London_Tech_City). The phenomenon can be used for both evil and good, of course. So we better start using it for good.
 
-So when I say "The London scene is the one of the most inclusive scene I've been part of" or "Pastagang is massively welcoming to newcomers"... Can you hear what I wish for?
+So when I say "The London scene is one of the most inclusive scenes out there" or "Pastagang is massively welcoming to newcomers" ... Can you hear what I wish for?
+
+<br>
+
+
 
 At the end of the day, it comes down to belief. I believe that those scenes are those things but it's not something that I know. And if my beliefs are wrong, then it's trouble for myself and other people.
 
