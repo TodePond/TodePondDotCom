@@ -38,7 +38,7 @@ So when I say "The London scene is one of the most inclusive scenes out there" o
 
 At the end of the day, it comes down to belief. I believe that those scenes are those things but it's not something that I know. And if my beliefs are wrong, then it's trouble for myself and other people.
 
-I think that's leadership: Taking risks that are worth the wish.
+I think that's part of leadership: Taking risks that are worth the wish.
 
 <br>
 
