@@ -30,13 +30,13 @@ On the one hand, I see some of us criticizing anyone who's "not doing enough" fo
 
 On the other hand, I see some of us criticizing anyone who's "not doing enough" for local issues like the trans genocide, to the point of saying that other issues, like the genocide in Palestine, should not be brought up. 
 
-Honestly, I want to take all your heads and smash them together! Listen to yourself! You are competing for airspace with your friends / with your collaborators. It's ridiculous!
+And Honestly, I want to take all your heads and smash them together! Listen to yourself! You are competing for airspace with your friends / with your collaborators. It's ridiculous!
 
 Listen to me: Trans liberation is not the enemy of freedom in Gaza. Freedom in Gaza is not the enemy of trans liberation.
 
 You might be reading this "Well of course! That's obvious. Why does this even need saying?" and so I challenge you to LOOK OUT for this kind of phenomenon. I see it slipping into left-leaning dialogue in increasingly subtle ways. I challenge you to spot it and to call it out!
 
-I've seen it happen many times, often from people I trust and respect, and I've turned a blind eye in the past, because I don't want to add to the in-fighting! However, I've now realised that reducing in-fighting is the same as reducing in-tolerance. If I am truly against in-fighting, then I need to in-fight the in-fighting! Right?
+I've seen it happen many many times, often from people I trust and respect, and I've turned a blind eye to it in the past, because I don't want to add to the in-fighting! However, I've now realised that reducing in-fighting is the same as reducing in-tolerance. If I am truly against in-fighting, then I need to in-fight the in-fighting! Right?
 
 <br>
 
