@@ -40,4 +40,8 @@ I've seen it happen many times, often from people I trust and respect, and I've 
 
 <br>
 
-Let this be a warning to you: If you take part in pointless in-fighting, then fuck you! I will fight you! Total intersectionality or bust. Let's fight the [same people](https://www.todepond.com/wikiblogarden/blending/people/).
+Let this be a warning to you: If you take part in pointless in-fighting, then fuck you! I will fight you! [Total intersectionality](https://www.todepond.com/wikiblogarden/blending/people/) or bust.
+
+<br>
+
+back to the [wikiblogardenite](/wikiblogardenite).
