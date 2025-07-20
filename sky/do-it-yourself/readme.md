@@ -32,6 +32,6 @@ So... I encourage you to give it a try:\
 
 <br>
 
-In this blog post, all words with [three or more SYLLABLES](https://www.todepond.com/wikiblogarden/academia/style/two-beat) have been CAPITALISED. 
+In this blog post, all words with three or more [SYLLABLES](https://www.todepond.com/wikiblogarden/academia/style/two-beat) have been CAPITALISED. 
 
 back to the [wikiblogardenite](/wikiblogardenite)
