@@ -20,7 +20,7 @@ Now that I've changed my outlook, I notice other newbies doing the same: Sharing
 
 <br>
 
-So... I encourage you to try it:\
+So... try it:\
 [Don't stop](https://www.todepond.com/sky/stop) sharing the snapshot.\
 [Do start](https://post.lurk.org/@froos/114545146860160033) sharing the process.
 
