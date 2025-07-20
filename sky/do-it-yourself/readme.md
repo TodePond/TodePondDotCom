@@ -18,7 +18,9 @@ When I was new to live coding I shared lots of little snippets of strudel code b
 
 Now that I've changed my outlook, I notice other newbies do the same: Sharing snapshots but not the process, and it makes me sad because I very much like their snapshots and I feel a yearning to know them better: To see the process: To feel even more CONNECTION.
 
-I encourage you to give it a try:\
+<br>
+
+So... I encourage you to give it a try:\
 [Don't stop](https://www.todepond.com/sky/stop) sharing the snapshot.\
 [Do start](https://post.lurk.org/@froos/114545146860160033) sharing the process.
 
