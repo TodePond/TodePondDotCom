@@ -16,11 +16,11 @@ This is often a fun moment for me and for them because I think it conveys one of
 
 When I was new to live coding I shared lots of little snippets of strudel code because I used it more like a way to make songs and sounds that play themselves, but looking back at that now, it felt really shallow or hollow or empty or something, because the shared snippet didn't / couldn't contain the [process](https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/) of typing that code: the PERFORMANCE.
 
-Now that I've changed my outlook, I notice other newbies do the same: Sharing snapshots but not the process, and it makes me sad because I very much like their snapshots and I feel a yearning to know them better: To see the process: To feel even more CONNECTION.
+Now that I've changed my outlook, I notice other newbies doing the same: Sharing snapshots but not the process, and it makes me sad because I very much like their snapshots and I feel a yearning to know them better: To see their process: To feel even more CONNECTION.
 
 <br>
 
-So... I encourage you to give it a try:\
+So... I encourage you to try it:\
 [Don't stop](https://www.todepond.com/sky/stop) sharing the snapshot.\
 [Do start](https://post.lurk.org/@froos/114545146860160033) sharing the process.
 
