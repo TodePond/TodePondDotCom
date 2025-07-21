@@ -34,4 +34,4 @@ So... try it:\
 
 In this blog post, all words with three or more [SYLLABLES](https://www.todepond.com/wikiblogarden/academia/style/two-beat) have been CAPITALISED. 
 
-back to the [wikiblogardenite](/wikiblogardenite)
+back to the [WIKIBLOGARDENITE](/wikiblogardenite)
