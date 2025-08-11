@@ -1,0 +1,21 @@
+# debugging environment
+
+this is a debugging environment for making websites on your phone
+
+<textarea id="put">
+</textarea>
+
+<section id="see">
+</section>
+
+<script>
+const put = document.querySelector("#put")
+const see = document.querySelector("#see")
+
+put.addEventListener("input", ()=>{
+see.innerHTML = put.value
+})
+
+</script>
+
+back to the wikiblogardenite
