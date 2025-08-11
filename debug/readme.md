@@ -5,7 +5,7 @@ this is a debugging environment for making websites on your phone
 <textarea id="put">
 </textarea>
 
-<section id="see">
+<section id="see" style="white-space: pre-wrap">
 </section>
 
 <script>
