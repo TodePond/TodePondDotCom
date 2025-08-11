@@ -14,7 +14,15 @@ const see = document.querySelector("#see")
 
 put.addEventListener("input", ()=>{
 see.innerHTML = put.value
+enableScripts(see)
 })
+
+function enableScripts(el) {
+const ss = el.querySelectorAll("script")
+const ns = document. createElement("script")
+ns.append(ss.textContent)
+el.replaceChild(ns, ss)
+}
 
 </script>
 
