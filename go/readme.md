@@ -30,7 +30,7 @@ const reqUrl = `https://mas.to/api/v1/statuses/${id}`
 const res = await fetch(reqUrl)
 const json = await res.json()
 
-const content = json.content.slice
+const content = json.content
 conts.unshift(content)
 const replyTo = json.in_reply_to_id
 id = replyTo
