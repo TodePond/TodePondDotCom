@@ -1,4 +1,3 @@
-
 # thread to blog
 
 paste a link to the final toot of a mastodon thread to turn it into markdown
@@ -19,7 +18,7 @@ async function handleButt() {
 const url = putt.value || "https://mas.to/@TodePond/115014625438544515"
 
 const parts = url.split("/")
-const texts = []
+const conts = []
 
 let id = parts.at(-1)
 
@@ -31,18 +30,22 @@ const reqUrl = `https://mas.to/api/v1/statuses/${id}`
 const res = await fetch(reqUrl)
 const json = await res.json()
 
-const content = json.content.slice(3, -4)
-texts.unshift(content)
+const content = json.content.slice
+conts.unshift(content)
 const replyTo = json.in_reply_to_id
 id = replyTo
 }
 
+const texts = []
 document.body.append(document.createElement("br"))
-const text = texts.join("\n\n")
-for(const v of texts){
-document.body.append(text)
-document.body.append(document.createElement("br"))
+for(const c of conts){
+const div = document.createElement("div")
+document.body.append(div)
+div.innerHTML = c
+texts.push(div.textContent)
 }
+
+const text = texts.join("\n\n")
 navigator.clipboard.writeText(text)
 document.body.append("copied")
 }
