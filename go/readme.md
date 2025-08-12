@@ -5,9 +5,7 @@ paste a link to the final toot of a mastodon thread to turn it into markdown
 
 <input id="putit" type="text" />
 
-<button id="getem">
-Get it
-</button>
+<button id="getem">Get it</button>
 
 > i made this fckn website on my phone
 
@@ -27,6 +25,7 @@ let id = parts.at(-1)
 
 while(id) {
 document.body.append(`${id}`)
+document.body.append(document.createElement("br"))
 const reqUrl = `https://mas.to/api/v1/statuses/${id}`
 
 const res = await fetch(reqUrl)
@@ -38,16 +37,10 @@ const replyTo = json.in_reply_to_id
 id = replyTo
 }
 
+document.body.append(document.createElement("br"))
 const text = texts.join("\n\n")
 document.body.append(text)
 navigator.clipboard.writeText(text)
 document.body.append("copied")
 }
-
 </script> 
-
-<style>
-body {
-white-space: pre-wrap;
-}
-</style>
