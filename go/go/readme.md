@@ -2,7 +2,7 @@
 
 I can't quite believe it! it's finally here
 
-as we approach two years of the wikiblogardenite, i finally find myself stumbling across problems that i've had from the [very start](https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/)
+as we approach two years of the wikiblogardenite, i finally find myself stumbling across solutions to problems that i've had from the [very start](https://www.todepond.com/wikiblogarden/my-wikiblogarden/hosting/journey/)
 
 i feel a whole range of emotions around this. i feel wonderful. i feel alive. i feel relieved. i feel confused. i feel annoyed. and many more emotions!
 
