@@ -24,7 +24,7 @@ const texts = []
 let id = parts.at(-1)
 
 while(id) {
-document.body.append(`${id}`)
+document.body.append(`toot: ${id}`)
 document.body.append(document.createElement("br"))
 const reqUrl = `https://mas.to/api/v1/statuses/${id}`
 
@@ -39,7 +39,10 @@ id = replyTo
 
 document.body.append(document.createElement("br"))
 const text = texts.join("\n\n")
+for(const v of texts){
 document.body.append(text)
+document.body.append(document.createElement("br"))
+}
 navigator.clipboard.writeText(text)
 document.body.append("copied")
 }
