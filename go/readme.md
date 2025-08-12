@@ -47,6 +47,5 @@ texts.push(div.textContent)
 
 const text = texts.join("\n\n")
 navigator.clipboard.writeText(text)
-document.body.append("copied")
 }
 </script> 
