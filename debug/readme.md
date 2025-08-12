@@ -18,10 +18,12 @@ enableScripts()
 })
 
 function enableScripts() {
-const os = see.querySelectorAll("script")
+const oss = see.querySelectorAll("script")
 const ns = document.createElement("script")
+oss.forEach(os => {
 ns.text = os.text
 os.parentNode.replaceChild(ns, os)
+}
 }
 
 </script>
