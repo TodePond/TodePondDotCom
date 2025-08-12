@@ -19,11 +19,11 @@ enableScripts()
 
 function enableScripts() {
 const oss = see.querySelectorAll("script")
+  oss.forEach(os => {
 const ns = document.createElement("script")
-oss.forEach(os => {
 ns.text = os.text
 os.parentNode.replaceChild(ns, os)
-}
+})
 }
 
 </script>
