@@ -6,4 +6,4 @@
 
 <p>coming soon: todepop</p>
 
-<p>back to the wikiblogardenite</p>
+<p>back to the [wikiblogardenite](/wikiblogardenite)</p>
