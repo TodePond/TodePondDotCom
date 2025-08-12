@@ -14,14 +14,14 @@ const see = document.querySelector("#see")
 
 put.addEventListener("input", ()=>{
 see.innerHTML = put.value
-enableScripts(see)
+enableScripts()
 })
 
-function enableScripts(el) {
-const os = el.querySelectorAll("script")
+function enableScripts() {
+const os = see.querySelectorAll("script")
 const ns = document.createElement("script")
 ns.text = os.text
-el.replaceChild(ns, os)
+os.parentNode.replaceChild(ns, os)
 }
 
 </script>
