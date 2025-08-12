@@ -18,10 +18,10 @@ enableScripts(see)
 })
 
 function enableScripts(el) {
-const ss = el.querySelectorAll("script")
-const ns = document. createElement("script")
-ns.append(ss.textContent)
-el.replaceChild(ns, ss)
+const os = el.querySelectorAll("script")
+const ns = document.createElement("script")
+ns.text = os.text
+el.replaceChild(ns, os)
 }
 
 </script>
