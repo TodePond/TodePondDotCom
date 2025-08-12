@@ -1,0 +1,53 @@
+
+# thread to blog
+
+paste a link to the final toot of a mastodon thread to turn it into markdown
+
+<input id="putit" type="text" />
+
+<button id="getem">
+Get it
+</button>
+
+> i made this fckn website on my phone
+
+<script>
+const butt = document.querySelector("#getem")
+const putt = document.querySelector("#putit")
+
+butt.addEventListener("click", handleButt)
+
+async function handleButt() {
+const url = putt.value || "https://mas.to/@TodePond/115014625438544515"
+
+const parts = url.split("/")
+const texts = []
+
+let id = parts.at(-1)
+
+while(id) {
+document.body.append(`${id}`)
+const reqUrl = `https://mas.to/api/v1/statuses/${id}`
+
+const res = await fetch(reqUrl)
+const json = await res.json()
+
+const content = json.content
+texts.unshift(content)
+const replyTo = json.in_reply_to_id
+id = replyTo
+}
+
+const text = texts.join("\n\n")
+document.body.append(text)
+navigator.clipboard.writeText(text)
+document.body.append("copied")
+}
+
+</script> 
+
+<style>
+body {
+white-space: pre-wrap;
+}
+</style>
