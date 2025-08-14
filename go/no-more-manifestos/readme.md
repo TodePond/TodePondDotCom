@@ -10,7 +10,7 @@ I kinda expected that though, so I recorded my own talk myself, but I intentiona
 
 If I really value liveness, then I can [just](https://xoxo.zone/@annika/115017302076971618) DO IT AGAIN right?
 
-so I redelivered my talk at the end of a nine and a half hour livestream and some people watched me do it: live. A small number of people watched the entire thing, a large number of people watched that part only. One person started watching at the start, then left to go graduate at their graduation ceremony, then came back to watch the end (we were still going).
+so I redelivered my talk at the end of a nine and a half hour [livestream](https://www.youtube.com/live/7U0PYAOkp4Q?si=mti6hDVNXdp9KTpy) and some people watched me do it: live. A small number of people watched the entire thing, a large number of people watched that part only. One person started watching at the start, then left to go graduate at their graduation ceremony, then came back to watch the end (we were still going).
 
 <br>
 
