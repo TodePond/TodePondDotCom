@@ -8,6 +8,8 @@ and when i say "we" its not because i'm in charge of any of this stuff! i say it
 
 <br>
 
+---
+
 in more recent events, I've noticed that more and more people are finding us through luma (the website where we put our event page up). as our events go bigger, luma is recommending us to more and more people there through recommendation emails and that sort of thing.
 
 that's a good thing but i think it also comes with some risks
@@ -25,6 +27,8 @@ anyway, i have the instagram password now along with a few other people and will
 and if you, londoner, can think of more things to do please feel free to go for it, u got this, you're allowed to do it, no one is in charge
 
 <br>
+
+---
 
 various people (not from london) have told me disparagingly in the past that we shouldn't be so obsessed with "growth" and stuff but they're really missing the point: we will grow whether we want to or not (it's london!). if we do nothing about it, we'll grow naturally in a monoculture and un-diverse way. by putting in effort we can take ownership of our promotion to grow in a *better* way
 
