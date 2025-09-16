@@ -40,6 +40,14 @@ I didn't need a modification to exist for *real*: It was fun [just] imagining th
 
 I published what I wrote down as something I called the Biggest Update Ever, or the BUE for short. Other people seemed to enjoy it and it got quite a lot of attention on the internet / more attention than I was used to.
 
+So then the cravings began: What if the BUE was more than [just] an idea: What if it became real? I fantasised about being able to play the BUE (our very own game) in the very same way as we play our version of bluff (our very own game). If only we had it! If only the game existed for real, then I'd play it non-stop and I'd never get bored and it would be good.
+
+<br>
+
+---
+
+<br>
+
 We then began the fun adventure of trying to turn this hypothetical update into a real one, and we somehow managed to code quite a few of its ideas into a mod.
 
 That mod was called Tightrope because it was hard to get the game balance of all the modified features right.
