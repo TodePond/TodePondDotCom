@@ -70,6 +70,8 @@ The server became more and more empty, and the forums became dominated by a smal
 
 So why didn't it feel that way? 
 
+<br>
+
 ## Your Fortress
 
 It was quite hard to make Tightrope. There was a lot to explain and you had to code it in SourcePawn, quite a low-level language compared to what you'd usually expect from a scripting language.
@@ -78,7 +80,7 @@ So what I thought I needed to do was: Make a new language that's much higher-lev
 
 I got really really really far on this. I thought about it all day, all night. I iterated on the language many times. It was quite similar to CSS. It was highly declarative. You said what you wanted to be true, and it would become true. You didn't need to say *how* it would become true. You defined the rules you wanted and it became true.
 
-But, yes, I worked on it in secret / in isolation and no one saw any of it and now I've lost it all. And at some point I gained perspective: "Wait. Why am I spending my entire life on a *programming language* for a **product** that's owned by a company." I was throwing my time down the drain. That's how it felt, so I stopped.
+But, yes, I worked on it in secret / in isolation and no one saw any of it and now I've lost it all. And at some point I gained perspective: "Wait. Why am I spending my entire life on a *programming language* for a **silly game**." I was throwing my time down the drain. That's how it felt / that's what I thought, so I stopped.
 
 At the time, I didn't know what I wanted / I was wrong about what I wanted, but looking back now from this moment in time, I can see exactly what I wanted, and it's only something I realised two days ago.
 
