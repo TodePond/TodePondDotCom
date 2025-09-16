@@ -22,9 +22,9 @@ Bluff is a modification on the normal rules of tennis. It uses tennis as a start
 
 We had the same desire for Team Fortress 2. We wanted to try out different rules in it. We had silly ideas for silly new gamemodes and features. But Unfortunately, while tennis is merely a tradition, Team Fortress 2 is a **product**, so you can't modify it so easily.
 
-Luckily... some hardworking people had already figured out how to modify Team Fortress 2 *without* the permission of its creator, the company Valve... Team Fortress 2 is [hostile territory](https://folkjs.org/live-2025/). When you modify it, you're fighting against the whims of a profit-making company.
+Luckily... some hardworking people had already figured out how to modify Team Fortress 2 *without* the permission of its creator, the company Valve.
 
-That's not to say that Valve doesn't want you to modify their game. By modifying Team Fortress 2, you add to the modding community surrounding it, adding value to the **product**. It's a mutually beneficial relationship. 
+Team Fortress 2 is [hostile territory](https://folkjs.org/live-2025/). When you modify it, you're fighting against the whims of a profit-making company. That's not to say that Valve doesn't want you to modify their game. By modifying Team Fortress 2, you add to the modding community surrounding it, adding value to the **product**. It's a mutually beneficial relationship. 
 
 But as soon as you do something that pushes too hard against the way that Valve makes money, you risk angering them and you put the entire modding community at risk. This happened when modders started to unlock for free the cosmetic items that Valve sold for real money via their gambling scheme. In response, Valve added some countermeasures to prevent modders from adjusting any cosmetic part of an in-game character, therefore breaking countless uses of that kind of modification that *didn't* step on their foot. Are you following? 
 
