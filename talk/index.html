@@ -15,72 +15,178 @@
 <link rel="stylesheet" href="/style.css" />
 
 <style>
-  .talk-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+  h2 {
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  h2 a {
+    text-decoration: none;
   }
 
-  body {
-    /* background-color: black; */
-    background-color: var(--shade-5);
-    max-width: 100%;
+  section {
+    margin-top: 40px;
   }
 
-  main {
-    /* margin-top: 40px; */
+  section p:not(:first-of-type) {
+    margin-top: 0px;
   }
-
-  h1 {
-    border-bottom: white 1px solid;
-    padding-bottom: 19px;
-    /* padding-top: 19px; */
+  section p:first-of-type {
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
   }
-
-  .thumbnail {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  a:focus {
-    background-color: #46ff80;
-    outline-color: #46ff80;
-  }
-
-  .open:hover {
-    background-color: #87b3f7;
-    outline-color: #87b3f7;
-  }
-
-  .open:focus {
-    background-color: #87b3f7;
-    outline-color: #87b3f7;
-  }
-
-  .death:hover,
-  .death:focus {
-    background-color: #ff4346;
-    outline-color: #ff4346;
-  }
-
-  .natural:hover,
-  .natural:focus {
-    background-color: #fffda2;
-    outline-color: #fffda2;
-  }
-
-  .escape:hover,
-  .escape:focus {
-    background-color: white;
-    outline-color: white;
+  section p {
+    margin-bottom: 10px;
   }
 </style>
 
-<h1>Talks</h1>
+<h1>Todepond talks</h1>
 
-<main class="talk-grid">
+<!-- <p>Here's a selection of talks I've given.</p> -->
+
+<p>
+  I take paid bookings for keynotes. If you want me to speak at your event,
+  <a href="mailto:todepond@gmail.com">let me know</a>.
+</p>
+
+<!-- i am not dead yet -->
+
+<section>
+  <h2>I am not dead yet</h2>
+  <p>
+    I am not dead yet, but one day I will be. Until then, I am a living thing
+    that can respond and change and learn. I want to make the most of that, so I
+    think it's best to do things "live" while I still can. And I'm still
+    learning how to do that best. What I can do is share my personal journey
+    towards liveness in my own creative work. This is the story of how and why I
+    do things live: Live.
+  </p>
+</section>
+
+<!-- what it means to be open -->
+
+<section>
+  <h2>
+    <a class="primary" href="https://www.youtube.com/watch?v=MJzV0CX0q8o">
+      What it means to be open
+    </a>
+  </h2>
+  <p>
+    As a community, as collaborators, as coders, what does it mean to be “open”?
+  </p>
+  <p>
+    This goes way beyond “open source”. Open practice can mean opening yourself
+    up to vulnerability. It can mean opening the door to outside influence. It
+    can also bring great benefit and surprise.
+  </p>
+  <p>
+    I know this because I used to work in a very closed-off way. But over the
+    past ten years, I’ve gradually adopted a more open practice. I am still
+    learning what it really means to be open, but I want to (openly) share
+    everything I’ve learned so far about the unexpected rewards it can bring.
+  </p>
+  <p>Normalise sharing scrappy fiddles!</p>
+</section>
+
+<!-- death of the tadi web -->
+
+<section>
+  <h2>
+    <a class="primary" href="https://www.youtube.com/watch?v=ft6xOAijwFo">
+      Death of the tadi web
+    </a>
+  </h2>
+
+  <p>
+    The tadi web was a ridiculous plan to map out and combine every single
+    "better computing" movement into one practice. Local-first, permacomputing,
+    IndieWeb, robust first, small web, cheap web, cold-blooded software,
+    freewheeling apps, and many more — the tadi web aimed to do them all.
+  </p>
+  <p>
+    Of course, this was an impossible task, and the tadi web miserably died. We
+    will gather to remember its short but slippy life.
+  </p>
+</section>
+
+<!-- spatial programming without escape -->
+
+<section>
+  <h2>
+    <a href="https://www.youtube.com/watch?v=Jr4ACMrRq_8">
+      Spatial programming without escape
+    </a>
+  </h2>
+
+  <p>
+    Spatial programming is a visual and interactive medium that makes use of
+    spatial relationships to craft behavior. But existing approaches rely
+    heavily on escape hatches. They allow the user to return to the traditional
+    land of text to complete their programs, losing out on the benefits of the
+    paradigm. CellPond is a novel and extreme example that removes the need for
+    these escapes.
+  </p>
+</section>
+
+<!-- unblocking creation with friends -->
+
+<section>
+  <h2>
+    <a class="primary" href="https://www.youtube.com/watch?v=4GOeYylCMJI">
+      Unblocking creation with friends
+    </a>
+  </h2>
+
+  <p>
+    Live programming is uniquely suited to creative work. It can remove many of
+    the creative blockers that individuals experience when trying to produce it.
+    But we could place much more explicit emphasis on the removal of emotional
+    blockers from the creative process, as opposed to only focusing on
+    intellectual blockers. Arroost is a project that seeks to do that — an
+    experimental live programming tool for making music.
+  </p>
+</section>
+
+<!-- dialogues on natural code -->
+
+<!-- <section>
+  <h2>
+    <a href="https://www.youtube.com/watch?v=bV12HhAYIik">
+      Dialogues on natural code
+    </a>
+  </h2>
+  <p>This is a talk about a series of dialogues between me and Dave Ackley.</p>
+  <p>
+    where we fleshed out our shared interests in non-traditional machines and
+    coding mechanisms. We primarily focused on the idea that all human language
+    can usefully be viewed in programming language terms — as “natural code”.
+    Programming languages and natural languages differ in many ways, such as
+    having relatively formal definitions versus not, emphasizing strong syntax
+    versus large dictionaries, and demanding rigid implementations versus
+    building on the vagaries of living systems. Still, we saw deep unities as
+    well, much more than mere metaphor, and we glimpsed the possibility of
+    applying humanity’s decades of programming language design and software
+    engineering experience to the task of debugging and refactoring the natural
+    codebase that we all share. These fragmentary and overlapping dialogues
+    represent both a description and an example of natural code, and we offer
+    them here, with a simple “natural API” illustration, in hopes of programming
+    people to join in natural code development.
+  </p>
+</section> -->
+
+<!-- how to be todepond -->
+
+<section>
+  <h2>
+    <a class="secondary" href="https://www.youtube.com/watch?v=RFMUTruaDDM">
+      How to be todepond
+    </a>
+  </h2>
+
+  <p>I gave a talk about how I make content.</p>
+</section>
+
+<!-- <main class="talk-grid">
   <section>
     <a href="https://www.youtube.com/watch?v=Jr4ACMrRq_8" class="escape">
       <img
@@ -167,9 +273,9 @@
         style="object-fit: cover; object-position: bottom"
         src="/talk/thumbnail/normalise-sharing-scrappy-fiddles-3.png" />
     </a>
-  </section>
+  </section> -->
 
-  <!-- <section>
+<!-- <section>
     <a class="escape" href="https://youtu.be/01yE-vzJ-NE?si=84sysvtls_NekZVm">
       <img
         width="1280"
@@ -180,7 +286,7 @@
     </a>
   </section> -->
 
-  <!-- <section>
+<!-- <section>
     <a class="escape" href="#" onclick="alert('never recorded :(')">
       <img
         width="1280"
@@ -190,6 +296,6 @@
         src="/talk/thumbnail/emotions-swallowing-myself.png" />
     </a>
   </section> -->
-</main>
+<!-- </main> -->
 
-<section><p class="secondary">there are also more out there...</p></section>
+<!-- <section><p class="secondary">there are also more out there...</p></section> -->
