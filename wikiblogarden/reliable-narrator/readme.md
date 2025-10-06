@@ -1,3 +1,5 @@
+# I am not a reliable narrator
+
 I usually write a blog post at "eureka" moments where i feel like I've realised something or I've made up my mind on something or something
 
 I usually write a blog post as a way of "trying out" a new worldview. I usually write in a way that makes me sound sure of what I'm writing, often a more exaggerated view of what i actually believe. It helps me to hear back the thought and it helps me to get people's reactions to it / own views of it. 
