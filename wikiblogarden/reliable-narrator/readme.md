@@ -66,6 +66,8 @@ Modernism is when you identify that you are an unreliable narrator, so you try t
 
 Postmodernism is when you identify that you are an unreliable narrator, and you know you always will be, so instead of trying to *fix* yourself, you try to *handle* it.
 
+But remember, I am unreliable narrator so I might be wrong about everything.
+
 <br>
 
 back to the [wikib
