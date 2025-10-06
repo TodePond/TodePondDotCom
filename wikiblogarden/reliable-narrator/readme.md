@@ -60,13 +60,15 @@ During my residency, I discovered the [tadi web](https://www.youtube.com/watch?v
 
 <br>
 
-The tone of voice I use in these blog posts is mostly decisive. I write as if I know what I'm talking about but really I have no idea what I'm doing and that's why I'm writing about it. Ink & Switch has a [writing style guide](https://www.todepond.com/wikiblogarden/academia/style/two-beat) too called "Academish Style" and it speaks with an authority that I used to wish for myself. Increasingly, I want to speak without authority, which doesn't really match up with my actions currently. I don't want to be seen as an authority on anything, because I am not a reliable narrator: Not because I am trying to be, but because I have no choice, and this is what postmodernism is.
+The tone of voice I use in these blog posts is mostly decisive. I write as if I know what I'm talking about but really I have no idea what I'm doing and that's why I'm writing about it. Ink & Switch has a [writing style guide](https://www.todepond.com/wikiblogarden/academia/style/two-beat) too called "Academish Style" and it speaks with an authority that I used to wish for myself. Increasingly, I want to speak without authority, which doesn't really match up with my actions currently. I don't want to be seen as an authority on anything, because I am not a reliable narrator: Not because I am trying to be, but because I have no choice, and this is what postmodernism is(!).
+
+<br>
 
 Modernism is when you identify that you are an unreliable narrator, so you try to better yourself through technology: You fool yourself with the impossible dream of becoming a reliable narrator. 
 
 Postmodernism is when you identify that you are an unreliable narrator, and you know you always will be, so instead of trying to *fix* yourself, you try to *handle* it.
 
-But remember, I am unreliable narrator so I might be wrong about everything.
+But remember, I am an unreliable narrator so I might be wrong about everything.
 
 <br>
 
