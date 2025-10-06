@@ -22,9 +22,9 @@ However, I've noticed that, as I get more used to writing blog posts, I'm gettin
 
 # Use case versus primitive
 
-I did a research residency at Ink & Switch which means being able to join in review / demo sessions to be on both ends of sharing work internally and getting feedback internally. It was a very informative year for me: The experience ended up informing a lot of my practices about how I position and present my work and how I go about doing it. The stuff I learned was the more meta stuff: How to be an "independent researcher" or [whatever it is you are be](https://www.todepond.com/wikiblogarden/work/what-are-you/).
+I did a research residency at Ink & Switch which means being able to join in review / demo sessions to be on both ends of sharing work internally and getting feedback internally. It was a very informative year for me: The experience ended up informing a lot of my practices about how I position and present my work and how I go about doing it. The stuff I learned was the more meta stuff: How to be an "independent researcher" or [whatever it is you are](https://www.todepond.com/wikiblogarden/work/what-are-you/).
 
-I was present for many internet discussions about these decision points. People on the team had different viewpoints about them, some more different than others. 
+I was present for many internal discussions about these decision points. People on the team had different viewpoints about them, some more different than others. 
 
 In discussions, one decision point kept coming up: Should you base your work in trying to solve a use case, and then identify the technological primitives that meet it? Or should you base your work in identifying a technological primitive, and then build up towards use case?
 
