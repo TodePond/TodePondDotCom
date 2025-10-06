@@ -1,4 +1,4 @@
-I need at least two hands to count the number of people who have told me that they suffer from this one specific problem. Maybe I should introduce them so they can all suffer together. 
+I need at least two hands to count the number of people who have told me that they suffer from this one specific problem. Maybe I should introduce them all so they can all suffer together. 
 
 <br>
 
