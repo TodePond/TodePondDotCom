@@ -1,5 +1,5 @@
 where cringe meets psychedelica
 
-*buzz*
+\*buzz\*
 
 Surrealism
