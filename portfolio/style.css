@@ -57,6 +57,8 @@ a {
   font-weight: 300;
   font-family: sans-serif;
   font-size: 0.9em;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .timeline header button:hover {
@@ -84,9 +86,22 @@ a {
 }
 
 .timeline-item h2::before {
-  content: "●";
+  background-color: white;
+  /* background-image: url("assets/dot.svg"); */
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
   position: absolute;
-  left: calc(max(100vw - 750px, 0px) / 2 + 3.5px);
+  width: 16px;
+  content: "";
+  border-radius: 50%;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial;
+  left: calc(max(100vw - 750px, 0px) / 2);
+  transform: translateX(3px) translateY(6px);
 }
 
 ul > li {

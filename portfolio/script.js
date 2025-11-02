@@ -6,39 +6,32 @@ timelineItems.forEach((item, index) => {
   item.style.order = index;
 });
 
-sortButton.addEventListener("click", () => {
+const loadedSort = localStorage.getItem("currentSort") ?? "oldest";
+let currentSort = "oldest";
+
+function updateSort(newSort) {
+  if (newSort === currentSort) {
+    return;
+  }
+  currentSort = newSort;
   timelineItems.sort((a, b) => b.style.order - a.style.order);
   timelineItems.forEach((item, index) => {
     item.style.order = index;
   });
-
-  if (sortButton.textContent === "↓ Oldest first") {
+  if (currentSort === "newest") {
     sortButton.textContent = "↑ Newest first";
+    localStorage.setItem("currentSort", "newest");
   } else {
     sortButton.textContent = "↓ Oldest first";
+    localStorage.setItem("currentSort", "oldest");
   }
+}
+
+// updateSort("newest");
+
+sortButton.addEventListener("click", () => {
+  updateSort(currentSort === "oldest" ? "newest" : "oldest");
 });
-
-/*
-sandpond saga + videos
-screenpond
-cellpond
-arroost
-tadi lab
-dreamberd
-torn leaf
-logiverse
-pondiverse
-make real
-autocomplete for canvas
-teach
-agent starter kit
-shader starter kit
-unannounced fairy feature
-pastagang + nudel
-dogspinner
-
-*/
 
 const items = [
   {
