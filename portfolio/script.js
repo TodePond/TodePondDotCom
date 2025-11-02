@@ -1,9 +1,12 @@
 const sortButton = document.getElementById("sort-button");
 const timelineItems = [...document.querySelectorAll(".timeline-item")];
 
+const footer = document.querySelector("footer");
+
 // Add initial order styles
 timelineItems.forEach((item, index) => {
   item.style.order = index;
+  footer.style.order = index;
 });
 
 const loadedSort = localStorage.getItem("currentSort") ?? "oldest";

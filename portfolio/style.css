@@ -33,7 +33,7 @@ a {
   border-left: 2px solid white;
   flex-direction: column;
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   /* margin-top: 60px; */
 }
 
@@ -135,11 +135,36 @@ ul > li + li {
   margin-top: 5px;
 }
 
-img {
+img:not(.inline) {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
 
 img.ratio {
   aspect-ratio: attr(data-width) / attr(data-height);
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+footer .links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* wrap gap 10px */
+  row-gap: 10px;
+  /* margin-bottom: 20px; */
 }
