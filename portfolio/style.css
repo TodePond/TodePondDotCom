@@ -87,21 +87,12 @@ a {
 
 .timeline-item h2::before {
   background-color: white;
-  /* background-image: url("assets/dot.svg"); */
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
   position: absolute;
-  width: 16px;
+  width: 10px;
   content: "";
-  border-radius: 50%;
-  height: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  height: 10px;
   font-family: Arial;
-  left: calc(max(100vw - 750px, 0px) / 2);
-  transform: translateX(3px) translateY(6px);
+  transform: translateX(-36px) translateY(10px);
 }
 
 ul > li {
@@ -115,4 +106,8 @@ ul > li + li {
 img {
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+img.ratio {
+  aspect-ratio: attr(data-width) / attr(data-height);
 }

@@ -27,7 +27,11 @@ function updateSort(newSort) {
   }
 }
 
-// updateSort("newest");
+const urlQuery = new URLSearchParams(window.location.search);
+const sort = urlQuery.get("sort");
+if (sort) {
+  updateSort(sort);
+}
 
 sortButton.addEventListener("click", () => {
   updateSort(currentSort === "oldest" ? "newest" : "oldest");
