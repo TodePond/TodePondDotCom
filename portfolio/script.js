@@ -66,6 +66,10 @@ const items = [
     year: 2022,
   },
   {
+    title: "Future of Coding",
+    year: "???",
+  },
+  {
     title: "Arroost",
     year: 2023,
   },
