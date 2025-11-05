@@ -90,10 +90,6 @@ const items = [
     year: 2024,
   },
   {
-    title: "Pastagang",
-    year: 2024,
-  },
-  {
     title: "Autocomplete For Canvas",
     year: 2024,
   },
@@ -102,11 +98,19 @@ const items = [
     year: 2024,
   },
   {
-    title: "Pondiverse",
-    year: 2025,
+    title: "Pastagang",
+    year: 2024,
+  },
+  {
+    title: "Natural Code",
+    year: 2024,
   },
   {
     title: "tldraw Computer",
+    year: 2024,
+  },
+  {
+    title: "Pondiverse",
     year: 2025,
   },
   {

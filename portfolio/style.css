@@ -70,12 +70,12 @@ a {
 .timeline aside.social {
   position: absolute;
   right: 0;
-  padding-right: 18px;
+  padding-right: 17px;
   font-weight: 300;
   font-size: 0.9em;
   display: flex;
   gap: 20px;
-  top: 10px;
+  top: 14px;
   max-width: 100%;
   flex-wrap: wrap;
 }
@@ -83,7 +83,7 @@ a {
 .timeline aside.home {
   position: absolute;
   left: 0;
-  padding-left: 18px;
+  padding-left: 14px;
   font-weight: 300;
   font-size: 0.9em;
   display: flex;
