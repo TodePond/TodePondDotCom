@@ -127,6 +127,24 @@ a {
   transform: translateX(-36px) translateY(10px);
 }
 
+@media (max-width: 600px) {
+  .timeline-item {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .timeline-item h2::before {
+    /* width: 9px; */
+    /* height: 9px; */
+    transform: translateX(-26px) translateY(10px);
+  }
+
+  .timeline header {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
+
 ul > li {
   list-style: "→ ";
 }
