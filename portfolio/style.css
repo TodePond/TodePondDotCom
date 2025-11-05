@@ -145,6 +145,10 @@ a {
   }
 }
 
+h2 span {
+  scroll-margin-top: 20px;
+}
+
 ul > li {
   list-style: "→ ";
 }
