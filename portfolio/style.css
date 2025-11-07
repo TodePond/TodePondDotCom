@@ -73,7 +73,7 @@ a {
 .timeline aside.social {
   position: absolute;
   right: 0;
-  padding-right: 20px;
+  padding-right: 21px;
   font-weight: 300;
   font-size: 0.9em;
   display: flex;
@@ -86,12 +86,12 @@ a {
 .timeline aside.home {
   position: absolute;
   left: 0;
-  padding-left: 14px;
+  padding-left: 18px;
   font-weight: 300;
   font-size: 0.9em;
   display: flex;
   gap: 20px;
-  top: 10px;
+  top: 16px;
 }
 
 @media (max-width: 600px) {
