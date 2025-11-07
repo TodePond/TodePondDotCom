@@ -1,3 +1,7 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
 h1 {
   font-weight: 300;
   margin-top: 20px;
@@ -55,7 +59,6 @@ a {
   position: relative;
   left: -2px;
   font-weight: 300;
-  font-family: sans-serif;
   font-size: 0.9em;
   text-align: left;
   white-space: nowrap;
@@ -70,12 +73,12 @@ a {
 .timeline aside.social {
   position: absolute;
   right: 0;
-  padding-right: 17px;
+  padding-right: 20px;
   font-weight: 300;
   font-size: 0.9em;
   display: flex;
   gap: 20px;
-  top: 14px;
+  top: 16px;
   max-width: 100%;
   flex-wrap: wrap;
 }
