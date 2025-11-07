@@ -265,6 +265,15 @@ a:hover {
   z-index: 10000;
 }
 
+a.classic {
+  /* color: var(--shade-3); */
+  /* background: none; */
+  outline: 2px solid var(--shade-3);
+  padding: 0px;
+  margin-right: 2px;
+  /* text-decoration: underline; */
+}
+
 .other a:hover {
   outline: 2px solid var(--shade-3);
 }
