@@ -1,4 +1,4 @@
-s# When there's a crisis, three things can happen
+# When there's a crisis, three things can happen
 
 Most of the things I know come from the time I spent as a teacher.
 
