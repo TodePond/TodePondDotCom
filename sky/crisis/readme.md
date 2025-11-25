@@ -74,8 +74,6 @@ If you do these things, you're likely to form a stronger relationship whenever a
 
 Of course, I've been talking about working with children in this blog post, but I've found that the same rules apply to adults too. Except adults are way worse than children because they think they're smart or something. Though that's probably unfair. The people I worked with in my seven years of teaching were (on the whole) highly empathetic. My colleagues valued emotional understanding highly. My bosses were bosses because they had higher emotional intelligence than me. 
 
-But I can't say the same for some other communities I'm part of. For example, the LIVE CODING UNIVERSE SIGNAL CHAT is a complete mess. I've rage-quitted (rage-quat?) it twice over the past two weeks because I'm frustrated with how highly strung it all is. And I'm part of that problem. I contributed to the repeated crises that community has been going through, and this blog post probably doesn't help things either, and for that I am sorry, and I should know better.
-
 <br>
 
 back to the [wikiblogardenite](/wikiblogardenite)
