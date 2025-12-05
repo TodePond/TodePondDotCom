@@ -12,7 +12,7 @@ And in third place, it was [Splash](https://todepond.com/lab/splash), my first e
 
 ## Trans-posting
 
-The posts about being trans continued, and they continued to be some of my most viewed posts, the clear winner being [The pros and cons of coming out as trans*](https://www.todepond.com/wikiblogarden/genocide/coming-out/pros-and-cons/).
+The posts about being trans continued, and they continued to be some of my most viewed posts, the clear winner being [The pros and cons of being trans*](https://www.todepond.com/wikiblogarden/genocide/coming-out/pros-and-cons/).
 
 I still haven't given you a full [Glimpse of feeling trans](https://www.todepond.com/sky/a-glimpse-of-feeling-trans/) but I did anger a few people with my thoughts on [Normal gender feelings](https://todepond.com/wikiblogardenite/normal-gender-feelings).
 
