@@ -6,7 +6,7 @@ Two years ago, I started my wikiblogardenite. Let's do a recap of year number tw
 
 For the second year in a row, the most viewed post was [Just](https://www.todepond.com/wikiblogarden/better-computing/just/).
 
-The second most viewed post was [Dialogues on natural code](https://www.todepond.com/code/): The release of the paper I wrote with Dave Ashley.
+The second most viewed post was [Dialogues on natural code](https://www.todepond.com/code/): The release of the paper I wrote with Dave Ackley.
 
 And in third place, it was [Splash](https://todepond.com/lab/splash), my first explainable.
 
