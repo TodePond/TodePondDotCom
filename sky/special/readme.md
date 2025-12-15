@@ -34,11 +34,7 @@ I ate meat for most of my life. I always felt bad about it but I gave myself all
 
 "It's natural. It's nature. It's the food chain. Who am I to intervene with that?"
 
-gross
-
 "Animals are different to us. They don't feel or think the same things / the same way as us. It's okay to slaughter them."
-
-gross
 
 "Because we are Special."
 
