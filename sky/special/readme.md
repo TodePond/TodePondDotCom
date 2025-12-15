@@ -14,11 +14,11 @@ But we are nothing: We are NOTHING compared to God / the glory of God and His Cr
 
 And we learned of the unimaginable Greatness of the bird. I remember the hummingbird being picked out and focused on. Numbers were presented to us about how fast it flaps its wings / how still it can be while hovering.
 
-But the hummingbird is not Great because of the hummingbird. The hummingbird is Great because it was Created by God. It is His glory and wisdom and expertise that makes the hummingbird Great. That's how Special He is. We are Special too, yes, but that's nothing to do with us. We are Special because of Him: He Created us that way: Just like the hummingbird was Created.
+But the hummingbird is not Great because of the hummingbird. The hummingbird is Great because it was Created by God. It is His glory and wisdom and expertise that makes the hummingbird Great. That's how Special He is. We are Special too, yes, but that's nothing to do with us. We are Special because of Him: He Created us that way: Just like he Created the hummingbird.
 
 But we are luckier than the hummingbird because he did not make the hummingbird Special. The hummingbird is only Great.
 
-But we are Special because it's only us that we're made in God's Special image. The teachers at that school also told me that you should never start a sentence or a paragraph with the word "But".
+But we are Special because it's only us that were made in God's Special image. The teachers at that school also told me that you should never start a sentence or a paragraph with the word "But".
 
 But I don't care. 
 
