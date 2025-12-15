@@ -30,7 +30,7 @@ But I don't care.
 
 ## You are not special
 
-I've eaten meat for most of my life. I always felt bad about it but I gave myself all sorts of excuses about why it's okay. 
+I ate meat for most of my life. I always felt bad about it but I gave myself all sorts of excuses about why it's okay. 
 
 "It's natural. It's nature. It's the food chain. Who am I to intervene with that?"
 
