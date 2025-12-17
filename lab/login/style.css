@@ -624,3 +624,109 @@ input[type="checkbox"] {
   gap: 5px;
   justify-content: space-between;
 }
+
+/* ===== */
+/* netux */
+/* ===== */
+.name-netux {
+  position: relative;
+  content: "netux";
+  background: linear-gradient(
+      to right,
+      #BE7B00 0%,
+      #FFA600 50%,
+      #BE7B00 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 2px rgba(255, 255, 255, .3);
+}
+
+.name-netux::before, .name-netux::after {
+  position: absolute;
+  text-shadow: none;
+  line-height: 1;
+  white-space: nowrap;
+  -webkit-text-fill-color: initial;
+}
+
+@keyframes netux--deal-with-it__hand {
+  0% { /* initial position */
+    content: "> ⌐■_■";
+    clip-path: rect(0% 100% 100% 95%);
+    left: 0%;
+  }
+  15% { /* take hand with glasses out */
+    content: "> ⌐■_■";
+    clip-path: rect(0% 100% 100% 0%);
+    left: 105%;
+  }
+  17% { /* leave a few frames for the hands to fully appear */
+    transform: rotateZ(0deg);
+  }
+  40% { /* preparing to throw glasses */
+    content: "> ⌐■_■";
+    top: 0.4rem;
+    transform: rotateZ(45deg);
+  }
+  44% { /* up they go */
+    content: "> ⌐■_■";
+    top: 0.2rem;
+    transform: rotateZ(-20deg);
+    left: 105%;
+  }
+  44% { /* glasses no longer in hand */
+    content: ">";
+    left: 105%;
+    clip-path: rect(0% 100% 100% -5%);
+  }
+  50% { /* return to rest position */
+    left: 105%;
+    transform: rotateZ(0deg);
+    clip-path: rect(0% 100% 100% 0%);
+  }
+  60% {
+    left: 100%;
+    clip-path: rect(0% 100% 100% 0%);
+  }
+  70% { /* bring hand back in */
+    content: ">";
+    left: calc(100% - 1ch);
+    clip-path: rect(0% 100% 100% 100%);
+  }
+}
+@keyframes netux--deal-with-it__glasses-fly {
+  0% { /* whoop, sunglasses appear in the place where the hands let go of them */
+    visibility: visible;
+    top: -8px;
+    left: 135%;
+    transform: rotateZ(-20deg);
+  }
+  50% { /* go up */
+    top: -100vh;
+    transform: rotateZ(calc(-360deg * 10));
+  }
+  100% { /* go back down, land in style */
+    visibility: visible;
+    top: -1px;
+    left: -0.25ch;
+    transform: rotateZ(calc(-360deg * 20));
+  }
+}
+
+.name-netux:not(.at) {
+  cursor: help;
+}
+
+.name-netux:not(.at):hover::before {
+  content: "";
+  top: 0.2rem;
+  transform-origin: 6px 6px;
+  animation: netux--deal-with-it__hand 3s linear forwards;
+}
+.name-netux:not(.at):hover::after {
+  content: "⌐■_■";
+  visibility: hidden;
+  animation:
+    netux--deal-with-it__glasses-fly 3s calc(3s * 0.42) linear forwards;
+}
