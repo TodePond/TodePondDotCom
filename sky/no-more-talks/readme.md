@@ -30,7 +30,7 @@ That was the point, after all! The reason I did it all was: I did it all as an [
 
 Well ... that's how it started out. But for sure, standing on stage and speaking to a conference-full of people is not a good emotional outlet. If anything, it's the opposite. 
 
-Yes, I realised that my motivation had changed at some point. Step by step, things had changed slowly, andvit was so gradual that I didn't notice it, but when I looked back over a longer period of time, the change was clear.
+Yes, I realised that my motivation had changed at some point. Step by step, things had changed slowly, and it was so gradual that I didn't notice it, but when I looked back over a longer period of time, the change was clear.
 
 I mean, yes, giving a talk is fun! For sure! But that's not the same as something being an emotional outlet. And... hmm yes.
 
@@ -42,7 +42,7 @@ So... if it didn't matter what the topic of the talk was... then I may as well t
 
 <br>
 
-## Being unhelpful
+## I needed to stop something
 
 The problem with giving a "helpful" talk is that it's easy to make it sound accidentally preachy. It turns into a sermon too easily. You end up telling everyone what to do and they end up listening because you're the one with the loud voice and the spotlight. 
 
