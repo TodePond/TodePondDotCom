@@ -65,7 +65,7 @@ In other words, pick your battles. Where and when and with whom are you going to
 
 Those of us aiming for world peace often end up fighting each other. I ask you: How on *earth* are we going to create peace for the planet if we can't even create peace in our own Signal chat? or in our creative community? or in our hometown?
 
-And peace spreads! Unfortunately, conflict spreads faster. Nine people sharing peace easily becomes ten. But nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate structure that requires work and effort and sacrifice.
+And peace spreads! Unfortunately, conflict spreads faster. Nine people in peace easily becomes ten. But nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate structure that requires work and effort and sacrifice.
 
 But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think. 
 
