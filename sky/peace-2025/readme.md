@@ -59,7 +59,7 @@ And peace means ego death: It means forgetting yourself and your needs (and ever
 
 But we could fairly ask: Is peace always the right thing? If someone is mistreating you, or if someone is mistreating your friend, then peace is a vice. Sometimes you have to fight. Sometimes peace is wrong. 
 
-I now see that peace is a preciously scarce resource in my life. I spend it by fighting. I gain it by giving in, by taking the hit, by walking away. It goes up and down depending on what I do. Finding peace means finding a balance. What's the right level of peace to aim for in your life? 
+I now see that peace is a precious resource in my life. I spend it by fighting. I gain it by giving in, by taking the hit, by walking away. It goes up and down depending on what I do. Finding peace means finding a balance. What's the right level of peace to aim for in your life? 
 
 In other words, pick your battles. Where and when and with whom are you going to fight? I am repeatedly shocked by some people's inability to do this right, including my own. 
 
