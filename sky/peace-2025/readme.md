@@ -20,11 +20,11 @@ Well, what have I done?
 
 <br>
 
-Decision paralysis can be a convenient excuse for people in my position. "Oh it's simply too hard to tell what will actually have an impact!" and "Oh doing [X] is actually less effective than people think and I am very smart!" are two statements that I'm devastatingly sick of hearing.
+Decision paralysis can be a convenient excuse for people in my position. "Oh it's simply too hard to tell what will actually have an impact!" and "Oh doing [X] is actually less effective than people think and I am very smart!" are two statements that I'm sick of hearing.
 
-Here we sit with piles of privilege, playing "peace" as if it's a board game, saying "If we are to find peace, then we ought to do it in the most calculated and elegant way possible" as if it weren't a scramble / as if humanity wasn't treading water in the turbulence of our increasingly boiling ocean (oh yeah, that's right: climate change is happening too).
+Here we sit with piles of privilege, playing "peace" as if it's a board game, saying "If we are to find peace, then we ought to do it in the most calculated and elegant way possible" as if it weren't a scramble / as if humanity wasn't treading water in an increasingly boiling ocean (oh yeah, that's right: climate change is happening too).
 
-It's time to panic, motherfucker! It's time to make some noise! Cry out for help! Call for the end of hate! For the end of vulnerability! Demand better! It's gonna get messy! 
+It's time to panic, motherfrogger! It's time to make some noise! Cry out for help! Demand better! Demand better! It's gonna get messy!!!!!!!
 
 <br>
 
@@ -38,7 +38,7 @@ It's time to panic, motherfucker! It's time to make some noise! Cry out for help
 
 ## Years
 
-For some reason, I've been theming my years since 2022.
+I've been theming my years since 2022!
 
 Every year, I focus on one particular theme / one particular quality that I spend the whole year trying to explore and embody.
 
@@ -65,9 +65,9 @@ In other words, pick your battles. Where and when and with whom are you going to
 
 Those of us aiming for world peace often end up fighting each other. I ask you: How on *earth* are we going to create peace for the planet if we can't even create peace in our own Signal chat? or in our creative community? or in our hometown?
 
-And peace spreads! Unfortunately, conflict spreads faster. Nine people at peace easily becomes ten. But nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
+Peace spreads! Unfortunately, conflict spreads faster. Nine people at peace easily becomes ten. Nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
 
-But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think. 
+But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I'm privileged enough to have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think. 
 
 <br>
 
