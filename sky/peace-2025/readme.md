@@ -63,7 +63,7 @@ I now see that peace is a precious resource in my life. I spend it by fighting. 
 
 In other words, pick your battles. Where and when and with whom are you going to fight? I am repeatedly shocked by some people's inability to do this right, including my own. 
 
-Those of us aiming for world peace often end up fighting each other. I ask you: How on *earth* are we going to create peace for the planet if we can't even create peace in our own Signal chat? or in our creative community? or in our hometown?
+Those of us aiming for world peace often end up fighting each other. I ask you: How on *earth* are we going to create peace on earth if we can't even create peace in our own Signal chat? or in our creative community? or in our hometown?
 
 Peace spreads! Unfortunately, conflict spreads quicker. Nine people at peace easily becomes ten. Nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
 
