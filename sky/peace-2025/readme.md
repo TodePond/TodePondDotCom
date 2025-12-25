@@ -2,7 +2,7 @@
 
 It's christmas day, just like [last year](https://www.todepond.com/wikiblogarden/genocide/peace/christmas/a-year-later) and also the [year before that](https://www.todepond.com/wikiblogarden/genocide/peace/christmas/).
 
-And once again, I'll say: I'm not religious but I've always celebrated christmas. And it feels as good a time as any to wish for peace. Though my faith in wishes continues to diminish to even lower than what it was before. 
+Once again, I'll say: I'm not religious but I've always celebrated christmas. And it feels as good a time as any to wish for peace. Though my faith in wishes continues to diminish to even lower than what it was before. 
 
 <br>
 
