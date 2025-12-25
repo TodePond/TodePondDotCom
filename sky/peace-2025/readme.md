@@ -67,7 +67,11 @@ Those of us aiming for world peace often end up fighting each other. I ask you: 
 
 Peace spreads! Unfortunately, conflict spreads quicker. Nine people at peace easily becomes ten. Nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
 
-But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I'm privileged enough to have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think. 
+But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I'm privileged enough to have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think.
+
+And fuck the evil nob-heads that make things worse!!!!!!!!
+
+(amen)
 
 <br>
 
