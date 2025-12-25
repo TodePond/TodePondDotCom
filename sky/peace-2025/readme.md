@@ -6,7 +6,7 @@ Once again, I'll say: I'm not religious but I've always celebrated christmas, an
 
 <br>
 
-Many things have happened in my life this year. One of my main learnings was that things don't happen unless you make them happen. Whether I'm at work or at home or somewhere else, sometimes you [just] gotta "do it". And that's hard. 
+Many things have happened in my life this year. One of my main learnings was that things don't happen unless you make them happen. Whether I'm at work or at home or somewhere else, sometimes you [just] gotta "do it", and that's hard. 
 
 But how do you "do it" if the thing you want to do involves unknown work? The problem with peace is not that people don't want it, although many don't. But rather, I'd say: There are many many people who *do* want peace on earth and are doing things / taking steps towards trying to make that become a reality. The problem is that no one has figured out "how" to "do it" yet. Or at the very least, "doing it" takes a very very long time. 
 
@@ -65,7 +65,7 @@ In other words, pick your battles. Where and when and with whom are you going to
 
 Those of us aiming for world peace often end up fighting each other. I ask you: How on *earth* are we going to create peace for the planet if we can't even create peace in our own Signal chat? or in our creative community? or in our hometown?
 
-Peace spreads! Unfortunately, conflict spreads faster. Nine people at peace easily becomes ten. Nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
+Peace spreads! Unfortunately, conflict spreads quicker. Nine people at peace easily becomes ten. Nine people at war easily becomes ninety. These are the forces of nature that we have to contend with. It's entropy, and we're the information: Conflict is chaos and noise and nonsense. Peace is a delicate moving structure that requires work and effort and sacrifice.
 
 But like I said, I know nothing about peace because it's something I take for granted. Despite my complaints, I'm privileged enough to have it in abundance, yet still I wish for more, because wishes are cheap! They only cost thoughts, so I'll keep wishing for peace at christmas for as long as I can think. 
 
