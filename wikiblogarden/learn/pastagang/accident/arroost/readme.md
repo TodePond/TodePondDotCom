@@ -1,27 +1,5 @@
 # Learning by accident
 
-The easiest way to learn is by accident. I know this because I joined an emergent cult called pastagang.
-
-<br>
-
-<br>
-
-## Contents
-
-- <a href="#introduction" class="secondary">Introduction</a>
-- <a href="#arroost" class="secondary">Part one: Arroost</a>
-- <a href="#strudel" class="secondary">Part two: Strudel</a>
-- <a class="secondary" href="#flok">Part three: Flok</a> (work in progress) 
-- Part four: (spoiler)
-- Part five: (spoiler)
-- Conclusion
-
-<br>
-
-<br>
-
-<h1 id="introduction">Introduction</h1>
-
 Sometimes I look back and try to figure out how I got here.
 
 I vividly remember the day I decided to start making [videos](https://youtube.com/@todepond?si=KmQIA3azT3bh0J_h). I was at a cafe in a library. We were waiting there before a show.
@@ -46,7 +24,7 @@ And either way, I learned a lot. Not because I set out to. It wasn't intentional
 
 <br>
 
-<h1 id="arroost">Part one: Arroost</h1>
+<h1 id="arroost">Arroost</h1>
 
 My [explorations](/explore) led me to making a tool called [arroost](https://youtu.be/DNBKdU6XrLY?si=4ISQhHUkkqSsK8sU). I wanted to combine / blend together a lot of the things that I had learned into one. I wanted to see what would happen. And what happened was: 
 
@@ -88,9 +66,9 @@ And work on [arroost](/explore/arroost) has only just begun. Similar to [cellpon
 
 <br>
 
-<h1 id="strudel">Part two: Strudel</h1>
+<h1 id="strudel">Strudel</h1>
 
-I started learning [strudel](https://strudel.cc), a music making tool by [Felix Roos](https://garten.salat.dev/).
+I started learning [strudel](https://strudel.cc), a music making tool made by many people.
 
 I worked my way through its (very good) [guides](https://strudel.cc/workshop/first-sounds) and, on the same day, I [livestreamed myself using it](https://www.youtube.com/live/hlsDbXSZ2ko?si=2TQeRCYu6bJHlbth) while [embarrassing myself greatly](https://youtu.be/54cK-XLu-s0?si=wJN3Tbbs680QMad7).
 
