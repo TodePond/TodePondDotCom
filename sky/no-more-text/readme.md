@@ -64,7 +64,7 @@ it's simple. you [just] [---]. and [---]. with the [---] the best thing to do is
 
 but don't [---]. from time to time you gotta [---]. [---].
 
-[---]
+[---]).
 
 <br>
 
