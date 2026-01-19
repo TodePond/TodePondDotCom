@@ -44,9 +44,7 @@ i don't need to know anything else to know that.
 
 ## conclusion
 
-[we are not special](https://www.todepond.com/sky/special/). [ai is good and bad](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/).
-
-[what will it do to us?](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/)
+[we are not special](https://www.todepond.com/sky/special/). [ai is good and bad](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/). [what will it do to us?](https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/)
 
 <br>
 
