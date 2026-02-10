@@ -429,7 +429,7 @@ So I [posted](https://mas.to/@TodePond/113288477131868114):
 
 And Felix joined immediately.
 
-(to be continued)
+And that's how [pastagang](https://pastagang.cc) was born.
 
 <br>
 
