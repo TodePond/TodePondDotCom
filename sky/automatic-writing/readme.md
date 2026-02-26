@@ -8,7 +8,7 @@ Unfortunately, most of us think much faster than we can write, so what you end u
 
 <br>
 
-Automatic writing is not a surrealist invention, but it's clearly linked with surrealism automatism, where the artist creates *something* in this same exact automatic way, whether that's a dance or a scribble or a whatever. And I increasingly think that it's what I do when I perform music or write on my blog or make anything. I mean, I think it's what I always do and what I've always done. The only change is that I've tried to make myself a setup where I can do this better and quicker over the years. 
+Automatic writing is not a surrealist invention, but it's clearly linked with surrealist automatism, where the artist creates *something* in this same exact automatic way, whether that's a dance or a scribble or a whatever. And I increasingly think that it's what I do when I perform music or write on my blog or make anything. I mean, I think it's what I always do and what I've always done. The only change is that I've tried to make myself a setup where I can do this better and quicker over the years. 
 
 And of course, I'll often go back and present my automatic pieces in slightly more polished— No, not polished: I'll present my / I'll wrap up my work in a dressing that says something about my relationship to that automatic piece and my thoughts / interpretation of it. Automatic thoughts are like dreams (this is the surrealist angle) and we can't help but make them *mean something* symbolic. You don't need to try to do it on purpose: It happens on its own: It's automatic. 
 
