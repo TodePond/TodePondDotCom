@@ -42,8 +42,8 @@ Things bubble up that I didn't / don't expect to be a / bubble up / problem. But
 
 it feels quite exposing: it makes / can make you feel naked, I think. but it also feels honest and truthful. it's saying: this is who i am (this is what I'm thinking). i might be wrong i might be right. i might even know / think some of my thoughts are wrong or incomplete or poorly expressed or formed but at the very least they're real: i know they're real, which is more than what i can say for many things
 
-when you read my automatic writing / when i read you non-automatic writing. you don't have to try to second guess me / figure out what I'm saying / thinking / what i really think. this is the truth. when i read you, i need to read between the lines. when i— without automatic writing, i can't / don't get to see the raw unfiltered you. i only get the four steps later moderated version. give me the "from scratch" one please. 
+when you read my automatic writing / when i read your non-automatic writing. you don't have to try to second guess me / figure out what I'm saying / thinking / what i really think. this is the truth. when i read you, i need to read between the lines. when i— without automatic writing, i can't / don't get to see the raw unfiltered you. i only get the four steps later moderated version. give me the "from scratch" one please. 
 
 <br>
 
-back to the motherfrick-froggin [wikiblogardenite] (/wikiblogardenite)
+back to the motherfrick-froggin [wikiblogardenite](/wikiblogardenite)
