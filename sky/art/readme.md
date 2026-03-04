@@ -1,6 +1,6 @@
 # How to make art 
 
-many people believe that "making art" is the physical act of sitting down (or standing up) and making something with your body. i explained that badly so let's use a classic example: a painting. 
+many people believe that "making art" is the physical act of sitting down (or standing up) and making something with your body. 
 
 the process of "making a painting" does not begin when you first put the paintbrush onto the paper / canvas. it doesn't even begin when you start setting up your paints / your brushes / your easel / your whatever it is you're using. it begins much much earlier than that. 
 
