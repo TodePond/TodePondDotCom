@@ -2,7 +2,8 @@
 <script
   data-goatcounter="https://todepond.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"></script>
+  src="//gc.zgo.at/count.js"
+></script>
 <title>Todepond dot com</title>
 <link rel="shortcut icon" href="/favicon.png" />
 <meta property="og:image" content="/og.png" />
@@ -80,6 +81,15 @@
   li {
     line-height: 1.2;
   }
+
+  *:not(strong) {
+    font-weight: 300;
+  }
+  * {
+    line-height: 1.5;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
 </style>
 
 <h1 id="todepond---place-for-todes">
@@ -98,34 +108,64 @@
   <section class="key-information"></section>
   <section>
     <p style="margin-top: 0px">
-      Hi my name is Lu (or Luke) (either’s fine).<br />I make slightly surreal
-      <a href="https://youtube.com/@TodePond">videos</a>, <a href="#talks">talks</a> and <a href="/portfolio">tools</a>.
+      hi my name is Lu (or Luke) (either’s fine).<br />I make slightly surreal
+      <a href="https://youtube.com/@TodePond">videos</a>,
+      <a href="#talks">talks</a> and <a href="/portfolio">tools</a>.<br /><span
+        >I also make prototypes at
+        <a class="secondary" href="https://www.wikipedia.org/"
+          >wikipedia.</a
+        ></span
+      >
     </p>
 
-    <ul>
-      <li>
+    <p>
+      <br />
+      <span class=""
+        >(previously
+        <a class="secondary" href="https://tldraw.com">tldraw</a></span
+      >)
+
+      <br />
+      <span class=""
+        >(previously
+        <a class="secondary" href="https://www.inkandswitch.com/"
+          >ink and switch</a
+        >)
+      </span>
+    </p>
+
+    <!-- <ul> -->
+    <!-- <li>
         tode at
         <a class="secondary" href="/">todepond</a>
-      </li>
-      <li>prototypes at <a class="secondary" href="https://www.wikipedia.org/">wikipedia</a></li>
-      <li>
+      </li> -->
+    <!-- <li>
+        <strong
+          >right now, i make prototypes at
+          <a class="secondary" href="https://www.wikipedia.org/">wikipedia</a>
+        </strong>
+      </li> -->
+    <!-- <li>
         member of
         <a class="secondary" href="https://tentpole.computer">tentpole</a>
-      </li>
-      <li>previously: <a class="secondary" href="https://tldraw.com">tldraw</a>, <a class="secondary" href="https://www.inkandswitch.com">ink and switch</a>
-      <!-- <li>
-        host at
-        <a class="secondary" href="https://futureofcoding.org/"
-          >future of coding</a
+      </li> -->
+    <!-- <li>
+        previously: code at
+        <a class="secondary" href="https://tldraw.com">tldraw</a>
+      </li> -->
+    <!-- <li>
+        previously: research at
+        <a class="secondary" href="https://www.inkandswitch.com"
+          >ink and switch</a
         >
       </li> -->
-      <!-- <li>
+    <!-- <li>
         researcher-in-residence at
         <a class="secondary" href="https://www.inkandswitch.com/"
           >ink and switch</a
         >
       </li> -->
-    </ul>
+    <!-- </ul> -->
   </section>
   <section>
     <a href="/feed" class="headshot-link">
@@ -152,10 +192,10 @@
     <br />
   </li> -->
   <!-- <br /> -->
-  <li>
+  <!-- <li>
     <a class="button secondary" href="pondcast/">PODCAST: Todepond pondcast</a>
     (sporadically)
-  </li>
+  </li> -->
   <li>
     <a class="button secondary" href="wikiblogardenite/"
       >BLOG: Wikiblogardenite</a
@@ -284,6 +324,7 @@
     <a href="https://www.todepond.com/explore/cellpond">CELLPOND</a>
   </li>
   <li><a class="primary" href="/explore/tadi-web/">TADI WEB</a></li>
+  <li><a class="secondary" href="https://tornleaf.gallery">TORN LEAF</a></li>
   <li>
     <a class="secondary" href="https://github.com/TodePond/ScreenPond"
       >SCREENPOND</a
@@ -299,7 +340,6 @@
       >DREAMBERD</a
     >
   </li>
-  <li><a class="secondary" href="https://tornleaf.gallery">TORN LEAF</a></li>
   <!-- <li><a class="secondary" href="https://logiverse.social">LOGIVERSE</a></li> -->
   <!-- <li><a class="secondary" href="https://pondiverse.com">PONDIVERSE</a></li> -->
   <li><a class="secondary" href="/portfolio/">ALL THE OTHERS</a></li>
@@ -309,13 +349,18 @@
 
 <ul>
   <li>
-    <a class="primary" href="https://www.youtube.com/watch?v=il3gjH3F1rQ"
-      >I WANT TO MAKE NOISE</a
+    <a class="primary" href="https://www.youtube.com/watch?v=MkxIQEmuKNo"
+      >DESTROY ALL SPACE</a
     >
     (new)
   </li>
   <li>
-    <a class="primary" href="https://www.youtube.com/watch?v=7xSNl5062F4"
+    <a class="primary" href="https://www.youtube.com/watch?v=il3gjH3F1rQ"
+      >I WANT TO MAKE NOISE</a
+    >
+  </li>
+  <li>
+    <a class="secondary" href="https://www.youtube.com/watch?v=7xSNl5062F4"
       >I THINK IT'S A BIT LOUD</a
     >
   </li>
@@ -449,7 +494,6 @@
 
 <div class="desktop">
   <br />
-  <br />
 </div>
 <p>This site is powered by amphibians. That’s why it runs so good.<br /></p>
 
@@ -469,13 +513,13 @@
   const canvas = document.querySelector("canvas");
   const context = canvas.getContext("2d");
 
-  document.body.onresize = () => {
-    canvas.width = window.innerWidth * devicePixelRatio;
-    canvas.height = window.innerHeight * devicePixelRatio;
+  const handleResize = () => {
+    canvas.width = canvas.clientWidth * devicePixelRatio;
+    canvas.height = canvas.clientHeight * devicePixelRatio;
   };
 
-  document.body.onresize();
-
+  addEventListener("resize", handleResize);
+  handleResize();
   const bubbles = [];
 
   const bubbImage = new Image();
@@ -483,29 +527,47 @@
 
   const draw = () => {
     context.clearRect(0, 0, canvas.width, canvas.height);
-    // context.strokeStyle = "#374362";
-    // context.lineWidth = 5;
+    context.strokeStyle = "#374362";
+    context.lineWidth = 5;
     // context.globalAlpha = 0.25;
     for (const raindrop of bubbles) {
-      const width = bubbImage.width * (raindrop.size / 100);
-      const height = bubbImage.height * (raindrop.size / 100);
-      context.save();
-      context.translate(raindrop.x, raindrop.y);
-      context.rotate(raindrop.rotation);
-      context.drawImage(bubbImage, -width / 2, -height / 2, width, height);
-      context.restore();
-      // context.beginPath();
-      // context.arc(
-      //   raindrop.x,
-      //   raindrop.y,
-      //   raindrop.size,
-      //   0,
-      //   Math.PI * 2,
-      //   false
-      // );
-      // context.stroke();
+      // const width = bubbImage.width * (raindrop.size / 100);
+      // const height = bubbImage.height * (raindrop.size / 100);
+      // context.save();
+      // context.translate(raindrop.x, raindrop.y);
+      // context.rotate(raindrop.rotation);
+      // context.drawImage(bubbImage, -width / 2, -height / 2, width, height);
+      // context.restore();
+      context.beginPath();
+      context.arc(raindrop.x, raindrop.y, raindrop.size, 0, Math.PI * 2, false);
+      context.stroke();
     }
   };
+
+  addEventListener("pointerdown", () => {
+    // Add a bubble
+    // bubbles.push({
+    //   x: event.clientX * devicePixelRatio,
+    //   y: event.clientY * devicePixelRatio,
+    //   size: 50 + Math.random() * 50,
+    //   speed: 100,
+    // });
+  });
+
+  addEventListener("pointermove", (event) => {
+    if (Math.random() > 0.4) {
+      return;
+    }
+
+    // Add a bubble
+    const size = 5 + Math.random() * 20;
+    bubbles.push({
+      x: event.clientX * devicePixelRatio,
+      y: event.clientY * devicePixelRatio,
+      size,
+      speed: 50 + Math.random() * 50,
+    });
+  });
 
   const update = (delta) => {
     if (Math.random() < delta * 0.5) {
@@ -519,6 +581,14 @@
         rotation: Math.random() * Math.PI * 2,
         rotationSpeed: (Math.random() - 0.5) * 0.2,
       });
+    }
+
+    const prefersReduceMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    );
+
+    if (prefersReduceMotion.matches) {
+      return;
     }
 
     for (let i = 0; i < bubbles.length; i++) {
