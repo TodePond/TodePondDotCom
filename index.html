@@ -9,6 +9,10 @@
 <meta property="og:image" content="/og.png" />
 <link rel="stylesheet" href="/style.css" />
 <style>
+  body {
+    /* background-color: var(--shade-3); */
+  }
+
   h1,
   h2 {
     /* text-transform: uppercase; */
@@ -89,6 +93,20 @@
     line-height: 1.5;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
+  }
+  a {
+    /* font-weight: 500; */
+    text-shadow: 1px 1px var(--shade-0);
+    /* background-color: var(--shade-3); */
+    /* background-tran: 0.5; */
+  }
+
+  a.button {
+    box-shadow: 1px 1px var(--shade-0);
+  }
+
+  a:hover {
+    text-shadow: none;
   }
 </style>
 
@@ -589,14 +607,14 @@
   });
 
   addEventListener("scroll", (event) => {
-    console.log(event);
+    // console.log(event);
     // if (pointer.down && Math.random() > 0.7) {
     // bubbleCursor({ x: pointer.position[0], y: pointer.position[1] });
     // }
   });
 
   addEventListener("touchmove", (event) => {
-    console.log(event);
+    // console.log(event);
     for (const touch of event.touches) {
       if (Math.random() > 0.7) {
         bubbleCursor({ x: touch.clientX, y: touch.clientY });
