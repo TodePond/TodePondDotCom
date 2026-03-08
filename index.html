@@ -554,19 +554,54 @@
     // });
   });
 
-  addEventListener("pointermove", (event) => {
-    if (Math.random() > 0.4) {
-      return;
-    }
-
-    // Add a bubble
+  function bubbleCursor({ x, y }) {
     const size = 5 + Math.random() * 20;
     bubbles.push({
-      x: event.clientX * devicePixelRatio,
-      y: event.clientY * devicePixelRatio,
+      x: x * devicePixelRatio,
+      y: y * devicePixelRatio,
       size,
       speed: 50 + Math.random() * 50,
     });
+  }
+
+  const pointer = {
+    down: false,
+    position: [0, 0],
+  };
+
+  addEventListener("pointermove", (event) => {
+    if (Math.random() > 0.7) {
+      bubbleCursor({ x: event.clientX, y: event.clientY });
+    }
+    pointer.position = [event.clientX, event.clientY];
+  });
+
+  addEventListener("pointerdown", (event) => {
+    pointer.down = true;
+    pointer.position = [event.clientX, event.clientY];
+    bubbleCursor({ x: event.clientX, y: event.clientY });
+  });
+
+  addEventListener("pointerup", (event) => {
+    pointer.down = false;
+    pointer.position = [event.clientX, event.clientY];
+    bubbleCursor({ x: event.clientX, y: event.clientY });
+  });
+
+  addEventListener("scroll", (event) => {
+    console.log(event);
+    // if (pointer.down && Math.random() > 0.7) {
+    // bubbleCursor({ x: pointer.position[0], y: pointer.position[1] });
+    // }
+  });
+
+  addEventListener("touchmove", (event) => {
+    console.log(event);
+    for (const touch of event.touches) {
+      if (Math.random() > 0.7) {
+        bubbleCursor({ x: touch.clientX, y: touch.clientY });
+      }
+    }
   });
 
   const update = (delta) => {
