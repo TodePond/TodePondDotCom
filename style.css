@@ -280,6 +280,11 @@ a.button {
   padding: 4px 5px;
   text-decoration: none;
   line-height: 2.3;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* max-width: 100%; */
+  /* display: inline-block; */
 }
 
 a.button:hover {
