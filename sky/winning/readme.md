@@ -12,7 +12,7 @@ this is how cellpond ended up [how it is](https://youtu.be/eQgxFuw8f1U). it's be
 
 i explained this in one of the answers i gave to one of the questions in [that talk](https://youtu.be/eQgxFuw8f1U) but i don't think anyone heard it. 
 
-and no one really heard it when i wrote about [winning](https://www.todepond.com/sky/how-to-win/).
+and no one heard it when i wrote about [winning](https://www.todepond.com/sky/how-to-win/) last time.
 
 and no one will hear it this time either. 
 
