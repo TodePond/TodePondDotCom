@@ -73,7 +73,7 @@ We're still working out [what that means](https://pastagang.cc).
 
 ## Forever 
 
-All in all, I think the tadi web project has taught me everything and more than what I wanted to learn from it. It has exceeded my expectations and it feels less important now / compared to now: the place it has taken me to. In that sense, my work on the tadi web is over. 
+All in all, I think the tadi web project has taught me everything and more than what I wanted / needed to learn from it. It has exceeded my expectations and it feels less important now / compared to now: the place it has taken me to. In that sense, my work on the tadi web is over. 
 
 Occasionally I mention it to people within its [successor project](https://pastagang.cc) but no one cares that much about it. That's okay. It's good I think. 
 
