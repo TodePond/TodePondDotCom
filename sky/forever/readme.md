@@ -17,7 +17,7 @@ Of course, one of the best ways of being slippy is having and using *as little c
 
 And hey hey, if you're like me, then "code" also means [natural code](https://www.todepond.com/code/dialogue.pdf). In other words, I see *all* language and symbols and docs and specs as code. I can't rely on that either within a slippy mindset. 
 
-Instead, I have to rely on *cultural practice* and *skill* and *speed* and *habit*. I have to get very quick at rebuilding things [from scratch](https://strudel.patternclub.org/workshop/from-scratch/).
+Instead, I have to rely on *cultural practice* and *skill* and *speed* and *habit*. I have to get very quick at rebuilding things [from scratch](https://zenodo.org/records/3939206).
 
 <br>
 
