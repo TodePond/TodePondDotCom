@@ -59,7 +59,7 @@ In my luck, the tadi web accidentally helped me with that: It invited people in 
 
 <br>
 
-## People
+## Let code die
 
 Another unexpected benefit appeared.
 
