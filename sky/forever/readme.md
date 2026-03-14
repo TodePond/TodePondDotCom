@@ -21,7 +21,7 @@ Instead, I have to rely on *cultural practice* and *skill* and *speed* and *habi
 
 <br>
 
-## Why
+## Why the slippy mindset
 
 I suppose you might be wondering: *why* would the slippy mindset help you to solve the tadi web? How would "being prepared to lose your code" help with conforming to every single "better computing" idea? 
 
@@ -39,7 +39,7 @@ On the other hand, it hasn't *failed* yet either: Things continue to move in the
 
 <br>
 
-## People
+## Why the tadi web
 
 I always thought / knew it would be a good idea to try to "do the tadi web", but I never knew exactly why. I took it on good faith that all the people behind all of these "better computings" had good reasons behind them. That's the nice part of the tadi web: I don't need to make all of these discoveries from scratch: There is plenty of work done already: People already understand: People have already figured out *why* you should do local-first, permacomputing, IndieWeb, etc... I don't need to know *why* they're good: I only need to *do them* and *reap the rewards*.
 
@@ -59,11 +59,7 @@ In my luck, the tadi web accidentally helped me with that: It invited people in 
 
 <br>
 
----
-
-<br>
-
-## Death
+## People
 
 Another unexpected benefit appeared.
 
