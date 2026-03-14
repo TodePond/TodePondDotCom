@@ -1,7 +1,7 @@
 
 # DEATH OF THE TADI WEB: Forever
 
-During my [research residency](https://www.todepond.com/wikiblogarden/research/er-in-residence) at [Ink & Switch](https://www.inkandswitch.com/), I discovered a thing called the [tadi web](https://www.todepond.com/explore/tadi-web/). It's the [old idea](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/) that there are lots of different ideas out there for how to make [computing better](https://www.todepond.com/wikiblogarden/better-computing/). Fire example: [local-first](https://www.inkandswitch.com/local-first/), [permacomputing](https://permacomputing.net/permacomputing/), [IndieWeb](https://indieweb.org/), [blah blah blah](https://www.youtube.com/watch?v=ft6xOAijwFo).
+During my [research residency](https://www.todepond.com/wikiblogarden/research/er-in-residence) at [Ink & Switch](https://www.inkandswitch.com/), I discovered a thing called the [tadi web](https://www.todepond.com/explore/tadi-web/). It's the [old idea](https://www.todepond.com/wikiblogarden/my-wikiblogarden/no-more-ideas/) that there are lots of different ideas out there for how to make [computing better](https://www.todepond.com/wikiblogarden/better-computing/). For example: [local-first](https://www.inkandswitch.com/local-first/), [permacomputing](https://permacomputing.net/permacomputing/), [IndieWeb](https://indieweb.org/), [blah blah blah](https://www.youtube.com/watch?v=ft6xOAijwFo).
 
 The tadi web is the combination of all of them: It's a challenge: How do you fulfil all of those different ideas at the same time? How can you possibly do that?
 
