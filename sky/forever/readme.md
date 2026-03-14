@@ -65,7 +65,7 @@ Another unexpected benefit appeared.
 
 I never quite imagined the extent of possibilities that become available to you if you truly adopt the slippy mindset. But now I know: 
 
-If you're genuinely happy to lose ALL your code at ANY moment then certain barriers completely dissolve. If that is TRULY the case then suddenly there's no need for any authentication or security on ANYTHING you do. If you are slippy as fuck, then it doesn't matter if someone hacks into your computer and deletes or vandalises EVERYTHING you own. This means... *mass collaboration* becomes available. 
+If you're genuinely happy to lose ALL your code at ANY moment then certain barriers completely dissolve. If that is TRULY the case then suddenly there's no need for any authentication or security on ANYTHING you do. If you're slippy as fuck, then it doesn't matter if someone hacks into your computer and deletes or vandalises EVERYTHING you own. This means... *mass collaboration* becomes available. 
 
 We're still working out [what that means](https://pastagang.cc).
 
