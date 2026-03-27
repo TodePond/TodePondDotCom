@@ -52,7 +52,7 @@ i feel like my entire set was trying out all my usual favourite templates. it wa
 
 the thing we mentioned happened: the MC did a bit of a rhythm and i imitated it with code, and she noticed and we doubled down on it for a bit. it became a call and response. that was one of my favourite parts
 
-one other thing that happened is that she commented out loud that we were doing a key change when i did a key change. and she told me afterwards that she was looking at my code to see what key we were in. i think that's a really cool aspect of collaborative with live coding that i didn't realise! you don't need to understand the code: you just look for the notes / scales
+one other thing that happened is that she commented out loud that we were doing a key change when i did a key change. and she told me afterwards that she was looking at my code to see what key we were in. i think that's a really cool aspect of collaboration with live coding that i didn't realise! you don't need to understand the code: you just look for the notes / scales
 
 i had a few panic moments when i was a bit lost in the flow where i suddenly remembered / realised that the MC was doing a long phrase and basically waiting for me to bring a drop or a break or something. those moments were so cool. i mean, i sometimes get that building feeling when the crowd is waiting for it, but this was another level! but also, the MC was really good at keeping going in creative ways when i inevitably missed my cue 😆
 
