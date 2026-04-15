@@ -14,7 +14,7 @@ By making it easy for anyone to delete anything, it makes it hard for anyone to 
 
 In the robust-first alternative view, all actors, such as you and me, have a huge amount of power over our surroundings. We can create and delete anything that we want! No one is in charge!
 
-But also ... because *everyone* has power, there's nothing stopping someone else from immediately deleting something I create (or immediately recreating something I delete0.
+But also ... because *everyone* has power, there's nothing stopping someone else from immediately deleting something I create (or immediately recreating something I delete).
 
 And importantly, we only have power over our *immediate surroundings*. We can't take action at distance: We can't affect the other side of the world, or anything outside our arms' reach.
 
