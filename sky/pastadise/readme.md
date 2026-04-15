@@ -20,7 +20,7 @@ And importantly, we only have power over our *immediate surroundings*. We can't 
 
 Even with these limitations, there's still a huge risk of harm. A greedy forkbomb is one of the simplest programs to write: Copy yourself into everything. The End. It spreads into all available space and suffocates everything else out of existence. 
 
-In robust-first computing, the solution to this kind of problem is not about preventing the forkbomb from running or existing in the first place. The view is that you can't possibly outlaw or antivirus your way out of it. There'll always be a way of creating this kind of program. That's part of the deal with maximal close-up power.
+In robust-first computing, the solution to this kind of problem is not about preventing the forkbomb from running or existing in the first place. The view is that you can't possibly outlaw or antivirus your way out of it. There'll always be a way to create this kind of program. That's part of the deal with maximal close-up power.
 
 Instead, the solution is about *changing the rules of the simulation*. Work instead on the laws of physics of your computation to put the odds in the "good" actors' favour. It can be as simple as: Make "creating things" much harder than "deleting things". You could do this by..... disabling pasting.... and disabling undo. Does that sound familiar? 
 
