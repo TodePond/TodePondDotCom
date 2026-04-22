@@ -22,7 +22,7 @@ there's no place it isn't!\
 no matter what you say\
 under every carpet and rock\
 in every closet and attic\
-behind every curtain: is pastagang\
+behind every curtain: is pastagang
 
 wherever you are\
 wherever you'll be\
