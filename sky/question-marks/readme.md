@@ -26,7 +26,7 @@ and this has wonderfully opened us up to SO MUCH MORE than what would happen if 
 
 the question mark captures uncertainty: we don't know what live coding is? it also captures the fact that we let anyone be in charge. even if you're from outside our scene, even if you annoy us, you're allowed to choose the name you want: algorave london? live coding? london? live code? pastaface trashbag?
 
-the question mark also captures complete disrespect. it got adopted by the [fuck off ai music movement](https://fuckoffaimusic.com/) as a way of ending every line? it has a sarcastic quality to it?
+the question mark also captures complete disrespect? it got adopted by the [fuck off ai music movement](https://fuckoffaimusic.com/) as a way of ending every line? it has a sarcastic quality to it?
 
 in return, London? Live? Coding? has adopted the fuck off ai music movement as its brand. its record label, sorry i mean— its artists collective is called [FOAM Energy](https://foamenergy.codeberg.page/) and the FOAM bit stands for fuck off ai music because we think ai music should fuck off?
 
