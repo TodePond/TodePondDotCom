@@ -12,7 +12,7 @@ Honestly, I think that anger is sometimes the most expected and appropriate resp
 
 Anger! is part of art and culture and music and always will be (unless the pricks take control). From [Rage Against The Machine](https://youtu.be/AmPN8MPw2dk?si=rnJ1z2UVZVEgCqYm) to [Jade](https://www.nme.com/news/music/jade-interview-glastonbury-2025-new-music-championing-lgbtq-community-little-mix-raye-3874942) to [Tracey Emin](https://www.tate.org.uk/art/artworks/emin-fuck-you-eddy-p11569), artists have always and will always express their anger in their art (unless the pricks take control).
 
-so... yes, I agree with them both.
+so... yes, I agree with them all.
 
 Fuck you, Eddy!\
 Fuck you, Reform!\
