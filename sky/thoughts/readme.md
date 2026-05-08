@@ -18,7 +18,7 @@ https://social.toplap.org/@hellojoey/116332730501427659
 
 https://mas.to/@TodePond/116459307414412645
 
-The examples above come from mastodon. At some point we created an unstructured thoughts channel on the London live coding? discord server, and that's where most of the unstructured thoughts go nowadays.
+The examples above come from mastodon. At some point we created an unstructured thoughts channel on the London live coding? discord server, and that's where most of the unstructured thoughts go nowadays but i try to share them outside too.
 
 eg: https://mas.to/@TodePond/116334698402973862
 
