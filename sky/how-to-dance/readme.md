@@ -2,7 +2,7 @@
 
 <!-- If I told my 22 year old self that ten years later I'd be writing a guide to help *other people* dance I'd burst out laughing and possibly cry out of fear / joy / relief / horror / shame / peace / noise. But here we are!!! -->
 
-I occasionally read about how "[people don't really dance at algoraves](https://codeberg.org/pastagang/pastagang/src/commit/4c4513903b671bd808fbe6e5fe85b38e6b9a187d/blog/pastafolk.html#L49)" and this is always a surprise to me. I even hear it about events that I often frequent myself, like [AlgoRhythms](https://discord.gg/mXvQTAdvQN) not having "dance energy" and every time I hear it I'm surprised! or I hear about how certain events don't have the right vibe or they feel "off" or something and I realised something: I never see these events myself because... Every event I go to.. I dance no matter what. So I think I've been experiencing a case of dance-energy survivorship bias.
+I occasionally read about how "[people don't really dance at algoraves](https://codeberg.org/pastagang/pastagang/src/commit/4c4513903b671bd808fbe6e5fe85b38e6b9a187d/blog/pastafolk.html#L49)" and this is always a surprise to me. I even hear it about events that I often frequent myself, like AlgoRhythms not having "[dance energy](https://discord.gg/mXvQTAdvQN)" and every time I hear it I'm surprised! or I hear about how certain events don't have the right vibe or they feel "off" or something and I realised something: I never see these events myself because... Every event I go to.. I dance no matter what. So I think I've been experiencing a case of dance-energy survivorship bias.
 
 And let me be absolutely clear: You do not need to dance. It is perfectly okay to not dance or to not want to dance. This blog post isn't for you. 
 
