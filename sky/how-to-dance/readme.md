@@ -32,7 +32,7 @@ You need to go onto the dancefloor to dance.
 
 No one can see you dancing in the corner in the shadow. You need to be seen. Dancing is a physical thing for you. Dancing is about space. You need to take up space. [DESTROY ALL SPACE](https://youtu.be/MkxIQEmuKNo?si=joRKSfU04nNhukWQ). Dancing is a physical thing for you. It's a visual thing for other people.
 
-You can dance in secret at home or in the shower or in the corner of the club if you want. But if you are here to bring dance then BRING YOURSELF to the middle of the room. 
+You can dance in secret at home or in the shower or in the corner of the club if you want. But if you are here to *bring* dance then BRING YOURSELF to the middle of the room. 
 
 [Just] stand in the middle of the room. Try it. Try standing in the middle of the room. Don't do anything else. Do not do step 3 until you have done this. 
 
