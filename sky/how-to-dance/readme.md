@@ -66,9 +66,7 @@ Ridiculous. You can nod your head the tiniest amount and it's still dancing
 
 ### "I'm shy"
 
-Then dance to feel less shy!
-
-or Dance to stop people talking to you.
+[Normalise sharing scrappy fiddles](https://www.todepond.com/sky/ourselves/)
 
 ### "The music stopped"
 
@@ -76,7 +74,7 @@ Then sing a song! Or imagine one in your head! Or RUN or WALK
 
 ### "I don't want to take the space from someone else"
 
-By dancing, you are not taking, you are giving.
+By dancing, you are not taking, you are giving
 
 <br>
 
