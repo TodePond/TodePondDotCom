@@ -30,11 +30,11 @@ People joined my solo audio sets too, often trying to throw me off or mess me ar
 
 I love this kind of chaos. It really injected a load of energy into my sets. I also see it as a kind of flex to let people mess with me like that, which feels increasingly important to me as I learn more about the history of "jamming" including the origin of the word "jam" itself.
 
-It's also [just] funny to watch someone (me) struggle on stage(?) when performing. This is what I leant into back when I did comedy: We let the audience mess us around and make our life difficult and it was fun. And it was fun to bring this into my live coding performances too. For me, the high moment was at errorcamp when I let people join me in a tool I made called twirl. It's whole purpose is this kind of audience-interaction-trouble-making. It's good for joining from your phone, so it's even easier for audience members to get involved. The set ended when [Lizzie] did 99999 crow sounds to crash my computer. 
+It's also [just] funny to watch someone (me) struggle on stage(?) when performing. This is what I leant into back when I did comedy: We let the audience mess us around and make our life difficult and it was fun. And it was fun to bring this into my live coding performances too. For me, the high moment was at errorcamp when I let people join me in a tool I made called twirl. It's whole purpose is this kind of audience-interaction-trouble-making. It's good for joining from your phone, so it's even easier for audience members to get involved. The set ended when [Lizzie](https://digitalselves.xyz/) did 99999 crow sounds to crash my computer. 
 
 <br>
 
-This kind of experience normalised collaboration for me. It became natural to hop into a room with anyone and start jamming together and I did a whole bunch of this at errorcamp and also [ICLC]. There was a lot of "laptop hopping" back then. For me, that practice began at the London algorave at corsica studios where I saw [Lucy] leave someone else with her laptop for over an hour and it kind of blew my mind. We did a whole lot more of this at errorcamp and ICLC, which is when I began to become comfortable with the practice myself. 
+This kind of experience normalised collaboration for me. It became natural to hop into a room with anyone and start jamming together and I did a whole bunch of this at errorcamp and also [ICLC](https://iclc.toplap.org/2025/). There was a lot of "laptop hopping" back then. For me, that practice began at the London algorave at corsica studios where I saw [Lucy](https://heavy-lifting.org/) leave someone else with her laptop for over an hour and it kind of blew my mind. We did a whole lot more of this at errorcamp and ICLC, which is when I began to become comfortable with the practice myself. 
 
 Coming home from ICLC, I wondered if I'd ever perform solo ever again. Maybe I should make the promise last longer than one year? Maybe I should promise a lifetime? 
 
@@ -48,7 +48,7 @@ On the other hand, I grew to understand that it *was* actually [just] me perform
 
 As time went on, I certainly became less visibly open to collaboration. I'd put up the room name more briefly or cryptically or I'd [just] give people a hint of what it is. But still, for those who knew or for those who I told, it was available, and people sometimes asked, knowing about my promise. So yeah, people kept collaborating with me the whole way through the year! 
 
-Towards the end of the year, I got a bit better at prompting collaboration in more natural-feeling ways. My two proudest moments were the two times I've jammed with someone on the mic. One of these also involved someone hopping in to take over visuals. I'd love to keep these kinds of collaborations going. I feel like my promise forced me to collaborate in a gimmicky way at first (using the promise as a crutch / ice-breaker / mechanic) and that forced me to learn to kick off collaborations in a more natural way. Long may it continue! And many thanks to [Ziraflo] and [Nadya] and [Monz] for hopping in on those things.
+Towards the end of the year, I got a bit better at prompting collaboration in more natural-feeling ways. My two proudest moments were the two times I've jammed with someone on the mic. One of these also involved someone hopping in to take over visuals. I'd love to keep these kinds of collaborations going. I feel like my promise forced me to collaborate in a gimmicky way at first (using the promise as a crutch / ice-breaker / mechanic) and that forced me to learn to kick off collaborations in a more natural way. Long may it continue! And many thanks to [Ziraflo](https://www.instagram.com/ziraflo_?igsh=azFjNjJtZDBrb3Rq) and [Nadya](https://d281cb75.bandcamp.com/) and [Monz](https://m-onz.net/) for hopping in on those things.
 
 <br>
 
@@ -56,13 +56,13 @@ I did a podcast episode with [Bundy] where he told me all about cyphers, which I
 
 I brought his idea to the London scene and we started trying it out! We were already doing a lot of laptop hopping so, for us, this was basically another level built on top of that.
 
-We tried it a bunch of times but it really clicked during the first algoravioli event where me and [Joey] and [Jane] did a very long cypher with each other and it was fantastic. It felt beautiful! I really like how cyphers feel like a conversation. You do a lot of performing in it, but you also do a lot of listening. It feels respectful: It feels like you can celebrate each other more. We dragged over [Daniel] to join too. It felt like honouring him. 
+We tried it a bunch of times but it really clicked during the first algoravioli event where me and [Joey](https://joeyjoeyjoe.bandcamp.com/) and [Jane](https://www.janes.computer) did a very long cypher with each other and it was fantastic. It felt beautiful! I really like how cyphers feel like a conversation. You do a lot of performing in it, but you also do a lot of listening. It feels respectful: It feels like you can celebrate each other more. We dragged over [Daniel](https://synte.codeberg.page/) to join too. It felt like honouring him. 
 
 The three of us (me + Jane + Joey) began jokingly calling ourselves Cyphergang. But it wasn't just us. "Cyphergang" also means anyone else we drag / invite into the loop for a turn. And we signed up cyphergang for a closing slot at AlgoRhythms one day and it was awesome. 
 
 At the following algoravioli, we cyphered again, and at this point it felt natural. In fact, I don't think I did a single non-cypher slot. Everything was a cypher: It was constant. Me and Joey got used to giving each other a little look with our eyes and we knew what it meant between the two of us. There was one point when we were doing two cyphers at the same time: One for visuals, one for audio. We swapped and swapped and swapped, and Jane joined too. People watching looked a little confused the first time me and Joey both stood up and left our laptops at the same time during our sets. We walked round the table to the other person's laptop after a little dance on the way past each other. 
 
-It's funny because this is something that I tried with [Lizzie] way earlier, just after ICLC. We swapped over doing visuals and audio a few times during a set, but I didn't stick at it long enough to get the hang of it properly. Luckily I did with Joey and Jane!
+It's funny because this is something that I tried with Lizzie way earlier, just after ICLC. We swapped over doing visuals and audio a few times during a set, but I didn't stick at it long enough to get the hang of it properly. Luckily I did with Joey and Jane!
 
 And yes, at that second Algoravioli, we invited tons more people into the cypher at the end of the night, including enthusiastic newbies.
 
@@ -80,7 +80,7 @@ But really, the entire algoravioli event is a big old cypher. We don't mark clea
 
 I will never shut up about the value of living and breathing openness. I learned / gained so much from opening myself up to collaboration AT ALL TIMES. my life is a lot richer now. 
 
-However, Unfortunately, I broke my promise right at the end of the year. I recorded a [strudel tutorial] and I accidentally got a bit too "into it" during the tutorial so I'd say it crossed the line from "tutorial" into "performance", and it was, alas, completely single-player. I hope you'll forgive me. I did a pretty good job apart from that I think. And I hope you appreciate me being honest about my failure. 
+However, Unfortunately, I broke my promise right at the end of the year. I recorded a [strudel tutorial](https://youtu.be/SsUbCq7yoxo) and I accidentally got a bit too "into it" during the tutorial so I'd say it crossed the line from "tutorial" into "performance", and it was, alas, completely single-player. I hope you'll forgive me. I did a pretty good job apart from that I think. And I hope you appreciate me being honest about my failure. 
 
 Since completing the year, I've been rediscovering what it means to perform alone again. The novelty feels very exciting to me. I return to solo performance completely different / changed by the year I've just done. Performing on my own is a whole different paradigm for me now that I've denormalised it for myself.
 
