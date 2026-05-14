@@ -1,6 +1,6 @@
 # My year of liveness
 
-On the 15th April 2025, I [promised](https://www.todepond.com/sky/promise-of-liveness/) that ALL my live coding performances would be ones that the audience can join in with. And I did it! Except for one slip up. 
+On the 15th April 2025, I [promised](https://www.todepond.com/sky/promise-of-liveness/) that ALL my live coding performances would be ones that the audience can join in with. I promised to do this for one year, and I did it! Except for one slip up. 
 
 I also promised to do a report of how it went. You're reading it now. 
 
