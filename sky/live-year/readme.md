@@ -74,6 +74,12 @@ But really, the entire algoravioli event is a big old cypher. We don't mark clea
 
 <br>
 
+I wasn't there but I heard about how Joey got everyone to do a big goodbye cypher with him at his last event London before flying away. I heard it was very emotional. 
+
+<br>
+
+<br>
+
 ---
 
 <br>
