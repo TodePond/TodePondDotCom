@@ -52,7 +52,7 @@ Towards the end of the year, I got a bit better at prompting collaboration in mo
 
 <br>
 
-I did a podcast episode with [Bundy] where he told me all about cyphers, which I knew nothing about then and still know nothing about today. But he suggested we do some live coding cyphers where different people take turns on the same laptop (instead of mic) (though you can also take turns on the mic). It's like an alternative to the usual pastagang jamming we do where everyone goes at the same time. Though it *was* similar to the increasingly common practice of solos within pastagang jams.
+I did a podcast episode with [Bundy](https://www.instagram.com/hpunq?igsh=MW14aWF6Zmo3cW9lbw==) where he told me all about cyphers, which I knew nothing about then and still know nothing about today. But he suggested we do some live coding cyphers where different people take turns on the same laptop (instead of mic) (though you can also take turns on the mic). It's like an alternative to the usual pastagang jamming we do where everyone goes at the same time. Though it *was* similar to the increasingly common practice of solos within pastagang jams.
 
 I brought his idea to the London scene and we started trying it out! We were already doing a lot of laptop hopping so, for us, this was basically another level built on top of that.
 
