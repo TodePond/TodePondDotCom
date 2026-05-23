@@ -36,7 +36,7 @@ There's also a certain privilege in "looking a bit funny" or "looking a bit odd"
 
 I really love the London live? coding? scene. I feel very at home there: I feel very welcomed and safe. Weirdness and scrappiness and "badness" is embraced, so I always feel comfortable in whatever state I'm in: Stubble or not, voice or not, mens loo or not. And there's uncertainty built into the scene, with all our questions marks that we use. We do live? coding? because we don't claim to know what live coding means and we don't have to. We also don't know what gender Lu or Luke is and we also don't have to
 
-In a world that wants answers, the largest technological change of the 21st century introduced a machine that always answers differently / that always wrong and the cunts running the world seem to have no problem with that but they *do* seem to have a problem with ME. they can't seem to deal with ME? and MY UNCERTAINTY?
+In a world that wants answers, the largest technological change of the 21st century introduced a machine that always answers differently / that always answers wrong and the cunts running the world seem to have no problem with that but they *do* seem to have a problem with ME. they can't seem to deal with ME? and MY UNCERTAINTY?
 
 okay now it's time to go lie down in the sand and die (just kidding)
 
