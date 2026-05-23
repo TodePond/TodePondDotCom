@@ -34,7 +34,7 @@ There's also a certain privilege in "looking a bit funny" or "looking a bit odd"
 
 <br>
 
-I really love the London live? coding? scene. I feel very at home there: I feel very welcomed and safe. Weirdness and scrappiness and "badness" is embraced, so I always feel comfortable in whatever state I'm in: Stubble or not, voice or not, t-shirt too small to let me go in the mens loo or not. And there's uncertainty built into the scene, with all our questions marks that we use. We're do live? coding? because we don't claim to know what live coding means and we don't have to. We also don't know what gender Lu or Luke is and we also don't have to
+I really love the London live? coding? scene. I feel very at home there: I feel very welcomed and safe. Weirdness and scrappiness and "badness" is embraced, so I always feel comfortable in whatever state I'm in: Stubble or not, voice or not, mens loo or not. And there's uncertainty built into the scene, with all our questions marks that we use. We do live? coding? because we don't claim to know what live coding means and we don't have to. We also don't know what gender Lu or Luke is and we also don't have to
 
 In a world that wants answers, the largest technological change of the 21st century introduced a machine that always answers differently / that's always wrong and the cunts running the world seem to have no problem with that. But even so, they can't seem to deal with ME? and MY UNCERTAINTY?
 
