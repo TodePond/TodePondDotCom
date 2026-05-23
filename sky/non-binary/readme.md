@@ -30,7 +30,7 @@ There's an aspect where I get to feel like a completely neutral party on the mat
 
 (Well I mean, gender balance interventions *do* affect me and everyone positively, but you know what I mean: They don't directly impact my level of involvement as much as they do for binary people) 
 
-There's also a certain privilege in "looking a bit funny" or "looking a bit odd": In getting 50% sir/madamed, I get a bit more attention and eyeballs on me: I get to surprise people a bit: I get a bit of a stage. I use it :D
+There's also a certain privilege in "looking a bit funny" or "looking a bit odd": In getting 50% sir/madamed, I get a bit more attention and eyeballs on me: I get to surprise people a bit: I get a bit of a stage and I use it
 
 <br>
 
@@ -38,13 +38,7 @@ I really love the London live? coding? scene. I feel very at home there: I feel 
 
 In a world that wants answers, the largest technological change of the 21st century introduced a machine that always answers differently / that's always wrong and the cunts running the world seem to have no problem with that. But even so, they can't seem to deal with ME? and MY UNCERTAINTY?
 
-okay now time to go lie down in the sand and die
-
-<br>
-
-just kidding ;)
-
-<br>
+okay now time to go lie down in the sand and die (just kidding)
 
 <br>
 
