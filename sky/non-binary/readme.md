@@ -26,7 +26,7 @@ But "being non-binary" is the main way that I don't fit in, and this plays as an
 
 There's an aspect where I feel like an imposter in those conversations. Like "maybe I count as a man in those calculations" but I'm quite good at shutting up that voice in my head nowadays. 
 
-There's an aspect where I get to feel like a completely neutral party on the matter. The topic / Interventions on gender balance don't affect me in any way / positively or negatively, so I feel a sense privilege and responsibility to get involved and act freely and try to help make things better. 
+There's an aspect where I get to feel like a completely neutral party on the matter. The topic / Interventions on gender balance don't affect me in any way / positively or negatively, so I feel a sense of privilege and responsibility to get involved and act freely and try to help make things better. 
 
 (Well I mean, gender balance interventions *do* affect me and everyone positively, but you know what I mean: They don't directly impact my level of involvement as much as they do for binary people) 
 
