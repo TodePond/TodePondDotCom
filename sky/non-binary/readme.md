@@ -18,7 +18,7 @@ I've never felt at home in trans-only spaces. I think it's because of the non-bi
 
 As I watch my he/they she/they friends gradually turn into he/him and she/her... I tend to feel quite alone in trans spaces: No more or less than in any cis spaces. Maybe it's different in different parts of the world. 
 
-Yes, In whatever space I'm in, I feel like an outsider. Ironically, this might be the universal experience. Everyone is unique in their own way: Everyone is an outsider in their own way. And there are many ways in which I'm privileged and I *do* (unfortunately) fit in: I'm white, I'm middle classed, etc...
+Yes, In whatever space I'm in, I feel like an outsider. Ironically, this might be the universal experience. Everyone is unique in their own way: Everyone is an outsider in their own way. And there are many ways in which I'm privileged and I *do* (fortunately) (unfortunately) fit in: I'm white, I'm middle classed, etc...
 
 But "being non-binary" is the main way that I don't fit in, and this plays as an interesting dynamic for me as every community inevitably has those "how do we achieve the right gender balance?" questions.
 
