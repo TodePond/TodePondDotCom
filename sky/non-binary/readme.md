@@ -20,7 +20,7 @@ As I watch my he/they she/they friends gradually turn into he/him and she/her...
 
 Yes, In whatever space I'm in, I feel like an outsider. Ironically, this might be the universal experience. Everyone is unique in their own way: Everyone is an outsider in their own way. And there are many ways in which I'm privileged and I *do* (unfortunately) fit in: I'm white, I'm middle classed, etc...
 
-But "being non-binary" is the main way that I don't fit in, and this plays as an interesting dynamic for me as ever community inevitably has those "how do we achieve the right gender balance?" questions.
+But "being non-binary" is the main way that I don't fit in, and this plays as an interesting dynamic for me as every community inevitably has those "how do we achieve the right gender balance?" questions.
 
 <br>
 
