@@ -46,7 +46,7 @@ the interesting thing about anti-art is that it was really BAD. its goal was not
 
 and the cabaret voltaire was centered on collaboration: its different performers performed in such radically and ridiculously different ways that you'd think they weren't part of the same show, but they were. to me it signifies the coming together and acceptance of completely different people: it represents unity. 
 
-to me, dada, despite its nihilism, is a very hopeful thing. anti-art represents an optimism: it's one last clutch of straw: one last grip on peace: it's saying: everything we've tried so far has failed. what if we try something else? we've been making sense for so long. what if we try nonsense instead? we've been making art for millennia. what if we give anti-art a chance? 
+to me, dada, despite its nihilism, is a very hopeful thing. anti-art represents an optimism: it's one last clutch of straw: one last grip on peace: it's saying: everything we've tried so far has failed. what if we try something else? we've been making sense for so long. what if we try nonsense instead? we've been making art for millennia. what if we give anti-art a chance? what if we *let code die*?
 
 dada represents a desire to come together: at the end of the world, will we spend hours and days producing carefully crafted masterpieces in isolation? no, i don't think we will. i think we'll come together and dance in stupid ways.
 
