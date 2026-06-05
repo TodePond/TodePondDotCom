@@ -6,7 +6,7 @@ This is a little guide on his to speak, sing, rap, kazoo, or do anything into th
 
 The microphones are very sensitive to SPACE. They need to be *as close as possible* to your mouth / kazoo. Otherwise they won't work. They can even touch your mouth / kazoo if you want. 
 
-^This is the most common mistake I see. 
+Holding the microphone too far away is the most common mistake I see. 
 
 ## 2. Be extremely loud
 
