@@ -66,7 +66,7 @@ Never use bullet points
 
 Fullscreen images / mantras only
 
-(visual gags are the exception to these rules)
+(exceptions are allowed for storytelling purposes)
 
 <br>
 
