@@ -1,10 +1,10 @@
 these unstructured thoughts might turn into a blog post instead. EDIT: they did
 
 i finished editing the 6-person collab we did at ALGOTRANCE
-https://youtu.be/RMzuQqx6868?si=gJaRy5AwEzFeVePF
+[https://youtu.be/RMzuQqx6868](https://youtu.be/RMzuQqx6868?si=gJaRy5AwEzFeVePF)
 
 just like last time, i was keeping nadya via proxy's face private before publishing it on my youtube channel. here's last time
-https://youtu.be/YUdq7QIuYa0?si=2JIERaRk1Lo2tulb
+[https://youtu.be/YUdq7QIuYa0](https://youtu.be/YUdq7QIuYa0?si=2JIERaRk1Lo2tulb)
 
 thank you to nads for collaborating with me to figure out how to do that. it's been very helpful to be able to bring these to other people at other events. like "hey this is the kind of thing we can do to your face if you want" and people have responded well. i think it's way more fun than [just] cropping / cutting someone out. people have seemed to respond well to anonymised recordings of themselves and I've seen them reshare them and stuff
 
