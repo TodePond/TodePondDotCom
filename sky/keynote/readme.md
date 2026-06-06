@@ -14,7 +14,7 @@ Some conferences want a brand new "world exclusive" keynote. Some want a tried a
 
 Conferences pay a large range of different amounts. Some pay nothing and I don't do those ones. Some pay a little amount and I do those ones if I like the conference and want to attend. Some pay a decent amount but don't really pay for my time. Some pay a lot and pay my wages, but these are really rare for me. I'm not a very good negotiator.
 
-At this point in my career, I'd rather build up a large number of happy clients rather than squeezing each one as much as I possibly can. That way... hopefully I can be repeatedly booked on 1-3 year cycles for increasing amounts each time. It's working well so far but I'm only two years in so it doesn't mean much :)
+At this point in my career, I'd rather build up a large number of happy clients rather than squeezing each one as much as I possibly can. That way... hopefully I can be repeatedly booked on 1-3 year cycles for increasing amounts each time. It's working well so far but I'm only a few years in so it doesn't mean much :)
 
 <br>
 
