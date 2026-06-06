@@ -4,7 +4,7 @@ I find myself in a constant state of writing / preparing keynotes nowadays. I ke
 
 I said yes to doing another keynote today. It's gonna happen in December, though I think they'll want one that I've already given.. maybe... we'll see what they say on the call.
 
-Some conferences want a brand new "world exclusive" keynote. Some want a tried and tested already-done one that you've already done. Those latter ones tend to pay better because the audiences are bigger and the stakes are higher.
+Some conferences want a brand new "world exclusive" keynote. Some want a tried and tested already-done one that I've already done. Those latter ones tend to pay better because the audiences are bigger and the stakes are higher.
 
 <br>
 
