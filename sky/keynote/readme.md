@@ -60,7 +60,7 @@ One of my common mistakes is not smiling enough.
 
 Making slides is one of the quickest and easiest parts of making a talk. I do it right at the end of the process. It's much more important to get the story and the pacing and the order right. Then the slides fall into place. 
 
-I like to use zero text. The ideal scenario is no text at all on screen. The text comes from me speaking. Okay that isn't really true. I like to put big bold mantras behind me like "LET CODE FOR" and "NO MORE IDEAS" and whatnot. But its not really writing: They're symbols / images. 
+I like to use zero text. The ideal scenario is no text at all on screen. The text comes from me speaking. Okay that isn't really true. I like to put big bold mantras behind me like "LET CODE DIE" and "NO MORE IDEAS" and whatnot. But its not really writing: They're symbols / images. 
 
 Never use bullet points
 
