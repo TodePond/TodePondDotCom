@@ -148,13 +148,13 @@ At the event, I don't drink any alcohol until I've done my talk, which is unfort
 
 On the night before, I stock up on snacks, get a really early night and do a ton of run-throughs. If I've been there for multiple days, there's no doubt that I'll have lots of changes to do (because I'll know way more the vibe of the event, and I'll incorporate things and lessons from other talks).
 
-In the morning, I get up early and do ONE timed "dress rehearsal" and *do not let myself make any changes at all* even if I want to. Then I stuff my face full of snacks and don't eat anything until I've done my talk, even if it's late. I'm way too nervous about eating something weird or getting food on my top or something, so I just eat food I know really well in the morning even if it's unhealthy. Lots of bananas. 
+In the morning, I get up early and do ONE timed "dress rehearsal" and *do not let myself make any changes at all* even if I want to. Then I stuff my face full of snacks and don't eat anything until I've done my talk, even if it's late. I'm way too nervous about eating something weird or getting food on my top or something, so I just eat food I know really well in the morning even if it's unhealthy. Lots of bananas though
 
 I drink a lot of coffee during the day to get hyper 
 
 I also drink a lot of water to help my voice get prepared to speak a lot and I go to the loo 500 times because of all the coffee and water
 
-I shake off my nerves in the loo
+I shake off my nerves in the loo and make sure I'm camera-ready
 
 <br>
 
