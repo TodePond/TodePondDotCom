@@ -116,7 +116,7 @@ Ideas: I will never run out of ideas, unfortunately.
 
 I think the most compelling idea are the ones that are hidden in plain site. For example, I like a talk that connects two previously unconnected things together. I like a talk that looks at something well-known from a completely different angle. I like to tackle questions that are a little bit taboo because it means that people are little bit blind to their details and I can bring a bit of boldness to the topic. 
 
-This section is very vague... oh dear. 
+This section is very vague and wishy washy... oh dear. 
 
 <br>
 
@@ -124,7 +124,7 @@ This section is very vague... oh dear.
 
 <br>
 
-When a conference asks me to suggest some talk ideas, I tend to write up 3 different talk titles and abstracts. A talk title and its abstract are very important. The title needs to be eye catching any relevant and intriguing. An abstract needs to tick various boxes. It needs to grab the reader's interest from the first sentence. It needs to sound useful and meaningful to someone deciding if they should attend the conference or not (keynotes are often used to advertise the event). And it needs to leave you curious and it needs to make your really really want to watch the talk. 
+When a conference asks me to suggest some talk ideas, I tend to write up 3 different talk titles and abstracts. A talk title and its abstract are very important. The title needs to be eye catching and relevant and intriguing. An abstract needs to tick various boxes. It needs to grab the reader's interest from the first sentence. It needs to sound useful and meaningful to someone deciding if they should attend the conference or not (keynotes are often used to advertise the event). And it needs to leave you curious and it needs to make your really really want to watch the talk. 
 
 For abstracts, I like to throw in some real wildcard towards the end to create intrigue. I like to start with something really bold and opinionated. I also like to include some things that "we can all agree on".
 
