@@ -1,0 +1,416 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+  data-goatcounter="https://todepond.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+<link rel="stylesheet" href="/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/matan-h/splash-css@master/dist/styles.css"
+/>
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .two-columns {
+    column-count: 2;
+    width: fit-content;
+  }
+
+  .four-columns {
+    column-count: 4;
+    width: fit-content;
+  }
+
+  .library {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 0.5rem;
+    overflow: auto;
+    padding: 1px;
+  }
+
+  .splash {
+    /* flex-shrink: 0; */
+    text-align: center;
+    min-width: 2rem;
+  }
+
+  main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 800px !important;
+  }
+
+  main::after {
+    content: attr(data-after);
+    position: absolute;
+    color: black;
+    z-index: -1;
+    font-size: 820px !important;
+    /* font-weight: bolder !important; */
+  }
+  main::before {
+    content: attr(data-before);
+    position: absolute;
+    color: black;
+    z-index: -1;
+    font-size: 740px !important;
+    /* font-weight: bolder !important; */
+  }
+
+  .splash,
+  .splash-override,
+  .splash-stagnant,
+  .cellpond-splash {
+    font-weight: bold;
+  }
+</style>
+
+<main class="splash" data-after="000" data-before="000">000</main>
+
+<style>
+  hgroup {
+    display: flex;
+    align-items: center;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    /* justify-items: flex-start; */
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .splash,
+  .splash-override,
+  .splash-stagnant,
+  .cellpond-splash {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    /* text-shadow: black 1px 1px 0px, black -1px -1px 0px, black 1px -1px 0px,
+      black -1px 1px 0px; */
+    /* font-weight: bold; */
+  }
+
+  .cellpond-splash {
+    color: black;
+    text-shadow: white 0.5px 0.5px 0px, white -0.5px -0.5px 0px,
+      white 0.5px -0.5px 0px, white -0.5px 0.5px 0px;
+  }
+</style>
+<script type="module">
+  const splashSpans = document.querySelectorAll(".splash");
+  const splashOverrideSpans = document.querySelectorAll(".splash-override");
+
+  function getHexFromSplash(splash) {
+    const splashChannels = splash.toString().trim().padStart(3, "0").split("");
+    const rgbChannels = splashChannels.map((v) => Math.floor((v / 9) * 255));
+    const hexChannels = rgbChannels.map((v) => v.toString(16).padStart(2, "0"));
+    return "#" + hexChannels.join("");
+  }
+
+  function applySplashToElement({ element, splash, theme }) {
+    const hex =
+      theme === "cellpond"
+        ? getCellpondHexFromSplash(splash)
+        : getHexFromSplash(splash);
+    element.style.backgroundColor = hex;
+    if (hex === "#000000") {
+      element.style.outline = "1px solid white";
+    } else {
+      element.style.outline = "none";
+    }
+  }
+
+  const cellpondSpans = document.querySelectorAll(".cellpond-splash");
+
+  splashSpans.forEach((span) => {
+    applySplashToElement({ element: span, splash: span.textContent });
+  });
+
+  splashOverrideSpans.forEach((span) => {
+    applySplashToElement({
+      element: span,
+      splash: span.getAttribute("value"),
+    });
+  });
+
+  // const library = document.querySelector(".library");
+
+  // for (let i = 0; i < 1000; i++) {
+  //   const span = document.createElement("span");
+  //   span.textContent = i.toString().padStart(3, "0");
+  //   span.classList.add("splash");
+  //   span.classList.add("library-entry");
+  //   applySplashToElement({ element: span, splash: i });
+  //   library.appendChild(span);
+  // }
+
+  const numberInput = document.querySelector("#number-input");
+  const numberTarget = document.querySelector("#number-target");
+  const numberShuffle = document.querySelector("#number-shuffle");
+
+  const themeToggle = document.querySelector("#theme-checkbox");
+
+  const redRange = document.querySelector("#red-range");
+  const greenRange = document.querySelector("#green-range");
+  const blueRange = document.querySelector("#blue-range");
+
+  const splashOutput = document.querySelector("#splash-output");
+  const hexOutput = document.querySelector("#hex-output");
+  const rgbOutput = document.querySelector("#rgb-output");
+
+  function updatePreview() {
+    const value = parseInt(numberInput.value, 10);
+    applySplashToElement({
+      element: numberTarget,
+      splash: value,
+      theme: themeToggle.checked ? "cellpond" : undefined,
+    });
+    if (themeToggle.checked) {
+      numberTarget.classList.add("cellpond-splash");
+    } else {
+      numberTarget.classList.remove("cellpond-splash");
+    }
+    numberTarget.textContent = value.toString().padStart(3, "0");
+    updateSelects();
+    updateRanges();
+    hexOutput.textContent = themeToggle.checked
+      ? getCellpondHexFromSplash(value)
+      : getHexFromSplash(value);
+
+    splashOutput.textContent = value.toString().padStart(3, "0");
+    rgbOutput.textContent = hexToRgb(hexOutput.textContent);
+
+    const splashRange = document.querySelector("#splash-range");
+    splashRange.value = value;
+  }
+
+  function updateFromRanges() {
+    const red = parseInt(redRange.value, 10);
+    const green = parseInt(greenRange.value, 10);
+    const blue = parseInt(blueRange.value, 10);
+    const value = red * 100 + green * 10 + blue;
+    numberInput.value = value;
+    updatePreview();
+  }
+
+  // redRange.addEventListener("input", updateFromRanges);
+  // greenRange.addEventListener("input", updateFromRanges);
+  // blueRange.addEventListener("input", updateFromRanges);
+
+  function updateRanges() {
+    const value = parseInt(numberInput.value, 10);
+    const valueString = value.toString().padStart(3, "0");
+    redRange.value = valueString[0];
+    greenRange.value = valueString[1];
+    blueRange.value = valueString[2];
+  }
+
+  // themeToggle.addEventListener("input", updatePreview);
+
+  // numberInput.addEventListener("input", (e) => {
+  //   const value = parseInt(numberInput.value, 10);
+  //   // numberTarget.textContent = value.toString().padStart(3, "0");
+  //   updatePreview();
+  // });
+
+  // numberShuffle.addEventListener("click", (e) => {
+  //   const value = Math.floor(Math.random() * 1000);
+  //   numberInput.value = value;
+  //   updatePreview();
+  // });
+
+  const selectRed = document.querySelector("#splash-select-red");
+  const selectGreen = document.querySelector("#splash-select-green");
+  const selectBlue = document.querySelector("#splash-select-blue");
+
+  function updateFromSelects() {
+    const red = parseInt(selectRed.value, 10);
+    const green = parseInt(selectGreen.value, 10);
+    const blue = parseInt(selectBlue.value, 10);
+    const value = red * 100 + green * 10 + blue;
+    numberInput.value = value;
+    updatePreview();
+  }
+
+  function updateSelects() {
+    const value = parseInt(numberInput.value, 10);
+    const valueString = value.toString().padStart(3, "0");
+    selectRed.value = valueString[0];
+    selectGreen.value = valueString[1];
+    selectBlue.value = valueString[2];
+  }
+
+  // selectRed.addEventListener("input", updateFromSelects);
+  // selectGreen.addEventListener("input", updateFromSelects);
+  // selectBlue.addEventListener("input", updateFromSelects);
+
+  const range = document.querySelector("#splash-range");
+
+  // range.addEventListener("input", (e) => {
+  //   numberInput.value = range.value;
+  //   updatePreview();
+  // });
+
+  const cellpondReds = [23, 55, 70, 98, 128, 159, 174, 204, 242, 255];
+  const cellpondGreens = [29, 67, 98, 128, 159, 174, 204, 222, 245, 255];
+  const cellpondBlues = [40, 70, 98, 128, 159, 174, 204, 222, 247, 255];
+
+  const cellpondHexRed = cellpondReds.map((red) => {
+    return red.toString(16).padStart(2, "0");
+  });
+
+  const cellpondHexGreen = cellpondGreens.map((green) => {
+    return green.toString(16).padStart(2, "0");
+  });
+
+  const cellpondHexBlue = cellpondBlues.map((blue) => {
+    return blue.toString(16).padStart(2, "0");
+  });
+
+  const cellpondValues = [cellpondHexRed, cellpondHexGreen, cellpondHexBlue];
+
+  // console.log("REDs", cellpondHexRed);
+  // console.log("GREENs", cellpondHexGreen);
+  // console.log("BLUEs", cellpondHexBlue);
+
+  function getCellpondHexFromSplash(splash) {
+    const splashChannels = splash.toString().padStart(3, "0").trim().split("");
+    // console.log(splashChannels);
+    const hexChannels = splashChannels.map((v, i) => {
+      return cellpondValues[i][v];
+    });
+
+    return "#" + hexChannels.join("");
+  }
+
+  cellpondSpans.forEach((span) => {
+    applySplashToElement({
+      element: span,
+      splash: span.textContent,
+      theme: "cellpond",
+    });
+  });
+
+  const copyButtonSplash = document.querySelector("#copy-button-splash");
+  const copyButton = document.querySelector("#copy-button");
+  const copyButtonRgb = document.querySelector("#copy-button-rgb");
+
+  let copiesSplash = 0;
+  // copyButtonSplash.addEventListener("click", (e) => {
+  //   const value = numberInput.value;
+  //   navigator.clipboard.writeText(value);
+  //   copiesSplash++;
+  //   copyButtonSplash.textContent = `Copied splash`;
+
+  //   if (copiesSplash > 1) {
+  //     copyButtonSplash.textContent += ` x${copiesSplash}`;
+  //   }
+  // });
+
+  let copies = 0;
+  // copyButton.addEventListener("click", (e) => {
+  //   const value = numberInput.value;
+  //   const hex = themeToggle.checked
+  //     ? getCellpondHexFromSplash(value)
+  //     : getHexFromSplash(value);
+  //   navigator.clipboard.writeText(hex);
+  //   copies++;
+  //   copyButton.textContent = `Copied hex`;
+
+  //   if (copies > 1) {
+  //     copyButton.textContent += ` x${copies}`;
+  //   }
+  // });
+
+  let copiesRgb = 0;
+  // copyButtonRgb.addEventListener("click", (e) => {
+  //   const value = numberInput.value;
+  //   const hex = themeToggle.checked
+  //     ? getCellpondHexFromSplash(value)
+  //     : getHexFromSplash(value);
+  //   const rgb = hexToRgb(hex);
+  //   navigator.clipboard.writeText(rgb);
+  //   copiesRgb++;
+  //   copyButtonRgb.textContent = `Copied RGB`;
+
+  //   if (copiesRgb > 1) {
+  //     copyButtonRgb.textContent += ` x${copiesRgb}`;
+  //   }
+  // });
+
+  function hexToRgb(hex) {
+    const hexChannels = hex.slice(1).match(/.{1,2}/g);
+    const rgbChannels = hexChannels.map((v) => parseInt(v, 16));
+    return `rgb(${rgbChannels.join(", ")})`;
+  }
+
+  // const SPLASH_TO_HEX = [];
+  // for (let i = 0; i < 1000; i++) {
+  //   SPLASH_TO_HEX[i] = getHexFromSplash(i);
+  // }
+  // window.SPLASH_TO_HEX = SPLASH_TO_HEX.map((v) => `"${v}"`).join(", ");
+
+  const main = document.querySelector("main");
+
+  let currentValue = parseInt(main.textContent);
+
+  addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") {
+      currentValue++;
+
+      if (currentValue > 999) {
+        currentValue = 0;
+      }
+
+      const paddedValue = currentValue.toString().padStart(3, "0");
+
+      main.textContent = paddedValue;
+      main.setAttribute("data-after", paddedValue);
+      main.setAttribute("data-before", paddedValue);
+    }
+    if (e.key === "ArrowLeft") {
+      currentValue--;
+
+      if (currentValue < 0) {
+        currentValue = 999;
+      }
+
+      const paddedValue = currentValue.toString().padStart(3, "0");
+
+      main.textContent = paddedValue;
+      main.setAttribute("data-after", paddedValue);
+      main.setAttribute("data-before", paddedValue);
+    }
+
+    // Refresh splash element bg colours
+    applySplashToElement({
+      element: main,
+      splash: currentValue,
+      // theme: themeToggle.checked ? "cellpond" : undefined,
+    });
+  });
+</script>
