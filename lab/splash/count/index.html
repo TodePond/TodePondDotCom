@@ -378,19 +378,15 @@
 
   let currentValue = parseInt(main.textContent);
 
+  addEventListener("pointerdown", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    bumpCount();
+  });
+
   addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") {
-      currentValue++;
-
-      if (currentValue > 999) {
-        currentValue = 0;
-      }
-
-      const paddedValue = currentValue.toString().padStart(3, "0");
-
-      main.textContent = paddedValue;
-      main.setAttribute("data-after", paddedValue);
-      main.setAttribute("data-before", paddedValue);
+      bumpCount();
     }
     if (e.key === "ArrowLeft") {
       currentValue--;
@@ -412,5 +408,32 @@
       splash: currentValue,
       // theme: themeToggle.checked ? "cellpond" : undefined,
     });
+
+    // Copy hex to clipboard
+    const hexOfCurrentValue = getHexFromSplash(currentValue);
+    navigator.clipboard.writeText(hexOfCurrentValue);
   });
+
+  function bumpCount() {
+    currentValue++;
+
+    if (currentValue > 999) {
+      currentValue = 0;
+    }
+
+    const paddedValue = currentValue.toString().padStart(3, "0");
+
+    main.textContent = paddedValue;
+    main.setAttribute("data-after", paddedValue);
+    main.setAttribute("data-before", paddedValue);
+
+    applySplashToElement({
+      element: main,
+      splash: currentValue,
+      // theme: themeToggle.checked ? "cellpond" : undefined,
+    });
+
+    const hexOfCurrentValue = getHexFromSplash(currentValue);
+    navigator.clipboard.writeText(hexOfCurrentValue);
+  }
 </script>
