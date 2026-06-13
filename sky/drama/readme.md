@@ -42,7 +42,7 @@ Bear in mind, the TAs are often the ones on the very front line, forming the clo
 
 I developed a very different approach to Kam. In my classroom, there was no drama, end of story. I half-joked to the TAs that it was a "drama free zone". I don't mind if we all hate each others' guts on the outside: When we walk in the door, we do our job: We do the best for the class. If people started telling me X or Y bad story about another TA, I'd say that's fine and all: You need to speak to Kam about it, but when you're in my classroom, we work together. 
 
-Of course, me and Kam were both in kahoots on this. We knew there was a need for both leadership styles. Sometimes you need to let it all out and TALK. Sometimes you need to [just] get on with it and *let the jam do the talking*.
+Of course, me and Kam were both in kahoots on this. We knew there was a need for both styles. Sometimes you need to let it all out and TALK. Sometimes you need to [just] get on with it and *let the jam do the talking*.
 
 Every day, we'd discuss how to place people best. Mrs X and Mr Y have been getting on each others' nerves a bit, should we split them up for a bit? Miss A has been complaining about Mx B a bit, could she go in your room, Lu? I think we need to address the tension between Mr C and Ms D: I'll have them down with me and we'll chat it out.
 
