@@ -10,7 +10,7 @@ We worked with some particularly challenging behaviour sometimes, so it was some
 
 That being said, it could get stressful and serious. If someone made a mistake, it could mean that someone gets hurt. And sometimes, different team members blamed each other.
 
-In a stressful high intensity environment, fingers can be pointed, patiences can run out, arguments can having, and people can fall out. 
+In a stressful high intensity environment, fingers can be pointed, patiences can run out, arguments can happen, and people can fall out. 
 
 <br>
 
