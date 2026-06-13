@@ -63,7 +63,7 @@ Of course... by turning this all into an anecdote-style blog post, I've lost all
 But some things stick with me: 
 
 - Having at least one rock-solid relationship within a team is a superpower. For me and Kam, it was a given, thanks to Kam.
-- Communicating a lot is very important and valuable. It's better to communicate too much than little.
+- Communicating a lot is very important and valuable. It's better to communicate too much than too little.
 - I think it's good to be predictable. People knew exactly where they stood with me. In my room, there was no drama. End of story. With Kam, they *knew* there would be a chat. They could count on both truths / universal constants.
 - Timing is everything. There's a time to chat. There's a time to shut up. Not everything is now now now now
 - There's more than one way to resolve drama. You only need one way that works for you
