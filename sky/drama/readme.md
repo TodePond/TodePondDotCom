@@ -32,7 +32,7 @@ Importantly, Kam knew how important it was to maintain good energy and relations
 
 Kam's approach was to tackle things head on (in true rugby player style). She'd monitor things from up close, and then when the moment's right, she'll grab a moment with someone and then chat it all through and listen listen listen until all was well. If there were two TAs upset with each other, she'd get them both in a room and no one would leave until it was resolved. 
 
-Bear in mind, the TAs are often the ones on the very front line, forming the closest relationships with the children, getting the majority of their admiration (and also their anger, at times). Being a teaching assistant is not any lesser or greater than being a teacher: It's a different role with a different responsibilities. I've been both and there are elements of both I like but I— I'm getting distracted. 
+Bear in mind, the TAs are often the ones on the very front line, forming the closest relationships with the children, getting the majority of their admiration (and also their anger, at times). Being a teaching assistant is not any lesser or greater than being a teacher: It's a different role with a different set of responsibilities. I've been both at different times of life and there are elements of both I like but I— I'm getting distracted. 
 
 <br>
 
