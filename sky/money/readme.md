@@ -24,7 +24,7 @@ In third place, I get money by begging people on the internet. The vast majority
 
 My money from begging has been declining because I've been neglecting it. Now that I'm back on it, it has stabilised.
 
-My goal for 2027 is to keep this the same amount as what I got in 2026.
+My short-term goal is to keep this stable.
 
 ## 4. Adverts
 
