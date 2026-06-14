@@ -46,10 +46,4 @@ and now I look back and see that I didn't know how lucky I was.
 
 <br>
 
----
-
-<br>
-
-Over time, I learnt how to get out of that tricky space between pressures from above and below, but that's a story for another day.
-
 back to the [wikiblogardenite](/wikiblogardenite)
