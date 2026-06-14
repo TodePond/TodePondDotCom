@@ -6,7 +6,7 @@ Back in 2023, I wrote up [how I get money](https://www.todepond.com/wikiblogarde
 
 The vast majority of my money comes from doing contracting for tech companies. This runs out in December. 
 
-In the future, I fear that contracting will reduce a bit if I'm not proactive on what to work on next. I do have a lot of people asking me to work with them, but for the moment I've decided to stay longer with Wikimedia. I hope those people don't forget about me.
+In the future, I fear that contracting will reduce a bit if I'm not proactive on what to work on next. I do have a lot of people asking me to work with them, but for the moment I've decided to stay longer with Wikimedia. I hope those other people don't forget about me.
 
 My goal for 2027 is to keep this the same amount as what I got in 2026.
 
@@ -62,7 +62,7 @@ Many youtube channels make a lot of money through brand deals: "Download NordVPN
 
 <br>
 
-It's taken a long long time to build up a "following" that cares about what I put out. I put in a lot of time to it. I don't see it as a balance between this and artistic integrity: For me, I enjoy using the internet and internet presence as an artistic device. My inspirations for this approach include Kusama and Warhol.
+It's taken a long long time to build up a "following" that cares about what I put out. I put in a lot of time to it. I don't see it as a balance between this and artistic integrity: For me, I enjoy using the internet and internet presence as an artistic device. My inspirations for this approach include Kusama and Warhol and Maywa Denki.
 
 I also enjoy the pace of releasing things on a very fast cadence. I know some people think that patreon and youtube's pressure to KEEP PUBLISHING is bad. But luckily for me... I'm all about *bad art*! and doing things without thinking too much about it. I think it's best to keep the artistic-output-cadence going. That way you keep it low-brow and, more importantly, you keep it slightly surreal.
 
