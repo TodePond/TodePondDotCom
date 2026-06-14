@@ -48,11 +48,11 @@ This source of money is not a priority for me, but I won't turn it down! I think
 
 Here are some things I *don't* get money from:
 
-## Merch
+### Merch
 
 I think I could get a lot of money from merch. I haven't done it yet because I haven't found time for it. It's important to me that I don't damage the reputation I have by selling crap merch. I have many ideas on how to do this right.
 
-## Brand deals
+### Brand deals
 
 Many youtube channels make a lot of money through brand deals: "Download NordVPN now!" etc etc.... but this doesn't work for me or my style. 
 
@@ -64,6 +64,6 @@ Many youtube channels make a lot of money through brand deals: "Download NordVPN
 
 It's taken a long long time to build up a "following" that cares about what I put out. I put in a lot of time to it. I don't see it as a balance between this and artistic integrity: For me, I enjoy using the internet and internet presence as an artistic device. My inspirations for this approach include Kusama and Warhol.
 
-I also enjoy the pace of releasing this on a very fast cadence. I know some people think that patreon and youtube's pressure to KEEP PUBLISHING is bad. But luckily for me... I'm all about *bad art*! and doing things without thinking too much about it. I think it's best to keep the artistic-output-cadence going. That way you keep it low-brow and, more importantly, you keep it slightly surreal.
+I also enjoy the pace of releasing things on a very fast cadence. I know some people think that patreon and youtube's pressure to KEEP PUBLISHING is bad. But luckily for me... I'm all about *bad art*! and doing things without thinking too much about it. I think it's best to keep the artistic-output-cadence going. That way you keep it low-brow and, more importantly, you keep it slightly surreal.
 
 back to the [wikiblogardenite](/wikiblogardenite)
