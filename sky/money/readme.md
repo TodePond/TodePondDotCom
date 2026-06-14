@@ -4,7 +4,7 @@ Back in 2023, I wrote up [how I get money](https://www.todepond.com/wikiblogarde
 
 ## 1. Contracting
 
-The vast majority of my money comes from doing contracting for tech companies. This runs out in November. 
+The vast majority of my money comes from doing contracting for tech companies. This runs out in December. 
 
 In the future, I fear that contracting will reduce a bit if I'm not proactive on what to work on next. I do have a lot of people asking me to work with them, but for the moment I've decided to stay longer with Wikimedia. I hope those people don't forget about me.
 
