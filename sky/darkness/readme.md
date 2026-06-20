@@ -4,7 +4,7 @@ Darkness has been a huge part of my videos since ...
 
 Yet people seem to often forget that, and I get introduced onstage / online as someone who makes "wholesome content" by people who say they watch a lot of my stuff
 
-i think there's a chance that some people don't look at what i make beyond the surface, only notice the forced fake "hello :) and welcome back :) to the sandpond saga :)" and then close the video before the twist(s), not realising it was always "hello :| and welcome back :| to the sandpond saga :|"
+i think there's a chance that some people don't look at what i make beyond the surface, only notice the forced fake "hello :) and welcome back :) to the sandpond saga :)" and then close the video before the twist(s), not realising it was always "hello :\| and welcome back :\| to the sandpond saga :\|"
 
 but i also reckon that there's an aspect of melancholy that *does* feel rather wholesome. it's comforting to sit in sadness / darkness / longing or whatever.
 
