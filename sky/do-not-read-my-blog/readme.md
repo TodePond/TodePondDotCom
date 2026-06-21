@@ -4,6 +4,8 @@
 
 <br>
 
+<br>
+
 Dear reader, 
 
 Please do not read my blog, or my posts on bluesky, and especially not my posts on mastodon. They are not for you.
@@ -98,7 +100,15 @@ todepond
 
 <br>
 
+<br><br>
+
 <br>
+
+<br>
+
+<br>
+
+
 
 <br>
 
