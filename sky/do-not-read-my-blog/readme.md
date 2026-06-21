@@ -1,9 +1,23 @@
+<br>
+
+<br>
+
+<br>
+
 Dear reader, 
 
 Please do not read my blog, or my posts on bluesky, and especially not my posts on mastodon. They are not for you.
 
-Yours sincerely, 
+Yours sincerely,\
 Todepond
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -23,7 +37,7 @@ I have recently noticed that you have recently been reading the things that I ha
 
 And besides, you cannot handle them. 
 
-Yours sincerely, 
+Yours sincerely,\
 Todepond 
 
 <br>
@@ -50,7 +64,7 @@ Dear reader,
 
 I am writing again to you to inform you again that you must not read the things that I write and put out there into the world. They are not for you. 
 
-With sincerity, 
+With sincerity,\
 Todepond
 
 <br>
@@ -75,7 +89,7 @@ Dear reader,
 
 It has come to my attention that you have not paid attention to my previous messages and have, with regret, you have with regret continued to read the things that I
 
-with hope and sincerity 
+with hope and sincerity\
 todepond
 
 <br>
@@ -96,7 +110,7 @@ Alas, I must recommend to you most promptly to [—] and cease all [—] immedia
 
 Of course, if you have any concerns or [—] then please feel free to
 
-yours sincerely, 
+yours sincerely,\
 Todepond
 
 <br>
@@ -163,7 +177,13 @@ yours sincerely
 
 <br>
 
+<br><br>
+
 <br>
+
+<br>
+
+
 
 <br>
 
@@ -183,7 +203,15 @@ They are not for you: Please do not read the things that I write: They are not f
 
 <br>
 
+<br><br>
+
 <br>
+
+<br>
+
+<br>
+
+
 
 <br>
 
@@ -198,5 +226,17 @@ Dear reader,
 <br>
 
 <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
 
 back to the wikiblogardenite 
