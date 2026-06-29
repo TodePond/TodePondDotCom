@@ -127,6 +127,11 @@ label {
   user-select: none;
 }
 
+a:focus-visible {
+  outline: 2px solid #46ff80;
+  outline-offset: 2px;
+}
+
 a:hover {
   color: black;
   background-color: #46ff80;
