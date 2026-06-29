@@ -11,6 +11,7 @@
 <style>
   body {
     /* background-color: var(--shade-3); */
+    max-width: 800px;
   }
 
   a.secondary {
@@ -143,6 +144,54 @@
   }
 </style>
 
+<nav
+  style="
+    display: flex;
+    flex-direction: row;
+    gap: 0px 8px;
+    width: 100%;
+    flex-wrap: wrap;
+  "
+>
+  <li>
+    <a class="button primary" href="portfolio/">PORTFOLIO</a>
+  </li>
+
+  <li>
+    <a class="button secondary" href="/talk">TALKS</a>
+  </li>
+  <li>
+    <a class="button secondary" href="https://www.youtube.com/@TodePond"
+      >VIDEOS</a
+    >
+    <!-- (weekly) -->
+  </li>
+  <!-- <br /> -->
+  <!-- <li>
+    <a class="button secondary" href="pondcast/">PODCAST: Todepond pondcast</a>
+    (sporadically)
+  </li> -->
+  <li>
+    <a class="button secondary" href="wikiblogardenite/">BLOG</a>
+    <!-- (often) -->
+  </li>
+  <!-- <li>
+    <a class="button secondary" href="lab/">LAB: Slippy experiments</a>
+  </li> -->
+  <li>
+    <a class="button secondary" href="https://todepond.bandcamp.com">MUSIC</a>
+  </li>
+  <span class="desktop" style="flex: 1"></span>
+  <li>
+    <a
+      class="button warning"
+      style="justify-self: flex-end"
+      href="https://patreon.com/TodePond"
+      >SUPPORT ME</a
+    >
+  </li>
+</nav>
+
 <h1 id="todepond---place-for-todes">
   TODEPOND<span class="desktop"> DOT COM</span>
 </h1>
@@ -161,7 +210,7 @@
     <p style="margin-top: 0px">
       My name is Lu.<br />I make surreal
       <a href="https://youtube.com/@TodePond">videos</a>,
-      <a href="#talks">talks</a>, <a href="/portfolio">tools</a> and
+      <a href="/talk">talks</a>, <a href="/portfolio">tools</a> and
       <a href="#gigs">music</a>.<br /><br />
       <span
         >I'm currently a prototyper at
@@ -229,38 +278,7 @@
   </section>
 </header>
 
-<h2 id="my-stuff">My stuff</h2>
-
-<ul>
-  <li>
-    <a class="button primary" href="portfolio/">PORTFOLIO</a>
-  </li>
-
-  <li>
-    <a class="button secondary" href="https://www.youtube.com/@TodePond"
-      >VIDEOS: Sandpond saga</a
-    ><br class="mobile" />
-    (weekly)<br />
-  </li>
-  <!-- <li>
-    <a class="button primary" href="#talks">TALKS</a>
-    <br />
-  </li> -->
-  <!-- <br /> -->
-  <!-- <li>
-    <a class="button secondary" href="pondcast/">PODCAST: Todepond pondcast</a>
-    (sporadically)
-  </li> -->
-  <li>
-    <a class="button secondary" href="wikiblogardenite/"
-      >BLOG: Wikiblogardenite</a
-    ><br class="mobile" />
-    (often)
-  </li>
-  <!-- <li>
-    <a class="button secondary" href="lab/">LAB: Slippy experiments</a>
-  </li> -->
-</ul>
+<!-- <h2 id="my-stuff">My stuff</h2> -->
 
 <h2 id="talks">Talks</h2>
 
@@ -689,22 +707,34 @@
     // });
   });
 
+  const BASE_SPEED = 30;
+
   function bubbleCursor({ x, y }) {
     const size = 5 + Math.random() * 20;
     bubbles.push({
       x: x * devicePixelRatio,
       y: y * devicePixelRatio,
       size,
-      speed: 50 + Math.random() * 50,
+      speed: BASE_SPEED + Math.random() * BASE_SPEED,
     });
   }
 
   const pointer = {
     down: false,
-    position: [0, 0],
+    /** @type {null | [number, number]} */
+    position: null,
+    displacement: [0, 0],
+    distance: 0,
   };
 
   addEventListener("pointermove", (event) => {
+    pointer.displacement = pointer.position
+      ? [
+          event.clientX - pointer.position[0],
+          event.clientY - pointer.position[1],
+        ]
+      : [0, 0];
+    pointer.distance = Math.hypot(...pointer.displacement);
     if (Math.random() > 0.85) {
       bubbleCursor({ x: event.clientX, y: event.clientY });
     }
@@ -747,7 +777,7 @@
         x: Math.random() * canvas.width,
         y: canvas.height + height,
         size,
-        speed: 50 + Math.random() * 50,
+        speed: BASE_SPEED + Math.random() * BASE_SPEED,
         rotation: Math.random() * Math.PI * 2,
         rotationSpeed: (Math.random() - 0.5) * 0.2,
       });
