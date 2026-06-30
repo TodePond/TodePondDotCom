@@ -14,6 +14,13 @@
     max-width: 800px;
   }
 
+  @media (max-width: 880px) {
+    body {
+      padding-top: 6px;
+      max-width: 100%;
+    }
+  }
+
   a.secondary {
     /* color: rgb(100, 158, 255); */
   }
@@ -42,14 +49,30 @@
     display: inline;
   }
 
+  .desktop-flex {
+    display: none;
+  }
+
+  .mobile-flex {
+    display: flex;
+  }
+
   @media (min-width: 620px) {
     .desktop {
       display: inline;
+    }
+
+    .desktop-flex {
+      display: flex;
     }
   }
 
   @media (min-width: 620px) {
     .mobile {
+      display: none;
+    }
+
+    .mobile-flex {
       display: none;
     }
   }
@@ -148,7 +171,7 @@
   style="
     display: flex;
     flex-direction: row;
-    gap: 0px 8px;
+    gap: 0px 6px;
     width: 100%;
     flex-wrap: wrap;
   "
@@ -156,11 +179,10 @@
   <li>
     <a class="button primary" href="portfolio/">PORTFOLIO</a>
   </li>
-
-  <li>
+  <li class="">
     <a class="button secondary" href="/talk">TALKS</a>
   </li>
-  <li>
+  <li class="">
     <a class="button secondary" href="https://www.youtube.com/@TodePond"
       >VIDEOS</a
     >
@@ -171,24 +193,57 @@
     <a class="button secondary" href="pondcast/">PODCAST: Todepond pondcast</a>
     (sporadically)
   </li> -->
-  <li>
+  <li class="">
     <a class="button secondary" href="wikiblogardenite/">BLOG</a>
     <!-- (often) -->
   </li>
   <!-- <li>
     <a class="button secondary" href="lab/">LAB: Slippy experiments</a>
   </li> -->
-  <li>
-    <a class="button secondary" href="https://todepond.bandcamp.com">MUSIC</a>
-  </li>
+  <!-- <li> -->
+  <!-- <a class="button secondary" href="https://todepond.bandcamp.com">MUSIC</a> -->
+  <!-- </li> -->
   <span class="desktop" style="flex: 1"></span>
-  <li>
+  <li class="desktop">
     <a
       class="button warning"
       style="justify-self: flex-end"
       href="https://patreon.com/TodePond"
-      >SUPPORT ME</a
+      data-goatcounter-click="SUPPORT ME (desktop)"
+      >SUPPORT<span class="desktop"> ME</span></a
     >
+  </li>
+  <li class="mobile">
+    <a
+      class="button secondary"
+      style="justify-self: flex-end"
+      href="https://patreon.com/TodePond"
+      data-goatcounter-click="SUPPORT ME (mobile)"
+      >SUPPORT<span class=""> ME</span></a
+    >
+  </li>
+</nav>
+
+<nav
+  class="mobile-flex"
+  style="
+    display: none;
+    flex-direction: row;
+    gap: 0px 6px;
+    width: 100%;
+    flex-wrap: wrap;
+  "
+>
+  <li>
+    <a class="button secondary" href="/talk">TALKS</a>
+  </li>
+  <li>
+    <a class="button secondary" href="https://www.youtube.com/@TodePond"
+      >VIDEOS</a
+    >
+  </li>
+  <li>
+    <a class="button secondary" href="wikiblogardenite/">BLOG</a>
   </li>
 </nav>
 
@@ -211,7 +266,7 @@
       My name is Lu.<br />I make surreal
       <a href="https://youtube.com/@TodePond">videos</a>,
       <a href="/talk">talks</a>, <a href="/portfolio">tools</a> and
-      <a href="#gigs">music</a>.<br /><br />
+      <a href="#gigs">performances</a>.<br /><br />
       <span
         >I'm currently a prototyper at
         <a class="secondary" href="https://www.wikipedia.org/">wikipedia</a
@@ -227,10 +282,9 @@
           <a class="secondary" href="https://www.inkandswitch.com/"
             >ink and switch</a
           >) </span
-        ><br /><br />My next availability for contract work is December.<br />I'm
-        now taking paid bookings for keynotes in 2027.<br /><a
-          class="secondary"
-          href="mailto:lu@todepond.com"
+        ><br /><br />My next availability for contract work is December.
+        <br class="desktop" />I'm now taking paid bookings for keynotes in
+        2027.<br /><a class="secondary" href="mailto:lu@todepond.com"
           >lu@todepond.com</a
         ></span
       >
