@@ -37,7 +37,7 @@ https://pastaverse.codeberg.page/snipplets/
 
 i really need to go and add my own and clean up some :) a lot of them were made up on the spot as we wrote them, and that feels like part of the tradition as a workshop runner
 
-i wrote about 60 snipplets last time and my partner, who hasn't done strudel before, helped to write loads too. it was quite a nice activity to do together for some reason, both last night and in Linz. it got us in the right headspace I think: it got us to slow down and think about what we were doing / what we were gonna ask people to do / what it means to automate / what it means to not / knowing that these snipplets might get broken or lost / but we let code die / you must let go / forget everything you know / and make space / because life is a jam / and we're in it / so shave your head / it's pastagang time
+i wrote about 60 snipplets last night and my partner, who hasn't done strudel before, helped to write loads too. it was quite a nice activity to do together for some reason, both last night and in Linz. it got us in the right headspace I think: it got us to slow down and think about what we were doing / what we were gonna ask people to do / what it means to automate / what it means to not / knowing that these snipplets might get broken or lost / but we let code die / you must let go / forget everything you know / and make space / because life is a jam / and we're in it / so shave your head / it's pastagang time
 
 <br>
 
