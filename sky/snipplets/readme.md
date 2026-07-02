@@ -4,7 +4,7 @@
 
 ![snipplets in boxes](../dbe9f87d356c2dd9.jpg)
 
-for those who don't know, this is a new approach to running a pastagang + strudel workshop called "snipplets". it's been used in a couple of workshops now. it was developed by pastagang for their workshop at AMRO festival in Linz
+for those who don't know, this is a new approach to running a pastagang + strudel workshop called "snipplets". it's been used in a couple of workshops now. it was developed by pastagang for their workshop at AMRO festival in Linz\
 https://radical-openness.org/en/programm/2026/jamming-and-pastagang
 
 it contrasts greatly with "normal" strudel workshops. normal strudel workshops teach you strudel by going through strudels mechanics one by one in a classic lesson style, often with lots of examples to try out. eg: "this example demonstrates the X feature..."
@@ -29,9 +29,10 @@ another dynamic i'd add is that the snipplets are *hand-written* which is kinda 
 
 it *also* means there's a real sense of care involved. the mundane act of writing them all out is slow and long and mind-numbing. the bad handwriting you see on the cards is an indication of the large human effort behind them: the bad handwriting makes it feel very human. the bad handwriting also means the whole thing is very prone to mistakes. maybe you can't read it properly, maybe someone made a mistake while writing it down or writing it in, so it forces you to ask other people to take a look and help you fix it: it gets you talking because it's not your fault that it's wrong, it's pastagang's fault. it's supposed to be hard and silly so there's less pressure involved full-stop
 
-it was really cool to see how some of our workshop attendees came to perform with us during our performance in Linz too. we were the closing performance of the entire festival, and i think it's really cool that some first-timers performed as the final closing act of it all :)
+it was really cool to see how some of our workshop attendees came to perform with us during our performance in Linz too. we were the closing performance of the entire festival, and i think it's really cool that some first-timers performed as the final closing act of it all :)\
+https://radical-openness.org/en/programm/2026/you-must-delete
 
-it was also really cool to see one of our workshop attendees go on to create an online snipplets website that gives you three random snipplets.
+it was also really cool to see one of our workshop attendees go on to create an online snipplets website that gives you three random snipplets.\
 https://pastaverse.codeberg.page/snipplets/
 
 i really need to go and add my own and clean up some :) a lot of them were made up on the spot as we wrote them, and that feels like part of the tradition as a workshop runner
