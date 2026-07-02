@@ -1,8 +1,8 @@
 # Snipplets
 
-![a snipplet]()
+![a snipplet](../aec0ecf227f2dfcb.jpg)
 
-![snipplets in boxes]()
+![snipplets in boxes](../dbe9f87d356c2dd9.jpg)
 
 for those who don't know, this is a new approach to running a pastagang + strudel workshop called "snipplets". it's been used in a couple of workshops now. it was developed by pastagang for their workshop at AMRO festival in Linz
 https://radical-openness.org/en/programm/2026/jamming-and-pastagang
