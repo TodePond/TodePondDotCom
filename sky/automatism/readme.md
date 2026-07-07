@@ -1,6 +1,6 @@
 # Surrealist automatism
 
-i try very very hard to make the creative things i do based on feeling and gut and "automatism". i try to think about— when I'm creating something, like some music or i'm editing a film, or i'm painting a picture, or writing a blog post, or whatever... when i'm doing something like that, i try very hard to stop all my thinking and to act "automatically" based purely on feeling. this is something called [surrealist automatism](https://www.metmuseum.org/exhibitions/surrealism-beyond-borders/visiting-guide#Automatism) and it helps you to be more SURREAL and UNFILTERED and VULNERABLE.
+i try very very hard to make the creative things i do based on feeling and gut and "automatism". i try to think about— when I'm creating something, like some music or i'm editing a film, or i'm painting a picture, or writing a blog post, or whatever... when i'm doing something like that, i try very hard to stop all my thinking and to act "automatically" based purely on feeling. this is something called [surrealist automatism](https://www.metmuseum.org/exhibitions/surrealism-beyond-borders/visiting-guide#Automatism) and it helps you to be more REAL (surreal) and UNFILTERED and VULNERABLE.
 
 from the exhibition, [Surrealism Beyond Borders](https://www.metmuseum.org/exhibitions/surrealism-beyond-borders):
 
