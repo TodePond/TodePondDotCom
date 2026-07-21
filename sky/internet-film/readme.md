@@ -28,7 +28,7 @@ i used to get obsessed with channels / creators where the person had made hundre
 
 internet films feel voyeuristic to me. you get to peer into someone's life / bedroom / habits - something that was previously— you couldn't do this before youtube. love it or hate it, the world opened up with youtube, for better and worse, at least for a little bit, until it all returned to corpo-eyeball-sludge, for the most part. 
 
-i think you should make films and put them on the internet. i don't think you should wait for someone else to make a film about you or your story. it'll either never happen or they'll do it wrong. tell your story... show us your life... with film
+i think you should make films and put them on the internet. i don't think you should wait for someone else to do it for you / make a film about you or your story. it'll either never happen or they'll do it wrong. tell your story... show us your life... make a film.
 
 <br>
 
