@@ -26,7 +26,7 @@ there's something about— when you watch a tutorial made by someone, recorded i
 
 i used to get obsessed with channels / creators where the person had made hundreds and hundreds and hundreds of videos but all of them had almost no views at all. and i couldn't help but wonder... what keeps them going? there's clearly something— do they just love it *that* much? are they hoping that... one day... they'll get their big break: they'll go viral and it'll all have been worth it? 
 
-internet films fell voyeuristic to me. you get to peer into someone's life / bedroom / habits - something that was previously— you couldn't do this before youtube. love it or hate it, the world opened up with youtube, for better and worse, at least for a little bit, until it all returned to corpo-eyeball-sludge, for the most part. 
+internet films feel voyeuristic to me. you get to peer into someone's life / bedroom / habits - something that was previously— you couldn't do this before youtube. love it or hate it, the world opened up with youtube, for better and worse, at least for a little bit, until it all returned to corpo-eyeball-sludge, for the most part. 
 
 i think you should make films and put them on the internet. i don't think you should make for someone else to make a film about you or your story. it'll either never happen or they'll do it wrong. tell your story... show us your life... with film
 
