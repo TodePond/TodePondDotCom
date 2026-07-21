@@ -1,4 +1,4 @@
-# Internet film making
+# Film making
 
 i think it's pretty wild that you can pick up a camera, do some recording, and edit it together into a film. 
 
