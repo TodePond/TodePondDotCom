@@ -1,3 +1,6 @@
+# The place to be in 2026
+
+
 i don't post much about my work at wikimedia but i do work at wikimedia 3 days a week
 
 i'm in the design team. i'm a prototyper.
