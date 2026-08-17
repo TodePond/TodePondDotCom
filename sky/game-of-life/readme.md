@@ -46,4 +46,4 @@ Sometimes people send me examples of Game of Life examples from out in the wild,
 
 <br>
 
-Listen, I don't give a [—] about your [—] Game of Life clone. You don't know or appreciate the history of this thing. You create this.. this lifeless imitation of a story you don't understand by ripping out its mouth and lungs. You want the blood but not the heart. You want to wash yourself with it because you see it and think "art". You've emptied it out. You need to search yourself for something that *really* gets you feeling—
+Listen, I don't give a [—] about your [—] Game of Life clone. You don't know or appreciate the history of this thing. You create this.. this lifeless imitation of a story you don't understand by ripping out its mouth and lungs. You want the blood but not the heart. You want to wash yourself with it because you see it and think "art". You've emptied it out. You need to search yourself for something that *really*— *oh berd*— *you need to make something [new](https://youtu.be/WMJ1H3Ai-qs)*
