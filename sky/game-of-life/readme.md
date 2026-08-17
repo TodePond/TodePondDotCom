@@ -36,7 +36,7 @@ Fast forward to the present. Game of Life is one of the more popular beginner cr
 
 Sometimes people send me examples of Game of Life examples from out in the wild, like..
 
-"Hey Lu check out this Game of Life someone made but it runs really fast"
+"Hey Lu check out this Game of Life someone made it runs really fast"
 
 "Hey Lu check out this Game of Life someone made by prompting ChatGPT" (back in 2022 or something)
 
