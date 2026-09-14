@@ -169,6 +169,17 @@ ul > li {
   /* margin-left: 0px; */
 }
 
+a.white {
+  color: white;
+  text-decoration: none;
+}
+
+a.white:hover {
+  color: black;
+  background-color: white;
+  outline: 2px solid white;
+}
+
 a.secondary {
   color: #4699ff;
 }

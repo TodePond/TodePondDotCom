@@ -9,7 +9,7 @@ timelineItems.forEach((item, index) => {
   footer.style.order = index;
 });
 
-const loadedSort = localStorage.getItem("currentSort") ?? "oldest";
+const loadedSort = localStorage.getItem("currentSort") ?? "newest";
 let currentSort = "oldest";
 
 function updateSort(newSort) {
@@ -30,6 +30,8 @@ function updateSort(newSort) {
   }
 }
 
+updateSort(loadedSort);
+
 const urlQuery = new URLSearchParams(window.location.search);
 const sort = urlQuery.get("sort");
 if (sort) {
@@ -39,94 +41,3 @@ if (sort) {
 sortButton.addEventListener("click", () => {
   updateSort(currentSort === "oldest" ? "newest" : "oldest");
 });
-
-const items = [
-  {
-    title: "SandPond",
-    year: 2019,
-  },
-  {
-    title: "CellPond",
-    year: 2021,
-  },
-  {
-    title: "Sandspiel Studio",
-    year: 2022,
-  },
-  {
-    title: "ScreenPond",
-    year: 2022,
-  },
-  {
-    title: "tldraw Enhanced Presence",
-    year: 2022,
-  },
-  {
-    title: "DreamBerd",
-    year: 2022,
-  },
-  {
-    title: "Future of Coding",
-    year: "???",
-  },
-  {
-    title: "Arroost",
-    year: 2023,
-  },
-  {
-    title: "Tadi Web",
-    year: 2023,
-  },
-  {
-    title: "Make Real",
-    year: 2023,
-  },
-  {
-    title: "Torn Leaf",
-    year: 2024,
-  },
-  {
-    title: "Logiverse",
-    year: 2024,
-  },
-  {
-    title: "Autocomplete For Canvas",
-    year: 2024,
-  },
-  {
-    title: "Teach",
-    year: 2024,
-  },
-  {
-    title: "Pastagang",
-    year: 2024,
-  },
-  {
-    title: "Natural Code",
-    year: 2024,
-  },
-  {
-    title: "tldraw Computer",
-    year: 2024,
-  },
-  {
-    title: "Pondiverse",
-    year: 2025,
-  },
-  {
-    title: "Agent Starter Kit For tldraw",
-    year: 2025,
-  },
-  {
-    title: "Shader Starter Kit For tldraw",
-    year: 2025,
-  },
-  {
-    title: "Dogspinner",
-    year: 2025,
-  },
-  {
-    title: "Unannounced Fairy Feature For tldraw",
-    year: 2025,
-  },
-];
