@@ -34,11 +34,9 @@ we heard all about Gaulier... how the school breaks down your confidence and bui
 
 i remember one guy really well, who quit his job as a geography teacher, went to clown school and then never looked back. 
 
-one of the clowns we hung out with everyday went on to win Britain's Got Talent, believe it or not! Ziggo.
+one of the clowns we hung out with everyday went on to win Britain's Got Talent, believe it or not! (Ziggo)
 
 we all ended up performing on each others shows, like cameos. i remember Ziggo lifting up all our prop furniture during a cameo. "He does that when he's nervous", his clown collaborator told me.
-
-"He does what?"
 
 "He starts weight-lifting."
 
