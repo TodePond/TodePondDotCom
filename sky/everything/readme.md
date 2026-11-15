@@ -86,7 +86,7 @@ i think i feel most free and at home when I'm living that ed fringe lifestyle, w
 
 i don't think it's a sustainable way to live, but it's what i need at times: raving til sunrise in Tivissa, jamming outside the algorave toilet, doing an all-nighter at the algoriver.
 
-i hunt down like minded people wherever i travel. in some places i find them, in some places i don't. I'm pleased ive found so many though. I'm rich with the friends in my wallet! I'm even richer if you count all the people who disapprove of my naivety, or something or other they don't like about me. i know freedom when i see it / feel it. i had to back then, I've got it now. through my many careers and distractions, I'll keep coming back to the lessons i learned back then. 
+i hunt down like minded people wherever i travel. in some places i find them, in some places i don't. I'm pleased ive found so many though. I'm rich with the friends in my wallet! I'm even richer if you count all the people who disapprove of my naivety, or something or other they don't like about me. i know freedom when i see it / feel it. i had it back then, I've got it now. through my many careers and distractions, I'll keep coming back to the lessons i learned back then. 
 
 <br>
 
