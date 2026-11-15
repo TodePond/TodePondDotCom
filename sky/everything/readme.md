@@ -44,7 +44,7 @@ we all ended up performing on each others shows, like cameos. i remember Ziggo l
 
 ---
 
-Performing is quite nerve-wracking. The Ed fringe crowd is pretty brutal. if they don't like your shoe they'll just leave. most people are only in town for a few days so every minute counts for them. you're competing against the whole city, which just happens to contain the best performers in the entire world. it's pretty daunting.
+Performing is quite nerve-wracking. The Ed fringe crowd is pretty brutal. if they don't like your show they'll just leave. most people are only in town for a few days so every minute counts for them. you're competing against the whole city, which just happens to contain the best performers in the entire world. it's pretty daunting.
 
 some of our shows were massive successes: times when the audience was loving it, laughing along the whole time, getting involved. and also, some of our shows were massive flops. complete failures. the audience just didn't ever get it or click. when the mood in the room is flopped you can't really unflop it, it's gone, and it's painful, excruciatingly painful. fingers get pointed when this happens. with all our tiredness and stress, we'd argue in a mini group. also there was no director to call the shots - we were all in it together doing it collaboratively, so it was sometimes hard to resolve disagreements over direction. Still, we worked it all out and by the end of the month we got something we were really really proud of. funnily enough, we got onto a list of recommendations: "Things to take your kids to". Hooray! (we thoroughly removed all of the swearing, though maybe that's what they liked?)
 
