@@ -22,10 +22,10 @@ function updateSort(newSort) {
     item.style.order = index;
   });
   if (currentSort === "newest") {
-    sortButton.textContent = "↑ Newest first";
+    sortButton.textContent = "↓ Newest first";
     localStorage.setItem("currentSort", "newest");
   } else {
-    sortButton.textContent = "↓ Oldest first";
+    sortButton.textContent = "↑ Oldest first";
     localStorage.setItem("currentSort", "oldest");
   }
 }

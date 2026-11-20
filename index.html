@@ -8,10 +8,13 @@
 <link rel="shortcut icon" href="/favicon.png" />
 <meta property="og:image" content="/og.png" />
 <link rel="stylesheet" href="/style.css" />
+
+<link rel="stylesheet" href="/portfolio/style.css" />
 <style>
   body {
     /* background-color: var(--shade-3); */
     max-width: 800px;
+    padding-top: 30px;
   }
 
   @media (max-width: 880px) {
@@ -100,22 +103,8 @@
     }
   }
 
-  li {
-    list-style: none !important;
-  }
-
-  a {
-    /* text-decoration: none; */
-  }
-
-  h2 {
-    /* border-bottom: 1px solid var(--shade-3); */
-  }
-
-  ul {
-    /* no bullets */
-
-    padding-inline-start: 0px;
+  nav li {
+    list-style: none;
   }
 
   .headshot:hover {
@@ -138,42 +127,11 @@
     }
   }
 
-  li {
-    line-height: 1.2;
-  }
-
-  *:not(strong) {
-    /* font-weight: 500; */
-  }
   h2 {
     font-weight: 400;
   }
   h1 {
     font-weight: 400;
-  }
-  * {
-    line-height: 1.5;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-  }
-  a {
-    /* font-weight: 500; */
-    text-shadow: 1px 1px var(--shade-0);
-    /* background-color: var(--shade-3); */
-    /* background-tran: 0.5; */
-  }
-
-  a.button {
-    box-shadow: 1px 1px var(--shade-0);
-  }
-
-  a:hover {
-    text-shadow: none;
-  }
-
-  span,
-  p {
-    /* font-size: 1.2rem; */
   }
 </style>
 
@@ -189,12 +147,12 @@
   <li>
     <a class="button primary" href="portfolio/">PORTFOLIO</a>
   </li>
-  <li class="">
+  <!-- <li class="">
     <a class="button secondary" href="#talks">TALKS</a>
-  </li>
+  </li> -->
   <li class="">
     <a class="button secondary" href="https://www.youtube.com/@TodePond"
-      >VIDEOS</a
+      >YOUTUBE</a
     >
     <!-- (weekly) -->
   </li>
@@ -211,7 +169,9 @@
     <a class="button secondary" href="lab/">LAB: Slippy experiments</a>
   </li> -->
   <li>
-    <a class="button secondary" href="https://todepond.bandcamp.com">MUSIC</a>
+    <a class="button secondary" href="https://todepond.bandcamp.com"
+      >BANDCAMP</a
+    >
   </li>
   <span class="desktop" style="flex: 1"></span>
   <li class="desktop">
@@ -478,18 +438,23 @@
 
 <ul>
   <li>
-    <a class="danger" href="https://youtu.be/5-lOR4rcM5MVU7Iwtz"
-      >NEW ALGORAVE TECHNOLOGY</a
-    >
+    <a class="danger" href="https://youtu.be/g3balbPPdEs">EMERGENCY SLOT</a>
+    (new)
+  </li>
+  <li>
+    <a class="danger" href="https://youtu.be/Eq--y6adZP0">MAKE STUPID THINGS</a>
     (new)
   </li>
   <li>
     <a class="danger" href="https://youtu.be/4Cu0qEeesbA">INFINITY BPM</a>
-    (new)
   </li>
   <li>
     <a class="danger" href="https://youtu.be/7QA2mkVsv9I">PASS-BYER</a>
-    (new)
+  </li>
+  <li>
+    <a class="primary" href="https://youtu.be/5-lOR4rcM5MVU7Iwtz"
+      >NEW ALGORAVE TECHNOLOGY</a
+    >
   </li>
   <li>
     <a class="primary" href="https://youtu.be/4koy0nEb2Ow"
@@ -612,6 +577,10 @@
       href="https://todepond.bandcamp.com/album/a-complete-history"
       >A COMPLETE HISTORY</a
     >
+  </li>
+  <li>
+    <a class="danger" href="https://todepond.bandcamp.com/album/dream">DREAM</a>
+    (old)
   </li>
 </ul>
 <!-- as pastagang -->
