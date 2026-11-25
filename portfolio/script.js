@@ -10,7 +10,7 @@ timelineItems.forEach((item, index) => {
 });
 
 const loadedSort = localStorage.getItem("currentSort") ?? "newest";
-let currentSort = "oldest";
+let currentSort = "newest";
 
 function updateSort(newSort) {
   if (newSort === currentSort) {
