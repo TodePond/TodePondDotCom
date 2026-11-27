@@ -156,11 +156,15 @@
               <details class="account-dashboard">
                 <summary class="account-burger">Burger menu</summary>
                 <span class="account-actions">
+                  <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
+                  <button id="delete-account" class="danger">Delete account</button>
+                  <!-- new Change Password button -->
+                  <button id="change-password" class="secondary">Change Password</button>
                     <button id="mcplant">Eat McPlant</button>
                     <button onclick="location.href = '${PAGE_PATH}?logout';" class="">Switch account</button>
-                    <button id="delete-account" class="danger">Delete account</button>
+                    <button id="delete-account" class="danger">Delete account</butto
                 </span>
-        `;
+      `;
 
       const loginAutomatically =
         localStorage.getItem("labLoginAutoLogin") !== "false";
@@ -253,11 +257,58 @@
         if (!gif) return; // close button clicked
         handleUpdateStatus({ username, password, gif });
       });
+      
+      // Password changing
+      const changePasswordButton = document.querySelector("#change-password");
+      changePasswordButton.addEventListener("click", async () => {
+        const newPassword = prompt("Enter new password");
+        if (!newPassword) {
+          return;
+        }
+  
+  loadingFeed.style.display = "block";
+  try {
+    const changeResponse = await fetch(config.endpoints.delete, {
+      method: "POST",
+      body: JSON.stringify({ username, password }),
+    });
+    const changeJson = await changeResponse.json();
+    loadingFeed.style.display = "none";
+
+    // Very weird error handling
+    if (changeJson.error) {
+      alert(changeJson.error);
+    } else {
+      // Login with new password to update session
+      const logAgainResponse = await fetch(config.endpoints.login, {
+        method: "POST",
+        body: JSON.stringify({ username, newPassword }),
+      });
+      const logJson = await logAgainResponse.json();
+      
+      if (changeJson.error) {
+        alert(changeJson.error);
+      } else {
+        localStorage.setItem("labLoginUsername", username);
+        localStorage.setItem("labLoginPassword", newPassword);
+      }
+    }
+  } catch (error) {
+    console.error("Error during password change or login:", error);
+    alert("There was an error. Please try again.");
+    loadingFeed.style.display = "none";
+  }
+});
+
     }
 
     await pullUserStatuses();
     loadingFeed.style.display = "none";
   }
+
+  window.targetyo = () => {
+    document.body.classList.remove("untarget");
+  };
 
   async function handleUpdateStatus({ username, password, gif = null }) {
     const button = document.querySelector("#update-status");
@@ -865,7 +916,6 @@
   //   );
   // });
   // }
-
   function addUserActions({
     userActionsElement,
     username,
@@ -918,4 +968,4 @@
   window.targetyo = () => {
     document.body.classList.remove("untarget");
   };
-</script>
+      </script>
