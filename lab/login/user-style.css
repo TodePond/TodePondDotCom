@@ -342,3 +342,23 @@
   background-clip: text;
   color: transparent;
 }
+
+/* ======= */
+/* elouan */
+/* ======= */
+.name-elouan\@todepond\.com::after {
+    content: '😎 COOL';
+    border: 1px solid hsl(42.2, 100%, 63.7%);
+    color: hsl(42.2, 100%, 63.7%);
+    padding: 0.1em 0.2em;
+    margin: 0.35em;
+    font-size: 0.6em;
+    position: relative;
+    top: -0.25em;
+    font-weight: normal;
+}
+.name-elouan\@todepond\.com {
+    color: transparent;
+    background: linear-gradient(150deg, #7DB84F, #545454);
+    background-clip: text;
+}
